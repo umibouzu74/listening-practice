@@ -1,0 +1,95 @@
+{
+  "examType": "nyushi",
+  "id": "nyushi-fukuoka-2025",
+  "meta": {
+    "title": "福岡県公立高校入試",
+    "subtitle": "2025年度",
+    "year": 2025,
+    "prefecture": "fukuoka",
+    "icon": "🏫"
+  },
+  "sections": [
+    {
+      "id": "section1",
+      "title": "第1問",
+      "description": "対話を聞いて、質問に対する答えとして最も適切なものを選びなさい。",
+      "promptJa": "これから対話と質問を放送します。質問の答えとして最も適切なものを、ア〜エの中から一つ選び、記号で答えなさい。",
+      "playCount": "2回読み",
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "audio": "audio/nyushi/nyushi-fukuoka-2025/section1_q1.mp3",
+          "prompt": "What does Ken want to buy?",
+          "promptJa": "ケンは何を買いたいと言っていますか。",
+          "choices": [
+            { "label": "ア", "text": "A notebook." },
+            { "label": "イ", "text": "A pencil case." },
+            { "label": "ウ", "text": "A dictionary." },
+            { "label": "エ", "text": "An eraser." }
+          ],
+          "answer": "ウ",
+          "explanation": "ケンは「英語の辞書を買いたい」と言っています。選択肢ウが正解です。",
+          "script": "W: Hi, Ken. Are you going shopping today?\nM: Yes, I want to buy an English dictionary. My teacher said we'll need one for next week's class.\nW: Oh, I see. There's a good bookstore near the station.\nQuestion: What does Ken want to buy?"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "audio": "audio/nyushi/nyushi-fukuoka-2025/section1_q2.mp3",
+          "prompt": "Where will they meet?",
+          "promptJa": "2人はどこで待ち合わせをしますか。",
+          "choices": [
+            { "label": "ア", "text": "At the school gate." },
+            { "label": "イ", "text": "At the bus stop." },
+            { "label": "ウ", "text": "At the park." },
+            { "label": "エ", "text": "At the library." }
+          ],
+          "answer": "イ",
+          "explanation": "2人は「バス停で会おう」と約束しています。選択肢イが正解です。",
+          "script": "M: Let's go to the science museum together on Saturday.\nW: Sounds great! Where should we meet?\nM: How about the bus stop in front of the convenience store? We can take the number 5 bus from there.\nW: OK. Let's meet at 9 o'clock.\nQuestion: Where will they meet?"
+        }
+      ]
+    },
+    {
+      "id": "section2",
+      "title": "第2問",
+      "description": "英文を聞いて、質問に対する答えとして最も適切なものを選びなさい。",
+      "promptJa": "これから英文と質問を放送します。質問の答えとして最も適切なものを、ア〜エの中から一つ選び、記号で答えなさい。",
+      "playCount": "2回読み",
+      "questions": [
+        {
+          "id": "q3",
+          "number": 3,
+          "audio": "audio/nyushi/nyushi-fukuoka-2025/section2_q3.mp3",
+          "prompt": "How many students joined the volunteer activity?",
+          "promptJa": "ボランティア活動に参加した生徒は何人ですか。",
+          "choices": [
+            { "label": "ア", "text": "About 20 students." },
+            { "label": "イ", "text": "About 30 students." },
+            { "label": "ウ", "text": "About 40 students." },
+            { "label": "エ", "text": "About 50 students." }
+          ],
+          "answer": "ウ",
+          "explanation": "「約40人の生徒がボランティア活動に参加した」と述べられています。選択肢ウが正解です。",
+          "script": "Last Saturday, our school held a volunteer activity to clean the river near our town. About 40 students joined the activity. We picked up trash along the river for two hours. After that, we planted flowers by the riverbank. Everyone worked very hard, and the river looked much cleaner.\nQuestion: How many students joined the volunteer activity?"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "audio": "audio/nyushi/nyushi-fukuoka-2025/section2_q4.mp3",
+          "prompt": "What did Ms. Tanaka do when she visited Australia?",
+          "promptJa": "田中先生はオーストラリアを訪れたとき、何をしましたか。",
+          "choices": [
+            { "label": "ア", "text": "She studied at a university." },
+            { "label": "イ", "text": "She taught Japanese to children." },
+            { "label": "ウ", "text": "She worked at a restaurant." },
+            { "label": "エ", "text": "She visited famous museums." }
+          ],
+          "answer": "イ",
+          "explanation": "田中先生は「オーストラリアで子どもたちに日本語を教えた」と述べています。選択肢イが正解です。",
+          "script": "Today, I'd like to tell you about my experience in Australia. When I was a college student, I visited Australia for three weeks. During my stay, I taught Japanese to children at a local elementary school. They were very interested in Japanese culture, especially origami and calligraphy. This experience made me want to become an English teacher.\nQuestion: What did Ms. Tanaka do when she visited Australia?"
+        }
+      ]
+    }
+  ]
+}

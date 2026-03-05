@@ -1,0 +1,269 @@
+{
+  "examType": "kyotsu",
+  "id": "kyotsu-2025-honshi",
+  "meta": {
+    "title": "令和7年度 共通テスト",
+    "subtitle": "本試験",
+    "year": 2025,
+    "icon": "📝",
+    "totalTime": 30
+  },
+  "sections": [
+    {
+      "id": "section1",
+      "title": "第1問",
+      "description": "短い英文を聞き、最も適切な答えを選びなさい。",
+      "playCount": "1回読み",
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section1_q1.mp3",
+          "prompt": "What does the speaker say about the weather?",
+          "choices": [
+            { "label": "1", "text": "It will be sunny all day." },
+            { "label": "2", "text": "It will rain in the afternoon." },
+            { "label": "3", "text": "It will be cloudy in the morning." },
+            { "label": "4", "text": "It will snow tonight." }
+          ],
+          "answer": "2",
+          "explanation": "話者は「午後から雨が降るでしょう」と述べています。選択肢2が正解です。",
+          "script": "Good morning, everyone. Today's weather will start out clear, but expect rain in the afternoon. Don't forget your umbrella."
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section1_q2.mp3",
+          "prompt": "What time does the store close?",
+          "choices": [
+            { "label": "1", "text": "At 7:00 p.m." },
+            { "label": "2", "text": "At 8:00 p.m." },
+            { "label": "3", "text": "At 9:00 p.m." },
+            { "label": "4", "text": "At 10:00 p.m." }
+          ],
+          "answer": "3",
+          "explanation": "店員は「9時に閉店します」と言っています。選択肢3が正解です。",
+          "script": "Welcome to City Mart. Our store hours are from 10 a.m. to 9 p.m. We hope you enjoy your shopping."
+        }
+      ]
+    },
+    {
+      "id": "section2",
+      "title": "第2問",
+      "description": "対話を聞き、最も適切な答えを選びなさい。",
+      "playCount": "1回読み",
+      "questions": [
+        {
+          "id": "q3",
+          "number": 3,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section2_q3.mp3",
+          "prompt": "What will the man do next?",
+          "choices": [
+            { "label": "1", "text": "Go to the library." },
+            { "label": "2", "text": "Have lunch with the woman." },
+            { "label": "3", "text": "Attend a meeting." },
+            { "label": "4", "text": "Call his professor." }
+          ],
+          "answer": "1",
+          "explanation": "男性は「図書館に行ってレポートを仕上げる」と述べています。選択肢1が正解です。",
+          "script": "W: Hey, do you want to grab lunch together?\nM: Sorry, I can't. I need to go to the library to finish my report. It's due tomorrow.\nW: Oh, okay. Good luck with that."
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section2_q4.mp3",
+          "prompt": "Where is the woman going?",
+          "choices": [
+            { "label": "1", "text": "To the airport." },
+            { "label": "2", "text": "To the train station." },
+            { "label": "3", "text": "To the bus stop." },
+            { "label": "4", "text": "To the hotel." }
+          ],
+          "answer": "2",
+          "explanation": "女性は「駅まで送ってほしい」と頼んでいます。選択肢2が正解です。",
+          "script": "W: Could you give me a ride to the train station? My train leaves at 3.\nM: Sure, let me get my keys. We should leave now to avoid traffic."
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section2_q5.mp3",
+          "prompt": "How much will the man pay?",
+          "choices": [
+            { "label": "1", "text": "$15" },
+            { "label": "2", "text": "$20" },
+            { "label": "3", "text": "$25" },
+            { "label": "4", "text": "$30" }
+          ],
+          "answer": "2",
+          "explanation": "通常25ドルのところ、学生割引で20ドルになると説明されています。選択肢2が正解です。",
+          "script": "M: How much is the admission?\nW: It's usually $25, but with a student ID, you get a discount. It'll be $20.\nM: Great, here's my student ID."
+        }
+      ]
+    },
+    {
+      "id": "section3",
+      "title": "第3問",
+      "description": "対話を聞き、最も適切な答えを選びなさい。",
+      "playCount": "1回読み",
+      "questions": [
+        {
+          "id": "q6",
+          "number": 6,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section3_q6.mp3",
+          "prompt": "What is the woman's problem?",
+          "choices": [
+            { "label": "1", "text": "She lost her phone." },
+            { "label": "2", "text": "She missed her flight." },
+            { "label": "3", "text": "She forgot her password." }
+          ],
+          "answer": "3",
+          "explanation": "女性は「パスワードを忘れてログインできない」と言っています。選択肢3が正解です。",
+          "script": "M: What's wrong? You look frustrated.\nW: I can't log into my account. I forgot my password and the reset email isn't coming through.\nM: Have you checked your spam folder?"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section3_q7.mp3",
+          "prompt": "Why is the man late?",
+          "choices": [
+            { "label": "1", "text": "He overslept." },
+            { "label": "2", "text": "The bus was delayed." },
+            { "label": "3", "text": "He had a doctor's appointment." }
+          ],
+          "answer": "2",
+          "explanation": "男性は「バスが遅れた」と説明しています。選択肢2が正解です。",
+          "script": "W: You're 20 minutes late. What happened?\nM: I'm sorry. The bus was delayed because of an accident on Main Street.\nW: I see. Well, let's get started then."
+        }
+      ]
+    },
+    {
+      "id": "section4",
+      "title": "第4問",
+      "description": "話を聞き、図表と合わせて最も適切な答えを選びなさい。",
+      "playCount": "1回読み",
+      "questions": [
+        {
+          "id": "q8",
+          "number": 8,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section4_q8.mp3",
+          "prompt": "According to the graph, which month had the highest sales?",
+          "choices": [
+            { "label": "1", "text": "January" },
+            { "label": "2", "text": "March" },
+            { "label": "3", "text": "July" },
+            { "label": "4", "text": "December" }
+          ],
+          "answer": "4",
+          "explanation": "グラフと音声から12月の売上が最も高いことが分かります。選択肢4が正解です。",
+          "script": "Let me explain our sales figures for last year. As you can see in the graph, sales were steady in the first half of the year but rose sharply in December due to holiday shopping."
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section4_q9.mp3",
+          "prompt": "What does the speaker recommend?",
+          "choices": [
+            { "label": "1", "text": "Increasing the advertising budget." },
+            { "label": "2", "text": "Hiring more staff." },
+            { "label": "3", "text": "Expanding to a new location." },
+            { "label": "4", "text": "Reducing product prices." }
+          ],
+          "answer": "1",
+          "explanation": "話者は「広告予算を増やすべきだ」と提案しています。選択肢1が正解です。",
+          "script": "Based on these numbers, I believe we should increase our advertising budget, especially for online marketing. The data shows that our social media campaigns brought in the most customers last quarter."
+        }
+      ]
+    },
+    {
+      "id": "section5",
+      "title": "第5問",
+      "description": "講義を聞き、ワークシートを完成させながら答えなさい。",
+      "playCount": "2回読み",
+      "questions": [
+        {
+          "id": "q10",
+          "number": 10,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section5_q10.mp3",
+          "prompt": "What is the main topic of the lecture?",
+          "choices": [
+            { "label": "1", "text": "The history of renewable energy." },
+            { "label": "2", "text": "The impact of climate change on agriculture." },
+            { "label": "3", "text": "New developments in solar technology." },
+            { "label": "4", "text": "Government policies on energy conservation." }
+          ],
+          "answer": "3",
+          "explanation": "講義の主題は「太陽光技術の新しい発展」です。選択肢3が正解です。",
+          "script": "Today, I'd like to talk about some exciting new developments in solar technology. Over the past decade, the efficiency of solar panels has improved dramatically, and recent breakthroughs in materials science are pushing the boundaries even further."
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section5_q11.mp3",
+          "prompt": "According to the speaker, what has improved the most?",
+          "choices": [
+            { "label": "1", "text": "The cost of production." },
+            { "label": "2", "text": "The durability of panels." },
+            { "label": "3", "text": "The energy conversion rate." },
+            { "label": "4", "text": "The design of solar farms." }
+          ],
+          "answer": "3",
+          "explanation": "話者は「エネルギー変換率が最も向上した」と述べています。選択肢3が正解です。",
+          "script": "The most significant improvement has been in the energy conversion rate. Traditional silicon panels convert about 20% of sunlight into electricity, but new perovskite-based panels can achieve over 30% efficiency in laboratory conditions."
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section5_q12.mp3",
+          "prompt": "What challenge does the speaker mention?",
+          "choices": [
+            { "label": "1", "text": "Lack of government support." },
+            { "label": "2", "text": "Difficulty in mass production." },
+            { "label": "3", "text": "Limited storage capacity." },
+            { "label": "4", "text": "Public resistance to solar energy." }
+          ],
+          "answer": "2",
+          "explanation": "話者は「量産化の難しさ」を課題として挙げています。選択肢2が正解です。",
+          "script": "However, there are still challenges ahead. The biggest one is scaling up production. While these new panels work well in the lab, manufacturing them on a large scale at a reasonable cost remains difficult."
+        }
+      ]
+    },
+    {
+      "id": "section6",
+      "title": "第6問",
+      "description": "2人の議論を聞き、それぞれの意見を把握して答えなさい。",
+      "playCount": "2回読み",
+      "questions": [
+        {
+          "id": "q13",
+          "number": 13,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section6_q13.mp3",
+          "prompt": "What does Speaker A think about remote work?",
+          "choices": [
+            { "label": "1", "text": "It reduces productivity." },
+            { "label": "2", "text": "It improves work-life balance." },
+            { "label": "3", "text": "It should be limited to certain industries." },
+            { "label": "4", "text": "It is only suitable for senior employees." }
+          ],
+          "answer": "2",
+          "explanation": "話者Aは「リモートワークはワークライフバランスを改善する」と主張しています。選択肢2が正解です。",
+          "script": "Speaker A: I strongly believe that remote work improves work-life balance. People can save commuting time and spend more time with their families. Studies show that employees who work from home report higher job satisfaction.\nSpeaker B: While that may be true for some, I think there are downsides we need to consider."
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "audio": "audio/kyotsu/kyotsu-2025-honshi/section6_q14.mp3",
+          "prompt": "What is Speaker B's main concern?",
+          "choices": [
+            { "label": "1", "text": "The cost of setting up home offices." },
+            { "label": "2", "text": "The difficulty of team communication." },
+            { "label": "3", "text": "The lack of career advancement opportunities." },
+            { "label": "4", "text": "The risk of overworking at home." }
+          ],
+          "answer": "2",
+          "explanation": "話者Bは「チームのコミュニケーションが困難になる」ことを懸念しています。選択肢2が正解です。",
+          "script": "Speaker B: My main concern is that remote work makes team communication much harder. Quick discussions that would take two minutes in the office end up being long email chains. Creative collaboration suffers when people aren't in the same room.\nSpeaker A: I understand your point, but modern tools like video conferencing can address many of those issues."
+        }
+      ]
+    }
+  ]
+}
