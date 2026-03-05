@@ -10,14 +10,14 @@ function formatTime(seconds) {
   return `${m}:${s.toString().padStart(2, '0')}`;
 }
 
-export default function AudioPlayer({ src, disabled = false, accentColor, audioState, audioActions }) {
+export default function AudioPlayer({ src, disabled = false, accentColor, audio }) {
   const progressRef = useRef(null);
 
   const accent = accentColor || 'var(--color-accent)';
-  const { isPlaying, currentTime, duration, playbackRate, error } = audioState;
-  const { play, pause, seek, reset, setPlaybackRate } = audioActions;
-
-  const progress = duration > 0 ? (currentTime / duration) * 100 : 0;
+  const {
+    isPlaying, currentTime, duration, progress,
+    playbackRate, error, play, pause, seek, reset, setSpeed,
+  } = audio;
 
   const handleProgressClick = useCallback(
     (e) => {
@@ -32,8 +32,8 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audioS
   const cycleSpeed = useCallback(() => {
     const idx = SPEEDS.indexOf(playbackRate);
     const next = SPEEDS[(idx + 1) % SPEEDS.length];
-    setPlaybackRate(next);
-  }, [playbackRate, setPlaybackRate]);
+    setSpeed(next);
+  }, [playbackRate, setSpeed]);
 
   if (!src) {
     return (
