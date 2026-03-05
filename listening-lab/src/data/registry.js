@@ -2,7 +2,11 @@
 // data/{examType}/ 配下のJSONデータを集約管理する
 // 新しい試験データを追加する場合は examSets 配列に追加する
 
-const examSets = [];
+import kyotsu2025Honshi from "./kyotsu/2025-honshi.json";
+import eiken2q20251 from "./eiken/2q-2025-1.json";
+import nyushiFukuoka2025 from "./nyushi/fukuoka-2025.json";
+
+const examSets = [kyotsu2025Honshi, eiken2q20251, nyushiFukuoka2025];
 
 // examType ごとにグルーピングしたマップを構築
 function buildRegistry() {
