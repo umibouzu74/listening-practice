@@ -18,32 +18,43 @@ export default function PracticePage() {
   const { saveRecord } = useHistory();
 
   // Build questions list
-  const { questions, audioSrc } = useMemo(() => {
-    if (!examSet) return { questions: [], audioSrc: null };
+  const { questions, sectionAudio, sectionTitle } = useMemo(() => {
+    if (!examSet) return { questions: [], sectionAudio: null, sectionTitle: '' };
 
     let qs;
-    let src = null;
+    let secAudio = null;
+    let secTitle = '';
 
     if (sectionId === 'all') {
       qs = examSet.sections.flatMap((s) =>
         (s.questions || []).map((q) => ({ ...q, id: `${s.id}_${q.id}` }))
       );
+      secTitle = '全問通し演習';
     } else {
       const section = examSet.sections.find((s) => s.id === sectionId);
-      if (!section) return { questions: [], audioSrc: null };
+      if (!section) return { questions: [], sectionAudio: null, sectionTitle: '' };
       qs = section.questions || [];
-      src = section.audio || null;
+      secAudio = section.audio || null;
+      secTitle = section.title || '';
     }
 
-    // Use the first question's audio as default if no section-level audio
-    if (!src && qs.length > 0 && qs[0].audio) {
-      src = qs[0].audio;
-    }
-
-    return { questions: qs, audioSrc: src };
+    return { questions: qs, sectionAudio: secAudio, sectionTitle: secTitle };
   }, [examSet, sectionId]);
 
-  const audio = useAudioPlayer(audioSrc);
+  // Section-level audio player (only used when section has a single audio file)
+  const audio = useAudioPlayer(sectionAudio);
+
+  // Track which passageAudio labels have been shown (to avoid duplicates)
+  const passageAudioShown = useMemo(() => {
+    const seen = new Set();
+    return questions.map((q) => {
+      if (q.passageAudio && !seen.has(q.passageAudio)) {
+        seen.add(q.passageAudio);
+        return true;
+      }
+      return false;
+    });
+  }, [questions]);
 
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -105,20 +116,43 @@ export default function PracticePage() {
       />
 
       <div className={styles.content}>
-        {/* Audio player */}
-        {audioSrc && (
+        {/* Section title */}
+        {sectionTitle && (
+          <h2 className={styles.sectionTitle}>{examSet.meta.title} — {sectionTitle}</h2>
+        )}
+
+        {/* Section-level audio player (when section has a single audio) */}
+        {sectionAudio && (
           <div className={styles.audioSection}>
             <AudioPlayer
-              src={audioSrc}
+              src={sectionAudio}
               accentColor={accent}
               audio={audio}
             />
           </div>
         )}
 
+        {/* Progress indicator */}
+        {!submitted && (
+          <div className={styles.progressBar}>
+            <div className={styles.progressInfo}>
+              <span>{Object.keys(answers).length} / {questions.length} 回答済み</span>
+            </div>
+            <div className={styles.progressTrack}>
+              <div
+                className={styles.progressFill}
+                style={{
+                  width: `${(Object.keys(answers).length / questions.length) * 100}%`,
+                  background: accent,
+                }}
+              />
+            </div>
+          </div>
+        )}
+
         {/* Questions */}
         <div className={styles.questions}>
-          {questions.map((q) => (
+          {questions.map((q, i) => (
             <QuestionCard
               key={q.id}
               question={q}
@@ -126,6 +160,7 @@ export default function PracticePage() {
               showResult={submitted}
               onAnswer={(choice) => handleAnswer(q.id, choice)}
               accentColor={accent}
+              showPassageAudio={passageAudioShown[i]}
             />
           ))}
         </div>
@@ -139,7 +174,7 @@ export default function PracticePage() {
               onClick={handleSubmit}
               disabled={!allAnswered}
             >
-              解答する
+              解答する（{questions.length}問）
             </button>
           </div>
         )}

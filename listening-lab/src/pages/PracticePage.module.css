@@ -9,8 +9,38 @@
   padding: 1rem 1rem 0;
 }
 
+.sectionTitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.75rem;
+}
+
 .audioSection {
   margin-bottom: 1rem;
+}
+
+.progressBar {
+  margin-bottom: 1rem;
+}
+
+.progressInfo {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+}
+
+.progressTrack {
+  height: 3px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
 }
 
 .questions {

@@ -4,9 +4,10 @@
 
 import kyotsu2025Honshi from "./kyotsu/2025-honshi.json";
 import eiken2q20251 from "./eiken/2q-2025-1.json";
+import eikenPre120242 from "./eiken/pre1-2024-2.json";
 import nyushiFukuoka2025 from "./nyushi/fukuoka-2025.json";
 
-const examSets = [kyotsu2025Honshi, eiken2q20251, nyushiFukuoka2025];
+const examSets = [kyotsu2025Honshi, eiken2q20251, eikenPre120242, nyushiFukuoka2025];
 
 // examType ごとにグルーピングしたマップを構築
 function buildRegistry() {
