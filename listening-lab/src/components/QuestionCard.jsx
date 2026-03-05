@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import MiniAudioPlayer from './MiniAudioPlayer';
 import styles from './QuestionCard.module.css';
 
 export default function QuestionCard({
@@ -7,6 +8,7 @@ export default function QuestionCard({
   showResult,
   onAnswer,
   accentColor,
+  showPassageAudio,
 }) {
   const [showScript, setShowScript] = useState(false);
   const accent = accentColor || 'var(--color-accent)';
@@ -21,12 +23,33 @@ export default function QuestionCard({
         <span className={styles.badge} style={{ background: accent }}>
           Q{question.number}
         </span>
+        {question.passageLabel && (
+          <span className={styles.passageLabel}>{question.passageLabel}</span>
+        )}
         {question.playCount && (
           <span className={styles.playCount}>
             {question.playCount === 1 ? '1回再生' : `${question.playCount}回再生`}
           </span>
         )}
       </div>
+
+      {/* Passage audio (shown once per passage group) */}
+      {showPassageAudio && question.passageAudio && (
+        <MiniAudioPlayer
+          src={question.passageAudio}
+          label={question.passageLabel || 'Passage'}
+          accentColor={accent}
+        />
+      )}
+
+      {/* Question audio */}
+      {question.audio && (
+        <MiniAudioPlayer
+          src={question.audio}
+          label="Question"
+          accentColor={accent}
+        />
+      )}
 
       {/* Japanese prompt */}
       {question.promptJa && (

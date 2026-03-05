@@ -19,10 +19,14 @@ export default function ExamSetCard({ examSet, accentColor, onClick }) {
         {meta.subtitle && (
           <span className={styles.subtitle}>{meta.subtitle}</span>
         )}
+        {meta.description && (
+          <span className={styles.description}>{meta.description}</span>
+        )}
       </div>
       <div className={styles.footer}>
         <span className={styles.stat}>
           {sections.length}セクション・{totalQuestions}問
+          {meta.totalTime && ` ・ ${meta.totalTime}分`}
         </span>
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className={styles.arrow}>
           <path
