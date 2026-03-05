@@ -1,0 +1,65 @@
+.banner {
+  padding: 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid;
+  text-align: center;
+}
+
+.high {
+  background: rgba(46, 213, 115, 0.1);
+  border-color: rgba(46, 213, 115, 0.3);
+}
+
+.mid {
+  background: rgba(255, 165, 2, 0.1);
+  border-color: rgba(255, 165, 2, 0.3);
+}
+
+.low {
+  background: rgba(233, 69, 96, 0.1);
+  border-color: rgba(233, 69, 96, 0.3);
+}
+
+.scoreRow {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 16px;
+}
+
+.fraction {
+  font-family: var(--font-mono);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.correct {
+  color: var(--color-text-primary);
+}
+
+.separator {
+  color: var(--color-text-muted);
+  margin: 0 2px;
+}
+
+.total {
+  color: var(--color-text-secondary);
+}
+
+.percent {
+  font-family: var(--font-mono);
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.high .percent {
+  color: var(--color-correct);
+}
+
+.mid .percent {
+  color: var(--color-warning);
+}
+
+.low .percent {
+  color: var(--color-incorrect);
+}
