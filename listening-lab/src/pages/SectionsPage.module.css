@@ -1,0 +1,78 @@
+.page {
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 1rem 0;
+}
+
+.instructions {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 0.875rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 1.25rem;
+}
+
+.actionButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-card);
+  color: var(--color-text-primary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.actionButton:hover {
+  border-color: var(--color-border-hover);
+}
+
+.actionButtonPrimary {
+  composes: actionButton;
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.actionButtonPrimary:hover {
+  opacity: 0.9;
+}
+
+.phase2 {
+  composes: actionButton;
+  color: var(--color-text-muted);
+  font-size: 0.8rem;
+}
+
+.empty {
+  text-align: center;
+  color: var(--color-text-muted);
+  padding: 3rem 1rem;
+  font-size: 0.9rem;
+}
