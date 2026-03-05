@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import ExamSetCard from '../components/ExamSetCard';
-import { getExamType, getGradeLabel } from '../utils/examConfig';
+import { getExamType, getGradeLabel, getPrefectureLabel } from '../utils/examConfig';
 import { getExamSets } from '../data/registry';
 import styles from './ExamListPage.module.css';
 
@@ -32,6 +32,7 @@ function groupExamSets(sets, groupBy, sortOrder) {
     let label = String(key);
     if (groupBy === 'year') label = `${key}年度`;
     else if (groupBy === 'grade') label = getGradeLabel(key);
+    else if (groupBy === 'prefecture') label = getPrefectureLabel(key);
     return { key, label, items: grouped[key] };
   });
 }

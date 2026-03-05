@@ -20,9 +20,7 @@ export default function SectionListItem({ section, accentColor, onClick }) {
           {section.playCount && (
             <>
               <span className={styles.dot}>·</span>
-              <span className={styles.stat}>
-                {section.playCount === 1 ? '1回再生' : `${section.playCount}回再生`}
-              </span>
+              <span className={styles.stat}>{section.playCount}</span>
             </>
           )}
         </div>

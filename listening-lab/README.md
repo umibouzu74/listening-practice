@@ -1,16 +1,58 @@
-# React + Vite
+# Listening Lab
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+英語リスニング演習アプリ（共通テスト・英検・TOEIC・高校入試・オリジナル教材対応）
 
-Currently, two official plugins are available:
+## 開発
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## デプロイ
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm run build
+npm run deploy
+```
 
-## Expanding the ESLint configuration
+## 音声ファイルの追加
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+`public/audio/{examType}/{examId}/` に MP3 ファイルを配置
+
+## 問題データの追加
+
+1. `src/data/{examType}/{examId}.json` を作成（統一フォーマットに従う）
+2. `src/data/registry.js` にインポートを追加
+
+## 統一JSONフォーマット
+
+```json
+{
+  "examType": "kyotsu | eiken | toeic | nyushi | custom",
+  "examId": "試験ID",
+  "title": "試験タイトル",
+  "sections": [
+    {
+      "sectionId": "セクションID",
+      "title": "セクションタイトル",
+      "questions": [
+        {
+          "questionId": "問題ID",
+          "audioFile": "音声ファイルパス",
+          "choices": ["選択肢1", "選択肢2", "選択肢3", "選択肢4"],
+          "correctAnswer": 0
+        }
+      ]
+    }
+  ]
+}
+```
+
+## 対応試験
+
+- 共通テスト（本試・追試）
+- 英検（準1級〜3級）
+- TOEIC Listening
+- 高校入試
+- オリジナル教材
