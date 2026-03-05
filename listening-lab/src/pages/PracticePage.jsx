@@ -25,7 +25,9 @@ export default function PracticePage() {
     let src = null;
 
     if (sectionId === 'all') {
-      qs = examSet.sections.flatMap((s) => s.questions || []);
+      qs = examSet.sections.flatMap((s) =>
+        (s.questions || []).map((q) => ({ ...q, id: `${s.id}_${q.id}` }))
+      );
     } else {
       const section = examSet.sections.find((s) => s.id === sectionId);
       if (!section) return { questions: [], audioSrc: null };
@@ -69,12 +71,13 @@ export default function PracticePage() {
     return { correct, total: questions.length };
   }, [submitted, questions, answers]);
 
+  const resetAudio = audio.reset;
   const handleRetry = useCallback(() => {
     setAnswers({});
     setSubmitted(false);
-    audio.reset();
+    resetAudio();
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [audio]);
+  }, [resetAudio]);
 
   if (!examSet) {
     return (
