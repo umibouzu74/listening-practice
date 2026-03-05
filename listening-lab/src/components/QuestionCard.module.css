@@ -1,0 +1,200 @@
+.card {
+  padding: 20px 16px;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+/* Header */
+.headerRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}
+
+.playCount {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+/* Prompts */
+.promptJa {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.prompt {
+  font-size: 14px;
+  color: var(--color-text-primary);
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+/* Image */
+.imageWrapper {
+  margin-bottom: 16px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/* Choices */
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  text-align: left;
+  transition: border-color 0.2s, background 0.2s;
+  min-height: 48px;
+}
+
+.choice:hover:not(:disabled) {
+  border-color: var(--color-border-hover);
+}
+
+.choice:disabled {
+  cursor: default;
+}
+
+.choiceLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-border-hover);
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  flex-shrink: 0;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.choiceText {
+  font-size: 14px;
+  color: var(--color-text-primary);
+  line-height: 1.5;
+}
+
+/* Selected state */
+.selected {
+  /* border-color and background set inline via accentColor */
+}
+
+/* Correct / Incorrect */
+.correct {
+  border-color: var(--color-correct);
+  background: rgba(46, 213, 115, 0.08);
+}
+
+.incorrect {
+  border-color: var(--color-incorrect);
+  background: rgba(233, 69, 96, 0.08);
+}
+
+/* Explanation */
+.explanation {
+  margin-top: 16px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.explanationHeader {
+  margin-bottom: 8px;
+}
+
+.resultCorrect {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-correct);
+}
+
+.resultIncorrect {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-incorrect);
+}
+
+.explanationText {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+/* Script */
+.scriptSection {
+  margin-top: 12px;
+}
+
+.scriptToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  background: none;
+  font-size: 13px;
+  color: var(--color-text-muted);
+  min-height: 44px;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.scriptToggle:hover {
+  color: var(--color-text-secondary);
+}
+
+.chevronDown {
+  transition: transform 0.2s;
+}
+
+.chevronUp {
+  transform: rotate(180deg);
+  transition: transform 0.2s;
+}
+
+.scriptText {
+  margin-top: 8px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
