@@ -7,6 +7,7 @@ export default function QuestionCard({
   userAnswer,
   showResult,
   onAnswer,
+  onCheck,
   accentColor,
   showPassageAudio,
 }) {
@@ -117,6 +118,17 @@ export default function QuestionCard({
           );
         })}
       </div>
+
+      {/* Per-question check button */}
+      {!showResult && userAnswer && onCheck && (
+        <button
+          className={styles.checkButton}
+          onClick={onCheck}
+          style={{ '--accent': accent }}
+        >
+          答え合わせ
+        </button>
+      )}
 
       {/* Result: explanation */}
       {showResult && question.explanation && (

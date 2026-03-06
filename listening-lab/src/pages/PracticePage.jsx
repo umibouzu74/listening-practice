@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useRef } from 'react';
+import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import AudioPlayer from '../components/AudioPlayer';
@@ -65,17 +65,50 @@ export default function PracticePage() {
   }, [questions]);
 
   const [answers, setAnswers] = useState({});
-  const [submitted, setSubmitted] = useState(false);
+  const [checkedQuestions, setCheckedQuestions] = useState(new Set());
   const [focusedMode, setFocusedMode] = useState(false);
   const [showOnlyWrong, setShowOnlyWrong] = useState(false);
   const questionRefs = useRef({});
+  const historySavedRef = useRef(false);
 
   const handleAnswer = useCallback((questionId, choice) => {
-    if (submitted) return;
+    if (checkedQuestions.has(questionId)) return;
     setAnswers((prev) => ({ ...prev, [questionId]: choice }));
-  }, [submitted]);
+  }, [checkedQuestions]);
+
+  // Check a single question's answer
+  const handleCheckQuestion = useCallback((questionId) => {
+    if (!answers[questionId]) return;
+    setCheckedQuestions((prev) => new Set(prev).add(questionId));
+  }, [answers]);
+
+  // Check all answered-but-unchecked questions at once
+  const handleCheckAll = useCallback(() => {
+    const answeredIds = questions.filter((q) => answers[q.id]).map((q) => q.id);
+    if (answeredIds.length === 0) return;
+    setCheckedQuestions((prev) => {
+      const next = new Set(prev);
+      answeredIds.forEach((id) => next.add(id));
+      return next;
+    });
+  }, [questions, answers]);
 
   const allAnswered = questions.length > 0 && questions.every((q) => answers[q.id]);
+  const allChecked = questions.length > 0 && questions.every((q) => checkedQuestions.has(q.id));
+  const answeredCount = Object.keys(answers).length;
+  const checkedCount = checkedQuestions.size;
+  const uncheckedAnsweredCount = questions.filter((q) => answers[q.id] && !checkedQuestions.has(q.id)).length;
+
+  // Save history when all questions are checked
+  useEffect(() => {
+    if (allChecked && !historySavedRef.current) {
+      historySavedRef.current = true;
+      const correct = questions.filter((q) => answers[q.id] === q.answer).length;
+      const total = questions.length;
+      const recordKey = `${examId}__${sectionId}`;
+      saveRecord(recordKey, { correct, total });
+    }
+  }, [allChecked, questions, answers, examId, sectionId, saveRecord]);
 
   const scrollToFirstUnanswered = useCallback(() => {
     const first = questions.find((q) => !answers[q.id]);
@@ -89,25 +122,21 @@ export default function PracticePage() {
       scrollToFirstUnanswered();
       return;
     }
-    setSubmitted(true);
-
-    const correct = questions.filter((q) => answers[q.id] === q.answer).length;
-    const total = questions.length;
-    const recordKey = `${examId}__${sectionId}`;
-    saveRecord(recordKey, { correct, total });
-  }, [allAnswered, questions, answers, examId, sectionId, saveRecord, scrollToFirstUnanswered]);
+    handleCheckAll();
+  }, [allAnswered, scrollToFirstUnanswered, handleCheckAll]);
 
   const score = useMemo(() => {
-    if (!submitted) return null;
+    if (!allChecked) return null;
     const correct = questions.filter((q) => answers[q.id] === q.answer).length;
     return { correct, total: questions.length };
-  }, [submitted, questions, answers]);
+  }, [allChecked, questions, answers]);
 
   const resetAudio = audio.reset;
   const handleRetry = useCallback(() => {
     setAnswers({});
-    setSubmitted(false);
+    setCheckedQuestions(new Set());
     setShowOnlyWrong(false);
+    historySavedRef.current = false;
     resetAudio();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [resetAudio]);
@@ -166,10 +195,15 @@ export default function PracticePage() {
         )}
 
         {/* Progress indicator + Focus mode toggle */}
-        {!submitted && (
+        {!allChecked && (
           <div className={styles.progressBar}>
             <div className={styles.progressInfo}>
-              <span>{Object.keys(answers).length} / {questions.length} 回答済み</span>
+              <span>
+                {checkedCount > 0
+                  ? `${checkedCount} / ${questions.length} 確認済み`
+                  : `${answeredCount} / ${questions.length} 回答済み`
+                }
+              </span>
               <button
                 className={styles.focusToggle}
                 onClick={() => setFocusedMode(true)}
@@ -184,10 +218,18 @@ export default function PracticePage() {
               </button>
             </div>
             <div className={styles.progressTrack}>
+              {checkedCount > 0 && (
+                <div
+                  className={styles.progressFillChecked}
+                  style={{
+                    width: `${(checkedCount / questions.length) * 100}%`,
+                  }}
+                />
+              )}
               <div
                 className={styles.progressFill}
                 style={{
-                  width: `${(Object.keys(answers).length / questions.length) * 100}%`,
+                  width: `${(answeredCount / questions.length) * 100}%`,
                   background: accent,
                 }}
               />
@@ -196,7 +238,7 @@ export default function PracticePage() {
         )}
 
         {/* Wrong-answer filter toggle */}
-        {submitted && score && score.correct < score.total && (
+        {allChecked && score && score.correct < score.total && (
           <div className={styles.filterRow}>
             <button
               className={`${styles.filterToggle} ${showOnlyWrong ? styles.filterActive : ''}`}
@@ -214,7 +256,8 @@ export default function PracticePage() {
         {/* Questions */}
         <div className={styles.questions}>
           {questions.map((q, i) => {
-            if (showOnlyWrong && submitted && answers[q.id] === q.answer) return null;
+            const isChecked = checkedQuestions.has(q.id);
+            if (showOnlyWrong && isChecked && answers[q.id] === q.answer) return null;
             return (
               <div key={q.id} ref={(el) => { questionRefs.current[q.id] = el; }}>
                 {q._sectionTitle && (
@@ -225,8 +268,9 @@ export default function PracticePage() {
                 <QuestionCard
                   question={q}
                   userAnswer={answers[q.id] || null}
-                  showResult={submitted}
+                  showResult={isChecked}
                   onAnswer={(choice) => handleAnswer(q.id, choice)}
+                  onCheck={() => handleCheckQuestion(q.id)}
                   accentColor={accent}
                   showPassageAudio={passageAudioShown[i]}
                 />
@@ -235,24 +279,35 @@ export default function PracticePage() {
           })}
         </div>
 
-        {/* Submit button */}
-        {!submitted && (
+        {/* Bottom action buttons */}
+        {!allChecked && (
           <div className={styles.submitRow}>
-            <button
-              className={styles.submitButton}
-              style={{ '--accent': accent }}
-              onClick={handleSubmit}
-            >
-              {allAnswered
-                ? `解答する（${questions.length}問）`
-                : `未回答あり（${Object.keys(answers).length}/${questions.length}）`
-              }
-            </button>
+            {uncheckedAnsweredCount > 0 && (
+              <button
+                className={styles.submitButton}
+                style={{ '--accent': accent }}
+                onClick={allAnswered ? handleSubmit : handleCheckAll}
+              >
+                {allAnswered
+                  ? `まとめて答え合わせ（${questions.length}問）`
+                  : `回答済みをまとめて確認（${uncheckedAnsweredCount}問）`
+                }
+              </button>
+            )}
+            {!allAnswered && (
+              <button
+                className={`${styles.submitButton} ${styles.submitButtonSecondary}`}
+                style={{ '--accent': accent }}
+                onClick={scrollToFirstUnanswered}
+              >
+                未回答あり（{answeredCount}/{questions.length}）
+              </button>
+            )}
           </div>
         )}
 
         {/* Results */}
-        {submitted && score && (
+        {allChecked && score && (
           <div className={styles.resultSection}>
             <ScoreBanner correct={score.correct} total={score.total} />
 
@@ -287,8 +342,9 @@ export default function PracticePage() {
         <FocusedPracticeView
           questions={questions}
           answers={answers}
-          submitted={submitted}
+          checkedQuestions={checkedQuestions}
           onAnswer={handleAnswer}
+          onCheck={handleCheckQuestion}
           onClose={() => setFocusedMode(false)}
           accentColor={accent}
           sectionTitle={sectionTitle}

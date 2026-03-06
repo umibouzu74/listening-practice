@@ -54,6 +54,7 @@
 }
 
 .progressTrack {
+  position: relative;
   height: 3px;
   background: rgba(255, 255, 255, 0.08);
   border-radius: 2px;
@@ -61,9 +62,23 @@
 }
 
 .progressFill {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100%;
   border-radius: 2px;
   transition: width 0.3s ease;
+  opacity: 0.35;
+}
+
+.progressFillChecked {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+  background: var(--color-correct);
 }
 
 .sectionDivider {
@@ -111,6 +126,8 @@
 }
 
 .submitRow {
+  display: flex;
+  flex-direction: column;
   margin-top: 1.25rem;
 }
 
@@ -136,6 +153,19 @@
 .submitButton:disabled {
   opacity: 0.4;
   cursor: not-allowed;
+}
+
+.submitButtonSecondary {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  font-weight: 500;
+  font-size: 0.85rem;
+  margin-top: 8px;
+}
+
+.submitButtonSecondary:active {
+  border-color: var(--color-border-hover);
 }
 
 .resultSection {
