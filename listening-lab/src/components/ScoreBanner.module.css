@@ -5,6 +5,24 @@
   text-align: center;
 }
 
+.message {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.high .message {
+  color: var(--color-correct);
+}
+
+.mid .message {
+  color: var(--color-warning);
+}
+
+.low .message {
+  color: var(--color-incorrect);
+}
+
 .high {
   background: rgba(46, 213, 115, 0.1);
   border-color: rgba(46, 213, 115, 0.3);
