@@ -11,12 +11,8 @@
   gap: 12px;
 }
 
-.item:hover {
-  border-color: var(--item-accent, var(--color-border-hover));
-  background: rgba(255, 255, 255, 0.06);
-}
-
 .item:active {
+  border-color: var(--item-accent, var(--color-border-hover));
   background: rgba(255, 255, 255, 0.08);
 }
 

@@ -1,0 +1,16 @@
+{
+  "name": "Listening Lab",
+  "short_name": "Listening Lab",
+  "description": "英語リスニング演習",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f0f1a",
+  "theme_color": "#0f0f1a",
+  "icons": [
+    {
+      "src": "icon-192.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

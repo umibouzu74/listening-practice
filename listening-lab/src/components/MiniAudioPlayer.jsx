@@ -98,67 +98,79 @@ export default function MiniAudioPlayer({ src, label, accentColor }) {
 
   return (
     <div className={styles.wrapper}>
-      {label && <span className={styles.label}>{label}</span>}
-      <button
-        className={styles.speedBtn}
-        onClick={cycleSpeed}
-        aria-label={`再生速度 ${playbackRate}x`}
-      >
-        {playbackRate}x
-      </button>
-      <button
-        className={styles.skipBtn}
-        onClick={skipBack}
-        aria-label="5秒戻る"
-      >
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
-          <path d="M8 3V1L4.5 3.5L8 6V4C10.76 4 13 6.24 13 9C13 11.76 10.76 14 8 14C5.24 14 3 11.76 3 9H1.5C1.5 12.59 4.41 15.5 8 15.5C11.59 15.5 14.5 12.59 14.5 9C14.5 5.41 11.59 2.5 8 2.5V3Z" fill="currentColor"/>
-          <text x="8" y="10.5" textAnchor="middle" fontSize="5.5" fontWeight="700" fill="currentColor">5</text>
-        </svg>
-      </button>
-      <button
-        className={styles.playBtn}
-        onClick={toggle}
-        style={{ background: accent }}
-        aria-label={isPlaying ? '一時停止' : '再生'}
-      >
-        {isPlaying ? (
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-            <rect x="3" y="2" width="2.5" height="10" rx="0.5" fill="white" />
-            <rect x="8.5" y="2" width="2.5" height="10" rx="0.5" fill="white" />
-          </svg>
-        ) : (
-          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-            <path d="M4 2.5V11.5L11 7L4 2.5Z" fill="white" />
-          </svg>
-        )}
-      </button>
-      <button
-        className={styles.skipBtn}
-        onClick={skipForward}
-        aria-label="5秒進む"
-      >
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
-          <path d="M8 3V1L11.5 3.5L8 6V4C5.24 4 3 6.24 3 9C3 11.76 5.24 14 8 14C10.76 14 13 11.76 13 9H14.5C14.5 12.59 11.59 15.5 8 15.5C4.41 15.5 1.5 12.59 1.5 9C1.5 5.41 4.41 2.5 8 2.5V3Z" fill="currentColor"/>
-          <text x="8" y="10.5" textAnchor="middle" fontSize="5.5" fontWeight="700" fill="currentColor">5</text>
-        </svg>
-      </button>
-      <div
-        className={styles.progressTrack}
-        ref={progressRef}
-        onClick={handleProgressClick}
-        onPointerDown={handlePointerDown}
-      >
+      {/* Row 1: Seekbar */}
+      <div className={styles.seekRow}>
         <div
-          className={styles.progressFill}
-          style={{ width: `${displayProgress}%`, background: accent }}
-        />
-        <div
-          className={styles.progressThumb}
-          style={{ left: `${displayProgress}%`, background: accent }}
-        />
+          className={styles.seekTrack}
+          ref={progressRef}
+          onClick={handleProgressClick}
+          onPointerDown={handlePointerDown}
+        >
+          <div
+            className={styles.seekFill}
+            style={{ width: `${displayProgress}%`, background: accent }}
+          />
+          <div
+            className={styles.seekThumb}
+            style={{ left: `${displayProgress}%`, background: accent }}
+          />
+        </div>
       </div>
-      <span className={styles.time}>{formatTime(currentTime)}/{formatTime(duration)}</span>
+
+      {/* Row 1.5: Time */}
+      <div className={styles.timeRow}>
+        <span className={styles.time}>{formatTime(currentTime)}</span>
+        <span className={styles.time}>{formatTime(duration)}</span>
+      </div>
+
+      {/* Row 2: Controls */}
+      <div className={styles.controlsRow}>
+        {label && <span className={styles.label}>{label}</span>}
+        <button
+          className={styles.speedBtn}
+          onClick={cycleSpeed}
+          aria-label={`再生速度 ${playbackRate}x`}
+        >
+          {playbackRate}x
+        </button>
+        <button
+          className={styles.skipBtn}
+          onClick={skipBack}
+          aria-label="5秒戻る"
+        >
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+            <path d="M10 3.5V1L5.5 4.5L10 8V5.5C13.04 5.5 15.5 7.96 15.5 11C15.5 14.04 13.04 16.5 10 16.5C6.96 16.5 4.5 14.04 4.5 11H2.5C2.5 15.14 5.86 18.5 10 18.5C14.14 18.5 17.5 15.14 17.5 11C17.5 6.86 14.14 3.5 10 3.5Z" fill="currentColor"/>
+            <text x="10" y="12.5" textAnchor="middle" fontSize="7" fontWeight="700" fill="currentColor">5</text>
+          </svg>
+        </button>
+        <button
+          className={styles.playBtn}
+          onClick={toggle}
+          style={{ background: accent }}
+          aria-label={isPlaying ? '一時停止' : '再生'}
+        >
+          {isPlaying ? (
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <rect x="4" y="3" width="3" height="12" rx="0.5" fill="white" />
+              <rect x="11" y="3" width="3" height="12" rx="0.5" fill="white" />
+            </svg>
+          ) : (
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+              <path d="M5 3V15L15 9L5 3Z" fill="white" />
+            </svg>
+          )}
+        </button>
+        <button
+          className={styles.skipBtn}
+          onClick={skipForward}
+          aria-label="5秒進む"
+        >
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none">
+            <path d="M10 3.5V1L14.5 4.5L10 8V5.5C6.96 5.5 4.5 7.96 4.5 11C4.5 14.04 6.96 16.5 10 16.5C13.04 16.5 15.5 14.04 15.5 11H17.5C17.5 15.14 14.14 18.5 10 18.5C5.86 18.5 2.5 15.14 2.5 11C2.5 6.86 5.86 3.5 10 3.5Z" fill="currentColor"/>
+            <text x="10" y="12.5" textAnchor="middle" fontSize="7" fontWeight="700" fill="currentColor">5</text>
+          </svg>
+        </button>
+      </div>
     </div>
   );
 }

@@ -36,7 +36,7 @@
   flex-shrink: 0;
 }
 
-.seekBtn:hover:not(:disabled) {
+.seekBtn:active:not(:disabled) {
   color: var(--color-text-primary);
 }
 
@@ -126,7 +126,7 @@
   transition: color 0.15s;
 }
 
-.loopBtn:hover:not(:disabled) {
+.loopBtn:active:not(:disabled) {
   color: var(--color-text-primary);
 }
 
@@ -151,7 +151,7 @@
   transition: border-color 0.2s, color 0.2s;
 }
 
-.speedBtn:hover:not(:disabled) {
+.speedBtn:active:not(:disabled) {
   border-color: var(--color-border-hover);
   color: var(--color-text-primary);
 }
@@ -174,7 +174,7 @@
   transition: transform 0.15s, box-shadow 0.15s;
 }
 
-.mainPlayBtn:hover:not(:disabled) {
+.mainPlayBtn:active:not(:disabled) {
   transform: scale(1.06);
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
 }
