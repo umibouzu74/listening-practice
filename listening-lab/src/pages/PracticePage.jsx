@@ -5,6 +5,7 @@ import AudioPlayer from '../components/AudioPlayer';
 import MiniAudioPlayer from '../components/MiniAudioPlayer';
 import QuestionCard from '../components/QuestionCard';
 import ScoreBanner from '../components/ScoreBanner';
+import FocusedPracticeView from '../components/FocusedPracticeView';
 import useAudioPlayer from '../hooks/useAudioPlayer';
 import useHistory from '../hooks/useHistory';
 import { getExamColor } from '../utils/examConfig';
@@ -65,6 +66,7 @@ export default function PracticePage() {
 
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
+  const [focusedMode, setFocusedMode] = useState(false);
 
   const handleAnswer = useCallback((questionId, choice) => {
     if (submitted) return;
@@ -150,11 +152,23 @@ export default function PracticePage() {
           </div>
         )}
 
-        {/* Progress indicator */}
+        {/* Progress indicator + Focus mode toggle */}
         {!submitted && (
           <div className={styles.progressBar}>
             <div className={styles.progressInfo}>
               <span>{Object.keys(answers).length} / {questions.length} 回答済み</span>
+              <button
+                className={styles.focusToggle}
+                onClick={() => setFocusedMode(true)}
+                style={{ '--accent': accent }}
+                aria-label="1問ずつ表示"
+              >
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <rect x="2" y="3" width="12" height="4" rx="1" stroke="currentColor" strokeWidth="1.3"/>
+                  <rect x="2" y="9" width="12" height="4" rx="1" stroke="currentColor" strokeWidth="1.3" opacity="0.3"/>
+                </svg>
+                1問ずつ
+              </button>
             </div>
             <div className={styles.progressTrack}>
               <div
@@ -217,6 +231,13 @@ export default function PracticePage() {
                 もう一度
               </button>
               <button
+                className={styles.focusReviewButton}
+                style={{ '--accent': accent }}
+                onClick={() => setFocusedMode(true)}
+              >
+                1問ずつ復習する
+              </button>
+              <button
                 className={styles.backButton}
                 onClick={() => navigate(`/${examType}/${examId}`)}
               >
@@ -226,6 +247,20 @@ export default function PracticePage() {
           </div>
         )}
       </div>
+
+      {/* Focused mode overlay */}
+      {focusedMode && (
+        <FocusedPracticeView
+          questions={questions}
+          answers={answers}
+          submitted={submitted}
+          onAnswer={handleAnswer}
+          onClose={() => setFocusedMode(false)}
+          accentColor={accent}
+          sectionTitle={sectionTitle}
+          examTitle={examSet?.meta?.title}
+        />
+      )}
     </div>
   );
 }
