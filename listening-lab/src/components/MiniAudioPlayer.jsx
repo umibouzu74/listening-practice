@@ -1,4 +1,4 @@
-import { useCallback, useRef } from 'react';
+import { useCallback, useRef, useEffect, useState } from 'react';
 import useAudioPlayer from '../hooks/useAudioPlayer';
 import styles from './MiniAudioPlayer.module.css';
 
@@ -15,17 +15,61 @@ function formatTime(seconds) {
 export default function MiniAudioPlayer({ src, label, accentColor }) {
   const accent = accentColor || 'var(--color-accent)';
   const progressRef = useRef(null);
+  const draggingRef = useRef(false);
+  const [dragProgress, setDragProgress] = useState(null);
+
   const {
     isPlaying, currentTime, duration, progress,
     playbackRate, error, toggle, seek, setSpeed,
   } = useAudioPlayer(src);
 
-  const handleProgressClick = useCallback((e) => {
+  const displayProgress = dragProgress !== null ? dragProgress : progress;
+
+  // --- Seekbar drag ---
+  const calcRatio = useCallback((clientX) => {
+    const rect = progressRef.current?.getBoundingClientRect();
+    if (!rect) return 0;
+    return Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+  }, []);
+
+  const handlePointerMove = useCallback((e) => {
+    if (!draggingRef.current) return;
+    const ratio = calcRatio(e.clientX);
+    setDragProgress(ratio * 100);
+  }, [calcRatio]);
+
+  const handlePointerUp = useCallback((e) => {
+    if (!draggingRef.current) return;
+    draggingRef.current = false;
+    const ratio = calcRatio(e.clientX);
+    seek(ratio * (duration || 0));
+    setDragProgress(null);
+    document.removeEventListener('pointermove', handlePointerMove);
+    document.removeEventListener('pointerup', handlePointerUp);
+  }, [calcRatio, duration, seek, handlePointerMove]);
+
+  const handlePointerDown = useCallback((e) => {
     if (!duration) return;
-    const rect = progressRef.current.getBoundingClientRect();
-    const ratio = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+    e.preventDefault();
+    draggingRef.current = true;
+    const ratio = calcRatio(e.clientX);
+    setDragProgress(ratio * 100);
+    document.addEventListener('pointermove', handlePointerMove);
+    document.addEventListener('pointerup', handlePointerUp);
+  }, [duration, calcRatio, handlePointerMove, handlePointerUp]);
+
+  useEffect(() => {
+    return () => {
+      document.removeEventListener('pointermove', handlePointerMove);
+      document.removeEventListener('pointerup', handlePointerUp);
+    };
+  }, [handlePointerMove, handlePointerUp]);
+
+  const handleProgressClick = useCallback((e) => {
+    if (!duration || draggingRef.current) return;
+    const ratio = calcRatio(e.clientX);
     seek(ratio * duration);
-  }, [duration, seek]);
+  }, [duration, seek, calcRatio]);
 
   const cycleSpeed = useCallback(() => {
     const idx = SPEEDS.indexOf(playbackRate);
@@ -103,10 +147,15 @@ export default function MiniAudioPlayer({ src, label, accentColor }) {
         className={styles.progressTrack}
         ref={progressRef}
         onClick={handleProgressClick}
+        onPointerDown={handlePointerDown}
       >
         <div
           className={styles.progressFill}
-          style={{ width: `${progress}%`, background: accent }}
+          style={{ width: `${displayProgress}%`, background: accent }}
+        />
+        <div
+          className={styles.progressThumb}
+          style={{ left: `${displayProgress}%`, background: accent }}
         />
       </div>
       <span className={styles.time}>{formatTime(currentTime)}/{formatTime(duration)}</span>
