@@ -2,26 +2,24 @@ const GITHUB_USER = "umibouzu74";
 const GITHUB_PAGES_BASE = `https://${GITHUB_USER}.github.io`;
 
 const EXAM_TYPES = {
+  eiken: {
+    id: "eiken",
+    label: "英検準1級",
+    icon: "🏅",
+    color: "#3498db",
+    description: "英検準1級 リスニング演習",
+    groupBy: "grade",
+    sortOrder: "asc",
+    grades: { pre1: "準1級" },
+  },
   kyotsu: {
     id: "kyotsu",
     label: "共通テスト",
     icon: "📝",
     color: "#e94560",
     description: "大学入学共通テスト リスニング",
-    groupBy: "year",
-    sortOrder: "desc",
     externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-kyotsu/`,
-  },
-  eiken: {
-    id: "eiken",
-    label: "英検",
-    icon: "🏅",
-    color: "#3498db",
-    description: "実用英語技能検定 リスニング",
-    groupBy: "grade",
-    sortOrder: "asc",
-    grades: { pre1: "準1級", 2: "2級", pre2: "準2級", 3: "3級" },
-    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-eiken/`,
+    comingSoon: true,
   },
   toeic: {
     id: "toeic",
@@ -29,9 +27,8 @@ const EXAM_TYPES = {
     icon: "🌐",
     color: "#e67e22",
     description: "TOEIC Listening 演習",
-    groupBy: "none",
-    sortOrder: "desc",
     externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-toeic/`,
+    comingSoon: true,
   },
   nyushi: {
     id: "nyushi",
@@ -39,9 +36,8 @@ const EXAM_TYPES = {
     icon: "🏫",
     color: "#2ecc71",
     description: "公立高校入試 リスニング",
-    groupBy: "prefecture",
-    sortOrder: "asc",
     externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-nyushi/`,
+    comingSoon: true,
   },
   custom: {
     id: "custom",
@@ -49,9 +45,8 @@ const EXAM_TYPES = {
     icon: "✏️",
     color: "#9b59b6",
     description: "オリジナル・その他のリスニング教材",
-    groupBy: "none",
-    sortOrder: "asc",
     externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-custom/`,
+    comingSoon: true,
   },
 };
 
