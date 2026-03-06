@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import AudioPlayer from '../components/AudioPlayer';
+import MiniAudioPlayer from '../components/MiniAudioPlayer';
 import QuestionCard from '../components/QuestionCard';
 import ScoreBanner from '../components/ScoreBanner';
 import useAudioPlayer from '../hooks/useAudioPlayer';
@@ -18,27 +19,33 @@ export default function PracticePage() {
   const { saveRecord } = useHistory();
 
   // Build questions list
-  const { questions, sectionAudio, sectionTitle } = useMemo(() => {
-    if (!examSet) return { questions: [], sectionAudio: null, sectionTitle: '' };
+  const { questions, sectionAudio, sectionTitle, instructionAudio } = useMemo(() => {
+    if (!examSet) return { questions: [], sectionAudio: null, sectionTitle: '', instructionAudio: null };
 
     let qs;
     let secAudio = null;
     let secTitle = '';
+    let instrAudio = null;
 
     if (sectionId === 'all') {
       qs = examSet.sections.flatMap((s) =>
-        (s.questions || []).map((q) => ({ ...q, id: `${s.id}_${q.id}` }))
+        (s.questions || []).map((q, qi) => ({
+          ...q,
+          id: `${s.id}_${q.id}`,
+          _sectionTitle: qi === 0 ? s.title : null,
+        }))
       );
       secTitle = '全問通し演習';
     } else {
       const section = examSet.sections.find((s) => s.id === sectionId);
-      if (!section) return { questions: [], sectionAudio: null, sectionTitle: '' };
+      if (!section) return { questions: [], sectionAudio: null, sectionTitle: '', instructionAudio: null };
       qs = section.questions || [];
-      secAudio = section.audio || null;
+      secAudio = section.audioFile || section.audio || null;
       secTitle = section.title || '';
+      instrAudio = section.instructionAudio || null;
     }
 
-    return { questions: qs, sectionAudio: secAudio, sectionTitle: secTitle };
+    return { questions: qs, sectionAudio: secAudio, sectionTitle: secTitle, instructionAudio: instrAudio };
   }, [examSet, sectionId]);
 
   // Section-level audio player (only used when section has a single audio file)
@@ -121,6 +128,17 @@ export default function PracticePage() {
           <h2 className={styles.sectionTitle}>{examSet.meta.title} — {sectionTitle}</h2>
         )}
 
+        {/* Instruction audio (e.g. Eiken part explanations) */}
+        {instructionAudio && (
+          <div className={styles.audioSection}>
+            <MiniAudioPlayer
+              src={instructionAudio}
+              label="説明音声"
+              accentColor={accent}
+            />
+          </div>
+        )}
+
         {/* Section-level audio player (when section has a single audio) */}
         {sectionAudio && (
           <div className={styles.audioSection}>
@@ -153,15 +171,21 @@ export default function PracticePage() {
         {/* Questions */}
         <div className={styles.questions}>
           {questions.map((q, i) => (
-            <QuestionCard
-              key={q.id}
-              question={q}
-              userAnswer={answers[q.id] || null}
-              showResult={submitted}
-              onAnswer={(choice) => handleAnswer(q.id, choice)}
-              accentColor={accent}
-              showPassageAudio={passageAudioShown[i]}
-            />
+            <div key={q.id}>
+              {q._sectionTitle && (
+                <h3 className={styles.sectionDivider} style={{ borderColor: accent }}>
+                  {q._sectionTitle}
+                </h3>
+              )}
+              <QuestionCard
+                question={q}
+                userAnswer={answers[q.id] || null}
+                showResult={submitted}
+                onAnswer={(choice) => handleAnswer(q.id, choice)}
+                accentColor={accent}
+                showPassageAudio={passageAudioShown[i]}
+              />
+            </div>
           ))}
         </div>
 

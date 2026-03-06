@@ -15,11 +15,13 @@ export default function MiniAudioPlayer({ src, label, accentColor }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
     setIsPlaying(false);
     setCurrentTime(0);
     setDuration(0);
+    setError(false);
 
     if (!src) {
       audioRef.current = null;
@@ -32,15 +34,21 @@ export default function MiniAudioPlayer({ src, label, accentColor }) {
     const onMeta = () => setDuration(audio.duration);
     const onTime = () => setCurrentTime(audio.currentTime);
     const onEnd = () => setIsPlaying(false);
+    const onError = () => {
+      setError(true);
+      setIsPlaying(false);
+    };
 
     audio.addEventListener('loadedmetadata', onMeta);
     audio.addEventListener('timeupdate', onTime);
     audio.addEventListener('ended', onEnd);
+    audio.addEventListener('error', onError);
 
     return () => {
       audio.removeEventListener('loadedmetadata', onMeta);
       audio.removeEventListener('timeupdate', onTime);
       audio.removeEventListener('ended', onEnd);
+      audio.removeEventListener('error', onError);
       audio.pause();
       audio.src = '';
       audioRef.current = null;
@@ -51,7 +59,9 @@ export default function MiniAudioPlayer({ src, label, accentColor }) {
     const audio = audioRef.current;
     if (!audio) return;
     if (audio.paused) {
-      audio.play().then(() => setIsPlaying(true)).catch(() => {});
+      audio.play().then(() => setIsPlaying(true)).catch(() => {
+        setError(true);
+      });
     } else {
       audio.pause();
       setIsPlaying(false);
@@ -67,6 +77,15 @@ export default function MiniAudioPlayer({ src, label, accentColor }) {
   }, [duration]);
 
   if (!src) return null;
+
+  if (error) {
+    return (
+      <div className={styles.wrapper}>
+        {label && <span className={styles.label}>{label}</span>}
+        <span className={styles.errorText}>音声を読み込めません</span>
+      </div>
+    );
+  }
 
   const progress = duration > 0 ? (currentTime / duration) * 100 : 0;
 

@@ -9,6 +9,30 @@
   padding: 1rem 1rem 0;
 }
 
+.pageHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.25rem;
+}
+
+.pageIcon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.pageTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.pageDescription {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  margin-top: 2px;
+}
+
 .groupHeading {
   font-size: 0.8rem;
   font-weight: 600;

@@ -1,11 +1,22 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 
+const SPEED_KEY = 'listening-lab-speed';
+
+function getSavedSpeed() {
+  try {
+    const v = parseFloat(localStorage.getItem(SPEED_KEY));
+    return v && isFinite(v) ? v : 1.0;
+  } catch {
+    return 1.0;
+  }
+}
+
 export default function useAudioPlayer(src) {
   const audioRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
-  const [playbackRate, setPlaybackRate] = useState(1.0);
+  const [playbackRate, setPlaybackRate] = useState(getSavedSpeed);
   const [isLoaded, setIsLoaded] = useState(false);
   const [error, setError] = useState(null);
 
@@ -118,6 +129,7 @@ export default function useAudioPlayer(src) {
     if (audio) {
       audio.playbackRate = rate;
     }
+    try { localStorage.setItem(SPEED_KEY, String(rate)); } catch {}
   }, []);
 
   const reset = useCallback(() => {

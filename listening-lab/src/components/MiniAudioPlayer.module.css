@@ -51,6 +51,12 @@
   transition: width 0.1s linear;
 }
 
+.errorText {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
 .time {
   font-size: 11px;
   font-family: var(--font-mono);

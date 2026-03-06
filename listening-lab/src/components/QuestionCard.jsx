@@ -91,6 +91,7 @@ export default function QuestionCard({
               className={choiceClass}
               onClick={() => !showResult && onAnswer(choice.label)}
               disabled={showResult}
+              aria-label={`選択肢${choice.label}: ${choice.text}`}
               style={
                 isSelected && !showResult
                   ? { borderColor: accent, background: `${accent}15` }
