@@ -19,7 +19,7 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
   const {
     isPlaying, currentTime, duration, progress,
     playbackRate, error, play, pause, seek, reset,
-    setSpeed, abRepeat, toggleABPoint, clearAB,
+    setSpeed, isLooping, toggleLoop,
   } = audio;
 
   const displayProgress = dragProgress !== null ? dragProgress : progress;
@@ -87,10 +87,6 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
     seek(Math.min(duration || 0, currentTime + 5));
   }, [currentTime, duration, seek]);
 
-  // A-B marker positions
-  const aPos = abRepeat.a !== null && duration > 0 ? (abRepeat.a / duration) * 100 : null;
-  const bPos = abRepeat.b !== null && duration > 0 ? (abRepeat.b / duration) * 100 : null;
-
   if (!src) {
     return (
       <div className={styles.wrapper}>
@@ -134,12 +130,6 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
           aria-valuemax={100}
           aria-label="再生位置"
         >
-          {aPos !== null && bPos !== null && (
-            <div
-              className={styles.abRegion}
-              style={{ left: `${aPos}%`, width: `${bPos - aPos}%`, background: accent }}
-            />
-          )}
           <div
             className={styles.seekFill}
             style={{ width: `${displayProgress}%`, background: accent }}
@@ -169,14 +159,14 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
         <span className={styles.time}>{formatTime(duration)}</span>
       </div>
 
-      {/* Controls row: [loop/A-B] [speed] [BIG play] */}
+      {/* Controls row: [loop] [speed] [BIG play] */}
       <div className={styles.controlsRow}>
         <button
           className={styles.loopBtn}
-          onClick={toggleABPoint}
+          onClick={toggleLoop}
           disabled={disabled}
-          aria-label="A-Bリピート"
-          style={abRepeat.a !== null ? { color: accent } : undefined}
+          aria-label="ループ再生"
+          style={isLooping ? { color: accent } : undefined}
         >
           <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
             <path d="M14 3L17 6L14 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

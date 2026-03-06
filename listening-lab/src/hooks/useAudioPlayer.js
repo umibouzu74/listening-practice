@@ -31,8 +31,8 @@ export default function useAudioPlayer(src) {
   const [isLoaded, setIsLoaded] = useState(false);
   const [error, setError] = useState(null);
 
-  // A-B repeat state
-  const [abRepeat, setAbRepeat] = useState({ a: null, b: null });
+  // Loop (repeat) state
+  const [isLooping, setIsLooping] = useState(false);
 
   // Seeking state (suppress timeupdate while dragging)
   const [isSeeking, setIsSeeking] = useState(false);
@@ -46,7 +46,7 @@ export default function useAudioPlayer(src) {
     setDuration(0);
     setIsLoaded(false);
     setError(null);
-    setAbRepeat({ a: null, b: null });
+    setIsLooping(false);
 
     if (!src) {
       audioRef.current = null;
@@ -95,21 +95,19 @@ export default function useAudioPlayer(src) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [src]);
 
-  // A-B repeat: loop back to A when reaching B
+  // Loop: replay from start when audio ends
   useEffect(() => {
     const audio = audioRef.current;
-    if (!audio || abRepeat.a === null || abRepeat.b === null) return;
+    if (!audio || !isLooping) return;
 
-    const onTime = () => {
-      if (audio.currentTime >= abRepeat.b) {
-        audio.currentTime = abRepeat.a;
-        setCurrentTime(abRepeat.a);
-      }
+    const onEnded = () => {
+      audio.currentTime = 0;
+      audio.play().catch(() => {});
     };
 
-    audio.addEventListener('timeupdate', onTime);
-    return () => audio.removeEventListener('timeupdate', onTime);
-  }, [abRepeat]);
+    audio.addEventListener('ended', onEnded);
+    return () => audio.removeEventListener('ended', onEnded);
+  }, [isLooping]);
 
   const play = useCallback(() => {
     const audio = audioRef.current;
@@ -186,26 +184,9 @@ export default function useAudioPlayer(src) {
     setCurrentTime(0);
   }, []);
 
-  // A-B repeat controls
-  const toggleABPoint = useCallback(() => {
-    setAbRepeat((prev) => {
-      if (prev.a === null) {
-        // Set point A
-        return { a: currentTime, b: null };
-      } else if (prev.b === null) {
-        // Set point B (must be after A)
-        const b = currentTime;
-        if (b <= prev.a) return prev; // B must be after A
-        return { ...prev, b };
-      } else {
-        // Clear both
-        return { a: null, b: null };
-      }
-    });
-  }, [currentTime]);
-
-  const clearAB = useCallback(() => {
-    setAbRepeat({ a: null, b: null });
+  // Loop toggle
+  const toggleLoop = useCallback(() => {
+    setIsLooping((prev) => !prev);
   }, []);
 
   return {
@@ -219,7 +200,7 @@ export default function useAudioPlayer(src) {
     error,
     isSeeking,
     setIsSeeking,
-    abRepeat,
+    isLooping,
     play,
     pause,
     toggle,
@@ -228,7 +209,6 @@ export default function useAudioPlayer(src) {
     setSpeed,
     setVolume,
     reset,
-    toggleABPoint,
-    clearAB,
+    toggleLoop,
   };
 }
