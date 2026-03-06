@@ -20,13 +20,13 @@
   border-radius: 3px;
   cursor: pointer;
   touch-action: none;
-  padding: 8px 0;
+  padding: 12px 0;
   background-clip: content-box;
 }
 
 .progressFill {
   position: absolute;
-  top: 8px;
+  top: 12px;
   left: 0;
   height: 6px;
   border-radius: 3px;
@@ -55,7 +55,7 @@
 /* A-B repeat markers */
 .abRegion {
   position: absolute;
-  top: 8px;
+  top: 12px;
   height: 6px;
   border-radius: 3px;
   opacity: 0.2;
@@ -65,7 +65,7 @@
 
 .abMarker {
   position: absolute;
-  top: 4px;
+  top: 8px;
   width: 3px;
   height: 14px;
   background: rgba(255, 255, 255, 0.7);

@@ -25,9 +25,32 @@
 }
 
 .progressInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 0.75rem;
   color: var(--color-text-muted);
   margin-bottom: 6px;
+}
+
+.focusToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background: transparent;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  min-height: 28px;
+  min-width: auto;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.focusToggle:active {
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .progressTrack {
@@ -113,6 +136,25 @@
 }
 
 .retryButton:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.focusReviewButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.focusReviewButton:hover {
   background: rgba(255, 255, 255, 0.04);
 }
 
