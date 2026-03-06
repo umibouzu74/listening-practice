@@ -59,6 +59,14 @@ export default function ExamListPage() {
       <Header onBack={() => navigate('/')} accentColor={config.color} />
 
       <div className={styles.content}>
+        <div className={styles.pageHeader}>
+          <span className={styles.pageIcon}>{config.icon}</span>
+          <div>
+            <h2 className={styles.pageTitle}>{config.label}</h2>
+            <p className={styles.pageDescription}>{config.description}</p>
+          </div>
+        </div>
+
         {sets.length === 0 ? (
           <div className={styles.empty}>準備中です</div>
         ) : (

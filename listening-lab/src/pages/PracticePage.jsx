@@ -2,6 +2,7 @@ import { useState, useMemo, useCallback } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import AudioPlayer from '../components/AudioPlayer';
+import MiniAudioPlayer from '../components/MiniAudioPlayer';
 import QuestionCard from '../components/QuestionCard';
 import ScoreBanner from '../components/ScoreBanner';
 import useAudioPlayer from '../hooks/useAudioPlayer';
@@ -18,12 +19,13 @@ export default function PracticePage() {
   const { saveRecord } = useHistory();
 
   // Build questions list
-  const { questions, sectionAudio, sectionTitle } = useMemo(() => {
-    if (!examSet) return { questions: [], sectionAudio: null, sectionTitle: '' };
+  const { questions, sectionAudio, sectionTitle, instructionAudio } = useMemo(() => {
+    if (!examSet) return { questions: [], sectionAudio: null, sectionTitle: '', instructionAudio: null };
 
     let qs;
     let secAudio = null;
     let secTitle = '';
+    let instrAudio = null;
 
     if (sectionId === 'all') {
       qs = examSet.sections.flatMap((s) =>
@@ -32,13 +34,14 @@ export default function PracticePage() {
       secTitle = '全問通し演習';
     } else {
       const section = examSet.sections.find((s) => s.id === sectionId);
-      if (!section) return { questions: [], sectionAudio: null, sectionTitle: '' };
+      if (!section) return { questions: [], sectionAudio: null, sectionTitle: '', instructionAudio: null };
       qs = section.questions || [];
-      secAudio = section.audio || null;
+      secAudio = section.audioFile || section.audio || null;
       secTitle = section.title || '';
+      instrAudio = section.instructionAudio || null;
     }
 
-    return { questions: qs, sectionAudio: secAudio, sectionTitle: secTitle };
+    return { questions: qs, sectionAudio: secAudio, sectionTitle: secTitle, instructionAudio: instrAudio };
   }, [examSet, sectionId]);
 
   // Section-level audio player (only used when section has a single audio file)
@@ -119,6 +122,17 @@ export default function PracticePage() {
         {/* Section title */}
         {sectionTitle && (
           <h2 className={styles.sectionTitle}>{examSet.meta.title} — {sectionTitle}</h2>
+        )}
+
+        {/* Instruction audio (e.g. Eiken part explanations) */}
+        {instructionAudio && (
+          <div className={styles.audioSection}>
+            <MiniAudioPlayer
+              src={instructionAudio}
+              label="説明音声"
+              accentColor={accent}
+            />
+          </div>
         )}
 
         {/* Section-level audio player (when section has a single audio) */}
