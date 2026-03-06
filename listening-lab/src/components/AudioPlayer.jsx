@@ -19,7 +19,7 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
   const {
     isPlaying, currentTime, duration, progress,
     playbackRate, error, play, pause, seek, reset,
-    setSpeed, isLooping, toggleLoop,
+    setSpeed, isLooping, toggleLoop, setIsSeeking,
   } = audio;
 
   const displayProgress = dragProgress !== null ? dragProgress : progress;
@@ -40,22 +40,24 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
   const handlePointerUp = useCallback((e) => {
     if (!draggingRef.current) return;
     draggingRef.current = false;
+    setIsSeeking(false);
     const ratio = calcRatio(e.clientX);
     seek(ratio * (duration || 0));
     setDragProgress(null);
     document.removeEventListener('pointermove', handlePointerMove);
     document.removeEventListener('pointerup', handlePointerUp);
-  }, [calcRatio, duration, seek, handlePointerMove]);
+  }, [calcRatio, duration, seek, handlePointerMove, setIsSeeking]);
 
   const handlePointerDown = useCallback((e) => {
     if (disabled || !duration) return;
     e.preventDefault();
     draggingRef.current = true;
+    setIsSeeking(true);
     const ratio = calcRatio(e.clientX);
     setDragProgress(ratio * 100);
     document.addEventListener('pointermove', handlePointerMove);
     document.addEventListener('pointerup', handlePointerUp);
-  }, [disabled, duration, calcRatio, handlePointerMove, handlePointerUp]);
+  }, [disabled, duration, calcRatio, handlePointerMove, handlePointerUp, setIsSeeking]);
 
   useEffect(() => {
     return () => {

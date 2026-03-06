@@ -32,8 +32,8 @@
   left: 0;
   height: 4px;
   border-radius: 2px;
-  transition: width 0.1s linear;
   pointer-events: none;
+  will-change: width;
 }
 
 .seekThumb {
@@ -43,7 +43,7 @@
   height: 14px;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  transition: left 0.1s linear;
+  will-change: left;
   pointer-events: none;
   z-index: 2;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);

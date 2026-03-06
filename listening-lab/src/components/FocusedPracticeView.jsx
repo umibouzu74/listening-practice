@@ -38,7 +38,7 @@ export default function FocusedPracticeView({
   const {
     isPlaying, currentTime, duration, progress,
     playbackRate, error, toggle, seek, setSpeed, reset,
-    isLooping, toggleLoop,
+    isLooping, toggleLoop, setIsSeeking,
   } = useAudioPlayer(audioSrc);
 
   const displayProgress = dragProgress !== null ? dragProgress : progress;
@@ -91,22 +91,24 @@ export default function FocusedPracticeView({
   const handlePointerUp = useCallback((e) => {
     if (!draggingRef.current) return;
     draggingRef.current = false;
+    setIsSeeking(false);
     const ratio = calcRatio(e.clientX);
     seek(ratio * (duration || 0));
     setDragProgress(null);
     document.removeEventListener('pointermove', handlePointerMove);
     document.removeEventListener('pointerup', handlePointerUp);
-  }, [calcRatio, duration, seek, handlePointerMove]);
+  }, [calcRatio, duration, seek, handlePointerMove, setIsSeeking]);
 
   const handlePointerDown = useCallback((e) => {
     if (!duration) return;
     e.preventDefault();
     draggingRef.current = true;
+    setIsSeeking(true);
     const ratio = calcRatio(e.clientX);
     setDragProgress(ratio * 100);
     document.addEventListener('pointermove', handlePointerMove);
     document.addEventListener('pointerup', handlePointerUp);
-  }, [duration, calcRatio, handlePointerMove, handlePointerUp]);
+  }, [duration, calcRatio, handlePointerMove, handlePointerUp, setIsSeeking]);
 
   useEffect(() => {
     return () => {
