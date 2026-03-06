@@ -1,0 +1,494 @@
+{
+  "examType": "eiken",
+  "id": "eiken-pre1-2023-2",
+  "meta": {
+    "title": "英検準1級",
+    "subtitle": "2023年度 第2回",
+    "year": 2023,
+    "grade": "pre1",
+    "session": "2023-2",
+    "icon": "🏅",
+    "totalTime": 29
+  },
+  "sections": [
+    {
+      "id": "part1",
+      "title": "Part 1",
+      "description": "会話の応答 — 対話を聞き、最後の発言に対する応答として最も適切なものを選びなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2023-2/01_Part1_explanation.mp3",
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "audio": "audio/eiken/eiken-pre1-2023-2/02_No1.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "audio": "audio/eiken/eiken-pre1-2023-2/03_No2.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "audio": "audio/eiken/eiken-pre1-2023-2/04_No3.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "audio": "audio/eiken/eiken-pre1-2023-2/05_No4.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "audio": "audio/eiken/eiken-pre1-2023-2/06_No5.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "audio": "audio/eiken/eiken-pre1-2023-2/07_No6.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "audio": "audio/eiken/eiken-pre1-2023-2/08_No7.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "audio": "audio/eiken/eiken-pre1-2023-2/09_No8.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "audio": "audio/eiken/eiken-pre1-2023-2/10_No9.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "audio": "audio/eiken/eiken-pre1-2023-2/11_No10.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "audio": "audio/eiken/eiken-pre1-2023-2/12_No11.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "audio": "audio/eiken/eiken-pre1-2023-2/13_No12.mp3",
+          "prompt": "Choose the best response to complete the conversation.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        }
+      ]
+    },
+    {
+      "id": "part2",
+      "title": "Part 2",
+      "description": "文の内容一致選択 — 英文を聞き、その質問に対して最も適切なものを選びなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2023-2/14_Part2_explanation.mp3",
+      "questions": [
+        {
+          "id": "q13",
+          "number": 13,
+          "audio": "audio/eiken/eiken-pre1-2023-2/16_No13.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/15_question_A.mp3",
+          "passageLabel": "Passage A",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "audio": "audio/eiken/eiken-pre1-2023-2/17_No14.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/15_question_A.mp3",
+          "passageLabel": "Passage A",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "audio": "audio/eiken/eiken-pre1-2023-2/19_No15.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/18_question_B.mp3",
+          "passageLabel": "Passage B",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "audio": "audio/eiken/eiken-pre1-2023-2/20_No16.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/18_question_B.mp3",
+          "passageLabel": "Passage B",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "audio": "audio/eiken/eiken-pre1-2023-2/22_No17.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/21_question_C.mp3",
+          "passageLabel": "Passage C",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "audio": "audio/eiken/eiken-pre1-2023-2/23_No18.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/21_question_C.mp3",
+          "passageLabel": "Passage C",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "audio": "audio/eiken/eiken-pre1-2023-2/25_No19.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/24_question_D.mp3",
+          "passageLabel": "Passage D",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "audio": "audio/eiken/eiken-pre1-2023-2/26_No20.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/24_question_D.mp3",
+          "passageLabel": "Passage D",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "audio": "audio/eiken/eiken-pre1-2023-2/28_No21.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/27_question_E.mp3",
+          "passageLabel": "Passage E",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "audio": "audio/eiken/eiken-pre1-2023-2/29_No22.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/27_question_E.mp3",
+          "passageLabel": "Passage E",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "audio": "audio/eiken/eiken-pre1-2023-2/31_No23.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/30_question_F.mp3",
+          "passageLabel": "Passage F",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "audio": "audio/eiken/eiken-pre1-2023-2/32_No24.mp3",
+          "passageAudio": "audio/eiken/eiken-pre1-2023-2/30_question_F.mp3",
+          "passageLabel": "Passage F",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        }
+      ]
+    },
+    {
+      "id": "part3",
+      "title": "Part 3",
+      "description": "Real-Life形式の内容一致選択 — 実生活で遭遇する場面での英文を聞き、質問に答えなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2023-2/33_Part3_explanation.mp3",
+      "questions": [
+        {
+          "id": "q25",
+          "number": 25,
+          "audio": "audio/eiken/eiken-pre1-2023-2/34_question_G_No25.mp3",
+          "passageLabel": "Situation G",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "audio": "audio/eiken/eiken-pre1-2023-2/35_question_H_No26.mp3",
+          "passageLabel": "Situation H",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "audio": "audio/eiken/eiken-pre1-2023-2/36_question_I_No27.mp3",
+          "passageLabel": "Situation I",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "audio": "audio/eiken/eiken-pre1-2023-2/37_question_J_No28.mp3",
+          "passageLabel": "Situation J",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "audio": "audio/eiken/eiken-pre1-2023-2/38_question_K_No29.mp3",
+          "passageLabel": "Situation K",
+          "prompt": "Choose the best answer for the question.",
+          "choices": [
+            { "label": "1", "text": "(Listen to the audio)" },
+            { "label": "2", "text": "(Listen to the audio)" },
+            { "label": "3", "text": "(Listen to the audio)" },
+            { "label": "4", "text": "(Listen to the audio)" }
+          ],
+          "answer": "1",
+          "explanation": "",
+          "script": ""
+        }
+      ]
+    }
+  ]
+}

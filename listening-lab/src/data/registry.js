@@ -4,12 +4,17 @@
 
 import kyotsu2025Honshi from "./kyotsu/2025-honshi.json";
 import eiken2q20251 from "./eiken/2q-2025-1.json";
+import eikenPre120221 from "./eiken/pre1-2022-1.json";
+import eikenPre120222 from "./eiken/pre1-2022-2.json";
+import eikenPre120223 from "./eiken/pre1-2022-3.json";
+import eikenPre120231 from "./eiken/pre1-2023-1.json";
+import eikenPre120232 from "./eiken/pre1-2023-2.json";
 import eikenPre120233 from "./eiken/pre1-2023-3.json";
 import eikenPre120241 from "./eiken/pre1-2024-1.json";
 import eikenPre120242 from "./eiken/pre1-2024-2.json";
 import nyushiFukuoka2025 from "./nyushi/fukuoka-2025.json";
 
-const examSets = [kyotsu2025Honshi, eiken2q20251, eikenPre120233, eikenPre120241, eikenPre120242, nyushiFukuoka2025];
+const examSets = [kyotsu2025Honshi, eiken2q20251, eikenPre120221, eikenPre120222, eikenPre120223, eikenPre120231, eikenPre120232, eikenPre120233, eikenPre120241, eikenPre120242, nyushiFukuoka2025];
 
 // examType ごとにグルーピングしたマップを構築
 function buildRegistry() {

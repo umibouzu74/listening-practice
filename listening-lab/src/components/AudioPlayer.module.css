@@ -114,6 +114,27 @@
   opacity: 0.4;
 }
 
+.skipButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text-secondary);
+  transition: color 0.2s;
+}
+
+.skipButton:hover:not(:disabled) {
+  color: var(--color-text-primary);
+}
+
+.skipButton:disabled {
+  opacity: 0.4;
+}
+
 .resetButton {
   display: flex;
   align-items: center;
