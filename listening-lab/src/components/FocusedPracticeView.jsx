@@ -37,7 +37,7 @@ export default function FocusedPracticeView({
   const {
     isPlaying, currentTime, duration, progress,
     playbackRate, error, toggle, seek, setSpeed, reset,
-    abRepeat, toggleABPoint, clearAB,
+    isLooping, toggleLoop,
   } = useAudioPlayer(audioSrc);
 
   const displayProgress = dragProgress !== null ? dragProgress : progress;
@@ -141,17 +141,6 @@ export default function FocusedPracticeView({
   const goToNext = useCallback(() => {
     if (currentIndex < questions.length - 1) setCurrentIndex(currentIndex + 1);
   }, [currentIndex, questions.length]);
-
-  // A-B repeat label
-  const abLabel = abRepeat.a !== null && abRepeat.b !== null
-    ? 'A-B ✓'
-    : abRepeat.a !== null
-    ? 'A...'
-    : 'A-B';
-
-  // A-B marker positions
-  const aPos = abRepeat.a !== null && duration > 0 ? (abRepeat.a / duration) * 100 : null;
-  const bPos = abRepeat.b !== null && duration > 0 ? (abRepeat.b / duration) * 100 : null;
 
   if (!question) return null;
 
@@ -291,9 +280,8 @@ export default function FocusedPracticeView({
         <div className={styles.seekRow}>
           <button
             className={styles.abBtn}
-            onClick={toggleABPoint}
-            aria-label="A-Bリピート"
-            style={abRepeat.a !== null ? { color: accent } : undefined}
+            onClick={skipBack}
+            aria-label="5秒戻る"
           >
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path d="M3 10C3 6.13 6.13 3 10 3C13.87 3 17 6.13 17 10C17 13.87 13.87 17 10 17C8.11 17 6.42 16.2 5.2 14.9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
@@ -306,12 +294,6 @@ export default function FocusedPracticeView({
             onClick={handleProgressClick}
             onPointerDown={handlePointerDown}
           >
-            {aPos !== null && bPos !== null && (
-              <div
-                className={styles.abRegion}
-                style={{ left: `${aPos}%`, width: `${bPos - aPos}%`, background: accent }}
-              />
-            )}
             <div
               className={styles.seekFill}
               style={{ width: `${displayProgress}%`, background: accent }}
@@ -335,8 +317,8 @@ export default function FocusedPracticeView({
 
         {/* Controls */}
         <div className={styles.controlsRow}>
-          <button className={styles.loopBtn} onClick={toggleABPoint} aria-label="A-Bリピート"
-            style={abRepeat.a !== null ? { color: accent } : undefined}
+          <button className={styles.loopBtn} onClick={toggleLoop} aria-label="ループ再生"
+            style={isLooping ? { color: accent } : undefined}
           >
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
               <path d="M14 3L17 6L14 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>

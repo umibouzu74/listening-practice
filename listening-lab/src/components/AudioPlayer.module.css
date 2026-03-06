@@ -56,16 +56,6 @@
   background-clip: content-box;
 }
 
-.abRegion {
-  position: absolute;
-  top: 12px;
-  height: 6px;
-  border-radius: 3px;
-  opacity: 0.25;
-  pointer-events: none;
-  z-index: 1;
-}
-
 .seekFill {
   position: absolute;
   top: 12px;
