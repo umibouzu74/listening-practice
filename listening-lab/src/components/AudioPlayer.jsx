@@ -163,6 +163,12 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
         </button>
       </div>
 
+      {/* Time display */}
+      <div className={styles.timeRow}>
+        <span className={styles.time}>{formatTime(currentTime)}</span>
+        <span className={styles.time}>{formatTime(duration)}</span>
+      </div>
+
       {/* Controls row: [loop/A-B] [speed] [BIG play] */}
       <div className={styles.controlsRow}>
         <button

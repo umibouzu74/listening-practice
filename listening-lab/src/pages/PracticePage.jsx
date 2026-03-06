@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import AudioPlayer from '../components/AudioPlayer';
@@ -67,6 +67,8 @@ export default function PracticePage() {
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
   const [focusedMode, setFocusedMode] = useState(false);
+  const [showOnlyWrong, setShowOnlyWrong] = useState(false);
+  const questionRefs = useRef({});
 
   const handleAnswer = useCallback((questionId, choice) => {
     if (submitted) return;
@@ -75,15 +77,25 @@ export default function PracticePage() {
 
   const allAnswered = questions.length > 0 && questions.every((q) => answers[q.id]);
 
+  const scrollToFirstUnanswered = useCallback(() => {
+    const first = questions.find((q) => !answers[q.id]);
+    if (first && questionRefs.current[first.id]) {
+      questionRefs.current[first.id].scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, [questions, answers]);
+
   const handleSubmit = useCallback(() => {
-    if (!allAnswered) return;
+    if (!allAnswered) {
+      scrollToFirstUnanswered();
+      return;
+    }
     setSubmitted(true);
 
     const correct = questions.filter((q) => answers[q.id] === q.answer).length;
     const total = questions.length;
     const recordKey = `${examId}__${sectionId}`;
     saveRecord(recordKey, { correct, total });
-  }, [allAnswered, questions, answers, examId, sectionId, saveRecord]);
+  }, [allAnswered, questions, answers, examId, sectionId, saveRecord, scrollToFirstUnanswered]);
 
   const score = useMemo(() => {
     if (!submitted) return null;
@@ -95,6 +107,7 @@ export default function PracticePage() {
   const handleRetry = useCallback(() => {
     setAnswers({});
     setSubmitted(false);
+    setShowOnlyWrong(false);
     resetAudio();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [resetAudio]);
@@ -182,25 +195,44 @@ export default function PracticePage() {
           </div>
         )}
 
+        {/* Wrong-answer filter toggle */}
+        {submitted && score && score.correct < score.total && (
+          <div className={styles.filterRow}>
+            <button
+              className={`${styles.filterToggle} ${showOnlyWrong ? styles.filterActive : ''}`}
+              style={{ '--accent': accent }}
+              onClick={() => setShowOnlyWrong((v) => !v)}
+            >
+              {showOnlyWrong
+                ? `全問表示（${questions.length}問）`
+                : `間違えた問題のみ（${score.total - score.correct}問）`
+              }
+            </button>
+          </div>
+        )}
+
         {/* Questions */}
         <div className={styles.questions}>
-          {questions.map((q, i) => (
-            <div key={q.id}>
-              {q._sectionTitle && (
-                <h3 className={styles.sectionDivider} style={{ borderColor: accent }}>
-                  {q._sectionTitle}
-                </h3>
-              )}
-              <QuestionCard
-                question={q}
-                userAnswer={answers[q.id] || null}
-                showResult={submitted}
-                onAnswer={(choice) => handleAnswer(q.id, choice)}
-                accentColor={accent}
-                showPassageAudio={passageAudioShown[i]}
-              />
-            </div>
-          ))}
+          {questions.map((q, i) => {
+            if (showOnlyWrong && submitted && answers[q.id] === q.answer) return null;
+            return (
+              <div key={q.id} ref={(el) => { questionRefs.current[q.id] = el; }}>
+                {q._sectionTitle && (
+                  <h3 className={styles.sectionDivider} style={{ borderColor: accent }}>
+                    {q._sectionTitle}
+                  </h3>
+                )}
+                <QuestionCard
+                  question={q}
+                  userAnswer={answers[q.id] || null}
+                  showResult={submitted}
+                  onAnswer={(choice) => handleAnswer(q.id, choice)}
+                  accentColor={accent}
+                  showPassageAudio={passageAudioShown[i]}
+                />
+              </div>
+            );
+          })}
         </div>
 
         {/* Submit button */}
@@ -210,9 +242,11 @@ export default function PracticePage() {
               className={styles.submitButton}
               style={{ '--accent': accent }}
               onClick={handleSubmit}
-              disabled={!allAnswered}
             >
-              解答する（{questions.length}問）
+              {allAnswered
+                ? `解答する（${questions.length}問）`
+                : `未回答あり（${Object.keys(answers).length}/${questions.length}）`
+              }
             </button>
           </div>
         )}

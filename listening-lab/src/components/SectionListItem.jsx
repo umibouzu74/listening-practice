@@ -1,5 +1,19 @@
 import styles from './SectionListItem.module.css';
 
+function relativeTime(isoString) {
+  if (!isoString) return null;
+  const diff = Date.now() - new Date(isoString).getTime();
+  const minutes = Math.floor(diff / 60000);
+  if (minutes < 1) return 'たった今';
+  if (minutes < 60) return `${minutes}分前`;
+  const hours = Math.floor(minutes / 60);
+  if (hours < 24) return `${hours}時間前`;
+  const days = Math.floor(hours / 24);
+  if (days < 30) return `${days}日前`;
+  const months = Math.floor(days / 30);
+  return `${months}ヶ月前`;
+}
+
 export default function SectionListItem({ section, accentColor, onClick, history }) {
   const accent = accentColor || 'var(--color-accent)';
   const questionCount = section.questions?.length || 0;
@@ -31,6 +45,12 @@ export default function SectionListItem({ section, accentColor, onClick, history
               </span>
               <span className={styles.dot}>·</span>
               <span className={styles.attempts}>{history.attempts}回</span>
+              {history.lastAttempt && (
+                <>
+                  <span className={styles.dot}>·</span>
+                  <span className={styles.lastTime}>{relativeTime(history.lastAttempt)}</span>
+                </>
+              )}
             </>
           )}
         </div>

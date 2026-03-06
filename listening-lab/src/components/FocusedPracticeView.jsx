@@ -47,6 +47,33 @@ export default function FocusedPracticeView({
     setShowScript(false);
   }, [currentIndex]);
 
+  // Keyboard shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+      switch (e.key) {
+        case 'ArrowLeft':
+          e.preventDefault();
+          if (currentIndex > 0) setCurrentIndex((i) => i - 1);
+          break;
+        case 'ArrowRight':
+          e.preventDefault();
+          if (currentIndex < questions.length - 1) setCurrentIndex((i) => i + 1);
+          break;
+        case ' ':
+          e.preventDefault();
+          toggle();
+          break;
+        case 'Escape':
+          e.preventDefault();
+          onClose();
+          break;
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentIndex, questions.length, toggle, onClose]);
+
   // --- Seekbar drag ---
   const calcRatio = useCallback((clientX) => {
     const rect = progressRef.current?.getBoundingClientRect();

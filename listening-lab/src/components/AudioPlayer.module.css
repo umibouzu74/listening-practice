@@ -89,6 +89,20 @@
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
+/* Time row */
+.timeRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2px;
+  margin-bottom: 8px;
+}
+
+.time {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
 /* Controls row: [loop] [speed] [play] */
 .controlsRow {
   display: flex;
