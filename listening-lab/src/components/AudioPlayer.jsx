@@ -1,4 +1,4 @@
-import { useRef, useCallback } from 'react';
+import { useRef, useCallback, useEffect, useState } from 'react';
 import styles from './AudioPlayer.module.css';
 
 const SPEEDS = [0.75, 1.0, 1.25, 1.5];
@@ -13,22 +13,81 @@ function formatTime(seconds) {
 
 export default function AudioPlayer({ src, disabled = false, accentColor, audio }) {
   const progressRef = useRef(null);
+  const draggingRef = useRef(false);
+  const [dragProgress, setDragProgress] = useState(null);
+  const [showVolume, setShowVolume] = useState(false);
+  const volumeRef = useRef(null);
 
   const accent = accentColor || 'var(--color-accent)';
   const {
     isPlaying, currentTime, duration, progress,
-    playbackRate, error, play, pause, seek, reset, setSpeed,
+    playbackRate, volume, error, play, pause, seek, reset,
+    setSpeed, setVolume, abRepeat, toggleABPoint, clearAB,
   } = audio;
+
+  const displayProgress = dragProgress !== null ? dragProgress : progress;
+
+  // --- Seekbar drag ---
+  const calcRatio = useCallback((clientX) => {
+    const rect = progressRef.current?.getBoundingClientRect();
+    if (!rect) return 0;
+    return Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
+  }, []);
+
+  const handlePointerDown = useCallback((e) => {
+    if (disabled || !duration) return;
+    e.preventDefault();
+    draggingRef.current = true;
+    const ratio = calcRatio(e.clientX);
+    setDragProgress(ratio * 100);
+    document.addEventListener('pointermove', handlePointerMove);
+    document.addEventListener('pointerup', handlePointerUp);
+  }, [disabled, duration, calcRatio]);
+
+  const handlePointerMove = useCallback((e) => {
+    if (!draggingRef.current) return;
+    const ratio = calcRatio(e.clientX);
+    setDragProgress(ratio * 100);
+  }, [calcRatio]);
+
+  const handlePointerUp = useCallback((e) => {
+    if (!draggingRef.current) return;
+    draggingRef.current = false;
+    const ratio = calcRatio(e.clientX);
+    seek(ratio * (duration || 0));
+    setDragProgress(null);
+    document.removeEventListener('pointermove', handlePointerMove);
+    document.removeEventListener('pointerup', handlePointerUp);
+  }, [calcRatio, duration, seek, handlePointerMove]);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      document.removeEventListener('pointermove', handlePointerMove);
+      document.removeEventListener('pointerup', handlePointerUp);
+    };
+  }, [handlePointerMove, handlePointerUp]);
 
   const handleProgressClick = useCallback(
     (e) => {
-      if (disabled || !duration) return;
-      const rect = progressRef.current.getBoundingClientRect();
-      const ratio = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+      if (disabled || !duration || draggingRef.current) return;
+      const ratio = calcRatio(e.clientX);
       seek(ratio * duration);
     },
-    [disabled, duration, seek]
+    [disabled, duration, seek, calcRatio]
   );
+
+  // --- Volume popup close on outside click ---
+  useEffect(() => {
+    if (!showVolume) return;
+    const handleClick = (e) => {
+      if (volumeRef.current && !volumeRef.current.contains(e.target)) {
+        setShowVolume(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClick);
+    return () => document.removeEventListener('mousedown', handleClick);
+  }, [showVolume]);
 
   const cycleSpeed = useCallback(() => {
     const idx = SPEEDS.indexOf(playbackRate);
@@ -43,6 +102,16 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
   const skipForward = useCallback(() => {
     seek(Math.min(duration || 0, currentTime + SKIP_SEC));
   }, [currentTime, duration, seek]);
+
+  // Volume icon based on level
+  const volumeIcon = volume === 0 ? 'muted' : volume < 0.5 ? 'low' : 'high';
+
+  // A-B repeat label
+  const abLabel = abRepeat.a !== null && abRepeat.b !== null
+    ? 'A-B ✓'
+    : abRepeat.a !== null
+    ? 'A...'
+    : 'A-B';
 
   if (!src) {
     return (
@@ -60,6 +129,10 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
     );
   }
 
+  // A-B marker positions on the progress bar
+  const aPos = abRepeat.a !== null && duration > 0 ? (abRepeat.a / duration) * 100 : null;
+  const bPos = abRepeat.b !== null && duration > 0 ? (abRepeat.b / duration) * 100 : null;
+
   return (
     <div className={styles.wrapper}>
       {/* Progress bar */}
@@ -67,18 +140,39 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
         className={styles.progressTrack}
         ref={progressRef}
         onClick={handleProgressClick}
-        role="progressbar"
-        aria-valuenow={Math.round(progress)}
+        onPointerDown={handlePointerDown}
+        role="slider"
+        aria-valuenow={Math.round(displayProgress)}
         aria-valuemin={0}
         aria-valuemax={100}
+        aria-label="再生位置"
       >
+        {/* A-B repeat region highlight */}
+        {aPos !== null && bPos !== null && (
+          <div
+            className={styles.abRegion}
+            style={{
+              left: `${aPos}%`,
+              width: `${bPos - aPos}%`,
+              background: accent,
+            }}
+          />
+        )}
+        {/* A marker */}
+        {aPos !== null && (
+          <div className={styles.abMarker} style={{ left: `${aPos}%` }} title="A" />
+        )}
+        {/* B marker */}
+        {bPos !== null && (
+          <div className={styles.abMarker} style={{ left: `${bPos}%` }} title="B" />
+        )}
         <div
           className={styles.progressFill}
-          style={{ width: `${progress}%`, background: accent }}
+          style={{ width: `${displayProgress}%`, background: accent }}
         />
         <div
           className={styles.progressThumb}
-          style={{ left: `${progress}%`, borderColor: accent }}
+          style={{ left: `${displayProgress}%`, borderColor: accent }}
         />
       </div>
 
@@ -158,6 +252,78 @@ export default function AudioPlayer({ src, disabled = false, accentColor, audio 
             <path d="M3 4V8H7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
+      </div>
+
+      {/* Secondary controls: A-B repeat + Volume */}
+      <div className={styles.secondaryControls}>
+        <button
+          className={`${styles.abButton} ${abRepeat.a !== null ? styles.abActive : ''}`}
+          onClick={toggleABPoint}
+          disabled={disabled}
+          aria-label="A-Bリピート"
+          style={abRepeat.a !== null ? { borderColor: accent, color: accent } : undefined}
+        >
+          {abLabel}
+        </button>
+
+        {abRepeat.a !== null && (
+          <button
+            className={styles.abClearButton}
+            onClick={clearAB}
+            disabled={disabled}
+            aria-label="A-Bリピート解除"
+          >
+            ✕
+          </button>
+        )}
+
+        <div className={styles.volumeContainer} ref={volumeRef}>
+          <button
+            className={styles.volumeButton}
+            onClick={() => setShowVolume((v) => !v)}
+            disabled={disabled}
+            aria-label={`音量 ${Math.round(volume * 100)}%`}
+          >
+            {volumeIcon === 'muted' ? (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
+                <line x1="23" y1="9" x2="17" y2="15" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                <line x1="17" y1="9" x2="23" y2="15" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+              </svg>
+            ) : volumeIcon === 'low' ? (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
+                <path d="M14 9.5c.8.8 1.3 2 1.3 3.5s-.5 2.7-1.3 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              </svg>
+            ) : (
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
+                <path d="M14 9.5c.8.8 1.3 2 1.3 3.5s-.5 2.7-1.3 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                <path d="M17 7c1.3 1.3 2 3.1 2 5s-.7 3.7-2 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              </svg>
+            )}
+          </button>
+
+          {showVolume && (
+            <div className={styles.volumePopup}>
+              <input
+                type="range"
+                className={styles.volumeSlider}
+                min="0"
+                max="1"
+                step="0.05"
+                value={volume}
+                onChange={(e) => setVolume(parseFloat(e.target.value))}
+                aria-label="音量調整"
+                style={{
+                  '--volume-percent': `${volume * 100}%`,
+                  '--accent': accent,
+                }}
+              />
+              <span className={styles.volumeLabel}>{Math.round(volume * 100)}%</span>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

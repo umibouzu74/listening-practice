@@ -20,12 +20,18 @@
   border-radius: 3px;
   cursor: pointer;
   touch-action: none;
+  padding: 8px 0;
+  background-clip: content-box;
 }
 
 .progressFill {
-  height: 100%;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  height: 6px;
   border-radius: 3px;
   transition: width 0.1s linear;
+  pointer-events: none;
 }
 
 .progressThumb {
@@ -37,15 +43,43 @@
   border: 2px solid;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  transition: left 0.1s linear;
+  transition: left 0.1s linear, transform 0.15s;
   pointer-events: none;
+  z-index: 2;
+}
+
+.progressTrack:hover .progressThumb {
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+/* A-B repeat markers */
+.abRegion {
+  position: absolute;
+  top: 8px;
+  height: 6px;
+  border-radius: 3px;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.abMarker {
+  position: absolute;
+  top: 4px;
+  width: 3px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 1px;
+  transform: translateX(-50%);
+  pointer-events: none;
+  z-index: 2;
 }
 
 /* Time */
 .timeRow {
   display: flex;
   justify-content: space-between;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .time {
@@ -155,4 +189,150 @@
 
 .resetButton:disabled {
   opacity: 0.4;
+}
+
+/* Secondary controls row */
+.secondaryControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+/* A-B repeat button */
+.abButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.abButton:hover:not(:disabled) {
+  border-color: var(--color-border-hover);
+  color: var(--color-text-primary);
+}
+
+.abButton.abActive {
+  border-color: currentColor;
+}
+
+.abButton:disabled {
+  opacity: 0.4;
+}
+
+.abClearButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  transition: color 0.15s;
+}
+
+.abClearButton:hover:not(:disabled) {
+  color: var(--color-text-primary);
+}
+
+/* Volume */
+.volumeContainer {
+  position: relative;
+  margin-left: auto;
+}
+
+.volumeButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 32px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text-muted);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.volumeButton:hover:not(:disabled) {
+  border-color: var(--color-border-hover);
+  color: var(--color-text-primary);
+}
+
+.volumeButton:disabled {
+  opacity: 0.4;
+}
+
+.volumePopup {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.volumeSlider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(
+    to right,
+    var(--accent, var(--color-accent)) 0%,
+    var(--accent, var(--color-accent)) var(--volume-percent, 100%),
+    rgba(255, 255, 255, 0.1) var(--volume-percent, 100%),
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  outline: none;
+}
+
+.volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid var(--accent, var(--color-accent));
+  cursor: pointer;
+}
+
+.volumeSlider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: white;
+  border: 2px solid var(--accent, var(--color-accent));
+  cursor: pointer;
+}
+
+.volumeLabel {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-text-muted);
+  min-width: 32px;
+  text-align: right;
 }
