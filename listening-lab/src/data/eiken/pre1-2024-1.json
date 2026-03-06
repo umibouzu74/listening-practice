@@ -22,169 +22,181 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2024-1/02_No1.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man imply?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The kitchen repair is not necessary." },
+            { "label": "2", "text": "The woman is partly to blame." },
+            { "label": "3", "text": "The sink will have to be replaced." },
+            { "label": "4", "text": "The problem will occur again." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "男性の最後の発言で「それを避ける方法はない。ときおり対処しなければならなくなる」と述べている。it が指す内容は、タイルがゆるむという問題である。よって、4「問題は再び起こるだろう」が正解。3については、男性の最初の発言で「取り替える必要がある」と述べているのは「タイルのいくつか」のことだから、不適切。",
+          "script": "W: Greg, a bunch of the tiles around the sink are coming loose.\nM: I noticed that. Some of them need to be replaced.\nW: Can you take care of it?\nM: Yes, but we won't be able to use the sink for a couple of days.\nW: We only had the kitchen redone two years ago. It seems too soon for this.\nM: Well, there's not really any way to avoid it. It's probably something we'll have to deal with every so often."
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2024-1/03_No2.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man tell the woman?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Room fees are higher on weekends." },
+            { "label": "2", "text": "Weekday bookings are not available." },
+            { "label": "3", "text": "The reservation cannot be changed." },
+            { "label": "4", "text": "The hotel has increased all of its prices." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "男性は2番目の発言第2文で「追加の料金がかかる」と述べ、最後の発言の第2文で「平日だけの滞在から週末をまたぐ滞在に変更しようとしている」ことを理由として述べている。これらの内容から判断すると、1「部屋の料金は週末の方が高い」が適切とわかる。2と3については、男性の2番目の発言第1文に合致しない。4の内容は述べられていない。",
+          "script": "W: Hello. I'd like to make a change to my hotel reservation.\nM: OK. What can I help with?\nW: When I made my reservation, I booked my stay for five days starting on April 15, but I need to change that to April 19.\nM: I can definitely do that. However, there will be an extra charge.\nW: Why is that?\nM: There's no charge for changing reservations. But you're shifting from a weekday-only stay to one that goes over the weekend."
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2024-1/04_No3.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man say about the marathon?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "There might not be enough water provided." },
+            { "label": "2", "text": "It might be canceled because of the weather." },
+            { "label": "3", "text": "His knee could be an issue." },
+            { "label": "4", "text": "He did not train enough." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性は2番目の発言で、ひざが問題を起こさない限りは、すべてうまくいくと述べ、ひざが事故から完全に回復してはいないと述べている。したがって、3「彼のひざが問題になり得る」が正解となる。1については、女性が2番目の発言第2文で、給水所は複数あると述べたのに対して、男性は反論していないのだから不適切。2については男性の最初の発言に合致しない。4については、女性が最初の発言第2文で、男性が何カ月も準備してきたと述べたのに対して、男性は否定していないのだから不適切。",
+          "script": "W: Are you ready for your marathon this weekend? I know you've been preparing for months.\nM: Yeah. The weather forecast looks great, and I know you'll be there cheering me on.\nW: You bet. There'll be places for you to get water, but I'll also give you some energy bars.\nM: Everything will be great as long as my knee doesn't cause problems. It's feeling strong right now, but it hasn't fully recovered from my accident.\nW: If it's hurting at any point, you should stop."
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2024-1/05_No4.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the woman likely do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Go home by a different route from usual." },
+            { "label": "2", "text": "Drive part of the way on Highway 402." },
+            { "label": "3", "text": "Avoid driving on Kent Street." },
+            { "label": "4", "text": "Stay at work until the accident is cleared." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "男性が最後の発言で「ケント・ストリートで迂回できる」と述べたのを受けて、女性が「それはいい考えだ」と述べていることから、1「いつもと違う道を通って帰宅する」が正解。2については、男性が最初の発言第3文で「ハイウェイ402号線は完全に避けるように」と述べているので不適切である。",
+          "script": "W: Good night, Karim. See you in the morning.\nM: Good night. Oh, you drove to the office today, right? Make sure you avoid Highway 402 completely.\nW: Why's that?\nM: Apparently, there was a major collision near Maple Boulevard.\nW: Are you serious? That's my exit.\nM: Well, you could make a detour on Kent Street instead.\nW: That's a good idea. It's a few miles longer, but it's better than sitting in traffic."
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2024-1/06_No5.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What do the man and the woman decide to do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Get information about cleaning the machine." },
+            { "label": "2", "text": "Look for a new washing machine." },
+            { "label": "3", "text": "Go back to their previous laundry soap." },
+            { "label": "4", "text": "Ask someone to repair the machine." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "男性が2番目の発言第2文で「オンラインで、やり方のヒントがあるかどうか確認する」と述べたのに対して、女性は最後の発言第1文でそれに同意し、第2文で「うまくいくといい」と述べている。男性の発言中の how to do it とは、女性の2番目の発言第2文の「それ（洗濯機）を酢か何かで洗うべきだ」という発言を受けたもの。よって、1「洗濯機の掃除について情報を得る」が正解。3については、女性は初め、変なにおいは洗濯石けんのせいだと考えていたが、男性が「洗濯機に生えたカビ」が原因ではないかと述べ、それに同意しているのだから、不適切。2と4については、女性の最後の発言第3文から不適切とわかる。",
+          "script": "W: I don't like this laundry soap you bought. Our clothes smell strange.\nM: Are you sure it's the detergent? I think we might have mold growing in our machine.\nW: I never thought of that. Maybe we should wash it out with vinegar or something.\nM: Good idea. I'll check online and see if I can get some tips on how to do it.\nW: OK. I hope it works. I'd hate to pay a lot of money for a professional cleaner to do it, much less buy a new machine."
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2024-1/07_No6.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is one thing the woman says?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She finds the gym classes too tiring." },
+            { "label": "2", "text": "The gym has become very expensive." },
+            { "label": "3", "text": "She wants to join a different gym." },
+            { "label": "4", "text": "She cannot find time to go to the gym." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "男性が2番目の発言第3文で「それら（朝のクラス）に飽きたのか」と尋ねると、女性は「最近、時間がないだけだ」と答えている。よって、4「彼女はジムに行く時間がない」が正解で、1は不適切とわかる。2と3については、女性は言及していない。",
+          "script": "M: Our gym membership is expiring next month. Do you want to renew? I'm pretty sure the cost hasn't changed.\nW: I don't know. I'm there so infrequently.\nM: I haven't been there since I started running, so I'm going to let mine expire. You used to take morning classes every week. Have you gotten tired of them?\nW: I just haven't been able to find the time lately. I have all those early meetings.\nM: Well, think it over and let me know what you decide."
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2024-1/08_No7.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why is the man upset with the woman?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She blamed him for the mess." },
+            { "label": "2", "text": "She does not want to study with him." },
+            { "label": "3", "text": "She does not keep the shared space clean." },
+            { "label": "4", "text": "She stays out late with her friends." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性は最初の発言第1文で、女性に片付けるよう頼むと、女性は「今日の夜やる」と応じる。男性が2番目の発言で、午後に来客があるからと言って、共有スペースをきれいにするよう再び頼むと、女性は「次はやるから、今回だけは片付けてくれないか」と応じる。それに対して、男性は最後の発言で「いや。もう君の代わりに片付けるつもりはない」と応じている。これらのやりとりから女性が共有スペースを片付けないのは今回が初めてではないことがわかり、3「彼女は共有スペースをきれいにしておかない」が適切である。",
+          "script": "M: Dana, can you tidy up, please? Your friends left a huge mess here last night.\nW: Sure, Mark. I'll do it this evening after I get back from my chemistry class.\nM: I'm having people over to study in the living room this afternoon. I don't think it's too much to ask that we both keep the common areas clean.\nW: You know I'm busy studying for finals. Can't you just tidy up this time? I'll do it next time, I promise.\nM: No. I'm not cleaning up for you anymore."
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2024-1/09_No8.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man say about today's lunch?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Hot food will not be served." },
+            { "label": "2", "text": "The catering company has changed." },
+            { "label": "3", "text": "Dessert is not included." },
+            { "label": "4", "text": "It will be served later than planned." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "男性の最初の発言第2文で「オーブンに問題があるため、ラザニアがハムサンドイッチになった」と述べていることから、1「温かい食事は提供されない」と推測できる。2については、男性の最後の発言から、今日のところはケータリング会社を変えないとわかるので不適切。3については、男性の最初の発言第3文に合致しない。4については、男性は最初の発言第1文で、時刻について述べているが、遅れがあるとは述べていないのだから、不適切である。",
+          "script": "W: Do you know what time the catering company will be bringing the food for lunch during today's workshop?\nM: At eleven, but there's been a change in the menu. The lasagna has been replaced by ham sandwiches because of a problem with their ovens. Dessert will still be vanilla ice cream.\nW: We really need to find a new catering service. We keep having these problems. Last time, they didn't even bring enough food for everyone attending.\nM: I agree. Let's get through today and then look into other companies."
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2024-1/10_No9.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What problem did the professor find with the man's paper?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It was about the wrong topic." },
+            { "label": "2", "text": "It was uploaded to the wrong web page." },
+            { "label": "3", "text": "It was not formatted correctly." },
+            { "label": "4", "text": "It did not have good research sources." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "女性の2番目の発言で、本文の字間を変えることと、フォントサイズを12ポイントの大きさにすることを指示している。字間や文字の大きさは、論文の体裁に関することだから、3「正しい体裁に整えられていなかった」が正解。1、2、4については、述べられていない。",
+          "script": "M: Professor Kendall, I went over the comments you left on my paper. Can I ask you some clarifying questions?\nW: Sure.\nM: You said we should follow the style guide specified on the course web page. So, I looked up how to make the citations list according to those guidelines. But, from your comment, it sounds like I did something wrong?\nW: Your citations list is OK, but the body of your paper needs to be spaced differently. And the size of the font is too small. Please use 12-point size.\nM: Ah, OK. Now I understand."
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2024-1/11_No10.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man want to know more about?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Requesting time off from work." },
+            { "label": "2", "text": "Giving his coworkers gifts." },
+            { "label": "3", "text": "Traveling with a food allergy." },
+            { "label": "4", "text": "The woman's upcoming vacation." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性は最初の発言第3・4文で、休暇のおみやげについて職場の習慣を尋ねている。男性の2番目の発言第3文の質問も、おみやげに関連して、食べ物の制限やアレルギーがあるかどうかを尋ねている。よって、2「同僚におみやげをあげること」が正解。放送文の souvenirs を、選択肢では gifts と言い換えている。",
+          "script": "W: You're leaving on vacation soon, right?\nM: Yeah. Tomorrow is my last day in the office for two weeks! But that reminds me—what's the protocol around here for souvenirs? Am I expected to bring something for everyone? This is my first vacation since I started working here.\nW: You're so nice to ask! Some people bring back local treats and leave them in the break room for everyone to share.\nM: OK. I'll stick with food, then. Any dietary restrictions or allergies I should know about?\nW: Not that I'm aware of."
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2024-1/12_No11.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why was the man happy to see Pei-Ling?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He wanted to study with her." },
+            { "label": "2", "text": "He hoped she could open the door." },
+            { "label": "3", "text": "She had Kayla's phone number." },
+            { "label": "4", "text": "She planned the meeting he was going to." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性は最初の発言で、ペイリンに会えてよかったと述べたあと、建物に入れないことを説明して、ペイリンに向かってキーコードを知っているかと尋ねている。したがって、2「彼は彼女がドアを開けられると期待していた」が正解。1については、男性の発言から、会議に参加しようとしていることがわかるので、誤り。3と4については、女性の発言に関連しているが、男性は言及していない。",
+          "script": "M: Ah, Pei-Ling, I'm glad to see you! I can't get into the building, and our meeting is about to start. Do you know the keycode?\nW: Oh no. I don't have the code either. I'm surprised it's locked. I thought there were night classes in this building.\nM: Me, too. I wonder if the others were able to get in or if they're also locked out but at a different entrance.\nW: I'll text Kayla. She made the arrangements for the meeting space with the university administrators. She'll know what to do."
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2024-1/13_No12.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What do we learn about the man?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He is good at looking after children." },
+            { "label": "2", "text": "He is new to the neighborhood." },
+            { "label": "3", "text": "He led the meeting last Friday." },
+            { "label": "4", "text": "He used to work for the local government." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "女性が2番目の発言第2文で、男性に対して、「市役所での過去の職務経験から、貴重な視点をもたらしてくれる」と述べている。この内容から、4「以前に地方自治体で働いていた」が適切とわかる。放送文の the city government を、選択肢では the local government と言い換えている。",
+          "script": "W: Will you be joining us for the neighborhood meeting on Friday afternoon, Russell?\nM: Unfortunately, I don't think so. My kid's school doesn't have an after-school program, so I have to pick her up at four o'clock sharp.\nW: That's too bad. You bring such a valuable perspective with your past work experience in the city government.\nM: I could come late, but I don't know how long I'd be able to stay. My daughter will get impatient—she's only six.\nW: Maybe we should consider providing childcare for our meetings. Then, more neighbors with children might come."
         }
       ]
     },
@@ -201,16 +213,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/16_No13.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker imply about pesticides?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They are not able to fully control locusts." },
+            { "label": "2", "text": "They are not safe to put on crops." },
+            { "label": "3", "text": "Better ones may soon be developed." },
+            { "label": "4", "text": "Their effects are often difficult to predict." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "殺虫剤については、第1段第3文で「殺虫剤を使って駆除しようとしても、イナゴは素早く移動して繁殖し、その動きは予測できないので、成功は限られている」と言及されていることから、1「イナゴを完全に制御することはできない」が正解。3については、同段最終文で「科学者たちはこの性質を利用することに可能性を見出している」と述べられているが、this tendency とはイナゴの性質であって、殺虫剤とは無関係なので誤り。4については、同段第3文で「予測が難しい」と述べているのは「イナゴの動き」であり、殺虫剤の効果ではない。",
+          "script": "Locust Swarms\n\nSwarms of grasshoppers known as locusts have been notorious throughout history for completely destroying crops. In a single day, a relatively small group of these insects can eat through enough food to feed tens of thousands of people. Despite attempts to control them with pesticides, locusts travel and reproduce quickly and are unpredictable in their movements, so success has been limited. However, locusts are known to even eat each other, and scientists see promise in exploiting this tendency.\n\nAs locust swarms develop, the insects emit a chemical that makes them less likely to eat one another. This enables the group to grow without destroying itself. Researchers experimented by editing locust DNA. When locusts were created without the ability to smell this chemical, their likelihood of consuming other locusts increased. Similarly, locusts that were engineered not to produce the chemical were more likely to become another's meal. Scientists hope these techniques can reduce or eliminate destructive locusts someday."
         },
         {
           "id": "q14",
@@ -218,16 +230,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/17_No14.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What do we learn about the chemical produced by locusts?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It prevents locusts from killing each other." },
+            { "label": "2", "text": "It increases locusts' ability to smell food sources." },
+            { "label": "3", "text": "It can cause locust swarms to break up." },
+            { "label": "4", "text": "It causes locusts to quickly grow in size." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第2段第1文で「イナゴは共食いする可能性を低くする化学物質を放出する」と述べられているから、1「イナゴが互いに殺し合うのを防ぐ」が正解。放送文の eat one another を、選択肢では kill each other と言い換えている。3については、同段第2文によって「群れは自らを破壊することなく成長することが可能になる」という内容と正反対になっているので誤り。",
+          "script": "Locust Swarms\n\nSwarms of grasshoppers known as locusts have been notorious throughout history for completely destroying crops. In a single day, a relatively small group of these insects can eat through enough food to feed tens of thousands of people. Despite attempts to control them with pesticides, locusts travel and reproduce quickly and are unpredictable in their movements, so success has been limited. However, locusts are known to even eat each other, and scientists see promise in exploiting this tendency.\n\nAs locust swarms develop, the insects emit a chemical that makes them less likely to eat one another. This enables the group to grow without destroying itself. Researchers experimented by editing locust DNA. When locusts were created without the ability to smell this chemical, their likelihood of consuming other locusts increased. Similarly, locusts that were engineered not to produce the chemical were more likely to become another's meal. Scientists hope these techniques can reduce or eliminate destructive locusts someday."
         },
         {
           "id": "q15",
@@ -235,16 +247,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/19_No15.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Why have golden-shouldered parrots' numbers decreased?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They are unable to run away from predators." },
+            { "label": "2", "text": "The grasses they consume are disappearing." },
+            { "label": "3", "text": "Other birds are using their nests." },
+            { "label": "4", "text": "Other animal species are increasing in number." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段第2文で「ヒスイインコが直面している脅威はティーツリーである」と述べられている。続く第3文・最終文で「木々によって視界が遮られ、ヒスイインコは捕食動物に気づくのが遅れて逃げられない」という内容が述べられている。よって、1「捕食動物から逃げることができない」が正解。",
+          "script": "Golden-Shouldered Parrots\n\nGolden-shouldered parrots once inhabited northern Australia in large numbers, but today, only two small populations remain. While invasive predators are often to blame when Australian animals become endangered, the parrots face a different threat—native tea trees. The trees grow in the parrots' grassland habitat, where they block the birds' view of approaching predators. By the time the parrots notice the attack, it is often too late for them to escape.\n\nThe tea trees' growth is the result of cattle farms, which increased throughout the 1900s and forced indigenous peoples off their lands. These peoples had managed the grasslands, and the shade provided by the grasses prevented tea-tree growth. The loss of this land management, along with the cattle's consumption of grass, allowed the trees to spread. Efforts to clear the trees are underway, but obtaining government approval to destroy native vegetation can be difficult and time-consuming. For now, the parrots' future remains uncertain."
         },
         {
           "id": "q16",
@@ -252,16 +264,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/20_No16.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing the speaker says about the tea trees?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Shady conditions do not prevent their growth." },
+            { "label": "2", "text": "They have prevented cattle farms from expanding." },
+            { "label": "3", "text": "The government has tried to plant more of them." },
+            { "label": "4", "text": "It is not easy to get rid of them." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第2段第4文の後半で「在来植物を駆除する承認を政府から得るのは難しく、時間がかかる可能性がある」と述べられている。ティーツリーは在来植物に属していることは、第1段第2文で native tea trees と述べていることから明らかである。したがって、4「それを取り除くのは容易ではない」が正解。1については、第2段第2文後半で「草が作る日陰がティーツリーの成長を妨げていた」と述べられているので逆であり不適切。2については、第2段第1文で「ティーツリーの繁茂は畜牛農場によるもの」と述べられているので不適切。",
+          "script": "Golden-Shouldered Parrots\n\nGolden-shouldered parrots once inhabited northern Australia in large numbers, but today, only two small populations remain. While invasive predators are often to blame when Australian animals become endangered, the parrots face a different threat—native tea trees. The trees grow in the parrots' grassland habitat, where they block the birds' view of approaching predators. By the time the parrots notice the attack, it is often too late for them to escape.\n\nThe tea trees' growth is the result of cattle farms, which increased throughout the 1900s and forced indigenous peoples off their lands. These peoples had managed the grasslands, and the shade provided by the grasses prevented tea-tree growth. The loss of this land management, along with the cattle's consumption of grass, allowed the trees to spread. Efforts to clear the trees are underway, but obtaining government approval to destroy native vegetation can be difficult and time-consuming. For now, the parrots' future remains uncertain."
         },
         {
           "id": "q17",
@@ -269,16 +281,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/22_No17.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker imply about space travel?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Astronauts frequently need to resupply." },
+            { "label": "2", "text": "Its funding has been increased recently." },
+            { "label": "3", "text": "It is difficult to bring everything needed." },
+            { "label": "4", "text": "It is receiving little public support." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段第3文の主節で「宇宙船による非常に長い旅そのものが深刻な問題を引き起こす」と述べ、続く第4文で「多くの機器が必要となるが、1キログラムのものを宇宙へ運ぶのに数万ドルかかる可能性がある」と述べている。よって、3「必要なものすべてを運ぶのは難しい」が適切と判断できる。1については、頻度に関する言及がないので不適切。2と4については言及されていない。",
+          "script": "Astronaut Efficiency\n\nRecently, establishing a colony on Mars has been considered by some as a near-future goal for humanity. However, there are many major hurdles to such a task. Aside from the technical innovations required to build a sustainable habitat, such a long journey by spacecraft itself raises serious problems. Much equipment would be necessary, but it can currently cost tens of thousands of dollars to lift a single kilogram into space. The European Space Agency published a study suggesting a way to maximize efficiency.\n\nBased on its calculations, all-female crews may be much more efficient. Due to their smaller average size, a four-female crew would need about 1,700 kilograms less food than men for a 1,080-day mission, saving $158 million. Additionally, smaller bodies use less energy, so they consume less water and oxygen and produce less carbon dioxide. On long missions, seemingly small differences could result in big advantages."
         },
         {
           "id": "q18",
@@ -286,16 +298,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/23_No18.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing we learn about male astronauts?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They are smaller than average men." },
+            { "label": "2", "text": "They need more resources than female astronauts." },
+            { "label": "3", "text": "They are better suited for long missions." },
+            { "label": "4", "text": "They make up the majority of astronauts." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第2段第2文で「女性の方が食料が少なくてすむため、全員女性乗務員の場合は資金を大幅に節約できる」という内容が述べられている。よって、2「女性宇宙飛行士よりも資金を必要とする」が正解。1については、女性宇宙飛行士のことを述べており、質問が「男性宇宙飛行士について」であるから不適切。3と4については言及されていない。",
+          "script": "Astronaut Efficiency\n\nRecently, establishing a colony on Mars has been considered by some as a near-future goal for humanity. However, there are many major hurdles to such a task. Aside from the technical innovations required to build a sustainable habitat, such a long journey by spacecraft itself raises serious problems. Much equipment would be necessary, but it can currently cost tens of thousands of dollars to lift a single kilogram into space. The European Space Agency published a study suggesting a way to maximize efficiency.\n\nBased on its calculations, all-female crews may be much more efficient. Due to their smaller average size, a four-female crew would need about 1,700 kilograms less food than men for a 1,080-day mission, saving $158 million. Additionally, smaller bodies use less energy, so they consume less water and oxygen and produce less carbon dioxide. On long missions, seemingly small differences could result in big advantages."
         },
         {
           "id": "q19",
@@ -303,16 +315,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/25_No19.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing that we learn about the Oxus civilization?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It may have influenced cultures across much of Asia." },
+            { "label": "2", "text": "None of its buildings have been found." },
+            { "label": "3", "text": "It lasted longer than other civilizations." },
+            { "label": "4", "text": "It is not well understood by researchers." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第1段第2文の主節で「それについては多くが不明のままである」と述べられている。it はオクサス文明を指しているから、4「研究者たちはそれをよく理解していない」が正解。放送文の much remains unknown は、選択肢では is not well understood と表現されている。2については、同段第2文の despite 句で述べられている内容と合致しない。1と3については言及されていない。",
+          "script": "The Oxus Civilization\n\nThe Oxus civilization was a Bronze Age society located in Central Asia. However, despite several archaeological sites being discovered that contain structures and various artifacts, compared to many other Bronze Age civilizations, much remains unknown about it. Scholars are not even sure how far the civilization extended. They are determined to learn more about the ancient society, though, and recent research has produced various theories about its history.\n\nArtifacts uncovered by archaeologists suggest that the society underwent major changes before vanishing. Objects that indicated social status seemed to have stopped being used, suggesting a shift in the power structure. Therefore, some scholars think the civilization's fall may have been sparked by social and political changes. Others have a different theory. The region in which the civilization was located was extremely dry. Some researchers argue that increasing desertification and other environmentally related factors were responsible for the disappearance of the Oxus society."
         },
         {
           "id": "q20",
@@ -320,16 +332,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/26_No20.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing researchers disagree about regarding the Oxus civilization?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "How much power it had in the region." },
+            { "label": "2", "text": "How much importance it placed on social status." },
+            { "label": "3", "text": "What caused it to eventually disappear." },
+            { "label": "4", "text": "What environmental problems it had." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第2段第3文で「一部の学者は、文明の滅亡は社会的・政治的変化によって引き起こされた可能性があると考えている」と述べられ、続く第4文〜最終文で「他の研究者たちは、砂漠化や他の環境的要因によってオクサス社会が消滅したと主張している」と述べられている。よって、3「最終的にそれを消滅させたのは何か」が正解。",
+          "script": "The Oxus Civilization\n\nThe Oxus civilization was a Bronze Age society located in Central Asia. However, despite several archaeological sites being discovered that contain structures and various artifacts, compared to many other Bronze Age civilizations, much remains unknown about it. Scholars are not even sure how far the civilization extended. They are determined to learn more about the ancient society, though, and recent research has produced various theories about its history.\n\nArtifacts uncovered by archaeologists suggest that the society underwent major changes before vanishing. Objects that indicated social status seemed to have stopped being used, suggesting a shift in the power structure. Therefore, some scholars think the civilization's fall may have been sparked by social and political changes. Others have a different theory. The region in which the civilization was located was extremely dry. Some researchers argue that increasing desertification and other environmentally related factors were responsible for the disappearance of the Oxus society."
         },
         {
           "id": "q21",
@@ -337,16 +349,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/28_No21.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing we learn about the city of Nukus?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It was founded by Igor Savitsky." },
+            { "label": "2", "text": "It receives relatively few tourists." },
+            { "label": "3", "text": "It was once the capital of Uzbekistan." },
+            { "label": "4", "text": "It is home to many famous artists." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段第3文の Despite 句で「町の観光産業が小規模であるにもかかわらず」と述べられていることから、2「訪れる観光客は比較的少ない」が正解となる。1については、同段最終文に美術館の創設者がイゴール・サヴィツキーだと述べられているが、町を建設したとは述べられていないので不適切。3と4については言及されていない。",
+          "script": "The Nukus Museum of Art\n\nPopular cities for international tourists, such as London or Paris, often have world-famous museums. Nukus, however, is a lesser-known city in a remote area of Uzbekistan. Despite the city's smaller tourism industry, the Nukus Museum of Art has one of the world's foremost collections of avant-garde art. The museum's founder, Igor Savitsky, assembled his collection in the desert city of Nukus for a good reason.\n\nBecause of the severe political situation at the time, much of the art was banned when Savitsky collected it. In fact, only art in the style of Soviet realism was allowed. However, Savitsky was able to acquire tens of thousands of forbidden works because of his determination and because of Nukus's location. Government authorities far away in Tashkent and Moscow were largely unaware of his actions. These days, the government recognizes the value of the collection, but managing it effectively in such a location is a challenge."
         },
         {
           "id": "q22",
@@ -354,16 +366,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/29_No22.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is unique about much of the art owned by the Nukus Museum?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It contains strong political themes." },
+            { "label": "2", "text": "It was all created by the same man." },
+            { "label": "3", "text": "It was not allowed by the government." },
+            { "label": "4", "text": "It is in the style of Soviet realism." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第2段第1文で「当時の厳しい政治情勢が理由で、芸術の多くが禁止されていた」と述べられ、同段第3文で「サヴィツキーは禁じられていた数万点もの作品を手に入れることができた」と述べられていることから、3「政府に許可されていなかった」が正解。4については、第2段第2文で当時許可されていたのがソビエトの写実主義様式と述べられているが、ヌクス美術館はむしろ禁じられていた芸術作品を所有しているのだから不適切である。",
+          "script": "The Nukus Museum of Art\n\nPopular cities for international tourists, such as London or Paris, often have world-famous museums. Nukus, however, is a lesser-known city in a remote area of Uzbekistan. Despite the city's smaller tourism industry, the Nukus Museum of Art has one of the world's foremost collections of avant-garde art. The museum's founder, Igor Savitsky, assembled his collection in the desert city of Nukus for a good reason.\n\nBecause of the severe political situation at the time, much of the art was banned when Savitsky collected it. In fact, only art in the style of Soviet realism was allowed. However, Savitsky was able to acquire tens of thousands of forbidden works because of his determination and because of Nukus's location. Government authorities far away in Tashkent and Moscow were largely unaware of his actions. These days, the government recognizes the value of the collection, but managing it effectively in such a location is a challenge."
         },
         {
           "id": "q23",
@@ -371,16 +383,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/31_No23.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one problem with requiring that people cut their grass?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "People rarely cooperate with it." },
+            { "label": "2", "text": "It may cause an increase in pollution." },
+            { "label": "3", "text": "It unfairly targets the technology industry." },
+            { "label": "4", "text": "There are many areas that need more grass." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段第2・3文で、機械式の草刈り機は化石燃料を動力源にするのが一般的で、二酸化炭素の排出を削減しようという努力を無視してしまうことになると述べられている。これは、草刈りを義務づけることが二酸化炭素の排出を増加させてしまうということを意味している。よって、二酸化炭素の排出を汚染と言い換えた、2「汚染を増加させる可能性がある」が正解。",
+          "script": "Cutting Grass\n\nIn many places, it is illegal to let lawns or other grassy areas become overgrown. However, while most people are striving to reduce their carbon dioxide emissions, mechanical lawn mowers are generally powered by fossil fuels. This means property owners often disregard these environmental concerns. Now, though, a low-tech solution is catching on in areas across the United States: \"rent-a-goat\" services. These bring herds of goats to remove excess grass simply by eating it.\n\nThe goats are effective at removing unwanted vegetation. They also have an easy time navigating rough terrain, such as rocky hillsides. Businesses and property owners that have rented goat herds to help maintain their lawns also report increased interest from the community. The unusual sight of a herd of goats in locations like city parks can turn them into temporary attractions. These are popular with local families, who bring their children to watch them work."
         },
         {
           "id": "q24",
@@ -388,16 +400,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/32_No24.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-1/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one benefit of using goats to remove grass?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They are a source of entertainment for communities." },
+            { "label": "2", "text": "They prevent areas from becoming overly rocky." },
+            { "label": "3", "text": "They can boost the productivity of gardens." },
+            { "label": "4", "text": "They are less likely to cause harm to children." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第2段第3文〜最終文で、公園などにヤギの群れがいる珍しい光景が人気になって、地元の家族連れなどが訪れているという内容が述べられている。したがって、1「ヤギは地域社会の娯楽の源を提供する」が正解。2については、第2文でヤギが岩地でも容易に移動できると述べられているが、岩地になるのを防ぐとは述べられていない。",
+          "script": "Cutting Grass\n\nIn many places, it is illegal to let lawns or other grassy areas become overgrown. However, while most people are striving to reduce their carbon dioxide emissions, mechanical lawn mowers are generally powered by fossil fuels. This means property owners often disregard these environmental concerns. Now, though, a low-tech solution is catching on in areas across the United States: \"rent-a-goat\" services. These bring herds of goats to remove excess grass simply by eating it.\n\nThe goats are effective at removing unwanted vegetation. They also have an easy time navigating rough terrain, such as rocky hillsides. Businesses and property owners that have rented goat herds to help maintain their lawns also report increased interest from the community. The unusual sight of a herd of goats in locations like city parks can turn them into temporary attractions. These are popular with local families, who bring their children to watch them work."
         }
       ]
     },
@@ -413,80 +425,85 @@
           "number": 25,
           "audio": "audio/eiken/eiken-pre1-2024-1/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do last?",
+          "promptJa": "あなたたち一家は今日客を迎えることになっている。あなたは今日の早い時間に青いタオルを使用し、今は汚れている。母親があなたに次のように言う。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Make the bed with clean bedding." },
+            { "label": "2", "text": "Start the washing machine." },
+            { "label": "3", "text": "Clean the bathroom." },
+            { "label": "4", "text": "Hang the towels back up." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "最後にするべきことが問われている。第2〜4文から、まず使用済みの寝具を外し、それらを洗濯し、その間に予備の寝具類でベッドメーキングをするとわかる。第5文で、バスルームの汚れたタオルも洗濯機に入れるように指示される。第6文では、青いタオルが清潔ならばバスルームに掛けるよう指示されるが、状況の説明文より、あてはまらない。最終文で、青いタオルが汚れているならば洗濯して、それが乾いたら出すように言われる。洗濯機から取り出した青いタオルは、最終的にはバスルームに掛けることになるのだから、4「タオルを掛け直す」が正解。",
+          "script": "Can you get the guest bedroom ready? Please take the used bedding off and wash it. You don't need to wait to remake the bed, though—there are spare sheets and a quilt in the closet. Make the bed with them while the other bedding is being washed. Oh, before you start the washing machine, can you throw in the dirty towels from the bathroom? If the nice blue towels are clean, hang them in the bathroom. If not, wait until the laundry is dry, then put them out."
         },
         {
           "id": "q26",
           "number": 26,
           "audio": "audio/eiken/eiken-pre1-2024-1/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do next?",
+          "promptJa": "あなたは初めてテレビゲームをすることになっている。あなたの友人が教えてくれると言っている。あなたはもうすでにログインしている。友人があなたに次のように言う。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Create a user profile." },
+            { "label": "2", "text": "Choose the number of players." },
+            { "label": "3", "text": "Select the mode of play." },
+            { "label": "4", "text": "Start building a new world." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1文で、ユーザープロフィールを設定後にログインすると述べられている。すでにログインしているという状況から、1は不適切。第2文から、ログインの次にするべきこととして、2「プレーヤーの人数を選ぶ」が正解とわかる。3・4については、第4・5文からプレーヤーの人数を選んだあとのことだとわかるので不適切。",
+          "script": "The first step is to set up a user profile and then use that profile to log in. Once you're logged in, you have to choose if you want to play single-player or with others. Since you'll be playing with me, choose \"two players.\" There are also two different modes of play—\"building,\" which is just creating new worlds, and \"competing,\" which is fighting against characters in the game. Let's do \"building,\" OK? I think it's more fun and easier to learn."
         },
         {
           "id": "q27",
           "number": 27,
           "audio": "audio/eiken/eiken-pre1-2024-1/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "How should you get to the hotel?",
+          "promptJa": "あなたは旅行中で、空港からリーガルホテルへ行く必要がある。あなたは歩く距離が最短のルートを選びたい。インフォメーションカウンターの従業員があなたに次のように言う。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Take the Silver Arrow." },
+            { "label": "2", "text": "Take the Metro South Line." },
+            { "label": "3", "text": "Take the Orange Line." },
+            { "label": "4", "text": "Take the Blue Line." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "徒歩の距離に注意しながら確認する。第3文は1の説明で4ブロック。第4文は2の説明で6ブロック。第6文の前半は3の説明で4ブロック。第6文の後半は4の説明で約2ブロック。したがって、4「ブルー・ラインに乗る」が最短とわかる。",
+          "script": "The Regal Hotel? OK, you have a few choices. The Silver Arrow is a direct bus from the airport to Downtown Center, which is a four-block walk to the Regal. Next, it's a bit farther—six blocks, I think—from the commuter train station where the Metro South Line ends, Lincoln Terminal. If you don't mind taking the subway, the Regal Hotel is situated between two stations. You can take the Orange Line to Standish Street Station and walk four blocks, or the Blue Line to Franklin Square, which is about two blocks. Hope you have a good stay!"
         },
         {
           "id": "q28",
           "number": 28,
           "audio": "audio/eiken/eiken-pre1-2024-1/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which item should you buy?",
+          "promptJa": "あなたは新しいコンピューターを買いにきている。小さくて軽いラップトップが欲しいが、タブレットには興味がない。あなたは次の放送を聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The Lightning 500." },
+            { "label": "2", "text": "The Slick Assistant." },
+            { "label": "3", "text": "The Wizard 50." },
+            { "label": "4", "text": "The BRR Quartz." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "小さくて軽いラップトップコンピューターを求めていることを頭に入れて聞く。第3文は1についてで、デスクトップコンピューターなので不適切。第4〜6文は2についてで、タブレットなので不適切。第7・8文は3についてで、携帯できるラップトップコンピューターだから、3「ウィザード50」が正解。最終2文は4についてで、スマートテレビだから不適切。",
+          "script": "Attention, shoppers. Today only, there are special savings on the following electronics. Our most powerful desktop computer, the Lightning 500, perfect for gaming or design work, is 20 percent off. Is ease of portability your main concern? You can't beat a tablet! Pick up a Slick Assistant for only $200! If you prefer a computer instead of a tablet but still want it to be portable, the Wizard 50 laptop fits easily into most bags. And a free two-year warranty is included. Smart TVs are on sale, too—check out the BRR Quartz. It's perfect for streaming your favorite movies!"
         },
         {
           "id": "q29",
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2024-1/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which site should you choose?",
+          "promptJa": "あなたの会社は顧客向けに社交行事を開催する。あなたはその会場を選ばなければならない。客は300人で、屋外が望ましい。イベントプランナーがあなたに次のように言う。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Wingra Hills." },
+            { "label": "2", "text": "Charlevoix Manor." },
+            { "label": "3", "text": "Park Tower." },
+            { "label": "4", "text": "The Ozark Terrace." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "「客は300人」「屋外」という2つの条件に合うものを選ぶ。第2・3文は1の説明で、駐車場の収容台数から条件に合わないとわかる。第4〜6文は2の説明で「宴会場は小さい方だ」と述べられるので不適切。第7・8文は3の説明で「200人未満にする必要がある」と述べられるので不適切。第9文・最終文は4の説明で「庭園で、500人まで収容可能」と述べられる。よって、4「ザ・オザーク・テラス」が正解。",
+          "script": "There are various options available. The cheapest option is Wingra Hills. There's an outdoor pavilion, but parking is limited—only about thirty cars, and there's no public transportation, unfortunately. Charlevoix Manor is a lovely old stone building that looks like a castle. The ballroom is on the small side, but it's gorgeous. Their catering is good, too. How about Park Tower? The rooftop garden has great views—you'd have to keep the guest list under two hundred, though. Or there's the Ozark Terrace. It's a lovely garden space adjacent to a lake, and it can accommodate up to five hundred people."
         }
       ]
     }
