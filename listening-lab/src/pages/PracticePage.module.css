@@ -43,6 +43,15 @@
   transition: width 0.3s ease;
 }
 
+.sectionDivider {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  padding-bottom: 6px;
+  margin-bottom: 4px;
+  border-bottom: 2px solid var(--color-border);
+}
+
 .questions {
   display: flex;
   flex-direction: column;

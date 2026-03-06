@@ -29,7 +29,11 @@ export default function PracticePage() {
 
     if (sectionId === 'all') {
       qs = examSet.sections.flatMap((s) =>
-        (s.questions || []).map((q) => ({ ...q, id: `${s.id}_${q.id}` }))
+        (s.questions || []).map((q, qi) => ({
+          ...q,
+          id: `${s.id}_${q.id}`,
+          _sectionTitle: qi === 0 ? s.title : null,
+        }))
       );
       secTitle = '全問通し演習';
     } else {
@@ -167,15 +171,21 @@ export default function PracticePage() {
         {/* Questions */}
         <div className={styles.questions}>
           {questions.map((q, i) => (
-            <QuestionCard
-              key={q.id}
-              question={q}
-              userAnswer={answers[q.id] || null}
-              showResult={submitted}
-              onAnswer={(choice) => handleAnswer(q.id, choice)}
-              accentColor={accent}
-              showPassageAudio={passageAudioShown[i]}
-            />
+            <div key={q.id}>
+              {q._sectionTitle && (
+                <h3 className={styles.sectionDivider} style={{ borderColor: accent }}>
+                  {q._sectionTitle}
+                </h3>
+              )}
+              <QuestionCard
+                question={q}
+                userAnswer={answers[q.id] || null}
+                showResult={submitted}
+                onAnswer={(choice) => handleAnswer(q.id, choice)}
+                accentColor={accent}
+                showPassageAudio={passageAudioShown[i]}
+              />
+            </div>
           ))}
         </div>
 
