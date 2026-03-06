@@ -89,7 +89,7 @@
   min-height: 48px;
 }
 
-.choice:hover:not(:disabled) {
+.choice:active:not(:disabled) {
   border-color: var(--color-border-hover);
 }
 
@@ -183,7 +183,7 @@
   transition: color 0.2s;
 }
 
-.scriptToggle:hover {
+.scriptToggle:active {
   color: var(--color-text-secondary);
 }
 

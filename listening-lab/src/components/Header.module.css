@@ -37,7 +37,7 @@
   transition: background 0.2s, color 0.2s;
 }
 
-.backButton:hover {
+.backButton:active {
   background: rgba(255, 255, 255, 0.06);
   color: var(--color-text-primary);
 }

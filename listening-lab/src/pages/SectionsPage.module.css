@@ -85,7 +85,7 @@
   transition: border-color 0.15s, background 0.15s;
 }
 
-.actionButton:hover {
+.actionButton:active {
   border-color: var(--color-border-hover);
 }
 
@@ -96,7 +96,7 @@
   color: #fff;
 }
 
-.actionButtonPrimary:hover {
+.actionButtonPrimary:active {
   opacity: 0.9;
 }
 

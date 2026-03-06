@@ -94,7 +94,7 @@
   transition: border-color 0.15s, background 0.15s;
 }
 
-.filterToggle:hover {
+.filterToggle:active {
   border-color: var(--color-border-hover);
 }
 
@@ -129,7 +129,7 @@
   transition: opacity 0.15s;
 }
 
-.submitButton:hover {
+.submitButton:active {
   opacity: 0.9;
 }
 
@@ -164,7 +164,7 @@
   transition: background 0.15s;
 }
 
-.retryButton:hover {
+.retryButton:active {
   background: rgba(255, 255, 255, 0.04);
 }
 
@@ -183,7 +183,7 @@
   transition: background 0.15s;
 }
 
-.focusReviewButton:hover {
+.focusReviewButton:active {
   background: rgba(255, 255, 255, 0.04);
 }
 
@@ -202,7 +202,7 @@
   transition: border-color 0.15s;
 }
 
-.backButton:hover {
+.backButton:active {
   border-color: var(--color-border-hover);
 }
 

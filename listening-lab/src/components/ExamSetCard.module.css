@@ -11,12 +11,8 @@
   gap: 12px;
 }
 
-.card:hover {
-  border-color: var(--card-accent, var(--color-border-hover));
-  background: rgba(255, 255, 255, 0.06);
-}
-
 .card:active {
+  border-color: var(--card-accent, var(--color-border-hover));
   background: rgba(255, 255, 255, 0.08);
 }
 
