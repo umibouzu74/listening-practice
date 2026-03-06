@@ -192,6 +192,28 @@
   background: rgba(233, 69, 96, 0.08);
 }
 
+/* Per-question check button */
+.checkButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 16px;
+  padding: 12px 16px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+  transition: background 0.15s, opacity 0.15s;
+  min-height: 48px;
+}
+
+.checkButton:active {
+  background: rgba(255, 255, 255, 0.04);
+}
+
 /* Explanation */
 .explanation {
   margin-top: 20px;

@@ -15,8 +15,9 @@ function formatTime(seconds) {
 export default function FocusedPracticeView({
   questions,
   answers,
-  submitted,
+  checkedQuestions,
   onAnswer,
+  onCheck,
   onClose,
   accentColor,
   sectionTitle,
@@ -144,8 +145,9 @@ export default function FocusedPracticeView({
 
   if (!question) return null;
 
-  const isCorrect = submitted && answers[question.id] === question.answer;
-  const isIncorrect = submitted && answers[question.id] && answers[question.id] !== question.answer;
+  const isChecked = checkedQuestions.has(question.id);
+  const isCorrect = isChecked && answers[question.id] === question.answer;
+  const isIncorrect = isChecked && answers[question.id] && answers[question.id] !== question.answer;
 
   return (
     <div className={styles.overlay}>
@@ -197,22 +199,22 @@ export default function FocusedPracticeView({
         <div className={styles.choices}>
           {question.choices.map((choice) => {
             const isSelected = answers[question.id] === choice.label;
-            const isCorrectChoice = submitted && choice.label === question.answer;
-            const isWrongSelected = submitted && isSelected && choice.label !== question.answer;
+            const isCorrectChoice = isChecked && choice.label === question.answer;
+            const isWrongSelected = isChecked && isSelected && choice.label !== question.answer;
 
             let choiceClass = styles.choice;
             if (isCorrectChoice) choiceClass += ` ${styles.correct}`;
             else if (isWrongSelected) choiceClass += ` ${styles.incorrect}`;
-            else if (isSelected && !submitted) choiceClass += ` ${styles.selected}`;
+            else if (isSelected && !isChecked) choiceClass += ` ${styles.selected}`;
 
             return (
               <button
                 key={choice.label}
                 className={choiceClass}
-                onClick={() => !submitted && onAnswer(question.id, choice.label)}
-                disabled={submitted}
+                onClick={() => !isChecked && onAnswer(question.id, choice.label)}
+                disabled={isChecked}
                 style={
-                  isSelected && !submitted
+                  isSelected && !isChecked
                     ? { borderColor: accent, background: `${accent}15` }
                     : undefined
                 }
@@ -220,7 +222,7 @@ export default function FocusedPracticeView({
                 <span
                   className={styles.choiceLabel}
                   style={
-                    isSelected && !submitted
+                    isSelected && !isChecked
                       ? { background: accent, borderColor: accent }
                       : isCorrectChoice
                         ? { background: 'var(--color-correct)', borderColor: 'var(--color-correct)' }
@@ -237,8 +239,19 @@ export default function FocusedPracticeView({
           })}
         </div>
 
+        {/* Per-question check button */}
+        {!isChecked && answers[question.id] && onCheck && (
+          <button
+            className={styles.checkButton}
+            onClick={() => onCheck(question.id)}
+            style={{ '--accent': accent }}
+          >
+            答え合わせ
+          </button>
+        )}
+
         {/* Result: explanation */}
-        {submitted && question.explanation && (
+        {isChecked && question.explanation && (
           <div className={styles.explanation}>
             <div className={styles.explanationHeader}>
               {isCorrect ? (
@@ -254,7 +267,7 @@ export default function FocusedPracticeView({
         )}
 
         {/* Script toggle */}
-        {submitted && question.script && (
+        {isChecked && question.script && (
           <div className={styles.scriptSection}>
             <button
               className={styles.scriptToggle}
