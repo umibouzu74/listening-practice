@@ -1,3 +1,6 @@
+const GITHUB_USER = "umibouzu74";
+const GITHUB_PAGES_BASE = `https://${GITHUB_USER}.github.io`;
+
 const EXAM_TYPES = {
   kyotsu: {
     id: "kyotsu",
@@ -7,6 +10,7 @@ const EXAM_TYPES = {
     description: "大学入学共通テスト リスニング",
     groupBy: "year",
     sortOrder: "desc",
+    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-kyotsu/`,
   },
   eiken: {
     id: "eiken",
@@ -17,6 +21,7 @@ const EXAM_TYPES = {
     groupBy: "grade",
     sortOrder: "asc",
     grades: { pre1: "準1級", 2: "2級", pre2: "準2級", 3: "3級" },
+    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-eiken/`,
   },
   toeic: {
     id: "toeic",
@@ -26,6 +31,7 @@ const EXAM_TYPES = {
     description: "TOEIC Listening 演習",
     groupBy: "none",
     sortOrder: "desc",
+    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-toeic/`,
   },
   nyushi: {
     id: "nyushi",
@@ -35,6 +41,7 @@ const EXAM_TYPES = {
     description: "公立高校入試 リスニング",
     groupBy: "prefecture",
     sortOrder: "asc",
+    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-nyushi/`,
   },
   custom: {
     id: "custom",
@@ -44,6 +51,7 @@ const EXAM_TYPES = {
     description: "オリジナル・その他のリスニング教材",
     groupBy: "none",
     sortOrder: "asc",
+    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-custom/`,
   },
 };
 
