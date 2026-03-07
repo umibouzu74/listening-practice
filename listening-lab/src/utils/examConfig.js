@@ -21,6 +21,7 @@ const EXAM_TYPES = {
     groupBy: "grade",
     sortOrder: "asc",
     grades: { pre1: "準1級", 2: "2級", pre2: "準2級", 3: "3級" },
+    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-eiken/`,
   },
   toeic: {
     id: "toeic",
