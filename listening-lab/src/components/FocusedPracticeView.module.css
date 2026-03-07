@@ -281,6 +281,36 @@
   white-space: pre-wrap;
 }
 
+.scriptJaToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+  border: none;
+  background: none;
+  font-size: 13px;
+  color: var(--color-text-muted);
+  padding: 4px 0;
+  min-height: 36px;
+  transition: color 0.2s;
+}
+
+.scriptJaToggle:active {
+  color: var(--color-text-secondary);
+}
+
+.scriptJaText {
+  margin-top: 4px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--color-border);
+  font-size: 14px;
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
 /* Bottom player */
 .bottomPlayer {
   flex-shrink: 0;
