@@ -31,7 +31,8 @@
           ],
           "answer": "2",
           "explanation": "女性が「家のセキュリティシステムを検討したい」や「警報機も昔ほど高くない」と述べていることから、女性はセキュリティシステムのひとつである警報機を提案しているとわかる。よって、2「警報システムを購入すること」が正解。",
-          "script": "M: There was another robbery in the neighborhood this week. That's the third time this month.\nW: It's really frightening. I'm glad the police have increased patrols in the area.\nM: The Martins just got a dog to protect their home. It's a really large, aggressive one.\nW: I'd rather look into a home-security system. Alarms are not as expensive as they used to be, you know.\nM: Well, we can't afford to move to a different neighborhood, so that might be our best option."
+          "script": "M: There was another robbery in the neighborhood this week. That's the third time this month.\nW: It's really frightening. I'm glad the police have increased patrols in the area.\nM: The Martins just got a dog to protect their home. It's a really large, aggressive one.\nW: I'd rather look into a home-security system. Alarms are not as expensive as they used to be, you know.\nM: Well, we can't afford to move to a different neighborhood, so that might be our best option.",
+          "scriptJa": "M: 今週また近所で強盗があったよ。今月でもう3回目だ。\nW: 本当に怖いわね。警察がこの地域のパトロールを増やしてくれてよかった。\nM: マーティンさんの家は家を守るために犬を飼ったんだ。すごく大きくて凶暴なやつだよ。\nW: 私はホームセキュリティシステムを検討したいわ。警報機も昔ほど高くないのよ。\nM: まあ、別の地域に引っ越す余裕はないし、それが一番いい選択肢かもしれないね。"
         },
         {
           "id": "q2",
@@ -46,7 +47,8 @@
           ],
           "answer": "3",
           "explanation": "女性の最初の発言から、休み明けの次の授業に向けて彼女のメモをプレゼンテーションのスライドに組み込むよう男性に依頼していることがわかる。3「プレゼンテーションのスライドを何枚か準備する」が正解。2は過去に依頼したことであり、質問は現在形で聞いているため不適。",
-          "script": "M: Professor Quinn, I've finished with the quizzes from Thursday's class that you asked me to grade. Is there anything else I can help with before the semester break?\nW: Actually, yes. I have the slides ready for the first lecture after the break, but I need some created for the following class. Can I e-mail you my notes and have you put them into presentation slides?\nM: Sure. Anything else?\nW: No, but that will be a huge help. Thanks."
+          "script": "M: Professor Quinn, I've finished with the quizzes from Thursday's class that you asked me to grade. Is there anything else I can help with before the semester break?\nW: Actually, yes. I have the slides ready for the first lecture after the break, but I need some created for the following class. Can I e-mail you my notes and have you put them into presentation slides?\nM: Sure. Anything else?\nW: No, but that will be a huge help. Thanks.",
+          "scriptJa": "M: クイン教授、木曜日の授業の小テストの採点が終わりました。学期休み前に他に何かお手伝いできることはありますか？\nW: 実はあるの。休み明け最初の授業のスライドはできているんだけど、その次の授業用のスライドを作ってほしいの。私のメモをメールで送るから、プレゼンテーションのスライドにまとめてもらえる？\nM: もちろんです。他にありますか？\nW: いいえ、でもとても助かるわ。ありがとう。"
         },
         {
           "id": "q3",

@@ -13,6 +13,7 @@ export default function QuestionCard({
   hideAudio,
 }) {
   const [showScript, setShowScript] = useState(false);
+  const [showScriptJa, setShowScriptJa] = useState(false);
   const accent = accentColor || 'var(--color-accent)';
 
   const isCorrect = showResult && userAnswer === question.answer;
@@ -177,7 +178,20 @@ export default function QuestionCard({
             </svg>
           </button>
           {showScript && (
-            <p className={styles.scriptText}>{question.script}</p>
+            <>
+              <p className={styles.scriptText}>{question.script}</p>
+              {question.scriptJa && (
+                <button
+                  className={styles.scriptJaToggle}
+                  onClick={() => setShowScriptJa((v) => !v)}
+                >
+                  {showScriptJa ? '日本語訳を隠す' : '日本語訳を表示'}
+                </button>
+              )}
+              {showScriptJa && question.scriptJa && (
+                <p className={styles.scriptJaText}>{question.scriptJa}</p>
+              )}
+            </>
           )}
         </div>
       )}

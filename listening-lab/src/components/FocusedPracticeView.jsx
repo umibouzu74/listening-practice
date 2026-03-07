@@ -27,6 +27,7 @@ export default function FocusedPracticeView({
   const accent = accentColor || 'var(--color-accent)';
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showScript, setShowScript] = useState(false);
+  const [showScriptJa, setShowScriptJa] = useState(false);
   const progressRef = useRef(null);
   const draggingRef = useRef(false);
   const [dragProgress, setDragProgress] = useState(null);
@@ -65,6 +66,7 @@ export default function FocusedPracticeView({
   // Reset script visibility when changing question
   useEffect(() => {
     setShowScript(false);
+    setShowScriptJa(false);
   }, [currentIndex]);
 
   // Keyboard shortcuts
@@ -302,7 +304,20 @@ export default function FocusedPracticeView({
               {showScript ? 'スクリプトを隠す' : 'スクリプトをみる'}
             </button>
             {showScript && (
-              <p className={styles.scriptText}>{question.script}</p>
+              <>
+                <p className={styles.scriptText}>{question.script}</p>
+                {question.scriptJa && (
+                  <button
+                    className={styles.scriptJaToggle}
+                    onClick={() => setShowScriptJa((v) => !v)}
+                  >
+                    {showScriptJa ? '日本語訳を隠す' : '日本語訳を表示'}
+                  </button>
+                )}
+                {showScriptJa && question.scriptJa && (
+                  <p className={styles.scriptJaText}>{question.scriptJa}</p>
+                )}
+              </>
             )}
           </div>
         )}
