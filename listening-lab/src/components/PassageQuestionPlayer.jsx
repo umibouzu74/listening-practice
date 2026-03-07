@@ -1,4 +1,4 @@
-import { useCallback, useRef, useEffect, useState } from 'react';
+import { useCallback, useRef, useEffect, useState, useMemo } from 'react';
 import useChainedAudioPlayer from '../hooks/useChainedAudioPlayer';
 import styles from './PassageQuestionPlayer.module.css';
 
@@ -12,9 +12,18 @@ function formatTime(seconds) {
   return `${m}:${s.toString().padStart(2, '0')}`;
 }
 
+/**
+ * Chained audio player for a passage group.
+ *
+ * @param {string} passageSrc - URL for the passage audio
+ * @param {Array<{src: string, label: string}>} questionAudios
+ *   - e.g. [{src: 'q13.mp3', label: 'Q13'}, {src: 'q14.mp3', label: 'Q14'}]
+ * @param {string} passageLabel - e.g. "Passage A"
+ * @param {string} accentColor
+ */
 export default function PassageQuestionPlayer({
   passageSrc,
-  questionSrc,
+  questionAudios = [],
   passageLabel,
   accentColor,
 }) {
@@ -23,11 +32,27 @@ export default function PassageQuestionPlayer({
   const draggingRef = useRef(false);
   const [dragProgress, setDragProgress] = useState(null);
 
+  // Build sources array: [passageSrc, q1Src, q2Src, ...]
+  const sources = useMemo(() => {
+    const srcs = [];
+    if (passageSrc) srcs.push(passageSrc);
+    questionAudios.forEach((qa) => { if (qa.src) srcs.push(qa.src); });
+    return srcs;
+  }, [passageSrc, questionAudios]);
+
+  // Phase labels: ['Passage A', 'Q13', 'Q14', ...]
+  const phaseLabels = useMemo(() => {
+    const labels = [];
+    if (passageSrc) labels.push(passageLabel || '本文');
+    questionAudios.forEach((qa) => labels.push(qa.label || '質問'));
+    return labels;
+  }, [passageSrc, passageLabel, questionAudios]);
+
   const {
-    isPlaying, currentTime, duration, duration1, progress,
-    playbackRate, error, activePhase,
+    isPlaying, currentTime, duration, durations, activeIndex, progress,
+    playbackRate, error,
     toggle, seek, setSpeed, setIsSeeking,
-  } = useChainedAudioPlayer(passageSrc, questionSrc);
+  } = useChainedAudioPlayer(sources);
 
   const displayProgress = dragProgress !== null ? dragProgress : progress;
 
@@ -93,7 +118,7 @@ export default function PassageQuestionPlayer({
     seek(Math.min(duration || 0, currentTime + SKIP_SEC));
   }, [currentTime, duration, seek]);
 
-  if (!passageSrc) return null;
+  if (!passageSrc && questionAudios.length === 0) return null;
 
   if (error) {
     return (
@@ -103,28 +128,35 @@ export default function PassageQuestionPlayer({
     );
   }
 
-  // Calculate the boundary ratio for the seekbar marker
-  const boundaryPercent = duration > 0 && duration1 > 0 ? (duration1 / duration) * 100 : 0;
+  // Compute boundary positions (as percentages) between each audio segment
+  const boundaries = [];
+  if (duration > 0) {
+    let accumulated = 0;
+    for (let i = 0; i < durations.length - 1; i++) {
+      accumulated += durations[i];
+      boundaries.push((accumulated / duration) * 100);
+    }
+  }
 
   return (
     <div className={styles.wrapper}>
-      {/* Phase indicator */}
+      {/* Phase indicator: Passage A → Q13 → Q14 */}
       <div className={styles.phaseRow}>
-        <span
-          className={`${styles.phaseTag} ${activePhase === 'passage' && isPlaying ? styles.phaseActive : ''}`}
-          style={activePhase === 'passage' && isPlaying ? { color: accent } : undefined}
-        >
-          {passageLabel || '本文'}
-        </span>
-        <svg className={styles.phaseArrow} width="12" height="12" viewBox="0 0 12 12" fill="none">
-          <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
-        <span
-          className={`${styles.phaseTag} ${activePhase === 'question' && isPlaying ? styles.phaseActive : ''}`}
-          style={activePhase === 'question' && isPlaying ? { color: accent } : undefined}
-        >
-          質問
-        </span>
+        {phaseLabels.map((label, i) => (
+          <span key={i} className={styles.phaseGroup}>
+            {i > 0 && (
+              <svg className={styles.phaseArrow} width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            )}
+            <span
+              className={`${styles.phaseTag} ${activeIndex === i && isPlaying ? styles.phaseActive : ''}`}
+              style={activeIndex === i && isPlaying ? { color: accent } : undefined}
+            >
+              {label}
+            </span>
+          </span>
+        ))}
       </div>
 
       {/* Seekbar */}
@@ -139,13 +171,14 @@ export default function PassageQuestionPlayer({
             className={styles.seekFill}
             style={{ width: `${displayProgress}%`, background: accent }}
           />
-          {/* Boundary marker between passage and question */}
-          {boundaryPercent > 0 && boundaryPercent < 100 && (
+          {/* Boundary markers between segments */}
+          {boundaries.map((pos, i) => (
             <div
+              key={i}
               className={styles.seekBoundary}
-              style={{ left: `${boundaryPercent}%` }}
+              style={{ left: `${pos}%` }}
             />
-          )}
+          ))}
           <div
             className={styles.seekThumb}
             style={{ left: `${displayProgress}%`, background: accent }}
@@ -162,7 +195,7 @@ export default function PassageQuestionPlayer({
       {/* Controls */}
       <div className={styles.controlsRow}>
         <span className={styles.label}>
-          {passageLabel || '本文'} + 質問
+          {passageLabel || '本文'}
         </span>
         <button
           className={styles.speedBtn}

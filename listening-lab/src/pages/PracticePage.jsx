@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import AudioPlayer from '../components/AudioPlayer';
 import MiniAudioPlayer from '../components/MiniAudioPlayer';
 import QuestionCard from '../components/QuestionCard';
+import PassageGroup from '../components/PassageGroup';
 import ScoreBanner from '../components/ScoreBanner';
 import FocusedPracticeView from '../components/FocusedPracticeView';
 import useAudioPlayer from '../hooks/useAudioPlayer';
@@ -52,7 +53,36 @@ export default function PracticePage() {
   // Section-level audio player (only used when section has a single audio file)
   const audio = useAudioPlayer(sectionAudio);
 
-  // Track which passageAudio labels have been shown (to avoid duplicates)
+  // Build render items: group consecutive questions that share passageAudio,
+  // or render them individually if they don't have passageAudio
+  const renderItems = useMemo(() => {
+    const items = [];
+    let currentGroup = null;
+
+    questions.forEach((q, i) => {
+      if (q.passageAudio && q.audio) {
+        // This question belongs to a passage group
+        if (currentGroup && currentGroup.passageAudio === q.passageAudio) {
+          currentGroup.questions.push(q);
+        } else {
+          currentGroup = {
+            type: 'passageGroup',
+            passageAudio: q.passageAudio,
+            passageLabel: q.passageLabel || '本文',
+            questions: [q],
+          };
+          items.push(currentGroup);
+        }
+      } else {
+        currentGroup = null;
+        items.push({ type: 'question', question: q, index: i });
+      }
+    });
+
+    return items;
+  }, [questions]);
+
+  // Track which passageAudio labels have been shown (for non-grouped questions only)
   const passageAudioShown = useMemo(() => {
     const seen = new Set();
     return questions.map((q) => {
@@ -253,9 +283,29 @@ export default function PracticePage() {
           </div>
         )}
 
-        {/* Questions */}
+        {/* Questions — grouped by passage or rendered individually */}
         <div className={styles.questions}>
-          {questions.map((q, i) => {
+          {renderItems.map((item) => {
+            if (item.type === 'passageGroup') {
+              return (
+                <PassageGroup
+                  key={item.passageAudio}
+                  passageAudio={item.passageAudio}
+                  passageLabel={item.passageLabel}
+                  questions={item.questions}
+                  answers={answers}
+                  checkedQuestions={checkedQuestions}
+                  onAnswer={handleAnswer}
+                  onCheck={handleCheckQuestion}
+                  accentColor={accent}
+                  questionRefs={questionRefs}
+                  showOnlyWrong={showOnlyWrong}
+                />
+              );
+            }
+
+            // Individual question (no passage group)
+            const q = item.question;
             const isChecked = checkedQuestions.has(q.id);
             if (showOnlyWrong && isChecked && answers[q.id] === q.answer) return null;
             return (
@@ -272,7 +322,7 @@ export default function PracticePage() {
                   onAnswer={(choice) => handleAnswer(q.id, choice)}
                   onCheck={() => handleCheckQuestion(q.id)}
                   accentColor={accent}
-                  showPassageAudio={passageAudioShown[i]}
+                  showPassageAudio={passageAudioShown[item.index]}
                 />
               </div>
             );
