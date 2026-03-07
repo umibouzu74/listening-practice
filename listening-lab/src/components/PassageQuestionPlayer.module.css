@@ -1,0 +1,212 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  margin-bottom: 12px;
+}
+
+/* Phase indicator */
+.phaseRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+
+.phaseTag {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  transition: color 0.2s;
+}
+
+.phaseActive {
+  /* color set inline via accent */
+}
+
+.phaseArrow {
+  color: var(--color-text-muted);
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+/* Seekbar */
+.seekRow {
+  display: flex;
+  align-items: center;
+}
+
+.seekTrack {
+  flex: 1;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+  touch-action: none;
+  padding: 10px 0;
+  background-clip: content-box;
+}
+
+.seekFill {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 4px;
+  border-radius: 2px;
+  pointer-events: none;
+  will-change: width;
+}
+
+.seekBoundary {
+  position: absolute;
+  top: 7px;
+  width: 2px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 1px;
+  pointer-events: none;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.seekThumb {
+  position: absolute;
+  top: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  will-change: left;
+  pointer-events: none;
+  z-index: 2;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Time display */
+.timeRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2px;
+  margin-bottom: 4px;
+}
+
+.time {
+  font-size: 10px;
+  font-family: var(--font-mono);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+/* Controls */
+.controlsRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  letter-spacing: 0.02em;
+  margin-right: auto;
+}
+
+.speedBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  height: 32px;
+  padding: 0 6px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: transparent;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.speedBtn:active {
+  border-color: var(--color-border-hover);
+  color: var(--color-text-primary);
+}
+
+.skipBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  padding: 0;
+  transition: color 0.15s;
+}
+
+.skipBtn:active {
+  color: var(--color-text-primary);
+}
+
+.playBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 50%;
+  border: none;
+  flex-shrink: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s;
+}
+
+.playBtn:active {
+  transform: scale(0.94);
+}
+
+.errorText {
+  font-size: 11px;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* Replay passage button */
+.replayBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: 12px;
+  font-weight: 500;
+  transition: border-color 0.2s, color 0.2s;
+  min-height: 40px;
+}
+
+.replayBtn:active {
+  border-color: var(--color-border-hover);
+  color: var(--color-text-secondary);
+}

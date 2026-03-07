@@ -428,3 +428,42 @@
   opacity: 0.3;
   cursor: default;
 }
+
+/* Phase indicator for chained audio */
+.phaseRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 6px;
+  justify-content: center;
+}
+
+.phaseTag {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  transition: color 0.2s;
+}
+
+.phaseActive {
+  /* color set inline via accent */
+}
+
+.phaseArrow {
+  color: var(--color-text-muted);
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+/* Seekbar boundary marker */
+.seekBoundary {
+  position: absolute;
+  top: 9px;
+  width: 2px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 1px;
+  pointer-events: none;
+  transform: translateX(-50%);
+  z-index: 1;
+}

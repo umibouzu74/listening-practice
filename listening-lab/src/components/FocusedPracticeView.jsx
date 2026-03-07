@@ -1,5 +1,6 @@
 import { useState, useCallback, useMemo, useRef, useEffect } from 'react';
 import useAudioPlayer from '../hooks/useAudioPlayer';
+import useChainedAudioPlayer from '../hooks/useChainedAudioPlayer';
 import styles from './FocusedPracticeView.module.css';
 
 const SPEEDS = [0.75, 1.0, 1.25, 1.5];
@@ -32,14 +33,26 @@ export default function FocusedPracticeView({
 
   const question = questions[currentIndex];
 
-  // Determine which audio to play: passage audio or question audio
-  const audioSrc = question?.passageAudio || question?.audio || null;
+  // Determine audio mode: chained (passage + question) or single
+  const hasChainedAudio = question?.passageAudio && question?.audio;
+  const singleAudioSrc = hasChainedAudio ? null : (question?.passageAudio || question?.audio || null);
+
+  const singleAudio = useAudioPlayer(singleAudioSrc);
+  const chainedAudio = useChainedAudioPlayer(
+    hasChainedAudio ? question.passageAudio : null,
+    hasChainedAudio ? question.audio : null,
+  );
+
+  // Use the appropriate audio state
+  const audioState = hasChainedAudio ? chainedAudio : singleAudio;
 
   const {
     isPlaying, currentTime, duration, progress,
     playbackRate, error, toggle, seek, setSpeed, reset,
     isLooping, toggleLoop, setIsSeeking,
-  } = useAudioPlayer(audioSrc);
+  } = audioState;
+
+  const activePhase = hasChainedAudio ? chainedAudio.activePhase : null;
 
   const displayProgress = dragProgress !== null ? dragProgress : progress;
 
@@ -291,6 +304,27 @@ export default function FocusedPracticeView({
 
       {/* Bottom audio player */}
       <div className={styles.bottomPlayer}>
+        {/* Phase indicator for chained audio */}
+        {hasChainedAudio && (
+          <div className={styles.phaseRow}>
+            <span
+              className={`${styles.phaseTag} ${activePhase === 'passage' && isPlaying ? styles.phaseActive : ''}`}
+              style={activePhase === 'passage' && isPlaying ? { color: accent } : undefined}
+            >
+              {question.passageLabel || '本文'}
+            </span>
+            <svg className={styles.phaseArrow} width="12" height="12" viewBox="0 0 12 12" fill="none">
+              <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
+            <span
+              className={`${styles.phaseTag} ${activePhase === 'question' && isPlaying ? styles.phaseActive : ''}`}
+              style={activePhase === 'question' && isPlaying ? { color: accent } : undefined}
+            >
+              質問
+            </span>
+          </div>
+        )}
+
         {/* Seek bar */}
         <div className={styles.seekRow}>
           <button
@@ -313,6 +347,13 @@ export default function FocusedPracticeView({
               className={styles.seekFill}
               style={{ width: `${displayProgress}%`, background: accent }}
             />
+            {/* Boundary marker between passage and question */}
+            {hasChainedAudio && chainedAudio.duration1 > 0 && duration > 0 && (
+              <div
+                className={styles.seekBoundary}
+                style={{ left: `${(chainedAudio.duration1 / duration) * 100}%` }}
+              />
+            )}
             <div
               className={styles.seekThumb}
               style={{ left: `${displayProgress}%`, background: accent }}
