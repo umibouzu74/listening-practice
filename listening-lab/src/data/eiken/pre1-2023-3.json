@@ -14,7 +14,7 @@
     {
       "id": "part1",
       "title": "Part 1",
-      "description": "会話の応答 — 対話を聞き、最後の発言に対する応答として最も適切なものを選びなさい。",
+      "description": "会話の内容一致選択 — 対話を聞き、その質問に対して最も適切なものを選びなさい。",
       "playCount": "1回読み",
       "instructionAudio": "audio/eiken/eiken-pre1-2023-3/01_Part1_explanation.mp3",
       "questions": [
@@ -22,13 +22,14 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2023-3/02_No1.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the woman's problem?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She found a mistake in one source." },
+            { "label": "2", "text": "She may not finish her article in time." },
+            { "label": "3", "text": "She does not like her first draft." },
+            { "label": "4", "text": "She is unfamiliar with the topic." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -36,13 +37,14 @@
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2023-3/03_No2.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man imply?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "His grades improved this term." },
+            { "label": "2", "text": "He will study harder in the future." },
+            { "label": "3", "text": "He has lost interest in going to college." },
+            { "label": "4", "text": "His homeroom teacher is not supporting him." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -50,13 +52,14 @@
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2023-3/04_No3.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the man worried about?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "His son moving away." },
+            { "label": "2", "text": "The cost of sports equipment." },
+            { "label": "3", "text": "How dangerous ice hockey is." },
+            { "label": "4", "text": "The equipment he forgot to buy." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -64,13 +67,14 @@
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2023-3/05_No4.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the man's problem?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He cannot get a refund." },
+            { "label": "2", "text": "The store cannot repair his watch." },
+            { "label": "3", "text": "The store cannot provide another watch." },
+            { "label": "4", "text": "He was charged the wrong amount." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -78,13 +82,14 @@
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2023-3/06_No5.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman say about her vacation?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She spent too much time fishing." },
+            { "label": "2", "text": "There was too much snow." },
+            { "label": "3", "text": "The weather kept her indoors." },
+            { "label": "4", "text": "She could not find bikes to rent." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -92,13 +97,14 @@
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2023-3/07_No6.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the woman concerned about?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The other team members may not listen to her." },
+            { "label": "2", "text": "Some members of the team may decide to quit." },
+            { "label": "3", "text": "Her ideas to improve efficiency may not work." },
+            { "label": "4", "text": "The new manager may make unnecessary changes." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -106,13 +112,14 @@
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2023-3/08_No7.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the man's concern?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The interviewer did not explain the job well." },
+            { "label": "2", "text": "The interviewer did not seem impressed by him." },
+            { "label": "3", "text": "He could not answer some of the questions." },
+            { "label": "4", "text": "He did not talk about his work experience." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -120,13 +127,14 @@
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2023-3/09_No8.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the couple probably do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Ask their neighbor to pay for the damage." },
+            { "label": "2", "text": "Get some advice from their neighbor." },
+            { "label": "3", "text": "Install some video surveillance." },
+            { "label": "4", "text": "Build a more secure flowerbed." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -134,13 +142,14 @@
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2023-3/10_No9.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man ask the woman to do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Send him information about a website." },
+            { "label": "2", "text": "Book a hotel for him." },
+            { "label": "3", "text": "Introduce him to her friend in Spain." },
+            { "label": "4", "text": "Help him pay for his trip." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -148,13 +157,14 @@
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2023-3/11_No10.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the man's problem?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He missed a deadline." },
+            { "label": "2", "text": "He does not like his boss." },
+            { "label": "3", "text": "He made a mistake in his report." },
+            { "label": "4", "text": "He had a meeting with his boss yesterday." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -162,13 +172,14 @@
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2023-3/12_No11.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man say about the TV show?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It made claims that were not true." },
+            { "label": "2", "text": "It was canceled by the TV network." },
+            { "label": "3", "text": "It was supported by the government." },
+            { "label": "4", "text": "It revealed dishonest politicians." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -176,13 +187,14 @@
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2023-3/13_No12.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman think about taking a gap year?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Her parents will support her decision." },
+            { "label": "2", "text": "It will have a negative impact on her career." },
+            { "label": "3", "text": "It will help her decide what she wants to do." },
+            { "label": "4", "text": "Her cousin's advice is not reliable." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         }
@@ -201,14 +213,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/16_No13.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing we learn about Typhon?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He was the father of various monsters." },
+            { "label": "2", "text": "He was the ruler of the underworld." },
+            { "label": "3", "text": "He was feared by many gods." },
+            { "label": "4", "text": "He was the god of battle." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -218,14 +230,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/17_No14.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What did Typhon do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He created a giant volcano." },
+            { "label": "2", "text": "He stole lightning bolts from Zeus." },
+            { "label": "3", "text": "He climbed a holy mountain." },
+            { "label": "4", "text": "He tried to become the ruler of the gods." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -235,14 +247,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/19_No15.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What did researchers discover?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Cockatoos can use fruit seeds as tools." },
+            { "label": "2", "text": "Primates and cockatoos make similar tools." },
+            { "label": "3", "text": "Cockatoos can use a set of tools to achieve a goal." },
+            { "label": "4", "text": "Some primates use tools to compete for food." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -252,14 +264,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/20_No16.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What were the cockatoos also capable of?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Using different objects to construct a single tool." },
+            { "label": "2", "text": "Helping humans perform a task using tools." },
+            { "label": "3", "text": "Using tools to hide food from other animals." },
+            { "label": "4", "text": "Transporting tools to a specific location." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -269,14 +281,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/22_No17.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What was one problem with early music boxes?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Some people thought they were scary." },
+            { "label": "2", "text": "The handles in their backs often broke." },
+            { "label": "3", "text": "The songs they played were not well-known." },
+            { "label": "4", "text": "It was not possible to make large numbers of them." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -286,14 +298,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/23_No18.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker suggest about music boxes?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They were not as advanced as people think." },
+            { "label": "2", "text": "They were not marketed very well." },
+            { "label": "3", "text": "They may have been released too early." },
+            { "label": "4", "text": "They should have been sold more cheaply." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -303,14 +315,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/25_No19.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing we learn about Jordan?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Its dry climate makes growing wheat difficult." },
+            { "label": "2", "text": "Its people came from many parts of the world." },
+            { "label": "3", "text": "It may be the oldest nation in the Middle East." },
+            { "label": "4", "text": "It may be where bread was first made." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -320,14 +332,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/26_No20.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What was the purpose of the campaign?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To promote wheat production in Jordan." },
+            { "label": "2", "text": "To encourage Western countries to buy Jordanian wheat." },
+            { "label": "3", "text": "To introduce Western farming methods to Jordan." },
+            { "label": "4", "text": "To teach Jordanians the benefits of consuming bread." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -337,14 +349,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/28_No21.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What was one early problem with satellite phones?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The technology required to develop them was unavailable." },
+            { "label": "2", "text": "There were difficulties in launching satellites." },
+            { "label": "3", "text": "Many satellites were damaged while in orbit." },
+            { "label": "4", "text": "Governments in some countries banned their use." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -354,14 +366,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/29_No22.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker say about satellite phones today?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They work best in urban areas." },
+            { "label": "2", "text": "They will soon replace land-based phones." },
+            { "label": "3", "text": "Their cost makes them impractical." },
+            { "label": "4", "text": "Their usefulness remains limited." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -371,14 +383,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/31_No23.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "How do some fishing boats avoid detection?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They navigate without GPS." },
+            { "label": "2", "text": "They send false data to satellites." },
+            { "label": "3", "text": "They use special radars." },
+            { "label": "4", "text": "They turn off identification devices." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -388,14 +400,14 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/32_No24.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-3/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one concern about using albatrosses?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Other birds could be harmed by albatrosses." },
+            { "label": "2", "text": "The albatrosses may eat too many fish." },
+            { "label": "3", "text": "People may try to harm the albatrosses." },
+            { "label": "4", "text": "The devices on the albatrosses may be damaged." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         }
@@ -413,14 +425,15 @@
           "number": 25,
           "audio": "audio/eiken/eiken-pre1-2023-3/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
-          "prompt": "Choose the best answer for the question.",
+          "promptJa": "あなたの息子は4年生で、金曜日に遠足に行く。担任はクライン先生である。保護者会で校長が次のように言う。",
+          "prompt": "What should your son do first on Friday morning?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Get on Bus 1." },
+            { "label": "2", "text": "Get on Bus 2." },
+            { "label": "3", "text": "Go to the school gym." },
+            { "label": "4", "text": "Ride with you to Mt. Oakley." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -429,14 +442,15 @@
           "number": 26,
           "audio": "audio/eiken/eiken-pre1-2023-3/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
-          "prompt": "Choose the best answer for the question.",
+          "promptJa": "あなたは教育に関する学会に参加している。テストと課題の採点についてもっと学びたいと思っている。次のアナウンスを聞く。",
+          "prompt": "Whose lecture should you attend?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Manal Abad's." },
+            { "label": "2", "text": "Yukari Hatayama's." },
+            { "label": "3", "text": "Martin Halpern's." },
+            { "label": "4", "text": "Antonio Rossi's." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -445,14 +459,15 @@
           "number": 27,
           "audio": "audio/eiken/eiken-pre1-2023-3/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
-          "prompt": "Choose the best answer for the question.",
+          "promptJa": "あなたが乗っている電車が駅間で停車し、次のアナウンスが流れる。あなたは11時にピックフォードで重要な会議がある。",
+          "prompt": "What should you do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Take a bus from the next stop." },
+            { "label": "2", "text": "Take a bus from Filburn." },
+            { "label": "3", "text": "Stay on the train until Pickford." },
+            { "label": "4", "text": "Stay on the train until the end of the line." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -461,14 +476,15 @@
           "number": 28,
           "audio": "audio/eiken/eiken-pre1-2023-3/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
-          "prompt": "Choose the best answer for the question.",
+          "promptJa": "今日は月曜日である。あなたは地元の歯科医院に電話して検診の予約をする。あなたは平日の午前10時から午後4時まで毎日働いている。受付係が次のように言う。",
+          "prompt": "Which dentist should you see?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Dr. James." },
+            { "label": "2", "text": "Dr. Manganiello." },
+            { "label": "3", "text": "Dr. Shah." },
+            { "label": "4", "text": "Dr. Manilow." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         },
@@ -477,14 +493,15 @@
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2023-3/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "Choose the best answer for the question.",
+          "promptJa": "あなたは幼い子どもたちと2日間のドライブ旅行に行くので、1泊のホテルを予約する必要がある。友人が次のように言う。",
+          "prompt": "Where should you spend the night?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The Waverton Inn." },
+            { "label": "2", "text": "The Ridge Motel." },
+            { "label": "3", "text": "The Mountain View Motel." },
+            { "label": "4", "text": "Palm Village Suites." }
           ],
-          "answer": "1",
+          "answer": "",
           "explanation": "",
           "script": ""
         }
