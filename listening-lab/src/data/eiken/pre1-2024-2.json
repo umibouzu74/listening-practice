@@ -22,169 +22,181 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2024-2/02_No1.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman suggest?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Calling the police." },
+            { "label": "2", "text": "Purchasing an alarm system." },
+            { "label": "3", "text": "Getting a guard dog." },
+            { "label": "4", "text": "Moving to a different area." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "女性が「家のセキュリティシステムを検討したい」や「警報機も昔ほど高くない」と述べていることから、女性はセキュリティシステムのひとつである警報機を提案しているとわかる。よって、2「警報システムを購入すること」が正解。",
+          "script": "M: There was another robbery in the neighborhood this week. That's the third time this month.\nW: It's really frightening. I'm glad the police have increased patrols in the area.\nM: The Martins just got a dog to protect their home. It's a really large, aggressive one.\nW: I'd rather look into a home-security system. Alarms are not as expensive as they used to be, you know.\nM: Well, we can't afford to move to a different neighborhood, so that might be our best option."
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2024-2/03_No2.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the professor ask the man to do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Help find her notes." },
+            { "label": "2", "text": "Finish grading some quizzes." },
+            { "label": "3", "text": "Prepare some presentation slides." },
+            { "label": "4", "text": "Give a lecture himself." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "女性の最初の発言から、休み明けの次の授業に向けて彼女のメモをプレゼンテーションのスライドに組み込むよう男性に依頼していることがわかる。3「プレゼンテーションのスライドを何枚か準備する」が正解。2は過去に依頼したことであり、質問は現在形で聞いているため不適。",
+          "script": "M: Professor Quinn, I've finished with the quizzes from Thursday's class that you asked me to grade. Is there anything else I can help with before the semester break?\nW: Actually, yes. I have the slides ready for the first lecture after the break, but I need some created for the following class. Can I e-mail you my notes and have you put them into presentation slides?\nM: Sure. Anything else?\nW: No, but that will be a huge help. Thanks."
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2024-2/04_No3.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman say about Maya?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She might come back home." },
+            { "label": "2", "text": "She wants to use Jason's room." },
+            { "label": "3", "text": "She needs a new desk." },
+            { "label": "4", "text": "She does not need her own room." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "この会話では夫婦が巣立った子どもたちの部屋の使い方について話しているが、妻は娘のマヤが家に戻ってくる可能性があると述べている。よって、1「彼女は家に戻るかもしれない」が正解。",
+          "script": "M: Now that the kids have moved out, we should make better use of their rooms.\nW: We can change Jason's room for sure, but I have a feeling Maya won't like living so far away, so she might be back.\nM: Do you think so? We should leave her room as it is, then?\nW: I think that would be best. We could put a desk into Jason's room, though. That way, you wouldn't have to work on the kitchen table every night."
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2024-2/05_No4.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman say she will do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Change her management style." },
+            { "label": "2", "text": "Check job postings more often." },
+            { "label": "3", "text": "Discuss her work with a manager." },
+            { "label": "4", "text": "Think about applying for the position." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "男性がチームリーダーの役職への応募を勧め、再度男性が勧めたことで、女性は考慮してみると返答している。よって、4「その役職に応募することを考える」が正解。",
+          "script": "M: Did you see the job posting for the team leader position?\nW: No. I haven't been checking the job postings.\nM: I think you'd make a great team leader. It would be more responsibility, but you've shown a lot of leadership in the past few months.\nW: I suppose I might be good at it. But I don't feel like I've been here long enough to move into a role where I'm managing others.\nM: You should still apply.\nW: Well, it's certainly something I'll consider."
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2024-2/06_No5.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why did the man get rid of his bees?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He became allergic to bees." },
+            { "label": "2", "text": "He was spending too much money." },
+            { "label": "3", "text": "He did not have room for them." },
+            { "label": "4", "text": "He did not like the honey they made." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "会話後半で男性は、引っ越し先の新しい敷地には養蜂のための場所がなかったと言っている。したがって、3「彼にはそのための場所がなかった」が正解。",
+          "script": "W: Thanks for bringing me to the nature center. I loved the demonstration about bees and their hives.\nM: You know, I used to have my own hives. It was a fairly expensive hobby, but all of that delicious honey was worth it!\nW: Why don't you do it anymore? Did you develop an allergy? That happened to my sister.\nM: No, when I moved houses, there wasn't enough space on the property. I sold all of my equipment to another beekeeper.\nW: Too bad. Sounds like you enjoyed it."
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2024-2/07_No6.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man think?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "His mother should not live alone." },
+            { "label": "2", "text": "His mother needs to save more money." },
+            { "label": "3", "text": "His mother should live near him." },
+            { "label": "4", "text": "His mother should not sell her house." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "男性の2番目の発言で、母親が怪我することなどを懸念して介護施設への入居を暗にほのめかしている。よって、1「母親は一人で住むべきではない」が正解。",
+          "script": "M: Mom, have you ever considered moving to an assisted-living facility?\nW: You mean a retirement home? I like living here. Besides, it'd be expensive.\nM: We could afford it if you sold this place. I just think being on your own is going to get harder and harder. What if you fell down and hurt yourself?\nW: There are plenty of people I could call for help.\nM: I guess so, but I'm worried about you, Mom.\nW: I understand. Let me think about it."
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2024-2/08_No7.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman want the man to do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Prepare for the trip more carefully." },
+            { "label": "2", "text": "Buy some new pajamas." },
+            { "label": "3", "text": "Double-check the travel plans." },
+            { "label": "4", "text": "Change the departure time." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "会話全体を通して女性は男性に荷造りを早く始めるよう促している。「慌てるからパジャマとか忘れるんじゃない」というセリフから、前もってしっかりと準備を整え、忘れ物をしないようにしてほしいと考えていることがわかる。したがって、1「より入念に旅行の準備をする」が正解。",
+          "script": "W: OK, my suitcase is ready to go. Have you started packing yet?\nM: No. It'll only take a few minutes. I'll do it before we leave in the morning.\nW: Why don't you start now? You always throw your clothes in your suitcase, and they get wrinkled. And then you forget things like pajamas because you're in such a hurry.\nM: Well, you sometimes leave important things behind, too.\nW: Hardly ever! I make up a list of things to take and check them off so I know I have everything."
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2024-2/09_No8.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why is the man upset?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The intern used incorrect data." },
+            { "label": "2", "text": "The audience seemed uninterested." },
+            { "label": "3", "text": "He could not present all of his research." },
+            { "label": "4", "text": "Next year's conference was canceled." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性の不満が表れているのは「研究発表をする日に講演者が追加されて、僕の講演が短縮された」という発言である。その後も研修生が作成したスライドを見せられなかったことへの不満が述べられていることから、3「研究の全てを発表できなかったから」が正解。",
+          "script": "W: Hi, how did things go at your conference?\nM: Not great.\nW: Was it poorly attended?\nM: Not at all, but they added more speakers on the day I was presenting my research, so my talk was cut short.\nW: That's too bad. I know you put a lot of work into it. Did you take the intern with you, too?\nM: Yes. She helped with the data analysis for the slides, but those all had to be cut.\nW: Well, it wasn't your fault. I hope things go better next time!"
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2024-2/10_No9.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the man do next?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Sit at an indoor table." },
+            { "label": "2", "text": "Take a seat at the bar." },
+            { "label": "3", "text": "Go to the patio." },
+            { "label": "4", "text": "Go outside to meet his party." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性客の同席者たちがあと20分は来ないことから、しばらく待つ必要のある屋内テーブルを選んだ。女性店員が男性客にバーの席で待機してよいことを伝え、男性がそれに同意していることから、2「バーの席に座る」が正解。",
+          "script": "M: Good evening. I'd like a table for four.\nW: Certainly, sir. We'll have an indoor table available in around thirty minutes. If you'd prefer a table on the patio, I can seat you immediately.\nM: Well, the rest of my party won't be here for another twenty minutes, so I don't mind waiting.\nW: Excellent. You can have a seat at the bar in the meantime if you'd like. I'll let you know when your table is ready.\nM: Thank you, that sounds great."
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2024-2/11_No10.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the man's problem?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He is worried his novel is too boring." },
+            { "label": "2", "text": "He needs to remove a character from his novel." },
+            { "label": "3", "text": "He has made little progress on his novel." },
+            { "label": "4", "text": "He needs to change the ending of his novel." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "会話の前半では男性の執筆がなかなか進まないことが述べられ、後半ではキャラクター作りに苦戦している様子がわかる。正解は3「小説をほとんど進められていない」。書き直しが必要なのは結末ではなく途中の章なので4は不適切。",
+          "script": "W: What's the matter, honey?\nM: Oh, I'm just frustrated with my novel. I've barely accomplished anything these last few days.\nW: Really? I thought you were just finishing up the ending.\nM: I was. But a couple of days ago, I realized that several chapters in the middle needed to be completely rewritten.\nW: That sounds like a lot of work.\nM: Yes, and to do it, I need to introduce an additional character. I just can't come up with a suitable one, though.\nW: Well, hang in there."
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2024-2/12_No11.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the man and woman do tomorrow?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Study for an exam." },
+            { "label": "2", "text": "Talk to a professor." },
+            { "label": "3", "text": "Take the final exam." },
+            { "label": "4", "text": "Start a new course." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "女性が一緒に勉強することを提案し、男性は同意して翌日の日程について後でメールで知らせるとしている。よって、1「試験のために勉強する」が正解。",
+          "script": "W: You're looking worried, Charlie. Are you OK?\nM: No! The final exam for our history course is in three days, but I haven't even started studying for it yet.\nW: I wouldn't worry about it. Professor Simons said the exam won't be too tough.\nM: Yes, but there's still a lot to remember. And history is my weakest subject.\nW: Why don't we study together? We could quiz each other on the main topics. That always helps me remember things.\nM: Good idea. Let's meet tomorrow. I'll text you to arrange a time."
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2024-2/13_No12.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is one thing the woman tells the man?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She goes to the gym several times a week." },
+            { "label": "2", "text": "He should watch more Internet training videos." },
+            { "label": "3", "text": "She was injured from incorrect machine use." },
+            { "label": "4", "text": "He needs to learn from a professional trainer." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "ウェイトトレーニングを始めようと考えている男性に対して女性が最後の発言で、不適切な機械の使用による怪我の危険性を指摘し、プロに教わることを勧めている。4「彼はプロのトレーナーから学ぶ必要がある」が正解。",
+          "script": "M: Jane, I'm going to take up weight training. Those Internet training videos are really inspiring.\nW: That's great, but you should check out a few gyms before deciding on one.\nM: Why's that?\nW: Some gyms are mainly designed for serious bodybuilders who go five or six times a week. At first, you should go somewhere that caters to a broader range of abilities.\nM: OK. And would you be able to teach me?\nW: I recommend getting lessons from a professional. It's easy to get injured if you don't use the machines properly."
         }
       ]
     },
@@ -201,16 +213,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/16_No13.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What did Spanish colonizers believe about the islands of the Bahamas?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The Lucayans were not their original inhabitants." },
+            { "label": "2", "text": "They were of little value." },
+            { "label": "3", "text": "They were too dangerous to approach safely." },
+            { "label": "4", "text": "The local people were hiding gold." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段第2文に「スペインの入植者は、これらの島々には金がなかったのでほとんど役に立たないと考えていた」とある。よって、2「ほとんど価値のないものであった」が正解。",
+          "script": "The Lucayans\n\nThe Lucayans were the indigenous people of the Bahamas, a group of islands in the western Atlantic Ocean. Spanish colonizers who arrived in the 1400s in search of riches believed these islands were essentially useless as they did not contain gold. The colonizers enslaved large numbers of Lucayans to work on other islands; this, in combination with the introduction of diseases, led to the near extinction of the Lucayans by the mid-sixteenth century.\n\nIn the 1800s, a large number of Lucayan artifacts, including wood carvings and canoes, were discovered in the Bahamas. By the late twentieth century, however, most of these had been destroyed by rising sea levels as well as construction, agricultural development, and efforts to mine the islands for bat droppings, which are a valuable fertilizer. Nevertheless, archaeologists believe underwater caves around the islands contain undiscovered artifacts that can add to scholars' knowledge of Lucayan culture."
         },
         {
           "id": "q14",
@@ -218,16 +230,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/17_No14.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "According to the speaker, what is true about most known Lucayan artifacts?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They were tools used to build canoes." },
+            { "label": "2", "text": "Various factors led to their destruction." },
+            { "label": "3", "text": "Most of them were found underwater." },
+            { "label": "4", "text": "They challenged many scholars' theories." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第2段第2文では、ルカヤ人の遺物が海面上昇や建設、農業開発などの要因によって破壊されてしまったことが述べられている。したがって、2「様々な要因がその破壊につながった」が正解。",
+          "script": "The Lucayans\n\nThe Lucayans were the indigenous people of the Bahamas, a group of islands in the western Atlantic Ocean. Spanish colonizers who arrived in the 1400s in search of riches believed these islands were essentially useless as they did not contain gold. The colonizers enslaved large numbers of Lucayans to work on other islands; this, in combination with the introduction of diseases, led to the near extinction of the Lucayans by the mid-sixteenth century.\n\nIn the 1800s, a large number of Lucayan artifacts, including wood carvings and canoes, were discovered in the Bahamas. By the late twentieth century, however, most of these had been destroyed by rising sea levels as well as construction, agricultural development, and efforts to mine the islands for bat droppings, which are a valuable fertilizer. Nevertheless, archaeologists believe underwater caves around the islands contain undiscovered artifacts that can add to scholars' knowledge of Lucayan culture."
         },
         {
           "id": "q15",
@@ -235,16 +247,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/19_No15.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "According to the speaker, what did some people once believe about teddy bears?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Their popularity resulted from high birth rates." },
+            { "label": "2", "text": "They looked too much like humans." },
+            { "label": "3", "text": "Their popularity would not last long." },
+            { "label": "4", "text": "They would reduce the number of children born." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第1段第3・4文にテディベアとばかり遊ぶことで女の子は母性本能を失い、出生率の低下につながるという当時の人々の懸念が述べられている。よって、4「生まれる子どもの数を減らす」が正解。",
+          "script": "History of the Teddy Bear\n\nTeddy bears have been popular with children worldwide since their invention in the early 1900s. While the stuffed toys are generally considered lovable symbols of comfort and joy, they initially sparked some concerns. As teddy bears became a fixture in toy closets, there were fears that playing with them rather than humanlike dolls would result in girls losing their maternal instinct. Some people even predicted this would lead to falling birth rates.\n\nWhile such fears eventually disappeared, author Jon Mooallem suggests the acceptance of teddy bears did, in fact, correlate with another shift in society. As urbanization brought people away from rural areas where animals like brown bears were a threat, they came to view the bears as cute rather than ferocious. Mooallem notes that, more recently, a similar phenomenon has occurred with polar bears, as climate-change-related habitat loss has led people to see them as delicate victims rather than terrifying predators."
         },
         {
           "id": "q16",
@@ -252,16 +264,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/20_No16.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What point does Jon Mooallem make about polar bears?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They were considered less dangerous than brown bears." },
+            { "label": "2", "text": "Toys that look like them have become less popular." },
+            { "label": "3", "text": "People's image of them has changed." },
+            { "label": "4", "text": "They currently face a greater threat than climate change." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第2段第3文に気候変動によって生息地が減少した北極グマは恐ろしい捕食者ではなく繊細な犠牲者として見られるようになったとある。3「人々の北極グマに対するイメージは変化した」が正解。",
+          "script": "History of the Teddy Bear\n\nTeddy bears have been popular with children worldwide since their invention in the early 1900s. While the stuffed toys are generally considered lovable symbols of comfort and joy, they initially sparked some concerns. As teddy bears became a fixture in toy closets, there were fears that playing with them rather than humanlike dolls would result in girls losing their maternal instinct. Some people even predicted this would lead to falling birth rates.\n\nWhile such fears eventually disappeared, author Jon Mooallem suggests the acceptance of teddy bears did, in fact, correlate with another shift in society. As urbanization brought people away from rural areas where animals like brown bears were a threat, they came to view the bears as cute rather than ferocious. Mooallem notes that, more recently, a similar phenomenon has occurred with polar bears, as climate-change-related habitat loss has led people to see them as delicate victims rather than terrifying predators."
         },
         {
           "id": "q17",
@@ -269,16 +281,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/22_No17.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker say about the relationships between languages?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They have been categorized based on structural similarities." },
+            { "label": "2", "text": "Similar languages do not necessarily have the same origin." },
+            { "label": "3", "text": "Some languages have been incorrectly grouped together." },
+            { "label": "4", "text": "Languages in the same family may not sound similar." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段第3文に「言語を分類する研究の多くは言語構造に焦点を当ててきた」とあることから、言語はこれまで構造を基に分類されてきたとわかる。よって、1「構造上の類似性に基づいて分類されてきた」が正解。",
+          "script": "Listening to Languages\n\nThere are thought to be around 7,000 languages used around the world, and these languages are often grouped into families. The languages in each family share similarities and are believed to have evolved from the same original language. Much of the research into categorizing languages has focused on language structures, but a recent study took a different approach. The researchers analyzed the sounds of hundreds of languages, comparing their sonority, or loudness.\n\nThe study's results suggest that languages that developed in warm areas are louder than those that developed in cold ones. One explanation for this is that the air is drier in cold climates. Producing louder sounds requires vibrating the vocal cords more, which is harder to do in dry air. An opposing theory relates to the fact that in many tropical areas, sounds bend upward while moving through the air at low altitudes. Higher sonority sounds carry through the air more easily, which explains why they may be preferable in warm areas."
         },
         {
           "id": "q18",
@@ -286,16 +298,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/23_No18.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What did a recent study suggest?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Languages that developed in cold areas are simpler." },
+            { "label": "2", "text": "Most languages have a similar level of loudness." },
+            { "label": "3", "text": "Warm areas tend to have more languages." },
+            { "label": "4", "text": "Climate affects the sounds of languages." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第2段では寒冷な地域と比べて温暖な地域の言語は音声がより大きくなる傾向があるとされ、その違いには空気の特徴、つまり気候が関係していることが示唆されている。したがって、4「気候は言語の音に影響を与える」が正解。",
+          "script": "Listening to Languages\n\nThere are thought to be around 7,000 languages used around the world, and these languages are often grouped into families. The languages in each family share similarities and are believed to have evolved from the same original language. Much of the research into categorizing languages has focused on language structures, but a recent study took a different approach. The researchers analyzed the sounds of hundreds of languages, comparing their sonority, or loudness.\n\nThe study's results suggest that languages that developed in warm areas are louder than those that developed in cold ones. One explanation for this is that the air is drier in cold climates. Producing louder sounds requires vibrating the vocal cords more, which is harder to do in dry air. An opposing theory relates to the fact that in many tropical areas, sounds bend upward while moving through the air at low altitudes. Higher sonority sounds carry through the air more easily, which explains why they may be preferable in warm areas."
         },
         {
           "id": "q19",
@@ -303,16 +315,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/25_No19.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker say about racewalking?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It is popular with former runners." },
+            { "label": "2", "text": "It will lose its place in the Olympics." },
+            { "label": "3", "text": "It was invented in the 1900s." },
+            { "label": "4", "text": "It tends to be looked down upon." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第1段第1・2文にあるように、競歩はランニング競技に比べて観客を集めにくく、ランニングを断念した人が行うスポーツであるといった偏見から簡単だと思われがちである。したがって、4「軽視される傾向がある」が正解。1900年代はオリンピックの種目になった時期であり、考案された時期ではないので3は不適切。",
+          "script": "Racewalking\n\nDespite the fact that racewalking has been an Olympic sport since the early 1900s, it attracts far fewer spectators than running events. The sport is often considered to be easy or is wrongly thought to be something that unsuccessful runners end up doing. In fact, racewalking requires a technique that is very different from running. It was also once one of America's most popular sports.\n\nRacewalking is believed to have originated in England during the 1800s, when wealthy people employed servants known as footmen to walk alongside their carriages. As a form of entertainment, some people had their footmen race each other and placed bets on who would win. This developed into a spectator sport known as pedestrianism, which later found its way to the United States. There, it gained widespread popularity, with hundreds of spectators going to see events held in indoor arenas. It also produced some of the nation's first celebrity athletes."
         },
         {
           "id": "q20",
@@ -320,16 +332,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/26_No20.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing we learn about pedestrianism?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Its first participants were wealthy people." },
+            { "label": "2", "text": "Some of its competitors became famous." },
+            { "label": "3", "text": "It was never considered a sport." },
+            { "label": "4", "text": "Its rules were different in England and America." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第2段最終文では、アメリカで有名なアスリートを輩出したことが書かれている。したがって、2「一部の競技者は有名になった」が正解。",
+          "script": "Racewalking\n\nDespite the fact that racewalking has been an Olympic sport since the early 1900s, it attracts far fewer spectators than running events. The sport is often considered to be easy or is wrongly thought to be something that unsuccessful runners end up doing. In fact, racewalking requires a technique that is very different from running. It was also once one of America's most popular sports.\n\nRacewalking is believed to have originated in England during the 1800s, when wealthy people employed servants known as footmen to walk alongside their carriages. As a form of entertainment, some people had their footmen race each other and placed bets on who would win. This developed into a spectator sport known as pedestrianism, which later found its way to the United States. There, it gained widespread popularity, with hundreds of spectators going to see events held in indoor arenas. It also produced some of the nation's first celebrity athletes."
         },
         {
           "id": "q21",
@@ -337,16 +349,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/28_No21.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing that was special about the design of the Frankfurt Kitchen?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Items were stored in unusual places." },
+            { "label": "2", "text": "There was more space than in other kitchens." },
+            { "label": "3", "text": "It was designed for more efficient cooking." },
+            { "label": "4", "text": "Every surface was painted." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段第2文では、必要なものがすべて手の届く範囲に配置され、身体的な労力を減らすように設計されていることが述べられている。この特徴を簡潔に言い換えた3「より効率的に調理できるように設計されていた」が正解。",
+          "script": "The Frankfurt Kitchen\n\nDesigned in 1926 by the Austrian architect Margarete Schütte-Lihotzky, the Frankfurt Kitchen was highly influential in the development of cooking spaces. To reduce the amount of physical effort needed and save time, she created a design where all cupboards, the stove, and the sink were within easy reach. The kitchens also had modern electric stoves instead of wood-burning ones, and every element of the design had a purpose. Even the cupboards' and drawers' blue paint was chosen because researchers believed at the time that flies avoided blue surfaces.\n\nPreviously, most kitchens had been combined with living rooms, and people did everything from bathing to sleeping in them. However, the Frankfurt Kitchen was entirely separate. While Schütte-Lihotzky's intention was to improve women's quality of life, there were several complaints. One was that women were unable to be with their families and watch their children while preparing meals."
         },
         {
           "id": "q22",
@@ -354,16 +366,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/29_No22.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Why did some people complain about the Frankfurt Kitchen?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "People wanted to be able to bathe in it." },
+            { "label": "2", "text": "It took away living space." },
+            { "label": "3", "text": "People did not need all of its features." },
+            { "label": "4", "text": "It separated women from their families." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第2段後半ではフランクフルトキッチンがリビングから完全に独立しており、女性が料理を作る間に家族と一緒にいることができないというデメリットが示されている。よって、4「女性を家族から引き離した」が正解。",
+          "script": "The Frankfurt Kitchen\n\nDesigned in 1926 by the Austrian architect Margarete Schütte-Lihotzky, the Frankfurt Kitchen was highly influential in the development of cooking spaces. To reduce the amount of physical effort needed and save time, she created a design where all cupboards, the stove, and the sink were within easy reach. The kitchens also had modern electric stoves instead of wood-burning ones, and every element of the design had a purpose. Even the cupboards' and drawers' blue paint was chosen because researchers believed at the time that flies avoided blue surfaces.\n\nPreviously, most kitchens had been combined with living rooms, and people did everything from bathing to sleeping in them. However, the Frankfurt Kitchen was entirely separate. While Schütte-Lihotzky's intention was to improve women's quality of life, there were several complaints. One was that women were unable to be with their families and watch their children while preparing meals."
         },
         {
           "id": "q23",
@@ -371,16 +383,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/31_No23.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one objective of the agreement between Norway and Indonesia?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To contribute to the fight against climate change." },
+            { "label": "2", "text": "To increase cross-cultural understanding between the two countries." },
+            { "label": "3", "text": "To examine population growth trends in Indonesia." },
+            { "label": "4", "text": "To regulate the export of wood products to Norway." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段第3文に「森林伐採による炭素排出を削減するための協定」に調印した目的が述べられている。さらに最終文では、インドネシアが環境問題を改善すれば、ノルウェーはその活動を支援するとある。したがって、1「気候変動との闘いに貢献すること」が正解。",
+          "script": "Working Together\n\nNorway and Indonesia may be different in terms of geographical location, climate, culture, and population. However, both nations are playing an important role in addressing climate change. They have signed an agreement to reduce carbon emissions from deforestation. According to officials, deforestation is slowing in Indonesia, and the country aims to eventually store more carbon than it releases. Under the agreement, Norway will financially support such sustainability efforts as they show results.\n\nThe program involves eco-friendly forest-management efforts and replanting of forests, including carbon-dense mangroves, in Indonesia. As the rates of deforestation and CO₂ emissions decrease, Norway will pay more funds. The two countries say they will exchange technical knowledge and that they will get local communities in Indonesia involved in helping protect and manage forests. Some people hope the agreement will open the way for other countries or the private sector to support other conservation programs in the future."
         },
         {
           "id": "q24",
@@ -388,16 +400,16 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/32_No24.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2024-2/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one feature of the program?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Other countries help Norway fund it." },
+            { "label": "2", "text": "Indonesian experts assist with Norwegian forest management." },
+            { "label": "3", "text": "Private logging companies pay for reforestation." },
+            { "label": "4", "text": "It includes participation by local communities." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第2段第3文に「インドネシアの地域社会を森林の保護と管理の支援に関与させる」とあるので、この計画の特徴としては4「地域社会による参加を含む」が正解。",
+          "script": "Working Together\n\nNorway and Indonesia may be different in terms of geographical location, climate, culture, and population. However, both nations are playing an important role in addressing climate change. They have signed an agreement to reduce carbon emissions from deforestation. According to officials, deforestation is slowing in Indonesia, and the country aims to eventually store more carbon than it releases. Under the agreement, Norway will financially support such sustainability efforts as they show results.\n\nThe program involves eco-friendly forest-management efforts and replanting of forests, including carbon-dense mangroves, in Indonesia. As the rates of deforestation and CO₂ emissions decrease, Norway will pay more funds. The two countries say they will exchange technical knowledge and that they will get local communities in Indonesia involved in helping protect and manage forests. Some people hope the agreement will open the way for other countries or the private sector to support other conservation programs in the future."
         }
       ]
     },
@@ -413,80 +425,85 @@
           "number": 25,
           "audio": "audio/eiken/eiken-pre1-2024-2/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Where should you go?",
+          "promptJa": "あなたはクルーズ船で休暇を過ごしている。時刻は午前9時30分。朝のヨガクラスに行くために準備をしている。次のような船長からのアナウンスを聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The studio." },
+            { "label": "2", "text": "The Sun Deck." },
+            { "label": "3", "text": "The Paradise Lounge." },
+            { "label": "4", "text": "The Rear Deck." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "天気が回復したためヨガの場所がスタジオからサンデッキに変更されたことが述べられている。よって、2「サンデッキ」が正解。",
+          "script": "Good morning, passengers. We have updates regarding today's activities. First, as the weather has cleared up, the 10:00 a.m. yoga class has been moved from the studio to the Sun Deck, where you can enjoy the sea breeze. Next, the trivia challenge in the Grand Lounge will begin as scheduled at 2:00 p.m. There has, however, been a time change for the cooking demonstration; it will begin at 11:30 a.m. in the Paradise Lounge. Finally, the jazz performance at 9:00 p.m. will take place on the covered Rear Deck, as rain is forecasted for tonight. We apologize for any inconvenience."
         },
         {
           "id": "q26",
           "number": 26,
           "audio": "audio/eiken/eiken-pre1-2024-2/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which road should you take?",
+          "promptJa": "あなたは市内北部にあるホテルに滞在しており、出来るだけ早く空港に到着する必要がある。ラジオで次のような交通情報を聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Haliburton Road." },
+            { "label": "2", "text": "Appleton Boulevard." },
+            { "label": "3", "text": "Highway 9." },
+            { "label": "4", "text": "Regent Parkway." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "ハリバートン通りでは北側から空港に行くと遅延するので不適。9号線は事故により閉鎖されているので不適。アップルトン大通りは工事の車線規制があるが比較的交通が流れている。リージェントパークウェイは市内中心部からの道であり、北側からではない。よって、2「アップルトン大通り」が正解。",
+          "script": "This is the WJTX traffic report. I'm afraid there are some problems around Branagh Airport today. Conditions are smooth on Haliburton Road coming from the south, but drivers heading in from the north end will face delays. If you're coming from there, traffic on Highway 9 is completely blocked due to a collision. However, although there are lane restrictions due to construction on Appleton Boulevard, traffic there is only slightly slower than usual. From the city center, there are delays on Dundas Road, so it's advisable to make a slight detour using Regent Parkway, which is relatively clear right now."
         },
         {
           "id": "q27",
           "number": 27,
           "audio": "audio/eiken/eiken-pre1-2024-2/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you change?",
+          "promptJa": "あなたの会社はハンドクリームを製造していて、商品のパッケージにもっと高級感をもたせたいと思っている。コンサルタントが製品のパッケージを分析した後、あなたに報告をしている。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The font used for the name." },
+            { "label": "2", "text": "The color of the box." },
+            { "label": "3", "text": "The flower illustration." },
+            { "label": "4", "text": "The shape of the bottle." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第3文に「花のイラストは可愛らしいが、競合他社の製品に比べると洗練さに欠ける」とあることから、花のイラストを変更した方が良いことがわかる。したがって、3「花のイラスト」が正解。ボトルの形については「現代的で魅力的」と肯定的に評価されている。",
+          "script": "The most notable feature of your hand cream is that it really stands out on the shelf. The striking, unique font used for the product name catches customers' eyes, and the black-and-white colors of the box give it a very bold image. The flower illustration is adorable, but it's lacking in sophistication compared with some of your competitors' products. As for the shape of the bottle, it's very contemporary and attractive, although the production costs of such a unique design must be rather high."
         },
         {
           "id": "q28",
           "number": 28,
           "audio": "audio/eiken/eiken-pre1-2024-2/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたは最近パスポートを申請し、パスポート申請窓口から追加情報を求める手紙を受け取った。窓口に電話して、次のような自動メッセージを聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Press 1." },
+            { "label": "2", "text": "Press 2." },
+            { "label": "3", "text": "Press 3." },
+            { "label": "4", "text": "Press 4." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第3文に「すでに済ませた申請に関しての連絡を受けて電話した場合は『1』を押す」ように指示がある。これは「パスポートを申請した後、窓口から追加情報を求める手紙を受け取った」という状況に合致する。よって、1「『1』を押す」が正解。",
+          "script": "Thank you for calling the passport office. Please note that due to the large number of applications currently being processed, it may take eight to ten weeks to receive your passport. If you are calling because you've been contacted by us regarding your application, press 1. If you are calling about the requirements for a new passport application, please press 2. To find out the progress of an ongoing application, press 3. For all other inquiries, please press 4. Our operators are currently very busy, so it may take some time to connect you."
         },
         {
           "id": "q29",
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2024-2/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which drill should you buy?",
+          "promptJa": "あなたは建築業者で、高品質の電動ドリルが必要である。予算は300ドル。工具店を訪れ、店員と話をする。あなたは会員ではない。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The Omni-Power." },
+            { "label": "2", "text": "The Drill Legend." },
+            { "label": "3", "text": "The Power P3." },
+            { "label": "4", "text": "The Bit Plus." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "購入条件は「高品質」「予算300ドル以内」「非会員」。オムニパワーは非会員500ドルで予算超過。ドリルレジェンドは高品質で、現在は非会員でも280ドルで販売中。パワーP3は320ドルで予算超過。ビットプラスは230ドルだが品質が劣る。よって、2「ドリルレジェンド」が正解。",
+          "script": "The Omni-Power is top-of-the-line and can handle almost any job. It's $500 for nonmembers and $450 for members. Next up, the Drill Legend is a quality drill that will deal with most building jobs. It's usually $350 but is currently offered at $280 for members and nonmembers. Next, we have the Power P3. It's $320, and like the Drill Legend, it's solid and durable. Finally, this is the Bit Plus. It's suitable for simple DIY tasks and only costs $230, but it can't match the others in terms of quality or durability."
         }
       ]
     }
