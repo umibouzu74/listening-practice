@@ -34,8 +34,12 @@ export default function useAudioPlayer(src) {
   // Loop (repeat) state
   const [isLooping, setIsLooping] = useState(false);
 
-  // Seeking state (suppress timeupdate while dragging)
-  const [isSeeking, setIsSeeking] = useState(false);
+  // Seeking state — use ref for synchronous access in timeupdate handler
+  const isSeekingRef = useRef(false);
+  const setIsSeeking = useCallback((v) => { isSeekingRef.current = v; }, []);
+
+  // RAF throttle for timeupdate
+  const rafRef = useRef(null);
 
   const progress = duration > 0 ? (currentTime / duration) * 100 : 0;
 
@@ -64,7 +68,14 @@ export default function useAudioPlayer(src) {
     };
 
     const onTimeUpdate = () => {
-      setCurrentTime(audio.currentTime);
+      if (isSeekingRef.current) return;
+      if (rafRef.current) return;
+      rafRef.current = requestAnimationFrame(() => {
+        rafRef.current = null;
+        if (!isSeekingRef.current) {
+          setCurrentTime(audio.currentTime);
+        }
+      });
     };
 
     const onEnded = () => {
@@ -87,6 +98,10 @@ export default function useAudioPlayer(src) {
       audio.removeEventListener('timeupdate', onTimeUpdate);
       audio.removeEventListener('ended', onEnded);
       audio.removeEventListener('error', onError);
+      if (rafRef.current) {
+        cancelAnimationFrame(rafRef.current);
+        rafRef.current = null;
+      }
       audio.pause();
       audio.src = '';
       audioRef.current = null;
@@ -198,7 +213,7 @@ export default function useAudioPlayer(src) {
     volume,
     isLoaded,
     error,
-    isSeeking,
+    isSeeking: isSeekingRef.current,
     setIsSeeking,
     isLooping,
     play,
