@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import MiniAudioPlayer from './MiniAudioPlayer';
+import PassageQuestionPlayer from './PassageQuestionPlayer';
 import styles from './QuestionCard.module.css';
 
 export default function QuestionCard({
@@ -16,6 +17,9 @@ export default function QuestionCard({
 
   const isCorrect = showResult && userAnswer === question.answer;
   const isIncorrect = showResult && userAnswer && userAnswer !== question.answer;
+
+  // Use chained player when both passage and question audio exist
+  const hasChainedAudio = question.passageAudio && question.audio;
 
   return (
     <div className={styles.card}>
@@ -34,8 +38,18 @@ export default function QuestionCard({
         )}
       </div>
 
-      {/* Passage audio (shown once per passage group) */}
-      {showPassageAudio && question.passageAudio && (
+      {/* Chained player: passage → question plays continuously */}
+      {hasChainedAudio && (
+        <PassageQuestionPlayer
+          passageSrc={question.passageAudio}
+          questionSrc={question.audio}
+          passageLabel={question.passageLabel}
+          accentColor={accent}
+        />
+      )}
+
+      {/* Passage-only audio (when no question audio, shown once per passage group) */}
+      {!hasChainedAudio && showPassageAudio && question.passageAudio && (
         <MiniAudioPlayer
           src={question.passageAudio}
           label={question.passageLabel || 'Passage'}
@@ -43,8 +57,8 @@ export default function QuestionCard({
         />
       )}
 
-      {/* Question audio */}
-      {question.audio && (
+      {/* Question-only audio (when no passage audio) */}
+      {!hasChainedAudio && question.audio && (
         <MiniAudioPlayer
           src={question.audio}
           label="Question"
@@ -173,6 +187,17 @@ export default function QuestionCard({
           {showScript && (
             <p className={styles.scriptText}>{question.script}</p>
           )}
+        </div>
+      )}
+
+      {/* Replay passage only (after checking, when passage audio exists) */}
+      {showResult && question.passageAudio && (
+        <div className={styles.replaySection}>
+          <MiniAudioPlayer
+            src={question.passageAudio}
+            label={`${question.passageLabel || '本文'}を聞き直す`}
+            accentColor={accent}
+          />
         </div>
       )}
     </div>

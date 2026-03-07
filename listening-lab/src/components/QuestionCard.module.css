@@ -229,3 +229,8 @@
   line-height: 1.8;
   white-space: pre-wrap;
 }
+
+/* Replay passage section */
+.replaySection {
+  margin-top: 12px;
+}
