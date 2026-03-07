@@ -11,7 +11,11 @@ export default function HomePage() {
   const navigate = useNavigate();
 
   const handleClick = (et) => {
-    navigate(`/${et.id}`);
+    if (et.externalUrl) {
+      window.location.href = et.externalUrl;
+    } else {
+      navigate(`/${et.id}`);
+    }
   };
 
   return (
@@ -23,6 +27,7 @@ export default function HomePage() {
             key={et.id}
             examType={et}
             count={getExamCount(et.id)}
+            isExternal={!!et.externalUrl}
             onClick={() => handleClick(et)}
           />
         ))}
