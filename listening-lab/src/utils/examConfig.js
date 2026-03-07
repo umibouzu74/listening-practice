@@ -9,7 +9,7 @@ const EXAM_TYPES = {
     color: "#3498db",
     description: "英検準1級 リスニング演習",
     groupBy: "grade",
-    sortOrder: "asc",
+    sortOrder: "desc",
     grades: { pre1: "準1級" },
   },
   kyotsu: {

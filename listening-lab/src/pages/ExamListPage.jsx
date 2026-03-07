@@ -33,7 +33,13 @@ function groupExamSets(sets, groupBy, sortOrder) {
     if (groupBy === 'year') label = `${key}年度`;
     else if (groupBy === 'grade') label = getGradeLabel(key);
     else if (groupBy === 'prefecture') label = getPrefectureLabel(key);
-    return { key, label, items: grouped[key] };
+    const items = grouped[key].slice().sort((a, b) => {
+      const sa = a.meta.session ?? a.id;
+      const sb = b.meta.session ?? b.id;
+      if (sortOrder === 'desc') return String(sb).localeCompare(String(sa), undefined, { numeric: true });
+      return String(sa).localeCompare(String(sb), undefined, { numeric: true });
+    });
+    return { key, label, items };
   });
 }
 

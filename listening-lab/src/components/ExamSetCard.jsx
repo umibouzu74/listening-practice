@@ -15,10 +15,7 @@ export default function ExamSetCard({ examSet, accentColor, onClick }) {
       style={{ '--card-accent': accent }}
     >
       <div className={styles.header}>
-        <span className={styles.title}>{meta.title}</span>
-        {meta.subtitle && (
-          <span className={styles.subtitle}>{meta.subtitle}</span>
-        )}
+        <span className={styles.title}>{meta.subtitle || meta.title}</span>
         {meta.description && (
           <span className={styles.description}>{meta.description}</span>
         )}
