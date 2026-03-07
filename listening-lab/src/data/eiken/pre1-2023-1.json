@@ -22,169 +22,193 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2023-1/02_No1.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the woman probably do tomorrow?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Visit her brother in the hospital." },
+            { "label": "2", "text": "Submit her assignment." },
+            { "label": "3", "text": "Ask her brother for help." },
+            { "label": "4", "text": "Choose a new topic for her assignment." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性が最後の発言で「明日それを提出するのを認める」と述べ、女性は「すばらしい」と答えている。itは女性の発言中のassignment「課題」を指しているので、2「課題を提出する」が正解。「提出する」という表現が、放送文ではturn it inで、選択肢ではsubmitに言い換えられている。1は、女性が「弟は家にいる」と述べているから不適切。",
+          "script": "W: Hi, Professor. Can I talk to you about my assignment?\nM: Sure. I was surprised when you didn't turn it in at the start of class. That's never happened before.\nW: My brother was in an accident, and I was at the hospital with him.\nM: I'm sorry to hear that. Is he OK?\nW: Yes, he's home now, but I didn't have time to get my assignment done.\nM: Well, I can let you turn it in tomorrow. How would that be?\nW: Great. Thank you!",
+          "scriptJa": "W: こんにちは、教授。課題のことでお話しできますか？\nM: もちろん。授業の始めに君が課題を提出しなかったので驚いた。そんなことは今まで一度もなかったからね。\nW: 弟が事故にあって、病院で付き添っていたんです。\nM: それはお気の毒に。弟さんは大丈夫？\nW: はい、今は家にいます。ただ、課題を終わらせる時間がなかったんです。\nM: そうか、明日それを提出するのを認めよう。それでどうかな？\nW: すばらしい。ありがとうございます！"
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2023-1/03_No2.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What do these people think?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Too much money is being spent on education." },
+            { "label": "2", "text": "The budget is likely to be reduced soon." },
+            { "label": "3", "text": "The government is wasting money." },
+            { "label": "4", "text": "The media is unfair to the government." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "2人の会話は政府の税金の引き上げから始まり、女性は予算を削減できる分野があると述べて道路を例に挙げている。男性は多額の金をかけて作った道路が使われていないという報道を読んだと言っているので、3「政府は金の無駄遣いをしている」が適切。",
+          "script": "W: I can't believe the government wants to raise taxes again.\nM: They say it's necessary to pay for the new education plan.\nW: Well, it seems like there are a lot of areas in the budget that could be reduced instead. Spending on highways, for one.\nM: That's for sure. I read a news report just yesterday saying that few drivers are using the new highways, even though they cost billions.\nW: Right. I'd write a letter to the government if I thought it'd do any good.",
+          "scriptJa": "W: 政府がまた税金を引き上げたいなんて信じられない。\nM: 新しい教育計画の財源として必要だと言っている。\nW: なるほど、それよりも、予算を削ることができそうな分野がたくさんあるように思えるけど。例えば、道路への支出とか。\nM: 確かに。何十億もかけて作ったのに、新しい道路を使っているドライバーがほとんどいないというニュース報道を昨日読んだばかりだ。\nW: そのとおり。それが役に立つなら、政府に手紙を書くところよ。"
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2023-1/04_No3.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is one thing we learn from the conversation?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The man will be much busier." },
+            { "label": "2", "text": "The woman will need to attend more meetings." },
+            { "label": "3", "text": "The woman dislikes the people on the fourth floor." },
+            { "label": "4", "text": "The man did not want his new position." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "女性が「もっと頻繁に机で食事をすることになるだろう」と述べると、男性はそれを認めて「仕事量はかなり多くなると思う」と述べている。したがって、1「男性はずっと忙しくなるだろう」が適切。",
+          "script": "W: Thanks for inviting me to lunch.\nM: Sure. I wanted to celebrate your promotion. It's too bad I won't see you as often, though, since you'll be moving to the fourth floor.\nW: Well, we'll still have meetings together. And maybe we could have a weekly lunch or something.\nM: Great idea. But you'll probably be eating at your desk a lot more often.\nW: That's true. I guess my workload is going to be pretty heavy.\nM: Yes, at least until you get used to your new position.",
+          "scriptJa": "W: 昼ご飯に誘ってくれてありがとう。\nM: どういたしまして。昇進のお祝いをしたかったの。4階へ移動してしまうと、頻繁に会えなくなるのは残念だけど。\nW: まあ、一緒の会議はまだある。それに、週1度の昼ご飯くらいなら行けるかもしれない。\nM: すごくいい考え。でも、おそらくあなたは、自分の机で食事をすることが増えるでしょうね。\nW: そのとおり。仕事量はかなり多くなると思う。\nM: ええ、少なくとも新しい地位に慣れるまでは。"
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2023-1/05_No4.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why is the woman visiting her neighbor?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To give her a massage." },
+            { "label": "2", "text": "To receive some food." },
+            { "label": "3", "text": "To give her a gift certificate." },
+            { "label": "4", "text": "To do some housework." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "女性の2番目の発言で「少し掃除をして、温めるだけで食べられる物を用意してくるつもりだ」と述べていることから、4「家事をするため」が正解。1・2・3で用いられている単語が会話中で使われているが、女性が訪ねる理由とは関係ない。",
+          "script": "W: I'm going next door to see Carol. I'll be back in an hour.\nM: Sure. By the way, how is she doing after her surgery?\nW: She's doing much better, but she still has trouble moving around. Today, I'm going to do a little cleaning and prepare some food for her that she can just heat up.\nM: I'm sure she appreciates your help.\nW: I think she does. The other day, she got me a gift certificate to a spa so I can get a massage.",
+          "scriptJa": "W: キャロルに会いにお隣へ行ってくる。1時間で戻ります。\nM: わかった。ところで、手術後、彼女の様子はどうなの？\nW: ずいぶんよくなってはいるけれど、まだ動き回るのは大変なの。今日は、少し掃除をして、温めるだけで食べられる物を用意してくるつもり。\nM: 彼女は君の助けをきっと感謝しているだろうね。\nW: そう思う。この前、私がマッサージを受けられるようにと、スパのギフト券をくれたもの。"
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2023-1/06_No5.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the man probably do first?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Ask the store to replace the printer." },
+            { "label": "2", "text": "Have the old printer repaired." },
+            { "label": "3", "text": "Try to get money back from the store." },
+            { "label": "4", "text": "Visit the store to look at other models." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性は「取り替えてもらうように頼む」と言っているが、女性が「払い戻してもらうべきだ」と言い、このブランドは修理が必要だという評判を述べると、男性はその意見に同意している。よって、3「店から返金してもらうようにする」が正解。「払い戻しを受ける」が放送文ではget a refundで、選択肢ではget money backに言い換えられている。",
+          "script": "W: Alan, the printer is giving me that error message again.\nM: Are you sure the paper is the right size?\nW: Of course. I've checked it several times.\nM: This is ridiculous. We just bought that printer two weeks ago. I'll call the computer shop and ask them to replace it.\nW: I think we should try to get a refund instead. I've seen reviews saying this brand's printers frequently need to be repaired.\nM: OK, I'll look into it. We can use our old one until we decide which model we want to buy.",
+          "scriptJa": "W: アラン、プリンターにあのエラーメッセージがまた出ているんだけど。\nM: 間違いなく用紙は正しいサイズになっている？\nW: もちろん。何度か確認したもの。\nM: とんでもない話だ。2週間前にあのプリンターを買ったばかりなのに。コンピュータショップに電話をして、取り替えてもらうように頼もう。\nW: それよりも、払い戻してもらうべきだと思うんだけど。このブランドのプリンターは頻繁に修理が必要だと書いてあるレビューを見たの。\nM: わかった、調べてみるよ。どのモデルを買うか決めるまでは、古いものが使える。"
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2023-1/07_No6.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What was one problem the man had during his trip?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The client canceled the deal." },
+            { "label": "2", "text": "The contract had to be revised." },
+            { "label": "3", "text": "The lawyer made a serious mistake." },
+            { "label": "4", "text": "He was late for an important meeting." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性が「弁護士が契約書の言葉遣いに異議を唱えて、文章の修正をしている間に大きな遅れが出た」と述べていることから、2「契約書の修正が必要だった」が正解。「修正する」という表現が、放送文ではmodifyで、選択肢ではreviseに言い換えられている。1については、女性が「顧客が取引を破棄したのか」と尋ねたのに対して、男性は否定している。",
+          "script": "W: How was your business trip to Tokyo last week?\nM: It was a disaster.\nW: What happened? Did the client back out of the deal?\nM: No, but their lawyer objected to the wording of the contract, and there was a big delay while we modified the text. Then, before we could finalize the deal, we had an emergency at headquarters, and I had to return immediately.\nW: That's awful.\nM: Yes. I'm going to have to go back to Tokyo in a couple of weeks.",
+          "scriptJa": "W: 先週の東京出張はどうだった？\nM: さんざんだった。\nW: 何があったの？　顧客が取引を破棄したの？\nM: いや、だが先方の弁護士が契約書の言葉遣いに異議を唱えて、文章の修正をしている間に大きな遅れが出た。その後、取引をまとめる前に、本社で緊急事態が発生してね、すぐに戻らなければならなくなったのさ。\nW: それはひどい。\nM: ああ。数週間後にはまた東京に行かなければならないだろう。"
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2023-1/08_No7.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man say about his new job?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "His boss does not trust him." },
+            { "label": "2", "text": "He is under very tight deadlines." },
+            { "label": "3", "text": "He lacks the skills that are required." },
+            { "label": "4", "text": "His boss is not well organized." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "男性が自分の上司について「いつも、やるつもりだと言っては忘れている。しょっちゅう締切りを思い出させなければいけない」と述べていることから、4「彼の上司は仕事を手際よく処理できない」が適切。選択肢中のorganizedには「几帳面な、きちんと仕事をこなせる」の意味がある。",
+          "script": "W: Hi, Nick. How's your new job going?\nM: Well, it's taking me a while to adjust.\nW: Are your responsibilities very different from your last job?\nM: No, but my boss is. She always says she's going to do things but then forgets about them! I'm constantly having to remind her about deadlines.\nW: That sounds frustrating.\nM: It sure is. Still, at least she isn't bothering me about my work.\nW: I guess things could be worse.",
+          "scriptJa": "W: こんにちは、ニック。新しい仕事はどう？\nM: そうだね、慣れるのに時間がかかっている。\nW: あなたの責任は前の仕事とはだいぶ違うの？\nM: いや、でも上司がね。彼女はいつも、やるつもりだと言っては忘れている！　僕はしょっちゅう彼女に締切りを思い出させなければいけないんだ。\nW: それはイライラするでしょうね。\nM: そのとおり。でも、少なくとも彼女は僕の仕事のことに口出しはしない。\nW: それならまだいいわね。"
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2023-1/09_No8.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the couple probably do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Buy a new sofa right away." },
+            { "label": "2", "text": "Buy a sofa online." },
+            { "label": "3", "text": "Look for a sofa on sale." },
+            { "label": "4", "text": "Have their current sofa repaired." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性が「その店が値引きするのを待つ必要がある」と述べたのに対し、女性は「他の店でもお買い得品があるかもしれないから見て回ろう」と述べているので、3「セールでソファを探す」が正解。",
+          "script": "M: I'm thinking we should replace the sofa soon. It's getting pretty worn out.\nW: Do you want to check out that new furniture store down the road?\nM: Nah, I was thinking of just getting one online. That's usually much cheaper.\nW: Really? I'd rather we try a sofa out before actually buying it.\nM: I suppose you're right. Our budget isn't very large, though, so we'll probably have to put off the purchase until the store offers some discounts.\nW: Let's look around some other stores, too. They might have some good deals on.",
+          "scriptJa": "M: そろそろソファを取り替えた方がいいと思っている。かなりすり切れてきたね。\nW: 道の先の新しい家具店を見に行きたいの？\nM: いいや、オンラインで買おうかと思っていた。たいていその方が安いからね。\nW: 本当？　実際に買う前にソファの座り心地を試せたらいいと思うけど。\nM: まあ、そのとおりだろうね。でも、予算があまりないから、その店が値引きをするまでは買うのを遅らせなければならないだろう。\nW: 他のお店も見て回りましょう。お買い得品があるかもしれない。"
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2023-1/10_No9.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man suggest?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Checking the weather forecast." },
+            { "label": "2", "text": "Going to the cabin this weekend." },
+            { "label": "3", "text": "Preparing food for an emergency." },
+            { "label": "4", "text": "Going out for some ice cream." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性は「今週末は大吹雪かもしれない」と述べ、「食料や水を確認して、必要があれば買いに行くべきだ」と述べている。よって、3「非常用の食料を準備すること」が正解。",
+          "script": "W: It's so warm today! Hard to believe it's February. I could even go for some ice cream.\nM: Today is lovely, but the weather report says we may get a big snowstorm this weekend.\nW: Are you kidding? That would be a temperature drop of nearly 20 degrees.\nM: We'd better check how much food and water we have and go to the grocery store if necessary.\nW: Good idea. After getting snowed in at our cabin last year, I want to make sure we're stocked up just in case.",
+          "scriptJa": "W: 今日はとても暑い！　2月なんて信じられない。アイスクリームを買いに行きたいくらい。\nM: 今日はいい天気だが、天気予報によると、今週末は大吹雪かもしれないそうだ。\nW: 冗談でしょ？　それじゃ、気温が20度近く下がることになるわ。\nM: 食料や水がどのくらいあるか確認して、必要ならば食料品店へ行った方がいいだろう。\nW: いい考えね。昨年雪で山小屋に閉じ込められてから、万が一に備えて、確実に十分な蓄えをしておきたいと思っているの。"
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2023-1/11_No10.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman imply about Irene?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She lacks enthusiasm for her job." },
+            { "label": "2", "text": "She is going to be fired." },
+            { "label": "3", "text": "She has a bad reputation with clients." },
+            { "label": "4", "text": "She needs to improve her computer skills." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "女性は「彼女のやる気が心配だ」と述べている。よって、1「彼女は仕事に対する熱意を欠いている」が適切。「やる気」という表現が、放送文ではmotivationで、選択肢ではenthusiasmに言い換えられている。",
+          "script": "M: Good morning, Ms. Redfield. I just got a call from Irene. She says she needs to take a half day off this morning.\nW: Again? That's the second time this week.\nM: Yes. I'm a bit worried. She's also been late quite a few times in the last couple of months.\nW: She's quite skilled with computers, though, and the clients seem very satisfied with her. I am concerned about her motivation, however. It might be best to have a talk with her, in case she's considering leaving the company.\nM: I'll set up a meeting.",
+          "scriptJa": "M: おはようございます、レッドフィールドさん。たった今アイリーンから電話がありました。今日の午前中、半日休暇を取る必要があると言っています。\nW: また？　今週は2回目ね。\nM: はい。少し心配ですね。それに彼女はここ数カ月で何回も遅刻しています。\nW: でも、彼女はコンピュータの技術はかなり優れているし、顧客は彼女にとても満足しているようね。それでも、私は彼女のやる気が心配です。会社を辞めようとしているといけないから、彼女と話し合いをした方がいいわね。\nM: 面談の準備をします。"
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2023-1/12_No11.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman say about the paintings?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The man should try to sell them for a profit." },
+            { "label": "2", "text": "They should be displayed in a gallery." },
+            { "label": "3", "text": "The man should find out how much they are worth." },
+            { "label": "4", "text": "They should be displayed properly." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "女性は「壁に掛ける前にもっといい額を買うべき」と述べ、「絵にはこの安い額以上の価値があると思う」と重ねて述べている。女性が言いたいのは「絵にふさわしい額に入れて壁に掛けるべきだ」ということだから、4「それらは適切に飾られるべきだ」が正解。",
+          "script": "W: Hey, Jack! How was your trip to the Yucatán?\nM: Great. Check out these paintings I picked up.\nW: Wow! They're gorgeous! Did you find them at a local gallery?\nM: No, I got them from artists at local markets, and they were unbelievably cheap.\nW: Well, you should get better frames for them before you put them on the wall.\nM: Actually, I looked into that today. They cost 10 times what the paintings did, so I'm hesitant.\nW: I really think they deserve better than these cheap frames, don't you?",
+          "scriptJa": "W: こんにちは、ジャック！　ユカタン半島の旅はどうだった？\nM: すばらしかった。買ってきた絵を見てよ。\nW: わあ！　とてもきれい！　現地の画廊で見つけたの？\nM: いや、現地のマーケットで画家から買ったから、信じられないくらい安かった。\nW: そうね、壁に掛ける前にもっといい額を買わなくては。\nM: 実は、今日、それを調べたんだけどね。絵の値段の10倍もするから、躊躇しているところさ。\nW: 本当に、絵にはこの安い額以上の価値があると思うけど、あなたはそう思わないの？"
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2023-1/13_No12.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why does the man apologize to the woman?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He forgot to fill the water bottles." },
+            { "label": "2", "text": "He did not tell her the water would be shut off." },
+            { "label": "3", "text": "He lost the notice about the pipe inspection." },
+            { "label": "4", "text": "He damaged the water pipes." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性は「すまない、君に言うのを忘れていた」と謝罪している。男性が女性に伝えるべきだったのは「水道管の点検がある（ので断水する）こと」だから、2「彼は水道が止まることを彼女に言わなかった」が正解。",
+          "script": "W: Hey, Joseph? There's no water coming from the faucet.\nM: Oh, right, they're inspecting the pipes down the street.\nW: What? That's news to me.\nM: Sorry, I forgot to tell you. There won't be any water until 7 p.m. We got a couple of notices about it while you were out of town.\nW: Why didn't you tell me earlier? I wanted to wash some clothes tonight for work tomorrow.\nM: I'm sorry. I did prepare some bottles of water, so we have enough for cooking and drinking.\nW: That's something, at least.",
+          "scriptJa": "W: ちょっと、ジョゼフ？　蛇口から水が出ないのよ。\nM: ああ、そうだ、この先の道路で管の点検をしているんだ。\nW: 何ですって？　それは初耳よ。\nM: すまない、君に言うのを忘れてた。午後7時まで水は出ない。君が町を離れていた時にそれについていくつか知らせがあったんだ。\nW: どうしてもっと早く言ってくれなかったの？　明日の仕事用に今晩洗濯をしたかったのに。\nM: ごめん。水を何本か用意しておいたから、料理や飲むためには十分だ。\nW: 少なくとも、そうしてくれてよかった。"
         }
       ]
     },
@@ -201,16 +225,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/16_No13.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing that we learn about growing the Three Sisters?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "When to plant each crop is important." },
+            { "label": "2", "text": "They only grow in a small area of North America." },
+            { "label": "3", "text": "They have difficulty competing with weeds." },
+            { "label": "4", "text": "Spacing the plants apart is necessary." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段最終文で「それぞれが他の穀物にとって最も役立つ時に植えられることが必要不可欠である」と述べられていることから、1「それぞれの作物をいつ植えるかが重要である」が正解。2については、all over North America「北アメリカ一帯の」とあるので不適切。3については「カボチャは雑草を生えないようにする」という内容に合致しない。",
+          "script": "The Three Sisters\n\nFor centuries, Native Americans all over North America grew corn, beans, and squash, which were often called the Three Sisters. The Three Sisters were planted together because of the strong benefits that the combination brings. When beans are grown with corn, the corn provides support for the beans as they climb up to get more sunlight. Additionally, squash keeps weeds away, and beans increase the amount of the beneficial chemical nitrogen in the soil. To make the combination work, however, planting each crop at the time when it will most help the others is essential.\n\nIn the distant past, Native American farmers were even able to grow the Three Sisters in the desert areas of the American southwest, but, unfortunately, most of this knowledge has been lost. Some Native Americans are currently working to rediscover the techniques that would allow them to grow the vegetables in very dry conditions."
         },
         {
           "id": "q14",
@@ -218,15 +242,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/17_No14.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What are some Native Americans trying to do now?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Use more modern growing techniques." },
+            { "label": "2", "text": "Find new plants that can be grown in deserts." },
+            { "label": "3", "text": "Teach others how to grow the Three Sisters." },
+            { "label": "4", "text": "Rediscover forgotten farming methods." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "4",
+          "explanation": "第2段で「アメリカ先住民の中には、非常に乾燥した気候でそれらの野菜を育てることを可能にする技術を再発見しようとしている人たちがいる」と述べている。したがって、4「忘れられた栽培方法を再発見する」が正解。",
           "script": ""
         },
         {
@@ -235,16 +259,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/19_No15.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does Tim Gill imply about modern parents?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They do not think enough about their children's safety." },
+            { "label": "2", "text": "They are often forced to set strict rules for their children." },
+            { "label": "3", "text": "They should spend more time with their children." },
+            { "label": "4", "text": "They give their children a variety of experiences." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段最終文で「彼は親が子どものために厳しい規則を設けずにいるのは難しいと認めている」とある。よって、2「彼らは子どもたちのために厳格な規則を設けざるを得ないことが多い」が正解。放送文ではit is difficult for parents to avoid setting …が、選択肢ではThey are often forced to set …に言い換えられている。",
+          "script": "Children in Cities\n\nIn previous generations, children generally had more freedom to explore their surroundings. These days, parents commonly prohibit children from taking walks, crossing streets, or even playing at playgrounds unsupervised. Author Tim Gill argues children today would benefit from being allowed to do things on their own. However, he acknowledges that since modern cities have become increasingly dangerous places, it is difficult for parents to avoid setting strict rules for children.\n\nGill believes design is the key to making cities child friendly. Cities are currently designed to allow people to travel easily by car, but cars are one of the greatest threats to children's safety. Rather than simply building more playground spaces, Gill wants to make cities safer for children to move through. While completely rebuilding cities is not realistic in the short term, Gill suggests that easier measures such as turning streets into car-free zones for a short time each week could have immediate benefits."
         },
         {
           "id": "q16",
@@ -252,15 +276,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/20_No16.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing Gill suggests that cities do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Create times when streets are closed to cars." },
+            { "label": "2", "text": "Remove parking lots from playgrounds." },
+            { "label": "3", "text": "Build new roads outside of city centers." },
+            { "label": "4", "text": "Make cars safer by changing their design." }
           ],
           "answer": "1",
-          "explanation": "",
+          "explanation": "第2段最終文で「毎週短時間、道路を自動車通行禁止区域にするなどの手段であれば、すぐに効果が得られるとギルは提案している」とあるから、1「道路が自動車通行止めになる時間を設ける」が正解。放送文ではturning streets into car-free zonesで、選択肢ではstreets are closed to carsに言い換えられている。",
           "script": ""
         },
         {
@@ -269,16 +293,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/22_No17.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the team of researchers believe about the paintings?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They explain how the rain forest was created." },
+            { "label": "2", "text": "They show what early humans looked like." },
+            { "label": "3", "text": "They include creatures that have died out." },
+            { "label": "4", "text": "They were used in religious ceremonies." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段第2文の後半で「研究者のチームは氷河時代が終わった後に消滅した絶滅生物の描写が含まれていると考えている」と述べられているので、3「それらは絶滅した生物を含んでいる」が正解。「絶滅した」が放送文ではextinctで、選択肢ではdied outに言い換えられている。",
+          "script": "Art in the Amazon\n\nAn enormous collection of primitive paintings discovered in the Amazon jungle is causing debate among scientists. Thousands of images have been discovered on rock walls, and the team of researchers who discovered them believe that they include representations of extinct creatures that disappeared after the Ice Age ended. If so, the artists may have been the first humans ever to reach the Amazon region, arriving before it was covered in rain forest. Many of the larger animals appear to be surrounded by men with their hands raised in the air, and it is suspected the animals were being worshipped.\n\nOther scientists, however, have expressed doubts regarding the age of the paintings. Since the images are extremely well-preserved, these critics believe it is likely they were painted centuries rather than millennia ago. Furthermore, since the images lack detail, the scientists argue that they might represent creatures brought to the Americas by Europeans."
         },
         {
           "id": "q18",
@@ -286,15 +310,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/23_No18.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What do some other scientists think about the paintings?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They do not need to be preserved." },
+            { "label": "2", "text": "They were probably created by Europeans." },
+            { "label": "3", "text": "They once had much more detail." },
+            { "label": "4", "text": "They are not thousands of years old." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "4",
+          "explanation": "第2段第2文で「批判をしている人たちは、それらは数千年前ではなく、数百年前に描かれた可能性が高いと考えている」と述べられている。したがって、4「それらは数千年前のものではない」が正解。2については、ヨーロッパ人が絵を描いたとは述べていない。",
           "script": ""
         },
         {
@@ -303,16 +327,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/25_No19.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing that we learn about Milton Berle's TV show?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It was based on a popular film." },
+            { "label": "2", "text": "It gave away many luxury items." },
+            { "label": "3", "text": "It had a weekly comedy competition." },
+            { "label": "4", "text": "It motivated many people to buy TVs." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第1段最終文の後半で「その番組が信じられないほど大成功し、テレビ所有者数を大幅に増加させる推進力になった」とある。テレビ所有者数の大幅な増加とは、たくさんの人がテレビを買ったことを意味しているので、4「多くの人々にテレビを買う気にさせた」が正解。",
+          "script": "Milton Berle\n\nMilton Berle was one of America's most famous comedians. He was successful on stage and in films, and in the 1940s, he began hosting one of the world's first television programs. Berle's variety show was known for its silly comedy and wide range of guest performers. Televisions were rare luxury items when it began, but the program was such an incredible hit that it became a driving reason behind the huge increase in TV ownership.\n\nAs well as his pioneering work as an entertainer, Berle also fought for civil rights, famously helping to break down barriers against Black performers appearing on TV. When an advertiser tried to prevent a Black dance group from appearing on his show, Berle refused to perform until the advertiser gave in and the dancers were allowed on. Berle also set a record for appearing in more charity performances than any other performer."
         },
         {
           "id": "q20",
@@ -320,15 +344,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/26_No20.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing Berle was known for?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Starting a charity to support Black performers." },
+            { "label": "2", "text": "Fighting racial discrimination in the TV industry." },
+            { "label": "3", "text": "The unique advertisements he created." },
+            { "label": "4", "text": "His amazing dancing talent." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "2",
+          "explanation": "第2段第1文で「バールはよく知られているように、黒人のテレビ出演に反対する壁を取り除くのを助けた」とあり、直後の文では黒人に差別的な広告主と闘ったことが述べられている。よって、2「テレビ業界における人種差別と闘ったこと」が正解。",
           "script": ""
         },
         {
@@ -337,16 +361,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/28_No21.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What was one of Alan Brown's findings about déjà vu?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It happens more frequently when people are young." },
+            { "label": "2", "text": "Past research on it had mostly involved male subjects." },
+            { "label": "3", "text": "It has become more common since the nineteenth century." },
+            { "label": "4", "text": "People often mistake it for other feelings." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段最終文に「人は年をとるにつれてそれを経験することが減る」とあり、この内容を言い換えた1「それは人々が若いときにより頻繁に起こる」が正解。",
+          "script": "Déjà Vu\n\nThe term \"déjà vu\" refers to a person's feeling that they have already experienced the situation they are currently in. While causes for déjà vu have been proposed since the nineteenth century, little research was done on it until the 2000s, when the scientist Alan Brown studied the phenomenon. He found that people experience it less as they age and that it is usually triggered by a location or setting.\n\nMore recently, researchers used virtual reality to study déjà vu. They had subjects enter virtual environments, such as bowling alleys or subway stations. Some of these spaces were laid out similarly—for example, pieces of furniture with similar shapes but different appearances were arranged in the same positions. The researchers found subjects were more likely to feel déjà vu when entering new spaces that were organized like spaces they had previously entered. Still, they say this is likely just one of many factors that cause déjà vu."
         },
         {
           "id": "q22",
@@ -354,15 +378,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/29_No22.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "In the virtual reality study, what led some subjects to experience déjà vu?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Exploring large public spaces." },
+            { "label": "2", "text": "Seeing spaces with identical furniture." },
+            { "label": "3", "text": "Doing the same activities in different spaces." },
+            { "label": "4", "text": "Entering spaces with familiar layouts." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "4",
+          "explanation": "第2段第4文で「前に入ったことがある空間と同じように構成されている新しい空間に入ると、被験者がデジャヴュを感じる可能性が高い」とある。これらの情報から、4「なじみのあるレイアウトの空間に入ること」が正解。2については、家具について述べた第3文の内容に合致しない。",
           "script": ""
         },
         {
@@ -371,16 +395,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/31_No23.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing that we learn about bodkin arrows?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They flew faster than other arrows." },
+            { "label": "2", "text": "They were effective against armor." },
+            { "label": "3", "text": "They were the longest type of arrow." },
+            { "label": "4", "text": "They were usually made of steel." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段第4文の後半で「細長い先端はほとんどの種類の甲冑を貫通することができた」と述べられているから、2「甲冑に対して有効だった」が正解。放送文のpass through most kinds of armorは選択肢ではeffective against armorに言い換えられている。",
+          "script": "The English Longbow\n\nDuring medieval times, one of the deadliest weapons used by English armies was the longbow. About two meters in length, this powerful weapon allowed an archer to fire extremely rapidly, shooting up to six arrows per minute. A variety of arrows were used, such as the bodkin and the broadhead. The bodkin arrow was the most common, and its narrow tip could pass through most kinds of armor. The larger broadheads, on the other hand, caused more-devastating wounds to lightly armored enemies.\n\nThough highly effective, the longbow required years of practice to master. Since it was an essential tool for English armies, King Henry VIII even passed a law requiring that all healthy males train regularly in its use. Examinations of the skeletons of longbowmen have found that this training actually altered them physically. Bones in their arms became thickened, and their spines became twisted through constant use of the bow."
         },
         {
           "id": "q24",
@@ -388,15 +412,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/32_No24.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-1/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker say about King Henry VIII?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He made men practice using longbows." },
+            { "label": "2", "text": "He was a master at firing the longbow." },
+            { "label": "3", "text": "He was seriously injured by a longbow attack." },
+            { "label": "4", "text": "He sold longbows to foreign armies." }
           ],
           "answer": "1",
-          "explanation": "",
+          "explanation": "第2段第2文で「ヘンリー8世は健康な男性全員が定期的にその使い方を訓練することを求める法律を作った」と述べられている。よって、1「彼は男性にロングボウを使う練習をさせた」が正解。「男性」が放送文ではmalesで、選択肢ではmenに言い換えられている。",
           "script": ""
         }
       ]
@@ -413,80 +437,85 @@
           "number": 25,
           "audio": "audio/eiken/eiken-pre1-2023-1/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which bag should you buy?",
+          "promptJa": "あなたは今度の出張で使うかばんを必要としている。休暇にはそのかばんを使ってハイキングへも行くつもりだ。店員はあなたに次のように言う。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The Western." },
+            { "label": "2", "text": "The Dangerfield." },
+            { "label": "3", "text": "The Spartan." },
+            { "label": "4", "text": "The Winfield." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "出張とハイキングの両方で使用できるかばんを聞き取る。デインジャーフィールドは「屋外の活動に最適」で「オフィスでも十分に通用する外観」と述べられるから、2「デインジャーフィールド」が適切。1は長時間歩くのに向かない。3は仕事に向かない。4はハイキングに向かない。",
+          "script": "OK, the Western is an all-leather backpack. It converts to a briefcase, so it's great for business environments. It's a bit heavy, though, so I wouldn't use it on long walks. The Dangerfield is a waxed canvas backpack that's water-resistant, so it's great for outdoor activities. It's also handsome enough for the office. The Spartan is also made of waxed canvas. It's very functional but a bit too sporty for professional contexts. The Winfield is a similar bag, but it's made of water-resistant leather. The thin strap can make it uncomfortable to carry for extended periods of time, though."
         },
         {
           "id": "q26",
           "number": 26,
           "audio": "audio/eiken/eiken-pre1-2023-1/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which parking lot should you use?",
+          "promptJa": "あなたは空港の近くで16日間駐車する必要がある。最適価格にしたいが、車が損傷を受けることを心配している。友人が選択できるものについてあなたに話す。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "SKM Budget Parking." },
+            { "label": "2", "text": "The Vanier Plaza Hotel." },
+            { "label": "3", "text": "Nelson Street Skypark." },
+            { "label": "4", "text": "The Econolodge." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "「16日間」「最適価格」「車の損傷を避けたい」という条件で判断する。1は最長1週間までなので不適。3は巡回なしで安全面の条件に合わない。4は安全だが1日19ドルで空港から少し遠い。2は1日17ドルで空港に近く屋根付きで警備巡回もあるので、2「バニエ・プラザホテル」が適切。",
+          "script": "Nearest to the airport are SKM Budget Parking and the Vanier Plaza Hotel. They both offer covered parking lots that feature security patrols. SKM Budget Parking is the better deal at $13 per day. It only offers short-term parking, though, for up to a week max. If your trip is longer than that, you could pay a $17 rate at the Vanier Plaza Hotel. If an open, non-patrolled parking lot is acceptable, then Nelson Street Skypark offers parking for $9 per day. Another option would be the Econolodge, which is $19 per day. It's indoors and quite safe, though it's a little far."
         },
         {
           "id": "q27",
           "number": 27,
           "audio": "audio/eiken/eiken-pre1-2023-1/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do first?",
+          "promptJa": "あなたのエアコンが突然止まり、青いランプが点滅している。あなたはカスタマーサポートに電話をし、次の録音されたメッセージを聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Remove the air conditioner's filter." },
+            { "label": "2", "text": "Open the air conditioner's panel." },
+            { "label": "3", "text": "Disconnect the air conditioner." },
+            { "label": "4", "text": "Schedule a service appointment." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "「青いランプが点滅している」ことが条件。青いランプはオーバーヒートの可能性を示し、パネルを開けることで冷却速度を上げられるが、「装置に触れる前に、必ずエアコンのプラグを抜く」よう注意される。したがって、3「エアコンの電源を切る」が正解。「プラグを抜く」が放送文ではunplugで、選択肢ではdisconnectに言い換えられている。",
+          "script": "Please look at the display. If the green light is blinking, this means it needs to be cleaned. To do this, simply remove the filter and clean it carefully. You can find a tutorial video on our website. If the blue light is flashing, the air conditioner may be overheating. In such a case, you can speed up cooling by leaving the panel open. Be sure to unplug the air conditioner before touching the unit. If this does not solve the problem, and you would like to schedule a service call by a technician, press 1."
         },
         {
           "id": "q28",
           "number": 28,
           "audio": "audio/eiken/eiken-pre1-2023-1/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which issue should you order?",
+          "promptJa": "あなたは月刊科学雑誌の既刊号を注文したい。あなたは遺伝学に興味がある。あなたは雑誌の出版社に電話をし、次のように言われる。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The July issue." },
+            { "label": "2", "text": "The August issue." },
+            { "label": "3", "text": "The October issue." },
+            { "label": "4", "text": "The November issue." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "「遺伝学に興味がある」ということが条件。7月号は物理学の概説で不適。8月号は遺伝学だが絶版で不適。10月号も遺伝学の研究が中心と述べられるので、3「10月号」が正解。11月号は地質学の特集で不適。",
+          "script": "I understand you've only read the September issue. I'll explain the others briefly. The July issue has an overview of the latest advancements in physics, centering on last year's breakthrough in the field of particle physics. The next issue focuses on recent genetic discoveries and various ongoing experiments with DNA and RNA, but unfortunately, this one is out of print. The October issue is also centered around research in genetics, especially its potential medical applications. Finally, if you'd like to deepen your understanding of modern geology, the November issue would be perfect. It thoroughly explains the current mainstream theories on volcano formation."
         },
         {
           "id": "q29",
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2023-1/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたは、ベンサムフードのツナを5缶、スーパーマーケットで5月30日に買った。あなたはそのツナを1つも食べていない。あなたは次の放送をテレビで聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Take the cans to the store where you bought them." },
+            { "label": "2", "text": "Call Bentham Foods' recall hotline." },
+            { "label": "3", "text": "Arrange for the cans to be picked up." },
+            { "label": "4", "text": "Visit Bentham Foods' website for instructions." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "「ツナ5缶を5月30日に購入」「1つも食べていない」が条件。24缶入りの箱を1つ以上持っている場合の指示（ウェブサイト・集荷）には該当しない。1箱に満たない客は購入した店で交換または返品が可能とあるので、1「買った店へ缶詰を持って行く」が正解。2はツナを食べた客が対象なので不適。",
+          "script": "Bentham Foods is recalling all cans of its tuna sold from May 15 to July 1 because of suspected health risks. Customers who have consumed tuna from these cans are advised to call our recall hotline. For unopened cans, if you have one or more cases of 24 cans, please visit our website for instructions on how to arrange a pickup and a full refund. Customers with less than one case may exchange the cans or return them for a full refund at the store where they were purchased. The cans don't pose any risk while unopened, but please avoid consuming tuna from any cans bought during the affected dates."
         }
       ]
     }
