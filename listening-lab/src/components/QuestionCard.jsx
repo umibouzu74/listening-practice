@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import MiniAudioPlayer from './MiniAudioPlayer';
-import PassageQuestionPlayer from './PassageQuestionPlayer';
 import styles from './QuestionCard.module.css';
 
 export default function QuestionCard({
@@ -11,15 +10,13 @@ export default function QuestionCard({
   onCheck,
   accentColor,
   showPassageAudio,
+  hideAudio,
 }) {
   const [showScript, setShowScript] = useState(false);
   const accent = accentColor || 'var(--color-accent)';
 
   const isCorrect = showResult && userAnswer === question.answer;
   const isIncorrect = showResult && userAnswer && userAnswer !== question.answer;
-
-  // Use chained player when both passage and question audio exist
-  const hasChainedAudio = question.passageAudio && question.audio;
 
   return (
     <div className={styles.card}>
@@ -28,7 +25,7 @@ export default function QuestionCard({
         <span className={styles.badge} style={{ background: accent }}>
           Q{question.number}
         </span>
-        {question.passageLabel && (
+        {!hideAudio && question.passageLabel && (
           <span className={styles.passageLabel}>{question.passageLabel}</span>
         )}
         {question.playCount && (
@@ -38,32 +35,27 @@ export default function QuestionCard({
         )}
       </div>
 
-      {/* Chained player: passage → question plays continuously */}
-      {hasChainedAudio && (
-        <PassageQuestionPlayer
-          passageSrc={question.passageAudio}
-          questionSrc={question.audio}
-          passageLabel={question.passageLabel}
-          accentColor={accent}
-        />
-      )}
+      {/* Audio players (hidden when part of a PassageGroup) */}
+      {!hideAudio && (
+        <>
+          {/* Passage audio (shown once per passage group) */}
+          {showPassageAudio && question.passageAudio && (
+            <MiniAudioPlayer
+              src={question.passageAudio}
+              label={question.passageLabel || 'Passage'}
+              accentColor={accent}
+            />
+          )}
 
-      {/* Passage-only audio (when no question audio, shown once per passage group) */}
-      {!hasChainedAudio && showPassageAudio && question.passageAudio && (
-        <MiniAudioPlayer
-          src={question.passageAudio}
-          label={question.passageLabel || 'Passage'}
-          accentColor={accent}
-        />
-      )}
-
-      {/* Question-only audio (when no passage audio) */}
-      {!hasChainedAudio && question.audio && (
-        <MiniAudioPlayer
-          src={question.audio}
-          label="Question"
-          accentColor={accent}
-        />
+          {/* Question audio */}
+          {question.audio && (
+            <MiniAudioPlayer
+              src={question.audio}
+              label="Question"
+              accentColor={accent}
+            />
+          )}
+        </>
       )}
 
       {/* Japanese prompt */}
@@ -187,17 +179,6 @@ export default function QuestionCard({
           {showScript && (
             <p className={styles.scriptText}>{question.script}</p>
           )}
-        </div>
-      )}
-
-      {/* Replay passage only (after checking, when passage audio exists) */}
-      {showResult && question.passageAudio && (
-        <div className={styles.replaySection}>
-          <MiniAudioPlayer
-            src={question.passageAudio}
-            label={`${question.passageLabel || '本文'}を聞き直す`}
-            accentColor={accent}
-          />
         </div>
       )}
     </div>

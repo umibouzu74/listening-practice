@@ -37,11 +37,14 @@ export default function FocusedPracticeView({
   const hasChainedAudio = question?.passageAudio && question?.audio;
   const singleAudioSrc = hasChainedAudio ? null : (question?.passageAudio || question?.audio || null);
 
+  // Build sources array for chained mode: [passageAudio, questionAudio]
+  const chainedSources = useMemo(() => {
+    if (!hasChainedAudio) return [];
+    return [question.passageAudio, question.audio];
+  }, [hasChainedAudio, question?.passageAudio, question?.audio]);
+
   const singleAudio = useAudioPlayer(singleAudioSrc);
-  const chainedAudio = useChainedAudioPlayer(
-    hasChainedAudio ? question.passageAudio : null,
-    hasChainedAudio ? question.audio : null,
-  );
+  const chainedAudio = useChainedAudioPlayer(hasChainedAudio ? chainedSources : []);
 
   // Use the appropriate audio state
   const audioState = hasChainedAudio ? chainedAudio : singleAudio;
@@ -52,7 +55,10 @@ export default function FocusedPracticeView({
     isLooping, toggleLoop, setIsSeeking,
   } = audioState;
 
-  const activePhase = hasChainedAudio ? chainedAudio.activePhase : null;
+  // Phase labels for chained audio
+  const chainedPhaseLabels = hasChainedAudio
+    ? [question.passageLabel || '本文', `Q${question.number}`]
+    : [];
 
   const displayProgress = dragProgress !== null ? dragProgress : progress;
 
@@ -305,23 +311,23 @@ export default function FocusedPracticeView({
       {/* Bottom audio player */}
       <div className={styles.bottomPlayer}>
         {/* Phase indicator for chained audio */}
-        {hasChainedAudio && (
+        {hasChainedAudio && chainedPhaseLabels.length > 0 && (
           <div className={styles.phaseRow}>
-            <span
-              className={`${styles.phaseTag} ${activePhase === 'passage' && isPlaying ? styles.phaseActive : ''}`}
-              style={activePhase === 'passage' && isPlaying ? { color: accent } : undefined}
-            >
-              {question.passageLabel || '本文'}
-            </span>
-            <svg className={styles.phaseArrow} width="12" height="12" viewBox="0 0 12 12" fill="none">
-              <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-            <span
-              className={`${styles.phaseTag} ${activePhase === 'question' && isPlaying ? styles.phaseActive : ''}`}
-              style={activePhase === 'question' && isPlaying ? { color: accent } : undefined}
-            >
-              質問
-            </span>
+            {chainedPhaseLabels.map((label, i) => (
+              <span key={i} style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+                {i > 0 && (
+                  <svg className={styles.phaseArrow} width="12" height="12" viewBox="0 0 12 12" fill="none">
+                    <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                )}
+                <span
+                  className={`${styles.phaseTag} ${chainedAudio.activeIndex === i && isPlaying ? styles.phaseActive : ''}`}
+                  style={chainedAudio.activeIndex === i && isPlaying ? { color: accent } : undefined}
+                >
+                  {label}
+                </span>
+              </span>
+            ))}
           </div>
         )}
 
@@ -347,13 +353,20 @@ export default function FocusedPracticeView({
               className={styles.seekFill}
               style={{ width: `${displayProgress}%`, background: accent }}
             />
-            {/* Boundary marker between passage and question */}
-            {hasChainedAudio && chainedAudio.duration1 > 0 && duration > 0 && (
-              <div
-                className={styles.seekBoundary}
-                style={{ left: `${(chainedAudio.duration1 / duration) * 100}%` }}
-              />
-            )}
+            {/* Boundary markers between chained segments */}
+            {hasChainedAudio && duration > 0 && chainedAudio.durations.length > 1 && (() => {
+              let acc = 0;
+              return chainedAudio.durations.slice(0, -1).map((d, i) => {
+                acc += d;
+                return (
+                  <div
+                    key={i}
+                    className={styles.seekBoundary}
+                    style={{ left: `${(acc / duration) * 100}%` }}
+                  />
+                );
+              });
+            })()}
             <div
               className={styles.seekThumb}
               style={{ left: `${displayProgress}%`, background: accent }}
