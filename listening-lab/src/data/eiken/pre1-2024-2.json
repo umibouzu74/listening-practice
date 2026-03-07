@@ -25,7 +25,7 @@
           "prompt": "What does the woman suggest?",
           "choices": [
             { "label": "1", "text": "Calling the police." },
-            { "label": "2", "text": "Purchasing an alarm system." },
+            { "label": "2", "text": "Buying an alarm system." },
             { "label": "3", "text": "Getting a guard dog." },
             { "label": "4", "text": "Moving to a different area." }
           ],
@@ -39,8 +39,8 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/03_No2.mp3",
           "prompt": "What does the professor ask the man to do?",
           "choices": [
-            { "label": "1", "text": "Help find her notes." },
-            { "label": "2", "text": "Finish grading some quizzes." },
+            { "label": "1", "text": "Help her find her notes." },
+            { "label": "2", "text": "Finish grading the quizzes." },
             { "label": "3", "text": "Prepare some presentation slides." },
             { "label": "4", "text": "Give a lecture himself." }
           ],
@@ -54,7 +54,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/04_No3.mp3",
           "prompt": "What does the woman say about Maya?",
           "choices": [
-            { "label": "1", "text": "She might come back home." },
+            { "label": "1", "text": "She may move back home." },
             { "label": "2", "text": "She wants to use Jason's room." },
             { "label": "3", "text": "She needs a new desk." },
             { "label": "4", "text": "She does not need her own room." }
@@ -70,8 +70,8 @@
           "prompt": "What does the woman say she will do?",
           "choices": [
             { "label": "1", "text": "Change her management style." },
-            { "label": "2", "text": "Check job postings more often." },
-            { "label": "3", "text": "Discuss her work with a manager." },
+            { "label": "2", "text": "Check the job postings more often." },
+            { "label": "3", "text": "Discuss her work with the managers." },
             { "label": "4", "text": "Think about applying for the position." }
           ],
           "answer": "4",
@@ -84,7 +84,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/06_No5.mp3",
           "prompt": "Why did the man get rid of his bees?",
           "choices": [
-            { "label": "1", "text": "He became allergic to bees." },
+            { "label": "1", "text": "He became allergic to them." },
             { "label": "2", "text": "He was spending too much money." },
             { "label": "3", "text": "He did not have room for them." },
             { "label": "4", "text": "He did not like the honey they made." }
@@ -101,8 +101,8 @@
           "choices": [
             { "label": "1", "text": "His mother should not live alone." },
             { "label": "2", "text": "His mother needs to save more money." },
-            { "label": "3", "text": "His mother should live near him." },
-            { "label": "4", "text": "His mother should not sell her house." }
+            { "label": "3", "text": "His mother ought to live closer to him." },
+            { "label": "4", "text": "His mother should not sell her home." }
           ],
           "answer": "1",
           "explanation": "男性の2番目の発言で、母親が怪我することなどを懸念して介護施設への入居を暗にほのめかしている。よって、1「母親は一人で住むべきではない」が正解。",
@@ -114,10 +114,10 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/08_No7.mp3",
           "prompt": "What does the woman want the man to do?",
           "choices": [
-            { "label": "1", "text": "Prepare for the trip more carefully." },
-            { "label": "2", "text": "Buy some new pajamas." },
-            { "label": "3", "text": "Double-check the travel plans." },
-            { "label": "4", "text": "Change the departure time." }
+            { "label": "1", "text": "Prepare for trips more carefully." },
+            { "label": "2", "text": "Purchase some new pajamas." },
+            { "label": "3", "text": "Double-check their travel schedule." },
+            { "label": "4", "text": "Change their departure time." }
           ],
           "answer": "1",
           "explanation": "会話全体を通して女性は男性に荷造りを早く始めるよう促している。「慌てるからパジャマとか忘れるんじゃない」というセリフから、前もってしっかりと準備を整え、忘れ物をしないようにしてほしいと考えていることがわかる。したがって、1「より入念に旅行の準備をする」が正解。",
@@ -129,10 +129,10 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/09_No8.mp3",
           "prompt": "Why is the man upset?",
           "choices": [
-            { "label": "1", "text": "The intern used incorrect data." },
-            { "label": "2", "text": "The audience seemed uninterested." },
-            { "label": "3", "text": "He could not present all of his research." },
-            { "label": "4", "text": "Next year's conference was canceled." }
+            { "label": "1", "text": "The intern used the wrong data." },
+            { "label": "2", "text": "The audience did not seem interested." },
+            { "label": "3", "text": "He could not present all his research." },
+            { "label": "4", "text": "Next year's conference has been canceled." }
           ],
           "answer": "3",
           "explanation": "男性の不満が表れているのは「研究発表をする日に講演者が追加されて、僕の講演が短縮された」という発言である。その後も研修生が作成したスライドを見せられなかったことへの不満が述べられていることから、3「研究の全てを発表できなかったから」が正解。",
@@ -160,9 +160,9 @@
           "prompt": "What is the man's problem?",
           "choices": [
             { "label": "1", "text": "He is worried his novel is too boring." },
-            { "label": "2", "text": "He needs to remove a character from his novel." },
-            { "label": "3", "text": "He has made little progress on his novel." },
-            { "label": "4", "text": "He needs to change the ending of his novel." }
+            { "label": "2", "text": "He needs to cut characters from his novel." },
+            { "label": "3", "text": "He is making little progress with his novel." },
+            { "label": "4", "text": "He needs to change his novel's ending." }
           ],
           "answer": "3",
           "explanation": "会話の前半では男性の執筆がなかなか進まないことが述べられ、後半ではキャラクター作りに苦戦している様子がわかる。正解は3「小説をほとんど進められていない」。書き直しが必要なのは結末ではなく途中の章なので4は不適切。",
@@ -175,8 +175,8 @@
           "prompt": "What will the man and woman do tomorrow?",
           "choices": [
             { "label": "1", "text": "Study for an exam." },
-            { "label": "2", "text": "Talk to a professor." },
-            { "label": "3", "text": "Take the final exam." },
+            { "label": "2", "text": "Speak to their professor." },
+            { "label": "3", "text": "Take their final exam." },
             { "label": "4", "text": "Start a new course." }
           ],
           "answer": "1",
@@ -189,9 +189,9 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/13_No12.mp3",
           "prompt": "What is one thing the woman tells the man?",
           "choices": [
-            { "label": "1", "text": "She goes to the gym several times a week." },
+            { "label": "1", "text": "She attends the gym several times a week." },
             { "label": "2", "text": "He should watch more Internet training videos." },
-            { "label": "3", "text": "She was injured from incorrect machine use." },
+            { "label": "3", "text": "She got injured using a machine incorrectly." },
             { "label": "4", "text": "He needs to learn from a professional trainer." }
           ],
           "answer": "4",
@@ -217,7 +217,7 @@
           "choices": [
             { "label": "1", "text": "The Lucayans were not their original inhabitants." },
             { "label": "2", "text": "They were of little value." },
-            { "label": "3", "text": "They were too dangerous to approach safely." },
+            { "label": "3", "text": "They were too difficult to access safely." },
             { "label": "4", "text": "The local people were hiding gold." }
           ],
           "answer": "2",
@@ -232,7 +232,7 @@
           "passageLabel": "Passage A",
           "prompt": "According to the speaker, what is true about most known Lucayan artifacts?",
           "choices": [
-            { "label": "1", "text": "They were tools used to build canoes." },
+            { "label": "1", "text": "They were tools used for constructing canoes." },
             { "label": "2", "text": "Various factors led to their destruction." },
             { "label": "3", "text": "Most of them were found underwater." },
             { "label": "4", "text": "They challenged many scholars' theories." }
@@ -250,9 +250,9 @@
           "prompt": "According to the speaker, what did some people once believe about teddy bears?",
           "choices": [
             { "label": "1", "text": "Their popularity resulted from high birth rates." },
-            { "label": "2", "text": "They looked too much like humans." },
+            { "label": "2", "text": "They were too humanlike in appearance." },
             { "label": "3", "text": "Their popularity would not last long." },
-            { "label": "4", "text": "They would reduce the number of children born." }
+            { "label": "4", "text": "They would cause fewer children to be born." }
           ],
           "answer": "4",
           "explanation": "第1段第3・4文にテディベアとばかり遊ぶことで女の子は母性本能を失い、出生率の低下につながるという当時の人々の懸念が述べられている。よって、4「生まれる子どもの数を減らす」が正解。",
@@ -267,9 +267,9 @@
           "prompt": "What point does Jon Mooallem make about polar bears?",
           "choices": [
             { "label": "1", "text": "They were considered less dangerous than brown bears." },
-            { "label": "2", "text": "Toys that look like them have become less popular." },
+            { "label": "2", "text": "Toys designed to resemble them have lost popularity." },
             { "label": "3", "text": "People's image of them has changed." },
-            { "label": "4", "text": "They currently face a greater threat than climate change." }
+            { "label": "4", "text": "They now face a bigger threat than climate change." }
           ],
           "answer": "3",
           "explanation": "第2段第3文に気候変動によって生息地が減少した北極グマは恐ろしい捕食者ではなく繊細な犠牲者として見られるようになったとある。3「人々の北極グマに対するイメージは変化した」が正解。",
@@ -284,7 +284,7 @@
           "prompt": "What does the speaker say about the relationships between languages?",
           "choices": [
             { "label": "1", "text": "They have been categorized based on structural similarities." },
-            { "label": "2", "text": "Similar languages do not necessarily have the same origin." },
+            { "label": "2", "text": "Similar languages may not have the same origin." },
             { "label": "3", "text": "Some languages have been incorrectly grouped together." },
             { "label": "4", "text": "Languages in the same family may not sound similar." }
           ],
@@ -301,9 +301,9 @@
           "prompt": "What did a recent study suggest?",
           "choices": [
             { "label": "1", "text": "Languages that developed in cold areas are simpler." },
-            { "label": "2", "text": "Most languages have a similar level of loudness." },
+            { "label": "2", "text": "Most languages have a similar loudness." },
             { "label": "3", "text": "Warm areas tend to have more languages." },
-            { "label": "4", "text": "Climate affects the sounds of languages." }
+            { "label": "4", "text": "Climate influences the sounds of languages." }
           ],
           "answer": "4",
           "explanation": "第2段では寒冷な地域と比べて温暖な地域の言語は音声がより大きくなる傾向があるとされ、その違いには空気の特徴、つまり気候が関係していることが示唆されている。したがって、4「気候は言語の音に影響を与える」が正解。",
@@ -317,10 +317,10 @@
           "passageLabel": "Passage D",
           "prompt": "What does the speaker say about racewalking?",
           "choices": [
-            { "label": "1", "text": "It is popular with former runners." },
-            { "label": "2", "text": "It will lose its place in the Olympics." },
+            { "label": "1", "text": "It is popular with ex-runners." },
+            { "label": "2", "text": "It will lose its Olympic status." },
             { "label": "3", "text": "It was invented in the 1900s." },
-            { "label": "4", "text": "It tends to be looked down upon." }
+            { "label": "4", "text": "It tends to be overlooked." }
           ],
           "answer": "4",
           "explanation": "第1段第1・2文にあるように、競歩はランニング競技に比べて観客を集めにくく、ランニングを断念した人が行うスポーツであるといった偏見から簡単だと思われがちである。したがって、4「軽視される傾向がある」が正解。1900年代はオリンピックの種目になった時期であり、考案された時期ではないので3は不適切。",
@@ -334,10 +334,10 @@
           "passageLabel": "Passage D",
           "prompt": "What is one thing we learn about pedestrianism?",
           "choices": [
-            { "label": "1", "text": "Its first participants were wealthy people." },
-            { "label": "2", "text": "Some of its competitors became famous." },
-            { "label": "3", "text": "It was never considered a sport." },
-            { "label": "4", "text": "Its rules were different in England and America." }
+            { "label": "1", "text": "The first competitors were wealthy people." },
+            { "label": "2", "text": "Some of the competitors became famous." },
+            { "label": "3", "text": "It was never considered to be a sport." },
+            { "label": "4", "text": "The rules differed in England and the United States." }
           ],
           "answer": "2",
           "explanation": "第2段最終文では、アメリカで有名なアスリートを輩出したことが書かれている。したがって、2「一部の競技者は有名になった」が正解。",
@@ -351,10 +351,10 @@
           "passageLabel": "Passage E",
           "prompt": "What is one thing that was special about the design of the Frankfurt Kitchen?",
           "choices": [
-            { "label": "1", "text": "Items were stored in unusual places." },
-            { "label": "2", "text": "There was more space than in other kitchens." },
-            { "label": "3", "text": "It was designed for more efficient cooking." },
-            { "label": "4", "text": "Every surface was painted." }
+            { "label": "1", "text": "Goods were stored in unusual places." },
+            { "label": "2", "text": "It had more space than other kitchens did." },
+            { "label": "3", "text": "It was designed to make cooking more efficient." },
+            { "label": "4", "text": "Every single surface in it was painted." }
           ],
           "answer": "3",
           "explanation": "第1段第2文では、必要なものがすべて手の届く範囲に配置され、身体的な労力を減らすように設計されていることが述べられている。この特徴を簡潔に言い換えた3「より効率的に調理できるように設計されていた」が正解。",
@@ -369,8 +369,8 @@
           "prompt": "Why did some people complain about the Frankfurt Kitchen?",
           "choices": [
             { "label": "1", "text": "People wanted to be able to bathe in it." },
-            { "label": "2", "text": "It took away living space." },
-            { "label": "3", "text": "People did not need all of its features." },
+            { "label": "2", "text": "It took space away from living rooms." },
+            { "label": "3", "text": "People did not need all the functions it had." },
             { "label": "4", "text": "It separated women from their families." }
           ],
           "answer": "4",
@@ -385,9 +385,9 @@
           "passageLabel": "Passage F",
           "prompt": "What is one objective of the agreement between Norway and Indonesia?",
           "choices": [
-            { "label": "1", "text": "To contribute to the fight against climate change." },
-            { "label": "2", "text": "To increase cross-cultural understanding between the two countries." },
-            { "label": "3", "text": "To examine population growth trends in Indonesia." },
+            { "label": "1", "text": "To help in the fight against climate change." },
+            { "label": "2", "text": "To boost understanding of the countries' different cultures." },
+            { "label": "3", "text": "To study population growth trends in Indonesia." },
             { "label": "4", "text": "To regulate the export of wood products to Norway." }
           ],
           "answer": "1",
@@ -402,10 +402,10 @@
           "passageLabel": "Passage F",
           "prompt": "What is one feature of the program?",
           "choices": [
-            { "label": "1", "text": "Other countries help Norway fund it." },
-            { "label": "2", "text": "Indonesian experts assist with Norwegian forest management." },
-            { "label": "3", "text": "Private logging companies pay for reforestation." },
-            { "label": "4", "text": "It includes participation by local communities." }
+            { "label": "1", "text": "Other countries will help Norway with the funding." },
+            { "label": "2", "text": "Indonesian experts will help manage Norway's forests." },
+            { "label": "3", "text": "Private logging companies will pay for reforestation." },
+            { "label": "4", "text": "It will include participation by local communities." }
           ],
           "answer": "4",
           "explanation": "第2段第3文に「インドネシアの地域社会を森林の保護と管理の支援に関与させる」とあるので、この計画の特徴としては4「地域社会による参加を含む」が正解。",
@@ -493,13 +493,13 @@
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2024-2/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "Which drill should you buy?",
+          "prompt": "Which drill should you purchase?",
           "promptJa": "あなたは建築業者で、高品質の電動ドリルが必要である。予算は300ドル。工具店を訪れ、店員と話をする。あなたは会員ではない。",
           "choices": [
-            { "label": "1", "text": "The Omni-Power." },
-            { "label": "2", "text": "The Drill Legend." },
-            { "label": "3", "text": "The Power P3." },
-            { "label": "4", "text": "The Bit Plus." }
+            { "label": "1", "text": "The Omni-Power drill." },
+            { "label": "2", "text": "The Drill Legend drill." },
+            { "label": "3", "text": "The Power P3 drill." },
+            { "label": "4", "text": "The Bit Plus drill." }
           ],
           "answer": "2",
           "explanation": "購入条件は「高品質」「予算300ドル以内」「非会員」。オムニパワーは非会員500ドルで予算超過。ドリルレジェンドは高品質で、現在は非会員でも280ドルで販売中。パワーP3は320ドルで予算超過。ビットプラスは230ドルだが品質が劣る。よって、2「ドリルレジェンド」が正解。",
