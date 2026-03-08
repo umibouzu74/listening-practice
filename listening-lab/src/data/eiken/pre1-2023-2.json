@@ -437,80 +437,85 @@
           "number": 25,
           "audio": "audio/eiken/eiken-pre1-2023-2/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which restaurant should you choose?",
+          "promptJa": "あなたはホテルに滞在している。今、午後6時30分で、あなたは午後7時頃に近くのレストランで夕食をとりたい。コンシェルジュがあなたに次のように言う。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Kingsley's." },
+            { "label": "2", "text": "Shrimp Lover." },
+            { "label": "3", "text": "Randy's." },
+            { "label": "4", "text": "Boca." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "時刻と場所に注意して、説明される順に確認する。キングズリーズは8時に開店するので不適切。シュリンプラバーは電車で約45分かかるので不適切。ランディーズはほんの1ブロックのところにあり、夕食時でもすぐに座れるので条件に合う。ボカは少なくとも前日までに予約をしておかないと席を取るのは難しいので不適切。よって、3「ランディーズ」が正解。",
+          "script": "We're near the harbor, so there are a lot of good seafood options. Kingsley's is a very popular lobster restaurant and bar, but it doesn't open until eight. Shrimp Lover is a seafood restaurant that just opened one month ago. It's about 45 minutes away by train. Randy's is a unique Mexican restaurant just a block away. They only have counter seats, but I'm sure you can be seated right away, even at dinner time. Then, there's Boca here in the hotel, but it's very difficult to get a table if you haven't booked at least a day in advance."
         },
         {
           "id": "q26",
           "number": 26,
           "audio": "audio/eiken/eiken-pre1-2023-2/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたは500枚ある音楽CDのコレクションのうち半分を売ることに決めた。中古CDを売買する店に電話をして、次のような録音メッセージを聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Start the sales procedure online." },
+            { "label": "2", "text": "Start packing the CDs into boxes." },
+            { "label": "3", "text": "Download a form from the website." },
+            { "label": "4", "text": "Make an appointment for an assessment." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "250枚のCDを売るためにすべきことを聞き取る。99枚までのCDを売る人への手続きの説明があるが、250枚なので該当しない。100枚以上のCDを売る人への手続きとして、最終文で「担当者が、コレクションを査定するためにお宅に伺う予定についてお話しします」と述べられているので、4「査定のための約束をする」が正解。",
+          "script": "Welcome to CD Masters. This holiday season, don't miss out on our \"CD Surprise\" boxes with 30 random CDs inside. Additionally, to sell up to 99 CDs, any registered member can log into their account on our website and start the sales procedure. If you don't have an account, you can register today just by filling out the form on our website. If you would prefer to register over the phone, press 1. If you are looking to sell 100 or more CDs at once, press 2. A representative will speak with you to schedule a home visit to assess your CD collection."
         },
         {
           "id": "q27",
           "number": 27,
           "audio": "audio/eiken/eiken-pre1-2023-2/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which class should you take?",
+          "promptJa": "あなたは大学生である。あなたは古代のギリシア人とローマ人について学びたいが、グループワークは好きではない。あなたは履修指導員の説明を聞いている。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "History 103." },
+            { "label": "2", "text": "Philosophy 105." },
+            { "label": "3", "text": "History 202." },
+            { "label": "4", "text": "Latin 102." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "学びたい内容と、グループワークの有無に注意して確認する。歴史103は18・19世紀のヨーロッパの歴史なので内容が合わない。哲学105は内容はよいがチーム討論への参加が必要なので不適切。歴史202は講義中心で対話型ではなく、古代エジプト・ギリシア・ローマの歴史を扱うので条件に合う。ラテン語102は古代ローマにのみ焦点を当てており内容が合わない。よって、3「歴史202」が正解。",
+          "script": "In History 103, students can learn about European history in the eighteenth and nineteenth centuries. This class has no group projects, and there is an option available to take it online. Next, Philosophy 105 is for those who want to grasp the gist of Western philosophy, including that of ancient Greece and Rome. Students are expected to take part in spirited team debates in each class. History 202 is a lecture-based class and is non-interactive. It focuses primarily on ancient Egyptian, Greek, and Roman history. Finally, Latin 102 focuses exclusively on ancient Rome. In that class, you'll learn Latin by reading ancient Roman plays."
         },
         {
           "id": "q28",
           "number": 28,
           "audio": "audio/eiken/eiken-pre1-2023-2/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたが娘のために2週間前に買ったタブレットが壊れた。それには1年間の保証期間がある。あなたは製品のメーカーに電話をして、次の録音メッセージを聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Press 1." },
+            { "label": "2", "text": "Press 2." },
+            { "label": "3", "text": "Press 3." },
+            { "label": "4", "text": "Press 4." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "2週間前に買ったタブレットが壊れ、保証期間内であることを頭に入れて聞く。1は法人客に対してなので不適切。2は保証期間内の製品に関するもので該当する。3は保証期間外の製品に関するものなので不適切。4はタブレットの故障とは無関係なので不適切。よって、2「2を押す」が正解。",
+          "script": "Thank you for calling the TSS Electronics help desk. For corporate customers who have questions regarding the details of their contracts, press 1. For technical support or to request a replacement for any of our products currently under warranty, press 2. To arrange for a repair or check the repair status of a product outside of warranty, press 3. For information about the different tablet models and data plans that we provide, press 4. For all other inquiries, please remain on the line until a representative becomes available."
         },
         {
           "id": "q29",
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2023-2/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which tour should you choose?",
+          "promptJa": "あなたとあなたの7歳の息子は科学博物館にいる。あなたはツアーに参加したい。あなたは45分後に博物館を出なければならない。あなたは次の放送を聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Spark of Genius." },
+            { "label": "2", "text": "The Age of Dinos." },
+            { "label": "3", "text": "Deep into the Sea." },
+            { "label": "4", "text": "Museum after Dark." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "「7歳の息子がいる」「45分後に博物館を出る」という2つの条件に合うものを選ぶ。「天才のひらめき」は1時間のツアーなので不適切。「恐竜の時代」は30分かかるので候補になる。「深海へ」は10歳未満の子どもにはお勧めしないと述べられているので不適切。「夜の博物館」は夜間ツアーなので不適切。よって、2「恐竜の時代」が正解。",
+          "script": "Several tours will be starting shortly. First, Spark of Genius is an hour-long tour about electricity that includes an exciting 30-minute 3D movie. We also have The Age of Dinos, which is a tour that explores the fascinating period when dinosaurs ruled the earth. It takes half an hour. Deep into the Sea is a 40-minute tour that looks at amazing deep-sea creatures. It can be a little scary, so this tour is not recommended for children under the age of 10. Finally, don't forget you can make reservations for our Museum after Dark overnight tour to experience an unforgettable night among our amazing exhibits."
         }
       ]
     }
