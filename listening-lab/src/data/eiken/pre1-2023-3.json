@@ -459,7 +459,8 @@
           ],
           "answer": "3",
           "explanation": "「4年生」「クレイン先生が担任」がポイント。第4文に「4年生はバスの1号車に乗る」とあるが、第5文に「クレイン先生のクラスは例外」、第6文に「これらの生徒は7時30分に体育館に集合すべきである」とある。したがって、3「学校の体育館に行く」が正解。",
-          "script": "Good afternoon, parents. As you know, this will be a joint fourth- and fifth-grade trip to Mt. Oakley. Buses will be parked outside the school entrance and will depart at 8 a.m. sharp; students should go directly to their bus without entering the school. Fourth graders will use Bus 1, and fifth graders should board Bus 2. The exception is Ms. Klein's class, which has volunteered to help load supplies into a van that will follow the buses. These students should meet in the gym at 7:30. Note that students who arrive after 8:00 will have to be driven privately to the destination by a parent or guardian."
+          "script": "Good afternoon, parents. As you know, this will be a joint fourth- and fifth-grade trip to Mt. Oakley. Buses will be parked outside the school entrance and will depart at 8 a.m. sharp; students should go directly to their bus without entering the school. Fourth graders will use Bus 1, and fifth graders should board Bus 2. The exception is Ms. Klein's class, which has volunteered to help load supplies into a van that will follow the buses. These students should meet in the gym at 7:30. Note that students who arrive after 8:00 will have to be driven privately to the destination by a parent or guardian.",
+          "scriptJa": "こんにちは，保護者の皆様。ご存知の通り，これは4年生と5年生が合同で行くオークリー山への旅行です。バスは学校の入り口の外に駐車し，午前8時ちょうどに出発します。生徒は学校に入らず，直接自分のバスに向かわなければいけません。4年生は1号車のバスを使用し，5年生は2号車のバスに乗ってください。クレイン先生のクラスは例外で，バスに続く荷物車に物資を積む手伝いをすることに志願しています。そのクラスの生徒は午前7時30分に体育館に集合してください。午前8時以降に到着した生徒は，保護者の方がそれぞれ目的地まで送り届けていただかなくてはならなくなることに注意してください。"
         },
         {
           "id": "q26",
@@ -476,7 +477,8 @@
           ],
           "answer": "2",
           "explanation": "状況の「試験と課題の採点」に関する講義を探す。第3文に「ハタヤマ・ユカリ氏は試験を含む評価と採点方法についての研究を発表する」とあることから、2「ハタヤマ・ユカリの講義」が正解。状況の testing が放送文では examination に、marking が assessment に言い換えられている。",
-          "script": "We have four different lectures for you to choose from this morning. Manal Abad will be discussing the latest theories about motivating young learners, especially those with learning disabilities. Yukari Hatayama will present her research into evaluation and assessment methods, including examinations. We also have Martin Halpern's talk about improving classroom discipline. And another option is strategies for engaging students during remote learning. That will be given by Antonio Rossi. Please consult your programs for the room numbers."
+          "script": "We have four different lectures for you to choose from this morning. Manal Abad will be discussing the latest theories about motivating young learners, especially those with learning disabilities. Yukari Hatayama will present her research into evaluation and assessment methods, including examinations. We also have Martin Halpern's talk about improving classroom discipline. And another option is strategies for engaging students during remote learning. That will be given by Antonio Rossi. Please consult your programs for the room numbers.",
+          "scriptJa": "本日の午前中から，みなさんに受けていただける4つの異なる講義があります。マナル・アバッド氏は，若い学習者，特に学習障害のある若い学習者，にやる気を起こさせるための最新の理論について議論します。ハタヤマ・ユカリ氏は，試験を含む評価と採点方法に関する研究を発表します。またマーティン・ハルペルン氏は，教室での規律改善について話します。そしてもう一つの選択肢は，リモート学習中に生徒を引き込むための戦略です。アントニオ・ロッシ氏がそれについて講演します。部屋番号はプログラムをご覧ください。"
         },
         {
           "id": "q27",
@@ -493,7 +495,8 @@
           ],
           "answer": "1",
           "explanation": "第5文に「ピックフォードまで行く乗客は乗車のままで行ける」とあるが、第6文に「進行が遅くなる」「急いでいる場合はバスサービスを利用することを勧める」とある。列車は11時15分にピックフォード到着予定だが、会議は11時であるため間に合わない。1「次の停車駅からバスに乗る」が正解。",
-          "script": "We're sorry for the delay. We'll be moving again soon, but due to a fallen tree on the track, this train will only go as far as Pickford. For passengers going beyond Pickford, please get off at Dewsbury, which is the next stop. A complimentary bus service from there will stop at all stations until Wexford, which is the end of the line. Passengers traveling to Filburn and Pickford can stay on the train. However, we're expecting progress to be slow, so we recommend using the bus service if you're in a hurry. We estimate the train will arrive in Pickford at 11:15."
+          "script": "We're sorry for the delay. We'll be moving again soon, but due to a fallen tree on the track, this train will only go as far as Pickford. For passengers going beyond Pickford, please get off at Dewsbury, which is the next stop. A complimentary bus service from there will stop at all stations until Wexford, which is the end of the line. Passengers traveling to Filburn and Pickford can stay on the train. However, we're expecting progress to be slow, so we recommend using the bus service if you're in a hurry. We estimate the train will arrive in Pickford at 11:15.",
+          "scriptJa": "遅延をお詫び申し上げます。間もなく運行を再開しますが，線路上に倒木があるため，この列車はピックフォードまでしか動きません。ピックフォード以降へ行かれるお客様は，次の停車駅であるデューズベリーでお降りください。そこから終点ウェックスフォードまでの各駅に停車する，無料のバスサービスがあります。フィルバーンおよびピックフォードへ行かれるお客様は，そのまま列車にご乗車いただけます。ただし，進行が遅くなる見込みのため，お急ぎの場合はバスサービスをご利用いただくことをお勧めします。列車は11時15分にピックフォードに到着予定です。"
         },
         {
           "id": "q28",
@@ -510,7 +513,8 @@
           ],
           "answer": "2",
           "explanation": "「平日の午前10時から午後4時まで仕事」という条件で、その時間以外に診てもらえる歯科医を探す。ジェームズ先生は明日の10:30（勤務時間内で不可）、マンガニエロ先生は木曜の7:45（勤務前で可能）、シャー先生は今日の正午（勤務時間内で不可）、マニロウ先生は金曜の15時（勤務時間内で不可）。したがって、2「マンガニエロ先生」が正解。",
-          "script": "We've been busy, so we don't have many openings in the near future. We've just had a cancellation for tomorrow morning at 10:30, so I could fit you in then with your usual dentist, Dr. James. I've also got an opening with Dr. Manganiello on Thursday at 7:45 a.m. Oh, it looks like Dr. Shah has had a cancellation today, so we could fit you in with her at noon. Let's see. If none of those work for you, I could probably get you in to see Dr. Manilow this Friday at 3; you'd be his last appointment for the day."
+          "script": "We've been busy, so we don't have many openings in the near future. We've just had a cancellation for tomorrow morning at 10:30, so I could fit you in then with your usual dentist, Dr. James. I've also got an opening with Dr. Manganiello on Thursday at 7:45 a.m. Oh, it looks like Dr. Shah has had a cancellation today, so we could fit you in with her at noon. Let's see. If none of those work for you, I could probably get you in to see Dr. Manilow this Friday at 3; you'd be his last appointment for the day.",
+          "scriptJa": "予約殺到のため，直近の空きはあまりありません。ちょうど明日の午前10時30分にキャンセルが出たので，その時間であればいつもの歯科医であるジェームズ先生に予約を入れることができます。また，木曜日の午前7時45分にマンガニエロ先生の枠もあります。あ，シャー先生が今日キャンセルが出たようなので，正午にシャー先生で予約も可能です。後はそうですね，もしこれらの時間のどれも合わなければ，今週金曜日の午後3時にマニロウ先生ならおそらく予約を取れます。その日は先生の最後の予約になります。"
         },
         {
           "id": "q29",
@@ -527,7 +531,8 @@
           ],
           "answer": "2",
           "explanation": "1「ウェイバートン・イン」は「子どもたちを寝かせるのが難しい」ため不可。3「マウンテン・ビュー・モーテル」は closed down（閉店）のため不可。4「パーム・ヴィレッジ・スイーツ」は only accept adult guests（大人のみ受け入れ）のため不可。よって、2「リッジ・モーテル」が正解。ウェイバートンの隣にあるが、レストランの音は聞こえない。",
-          "script": "You should spend the night in Clairville, the halfway point. There are some hotels on the main road. The Waverton Inn is good; it has a nice restaurant. There's live music at night, though, which could make putting the kids to bed difficult, as you can hear it from the rooms. I also like the Ridge Motel. It's next door to the Waverton, but you can't hear the noise from the restaurant. It's too bad the Mountain View Motel closed down recently; they had a kids' playroom and comfortable beds. I'd also recommend Palm Village Suites, but they only accept adult guests."
+          "script": "You should spend the night in Clairville, the halfway point. There are some hotels on the main road. The Waverton Inn is good; it has a nice restaurant. There's live music at night, though, which could make putting the kids to bed difficult, as you can hear it from the rooms. I also like the Ridge Motel. It's next door to the Waverton, but you can't hear the noise from the restaurant. It's too bad the Mountain View Motel closed down recently; they had a kids' playroom and comfortable beds. I'd also recommend Palm Village Suites, but they only accept adult guests.",
+          "scriptJa": "クレアヴィルで一泊するといいよ，そこはちょうど中間地点にあるからね。幹線道路上にはいくつかホテルがあるよ。ウェイバートン・インは良いホテルで，素敵なレストランがあるよ。ただ夜には音楽ライブがあって，その部屋から音が聞こえるから子どもたちを寝かせるのが難しいかもしれないね。ぼくはリッジ・モーテルも好きだよ。ウェイバートンの隣にあるんだけど，レストランの音は聞こえないんだ。残念ながら，マウンテン・ビュー・モーテルは最近閉店してしまったんだ。子ども用の遊び場と快適なベッドがあったんだけどね。パーム・ヴィレッジ・スイーツもお勧めだけど，あそこは大人の宿泊客しか受け付けていないんだ。"
         }
       ]
     }
