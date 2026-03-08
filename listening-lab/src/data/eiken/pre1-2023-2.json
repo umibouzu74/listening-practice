@@ -225,16 +225,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/16_No13.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Why did people originally celebrate Sukkoth?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To improve the quality of their crops." },
+            { "label": "2", "text": "To give thanks for the food they grew." },
+            { "label": "3", "text": "To pray for the ability to leave the desert." },
+            { "label": "4", "text": "To celebrate their time in Egypt." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段第2・3文で「数千年前に収穫祭として始まり、祭りの間、人々はその年の作物に対する神への感謝を表した」という内容が述べられていることから、2「育てた食べ物に感謝するため」が正解。「作物」という表現に、放送文ではthe year's cropsが使われ、選択肢ではthe food they grewに言い換えられている。4については、同段第4文で「のちに、エジプトでの隷属から逃れた直後の時期と関連づけられた」という内容が述べられているので不適切。",
+          "script": "Sukkoth\n\nSukkoth is a religious holiday celebrated by Jewish people around the world. It originated thousands of years ago as a harvest festival. During the festival, people demonstrated their appreciation to their god for the year's crops. Later, the holiday became connected with the time immediately after the ancient Jewish people had escaped from slavery in Egypt. According to tradition, the Jewish people wandered in the desert and had to live in fragile shelters called sukkahs that protected them from the heat of the sun.\n\nToday, Jewish people celebrate the holiday by building a sukkah in their backyards or on balconies. Sukkahs generally have three walls, and the roof is made with leaves and has openings so that the stars are visible above. During the festival's seven days, people consume their meals in the sukkah, and if they live in a warm climate, they sleep in it as well."
         },
         {
           "id": "q14",
@@ -242,15 +242,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/17_No14.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing we learn about modern sukkah buildings?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Their walls have images of the desert." },
+            { "label": "2", "text": "They are covered to stay cool." },
+            { "label": "3", "text": "Meals must be cooked inside them." },
+            { "label": "4", "text": "People can see the sky from inside them." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "4",
+          "explanation": "第2段第2文で「屋根は葉で作られていて隙間があり、上方に星を見ることができる」と述べられているから、4「人々はその中から空を見ることができる」が正解となる。3については、同段最終文に「そこで食事をする」とあるが、「調理しなければいけない」とは述べていないので不適切。",
           "script": ""
         },
         {
@@ -259,16 +259,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/19_No15.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker say about disease-causing germs?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Vultures help prevent them from infecting humans." },
+            { "label": "2", "text": "Vultures often spread them to other animals." },
+            { "label": "3", "text": "They can cause vultures to die." },
+            { "label": "4", "text": "They survive inside vultures' stomachs." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段第3文で「死んだ動物を食べることで、その鳥は病気を引き起こす細菌が水源などの周囲の環境に侵入するのを防いでいる」と述べられている。また、同段最終文では「彼らの強力な胃酸は細菌を殺すことができるので、ハゲワシが病気を人間にうつす可能性は低い」と述べられている。これらの内容から、2・3・4は不適切で、1「ハゲワシはそれらが人間に感染するのを防ぐのに役立っている」が正解となる。",
+          "script": "Vultures\n\nVultures are birds well-known for their diet, which consists of the remains of dead animals. This association has given many people a negative impression of the birds, but we in fact owe much gratitude to vultures. By eating dead animals, the birds prevent disease-causing germs from entering the environment, including water sources. And because the strong acid in their stomachs is so good at killing germs, vultures are unlikely to pass on diseases to humans.\n\nThe bodies of dead animals do more than spread disease — they also release CO₂ and other greenhouse gases as they decay on the ground. When vultures feed, they prevent this from happening. However, in many parts of the world today, vulture populations have declined significantly, resulting in millions of tons of extra greenhouse-gas emissions entering the atmosphere. Ensuring vulture populations remain healthy is therefore an important step in combating climate change."
         },
         {
           "id": "q16",
@@ -276,15 +276,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/20_No16.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is suggested about climate change?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Vultures' feeding habits help reduce its effects." },
+            { "label": "2", "text": "It is increasing vulture populations worldwide." },
+            { "label": "3", "text": "It is changing vultures' food sources." },
+            { "label": "4", "text": "It is forcing vultures to find new habitats." }
           ],
           "answer": "1",
-          "explanation": "",
+          "explanation": "第2段第1・2文で「ハゲワシが動物の死体を食べることで、二酸化炭素やその他の温室効果ガスが放出されるのを防いでいる」と述べられている。したがって、1「ハゲワシの食習慣がその影響を減らすのに役立っている」が正解。放送文のWhen vultures feed「ハゲワシが食べる時」を、選択肢ではVultures' feeding habitsに言い換えている。",
           "script": ""
         },
         {
@@ -293,16 +293,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/22_No17.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing research found about praising employees?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Workers often think they do not deserve praise." },
+            { "label": "2", "text": "Random praise can improve work performance." },
+            { "label": "3", "text": "Too much praise can lead to worse performance." },
+            { "label": "4", "text": "Most bosses do not give enough praise." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段最終文で「研究者がでたらめに労働者をほめた時、その労働者たちの生産活動の質は、ほめられなかった人たちと比べて劇的に向上した」と述べられている。よって、2「でたらめにほめることで仕事ぶりが向上する可能性がある」が正解。",
+          "script": "Praising Employees\n\nEveryone knows that praise is important for motivating employees and increasing their satisfaction. Surprisingly, however, according to researchers, praise can improve employee performance even when the employee does not earn the praise. When researchers gave praise to random workers, the quality of the workers' output increased dramatically compared to those who were not praised.\n\nAnother study suggests that some kinds of praise are more effective than others. The study identifies two kinds of mindsets. Those with a so-called fixed mindset think they are born with a certain level of ability and that they are unlikely to get better at things. On the other hand, those with a so-called growth mindset feel that they have the capability to acquire new skills and talents. It seems that praising effort rather than results may have a positive effect because it encourages a growth mindset in unhappy employees who would otherwise be frustrated with their jobs."
         },
         {
           "id": "q18",
@@ -310,15 +310,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/23_No18.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker suggest about unhappy employees?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They tend to react negatively to praise." },
+            { "label": "2", "text": "They worry too much about their work." },
+            { "label": "3", "text": "Having a growth mindset could benefit them." },
+            { "label": "4", "text": "They influence the mindsets of workers around them." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "3",
+          "explanation": "第2段最終文で「『結果』ではなく『努力』をほめることは好影響を与える可能性があるようだ」という内容が述べられている。otherwiseは「もしそうでなければ」の意味で、「成長思考でなければ仕事に不満を感じるであろう、不幸な従業員」の意。つまり、成長思考であれば仕事に不満を感じることはないということであり、よって、3「成長思考を持つことは彼らのためになるかもしれない」が正解。",
           "script": ""
         },
         {
@@ -327,16 +327,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/25_No19.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Why did British leaders reject the original plan?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They thought the invasion would not happen." },
+            { "label": "2", "text": "They were worried the art would be destroyed." },
+            { "label": "3", "text": "They thought Canada was likely to be invaded." },
+            { "label": "4", "text": "They feared the Germans would be able to steal the art." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段第3文で「当初、それらをカナダへ船で運ぶことが提案されたが、イギリスの指導者たちは、何千もの船を沈めているドイツの潜水艦の脅威を心配していた」と述べられているので、イギリスの指導者たちは絵画を運んでいる船が潜水艦によって沈められることを懸念したことがわかる。よって、2「美術品が破壊されることを心配したから」が正解。",
+          "script": "Manod Mine\n\nDuring World War II, there was great fear that Britain would be invaded by Nazi Germany. In this environment, it was decided that paintings from the National Gallery in London should be moved somewhere safer. At first, it was suggested that they be shipped to Canada, but British leaders worried about the threat from the German submarines that were sinking thousands of ships. Eventually, the art treasures were stored in an old mine in a remote area of Wales called Manod.\n\nTransporting the art was extremely difficult as many of the works were large and had to be moved carefully through the small mine entrance. Furthermore, there was great concern that moisture and cold temperatures would damage the paintings, so special air-conditioned structures were built in the mine to contain them. Thanks to the project at Manod, the paintings survived the war, and much was learned about preserving art."
         },
         {
           "id": "q20",
@@ -344,15 +344,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/26_No20.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What was learned from the experience at Manod?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The importance of art during wartime." },
+            { "label": "2", "text": "How to build large mines." },
+            { "label": "3", "text": "The effects of cold temperatures on paintings." },
+            { "label": "4", "text": "How to store art in good condition." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "4",
+          "explanation": "第2段最終文で「マノドでのプロジェクトのおかげで、美術品の保存について多くのことがわかった」と述べられている。よって、4「よい状態で美術品を保管する方法」が正解。3については、同段第2文で「湿気と低温が絵画にダメージを与える懸念があったので、空調管理された構造物が坑道内に建てられた」とあるが、低温の影響について学んだとは述べられていないので不適切。",
           "script": ""
         },
         {
@@ -361,16 +361,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/28_No21.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What was the purpose of Sybil Ludington's ride?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To help warn about an attack." },
+            { "label": "2", "text": "To locate British soldiers." },
+            { "label": "3", "text": "To gather supplies for the American troops." },
+            { "label": "4", "text": "To keep her father safe from danger." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段第2文で「使者は来たるイギリスの攻撃について警告したが、ルディントンの兵士たちは地域周辺に散らばっていた」と述べられ、同段第3・4文で「指揮官の娘シビルは、彼らへの通報を買って出た」こと、「彼女は65キロ以上馬を走らせた」ことが述べられている。第3文のalert themのthemは、第2文のLudington's soldiersを指している。これらの内容から、1「攻撃について警告するのを手伝うため」が正解。",
+          "script": "The Midnight Ride of Sybil Ludington\n\nOn the night of April 26, 1777, during the American Revolution, a messenger arrived at American commander Henry Ludington's house. The messenger warned of a coming British attack, but Ludington's soldiers were scattered around the region. The commander's daughter, Sybil, bravely volunteered to alert them. Though just 16 years old, Sybil rode on horseback for over 65 kilometers in stormy weather. Thanks to her night ride, the troops assembled and drove away the British. After the war, however, Sybil was forgotten for many years.\n\nSome historians question whether Sybil's ride ever really happened. While documents show that the British attack occurred, there are no official records of Sybil's journey. It appeared in a history book published in the 1800s, but the book failed to give sources to confirm it. Nevertheless, the story has been widely accepted, and Sybil has become a symbol of the role of women in the American Revolution."
         },
         {
           "id": "q22",
@@ -378,15 +378,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/29_No22.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one reason some historians doubt Sybil's ride?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "There is evidence that another woman rode that night." },
+            { "label": "2", "text": "There is no record of an attack by the British." },
+            { "label": "3", "text": "It was not officially documented." },
+            { "label": "4", "text": "A history book claims it did not happen." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "3",
+          "explanation": "第2段第2文の後半部で「シビルの遠乗りについて公式の記録はない」とあり、続く第3文のbut以下では「それについて記述がある歴史書にもそれを裏づける情報源は示されなかった」と述べられている。よって、3「それは公式に記録されなかった」が適切である。2については、第2文の前半部の記述に反している。",
           "script": ""
         },
         {
@@ -395,16 +395,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/31_No23.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker say about many ski resorts in the 1950s?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They were forced to move to more populated areas." },
+            { "label": "2", "text": "They had to close due to dissatisfied customers." },
+            { "label": "3", "text": "They did not have enough snow." },
+            { "label": "4", "text": "They were opposed to using artificial snow." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段第3文に「多くのスキーリゾート地では、顧客の満足に応えるには山にもっと多くの雪が必要なことがわかった」と述べられている。放送文のthey needed more snowを言い換えた、3「十分に雪がなかった」が正解。4については、同段最終文で「人工雪」に言及しているが、反対したとは述べられていないので不適切。",
+          "script": "Banff Sunshine Village\n\nDuring the economic boom of the 1950s in the US and Canada, interest in recreational activities increased dramatically. One activity that grew in popularity was skiing. However, many ski resorts found that they needed more snow on their mountains to meet customer demand. Machines were developed to create snow artificially using water and compressed air, enabling ski resorts to operate even without a lot of natural snowfall.\n\nHowever, snowmaking requires significant energy consumption as well as water from reservoirs and lakes. A Canadian ski resort known as Banff Sunshine Village relies instead on a method called snow farming. The resort takes advantage of the area's windy conditions by putting up fences at high altitudes to catch snow that blows in from surrounding mountains. Later, the snow is transported down to slopes that need it. This allows the resort to maximize snow cover in an environmentally sustainable and energy-efficient way."
         },
         {
           "id": "q24",
@@ -412,15 +412,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/32_No24.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is true about Banff Sunshine Village?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The use of artificial snow has hurt its business." },
+            { "label": "2", "text": "It makes use of wind to help its operations." },
+            { "label": "3", "text": "It provides snow to other ski resorts in the local area." },
+            { "label": "4", "text": "Its slopes are located at very high altitudes." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "2",
+          "explanation": "第2段第3文で「そのリゾート地では、風が強い環境を利用し、高所にフェンスを建てて、周囲の山々から吹き込む雪を受け止めている」と述べられている。よって、2「運営に役立てるために風を利用している」が正解。「〜を利用する」という表現に、放送文ではtake advantage of 〜を、選択肢ではmake use of 〜を用いている。1については、人工雪のマイナス点について触れているが、バンフ・サンシャイン・ビレッジの事業に悪影響を及ぼしているとは述べられていない。3については、他のスキーリゾート地へ提供しているとは述べられていない。4については、「フェンスが高所に建てられている」ことがわかるが、ゲレンデが高所にあるとは述べていない。",
           "script": ""
         }
       ]
