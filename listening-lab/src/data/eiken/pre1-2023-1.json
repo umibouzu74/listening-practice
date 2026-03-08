@@ -460,7 +460,7 @@
           "answer": "2",
           "explanation": "出張とハイキングの両方で使用できるかばんを聞き取る。デインジャーフィールドは「屋外の活動に最適」で「オフィスでも十分に通用する外観」と述べられるから、2「デインジャーフィールド」が適切。1は長時間歩くのに向かない。3は仕事に向かない。4はハイキングに向かない。",
           "script": "OK, the Western is an all-leather backpack. It converts to a briefcase, so it's great for business environments. It's a bit heavy, though, so I wouldn't use it on long walks. The Dangerfield is a waxed canvas backpack that's water-resistant, so it's great for outdoor activities. It's also handsome enough for the office. The Spartan is also made of waxed canvas. It's very functional but a bit too sporty for professional contexts. The Winfield is a similar bag, but it's made of water-resistant leather. The thin strap can make it uncomfortable to carry for extended periods of time, though.",
-          "scriptJa": ""
+          "scriptJa": "さて、ウェスタンは総革製のバックパックです。それは書類かばんに形が変わりますので、ビジネスの環境に最適です。でも、少し重いので、長時間歩く時には使いませんね。デインジャーフィールドはワックス加工されたキャンバス生地でできた耐水性のあるバックパックですから、屋外の活動に最適です。それは、オフィスでも十分に通用する外観です。スパルタンもワックス加工されたキャンバス生地でできています。とても実用的ですが、仕事の場面では少しスポーティーすぎます。ウィンフィールドは似たようなかばんですが、耐水性のある皮でできています。肩紐が細いので長時間背負うと不快に感じる可能性がありますが。"
         },
         {
           "id": "q26",
@@ -478,7 +478,7 @@
           "answer": "2",
           "explanation": "「16日間」「最適価格」「車の損傷を避けたい」という条件で判断する。1は最長1週間までなので不適。3は巡回なしで安全面の条件に合わない。4は安全だが1日19ドルで空港から少し遠い。2は1日17ドルで空港に近く屋根付きで警備巡回もあるので、2「バニエ・プラザホテル」が適切。",
           "script": "Nearest to the airport are SKM Budget Parking and the Vanier Plaza Hotel. They both offer covered parking lots that feature security patrols. SKM Budget Parking is the better deal at $13 per day. It only offers short-term parking, though, for up to a week max. If your trip is longer than that, you could pay a $17 rate at the Vanier Plaza Hotel. If an open, non-patrolled parking lot is acceptable, then Nelson Street Skypark offers parking for $9 per day. Another option would be the Econolodge, which is $19 per day. It's indoors and quite safe, though it's a little far.",
-          "scriptJa": ""
+          "scriptJa": "空港に最も近いのは、SKM バジェットパーキングとバニエ・プラザホテルだね。両方とも屋根付きの駐車場があり、警備員の巡回を売りにしている。SKM バジェットパーキングの方がお得で1日13ドル。でも、短期間の駐車だけで、最長1週間までだ。もし旅行がそれより長ければ、バニエ・プラザホテルで17ドルの料金を支払うことになるね。もし、屋根がなく、巡回もない駐車場でもよければ、ネルソンストリートスカイパークが1日9ドルで駐車場を提供しているよ。別の選択肢はエコノロッジで、1日19ドル。少し遠いけど、屋内で、非常に安全だ。"
         },
         {
           "id": "q27",
@@ -496,7 +496,7 @@
           "answer": "3",
           "explanation": "「青いランプが点滅している」ことが条件。青いランプはオーバーヒートの可能性を示し、パネルを開けることで冷却速度を上げられるが、「装置に触れる前に、必ずエアコンのプラグを抜く」よう注意される。したがって、3「エアコンの電源を切る」が正解。「プラグを抜く」が放送文ではunplugで、選択肢ではdisconnectに言い換えられている。",
           "script": "Please look at the display. If the green light is blinking, this means it needs to be cleaned. To do this, simply remove the filter and clean it carefully. You can find a tutorial video on our website. If the blue light is flashing, the air conditioner may be overheating. In such a case, you can speed up cooling by leaving the panel open. Be sure to unplug the air conditioner before touching the unit. If this does not solve the problem, and you would like to schedule a service call by a technician, press 1.",
-          "scriptJa": ""
+          "scriptJa": "表示部を見てください。緑色のランプが明滅しているならば、掃除が必要なことを意味しています。これには、フィルターを取り外して、それを丁寧に掃除していただくだけで結構です。ウェブサイトに説明動画があります。青いランプが点滅しているならば、エアコンがオーバーヒートしている可能性があります。その場合は、パネルを開けた状態にしておくことで、冷却速度を上げることができます。パネルに触れる前に、必ずエアコンのプラグを抜いてください。これで問題が解決せず、技術者による修理サービスの予約をご希望であれば、1を押してください。"
         },
         {
           "id": "q28",
@@ -514,7 +514,7 @@
           "answer": "3",
           "explanation": "「遺伝学に興味がある」ということが条件。7月号は物理学の概説で不適。8月号は遺伝学だが絶版で不適。10月号も遺伝学の研究が中心と述べられるので、3「10月号」が正解。11月号は地質学の特集で不適。",
           "script": "I understand you've only read the September issue. I'll explain the others briefly. The July issue has an overview of the latest advancements in physics, centering on last year's breakthrough in the field of particle physics. The next issue focuses on recent genetic discoveries and various ongoing experiments with DNA and RNA, but unfortunately, this one is out of print. The October issue is also centered around research in genetics, especially its potential medical applications. Finally, if you'd like to deepen your understanding of modern geology, the November issue would be perfect. It thoroughly explains the current mainstream theories on volcano formation.",
-          "scriptJa": ""
+          "scriptJa": "9月号だけお読みになったのですね。他の号について簡単に説明します。7月号は物理学の最新の進歩の概説で、素粒子物理学の分野における昨年の飛躍的な前進が中心になっています。その次の号は、最近の遺伝学的発見とDNAとRNAを用いたさまざまな進行中の実験に焦点を当てていますが、残念ながら、この号は絶版です。10月号も遺伝学の研究が中心で、特に医学的応用の可能性について取り上げています。最後に、現代の地質学の理解を深めたいのでしたら、11月号が完璧でしょう。それは、火山形成に関する最新の主流派理論を余すところなく説明しています。"
         },
         {
           "id": "q29",
@@ -532,7 +532,7 @@
           "answer": "1",
           "explanation": "「ツナ5缶を5月30日に購入」「1つも食べていない」が条件。24缶入りの箱を1つ以上持っている場合の指示（ウェブサイト・集荷）には該当しない。1箱に満たない客は購入した店で交換または返品が可能とあるので、1「買った店へ缶詰を持って行く」が正解。2はツナを食べた客が対象なので不適。",
           "script": "Bentham Foods is recalling all cans of its tuna sold from May 15 to July 1 because of suspected health risks. Customers who have consumed tuna from these cans are advised to call our recall hotline. For unopened cans, if you have one or more cases of 24 cans, please visit our website for instructions on how to arrange a pickup and a full refund. Customers with less than one case may exchange the cans or return them for a full refund at the store where they were purchased. The cans don't pose any risk while unopened, but please avoid consuming tuna from any cans bought during the affected dates.",
-          "scriptJa": ""
+          "scriptJa": "ベンサムフードは、健康上のリスクの疑いがあるために、5月15日から7月1日に販売されたすべてのツナ缶を回収しています。これらの缶詰からツナを食べたお客様は私たちのリコールホットラインに電話してください。開けていない缶については、24缶入りの箱を1つ以上持っている場合には、私たちのウェブサイトを訪れて、集荷と全額払い戻しの手配の仕方について指示をご覧ください。1箱に満たないお客様は、購入された店で缶の交換あるいは返品して全額払い戻しが可能です。開けていない状態で缶詰がリスクを引き起こすことはありませんが、影響がある期間に購入した缶詰からツナを食べることは避けてください。"
         }
       ]
     }
