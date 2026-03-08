@@ -234,7 +234,8 @@
           ],
           "answer": "2",
           "explanation": "第1段第2・3文で「数千年前に収穫祭として始まり、祭りの間、人々はその年の作物に対する神への感謝を表した」という内容が述べられていることから、2「育てた食べ物に感謝するため」が正解。「作物」という表現に、放送文ではthe year's cropsが使われ、選択肢ではthe food they grewに言い換えられている。4については、同段第4文で「のちに、エジプトでの隷属から逃れた直後の時期と関連づけられた」という内容が述べられているので不適切。",
-          "script": "Sukkoth\n\nSukkoth is a religious holiday celebrated by Jewish people around the world. It originated thousands of years ago as a harvest festival. During the festival, people demonstrated their appreciation to their god for the year's crops. Later, the holiday became connected with the time immediately after the ancient Jewish people had escaped from slavery in Egypt. According to tradition, the Jewish people wandered in the desert and had to live in fragile shelters called sukkahs that protected them from the heat of the sun.\n\nToday, Jewish people celebrate the holiday by building a sukkah in their backyards or on balconies. Sukkahs generally have three walls, and the roof is made with leaves and has openings so that the stars are visible above. During the festival's seven days, people consume their meals in the sukkah, and if they live in a warm climate, they sleep in it as well."
+          "script": "Sukkoth\n\nSukkoth is a religious holiday celebrated by Jewish people around the world. It originated thousands of years ago as a harvest festival. During the festival, people demonstrated their appreciation to their god for the year's crops. Later, the holiday became connected with the time immediately after the ancient Jewish people had escaped from slavery in Egypt. According to tradition, the Jewish people wandered in the desert and had to live in fragile shelters called sukkahs that protected them from the heat of the sun.\n\nToday, Jewish people celebrate the holiday by building a sukkah in their backyards or on balconies. Sukkahs generally have three walls, and the roof is made with leaves and has openings so that the stars are visible above. During the festival's seven days, people consume their meals in the sukkah, and if they live in a warm climate, they sleep in it as well.",
+          "scriptJa": "スコス（仮庵の祭り）\n\nスコス（仮庵の祭り）は世界中のユダヤ人が祝う宗教的な祭日である。それは数千年前に収穫祭として始まった。祭りの間，人々はその年の作物に対する神への感謝を表した。のちに，祭日は，古代ユダヤ人がエジプトでの隷属から逃れた直後の時期と関連づけられた。伝承によると，ユダヤ人たちは砂漠をさまよい，太陽の熱から身を守るための，スッカー（仮庵）という壊れやすい小屋で暮らさなければならなかった。\n今日，ユダヤの人々は裏庭やバルコニーに仮庵を建てて祭日を祝う。仮庵は普通，三方が壁で，屋根は葉で作られていて隙間があり，上方に星を見ることができる。祭りの7日間，人々は仮庵で食事をし，温暖な気候の所だと，そこで眠りもする。"
         },
         {
           "id": "q14",
@@ -251,7 +252,8 @@
           ],
           "answer": "4",
           "explanation": "第2段第2文で「屋根は葉で作られていて隙間があり、上方に星を見ることができる」と述べられているから、4「人々はその中から空を見ることができる」が正解となる。3については、同段最終文に「そこで食事をする」とあるが、「調理しなければいけない」とは述べていないので不適切。",
-          "script": ""
+          "script": "",
+          "scriptJa": "スコス（仮庵の祭り）\n\nスコス（仮庵の祭り）は世界中のユダヤ人が祝う宗教的な祭日である。それは数千年前に収穫祭として始まった。祭りの間，人々はその年の作物に対する神への感謝を表した。のちに，祭日は，古代ユダヤ人がエジプトでの隷属から逃れた直後の時期と関連づけられた。伝承によると，ユダヤ人たちは砂漠をさまよい，太陽の熱から身を守るための，スッカー（仮庵）という壊れやすい小屋で暮らさなければならなかった。\n今日，ユダヤの人々は裏庭やバルコニーに仮庵を建てて祭日を祝う。仮庵は普通，三方が壁で，屋根は葉で作られていて隙間があり，上方に星を見ることができる。祭りの7日間，人々は仮庵で食事をし，温暖な気候の所だと，そこで眠りもする。"
         },
         {
           "id": "q15",
@@ -268,7 +270,8 @@
           ],
           "answer": "1",
           "explanation": "第1段第3文で「死んだ動物を食べることで、その鳥は病気を引き起こす細菌が水源などの周囲の環境に侵入するのを防いでいる」と述べられている。また、同段最終文では「彼らの強力な胃酸は細菌を殺すことができるので、ハゲワシが病気を人間にうつす可能性は低い」と述べられている。これらの内容から、2・3・4は不適切で、1「ハゲワシはそれらが人間に感染するのを防ぐのに役立っている」が正解となる。",
-          "script": "Vultures\n\nVultures are birds well-known for their diet, which consists of the remains of dead animals. This association has given many people a negative impression of the birds, but we in fact owe much gratitude to vultures. By eating dead animals, the birds prevent disease-causing germs from entering the environment, including water sources. And because the strong acid in their stomachs is so good at killing germs, vultures are unlikely to pass on diseases to humans.\n\nThe bodies of dead animals do more than spread disease — they also release CO₂ and other greenhouse gases as they decay on the ground. When vultures feed, they prevent this from happening. However, in many parts of the world today, vulture populations have declined significantly, resulting in millions of tons of extra greenhouse-gas emissions entering the atmosphere. Ensuring vulture populations remain healthy is therefore an important step in combating climate change."
+          "script": "Vultures\n\nVultures are birds well-known for their diet, which consists of the remains of dead animals. This association has given many people a negative impression of the birds, but we in fact owe much gratitude to vultures. By eating dead animals, the birds prevent disease-causing germs from entering the environment, including water sources. And because the strong acid in their stomachs is so good at killing germs, vultures are unlikely to pass on diseases to humans.\n\nThe bodies of dead animals do more than spread disease — they also release CO₂ and other greenhouse gases as they decay on the ground. When vultures feed, they prevent this from happening. However, in many parts of the world today, vulture populations have declined significantly, resulting in millions of tons of extra greenhouse-gas emissions entering the atmosphere. Ensuring vulture populations remain healthy is therefore an important step in combating climate change.",
+          "scriptJa": "ハゲワシ\n\nハゲワシはその食べ物で有名な鳥だが，彼らは動物の死骸を食べる。この連想から多くの人たちはハゲワシに否定的な印象を持つが，実際には，私たちはハゲワシに大いに感謝しなければならない。死んだ動物を食べることで，その鳥は病気を引き起こす細菌が水源など周囲の環境に侵入するのを防いでいる。そして，彼らの強力な胃酸は細菌を殺すことができるので，ハゲワシが病気を人間にうつす可能性は低い。\n動物の死体は，病気を広げるだけではない――地面で腐敗する時には，二酸化炭素などの温室効果ガスも放出する。ハゲワシが食べて，これが起こるのを防いでいる。しかし，今日，世界の多くの地域でハゲワシの生息数は著しく減少し，これによって数百万トンもの余分な温室効果ガスが大気中に放出される結果となっている。したがって，ハゲワシを健全に生息させることは，気候変動と闘う重要なステップである。"
         },
         {
           "id": "q16",
@@ -285,7 +288,8 @@
           ],
           "answer": "1",
           "explanation": "第2段第1・2文で「ハゲワシが動物の死体を食べることで、二酸化炭素やその他の温室効果ガスが放出されるのを防いでいる」と述べられている。したがって、1「ハゲワシの食習慣がその影響を減らすのに役立っている」が正解。放送文のWhen vultures feed「ハゲワシが食べる時」を、選択肢ではVultures' feeding habitsに言い換えている。",
-          "script": ""
+          "script": "",
+          "scriptJa": "ハゲワシ\n\nハゲワシはその食べ物で有名な鳥だが，彼らは動物の死骸を食べる。この連想から多くの人たちはハゲワシに否定的な印象を持つが，実際には，私たちはハゲワシに大いに感謝しなければならない。死んだ動物を食べることで，その鳥は病気を引き起こす細菌が水源など周囲の環境に侵入するのを防いでいる。そして，彼らの強力な胃酸は細菌を殺すことができるので，ハゲワシが病気を人間にうつす可能性は低い。\n動物の死体は，病気を広げるだけではない――地面で腐敗する時には，二酸化炭素などの温室効果ガスも放出する。ハゲワシが食べて，これが起こるのを防いでいる。しかし，今日，世界の多くの地域でハゲワシの生息数は著しく減少し，これによって数百万トンもの余分な温室効果ガスが大気中に放出される結果となっている。したがって，ハゲワシを健全に生息させることは，気候変動と闘う重要なステップである。"
         },
         {
           "id": "q17",
@@ -302,7 +306,8 @@
           ],
           "answer": "2",
           "explanation": "第1段最終文で「研究者がでたらめに労働者をほめた時、その労働者たちの生産活動の質は、ほめられなかった人たちと比べて劇的に向上した」と述べられている。よって、2「でたらめにほめることで仕事ぶりが向上する可能性がある」が正解。",
-          "script": "Praising Employees\n\nEveryone knows that praise is important for motivating employees and increasing their satisfaction. Surprisingly, however, according to researchers, praise can improve employee performance even when the employee does not earn the praise. When researchers gave praise to random workers, the quality of the workers' output increased dramatically compared to those who were not praised.\n\nAnother study suggests that some kinds of praise are more effective than others. The study identifies two kinds of mindsets. Those with a so-called fixed mindset think they are born with a certain level of ability and that they are unlikely to get better at things. On the other hand, those with a so-called growth mindset feel that they have the capability to acquire new skills and talents. It seems that praising effort rather than results may have a positive effect because it encourages a growth mindset in unhappy employees who would otherwise be frustrated with their jobs."
+          "script": "Praising Employees\n\nEveryone knows that praise is important for motivating employees and increasing their satisfaction. Surprisingly, however, according to researchers, praise can improve employee performance even when the employee does not earn the praise. When researchers gave praise to random workers, the quality of the workers' output increased dramatically compared to those who were not praised.\n\nAnother study suggests that some kinds of praise are more effective than others. The study identifies two kinds of mindsets. Those with a so-called fixed mindset think they are born with a certain level of ability and that they are unlikely to get better at things. On the other hand, those with a so-called growth mindset feel that they have the capability to acquire new skills and talents. It seems that praising effort rather than results may have a positive effect because it encourages a growth mindset in unhappy employees who would otherwise be frustrated with their jobs.",
+          "scriptJa": "従業員をほめること\n\nほめることは従業員にやる気を持たせ，彼らの満足度を高めるのに重要であることは，誰でも知っている。しかし驚いたことに，研究者によると，従業員がほめられるようなことをしていない時でさえ，ほめることで従業員の仕事ぶりが向上する可能性があるのだ。研究者がでたらめに労働者をほめた時，その労働者たちの生産活動の質は，ほめられなかった人たちと比べて劇的に向上した。\n別の研究では，ある種の称賛は他のものよりも効果的であることを示唆している。その研究によって，2種類の考え方が特定された。いわゆる固定思考を持つ人たちは，自分にはあるレベルの能力が生まれつき備わっていて，それ以上になる可能性は低いと考えている。一方で，いわゆる成長思考を持つ人たちは，新しい技術や才能を獲得する能力を自分が持っていると考える。「結果」ではなく「努力」をほめることはプラスの効果があるようだ。それは，そうでなければ仕事に不満を感じるであろう，不幸な従業員の成長思考を強めるからである。"
         },
         {
           "id": "q18",
@@ -319,7 +324,8 @@
           ],
           "answer": "3",
           "explanation": "第2段最終文で「『結果』ではなく『努力』をほめることは好影響を与える可能性があるようだ」という内容が述べられている。otherwiseは「もしそうでなければ」の意味で、「成長思考でなければ仕事に不満を感じるであろう、不幸な従業員」の意。つまり、成長思考であれば仕事に不満を感じることはないということであり、よって、3「成長思考を持つことは彼らのためになるかもしれない」が正解。",
-          "script": ""
+          "script": "",
+          "scriptJa": "従業員をほめること\n\nほめることは従業員にやる気を持たせ，彼らの満足度を高めるのに重要であることは，誰でも知っている。しかし驚いたことに，研究者によると，従業員がほめられるようなことをしていない時でさえ，ほめることで従業員の仕事ぶりが向上する可能性があるのだ。研究者がでたらめに労働者をほめた時，その労働者たちの生産活動の質は，ほめられなかった人たちと比べて劇的に向上した。\n別の研究では，ある種の称賛は他のものよりも効果的であることを示唆している。その研究によって，2種類の考え方が特定された。いわゆる固定思考を持つ人たちは，自分にはあるレベルの能力が生まれつき備わっていて，それ以上になる可能性は低いと考えている。一方で，いわゆる成長思考を持つ人たちは，新しい技術や才能を獲得する能力を自分が持っていると考える。「結果」ではなく「努力」をほめることはプラスの効果があるようだ。それは，そうでなければ仕事に不満を感じるであろう，不幸な従業員の成長思考を強めるからである。"
         },
         {
           "id": "q19",
@@ -336,7 +342,8 @@
           ],
           "answer": "2",
           "explanation": "第1段第3文で「当初、それらをカナダへ船で運ぶことが提案されたが、イギリスの指導者たちは、何千もの船を沈めているドイツの潜水艦の脅威を心配していた」と述べられているので、イギリスの指導者たちは絵画を運んでいる船が潜水艦によって沈められることを懸念したことがわかる。よって、2「美術品が破壊されることを心配したから」が正解。",
-          "script": "Manod Mine\n\nDuring World War II, there was great fear that Britain would be invaded by Nazi Germany. In this environment, it was decided that paintings from the National Gallery in London should be moved somewhere safer. At first, it was suggested that they be shipped to Canada, but British leaders worried about the threat from the German submarines that were sinking thousands of ships. Eventually, the art treasures were stored in an old mine in a remote area of Wales called Manod.\n\nTransporting the art was extremely difficult as many of the works were large and had to be moved carefully through the small mine entrance. Furthermore, there was great concern that moisture and cold temperatures would damage the paintings, so special air-conditioned structures were built in the mine to contain them. Thanks to the project at Manod, the paintings survived the war, and much was learned about preserving art."
+          "script": "Manod Mine\n\nDuring World War II, there was great fear that Britain would be invaded by Nazi Germany. In this environment, it was decided that paintings from the National Gallery in London should be moved somewhere safer. At first, it was suggested that they be shipped to Canada, but British leaders worried about the threat from the German submarines that were sinking thousands of ships. Eventually, the art treasures were stored in an old mine in a remote area of Wales called Manod.\n\nTransporting the art was extremely difficult as many of the works were large and had to be moved carefully through the small mine entrance. Furthermore, there was great concern that moisture and cold temperatures would damage the paintings, so special air-conditioned structures were built in the mine to contain them. Thanks to the project at Manod, the paintings survived the war, and much was learned about preserving art.",
+          "scriptJa": "マノド坑道\n\n第二次世界大戦中，イギリスはナチスドイツに侵攻される大きな恐れがあった。このような状況下，ロンドンにあるナショナルギャラリーの絵画をどこか安全なところへ移動させることが決まった。当初，それらをカナダへ船で運ぶことが提案されたが，イギリスの指導者たちは，何千もの船を沈めているドイツの潜水艦の脅威を心配していた。最終的には，貴重な美術品は，マノドと呼ばれるウェールズの人里離れた場所にある，古い坑道に貯蔵された。\n多くの作品は大きく，小さな坑道の入り口を通って搬入するには細心の注意が必要だったので，美術品の輸送は困難を極めた。その上，湿気と低温が絵画にダメージを与える懸念が非常にあったので，それらを収容するために空調管理された特別な構造物が坑道内に作られた。マノドでのプロジェクトのおかげで，絵画は戦争を耐え抜き，美術品の保存について多くのことがわかった。"
         },
         {
           "id": "q20",
@@ -353,7 +360,8 @@
           ],
           "answer": "4",
           "explanation": "第2段最終文で「マノドでのプロジェクトのおかげで、美術品の保存について多くのことがわかった」と述べられている。よって、4「よい状態で美術品を保管する方法」が正解。3については、同段第2文で「湿気と低温が絵画にダメージを与える懸念があったので、空調管理された構造物が坑道内に建てられた」とあるが、低温の影響について学んだとは述べられていないので不適切。",
-          "script": ""
+          "script": "",
+          "scriptJa": "マノド坑道\n\n第二次世界大戦中，イギリスはナチスドイツに侵攻される大きな恐れがあった。このような状況下，ロンドンにあるナショナルギャラリーの絵画をどこか安全なところへ移動させることが決まった。当初，それらをカナダへ船で運ぶことが提案されたが，イギリスの指導者たちは，何千もの船を沈めているドイツの潜水艦の脅威を心配していた。最終的には，貴重な美術品は，マノドと呼ばれるウェールズの人里離れた場所にある，古い坑道に貯蔵された。\n多くの作品は大きく，小さな坑道の入り口を通って搬入するには細心の注意が必要だったので，美術品の輸送は困難を極めた。その上，湿気と低温が絵画にダメージを与える懸念が非常にあったので，それらを収容するために空調管理された特別な構造物が坑道内に作られた。マノドでのプロジェクトのおかげで，絵画は戦争を耐え抜き，美術品の保存について多くのことがわかった。"
         },
         {
           "id": "q21",
@@ -370,7 +378,8 @@
           ],
           "answer": "1",
           "explanation": "第1段第2文で「使者は来たるイギリスの攻撃について警告したが、ルディントンの兵士たちは地域周辺に散らばっていた」と述べられ、同段第3・4文で「指揮官の娘シビルは、彼らへの通報を買って出た」こと、「彼女は65キロ以上馬を走らせた」ことが述べられている。第3文のalert themのthemは、第2文のLudington's soldiersを指している。これらの内容から、1「攻撃について警告するのを手伝うため」が正解。",
-          "script": "The Midnight Ride of Sybil Ludington\n\nOn the night of April 26, 1777, during the American Revolution, a messenger arrived at American commander Henry Ludington's house. The messenger warned of a coming British attack, but Ludington's soldiers were scattered around the region. The commander's daughter, Sybil, bravely volunteered to alert them. Though just 16 years old, Sybil rode on horseback for over 65 kilometers in stormy weather. Thanks to her night ride, the troops assembled and drove away the British. After the war, however, Sybil was forgotten for many years.\n\nSome historians question whether Sybil's ride ever really happened. While documents show that the British attack occurred, there are no official records of Sybil's journey. It appeared in a history book published in the 1800s, but the book failed to give sources to confirm it. Nevertheless, the story has been widely accepted, and Sybil has become a symbol of the role of women in the American Revolution."
+          "script": "The Midnight Ride of Sybil Ludington\n\nOn the night of April 26, 1777, during the American Revolution, a messenger arrived at American commander Henry Ludington's house. The messenger warned of a coming British attack, but Ludington's soldiers were scattered around the region. The commander's daughter, Sybil, bravely volunteered to alert them. Though just 16 years old, Sybil rode on horseback for over 65 kilometers in stormy weather. Thanks to her night ride, the troops assembled and drove away the British. After the war, however, Sybil was forgotten for many years.\n\nSome historians question whether Sybil's ride ever really happened. While documents show that the British attack occurred, there are no official records of Sybil's journey. It appeared in a history book published in the 1800s, but the book failed to give sources to confirm it. Nevertheless, the story has been widely accepted, and Sybil has become a symbol of the role of women in the American Revolution.",
+          "scriptJa": "シビル・ルディントンの真夜中の騎乗\n\nアメリカ独立革命中の1777年4月26日の夜，アメリカの指揮官ヘンリー・ルディントンの家に使者が到着した。使者は来たるイギリスの攻撃について警告したが，ルディントンの兵士たちは地域周辺に散らばっていた。指揮官の娘シビルは，勇敢にも彼らへの通報を買って出た。まだ16歳だったが，シビルは暴風雨の中，65キロ以上馬を走らせた。彼女が夜に馬を走らせたおかげで，部隊は集結し，イギリス軍を退散させた。しかし，戦いのあと，シビルのことは長い間忘れられていた。\n歴史家の中には，シビルの騎乗が果たして本当に起きたのか，疑問視する人たちもいる。記録にはイギリスの攻撃があったことが示されているが，シビルの遠乗りについて公式の記録はない。1800年代に出版された歴史の本でそれが取り上げられたが，それを裏づける情報源は示されなかった。それにもかかわらず，その話は広く受け入れられ，シビルはアメリカ独立革命における，女性が果たした役割の象徴になっている。"
         },
         {
           "id": "q22",
@@ -387,7 +396,8 @@
           ],
           "answer": "3",
           "explanation": "第2段第2文の後半部で「シビルの遠乗りについて公式の記録はない」とあり、続く第3文のbut以下では「それについて記述がある歴史書にもそれを裏づける情報源は示されなかった」と述べられている。よって、3「それは公式に記録されなかった」が適切である。2については、第2文の前半部の記述に反している。",
-          "script": ""
+          "script": "",
+          "scriptJa": "シビル・ルディントンの真夜中の騎乗\n\nアメリカ独立革命中の1777年4月26日の夜，アメリカの指揮官ヘンリー・ルディントンの家に使者が到着した。使者は来たるイギリスの攻撃について警告したが，ルディントンの兵士たちは地域周辺に散らばっていた。指揮官の娘シビルは，勇敢にも彼らへの通報を買って出た。まだ16歳だったが，シビルは暴風雨の中，65キロ以上馬を走らせた。彼女が夜に馬を走らせたおかげで，部隊は集結し，イギリス軍を退散させた。しかし，戦いのあと，シビルのことは長い間忘れられていた。\n歴史家の中には，シビルの騎乗が果たして本当に起きたのか，疑問視する人たちもいる。記録にはイギリスの攻撃があったことが示されているが，シビルの遠乗りについて公式の記録はない。1800年代に出版された歴史の本でそれが取り上げられたが，それを裏づける情報源は示されなかった。それにもかかわらず，その話は広く受け入れられ，シビルはアメリカ独立革命における，女性が果たした役割の象徴になっている。"
         },
         {
           "id": "q23",
@@ -404,7 +414,8 @@
           ],
           "answer": "3",
           "explanation": "第1段第3文に「多くのスキーリゾート地では、顧客の満足に応えるには山にもっと多くの雪が必要なことがわかった」と述べられている。放送文のthey needed more snowを言い換えた、3「十分に雪がなかった」が正解。4については、同段最終文で「人工雪」に言及しているが、反対したとは述べられていないので不適切。",
-          "script": "Banff Sunshine Village\n\nDuring the economic boom of the 1950s in the US and Canada, interest in recreational activities increased dramatically. One activity that grew in popularity was skiing. However, many ski resorts found that they needed more snow on their mountains to meet customer demand. Machines were developed to create snow artificially using water and compressed air, enabling ski resorts to operate even without a lot of natural snowfall.\n\nHowever, snowmaking requires significant energy consumption as well as water from reservoirs and lakes. A Canadian ski resort known as Banff Sunshine Village relies instead on a method called snow farming. The resort takes advantage of the area's windy conditions by putting up fences at high altitudes to catch snow that blows in from surrounding mountains. Later, the snow is transported down to slopes that need it. This allows the resort to maximize snow cover in an environmentally sustainable and energy-efficient way."
+          "script": "Banff Sunshine Village\n\nDuring the economic boom of the 1950s in the US and Canada, interest in recreational activities increased dramatically. One activity that grew in popularity was skiing. However, many ski resorts found that they needed more snow on their mountains to meet customer demand. Machines were developed to create snow artificially using water and compressed air, enabling ski resorts to operate even without a lot of natural snowfall.\n\nHowever, snowmaking requires significant energy consumption as well as water from reservoirs and lakes. A Canadian ski resort known as Banff Sunshine Village relies instead on a method called snow farming. The resort takes advantage of the area's windy conditions by putting up fences at high altitudes to catch snow that blows in from surrounding mountains. Later, the snow is transported down to slopes that need it. This allows the resort to maximize snow cover in an environmentally sustainable and energy-efficient way.",
+          "scriptJa": "バンフ・サンシャイン・ビレッジ\n\n1950年代アメリカとカナダでは，好景気中に，レクリエーション活動への関心が大きく高まった。人気が高まった活動の1つがスキーだった。しかし，多くのスキーリゾート地では，顧客の満足に応えるには山にもっと多くの雪が必要だった。水と圧縮空気を使って人工的に雪を作る機械が開発され，スキーリゾート地は自然の降雪が少なくても営業できるようになった。\nしかし，雪を作るには，貯水池や湖からの水に加えて，相当なエネルギーが必要だ。バンフ・サンシャイン・ビレッジとして知られるカナダのスキーリゾート地では，その代わりに，スノーファーミングという手法に頼っている。当地では，風が強い環境を利用し，高所にフェンスを建てて，周囲の山々から吹き込む雪を受け止めている。そのあと，雪は必要としているゲレンデへと運び下ろされる。これによって，当リゾート地では，環境的に持続可能でエネルギー効率のよい方法で積雪を最大限に利用している。"
         },
         {
           "id": "q24",
@@ -421,7 +432,8 @@
           ],
           "answer": "2",
           "explanation": "第2段第3文で「そのリゾート地では、風が強い環境を利用し、高所にフェンスを建てて、周囲の山々から吹き込む雪を受け止めている」と述べられている。よって、2「運営に役立てるために風を利用している」が正解。「〜を利用する」という表現に、放送文ではtake advantage of 〜を、選択肢ではmake use of 〜を用いている。1については、人工雪のマイナス点について触れているが、バンフ・サンシャイン・ビレッジの事業に悪影響を及ぼしているとは述べられていない。3については、他のスキーリゾート地へ提供しているとは述べられていない。4については、「フェンスが高所に建てられている」ことがわかるが、ゲレンデが高所にあるとは述べていない。",
-          "script": ""
+          "script": "",
+          "scriptJa": "バンフ・サンシャイン・ビレッジ\n\n1950年代アメリカとカナダでは，好景気中に，レクリエーション活動への関心が大きく高まった。人気が高まった活動の1つがスキーだった。しかし，多くのスキーリゾート地では，顧客の満足に応えるには山にもっと多くの雪が必要だった。水と圧縮空気を使って人工的に雪を作る機械が開発され，スキーリゾート地は自然の降雪が少なくても営業できるようになった。\nしかし，雪を作るには，貯水池や湖からの水に加えて，相当なエネルギーが必要だ。バンフ・サンシャイン・ビレッジとして知られるカナダのスキーリゾート地では，その代わりに，スノーファーミングという手法に頼っている。当地では，風が強い環境を利用し，高所にフェンスを建てて，周囲の山々から吹き込む雪を受け止めている。そのあと，雪は必要としているゲレンデへと運び下ろされる。これによって，当リゾート地では，環境的に持続可能でエネルギー効率のよい方法で積雪を最大限に利用している。"
         }
       ]
     },
@@ -447,7 +459,8 @@
           ],
           "answer": "3",
           "explanation": "時刻と場所に注意して、説明される順に確認する。キングズリーズは8時に開店するので不適切。シュリンプラバーは電車で約45分かかるので不適切。ランディーズはほんの1ブロックのところにあり、夕食時でもすぐに座れるので条件に合う。ボカは少なくとも前日までに予約をしておかないと席を取るのは難しいので不適切。よって、3「ランディーズ」が正解。",
-          "script": "We're near the harbor, so there are a lot of good seafood options. Kingsley's is a very popular lobster restaurant and bar, but it doesn't open until eight. Shrimp Lover is a seafood restaurant that just opened one month ago. It's about 45 minutes away by train. Randy's is a unique Mexican restaurant just a block away. They only have counter seats, but I'm sure you can be seated right away, even at dinner time. Then, there's Boca here in the hotel, but it's very difficult to get a table if you haven't booked at least a day in advance."
+          "script": "We're near the harbor, so there are a lot of good seafood options. Kingsley's is a very popular lobster restaurant and bar, but it doesn't open until eight. Shrimp Lover is a seafood restaurant that just opened one month ago. It's about 45 minutes away by train. Randy's is a unique Mexican restaurant just a block away. They only have counter seats, but I'm sure you can be seated right away, even at dinner time. Then, there's Boca here in the hotel, but it's very difficult to get a table if you haven't booked at least a day in advance.",
+          "scriptJa": "港の近くですから，たくさんのおいしいシーフードの選択肢があります。キングズリーズは非常に人気のあるロブスターのレストランバーですが，開店は8時です。シュリンプラバーは1カ月前に開店したばかりのシーフードレストランです。電車で45分くらいのところにあります。ランディーズは珍しいメキシコ料理レストランで，ほんの1ブロック先です。カウンター席しかありませんが，夕食時でも，すぐに座れるはずです。それから，ボカがこのホテル内にありますが，少なくとも前日までに予約をしておかなければ，席を取るのは大変難しいです。"
         },
         {
           "id": "q26",
@@ -464,7 +477,8 @@
           ],
           "answer": "4",
           "explanation": "250枚のCDを売るためにすべきことを聞き取る。99枚までのCDを売る人への手続きの説明があるが、250枚なので該当しない。100枚以上のCDを売る人への手続きとして、最終文で「担当者が、コレクションを査定するためにお宅に伺う予定についてお話しします」と述べられているので、4「査定のための約束をする」が正解。",
-          "script": "Welcome to CD Masters. This holiday season, don't miss out on our \"CD Surprise\" boxes with 30 random CDs inside. Additionally, to sell up to 99 CDs, any registered member can log into their account on our website and start the sales procedure. If you don't have an account, you can register today just by filling out the form on our website. If you would prefer to register over the phone, press 1. If you are looking to sell 100 or more CDs at once, press 2. A representative will speak with you to schedule a home visit to assess your CD collection."
+          "script": "Welcome to CD Masters. This holiday season, don't miss out on our \"CD Surprise\" boxes with 30 random CDs inside. Additionally, to sell up to 99 CDs, any registered member can log into their account on our website and start the sales procedure. If you don't have an account, you can register today just by filling out the form on our website. If you would prefer to register over the phone, press 1. If you are looking to sell 100 or more CDs at once, press 2. A representative will speak with you to schedule a home visit to assess your CD collection.",
+          "scriptJa": "CDマスターズにようこそ。このホリデーシーズンは，ランダムに選ばれた30枚のCDが入った『CDサプライズ』をお見逃しなく。さらに，CDの販売が99枚まででであれば，登録済みのメンバーならどなたでも，ウェブサイト上のアカウントにログインして販売の手続きを開始できます。アカウントをお持ちでなければ，ウェブサイト上のフォームに入力するだけで本日登録できます。電話での登録をご希望でしたら，1を押してください。いっぺんに100枚以上のCDを売ろうとしているのでしたら，2を押してください。担当者が，あなたのCDコレクションを査定するためにお宅に伺う予定についてお話しします。"
         },
         {
           "id": "q27",
@@ -481,7 +495,8 @@
           ],
           "answer": "3",
           "explanation": "学びたい内容と、グループワークの有無に注意して確認する。歴史103は18・19世紀のヨーロッパの歴史なので内容が合わない。哲学105は内容はよいがチーム討論への参加が必要なので不適切。歴史202は講義中心で対話型ではなく、古代エジプト・ギリシア・ローマの歴史を扱うので条件に合う。ラテン語102は古代ローマにのみ焦点を当てており内容が合わない。よって、3「歴史202」が正解。",
-          "script": "In History 103, students can learn about European history in the eighteenth and nineteenth centuries. This class has no group projects, and there is an option available to take it online. Next, Philosophy 105 is for those who want to grasp the gist of Western philosophy, including that of ancient Greece and Rome. Students are expected to take part in spirited team debates in each class. History 202 is a lecture-based class and is non-interactive. It focuses primarily on ancient Egyptian, Greek, and Roman history. Finally, Latin 102 focuses exclusively on ancient Rome. In that class, you'll learn Latin by reading ancient Roman plays."
+          "script": "In History 103, students can learn about European history in the eighteenth and nineteenth centuries. This class has no group projects, and there is an option available to take it online. Next, Philosophy 105 is for those who want to grasp the gist of Western philosophy, including that of ancient Greece and Rome. Students are expected to take part in spirited team debates in each class. History 202 is a lecture-based class and is non-interactive. It focuses primarily on ancient Egyptian, Greek, and Roman history. Finally, Latin 102 focuses exclusively on ancient Rome. In that class, you'll learn Latin by reading ancient Roman plays.",
+          "scriptJa": "歴史103では，学生は18・19世紀のヨーロッパの歴史について学ぶことができます。この授業ではグループ研究はなく，オンラインで授業を受けることもできます。次に，哲学105は，古代ギリシア・ローマの哲学など，西洋哲学の要点を理解したい人向けです。学生は毎時間活発なチーム討論に参加することが求められます。歴史202は講義が中心の授業で，対話型ではありません。主に古代エジプト，ギリシア，ローマの歴史を中心に扱います。最後に，ラテン語102は古代ローマにのみ焦点を当てます。授業では，古代ローマの劇を読むことでラテン語を学べます。"
         },
         {
           "id": "q28",
@@ -498,7 +513,8 @@
           ],
           "answer": "2",
           "explanation": "2週間前に買ったタブレットが壊れ、保証期間内であることを頭に入れて聞く。1は法人客に対してなので不適切。2は保証期間内の製品に関するもので該当する。3は保証期間外の製品に関するものなので不適切。4はタブレットの故障とは無関係なので不適切。よって、2「2を押す」が正解。",
-          "script": "Thank you for calling the TSS Electronics help desk. For corporate customers who have questions regarding the details of their contracts, press 1. For technical support or to request a replacement for any of our products currently under warranty, press 2. To arrange for a repair or check the repair status of a product outside of warranty, press 3. For information about the different tablet models and data plans that we provide, press 4. For all other inquiries, please remain on the line until a representative becomes available."
+          "script": "Thank you for calling the TSS Electronics help desk. For corporate customers who have questions regarding the details of their contracts, press 1. For technical support or to request a replacement for any of our products currently under warranty, press 2. To arrange for a repair or check the repair status of a product outside of warranty, press 3. For information about the different tablet models and data plans that we provide, press 4. For all other inquiries, please remain on the line until a representative becomes available.",
+          "scriptJa": "お電話ありがとうございます。TSSエレクトロニクスのヘルプデスクです。法人のお客様で契約書の詳細に関する質問の方は，1を押してください。技術サポート，また，当社の全製品で現在保証期間中の製品について交換をご希望の場合は，2を押してください。修理の手配，あるいは保証期間外の製品の修理状況の確認は，3を押してください。私どもが提供しておりますその他のタブレットモデルやデータプランの情報につきましては，4を押してください。他のすべてのお問い合わせについては，担当者が応対できるようになるまでそのままお待ちください。"
         },
         {
           "id": "q29",
@@ -515,7 +531,8 @@
           ],
           "answer": "2",
           "explanation": "「7歳の息子がいる」「45分後に博物館を出る」という2つの条件に合うものを選ぶ。「天才のひらめき」は1時間のツアーなので不適切。「恐竜の時代」は30分かかるので候補になる。「深海へ」は10歳未満の子どもにはお勧めしないと述べられているので不適切。「夜の博物館」は夜間ツアーなので不適切。よって、2「恐竜の時代」が正解。",
-          "script": "Several tours will be starting shortly. First, Spark of Genius is an hour-long tour about electricity that includes an exciting 30-minute 3D movie. We also have The Age of Dinos, which is a tour that explores the fascinating period when dinosaurs ruled the earth. It takes half an hour. Deep into the Sea is a 40-minute tour that looks at amazing deep-sea creatures. It can be a little scary, so this tour is not recommended for children under the age of 10. Finally, don't forget you can make reservations for our Museum after Dark overnight tour to experience an unforgettable night among our amazing exhibits."
+          "script": "Several tours will be starting shortly. First, Spark of Genius is an hour-long tour about electricity that includes an exciting 30-minute 3D movie. We also have The Age of Dinos, which is a tour that explores the fascinating period when dinosaurs ruled the earth. It takes half an hour. Deep into the Sea is a 40-minute tour that looks at amazing deep-sea creatures. It can be a little scary, so this tour is not recommended for children under the age of 10. Finally, don't forget you can make reservations for our Museum after Dark overnight tour to experience an unforgettable night among our amazing exhibits.",
+          "scriptJa": "いくつかのツアーはまもなく始まります。まず，「天才のひらめき」は，電気についての1時間のツアーで，30分のわくわくする3D映画が含まれています。「恐竜の時代」というツアーもあります。そこでは，恐竜が地球を支配していたころの魅力的な時代を探検します。30分かかります。「深海へ」は，驚くべき深海の生き物を見る40分のツアーです。少し怖い可能性があるので，このツアーは10歳未満のお子様にはお勧めしません。最後に，驚くべき展示品に囲まれて忘れられない夜を体験できる夜間ツアー「夜の博物館」を予約できることをお忘れなく。"
         }
       ]
     }
