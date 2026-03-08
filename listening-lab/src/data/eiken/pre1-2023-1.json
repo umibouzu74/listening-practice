@@ -234,7 +234,8 @@
           ],
           "answer": "1",
           "explanation": "第1段最終文で「それぞれが他の穀物にとって最も役立つ時に植えられることが必要不可欠である」と述べられていることから、1「それぞれの作物をいつ植えるかが重要である」が正解。2については、all over North America「北アメリカ一帯の」とあるので不適切。3については「カボチャは雑草を生えないようにする」という内容に合致しない。",
-          "script": "The Three Sisters\n\nFor centuries, Native Americans all over North America grew corn, beans, and squash, which were often called the Three Sisters. The Three Sisters were planted together because of the strong benefits that the combination brings. When beans are grown with corn, the corn provides support for the beans as they climb up to get more sunlight. Additionally, squash keeps weeds away, and beans increase the amount of the beneficial chemical nitrogen in the soil. To make the combination work, however, planting each crop at the time when it will most help the others is essential.\n\nIn the distant past, Native American farmers were even able to grow the Three Sisters in the desert areas of the American southwest, but, unfortunately, most of this knowledge has been lost. Some Native Americans are currently working to rediscover the techniques that would allow them to grow the vegetables in very dry conditions."
+          "script": "The Three Sisters\n\nFor centuries, Native Americans all over North America grew corn, beans, and squash, which were often called the Three Sisters. The Three Sisters were planted together because of the strong benefits that the combination brings. When beans are grown with corn, the corn provides support for the beans as they climb up to get more sunlight. Additionally, squash keeps weeds away, and beans increase the amount of the beneficial chemical nitrogen in the soil. To make the combination work, however, planting each crop at the time when it will most help the others is essential.\n\nIn the distant past, Native American farmers were even able to grow the Three Sisters in the desert areas of the American southwest, but, unfortunately, most of this knowledge has been lost. Some Native Americans are currently working to rediscover the techniques that would allow them to grow the vegetables in very dry conditions.",
+          "scriptJa": "スリー・シスターズ\n\n数百年間、北アメリカ一帯のアメリカ先住民はトウモロコシ、豆、カボチャを育てたが、それらはしばしばスリー・シスターズと呼ばれていた。スリー・シスターズは、その組み合わせによって強力な利点がもたらされたので、一緒に植えられていた。豆はトウモロコシと一緒に育てられると、より多くの日光を得ようとして豆が伸びる時にトウモロコシはその支えになる。加えて、カボチャは雑草が生えないようにし、豆は土壌中で有益な化学物質である窒素の量を増加させる。しかし、この組み合わせを機能させるには、それぞれの穀物にとって最も役立つ時に植えられることが必要不可欠である。\n\nはるか昔、アメリカ先住民の農耕人はアメリカ南西部の砂漠地帯でもスリー・シスターズを栽培することができたが、残念なことに、この知識の大部分は失われてしまった。現在、アメリカ先住民の中には、非常に乾燥した気候でそれらの野菜を育てることを可能にする技術の再発見に取り組んでいる人たちもいる。"
         },
         {
           "id": "q14",
@@ -251,7 +252,8 @@
           ],
           "answer": "4",
           "explanation": "第2段で「アメリカ先住民の中には、非常に乾燥した気候でそれらの野菜を育てることを可能にする技術を再発見しようとしている人たちがいる」と述べている。したがって、4「忘れられた栽培方法を再発見する」が正解。",
-          "script": ""
+          "script": "",
+          "scriptJa": ""
         },
         {
           "id": "q15",
@@ -268,7 +270,8 @@
           ],
           "answer": "2",
           "explanation": "第1段最終文で「彼は親が子どものために厳しい規則を設けずにいるのは難しいと認めている」とある。よって、2「彼らは子どもたちのために厳格な規則を設けざるを得ないことが多い」が正解。放送文ではit is difficult for parents to avoid setting …が、選択肢ではThey are often forced to set …に言い換えられている。",
-          "script": "Children in Cities\n\nIn previous generations, children generally had more freedom to explore their surroundings. These days, parents commonly prohibit children from taking walks, crossing streets, or even playing at playgrounds unsupervised. Author Tim Gill argues children today would benefit from being allowed to do things on their own. However, he acknowledges that since modern cities have become increasingly dangerous places, it is difficult for parents to avoid setting strict rules for children.\n\nGill believes design is the key to making cities child friendly. Cities are currently designed to allow people to travel easily by car, but cars are one of the greatest threats to children's safety. Rather than simply building more playground spaces, Gill wants to make cities safer for children to move through. While completely rebuilding cities is not realistic in the short term, Gill suggests that easier measures such as turning streets into car-free zones for a short time each week could have immediate benefits."
+          "script": "Children in Cities\n\nIn previous generations, children generally had more freedom to explore their surroundings. These days, parents commonly prohibit children from taking walks, crossing streets, or even playing at playgrounds unsupervised. Author Tim Gill argues children today would benefit from being allowed to do things on their own. However, he acknowledges that since modern cities have become increasingly dangerous places, it is difficult for parents to avoid setting strict rules for children.\n\nGill believes design is the key to making cities child friendly. Cities are currently designed to allow people to travel easily by car, but cars are one of the greatest threats to children's safety. Rather than simply building more playground spaces, Gill wants to make cities safer for children to move through. While completely rebuilding cities is not realistic in the short term, Gill suggests that easier measures such as turning streets into car-free zones for a short time each week could have immediate benefits.",
+          "scriptJa": "都市の子どもたち\n\nこれまでの世代では、子どもたちは普通、もっと自由に自分たちの周囲を探索することができた。最近の親たちは一般に、子どもが散歩したり、道路を渡ったり、見守りがいなければ遊び場で遊ぶことすら禁じている。作家のティム・ギルは、一人で何かすることを許すことは現代の子どものためになると主張している。しかし一方で、彼は、現代の都市はますます危険な場所になっているので、親が子どものために厳しい規則を設けずにいるのは難しいと認めている。\n\nギルは、デザインが子どもに優しい都市を作るカギだと考えている。都市は現在、人々が車で簡単に移動できるようにデザインされているが、車は子どもの安全にとって最も大きな脅威の1つである。より多くの遊び場をただ作るのではなく、都市を子どもが移動するのにもっと安全なものにしようとギルは考えている。都市をすっかり改造するのは短期的には現実的ではないが、毎週短時間、道路を自動車通行禁止区域にするなどのもっと簡単な手段であれば、すぐに効果が得られるだろうとギルは提案している。"
         },
         {
           "id": "q16",
@@ -285,7 +288,8 @@
           ],
           "answer": "1",
           "explanation": "第2段最終文で「毎週短時間、道路を自動車通行禁止区域にするなどの手段であれば、すぐに効果が得られるとギルは提案している」とあるから、1「道路が自動車通行止めになる時間を設ける」が正解。放送文ではturning streets into car-free zonesで、選択肢ではstreets are closed to carsに言い換えられている。",
-          "script": ""
+          "script": "",
+          "scriptJa": ""
         },
         {
           "id": "q17",
@@ -302,7 +306,8 @@
           ],
           "answer": "3",
           "explanation": "第1段第2文の後半で「研究者のチームは氷河時代が終わった後に消滅した絶滅生物の描写が含まれていると考えている」と述べられているので、3「それらは絶滅した生物を含んでいる」が正解。「絶滅した」が放送文ではextinctで、選択肢ではdied outに言い換えられている。",
-          "script": "Art in the Amazon\n\nAn enormous collection of primitive paintings discovered in the Amazon jungle is causing debate among scientists. Thousands of images have been discovered on rock walls, and the team of researchers who discovered them believe that they include representations of extinct creatures that disappeared after the Ice Age ended. If so, the artists may have been the first humans ever to reach the Amazon region, arriving before it was covered in rain forest. Many of the larger animals appear to be surrounded by men with their hands raised in the air, and it is suspected the animals were being worshipped.\n\nOther scientists, however, have expressed doubts regarding the age of the paintings. Since the images are extremely well-preserved, these critics believe it is likely they were painted centuries rather than millennia ago. Furthermore, since the images lack detail, the scientists argue that they might represent creatures brought to the Americas by Europeans."
+          "script": "Art in the Amazon\n\nAn enormous collection of primitive paintings discovered in the Amazon jungle is causing debate among scientists. Thousands of images have been discovered on rock walls, and the team of researchers who discovered them believe that they include representations of extinct creatures that disappeared after the Ice Age ended. If so, the artists may have been the first humans ever to reach the Amazon region, arriving before it was covered in rain forest. Many of the larger animals appear to be surrounded by men with their hands raised in the air, and it is suspected the animals were being worshipped.\n\nOther scientists, however, have expressed doubts regarding the age of the paintings. Since the images are extremely well-preserved, these critics believe it is likely they were painted centuries rather than millennia ago. Furthermore, since the images lack detail, the scientists argue that they might represent creatures brought to the Americas by Europeans.",
+          "scriptJa": "アマゾンの芸術\n\nアマゾンのジャングルで発見された膨大な数の原始的な絵画が、科学者の間で論争を引き起こしている。何千もの像が石の壁で発見され、それらを発見した研究者のチームは氷河時代が終わった後に消滅した絶滅生物の描写が含まれていると考えている。もしそうならば、描いた人たちは、アマゾン地域に最初に到達した人類で、そこが熱帯雨林で覆われる前に着いたのかもしれない。たくさんの大型動物が、両手を宙に上げた人間に囲まれているように見えるので、動物があがめられていたと考えられている。\n\nその一方で、他の科学者たちは絵画の年代について疑問を呈している。像の保存状態が極めてよいので、批判をしている人たちは、それらは数千年前ではなく、数百年前に描かれた可能性が高いと考えている。さらに、像には細部が欠けていることから、それらはヨーロッパの人たちによって南北アメリカに持ち込まれた生物を描いたものかもしれないと科学者たちは主張している。"
         },
         {
           "id": "q18",
@@ -319,7 +324,8 @@
           ],
           "answer": "4",
           "explanation": "第2段第2文で「批判をしている人たちは、それらは数千年前ではなく、数百年前に描かれた可能性が高いと考えている」と述べられている。したがって、4「それらは数千年前のものではない」が正解。2については、ヨーロッパ人が絵を描いたとは述べていない。",
-          "script": ""
+          "script": "",
+          "scriptJa": ""
         },
         {
           "id": "q19",
@@ -336,7 +342,8 @@
           ],
           "answer": "4",
           "explanation": "第1段最終文の後半で「その番組が信じられないほど大成功し、テレビ所有者数を大幅に増加させる推進力になった」とある。テレビ所有者数の大幅な増加とは、たくさんの人がテレビを買ったことを意味しているので、4「多くの人々にテレビを買う気にさせた」が正解。",
-          "script": "Milton Berle\n\nMilton Berle was one of America's most famous comedians. He was successful on stage and in films, and in the 1940s, he began hosting one of the world's first television programs. Berle's variety show was known for its silly comedy and wide range of guest performers. Televisions were rare luxury items when it began, but the program was such an incredible hit that it became a driving reason behind the huge increase in TV ownership.\n\nAs well as his pioneering work as an entertainer, Berle also fought for civil rights, famously helping to break down barriers against Black performers appearing on TV. When an advertiser tried to prevent a Black dance group from appearing on his show, Berle refused to perform until the advertiser gave in and the dancers were allowed on. Berle also set a record for appearing in more charity performances than any other performer."
+          "script": "Milton Berle\n\nMilton Berle was one of America's most famous comedians. He was successful on stage and in films, and in the 1940s, he began hosting one of the world's first television programs. Berle's variety show was known for its silly comedy and wide range of guest performers. Televisions were rare luxury items when it began, but the program was such an incredible hit that it became a driving reason behind the huge increase in TV ownership.\n\nAs well as his pioneering work as an entertainer, Berle also fought for civil rights, famously helping to break down barriers against Black performers appearing on TV. When an advertiser tried to prevent a Black dance group from appearing on his show, Berle refused to perform until the advertiser gave in and the dancers were allowed on. Berle also set a record for appearing in more charity performances than any other performer.",
+          "scriptJa": "ミルトン・バール\n\nミルトン・バールはアメリカで最も有名なコメディアンの一人だった。彼は舞台や映画で成功し、1940年代には世界初のテレビ番組の1つで司会を始めた。バールのバラエティショーは、ばかばかしいコメディと幅広いゲスト出演者で知られていた。テレビはそれが始まった頃には珍しいぜいたく品だったが、その番組が信じられないほど大成功し、テレビ所有者数を大幅に増加させる推進力になった。\n\nエンターテイナーとしての先駆的な仕事に加えて、バールは公民権のためにも闘い、よく知られているように、黒人のテレビ出演に反対する壁を取り除くのを助けた。広告主が黒人のダンスグループが彼のショーに出るのを阻止しようとした時には、広告主がダンサーたちの出演が許されるまで、バールは出演を拒否した。バールはまた、他のどの役者よりも多くの慈善興行に出演した記録も作った。"
         },
         {
           "id": "q20",
@@ -353,7 +360,8 @@
           ],
           "answer": "2",
           "explanation": "第2段第1文で「バールはよく知られているように、黒人のテレビ出演に反対する壁を取り除くのを助けた」とあり、直後の文では黒人に差別的な広告主と闘ったことが述べられている。よって、2「テレビ業界における人種差別と闘ったこと」が正解。",
-          "script": ""
+          "script": "",
+          "scriptJa": ""
         },
         {
           "id": "q21",
@@ -370,7 +378,8 @@
           ],
           "answer": "1",
           "explanation": "第1段最終文に「人は年をとるにつれてそれを経験することが減る」とあり、この内容を言い換えた1「それは人々が若いときにより頻繁に起こる」が正解。",
-          "script": "Déjà Vu\n\nThe term \"déjà vu\" refers to a person's feeling that they have already experienced the situation they are currently in. While causes for déjà vu have been proposed since the nineteenth century, little research was done on it until the 2000s, when the scientist Alan Brown studied the phenomenon. He found that people experience it less as they age and that it is usually triggered by a location or setting.\n\nMore recently, researchers used virtual reality to study déjà vu. They had subjects enter virtual environments, such as bowling alleys or subway stations. Some of these spaces were laid out similarly—for example, pieces of furniture with similar shapes but different appearances were arranged in the same positions. The researchers found subjects were more likely to feel déjà vu when entering new spaces that were organized like spaces they had previously entered. Still, they say this is likely just one of many factors that cause déjà vu."
+          "script": "Déjà Vu\n\nThe term \"déjà vu\" refers to a person's feeling that they have already experienced the situation they are currently in. While causes for déjà vu have been proposed since the nineteenth century, little research was done on it until the 2000s, when the scientist Alan Brown studied the phenomenon. He found that people experience it less as they age and that it is usually triggered by a location or setting.\n\nMore recently, researchers used virtual reality to study déjà vu. They had subjects enter virtual environments, such as bowling alleys or subway stations. Some of these spaces were laid out similarly—for example, pieces of furniture with similar shapes but different appearances were arranged in the same positions. The researchers found subjects were more likely to feel déjà vu when entering new spaces that were organized like spaces they had previously entered. Still, they say this is likely just one of many factors that cause déjà vu.",
+          "scriptJa": "デジャヴュ\n\n「デジャヴュ」という語は、現在置かれている状況をすでに経験したことがあるという感覚のことを指す。デジャヴュの原因は19世紀から提唱されてきたが、2000年代に科学者アラン・ブラウンがこの現象を研究するまでほとんど研究がなされていなかった。彼は、人は年をとるにつれてそれを経験することが減ること、たいていの場合、場所や設定によって引き起こされることを見つけた。\n\nさらに最近になって、研究者たちはデジャヴュを研究するためにバーチャルリアリティを使った。彼らは被験者に、ボウリング場や地下鉄駅などの仮想環境に入ってもらった。これらのうちのいくつかは似たようにレイアウトされていた——例えば、似たような形だが外観の異なる数点の家具が同じ場所に配置された。研究者たちは、前に入ったことがある空間と同じような構成の新しい空間に入ると、被験者がデジャヴュを感じる可能性が高いことを発見した。しかし、彼らは、おそらくこれはデジャヴュを引き起こす多くの要因のうちの1つにすぎないだろうと述べている。"
         },
         {
           "id": "q22",
@@ -387,7 +396,8 @@
           ],
           "answer": "4",
           "explanation": "第2段第4文で「前に入ったことがある空間と同じように構成されている新しい空間に入ると、被験者がデジャヴュを感じる可能性が高い」とある。これらの情報から、4「なじみのあるレイアウトの空間に入ること」が正解。2については、家具について述べた第3文の内容に合致しない。",
-          "script": ""
+          "script": "",
+          "scriptJa": ""
         },
         {
           "id": "q23",
@@ -404,7 +414,8 @@
           ],
           "answer": "2",
           "explanation": "第1段第4文の後半で「細長い先端はほとんどの種類の甲冑を貫通することができた」と述べられているから、2「甲冑に対して有効だった」が正解。放送文のpass through most kinds of armorは選択肢ではeffective against armorに言い換えられている。",
-          "script": "The English Longbow\n\nDuring medieval times, one of the deadliest weapons used by English armies was the longbow. About two meters in length, this powerful weapon allowed an archer to fire extremely rapidly, shooting up to six arrows per minute. A variety of arrows were used, such as the bodkin and the broadhead. The bodkin arrow was the most common, and its narrow tip could pass through most kinds of armor. The larger broadheads, on the other hand, caused more-devastating wounds to lightly armored enemies.\n\nThough highly effective, the longbow required years of practice to master. Since it was an essential tool for English armies, King Henry VIII even passed a law requiring that all healthy males train regularly in its use. Examinations of the skeletons of longbowmen have found that this training actually altered them physically. Bones in their arms became thickened, and their spines became twisted through constant use of the bow."
+          "script": "The English Longbow\n\nDuring medieval times, one of the deadliest weapons used by English armies was the longbow. About two meters in length, this powerful weapon allowed an archer to fire extremely rapidly, shooting up to six arrows per minute. A variety of arrows were used, such as the bodkin and the broadhead. The bodkin arrow was the most common, and its narrow tip could pass through most kinds of armor. The larger broadheads, on the other hand, caused more-devastating wounds to lightly armored enemies.\n\nThough highly effective, the longbow required years of practice to master. Since it was an essential tool for English armies, King Henry VIII even passed a law requiring that all healthy males train regularly in its use. Examinations of the skeletons of longbowmen have found that this training actually altered them physically. Bones in their arms became thickened, and their spines became twisted through constant use of the bow.",
+          "scriptJa": "イングランドのロングボウ\n\n中世において、イングランド軍が用いた最も殺傷能力の高い武器の1つはロングボウだった。長さ約2メートルのこの強力な武器を使うと射手は極めて速く発射することができ、1分間に6本の矢まで放つことが可能だった。ボドキンやブロードヘッドなどのさまざまな種類の矢が用いられた。ボドキン矢は最も一般的で、その細長い先端はほとんどの種類の甲冑を貫通することができた。一方、それより大きいブロードヘッドは軽装甲の敵により大きな傷を負わせた。\n\n極めて効果的だったが、ロングボウは習得するのに何年間も練習する必要があった。イングランド軍にとって必須の道具であったため、ヘンリー8世は健康な男性全員が定期的にその使い方を訓練することを求める法律を作った。ロングボウの射手の骸骨を調査した結果、実際にこの訓練によって肉体的な変化があったことがわかった。彼らの腕の骨は太くなり、その弓を使い続けたことで背骨は曲がってしまった。"
         },
         {
           "id": "q24",
@@ -421,7 +432,8 @@
           ],
           "answer": "1",
           "explanation": "第2段第2文で「ヘンリー8世は健康な男性全員が定期的にその使い方を訓練することを求める法律を作った」と述べられている。よって、1「彼は男性にロングボウを使う練習をさせた」が正解。「男性」が放送文ではmalesで、選択肢ではmenに言い換えられている。",
-          "script": ""
+          "script": "",
+          "scriptJa": ""
         }
       ]
     },
@@ -447,7 +459,8 @@
           ],
           "answer": "2",
           "explanation": "出張とハイキングの両方で使用できるかばんを聞き取る。デインジャーフィールドは「屋外の活動に最適」で「オフィスでも十分に通用する外観」と述べられるから、2「デインジャーフィールド」が適切。1は長時間歩くのに向かない。3は仕事に向かない。4はハイキングに向かない。",
-          "script": "OK, the Western is an all-leather backpack. It converts to a briefcase, so it's great for business environments. It's a bit heavy, though, so I wouldn't use it on long walks. The Dangerfield is a waxed canvas backpack that's water-resistant, so it's great for outdoor activities. It's also handsome enough for the office. The Spartan is also made of waxed canvas. It's very functional but a bit too sporty for professional contexts. The Winfield is a similar bag, but it's made of water-resistant leather. The thin strap can make it uncomfortable to carry for extended periods of time, though."
+          "script": "OK, the Western is an all-leather backpack. It converts to a briefcase, so it's great for business environments. It's a bit heavy, though, so I wouldn't use it on long walks. The Dangerfield is a waxed canvas backpack that's water-resistant, so it's great for outdoor activities. It's also handsome enough for the office. The Spartan is also made of waxed canvas. It's very functional but a bit too sporty for professional contexts. The Winfield is a similar bag, but it's made of water-resistant leather. The thin strap can make it uncomfortable to carry for extended periods of time, though.",
+          "scriptJa": ""
         },
         {
           "id": "q26",
@@ -464,7 +477,8 @@
           ],
           "answer": "2",
           "explanation": "「16日間」「最適価格」「車の損傷を避けたい」という条件で判断する。1は最長1週間までなので不適。3は巡回なしで安全面の条件に合わない。4は安全だが1日19ドルで空港から少し遠い。2は1日17ドルで空港に近く屋根付きで警備巡回もあるので、2「バニエ・プラザホテル」が適切。",
-          "script": "Nearest to the airport are SKM Budget Parking and the Vanier Plaza Hotel. They both offer covered parking lots that feature security patrols. SKM Budget Parking is the better deal at $13 per day. It only offers short-term parking, though, for up to a week max. If your trip is longer than that, you could pay a $17 rate at the Vanier Plaza Hotel. If an open, non-patrolled parking lot is acceptable, then Nelson Street Skypark offers parking for $9 per day. Another option would be the Econolodge, which is $19 per day. It's indoors and quite safe, though it's a little far."
+          "script": "Nearest to the airport are SKM Budget Parking and the Vanier Plaza Hotel. They both offer covered parking lots that feature security patrols. SKM Budget Parking is the better deal at $13 per day. It only offers short-term parking, though, for up to a week max. If your trip is longer than that, you could pay a $17 rate at the Vanier Plaza Hotel. If an open, non-patrolled parking lot is acceptable, then Nelson Street Skypark offers parking for $9 per day. Another option would be the Econolodge, which is $19 per day. It's indoors and quite safe, though it's a little far.",
+          "scriptJa": ""
         },
         {
           "id": "q27",
@@ -481,7 +495,8 @@
           ],
           "answer": "3",
           "explanation": "「青いランプが点滅している」ことが条件。青いランプはオーバーヒートの可能性を示し、パネルを開けることで冷却速度を上げられるが、「装置に触れる前に、必ずエアコンのプラグを抜く」よう注意される。したがって、3「エアコンの電源を切る」が正解。「プラグを抜く」が放送文ではunplugで、選択肢ではdisconnectに言い換えられている。",
-          "script": "Please look at the display. If the green light is blinking, this means it needs to be cleaned. To do this, simply remove the filter and clean it carefully. You can find a tutorial video on our website. If the blue light is flashing, the air conditioner may be overheating. In such a case, you can speed up cooling by leaving the panel open. Be sure to unplug the air conditioner before touching the unit. If this does not solve the problem, and you would like to schedule a service call by a technician, press 1."
+          "script": "Please look at the display. If the green light is blinking, this means it needs to be cleaned. To do this, simply remove the filter and clean it carefully. You can find a tutorial video on our website. If the blue light is flashing, the air conditioner may be overheating. In such a case, you can speed up cooling by leaving the panel open. Be sure to unplug the air conditioner before touching the unit. If this does not solve the problem, and you would like to schedule a service call by a technician, press 1.",
+          "scriptJa": ""
         },
         {
           "id": "q28",
@@ -498,7 +513,8 @@
           ],
           "answer": "3",
           "explanation": "「遺伝学に興味がある」ということが条件。7月号は物理学の概説で不適。8月号は遺伝学だが絶版で不適。10月号も遺伝学の研究が中心と述べられるので、3「10月号」が正解。11月号は地質学の特集で不適。",
-          "script": "I understand you've only read the September issue. I'll explain the others briefly. The July issue has an overview of the latest advancements in physics, centering on last year's breakthrough in the field of particle physics. The next issue focuses on recent genetic discoveries and various ongoing experiments with DNA and RNA, but unfortunately, this one is out of print. The October issue is also centered around research in genetics, especially its potential medical applications. Finally, if you'd like to deepen your understanding of modern geology, the November issue would be perfect. It thoroughly explains the current mainstream theories on volcano formation."
+          "script": "I understand you've only read the September issue. I'll explain the others briefly. The July issue has an overview of the latest advancements in physics, centering on last year's breakthrough in the field of particle physics. The next issue focuses on recent genetic discoveries and various ongoing experiments with DNA and RNA, but unfortunately, this one is out of print. The October issue is also centered around research in genetics, especially its potential medical applications. Finally, if you'd like to deepen your understanding of modern geology, the November issue would be perfect. It thoroughly explains the current mainstream theories on volcano formation.",
+          "scriptJa": ""
         },
         {
           "id": "q29",
@@ -515,7 +531,8 @@
           ],
           "answer": "1",
           "explanation": "「ツナ5缶を5月30日に購入」「1つも食べていない」が条件。24缶入りの箱を1つ以上持っている場合の指示（ウェブサイト・集荷）には該当しない。1箱に満たない客は購入した店で交換または返品が可能とあるので、1「買った店へ缶詰を持って行く」が正解。2はツナを食べた客が対象なので不適。",
-          "script": "Bentham Foods is recalling all cans of its tuna sold from May 15 to July 1 because of suspected health risks. Customers who have consumed tuna from these cans are advised to call our recall hotline. For unopened cans, if you have one or more cases of 24 cans, please visit our website for instructions on how to arrange a pickup and a full refund. Customers with less than one case may exchange the cans or return them for a full refund at the store where they were purchased. The cans don't pose any risk while unopened, but please avoid consuming tuna from any cans bought during the affected dates."
+          "script": "Bentham Foods is recalling all cans of its tuna sold from May 15 to July 1 because of suspected health risks. Customers who have consumed tuna from these cans are advised to call our recall hotline. For unopened cans, if you have one or more cases of 24 cans, please visit our website for instructions on how to arrange a pickup and a full refund. Customers with less than one case may exchange the cans or return them for a full refund at the store where they were purchased. The cans don't pose any risk while unopened, but please avoid consuming tuna from any cans bought during the affected dates.",
+          "scriptJa": ""
         }
       ]
     }
