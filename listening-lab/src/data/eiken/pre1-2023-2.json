@@ -40,10 +40,10 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/03_No2.mp3",
           "prompt": "What will the man probably do?",
           "choices": [
-            { "label": "1", "text": "Take private yoga lessons." },
+            { "label": "1", "text": "Take private yoga classes." },
             { "label": "2", "text": "Find a different activity." },
             { "label": "3", "text": "Continue with his current class." },
-            { "label": "4", "text": "Join a different yoga group." }
+            { "label": "4", "text": "Join another yoga group." }
           ],
           "answer": "3",
           "explanation": "男性は最初の発言で「最近、（ヨガに）慣れてきたが、ポーズは少しも楽にならない」と述べている。男性は、2番目の発言では「（他の生徒と自分を比べると）恥ずかしくなる時がある」と述べている。しかし、女性の最後の発言を受けて、最後の発言では「次にクラスで転んだ時には、それを思い出すようにする」と述べていることから、3「現在のクラスを続ける」が適切である。",
@@ -59,7 +59,7 @@
             { "label": "1", "text": "She has some new ideas for the division." },
             { "label": "2", "text": "She knows little about publishing." },
             { "label": "3", "text": "She was an excellent student." },
-            { "label": "4", "text": "She wants to raise staff salaries." }
+            { "label": "4", "text": "She wants to increase staff salaries." }
           ],
           "answer": "1",
           "explanation": "女性の2番目の発言の第2文「彼女はいくつか面白い企画を持っていて、それこそが私たちの部が必要としているものだ」より、1「彼女は部のためにいくつか新しいアイデアを持っている」が正解となる。2は、女性の2番目の発言の第1文に合致しない。",
@@ -74,8 +74,8 @@
           "choices": [
             { "label": "1", "text": "She wants to help a family in need." },
             { "label": "2", "text": "They no longer fit her." },
-            { "label": "3", "text": "There is an event at school." },
-            { "label": "4", "text": "She does not have space to store them." }
+            { "label": "3", "text": "There is an event at her school." },
+            { "label": "4", "text": "She does not have storage space for them." }
           ],
           "answer": "1",
           "explanation": "女性が2番目の発言で「コミュニティセンターで家が火事になった家族のために服を集めている。彼らはすべてを失ってしまった」と述べているから、1「彼女は困っている家族を助けたい」が正解。火事ですべてを失った家族のことを、選択肢ではa family in needと言い換えている。2については、男性が2番目の発言の第2文で「サイズが変わったのではないだろう」と述べたのに対して、女性はNoと答えているので不適切。3については、学校で行事があったのは約1カ月前。4については言及されていない。",
@@ -89,9 +89,9 @@
           "prompt": "What is one thing the man says about the merger?",
           "choices": [
             { "label": "1", "text": "It will help reduce his workload." },
-            { "label": "2", "text": "It will lead to more work with independent agents." },
-            { "label": "3", "text": "It will make the company do better." },
-            { "label": "4", "text": "It will cause a lot of staff to be fired." }
+            { "label": "2", "text": "It will mean more work with independent agents." },
+            { "label": "3", "text": "It will make his company more successful." },
+            { "label": "4", "text": "It will lead to many staff being fired." }
           ],
           "answer": "3",
           "explanation": "男性が2番目の発言の第3文で、「これによって、営業経費は削減され、我々の市場における地位は強化されるだろう」と述べている。よって、3「それによって会社はもっとうまくいく」が正解。4については、職場を去るスタッフについて言及されているが、自発的に職場を去ると述べられているので不適切。",
@@ -104,10 +104,10 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/07_No6.mp3",
           "prompt": "What does the man say about solar panels?",
           "choices": [
-            { "label": "1", "text": "They will become cheaper in the future." },
+            { "label": "1", "text": "They will become less expensive in the future." },
             { "label": "2", "text": "They would not save the couple money." },
-            { "label": "3", "text": "They will need to be replaced in a few years." },
-            { "label": "4", "text": "They would not provide big environmental benefits." }
+            { "label": "3", "text": "They need to be replaced after a few years." },
+            { "label": "4", "text": "They do not have many environmental benefits." }
           ],
           "answer": "2",
           "explanation": "女性が最初の発言で「ソーラーパネルを設置すれば、光熱費の節約になるだろう」と提案すると、男性は最初の発言の第2文で「僕たちに合わないと思う」と述べ、2番目の発言で「投資したお金を取り戻すのに15年程度かかるが、僕たちはこの家にそんなに長く住み続けないだろう」とその理由を説明している。よって、2「それによって夫婦がお金を節約することはないだろう」が適切。4については、男性は最初の発言の第1文で「パネルは環境に優しい」と述べているので不適切。",
@@ -120,10 +120,10 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/08_No7.mp3",
           "prompt": "What does the woman imply?",
           "choices": [
-            { "label": "1", "text": "Miki has not finished her translation work." },
+            { "label": "1", "text": "Miki has not completed her translation work." },
             { "label": "2", "text": "The deadline is likely to be changed." },
-            { "label": "3", "text": "The client has made a lot of mistakes." },
-            { "label": "4", "text": "Miki often does not pay enough attention to her work." }
+            { "label": "3", "text": "The client has made a number of mistakes." },
+            { "label": "4", "text": "Miki often does not work carefully enough." }
           ],
           "answer": "4",
           "explanation": "女性は最後の発言の第2文で「彼女に時間をかけてと頼んでも、ミキはすぐに私に返そうと急ぐ傾向がある」と述べ、男性は「徹底的にチェックする」と応じている。これらのやりとりから、4「ミキは仕事に十分な注意を払わないことが多い」が正解。1については、女性と男性の最初のやりとりから、ミキの翻訳は完了したことがわかるので不適切。2については、締切りの変更がありそうだとは述べていない。",
@@ -136,10 +136,10 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/09_No8.mp3",
           "prompt": "Why is the man worried about their holiday?",
           "choices": [
-            { "label": "1", "text": "He found a lot of complaints online." },
-            { "label": "2", "text": "The cost of the cruise has gone up." },
-            { "label": "3", "text": "He cannot get time off work." },
-            { "label": "4", "text": "He is unable to book a different cruise." }
+            { "label": "1", "text": "He found many online complaints." },
+            { "label": "2", "text": "The cost of the cruise has increased." },
+            { "label": "3", "text": "He cannot get time off from work." },
+            { "label": "4", "text": "He is unable to book another cruise." }
           ],
           "answer": "1",
           "explanation": "男性は最初の発言の第1文で「考え直している」と述べ、続く第2文では「いくつかのウェブサイトでレビューを見ていたら、不満を持った客がたくさんいるようだ」と述べている。よって、1「彼はオンラインでたくさんの不満を見つけた」が正解。2と3については、男性は最後の発言で「予算を少し増やして、もっと評判のいいクルーズを予約してはどうか」と述べているので不適切。4については、女性の最後の発言で「代理店に話してみる」と述べているので不適切。",
@@ -154,8 +154,8 @@
           "choices": [
             { "label": "1", "text": "It has a lot of unique characters." },
             { "label": "2", "text": "The show's writing has improved greatly." },
-            { "label": "3", "text": "The plot was difficult to predict." },
-            { "label": "4", "text": "It might not return for another season." }
+            { "label": "3", "text": "The plot was hard to predict." },
+            { "label": "4", "text": "It may not be renewed for another season." }
           ],
           "answer": "3",
           "explanation": "男性が2番目の発言で裏切り者がわかった場面について女性に感想を求めると、「本当にショックだった。間違いなく工作員ターナーだろうと思ったが…」と女性は答え、男性は「全くだ」と同意している。このやりとりから、2人にとってドラマの展開が予想外だったことが推測できる。したがって、3「筋を予測するのは難しかった」が適切。2については、男性の最後の発言に「脚本はすばらしい」とあるが、「向上した」とは述べていないので不適切。4については、女性の最後の発言に合致しない。",
@@ -200,9 +200,9 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/13_No12.mp3",
           "prompt": "What will the man and woman probably do?",
           "choices": [
-            { "label": "1", "text": "Search for a solution online." },
+            { "label": "1", "text": "Search for solutions online." },
             { "label": "2", "text": "Get help from a professional." },
-            { "label": "3", "text": "Ask a neighbor for advice." },
+            { "label": "3", "text": "Ask their neighbors for advice." },
             { "label": "4", "text": "Move to a quieter neighborhood." }
           ],
           "answer": "2",
@@ -229,7 +229,7 @@
           "choices": [
             { "label": "1", "text": "To improve the quality of their crops." },
             { "label": "2", "text": "To give thanks for the food they grew." },
-            { "label": "3", "text": "To pray for the ability to leave the desert." },
+            { "label": "3", "text": "To pray they could leave the desert." },
             { "label": "4", "text": "To celebrate their time in Egypt." }
           ],
           "answer": "2",
@@ -244,9 +244,9 @@
           "passageLabel": "Passage A",
           "prompt": "What is one thing we learn about modern sukkah buildings?",
           "choices": [
-            { "label": "1", "text": "Their walls have images of the desert." },
-            { "label": "2", "text": "They are covered to stay cool." },
-            { "label": "3", "text": "Meals must be cooked inside them." },
+            { "label": "1", "text": "They have desert images on the walls." },
+            { "label": "2", "text": "They are covered to keep them cool." },
+            { "label": "3", "text": "Meals must be cooked in them." },
             { "label": "4", "text": "People can see the sky from inside them." }
           ],
           "answer": "4",
@@ -261,10 +261,10 @@
           "passageLabel": "Passage B",
           "prompt": "What does the speaker say about disease-causing germs?",
           "choices": [
-            { "label": "1", "text": "Vultures help prevent them from infecting humans." },
+            { "label": "1", "text": "Vultures help stop them from affecting humans." },
             { "label": "2", "text": "Vultures often spread them to other animals." },
-            { "label": "3", "text": "They can cause vultures to die." },
-            { "label": "4", "text": "They survive inside vultures' stomachs." }
+            { "label": "3", "text": "They can be deadly to vultures." },
+            { "label": "4", "text": "They survive in vultures' stomachs." }
           ],
           "answer": "1",
           "explanation": "第1段第3文で「死んだ動物を食べることで、その鳥は病気を引き起こす細菌が水源などの周囲の環境に侵入するのを防いでいる」と述べられている。また、同段最終文では「彼らの強力な胃酸は細菌を殺すことができるので、ハゲワシが病気を人間にうつす可能性は低い」と述べられている。これらの内容から、2・3・4は不適切で、1「ハゲワシはそれらが人間に感染するのを防ぐのに役立っている」が正解となる。",
@@ -279,9 +279,9 @@
           "prompt": "What is suggested about climate change?",
           "choices": [
             { "label": "1", "text": "Vultures' feeding habits help reduce its effects." },
-            { "label": "2", "text": "It is increasing vulture populations worldwide." },
-            { "label": "3", "text": "It is changing vultures' food sources." },
-            { "label": "4", "text": "It is forcing vultures to find new habitats." }
+            { "label": "2", "text": "It has increased vulture populations worldwide." },
+            { "label": "3", "text": "Vultures' food sources have changed because of it." },
+            { "label": "4", "text": "It has forced vultures to find new habitats." }
           ],
           "answer": "1",
           "explanation": "第2段第1・2文で「ハゲワシが動物の死体を食べることで、二酸化炭素やその他の温室効果ガスが放出されるのを防いでいる」と述べられている。したがって、1「ハゲワシの食習慣がその影響を減らすのに役立っている」が正解。放送文のWhen vultures feed「ハゲワシが食べる時」を、選択肢ではVultures' feeding habitsに言い換えている。",
@@ -296,8 +296,8 @@
           "prompt": "What is one thing research found about praising employees?",
           "choices": [
             { "label": "1", "text": "Workers often think they do not deserve praise." },
-            { "label": "2", "text": "Random praise can improve work performance." },
-            { "label": "3", "text": "Too much praise can lead to worse performance." },
+            { "label": "2", "text": "Random praise can improve performance." },
+            { "label": "3", "text": "Too much praise can hurt performance." },
             { "label": "4", "text": "Most bosses do not give enough praise." }
           ],
           "answer": "2",
@@ -314,8 +314,8 @@
           "choices": [
             { "label": "1", "text": "They tend to react negatively to praise." },
             { "label": "2", "text": "They worry too much about their work." },
-            { "label": "3", "text": "Having a growth mindset could benefit them." },
-            { "label": "4", "text": "They influence the mindsets of workers around them." }
+            { "label": "3", "text": "They may benefit from having a growth mindset." },
+            { "label": "4", "text": "They affect the mindsets of workers around them." }
           ],
           "answer": "3",
           "explanation": "第2段最終文で「『結果』ではなく『努力』をほめることは好影響を与える可能性があるようだ」という内容が述べられている。otherwiseは「もしそうでなければ」の意味で、「成長思考でなければ仕事に不満を感じるであろう、不幸な従業員」の意。つまり、成長思考であれば仕事に不満を感じることはないということであり、よって、3「成長思考を持つことは彼らのためになるかもしれない」が正解。",
@@ -329,10 +329,10 @@
           "passageLabel": "Passage D",
           "prompt": "Why did British leaders reject the original plan?",
           "choices": [
-            { "label": "1", "text": "They thought the invasion would not happen." },
-            { "label": "2", "text": "They were worried the art would be destroyed." },
+            { "label": "1", "text": "They believed an invasion would not happen." },
+            { "label": "2", "text": "They worried that the art would be destroyed." },
             { "label": "3", "text": "They thought Canada was likely to be invaded." },
-            { "label": "4", "text": "They feared the Germans would be able to steal the art." }
+            { "label": "4", "text": "They feared Germans would be able to steal the art." }
           ],
           "answer": "2",
           "explanation": "第1段第3文で「当初、それらをカナダへ船で運ぶことが提案されたが、イギリスの指導者たちは、何千もの船を沈めているドイツの潜水艦の脅威を心配していた」と述べられているので、イギリスの指導者たちは絵画を運んでいる船が潜水艦によって沈められることを懸念したことがわかる。よって、2「美術品が破壊されることを心配したから」が正解。",
@@ -347,9 +347,9 @@
           "prompt": "What was learned from the experience at Manod?",
           "choices": [
             { "label": "1", "text": "The importance of art during wartime." },
-            { "label": "2", "text": "How to build large mines." },
-            { "label": "3", "text": "The effects of cold temperatures on paintings." },
-            { "label": "4", "text": "How to store art in good condition." }
+            { "label": "2", "text": "A way to create larger mines." },
+            { "label": "3", "text": "The effects of low temperatures on paintings." },
+            { "label": "4", "text": "Ways of keeping art in good condition." }
           ],
           "answer": "4",
           "explanation": "第2段最終文で「マノドでのプロジェクトのおかげで、美術品の保存について多くのことがわかった」と述べられている。よって、4「よい状態で美術品を保管する方法」が正解。3については、同段第2文で「湿気と低温が絵画にダメージを与える懸念があったので、空調管理された構造物が坑道内に建てられた」とあるが、低温の影響について学んだとは述べられていないので不適切。",
@@ -364,9 +364,9 @@
           "prompt": "What was the purpose of Sybil Ludington's ride?",
           "choices": [
             { "label": "1", "text": "To help warn about an attack." },
-            { "label": "2", "text": "To locate British soldiers." },
+            { "label": "2", "text": "To check the location of British soldiers." },
             { "label": "3", "text": "To gather supplies for the American troops." },
-            { "label": "4", "text": "To keep her father safe from danger." }
+            { "label": "4", "text": "To lead her father away from danger." }
           ],
           "answer": "1",
           "explanation": "第1段第2文で「使者は来たるイギリスの攻撃について警告したが、ルディントンの兵士たちは地域周辺に散らばっていた」と述べられ、同段第3・4文で「指揮官の娘シビルは、彼らへの通報を買って出た」こと、「彼女は65キロ以上馬を走らせた」ことが述べられている。第3文のalert themのthemは、第2文のLudington's soldiersを指している。これらの内容から、1「攻撃について警告するのを手伝うため」が正解。",
@@ -380,8 +380,8 @@
           "passageLabel": "Passage E",
           "prompt": "What is one reason some historians doubt Sybil's ride?",
           "choices": [
-            { "label": "1", "text": "There is evidence that another woman rode that night." },
-            { "label": "2", "text": "There is no record of an attack by the British." },
+            { "label": "1", "text": "There is evidence a different woman rode that night." },
+            { "label": "2", "text": "There are no records of an attack by the British army." },
             { "label": "3", "text": "It was not officially documented." },
             { "label": "4", "text": "A history book claims it did not happen." }
           ],
@@ -397,9 +397,9 @@
           "passageLabel": "Passage F",
           "prompt": "What does the speaker say about many ski resorts in the 1950s?",
           "choices": [
-            { "label": "1", "text": "They were forced to move to more populated areas." },
-            { "label": "2", "text": "They had to close due to dissatisfied customers." },
-            { "label": "3", "text": "They did not have enough snow." },
+            { "label": "1", "text": "They had to relocate to more-populated areas." },
+            { "label": "2", "text": "They had to close due to unhappy customers." },
+            { "label": "3", "text": "They were not receiving enough snow." },
             { "label": "4", "text": "They were opposed to using artificial snow." }
           ],
           "answer": "3",
@@ -415,9 +415,9 @@
           "prompt": "What is true about Banff Sunshine Village?",
           "choices": [
             { "label": "1", "text": "The use of artificial snow has hurt its business." },
-            { "label": "2", "text": "It makes use of wind to help its operations." },
-            { "label": "3", "text": "It provides snow to other ski resorts in the local area." },
-            { "label": "4", "text": "Its slopes are located at very high altitudes." }
+            { "label": "2", "text": "It makes use of the wind to help it operate." },
+            { "label": "3", "text": "It provides snow to other ski resorts in its local area." },
+            { "label": "4", "text": "Its slopes are at unusually high altitudes." }
           ],
           "answer": "2",
           "explanation": "第2段第3文で「そのリゾート地では、風が強い環境を利用し、高所にフェンスを建てて、周囲の山々から吹き込む雪を受け止めている」と述べられている。よって、2「運営に役立てるために風を利用している」が正解。「〜を利用する」という表現に、放送文ではtake advantage of 〜を、選択肢ではmake use of 〜を用いている。1については、人工雪のマイナス点について触れているが、バンフ・サンシャイン・ビレッジの事業に悪影響を及ぼしているとは述べられていない。3については、他のスキーリゾート地へ提供しているとは述べられていない。4については、「フェンスが高所に建てられている」ことがわかるが、ゲレンデが高所にあるとは述べていない。",
@@ -458,7 +458,7 @@
           "promptJa": "あなたは500枚ある音楽CDのコレクションのうち半分を売ることに決めた。中古CDを売買する店に電話をして、次のような録音メッセージを聞く。",
           "choices": [
             { "label": "1", "text": "Start the sales procedure online." },
-            { "label": "2", "text": "Start packing the CDs into boxes." },
+            { "label": "2", "text": "Begin packing your CDs into boxes." },
             { "label": "3", "text": "Download a form from the website." },
             { "label": "4", "text": "Make an appointment for an assessment." }
           ],
