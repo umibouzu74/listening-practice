@@ -4,13 +4,13 @@ const GITHUB_PAGES_BASE = `https://${GITHUB_USER}.github.io`;
 const EXAM_TYPES = {
   eiken: {
     id: "eiken",
-    label: "英検",
+    label: "英検準1級",
     icon: "🏅",
     color: "#3498db",
-    description: "英検 リスニング演習",
+    description: "英検準1級 リスニング演習",
     groupBy: "grade",
     sortOrder: "desc",
-    grades: { pre1: "準1級", "2": "2級" },
+    grades: { pre1: "準1級" },
   },
   kyotsu: {
     id: "kyotsu",
