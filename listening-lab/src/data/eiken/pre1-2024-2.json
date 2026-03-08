@@ -63,7 +63,8 @@
           ],
           "answer": "1",
           "explanation": "この会話では夫婦が巣立った子どもたちの部屋の使い方について話しているが、妻は娘のマヤが家に戻ってくる可能性があると述べている。よって、1「彼女は家に戻るかもしれない」が正解。",
-          "script": "M: Now that the kids have moved out, we should make better use of their rooms.\nW: We can change Jason's room for sure, but I have a feeling Maya won't like living so far away, so she might be back.\nM: Do you think so? We should leave her room as it is, then?\nW: I think that would be best. We could put a desk into Jason's room, though. That way, you wouldn't have to work on the kitchen table every night."
+          "script": "M: Now that the kids have moved out, we should make better use of their rooms.\nW: We can change Jason's room for sure, but I have a feeling Maya won't like living so far away, so she might be back.\nM: Do you think so? We should leave her room as it is, then?\nW: I think that would be best. We could put a desk into Jason's room, though. That way, you wouldn't have to work on the kitchen table every night.",
+          "scriptJa": "M: 子どもたちは引っ越して出て行ったんだから、彼らの部屋をもっと有効活用するべきだよ。\nW: 確かにジェイソンの部屋は変えられるけど、マヤは遠くに住むのを嫌がるだろうから戻ってくる気がするわ。\nM: そう思う？ それなら彼女の部屋はそのままにしたほうがいいかな？\nW: それが一番いいと思う。でもジェイソンの部屋に机を置けるわ。そうすれば毎晩キッチンのテーブルで仕事をしなくて済むわよ。"
         },
         {
           "id": "q4",
@@ -78,7 +79,8 @@
           ],
           "answer": "4",
           "explanation": "男性がチームリーダーの役職への応募を勧め、再度男性が勧めたことで、女性は考慮してみると返答している。よって、4「その役職に応募することを考える」が正解。",
-          "script": "M: Did you see the job posting for the team leader position?\nW: No. I haven't been checking the job postings.\nM: I think you'd make a great team leader. It would be more responsibility, but you've shown a lot of leadership in the past few months.\nW: I suppose I might be good at it. But I don't feel like I've been here long enough to move into a role where I'm managing others.\nM: You should still apply.\nW: Well, it's certainly something I'll consider."
+          "script": "M: Did you see the job posting for the team leader position?\nW: No. I haven't been checking the job postings.\nM: I think you'd make a great team leader. It would be more responsibility, but you've shown a lot of leadership in the past few months.\nW: I suppose I might be good at it. But I don't feel like I've been here long enough to move into a role where I'm managing others.\nM: You should still apply.\nW: Well, it's certainly something I'll consider.",
+          "scriptJa": "M: チームリーダーの募集公示を見た？\nW: いいえ、その募集公示はチェックしていなかったわ。\nM: 君は素晴らしいチームリーダーになれると思うよ。責任は増えるけど、ここ数カ月で何度もリーダーシップを発揮してきたからね。\nW: もしかしたら向いているのかもしれないわね。でも、他人を管理するような役職に移れるほど、ここで長く働いているようには思えないわ。\nM: それでも応募したほうがいいよ。\nW: まあ、確かに考えてみる必要があるわね。"
         },
         {
           "id": "q5",
@@ -93,7 +95,8 @@
           ],
           "answer": "3",
           "explanation": "会話後半で男性は、引っ越し先の新しい敷地には養蜂のための場所がなかったと言っている。したがって、3「彼にはそのための場所がなかった」が正解。",
-          "script": "W: Thanks for bringing me to the nature center. I loved the demonstration about bees and their hives.\nM: You know, I used to have my own hives. It was a fairly expensive hobby, but all of that delicious honey was worth it!\nW: Why don't you do it anymore? Did you develop an allergy? That happened to my sister.\nM: No, when I moved houses, there wasn't enough space on the property. I sold all of my equipment to another beekeeper.\nW: Too bad. Sounds like you enjoyed it."
+          "script": "W: Thanks for bringing me to the nature center. I loved the demonstration about bees and their hives.\nM: You know, I used to have my own hives. It was a fairly expensive hobby, but all of that delicious honey was worth it!\nW: Why don't you do it anymore? Did you develop an allergy? That happened to my sister.\nM: No, when I moved houses, there wasn't enough space on the property. I sold all of my equipment to another beekeeper.\nW: Too bad. Sounds like you enjoyed it.",
+          "scriptJa": "W: 自然センターに連れてきてくれてありがとう。ミツバチと巣箱の実演はとても気に入ったわ。\nM: 実は、僕は以前自分で巣箱を所有していたんだ。かなりお金のかかる趣味だったけど、あのおいしいハチミツには何から何までそれだけの価値があったよ。\nW: どうしてもうやらないの？ アレルギーを発症した？ 私の妹がそうだったの。\nM: いや、家を引っ越したとき、敷地内に十分な場所がなかったんだ。備品はすべて他の養蜂家に売ったよ。\nW: 残念だったわね。気に入っていたようなのに。"
         },
         {
           "id": "q6",
@@ -108,7 +111,8 @@
           ],
           "answer": "1",
           "explanation": "男性の2番目の発言で、母親が怪我することなどを懸念して介護施設への入居を暗にほのめかしている。よって、1「母親は一人で住むべきではない」が正解。",
-          "script": "M: Mom, have you ever considered moving to an assisted-living facility?\nW: You mean a retirement home? I like living here. Besides, it'd be expensive.\nM: We could afford it if you sold this place. I just think being on your own is going to get harder and harder. What if you fell down and hurt yourself?\nW: There are plenty of people I could call for help.\nM: I guess so, but I'm worried about you, Mom.\nW: I understand. Let me think about it."
+          "script": "M: Mom, have you ever considered moving to an assisted-living facility?\nW: You mean a retirement home? I like living here. Besides, it'd be expensive.\nM: We could afford it if you sold this place. I just think being on your own is going to get harder and harder. What if you fell down and hurt yourself?\nW: There are plenty of people I could call for help.\nM: I guess so, but I'm worried about you, Mom.\nW: I understand. Let me think about it.",
+          "scriptJa": "M: 母さん、介護施設への入居を考えたことはある？\nW: 老人ホームのことかしら？ ここでの生活は気に入っているわ。それにお金もかかるし。\nM: この場所を売ればなんとかなるさ。僕はただ、一人暮らしをするのがどんどん難しくなると思うんだ。もし転んで怪我したらどうするの？\nW: 助けを呼べる人は何人もいるわよ。\nM: そうだろうけど心配だよ、母さん。\nW: わかったわ。考えさせて。"
         },
         {
           "id": "q7",
@@ -123,7 +127,8 @@
           ],
           "answer": "1",
           "explanation": "会話全体を通して女性は男性に荷造りを早く始めるよう促している。「慌てるからパジャマとか忘れるんじゃない」というセリフから、前もってしっかりと準備を整え、忘れ物をしないようにしてほしいと考えていることがわかる。したがって、1「より入念に旅行の準備をする」が正解。",
-          "script": "W: OK, my suitcase is ready to go. Have you started packing yet?\nM: No. It'll only take a few minutes. I'll do it before we leave in the morning.\nW: Why don't you start now? You always throw your clothes in your suitcase, and they get wrinkled. And then you forget things like pajamas because you're in such a hurry.\nM: Well, you sometimes leave important things behind, too.\nW: Hardly ever! I make up a list of things to take and check them off so I know I have everything."
+          "script": "W: OK, my suitcase is ready to go. Have you started packing yet?\nM: No. It'll only take a few minutes. I'll do it before we leave in the morning.\nW: Why don't you start now? You always throw your clothes in your suitcase, and they get wrinkled. And then you forget things like pajamas because you're in such a hurry.\nM: Well, you sometimes leave important things behind, too.\nW: Hardly ever! I make up a list of things to take and check them off so I know I have everything.",
+          "scriptJa": "W: よし、スーツケースは準備できた。もう荷造り始めた？\nM: いや、ほんの数分しかかからないから。朝出発前にやることにするよ。\nW: 今始めたらどう？ いつもスーツケースに服を放り込んで、しわになるじゃない。それにそんなに慌てるから、パジャマとか忘れるんじゃない。\nM: でも君だって時々大事なものを忘れるよね。\nW: めったにないわよ！ 私は持っていくもののリストを作って、全部揃っていることがわかるようにチェックマークをつけているのよ。"
         },
         {
           "id": "q8",
@@ -138,7 +143,8 @@
           ],
           "answer": "3",
           "explanation": "男性の不満が表れているのは「研究発表をする日に講演者が追加されて、僕の講演が短縮された」という発言である。その後も研修生が作成したスライドを見せられなかったことへの不満が述べられていることから、3「研究の全てを発表できなかったから」が正解。",
-          "script": "W: Hi, how did things go at your conference?\nM: Not great.\nW: Was it poorly attended?\nM: Not at all, but they added more speakers on the day I was presenting my research, so my talk was cut short.\nW: That's too bad. I know you put a lot of work into it. Did you take the intern with you, too?\nM: Yes. She helped with the data analysis for the slides, but those all had to be cut.\nW: Well, it wasn't your fault. I hope things go better next time!"
+          "script": "W: Hi, how did things go at your conference?\nM: Not great.\nW: Was it poorly attended?\nM: Not at all, but they added more speakers on the day I was presenting my research, so my talk was cut short.\nW: That's too bad. I know you put a lot of work into it. Did you take the intern with you, too?\nM: Yes. She helped with the data analysis for the slides, but those all had to be cut.\nW: Well, it wasn't your fault. I hope things go better next time!",
+          "scriptJa": "W: こんにちは、学会はどうだった？\nM: あまり良くなかったよ。\nW: 参加者が少なかったの？\nM: いや全くそんなことはないんだけど、ただ研究発表をする日に講演者が追加されて、僕の講演が短縮されたんだ。\nW: それは残念ね。一生懸命取り組んでいたものね。研修生も連れて行ったの？\nM: うん。彼女はスライドのデータ分析を手伝ってくれたけど、全部カットしなければいけなかったよ。\nW: まあ、あなたのせいじゃないわ。次は上手くいくといいわね！"
         },
         {
           "id": "q9",
@@ -153,7 +159,8 @@
           ],
           "answer": "2",
           "explanation": "男性客の同席者たちがあと20分は来ないことから、しばらく待つ必要のある屋内テーブルを選んだ。女性店員が男性客にバーの席で待機してよいことを伝え、男性がそれに同意していることから、2「バーの席に座る」が正解。",
-          "script": "M: Good evening. I'd like a table for four.\nW: Certainly, sir. We'll have an indoor table available in around thirty minutes. If you'd prefer a table on the patio, I can seat you immediately.\nM: Well, the rest of my party won't be here for another twenty minutes, so I don't mind waiting.\nW: Excellent. You can have a seat at the bar in the meantime if you'd like. I'll let you know when your table is ready.\nM: Thank you, that sounds great."
+          "script": "M: Good evening. I'd like a table for four.\nW: Certainly, sir. We'll have an indoor table available in around thirty minutes. If you'd prefer a table on the patio, I can seat you immediately.\nM: Well, the rest of my party won't be here for another twenty minutes, so I don't mind waiting.\nW: Excellent. You can have a seat at the bar in the meantime if you'd like. I'll let you know when your table is ready.\nM: Thank you, that sounds great.",
+          "scriptJa": "M: こんばんは。4人掛けのテーブルをお願いします。\nW: かしこまりました。30分ほどで屋内のテーブルをご用意できます。テラスにあるテーブルをご希望でしたら、すぐにお席にご案内できます。\nM: そうですね、他の同席者はあと20分は来ないので、待っても構いません。\nW: 承知しました。もしよろしければ、その間にバーのお席をお使い頂けます。テーブルがご用意できましたらお知らせします。\nM: ありがとう、それで結構です。"
         },
         {
           "id": "q10",
@@ -168,7 +175,8 @@
           ],
           "answer": "3",
           "explanation": "会話の前半では男性の執筆がなかなか進まないことが述べられ、後半ではキャラクター作りに苦戦している様子がわかる。正解は3「小説をほとんど進められていない」。書き直しが必要なのは結末ではなく途中の章なので4は不適切。",
-          "script": "W: What's the matter, honey?\nM: Oh, I'm just frustrated with my novel. I've barely accomplished anything these last few days.\nW: Really? I thought you were just finishing up the ending.\nM: I was. But a couple of days ago, I realized that several chapters in the middle needed to be completely rewritten.\nW: That sounds like a lot of work.\nM: Yes, and to do it, I need to introduce an additional character. I just can't come up with a suitable one, though.\nW: Well, hang in there."
+          "script": "W: What's the matter, honey?\nM: Oh, I'm just frustrated with my novel. I've barely accomplished anything these last few days.\nW: Really? I thought you were just finishing up the ending.\nM: I was. But a couple of days ago, I realized that several chapters in the middle needed to be completely rewritten.\nW: That sounds like a lot of work.\nM: Yes, and to do it, I need to introduce an additional character. I just can't come up with a suitable one, though.\nW: Well, hang in there.",
+          "scriptJa": "W: どうしたの、あなた？\nM: ああ、僕はただ自分の小説のことでイライラしているだけさ。ここ数日ほとんど何も進んでなくてさ。\nW: そうなの？ 結末を仕上げているだけだと思っていたわ。\nM: 仕上げていたさ。でも数日前、途中のいくつかの章を完全に書き直す必要があることに気づいたんだ。\nW: それはかなり大変そうね。\nM: ああ、それにそのためには、追加のキャラクターを登場させなくてはいけないんだ。だけどしっくりくるのが思い浮かばないよ。\nW: そうねえ、くじけないで頑張ってね。"
         },
         {
           "id": "q11",
@@ -183,7 +191,8 @@
           ],
           "answer": "1",
           "explanation": "女性が一緒に勉強することを提案し、男性は同意して翌日の日程について後でメールで知らせるとしている。よって、1「試験のために勉強する」が正解。",
-          "script": "W: You're looking worried, Charlie. Are you OK?\nM: No! The final exam for our history course is in three days, but I haven't even started studying for it yet.\nW: I wouldn't worry about it. Professor Simons said the exam won't be too tough.\nM: Yes, but there's still a lot to remember. And history is my weakest subject.\nW: Why don't we study together? We could quiz each other on the main topics. That always helps me remember things.\nM: Good idea. Let's meet tomorrow. I'll text you to arrange a time."
+          "script": "W: You're looking worried, Charlie. Are you OK?\nM: No! The final exam for our history course is in three days, but I haven't even started studying for it yet.\nW: I wouldn't worry about it. Professor Simons said the exam won't be too tough.\nM: Yes, but there's still a lot to remember. And history is my weakest subject.\nW: Why don't we study together? We could quiz each other on the main topics. That always helps me remember things.\nM: Good idea. Let's meet tomorrow. I'll text you to arrange a time.",
+          "scriptJa": "W: 心配事がありそうね、チャーリー。大丈夫？\nM: 大丈夫じゃないよ！ 歴史講座の期末試験は3日後だけど、まだ勉強を始めてもいないんだ。\nW: 私は心配してないわ。サイモンズ教授も試験はそれほど難しくないって言ってたし。\nM: そうだけど、それでもたくさん覚えることがあるし。それに歴史は僕の一番苦手な教科なんだ。\nW: 一緒に勉強しない？ 主要なトピックについてお互いに問題を出し合えるわ。それは物を覚えるのにいつも役立つの。\nM: いい考えだね。明日会おう。時間を決めるためにメールを送るよ。"
         },
         {
           "id": "q12",
@@ -198,7 +207,8 @@
           ],
           "answer": "4",
           "explanation": "ウェイトトレーニングを始めようと考えている男性に対して女性が最後の発言で、不適切な機械の使用による怪我の危険性を指摘し、プロに教わることを勧めている。4「彼はプロのトレーナーから学ぶ必要がある」が正解。",
-          "script": "M: Jane, I'm going to take up weight training. Those Internet training videos are really inspiring.\nW: That's great, but you should check out a few gyms before deciding on one.\nM: Why's that?\nW: Some gyms are mainly designed for serious bodybuilders who go five or six times a week. At first, you should go somewhere that caters to a broader range of abilities.\nM: OK. And would you be able to teach me?\nW: I recommend getting lessons from a professional. It's easy to get injured if you don't use the machines properly."
+          "script": "M: Jane, I'm going to take up weight training. Those Internet training videos are really inspiring.\nW: That's great, but you should check out a few gyms before deciding on one.\nM: Why's that?\nW: Some gyms are mainly designed for serious bodybuilders who go five or six times a week. At first, you should go somewhere that caters to a broader range of abilities.\nM: OK. And would you be able to teach me?\nW: I recommend getting lessons from a professional. It's easy to get injured if you don't use the machines properly.",
+          "scriptJa": "M: ジェーン、ぼくはウェイトトレーニングを始めようと思っているんだ。インターネットのトレーニング動画は本当に刺激になるよ。\nW: それはよいけど、ひとつに決める前にいくつかジムをチェックしたほうがいいわよ。\nM: なんでだい？\nW: 週5、6回通うような本格的なボディビルダー用のジムもあるからよ。まずは、もっと幅広いレベルに対応したところに行ったほうがいいわよ。\nM: わかった。それじゃあ、教えてもらえるかい？\nW: プロからレッスンを受けることをお勧めするわ。マシンを正しく使わないと怪我をしやすいから。"
         }
       ]
     },
