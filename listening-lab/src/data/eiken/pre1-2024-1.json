@@ -459,7 +459,8 @@
           ],
           "answer": "4",
           "explanation": "最後にするべきことが問われている。第2〜4文から、まず使用済みの寝具を外し、それらを洗濯し、その間に予備の寝具類でベッドメーキングをするとわかる。第5文で、バスルームの汚れたタオルも洗濯機に入れるように指示される。第6文では、青いタオルが清潔ならばバスルームに掛けるよう指示されるが、状況の説明文より、あてはまらない。最終文で、青いタオルが汚れているならば洗濯して、それが乾いたら出すように言われる。洗濯機から取り出した青いタオルは、最終的にはバスルームに掛けることになるのだから、4「タオルを掛け直す」が正解。",
-          "script": "Can you get the guest bedroom ready? Please take the used bedding off and wash it. You don't need to wait to remake the bed, though—there are spare sheets and a quilt in the closet. Make the bed with them while the other bedding is being washed. Oh, before you start the washing machine, can you throw in the dirty towels from the bathroom? If the nice blue towels are clean, hang them in the bathroom. If not, wait until the laundry is dry, then put them out."
+          "script": "Can you get the guest bedroom ready? Please take the used bedding off and wash it. You don't need to wait to remake the bed, though—there are spare sheets and a quilt in the closet. Make the bed with them while the other bedding is being washed. Oh, before you start the washing machine, can you throw in the dirty towels from the bathroom? If the nice blue towels are clean, hang them in the bathroom. If not, wait until the laundry is dry, then put them out.",
+          "scriptJa": "ゲスト用寝室の準備をしてくれる？　使用済みの寝具類は外して，洗濯してちょうだい。でも，ベッドをリメイクするのに待っていることはないわよ──予備のシーツと上掛けが，クローゼットの中にあるわ。一方の寝具を洗濯している間に，予備の寝具でベッドメーキングしてね。ああ，洗濯機を動かし始める前に，バスルームの汚れたタオルを入れてもらえる？　素敵な青いタオルが清潔ならば，バスルームに掛けておいて。汚れていれば，洗濯物が乾くまで待って，そのあと，それを出しておいてちょうだい。"
         },
         {
           "id": "q26",
@@ -476,7 +477,8 @@
           ],
           "answer": "2",
           "explanation": "第1文で、ユーザープロフィールを設定後にログインすると述べられている。すでにログインしているという状況から、1は不適切。第2文から、ログインの次にするべきこととして、2「プレーヤーの人数を選ぶ」が正解とわかる。3・4については、第4・5文からプレーヤーの人数を選んだあとのことだとわかるので不適切。",
-          "script": "The first step is to set up a user profile and then use that profile to log in. Once you're logged in, you have to choose if you want to play single-player or with others. Since you'll be playing with me, choose \"two players.\" There are also two different modes of play—\"building,\" which is just creating new worlds, and \"competing,\" which is fighting against characters in the game. Let's do \"building,\" OK? I think it's more fun and easier to learn."
+          "script": "The first step is to set up a user profile and then use that profile to log in. Once you're logged in, you have to choose if you want to play single-player or with others. Since you'll be playing with me, choose \"two players.\" There are also two different modes of play—\"building,\" which is just creating new worlds, and \"competing,\" which is fighting against characters in the game. Let's do \"building,\" OK? I think it's more fun and easier to learn.",
+          "scriptJa": "最初のステップは，ユーザーのプロフィールを設定して，そのプロフィールを使ってログインするんだ。ログインしたら，シングルプレーヤーでプレイするのか，他のプレーヤーとプレイするかを選択する必要がある。君はぼくとプレイするのだから，「2人でプレイ」を選択する。プレイには異なる2つのプレイモードもあって──新しい世界を創造していく「ビルディング」と，ゲームでキャラクターと戦っていく「コンピーティング」なんだけど，「ビルディング」をやろう，いいね？　こっちの方が，楽しいし，すぐに慣れると思うよ。"
         },
         {
           "id": "q27",
@@ -493,7 +495,8 @@
           ],
           "answer": "4",
           "explanation": "徒歩の距離に注意しながら確認する。第3文は1の説明で4ブロック。第4文は2の説明で6ブロック。第6文の前半は3の説明で4ブロック。第6文の後半は4の説明で約2ブロック。したがって、4「ブルー・ラインに乗る」が最短とわかる。",
-          "script": "The Regal Hotel? OK, you have a few choices. The Silver Arrow is a direct bus from the airport to Downtown Center, which is a four-block walk to the Regal. Next, it's a bit farther—six blocks, I think—from the commuter train station where the Metro South Line ends, Lincoln Terminal. If you don't mind taking the subway, the Regal Hotel is situated between two stations. You can take the Orange Line to Standish Street Station and walk four blocks, or the Blue Line to Franklin Square, which is about two blocks. Hope you have a good stay!"
+          "script": "The Regal Hotel? OK, you have a few choices. The Silver Arrow is a direct bus from the airport to Downtown Center, which is a four-block walk to the Regal. Next, it's a bit farther—six blocks, I think—from the commuter train station where the Metro South Line ends, Lincoln Terminal. If you don't mind taking the subway, the Regal Hotel is situated between two stations. You can take the Orange Line to Standish Street Station and walk four blocks, or the Blue Line to Franklin Square, which is about two blocks. Hope you have a good stay!",
+          "scriptJa": "リーガルホテルですか？　わかりました，いくつか選択肢があります。シルバー・アロウは，空港からダウンタウンセンターへ行く直通バスで，ダウンタウンセンターからリーガルまでは徒歩で4ブロックです。次は，少し遠いですが，通勤路線メトロ・サウス・ラインの終点リンカーン・ターミナルという駅から行く方法です。駅からは徒歩6ブロックくらいだと思います。地下鉄を利用しても構わないのであれば，リーガルホテルは2つの駅の間にあります。オレンジ・ラインに乗り，スタンディッシュ・ストリート駅まで行き，4ブロック歩くか，ブルー・ラインに乗り，フランクリン・スクエア駅まで行くと，約2ブロックです。どうぞよい滞在を！"
         },
         {
           "id": "q28",
@@ -510,7 +513,8 @@
           ],
           "answer": "3",
           "explanation": "小さくて軽いラップトップコンピューターを求めていることを頭に入れて聞く。第3文は1についてで、デスクトップコンピューターなので不適切。第4〜6文は2についてで、タブレットなので不適切。第7・8文は3についてで、携帯できるラップトップコンピューターだから、3「ウィザード50」が正解。最終2文は4についてで、スマートテレビだから不適切。",
-          "script": "Attention, shoppers. Today only, there are special savings on the following electronics. Our most powerful desktop computer, the Lightning 500, perfect for gaming or design work, is 20 percent off. Is ease of portability your main concern? You can't beat a tablet! Pick up a Slick Assistant for only $200! If you prefer a computer instead of a tablet but still want it to be portable, the Wizard 50 laptop fits easily into most bags. And a free two-year warranty is included. Smart TVs are on sale, too—check out the BRR Quartz. It's perfect for streaming your favorite movies!"
+          "script": "Attention, shoppers. Today only, there are special savings on the following electronics. Our most powerful desktop computer, the Lightning 500, perfect for gaming or design work, is 20 percent off. Is ease of portability your main concern? You can't beat a tablet! Pick up a Slick Assistant for only $200! If you prefer a computer instead of a tablet but still want it to be portable, the Wizard 50 laptop fits easily into most bags. And a free two-year warranty is included. Smart TVs are on sale, too—check out the BRR Quartz. It's perfect for streaming your favorite movies!",
+          "scriptJa": "お買い物中のお客様に，お知らせします。本日に限り，次の電子機器が特別割引になります。ゲームやデザイン作業に最適な，当社の最も強力なデスクトップコンピュータ──「ライトニング500」が20パーセント割引でございます。携帯のしやすさが最も重要ですか？　タブレットにはかないません！　たった200ドルで「スリック・アシスタント」を手に入れましょう！　タブレットよりもコンピューターがいいけれど，持ち運びできるものがお望みでしたら，「ウィザード50」のラップトップが，ほとんどのカバンに簡単に収まります。また，2年間の無料保証も付いております。スマートテレビもセール中でございます──「BRR クォーツ」をご検討ください。お気に入りの映画をストリーミングするのに最適です！"
         },
         {
           "id": "q29",
@@ -527,7 +531,8 @@
           ],
           "answer": "4",
           "explanation": "「客は300人」「屋外」という2つの条件に合うものを選ぶ。第2・3文は1の説明で、駐車場の収容台数から条件に合わないとわかる。第4〜6文は2の説明で「宴会場は小さい方だ」と述べられるので不適切。第7・8文は3の説明で「200人未満にする必要がある」と述べられるので不適切。第9文・最終文は4の説明で「庭園で、500人まで収容可能」と述べられる。よって、4「ザ・オザーク・テラス」が正解。",
-          "script": "There are various options available. The cheapest option is Wingra Hills. There's an outdoor pavilion, but parking is limited—only about thirty cars, and there's no public transportation, unfortunately. Charlevoix Manor is a lovely old stone building that looks like a castle. The ballroom is on the small side, but it's gorgeous. Their catering is good, too. How about Park Tower? The rooftop garden has great views—you'd have to keep the guest list under two hundred, though. Or there's the Ozark Terrace. It's a lovely garden space adjacent to a lake, and it can accommodate up to five hundred people."
+          "script": "There are various options available. The cheapest option is Wingra Hills. There's an outdoor pavilion, but parking is limited—only about thirty cars, and there's no public transportation, unfortunately. Charlevoix Manor is a lovely old stone building that looks like a castle. The ballroom is on the small side, but it's gorgeous. Their catering is good, too. How about Park Tower? The rooftop garden has great views—you'd have to keep the guest list under two hundred, though. Or there's the Ozark Terrace. It's a lovely garden space adjacent to a lake, and it can accommodate up to five hundred people.",
+          "scriptJa": "さまざまな選択肢から選べます。最も安い選択肢は，ウィングラ・ヒルズです。屋外パビリオンがありますが，駐車場は限られていて──約30台分しかありません。そして，残念ながら，公共交通機関はありません。シャルルボア・マナーは，城のように見える，古い石造りの美しい建物です。宴会場はどちらかといえば小さい方ですが，豪華です。料理もいいです。パーク・タワーはいかがですか？　屋上の庭園からは素晴らしい景色を眺めることができます──来客者のリストは200人より少なく抑える必要があるでしょう。あるいは，ザ・オザーク・テラスがあります。湖に隣接した美しい庭園で，500人まで収容可能です。"
         }
       ]
     }
