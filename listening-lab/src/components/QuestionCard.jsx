@@ -179,7 +179,6 @@ export default function QuestionCard({
           </button>
           {showScript && (
             <>
-              <p className={styles.scriptText}>{question.script}</p>
               {question.scriptJa && (
                 <button
                   className={styles.scriptJaToggle}
@@ -188,8 +187,22 @@ export default function QuestionCard({
                   {showScriptJa ? '日本語訳を隠す' : '日本語訳を表示'}
                 </button>
               )}
-              {showScriptJa && question.scriptJa && (
-                <p className={styles.scriptJaText}>{question.scriptJa}</p>
+              {showScriptJa && question.scriptJa ? (
+                <div className={styles.scriptInterleaved}>
+                  {question.script.split('\n').map((enLine, i) => {
+                    const jaLines = question.scriptJa.split('\n');
+                    return (
+                      <div key={i} className={styles.scriptPair}>
+                        <p className={styles.scriptEnLine}>{enLine}</p>
+                        {jaLines[i] && (
+                          <p className={styles.scriptJaLine}>{jaLines[i]}</p>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                <p className={styles.scriptText}>{question.script}</p>
               )}
             </>
           )}
