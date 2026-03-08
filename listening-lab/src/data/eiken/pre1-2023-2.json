@@ -22,169 +22,193 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2023-2/02_No1.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the man's problem?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He cannot find his e-reader." },
+            { "label": "2", "text": "He does not want to buy e-books." },
+            { "label": "3", "text": "He has broken his e-reader." },
+            { "label": "4", "text": "He finds it hard to download e-books." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "男性は2番目の発言の第2文で「それをダウンロードするのが問題だ」と述べている。themは、直前の女性の発言中のe-booksを指しているから、4「電子書籍をダウンロードするのが難しいと思っている」が正解。",
+          "script": "W: Why are you reading that paperback book, Dad? I just gave you an e-reader for your birthday!\nM: I already finished the book you downloaded for me.\nW: There's more where that came from. And there are a lot of free e-books on the Internet.\nM: Yeah, I know. But downloading them is the problem.\nW: I'm always happy to help, Dad.\nM: That would be great. And while you're at it, can you show me how to make the letters bigger on the reader?\nW: Of course.",
+          "scriptJa": "W: お父さん、どうしてペーパーバックの本を読んでいるの？ お誕生日に電子書籍リーダーをあげたばかりなのに！\nM: 君がダウンロードしてくれた本はもう読み終わった。\nW: その本のダウンロード元にはもっとたくさんの本があるわよ。それにインターネット上には無料の電子書籍がたくさんあるのに。\nM: ああ、知っている。でもそれをダウンロードするのが問題でね。\nW: お父さん、いつでも喜んで手伝うわよ。\nM: それは助かる。ついでに、リーダー上で字を大きくする方法を教えてくれないか？\nW: もちろん。"
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2023-2/03_No2.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the man probably do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Take private yoga lessons." },
+            { "label": "2", "text": "Find a different activity." },
+            { "label": "3", "text": "Continue with his current class." },
+            { "label": "4", "text": "Join a different yoga group." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性は最初の発言で「最近、（ヨガに）慣れてきたが、ポーズは少しも楽にならない」と述べている。男性は、2番目の発言では「（他の生徒と自分を比べると）恥ずかしくなる時がある」と述べている。しかし、女性の最後の発言を受けて、最後の発言では「次にクラスで転んだ時には、それを思い出すようにする」と述べていることから、3「現在のクラスを続ける」が適切である。",
+          "script": "W: It's nice to see you coming to yoga class more regularly, José.\nM: Yeah, I've been getting into it a little more lately. Still, the poses don't seem to get any easier.\nW: Be patient with yourself; change happens gradually.\nM: Sometimes I feel embarrassed because the other students are so much more flexible.\nW: Don't worry about comparing yourself with anyone. Yoga is a holistic mind-and-body practice, not a competition.\nM: I'll try to keep that in mind next time I fall over in class.",
+          "scriptJa": "W: ヨガクラスに前より定期的に来てくれるようになってよかったわ、ホセ。\nM: ええ、最近、少し慣れてきました。それでも、ポーズは少しも楽にならないみたいです。\nW: あせらないで。変化は徐々に起きるものですから。\nM: 他の生徒さんははるかに柔軟なので、恥ずかしくなる時もあります。\nW: 自分を誰かと比べて悩まないでね。ヨガは全体的な心身の修練で、競争ではありません。\nM: 次にクラスで転んだ時には、それを思い出すようにします。"
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2023-2/04_No3.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is one thing we learn about the new boss?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She has some new ideas for the division." },
+            { "label": "2", "text": "She knows little about publishing." },
+            { "label": "3", "text": "She was an excellent student." },
+            { "label": "4", "text": "She wants to raise staff salaries." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "女性の2番目の発言の第2文「彼女はいくつか面白い企画を持っていて、それこそが私たちの部が必要としているものだ」より、1「彼女は部のためにいくつか新しいアイデアを持っている」が正解となる。2は、女性の2番目の発言の第1文に合致しない。",
+          "script": "M: Have you met the new boss?\nW: I have. We discovered we're from the same hometown. We even went to the same high school, though she was a few years ahead of me.\nM: Small world! What did you think of her?\nW: She's very knowledgeable about the publishing business. She has some interesting plans, and that's what our division needs.\nM: Well, that's exciting. We need a supportive leader.",
+          "scriptJa": "M: 新しいボスに会った？\nW: ええ。お互い同郷者だとわかったの。高校も一緒。彼女の方が少し先輩だけど。\nM: 世間は狭いね！ 彼女のことどう思った？\nW: 彼女は出版業界のことをよく知っているわ。いくつか面白い企画を持っていて、それこそが私たちの部が必要としているものよ。\nM: そう、それはワクワクするね。僕たちには支援してくれるリーダーが必要だ。"
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2023-2/05_No4.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why is the woman giving away her clothes?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She wants to help a family in need." },
+            { "label": "2", "text": "They no longer fit her." },
+            { "label": "3", "text": "There is an event at school." },
+            { "label": "4", "text": "She does not have space to store them." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "女性が2番目の発言で「コミュニティセンターで家が火事になった家族のために服を集めている。彼らはすべてを失ってしまった」と述べているから、1「彼女は困っている家族を助けたい」が正解。火事ですべてを失った家族のことを、選択肢ではa family in needと言い換えている。2については、男性が2番目の発言の第2文で「サイズが変わったのではないだろう」と述べたのに対して、女性はNoと答えているので不適切。3については、学校で行事があったのは約1カ月前。4については言及されていない。",
+          "script": "M: Why are all of your clothes piled up on the bed?\nW: I'm sorting through them to see which items I want to donate.\nM: Didn't you do that about a month ago for a school fund-raiser? It's not like your size has changed since then.\nW: No, but the community center is gathering clothes for a family who just had a house fire. They lost everything.\nM: That's terrible. Do they need men's clothes? I could part with a few items myself.",
+          "scriptJa": "M: どうして君の洋服がベッドの上に山積みになっているんだい？\nW: そこから寄付したいものを選んでいるの。\nM: 1カ月くらい前に学校の資金集めの行事でそれをやらなかった？ あれから君のサイズは変わってないみたいだけど。\nW: そうだけど、コミュニティセンターで家が火事になった家族のために服を集めているの。彼らはすべてを失ってしまったから。\nM: それは大変だ。男物は必要だろうか？ 僕も手放せる物が何枚かあるかもしれない。"
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2023-2/06_No5.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is one thing the man says about the merger?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It will help reduce his workload." },
+            { "label": "2", "text": "It will lead to more work with independent agents." },
+            { "label": "3", "text": "It will make the company do better." },
+            { "label": "4", "text": "It will cause a lot of staff to be fired." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性が2番目の発言の第3文で、「これによって、営業経費は削減され、我々の市場における地位は強化されるだろう」と述べている。よって、3「それによって会社はもっとうまくいく」が正解。4については、職場を去るスタッフについて言及されているが、自発的に職場を去ると述べられているので不適切。",
+          "script": "M: Did you see the latest newsletter? It seems our merger with Evan's Real Estate is now official.\nW: I'm dreading moving our offices, but I admit it makes sense.\nM: I agree. We've been working with their agents for years. This will just reduce our operating expenses and strengthen our market position.\nW: Yeah. But I've heard that some of our staff have decided to leave to work on their own.\nM: I think the merger is just convenient timing for them. They've wanted to become independent for a while.\nW: Well, I'll still be sad to see them go.",
+          "scriptJa": "M: 最新の社報を見た？ エバンズ不動産との合併が正式なものになったようだ。\nW: オフィスの移転がものすごく心配だけど、賢明だと認めるわ。\nM: 同感だ。我々は長い間彼らの代理店と仕事をしてきた。これによって、営業経費は削減され、我々の市場における地位は強化されるだろうね。\nW: そうね。でも、スタッフの中には辞めて独立することにした人もいると聞いたわ。\nM: 彼らにとって合併はちょうどいいタイミングなんだろう。彼らは以前から独立したがっていたんだ。\nW: そう、それでも彼らがいなくなるのはさびしいわ。"
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2023-2/07_No6.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man say about solar panels?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They will become cheaper in the future." },
+            { "label": "2", "text": "They would not save the couple money." },
+            { "label": "3", "text": "They will need to be replaced in a few years." },
+            { "label": "4", "text": "They would not provide big environmental benefits." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "女性が最初の発言で「ソーラーパネルを設置すれば、光熱費の節約になるだろう」と提案すると、男性は最初の発言の第2文で「僕たちに合わないと思う」と述べ、2番目の発言で「投資したお金を取り戻すのに15年程度かかるが、僕たちはこの家にそんなに長く住み続けないだろう」とその理由を説明している。よって、2「それによって夫婦がお金を節約することはないだろう」が適切。4については、男性は最初の発言の第1文で「パネルは環境に優しい」と述べているので不適切。",
+          "script": "W: What do you think about installing solar panels on our roof? The initial costs are a little high, but we'd save a lot on energy bills.\nM: Well, panels are becoming more efficient, and they're eco-friendly. But I don't think they'd be a good match for us.\nW: Why not?\nM: It would take something like 15 years to make our money back on the investment, but we won't be living in this house that long.\nW: But wouldn't solar panels make the place worth more when we sell it?\nM: Not by much. By then, our panels would be outdated.",
+          "scriptJa": "W: うちの屋根にソーラーパネルを設置するのはどうかしら？ 初期費用は少し高いけど、光熱費をずいぶん節約できそうよ。\nM: そうだね、実際、パネルの効率は上がっているし、環境に優しい。でも、僕たちには合わないと思うよ。\nW: どうして？\nM: 投資したお金を取り戻すのに15年程度かかるけど、僕たちはこの家にそんなに長く住まないだろう。\nW: でも、売る時に、ソーラーパネルがあれば建物の価値が上がるんじゃない？\nM: たいしたことはないね。その頃には、うちのソーラーパネルは時代遅れになっているだろうから。"
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2023-2/08_No7.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman imply?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Miki has not finished her translation work." },
+            { "label": "2", "text": "The deadline is likely to be changed." },
+            { "label": "3", "text": "The client has made a lot of mistakes." },
+            { "label": "4", "text": "Miki often does not pay enough attention to her work." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "女性は最後の発言の第2文で「彼女に時間をかけてと頼んでも、ミキはすぐに私に返そうと急ぐ傾向がある」と述べ、男性は「徹底的にチェックする」と応じている。これらのやりとりから、4「ミキは仕事に十分な注意を払わないことが多い」が正解。1については、女性と男性の最初のやりとりから、ミキの翻訳は完了したことがわかるので不適切。2については、締切りの変更がありそうだとは述べていない。",
+          "script": "W: Could you have a look at this translation, Jared?\nM: Sure. Is it the one that Miki did for LTR Chemicals?\nW: Yes. Please give it extra attention because they're very particular about accuracy. We can't afford to lose them as a client.\nM: OK. Is the deadline urgent?\nW: No, we're ahead of schedule and still have a few days until it's due. Miki has a tendency to rush to get things back to me quickly, even though I ask her to take her time.\nM: OK, I'll give it a thorough check.",
+          "scriptJa": "W: ジャレド、この翻訳を見てもらえるかしら？\nM: いいとも。これはミキがLTR化学のためにやったものかな？\nW: ええ。彼らは正確さにこだわるから、特に注意してね。彼らを顧客として失うことはできないわ。\nM: わかった。締切りは迫っている？\nW: いいえ、予定よりも早く進んでいて、期限までまだ数日あるわ。ミキは、時間をかけてやってと頼んでも、すぐに返そうと急ぐ傾向があるの。\nM: わかった。徹底的にチェックするよ。"
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2023-2/09_No8.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why is the man worried about their holiday?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He found a lot of complaints online." },
+            { "label": "2", "text": "The cost of the cruise has gone up." },
+            { "label": "3", "text": "He cannot get time off work." },
+            { "label": "4", "text": "He is unable to book a different cruise." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "男性は最初の発言の第1文で「考え直している」と述べ、続く第2文では「いくつかのウェブサイトでレビューを見ていたら、不満を持った客がたくさんいるようだ」と述べている。よって、1「彼はオンラインでたくさんの不満を見つけた」が正解。2と3については、男性は最後の発言で「予算を少し増やして、もっと評判のいいクルーズを予約してはどうか」と述べているので不適切。4については、女性の最後の発言で「代理店に話してみる」と述べているので不適切。",
+          "script": "W: Honey, the travel agent just called. He said the cruise is nearly sold out, so we have to decide soon.\nM: Actually, I've been having second thoughts. I was looking at reviews on several websites, and there seem to be a lot of dissatisfied customers.\nW: Really? A few of the ones I saw were very positive. Well, we don't have to go. I just think you should get some kind of reward for working so hard lately.\nM: How about increasing our budget a bit and booking a cruise with a better reputation?\nW: OK. I'll talk to the agent.",
+          "scriptJa": "W: ねえ、あなた、旅行代理店からたった今電話があったわ。クルーズが売り切れ間近だから、すぐに決める必要があるそうよ。\nM: 実を言うと、考え直しているところなんだ。いくつかのウェブサイトでレビューを見ていたら、不満を持った客がたくさんいるようでね。\nW: 本当？ 私が見た中のいくつかはとても肯定的だったけど。まあ、無理に行く必要はないわね。あなたが最近頑張って働いていたから、そのご褒美みたいなものがあってもいいかしらと思っただけなんだから。\nM: 予算を少し増やして、もっと評判のいいクルーズを予約するのはどうだろう？\nW: いいわ。代理店に話してみる。"
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2023-2/10_No9.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What do the speakers imply about Shield Force?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It has a lot of unique characters." },
+            { "label": "2", "text": "The show's writing has improved greatly." },
+            { "label": "3", "text": "The plot was difficult to predict." },
+            { "label": "4", "text": "It might not return for another season." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性が2番目の発言で裏切り者がわかった場面について女性に感想を求めると、「本当にショックだった。間違いなく工作員ターナーだろうと思ったが…」と女性は答え、男性は「全くだ」と同意している。このやりとりから、2人にとってドラマの展開が予想外だったことが推測できる。したがって、3「筋を予測するのは難しかった」が適切。2については、男性の最後の発言に「脚本はすばらしい」とあるが、「向上した」とは述べていないので不適切。4については、女性の最後の発言に合致しない。",
+          "script": "M: Did you watch the season finale of Shield Force last night?\nW: Of course! I thought that was the best episode of the entire season.\nM: What did you think of the scene where Agent Martinez was revealed to be the traitor?\nW: That was such a shocker. I was so sure it was going to be Agent Turner, but the way they explained it made perfect sense.\nM: Totally. The writing on that show is just fantastic.\nW: I can't wait to see what happens next season.",
+          "scriptJa": "M: 昨夜、『シールドフォース』のシーズン最終回を見た？\nW: もちろん！ 全シーズンを通して最高の回だったと思う。\nM: 工作員マルチネスが裏切り者だとわかった場面はどう思った？\nW: あれは本当にショックだったわ。間違いなく工作員ターナーだろうと思っていたけど、あの説明は完全に筋が通っていたわね。\nM: 全くだ。あの番組の脚本は実にすばらしい。\nW: 次のシーズンで何が起こるか待ちきれないわ。"
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2023-2/11_No10.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman imply about Mark?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He is busier than Yasuhiro." },
+            { "label": "2", "text": "He does not get along with Genevieve." },
+            { "label": "3", "text": "He often makes poor decisions." },
+            { "label": "4", "text": "He may not have enough experience." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "男性が最初の発言で「マークを新しいソフトウェアプロジェクトの管理担当にしようと考えている」と述べると、女性は「彼がそれをこなせると思うか」と疑問を呈し、その理由として「彼は会社に入ってたった18カ月である」と述べている。よって、4「彼には十分な経験がないかもしれない」が適切。女性が最後の発言で「事態が破綻した」と述べているのはヤスヒロについてなので、3は不適切。",
+          "script": "M: I've been thinking about assigning Mark to manage the new software project.\nW: Do you think he can handle it? I know he's bright, but he's only been with the firm for 18 months.\nM: Well, I was originally considering Genevieve, but she's really got her hands full these days. That leaves either Mark or Yasuhiro.\nW: In that case, I guess we have no choice but to give it to Mark. The last time we put Yasuhiro in charge of a project, things quickly went off the rails.",
+          "scriptJa": "M: マークに新しいソフトウェアプロジェクトの管理をさせようと考えているんだ。\nW: 彼がそれをこなせると思いますか？ 頭がいいのは知っていますが、会社に入ってたった18カ月ですよ。\nM: 実は、初めはジュヌビエーブを考えていたんだが、彼女はここのところ本当に手がふさがっているからね。そうすると、マークかヤスヒロということになる。\nW: それなら、マークにやってもらうしかないでしょうね。この前ヤスヒロにプロジェクトを任せた時には、すぐに事態は破綻しましたから。"
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2023-2/12_No11.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the man's opinion of Professor Ritter?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Her lectures tend to be long." },
+            { "label": "2", "text": "She gives too much homework." },
+            { "label": "3", "text": "Her political views are extreme." },
+            { "label": "4", "text": "She does not grade fairly." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "男性が2番目の発言の第2文で「リッター教授は採点の時、自分と同じ政治的意見を持っている学生を特別扱いしたようだ」と述べているので、4「彼女は公平な採点をしない」が正解。「採点する」という表現は、放送文ではmarkで、選択肢ではgradeが用いられている。2については、女性が2番目の発言で「読む物の量が多いことが問題だったのか」と尋ねたのに対して、男性は「妥当な量だったと思う」と答えているから不適切。3については、教授の政治的意見が極端なものだとは述べていないので不適切。",
+          "script": "W: Hey, did you take Professor Ritter's Politics 302 class last semester?\nM: Yeah. Some of the lectures were interesting, but I wouldn't really recommend it.\nW: Oh. I heard it involves a lot of reading. Was that the problem?\nM: Actually, the workload seemed reasonable to me. My issue was that when she was marking papers, Professor Ritter seemed to favor students who share her political views.\nW: Oh, really?\nM: If I were you, I'd sign up for Professor Tamura's or Professor Wilson's class instead.",
+          "scriptJa": "W: ねえ、あなた先学期、リッター教授の政治学302の授業を受けた？\nM: うん。面白い講義もあったけど、あまり勧めないね。\nW: あら。読む物がたくさんあると聞いたけど。それが問題だったの？\nM: 実際のところ、教材の量は妥当に思えた。僕にとっての問題は、リッター教授は採点の時、自分と同じ政治的意見を持っている学生を特別扱いしたようだってことだ。\nW: まあ、本当？\nM: 僕だったら、代わりにタムラ教授かウィルソン教授の授業を受講登録するだろうね。"
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2023-2/13_No12.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the man and woman probably do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Search for a solution online." },
+            { "label": "2", "text": "Get help from a professional." },
+            { "label": "3", "text": "Ask a neighbor for advice." },
+            { "label": "4", "text": "Move to a quieter neighborhood." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "女性が最後の発言で「きちんとした犬の訓練士を雇うべきだ。費用がかかることはわかっているけれど、平穏と静けさのためにはそれだけの価値がある」という内容のことを述べると、男性は「君の言う通りかもしれない」と応じている。よって、2「専門家の手を借りる」が正解。放送文のa proper dog trainerを、選択肢ではa professionalと言い換えている。1については、男性が2番目の発言で「オンラインで見つけられる訓練法はどれももう試した」と述べているので不適切。",
+          "script": "W: We need to do something about the dogs. Their barking is becoming a real problem.\nM: I don't know. Most dogs bark at strangers, no?\nW: Yes, but ours bark every time someone goes past the house. We'll get complaints from the neighbors if this keeps up.\nM: Well, we've already tried every training method we could find online. I'm not sure what else we can do.\nW: I think we should hire a proper dog trainer. I know it'll be expensive, but it'll be worth it for some peace and quiet.\nM: I guess you're right.",
+          "scriptJa": "W: 犬のことを何とかしなくちゃ。うちの犬が吠えることは大問題になりつつあるわ。\nM: どうかな。たいていの犬は知らない人に向かって吠える、そうじゃない？\nW: ええ、でもうちの犬たちは誰かが家の前を通るたびに吠えている。これが続いたら、ご近所から苦情が来るわよ。\nM: でも、僕たちはオンラインで見つけられる訓練法はどれももう試した。他に何ができるか僕にはわからない。\nW: きちんとした犬の訓練士を雇うべきだと思うの。費用がかかることはわかっているけれど、平穏と静けさのためにはそれだけの価値があるでしょう。\nM: 君の言う通りかもしれないね。"
         }
       ]
     },
@@ -201,16 +225,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/16_No13.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Why did people originally celebrate Sukkoth?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To improve the quality of their crops." },
+            { "label": "2", "text": "To give thanks for the food they grew." },
+            { "label": "3", "text": "To pray for the ability to leave the desert." },
+            { "label": "4", "text": "To celebrate their time in Egypt." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段第2・3文で「数千年前に収穫祭として始まり、祭りの間、人々はその年の作物に対する神への感謝を表した」という内容が述べられていることから、2「育てた食べ物に感謝するため」が正解。「作物」という表現に、放送文ではthe year's cropsが使われ、選択肢ではthe food they grewに言い換えられている。4については、同段第4文で「のちに、エジプトでの隷属から逃れた直後の時期と関連づけられた」という内容が述べられているので不適切。",
+          "script": "Sukkoth\n\nSukkoth is a religious holiday celebrated by Jewish people around the world. It originated thousands of years ago as a harvest festival. During the festival, people demonstrated their appreciation to their god for the year's crops. Later, the holiday became connected with the time immediately after the ancient Jewish people had escaped from slavery in Egypt. According to tradition, the Jewish people wandered in the desert and had to live in fragile shelters called sukkahs that protected them from the heat of the sun.\n\nToday, Jewish people celebrate the holiday by building a sukkah in their backyards or on balconies. Sukkahs generally have three walls, and the roof is made with leaves and has openings so that the stars are visible above. During the festival's seven days, people consume their meals in the sukkah, and if they live in a warm climate, they sleep in it as well."
         },
         {
           "id": "q14",
@@ -218,15 +242,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/17_No14.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing we learn about modern sukkah buildings?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Their walls have images of the desert." },
+            { "label": "2", "text": "They are covered to stay cool." },
+            { "label": "3", "text": "Meals must be cooked inside them." },
+            { "label": "4", "text": "People can see the sky from inside them." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "4",
+          "explanation": "第2段第2文で「屋根は葉で作られていて隙間があり、上方に星を見ることができる」と述べられているから、4「人々はその中から空を見ることができる」が正解となる。3については、同段最終文に「そこで食事をする」とあるが、「調理しなければいけない」とは述べていないので不適切。",
           "script": ""
         },
         {
@@ -235,16 +259,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/19_No15.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker say about disease-causing germs?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Vultures help prevent them from infecting humans." },
+            { "label": "2", "text": "Vultures often spread them to other animals." },
+            { "label": "3", "text": "They can cause vultures to die." },
+            { "label": "4", "text": "They survive inside vultures' stomachs." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段第3文で「死んだ動物を食べることで、その鳥は病気を引き起こす細菌が水源などの周囲の環境に侵入するのを防いでいる」と述べられている。また、同段最終文では「彼らの強力な胃酸は細菌を殺すことができるので、ハゲワシが病気を人間にうつす可能性は低い」と述べられている。これらの内容から、2・3・4は不適切で、1「ハゲワシはそれらが人間に感染するのを防ぐのに役立っている」が正解となる。",
+          "script": "Vultures\n\nVultures are birds well-known for their diet, which consists of the remains of dead animals. This association has given many people a negative impression of the birds, but we in fact owe much gratitude to vultures. By eating dead animals, the birds prevent disease-causing germs from entering the environment, including water sources. And because the strong acid in their stomachs is so good at killing germs, vultures are unlikely to pass on diseases to humans.\n\nThe bodies of dead animals do more than spread disease — they also release CO₂ and other greenhouse gases as they decay on the ground. When vultures feed, they prevent this from happening. However, in many parts of the world today, vulture populations have declined significantly, resulting in millions of tons of extra greenhouse-gas emissions entering the atmosphere. Ensuring vulture populations remain healthy is therefore an important step in combating climate change."
         },
         {
           "id": "q16",
@@ -252,15 +276,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/20_No16.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is suggested about climate change?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Vultures' feeding habits help reduce its effects." },
+            { "label": "2", "text": "It is increasing vulture populations worldwide." },
+            { "label": "3", "text": "It is changing vultures' food sources." },
+            { "label": "4", "text": "It is forcing vultures to find new habitats." }
           ],
           "answer": "1",
-          "explanation": "",
+          "explanation": "第2段第1・2文で「ハゲワシが動物の死体を食べることで、二酸化炭素やその他の温室効果ガスが放出されるのを防いでいる」と述べられている。したがって、1「ハゲワシの食習慣がその影響を減らすのに役立っている」が正解。放送文のWhen vultures feed「ハゲワシが食べる時」を、選択肢ではVultures' feeding habitsに言い換えている。",
           "script": ""
         },
         {
@@ -269,16 +293,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/22_No17.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one thing research found about praising employees?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Workers often think they do not deserve praise." },
+            { "label": "2", "text": "Random praise can improve work performance." },
+            { "label": "3", "text": "Too much praise can lead to worse performance." },
+            { "label": "4", "text": "Most bosses do not give enough praise." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段最終文で「研究者がでたらめに労働者をほめた時、その労働者たちの生産活動の質は、ほめられなかった人たちと比べて劇的に向上した」と述べられている。よって、2「でたらめにほめることで仕事ぶりが向上する可能性がある」が正解。",
+          "script": "Praising Employees\n\nEveryone knows that praise is important for motivating employees and increasing their satisfaction. Surprisingly, however, according to researchers, praise can improve employee performance even when the employee does not earn the praise. When researchers gave praise to random workers, the quality of the workers' output increased dramatically compared to those who were not praised.\n\nAnother study suggests that some kinds of praise are more effective than others. The study identifies two kinds of mindsets. Those with a so-called fixed mindset think they are born with a certain level of ability and that they are unlikely to get better at things. On the other hand, those with a so-called growth mindset feel that they have the capability to acquire new skills and talents. It seems that praising effort rather than results may have a positive effect because it encourages a growth mindset in unhappy employees who would otherwise be frustrated with their jobs."
         },
         {
           "id": "q18",
@@ -286,15 +310,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/23_No18.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker suggest about unhappy employees?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They tend to react negatively to praise." },
+            { "label": "2", "text": "They worry too much about their work." },
+            { "label": "3", "text": "Having a growth mindset could benefit them." },
+            { "label": "4", "text": "They influence the mindsets of workers around them." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "3",
+          "explanation": "第2段最終文で「『結果』ではなく『努力』をほめることは好影響を与える可能性があるようだ」という内容が述べられている。otherwiseは「もしそうでなければ」の意味で、「成長思考でなければ仕事に不満を感じるであろう、不幸な従業員」の意。つまり、成長思考であれば仕事に不満を感じることはないということであり、よって、3「成長思考を持つことは彼らのためになるかもしれない」が正解。",
           "script": ""
         },
         {
@@ -303,16 +327,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/25_No19.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Why did British leaders reject the original plan?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They thought the invasion would not happen." },
+            { "label": "2", "text": "They were worried the art would be destroyed." },
+            { "label": "3", "text": "They thought Canada was likely to be invaded." },
+            { "label": "4", "text": "They feared the Germans would be able to steal the art." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段第3文で「当初、それらをカナダへ船で運ぶことが提案されたが、イギリスの指導者たちは、何千もの船を沈めているドイツの潜水艦の脅威を心配していた」と述べられているので、イギリスの指導者たちは絵画を運んでいる船が潜水艦によって沈められることを懸念したことがわかる。よって、2「美術品が破壊されることを心配したから」が正解。",
+          "script": "Manod Mine\n\nDuring World War II, there was great fear that Britain would be invaded by Nazi Germany. In this environment, it was decided that paintings from the National Gallery in London should be moved somewhere safer. At first, it was suggested that they be shipped to Canada, but British leaders worried about the threat from the German submarines that were sinking thousands of ships. Eventually, the art treasures were stored in an old mine in a remote area of Wales called Manod.\n\nTransporting the art was extremely difficult as many of the works were large and had to be moved carefully through the small mine entrance. Furthermore, there was great concern that moisture and cold temperatures would damage the paintings, so special air-conditioned structures were built in the mine to contain them. Thanks to the project at Manod, the paintings survived the war, and much was learned about preserving art."
         },
         {
           "id": "q20",
@@ -320,15 +344,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/26_No20.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What was learned from the experience at Manod?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The importance of art during wartime." },
+            { "label": "2", "text": "How to build large mines." },
+            { "label": "3", "text": "The effects of cold temperatures on paintings." },
+            { "label": "4", "text": "How to store art in good condition." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "4",
+          "explanation": "第2段最終文で「マノドでのプロジェクトのおかげで、美術品の保存について多くのことがわかった」と述べられている。よって、4「よい状態で美術品を保管する方法」が正解。3については、同段第2文で「湿気と低温が絵画にダメージを与える懸念があったので、空調管理された構造物が坑道内に建てられた」とあるが、低温の影響について学んだとは述べられていないので不適切。",
           "script": ""
         },
         {
@@ -337,16 +361,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/28_No21.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What was the purpose of Sybil Ludington's ride?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To help warn about an attack." },
+            { "label": "2", "text": "To locate British soldiers." },
+            { "label": "3", "text": "To gather supplies for the American troops." },
+            { "label": "4", "text": "To keep her father safe from danger." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段第2文で「使者は来たるイギリスの攻撃について警告したが、ルディントンの兵士たちは地域周辺に散らばっていた」と述べられ、同段第3・4文で「指揮官の娘シビルは、彼らへの通報を買って出た」こと、「彼女は65キロ以上馬を走らせた」ことが述べられている。第3文のalert themのthemは、第2文のLudington's soldiersを指している。これらの内容から、1「攻撃について警告するのを手伝うため」が正解。",
+          "script": "The Midnight Ride of Sybil Ludington\n\nOn the night of April 26, 1777, during the American Revolution, a messenger arrived at American commander Henry Ludington's house. The messenger warned of a coming British attack, but Ludington's soldiers were scattered around the region. The commander's daughter, Sybil, bravely volunteered to alert them. Though just 16 years old, Sybil rode on horseback for over 65 kilometers in stormy weather. Thanks to her night ride, the troops assembled and drove away the British. After the war, however, Sybil was forgotten for many years.\n\nSome historians question whether Sybil's ride ever really happened. While documents show that the British attack occurred, there are no official records of Sybil's journey. It appeared in a history book published in the 1800s, but the book failed to give sources to confirm it. Nevertheless, the story has been widely accepted, and Sybil has become a symbol of the role of women in the American Revolution."
         },
         {
           "id": "q22",
@@ -354,15 +378,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/29_No22.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is one reason some historians doubt Sybil's ride?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "There is evidence that another woman rode that night." },
+            { "label": "2", "text": "There is no record of an attack by the British." },
+            { "label": "3", "text": "It was not officially documented." },
+            { "label": "4", "text": "A history book claims it did not happen." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "3",
+          "explanation": "第2段第2文の後半部で「シビルの遠乗りについて公式の記録はない」とあり、続く第3文のbut以下では「それについて記述がある歴史書にもそれを裏づける情報源は示されなかった」と述べられている。よって、3「それは公式に記録されなかった」が適切である。2については、第2文の前半部の記述に反している。",
           "script": ""
         },
         {
@@ -371,16 +395,16 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/31_No23.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What does the speaker say about many ski resorts in the 1950s?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They were forced to move to more populated areas." },
+            { "label": "2", "text": "They had to close due to dissatisfied customers." },
+            { "label": "3", "text": "They did not have enough snow." },
+            { "label": "4", "text": "They were opposed to using artificial snow." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段第3文に「多くのスキーリゾート地では、顧客の満足に応えるには山にもっと多くの雪が必要なことがわかった」と述べられている。放送文のthey needed more snowを言い換えた、3「十分に雪がなかった」が正解。4については、同段最終文で「人工雪」に言及しているが、反対したとは述べられていないので不適切。",
+          "script": "Banff Sunshine Village\n\nDuring the economic boom of the 1950s in the US and Canada, interest in recreational activities increased dramatically. One activity that grew in popularity was skiing. However, many ski resorts found that they needed more snow on their mountains to meet customer demand. Machines were developed to create snow artificially using water and compressed air, enabling ski resorts to operate even without a lot of natural snowfall.\n\nHowever, snowmaking requires significant energy consumption as well as water from reservoirs and lakes. A Canadian ski resort known as Banff Sunshine Village relies instead on a method called snow farming. The resort takes advantage of the area's windy conditions by putting up fences at high altitudes to catch snow that blows in from surrounding mountains. Later, the snow is transported down to slopes that need it. This allows the resort to maximize snow cover in an environmentally sustainable and energy-efficient way."
         },
         {
           "id": "q24",
@@ -388,15 +412,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/32_No24.mp3",
           "passageAudio": "audio/eiken/eiken-pre1-2023-2/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What is true about Banff Sunshine Village?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The use of artificial snow has hurt its business." },
+            { "label": "2", "text": "It makes use of wind to help its operations." },
+            { "label": "3", "text": "It provides snow to other ski resorts in the local area." },
+            { "label": "4", "text": "Its slopes are located at very high altitudes." }
           ],
-          "answer": "1",
-          "explanation": "",
+          "answer": "2",
+          "explanation": "第2段第3文で「そのリゾート地では、風が強い環境を利用し、高所にフェンスを建てて、周囲の山々から吹き込む雪を受け止めている」と述べられている。よって、2「運営に役立てるために風を利用している」が正解。「〜を利用する」という表現に、放送文ではtake advantage of 〜を、選択肢ではmake use of 〜を用いている。1については、人工雪のマイナス点について触れているが、バンフ・サンシャイン・ビレッジの事業に悪影響を及ぼしているとは述べられていない。3については、他のスキーリゾート地へ提供しているとは述べられていない。4については、「フェンスが高所に建てられている」ことがわかるが、ゲレンデが高所にあるとは述べていない。",
           "script": ""
         }
       ]
@@ -413,80 +437,85 @@
           "number": 25,
           "audio": "audio/eiken/eiken-pre1-2023-2/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which restaurant should you choose?",
+          "promptJa": "あなたはホテルに滞在している。今、午後6時30分で、あなたは午後7時頃に近くのレストランで夕食をとりたい。コンシェルジュがあなたに次のように言う。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Kingsley's." },
+            { "label": "2", "text": "Shrimp Lover." },
+            { "label": "3", "text": "Randy's." },
+            { "label": "4", "text": "Boca." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "時刻と場所に注意して、説明される順に確認する。キングズリーズは8時に開店するので不適切。シュリンプラバーは電車で約45分かかるので不適切。ランディーズはほんの1ブロックのところにあり、夕食時でもすぐに座れるので条件に合う。ボカは少なくとも前日までに予約をしておかないと席を取るのは難しいので不適切。よって、3「ランディーズ」が正解。",
+          "script": "We're near the harbor, so there are a lot of good seafood options. Kingsley's is a very popular lobster restaurant and bar, but it doesn't open until eight. Shrimp Lover is a seafood restaurant that just opened one month ago. It's about 45 minutes away by train. Randy's is a unique Mexican restaurant just a block away. They only have counter seats, but I'm sure you can be seated right away, even at dinner time. Then, there's Boca here in the hotel, but it's very difficult to get a table if you haven't booked at least a day in advance."
         },
         {
           "id": "q26",
           "number": 26,
           "audio": "audio/eiken/eiken-pre1-2023-2/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたは500枚ある音楽CDのコレクションのうち半分を売ることに決めた。中古CDを売買する店に電話をして、次のような録音メッセージを聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Start the sales procedure online." },
+            { "label": "2", "text": "Start packing the CDs into boxes." },
+            { "label": "3", "text": "Download a form from the website." },
+            { "label": "4", "text": "Make an appointment for an assessment." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "250枚のCDを売るためにすべきことを聞き取る。99枚までのCDを売る人への手続きの説明があるが、250枚なので該当しない。100枚以上のCDを売る人への手続きとして、最終文で「担当者が、コレクションを査定するためにお宅に伺う予定についてお話しします」と述べられているので、4「査定のための約束をする」が正解。",
+          "script": "Welcome to CD Masters. This holiday season, don't miss out on our \"CD Surprise\" boxes with 30 random CDs inside. Additionally, to sell up to 99 CDs, any registered member can log into their account on our website and start the sales procedure. If you don't have an account, you can register today just by filling out the form on our website. If you would prefer to register over the phone, press 1. If you are looking to sell 100 or more CDs at once, press 2. A representative will speak with you to schedule a home visit to assess your CD collection."
         },
         {
           "id": "q27",
           "number": 27,
           "audio": "audio/eiken/eiken-pre1-2023-2/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which class should you take?",
+          "promptJa": "あなたは大学生である。あなたは古代のギリシア人とローマ人について学びたいが、グループワークは好きではない。あなたは履修指導員の説明を聞いている。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "History 103." },
+            { "label": "2", "text": "Philosophy 105." },
+            { "label": "3", "text": "History 202." },
+            { "label": "4", "text": "Latin 102." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "学びたい内容と、グループワークの有無に注意して確認する。歴史103は18・19世紀のヨーロッパの歴史なので内容が合わない。哲学105は内容はよいがチーム討論への参加が必要なので不適切。歴史202は講義中心で対話型ではなく、古代エジプト・ギリシア・ローマの歴史を扱うので条件に合う。ラテン語102は古代ローマにのみ焦点を当てており内容が合わない。よって、3「歴史202」が正解。",
+          "script": "In History 103, students can learn about European history in the eighteenth and nineteenth centuries. This class has no group projects, and there is an option available to take it online. Next, Philosophy 105 is for those who want to grasp the gist of Western philosophy, including that of ancient Greece and Rome. Students are expected to take part in spirited team debates in each class. History 202 is a lecture-based class and is non-interactive. It focuses primarily on ancient Egyptian, Greek, and Roman history. Finally, Latin 102 focuses exclusively on ancient Rome. In that class, you'll learn Latin by reading ancient Roman plays."
         },
         {
           "id": "q28",
           "number": 28,
           "audio": "audio/eiken/eiken-pre1-2023-2/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたが娘のために2週間前に買ったタブレットが壊れた。それには1年間の保証期間がある。あなたは製品のメーカーに電話をして、次の録音メッセージを聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Press 1." },
+            { "label": "2", "text": "Press 2." },
+            { "label": "3", "text": "Press 3." },
+            { "label": "4", "text": "Press 4." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "2週間前に買ったタブレットが壊れ、保証期間内であることを頭に入れて聞く。1は法人客に対してなので不適切。2は保証期間内の製品に関するもので該当する。3は保証期間外の製品に関するものなので不適切。4はタブレットの故障とは無関係なので不適切。よって、2「2を押す」が正解。",
+          "script": "Thank you for calling the TSS Electronics help desk. For corporate customers who have questions regarding the details of their contracts, press 1. For technical support or to request a replacement for any of our products currently under warranty, press 2. To arrange for a repair or check the repair status of a product outside of warranty, press 3. For information about the different tablet models and data plans that we provide, press 4. For all other inquiries, please remain on the line until a representative becomes available."
         },
         {
           "id": "q29",
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2023-2/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which tour should you choose?",
+          "promptJa": "あなたとあなたの7歳の息子は科学博物館にいる。あなたはツアーに参加したい。あなたは45分後に博物館を出なければならない。あなたは次の放送を聞く。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Spark of Genius." },
+            { "label": "2", "text": "The Age of Dinos." },
+            { "label": "3", "text": "Deep into the Sea." },
+            { "label": "4", "text": "Museum after Dark." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "「7歳の息子がいる」「45分後に博物館を出る」という2つの条件に合うものを選ぶ。「天才のひらめき」は1時間のツアーなので不適切。「恐竜の時代」は30分かかるので候補になる。「深海へ」は10歳未満の子どもにはお勧めしないと述べられているので不適切。「夜の博物館」は夜間ツアーなので不適切。よって、2「恐竜の時代」が正解。",
+          "script": "Several tours will be starting shortly. First, Spark of Genius is an hour-long tour about electricity that includes an exciting 30-minute 3D movie. We also have The Age of Dinos, which is a tour that explores the fascinating period when dinosaurs ruled the earth. It takes half an hour. Deep into the Sea is a 40-minute tour that looks at amazing deep-sea creatures. It can be a little scary, so this tour is not recommended for children under the age of 10. Finally, don't forget you can make reservations for our Museum after Dark overnight tour to experience an unforgettable night among our amazing exhibits."
         }
       ]
     }
