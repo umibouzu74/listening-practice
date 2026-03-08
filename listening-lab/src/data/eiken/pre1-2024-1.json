@@ -31,7 +31,8 @@
           ],
           "answer": "4",
           "explanation": "男性の最後の発言で「それを避ける方法はない。ときおり対処しなければならなくなる」と述べている。it が指す内容は、タイルがゆるむという問題である。よって、4「問題は再び起こるだろう」が正解。3については、男性の最初の発言で「取り替える必要がある」と述べているのは「タイルのいくつか」のことだから、不適切。",
-          "script": "W: Greg, a bunch of the tiles around the sink are coming loose.\nM: I noticed that. Some of them need to be replaced.\nW: Can you take care of it?\nM: Yes, but we won't be able to use the sink for a couple of days.\nW: We only had the kitchen redone two years ago. It seems too soon for this.\nM: Well, there's not really any way to avoid it. It's probably something we'll have to deal with every so often."
+          "script": "W: Greg, a bunch of the tiles around the sink are coming loose.\nM: I noticed that. Some of them need to be replaced.\nW: Can you take care of it?\nM: Yes, but we won't be able to use the sink for a couple of days.\nW: We only had the kitchen redone two years ago. It seems too soon for this.\nM: Well, there's not really any way to avoid it. It's probably something we'll have to deal with every so often.",
+          "scriptJa": "W: グレッグ，流しの回りのタイルがたくさんゆるんできてるんだけど。\nM: 気づいていたよ。いくつかは交換する必要があるね。\nW: あなた，やってもらえるかしら？\nM: ああ，でも，数日は流しを使えなくなるだろう。\nW: 2年前に台所を改修したばかりなのに。これは早すぎるんじゃないかしら。\nM: まあ，これは実際のところ避けられないね。おそらく，時々やらなきゃならないだろうね。"
         },
         {
           "id": "q2",
@@ -46,7 +47,8 @@
           ],
           "answer": "1",
           "explanation": "男性は2番目の発言第2文で「追加の料金がかかる」と述べ、最後の発言の第2文で「平日だけの滞在から週末をまたぐ滞在に変更しようとしている」ことを理由として述べている。これらの内容から判断すると、1「部屋の料金は週末の方が高い」が適切とわかる。2と3については、男性の2番目の発言第1文に合致しない。4の内容は述べられていない。",
-          "script": "W: Hello. I'd like to make a change to my hotel reservation.\nM: OK. What can I help with?\nW: When I made my reservation, I booked my stay for five days starting on April 15, but I need to change that to April 19.\nM: I can definitely do that. However, there will be an extra charge.\nW: Why is that?\nM: There's no charge for changing reservations. But you're shifting from a weekday-only stay to one that goes over the weekend."
+          "script": "W: Hello. I'd like to make a change to my hotel reservation.\nM: OK. What can I help with?\nW: When I made my reservation, I booked my stay for five days starting on April 15, but I need to change that to April 19.\nM: I can definitely do that. However, there will be an extra charge.\nW: Why is that?\nM: There's no charge for changing reservations. But you're shifting from a weekday-only stay to one that goes over the weekend.",
+          "scriptJa": "W: もしもし。ホテルの予約を変更したいのですが。\nM: かしこまりました。いかがいたしますか？\nW: 予約したときには，4月15日から5日間滞在する予約だったのですが，4月19日に変更する必要があるんです。\nM: もちろんそれは可能です。けれども，追加の料金がかかります。\nW: なぜですか？\nM: 予約の変更には追加料金はかかりません。でも，平日だけの滞在から週末をまたぐ滞在への変更になるからです。"
         },
         {
           "id": "q3",
@@ -61,7 +63,8 @@
           ],
           "answer": "3",
           "explanation": "男性は2番目の発言で、ひざが問題を起こさない限りは、すべてうまくいくと述べ、ひざが事故から完全に回復してはいないと述べている。したがって、3「彼のひざが問題になり得る」が正解となる。1については、女性が2番目の発言第2文で、給水所は複数あると述べたのに対して、男性は反論していないのだから不適切。2については男性の最初の発言に合致しない。4については、女性が最初の発言第2文で、男性が何カ月も準備してきたと述べたのに対して、男性は否定していないのだから不適切。",
-          "script": "W: Are you ready for your marathon this weekend? I know you've been preparing for months.\nM: Yeah. The weather forecast looks great, and I know you'll be there cheering me on.\nW: You bet. There'll be places for you to get water, but I'll also give you some energy bars.\nM: Everything will be great as long as my knee doesn't cause problems. It's feeling strong right now, but it hasn't fully recovered from my accident.\nW: If it's hurting at any point, you should stop."
+          "script": "W: Are you ready for your marathon this weekend? I know you've been preparing for months.\nM: Yeah. The weather forecast looks great, and I know you'll be there cheering me on.\nW: You bet. There'll be places for you to get water, but I'll also give you some energy bars.\nM: Everything will be great as long as my knee doesn't cause problems. It's feeling strong right now, but it hasn't fully recovered from my accident.\nW: If it's hurting at any point, you should stop.",
+          "scriptJa": "W: 今週末のマラソンの準備はできている？　あなたが何カ月も準備してきたことはわかっているけど。\nM: うん。天気予報はいいみたいだし，君は応援に来てくれるよね。\nW: もちろんよ。水を受け取れる場所はあるけれど，私がエネルギー・バーも渡すわ。\nM: 僕のひざが問題を起こさない限り，すべてうまくいくさ。今はもうよくなったけど，事故から完全に回復したわけではないんだ。\nW: どこかで痛みがでたら，やめるべきよ。"
         },
         {
           "id": "q4",
@@ -76,7 +79,8 @@
           ],
           "answer": "1",
           "explanation": "男性が最後の発言で「ケント・ストリートで迂回できる」と述べたのを受けて、女性が「それはいい考えだ」と述べていることから、1「いつもと違う道を通って帰宅する」が正解。2については、男性が最初の発言第3文で「ハイウェイ402号線は完全に避けるように」と述べているので不適切である。",
-          "script": "W: Good night, Karim. See you in the morning.\nM: Good night. Oh, you drove to the office today, right? Make sure you avoid Highway 402 completely.\nW: Why's that?\nM: Apparently, there was a major collision near Maple Boulevard.\nW: Are you serious? That's my exit.\nM: Well, you could make a detour on Kent Street instead.\nW: That's a good idea. It's a few miles longer, but it's better than sitting in traffic."
+          "script": "W: Good night, Karim. See you in the morning.\nM: Good night. Oh, you drove to the office today, right? Make sure you avoid Highway 402 completely.\nW: Why's that?\nM: Apparently, there was a major collision near Maple Boulevard.\nW: Are you serious? That's my exit.\nM: Well, you could make a detour on Kent Street instead.\nW: That's a good idea. It's a few miles longer, but it's better than sitting in traffic.",
+          "scriptJa": "W: お疲れさま，カリム。また明日。\nM: お疲れさま。そうだ，今日は職場まで車で来ていたね？　ハイウェイ402号線は絶対通らないように注意して。\nW: どうして？\nM: どうやら，メープル通りの近くで大きな衝突事故があったらしいよ。\nW: それは本当？　そこは私が使う出口よ。\nM: うーん，代わりにケント・ストリートで迂回できるだろう。\nW: それはいい考えね。数マイル遠くなるけれど，渋滞に巻き込まれるよりいいわ。"
         },
         {
           "id": "q5",
@@ -91,7 +95,8 @@
           ],
           "answer": "1",
           "explanation": "男性が2番目の発言第2文で「オンラインで、やり方のヒントがあるかどうか確認する」と述べたのに対して、女性は最後の発言第1文でそれに同意し、第2文で「うまくいくといい」と述べている。男性の発言中の how to do it とは、女性の2番目の発言第2文の「それ（洗濯機）を酢か何かで洗うべきだ」という発言を受けたもの。よって、1「洗濯機の掃除について情報を得る」が正解。3については、女性は初め、変なにおいは洗濯石けんのせいだと考えていたが、男性が「洗濯機に生えたカビ」が原因ではないかと述べ、それに同意しているのだから、不適切。2と4については、女性の最後の発言第3文から不適切とわかる。",
-          "script": "W: I don't like this laundry soap you bought. Our clothes smell strange.\nM: Are you sure it's the detergent? I think we might have mold growing in our machine.\nW: I never thought of that. Maybe we should wash it out with vinegar or something.\nM: Good idea. I'll check online and see if I can get some tips on how to do it.\nW: OK. I hope it works. I'd hate to pay a lot of money for a professional cleaner to do it, much less buy a new machine."
+          "script": "W: I don't like this laundry soap you bought. Our clothes smell strange.\nM: Are you sure it's the detergent? I think we might have mold growing in our machine.\nW: I never thought of that. Maybe we should wash it out with vinegar or something.\nM: Good idea. I'll check online and see if I can get some tips on how to do it.\nW: OK. I hope it works. I'd hate to pay a lot of money for a professional cleaner to do it, much less buy a new machine.",
+          "scriptJa": "W: あなたが買ってきたこの洗濯石けん，好きじゃないわ。洋服が変なにおいよ。\nM: 本当に洗剤のせい？　洗濯機にカビが生えている可能性があると思う。\nW: そんなこと考えてもみなかった。もしかすると，酢か何かで洗うべきかもしれない。\nM: いい考えだ。オンラインで調べて，やり方のヒントがあるかどうか確認するよ。\nW: わかった。うまくいくといいわね。そのためにプロの掃除人に高いお金を払うのは嫌だし，ましてや新しい洗濯機を買うなんてもっと嫌だわ。"
         },
         {
           "id": "q6",
@@ -106,7 +111,8 @@
           ],
           "answer": "4",
           "explanation": "男性が2番目の発言第3文で「それら（朝のクラス）に飽きたのか」と尋ねると、女性は「最近、時間がないだけだ」と答えている。よって、4「彼女はジムに行く時間がない」が正解で、1は不適切とわかる。2と3については、女性は言及していない。",
-          "script": "M: Our gym membership is expiring next month. Do you want to renew? I'm pretty sure the cost hasn't changed.\nW: I don't know. I'm there so infrequently.\nM: I haven't been there since I started running, so I'm going to let mine expire. You used to take morning classes every week. Have you gotten tired of them?\nW: I just haven't been able to find the time lately. I have all those early meetings.\nM: Well, think it over and let me know what you decide."
+          "script": "M: Our gym membership is expiring next month. Do you want to renew? I'm pretty sure the cost hasn't changed.\nW: I don't know. I'm there so infrequently.\nM: I haven't been there since I started running, so I'm going to let mine expire. You used to take morning classes every week. Have you gotten tired of them?\nW: I just haven't been able to find the time lately. I have all those early meetings.\nM: Well, think it over and let me know what you decide.",
+          "scriptJa": "M: 僕たちのジムの会員権の期限が来月切れるけど，君は更新したい？　費用が変わらないことはまず間違いない。\nW: わからない。ごくたまにしか行ってないの。\nM: 僕は，ランニングを始めてから行っていないから，切れるままにしておくつもりだ。君は以前，毎週朝のクラスを取っていたよね。飽きたのかい？\nW: 最近，時間がないだけよ。ずっと早朝の会議があって。\nM: それなら，よく考えて，決まったら教えて。"
         },
         {
           "id": "q7",
@@ -121,7 +127,8 @@
           ],
           "answer": "3",
           "explanation": "男性は最初の発言第1文で、女性に片付けるよう頼むと、女性は「今日の夜やる」と応じる。男性が2番目の発言で、午後に来客があるからと言って、共有スペースをきれいにするよう再び頼むと、女性は「次はやるから、今回だけは片付けてくれないか」と応じる。それに対して、男性は最後の発言で「いや。もう君の代わりに片付けるつもりはない」と応じている。これらのやりとりから女性が共有スペースを片付けないのは今回が初めてではないことがわかり、3「彼女は共有スペースをきれいにしておかない」が適切である。",
-          "script": "M: Dana, can you tidy up, please? Your friends left a huge mess here last night.\nW: Sure, Mark. I'll do it this evening after I get back from my chemistry class.\nM: I'm having people over to study in the living room this afternoon. I don't think it's too much to ask that we both keep the common areas clean.\nW: You know I'm busy studying for finals. Can't you just tidy up this time? I'll do it next time, I promise.\nM: No. I'm not cleaning up for you anymore."
+          "script": "M: Dana, can you tidy up, please? Your friends left a huge mess here last night.\nW: Sure, Mark. I'll do it this evening after I get back from my chemistry class.\nM: I'm having people over to study in the living room this afternoon. I don't think it's too much to ask that we both keep the common areas clean.\nW: You know I'm busy studying for finals. Can't you just tidy up this time? I'll do it next time, I promise.\nM: No. I'm not cleaning up for you anymore.",
+          "scriptJa": "M: デーナ，片付けてくれるかな？　昨晩，君の友だちがここをひどく散らかしていったんだから。\nW: もちろんよ，マーク。今夜，化学の授業から戻ったらやるつもりよ。\nM: 今日の午後，何人か呼んでリビングルームで勉強する予定なんだ。お互い，共有スペースをきれいにしておこう，というのは無理な注文じゃないよね。\nW: 私，期末試験の勉強で忙しいのよ。今回は片付けてもらえないかしら？　次はやると，約束するわ。\nM: いや。僕はもう，君の代わりに片付けるつもりはない。"
         },
         {
           "id": "q8",
@@ -136,7 +143,8 @@
           ],
           "answer": "1",
           "explanation": "男性の最初の発言第2文で「オーブンに問題があるため、ラザニアがハムサンドイッチになった」と述べていることから、1「温かい食事は提供されない」と推測できる。2については、男性の最後の発言から、今日のところはケータリング会社を変えないとわかるので不適切。3については、男性の最初の発言第3文に合致しない。4については、男性は最初の発言第1文で、時刻について述べているが、遅れがあるとは述べていないのだから、不適切である。",
-          "script": "W: Do you know what time the catering company will be bringing the food for lunch during today's workshop?\nM: At eleven, but there's been a change in the menu. The lasagna has been replaced by ham sandwiches because of a problem with their ovens. Dessert will still be vanilla ice cream.\nW: We really need to find a new catering service. We keep having these problems. Last time, they didn't even bring enough food for everyone attending.\nM: I agree. Let's get through today and then look into other companies."
+          "script": "W: Do you know what time the catering company will be bringing the food for lunch during today's workshop?\nM: At eleven, but there's been a change in the menu. The lasagna has been replaced by ham sandwiches because of a problem with their ovens. Dessert will still be vanilla ice cream.\nW: We really need to find a new catering service. We keep having these problems. Last time, they didn't even bring enough food for everyone attending.\nM: I agree. Let's get through today and then look into other companies.",
+          "scriptJa": "W: 今日の研修会中，何時にケータリング会社が昼食を持ってくるか知っている？\nM: 11時だけど，メニューに変更があった。オーブンに問題があって，ラザニアがハムサンドイッチに変更された。デザートはバニラアイスクリームのままだ。\nW: 新しいケータリング・サービスを見つける必要が本当にあるわね。こういった問題が起き続けているんだから。前回は，出席者全員に十分な食べ物すら持ってこなかったわ。\nM: 同感だ。今日を乗り切って，それから，他の会社を調べてみよう。"
         },
         {
           "id": "q9",
@@ -151,7 +159,8 @@
           ],
           "answer": "3",
           "explanation": "女性の2番目の発言で、本文の字間を変えることと、フォントサイズを12ポイントの大きさにすることを指示している。字間や文字の大きさは、論文の体裁に関することだから、3「正しい体裁に整えられていなかった」が正解。1、2、4については、述べられていない。",
-          "script": "M: Professor Kendall, I went over the comments you left on my paper. Can I ask you some clarifying questions?\nW: Sure.\nM: You said we should follow the style guide specified on the course web page. So, I looked up how to make the citations list according to those guidelines. But, from your comment, it sounds like I did something wrong?\nW: Your citations list is OK, but the body of your paper needs to be spaced differently. And the size of the font is too small. Please use 12-point size.\nM: Ah, OK. Now I understand."
+          "script": "M: Professor Kendall, I went over the comments you left on my paper. Can I ask you some clarifying questions?\nW: Sure.\nM: You said we should follow the style guide specified on the course web page. So, I looked up how to make the citations list according to those guidelines. But, from your comment, it sounds like I did something wrong?\nW: Your citations list is OK, but the body of your paper needs to be spaced differently. And the size of the font is too small. Please use 12-point size.\nM: Ah, OK. Now I understand.",
+          "scriptJa": "M: ケンダル教授，私のレポートに残してくださったコメントについて調べました。明確にするための質問をいくつかしてもいいですか？\nW: もちろん。\nM: 教授は，コースのウェブページで指定されているスタイルガイドに従うようにおっしゃいました。そこで，そのガイドラインに従って，引用リストの作り方を調べました。でも，教授のコメントからは，私が何か間違ったことをしたように思えるのですが？\nW: 引用リストには問題ありませんが，論文の本文は字間を変える必要があります。それから，フォントのサイズが小さすぎます。12ポイントの大きさを使ってください。\nM: ああ，そうですか。よくわかりました。"
         },
         {
           "id": "q10",
@@ -166,7 +175,8 @@
           ],
           "answer": "2",
           "explanation": "男性は最初の発言第3・4文で、休暇のおみやげについて職場の習慣を尋ねている。男性の2番目の発言第3文の質問も、おみやげに関連して、食べ物の制限やアレルギーがあるかどうかを尋ねている。よって、2「同僚におみやげをあげること」が正解。放送文の souvenirs を、選択肢では gifts と言い換えている。",
-          "script": "W: You're leaving on vacation soon, right?\nM: Yeah. Tomorrow is my last day in the office for two weeks! But that reminds me—what's the protocol around here for souvenirs? Am I expected to bring something for everyone? This is my first vacation since I started working here.\nW: You're so nice to ask! Some people bring back local treats and leave them in the break room for everyone to share.\nM: OK. I'll stick with food, then. Any dietary restrictions or allergies I should know about?\nW: Not that I'm aware of."
+          "script": "W: You're leaving on vacation soon, right?\nM: Yeah. Tomorrow is my last day in the office for two weeks! But that reminds me—what's the protocol around here for souvenirs? Am I expected to bring something for everyone? This is my first vacation since I started working here.\nW: You're so nice to ask! Some people bring back local treats and leave them in the break room for everyone to share.\nM: OK. I'll stick with food, then. Any dietary restrictions or allergies I should know about?\nW: Not that I'm aware of.",
+          "scriptJa": "W: もうすぐ休暇に出発するのですよね？\nM: ええ。明日は2週間不在になる前の最後の出勤日です！　それで思い出しましたが──おみやげに関して，ここの習慣はどんなものですか？　皆さんに何か持ってくることを期待されているのでしょうか？　ここで働き始めてから最初の休暇なので。\nW: よくぞ聞いてくれました！　その土地のお菓子を持ち帰って，みんなが分け合えるように休憩室に置く人もいるわね。\nM: わかりました。それでは，食べ物にしておきます。知っておくべき食べ物の制限やアレルギーはありますか？\nW: 私が知る限りでは，ないわ。"
         },
         {
           "id": "q11",
@@ -181,7 +191,8 @@
           ],
           "answer": "2",
           "explanation": "男性は最初の発言で、ペイリンに会えてよかったと述べたあと、建物に入れないことを説明して、ペイリンに向かってキーコードを知っているかと尋ねている。したがって、2「彼は彼女がドアを開けられると期待していた」が正解。1については、男性の発言から、会議に参加しようとしていることがわかるので、誤り。3と4については、女性の発言に関連しているが、男性は言及していない。",
-          "script": "M: Ah, Pei-Ling, I'm glad to see you! I can't get into the building, and our meeting is about to start. Do you know the keycode?\nW: Oh no. I don't have the code either. I'm surprised it's locked. I thought there were night classes in this building.\nM: Me, too. I wonder if the others were able to get in or if they're also locked out but at a different entrance.\nW: I'll text Kayla. She made the arrangements for the meeting space with the university administrators. She'll know what to do."
+          "script": "M: Ah, Pei-Ling, I'm glad to see you! I can't get into the building, and our meeting is about to start. Do you know the keycode?\nW: Oh no. I don't have the code either. I'm surprised it's locked. I thought there were night classes in this building.\nM: Me, too. I wonder if the others were able to get in or if they're also locked out but at a different entrance.\nW: I'll text Kayla. She made the arrangements for the meeting space with the university administrators. She'll know what to do.",
+          "scriptJa": "M: ああ，ペイリン，会えてよかった！　建物に入れないんだ，会議はもう始まるところなのに。キーコードを知っている？\nW: あら，困ったわ。私もコードを持っていないわ。鍵がかかっているなんて驚いたわ。この建物では夜間クラスがあると思っていたのに。\nM: 僕もだ。他の人たちは入れたのだろうか，それとも違う入り口で閉め出されているのだろうか。\nW: ケイラにメールしてみる。彼女が会議の場所について大学の管理者と打ち合わせをしたんだから。彼女ならどうしたらいいか知っているはずよ。"
         },
         {
           "id": "q12",
@@ -196,7 +207,8 @@
           ],
           "answer": "4",
           "explanation": "女性が2番目の発言第2文で、男性に対して、「市役所での過去の職務経験から、貴重な視点をもたらしてくれる」と述べている。この内容から、4「以前に地方自治体で働いていた」が適切とわかる。放送文の the city government を、選択肢では the local government と言い換えている。",
-          "script": "W: Will you be joining us for the neighborhood meeting on Friday afternoon, Russell?\nM: Unfortunately, I don't think so. My kid's school doesn't have an after-school program, so I have to pick her up at four o'clock sharp.\nW: That's too bad. You bring such a valuable perspective with your past work experience in the city government.\nM: I could come late, but I don't know how long I'd be able to stay. My daughter will get impatient—she's only six.\nW: Maybe we should consider providing childcare for our meetings. Then, more neighbors with children might come."
+          "script": "W: Will you be joining us for the neighborhood meeting on Friday afternoon, Russell?\nM: Unfortunately, I don't think so. My kid's school doesn't have an after-school program, so I have to pick her up at four o'clock sharp.\nW: That's too bad. You bring such a valuable perspective with your past work experience in the city government.\nM: I could come late, but I don't know how long I'd be able to stay. My daughter will get impatient—she's only six.\nW: Maybe we should consider providing childcare for our meetings. Then, more neighbors with children might come.",
+          "scriptJa": "W: ラッセル，金曜日の午後，近隣住民の会合に参加してもらえそう？\nM: 残念だけど，参加しないと思う。うちの子どもの学校には放課後プログラムがないから，4時ちょうどに娘を迎えに行かなければならないんだ。\nW: それは残念。あなたは市役所での過去の職務経験から，とても貴重な視点をもたらしてくれるのに。\nM: 遅れてなら来ることができるかもしれないけれど，どのくらいいられるかわからない。娘が我慢できなくなるだろう──まだ6歳だからね。\nW: 会合に託児サービスを提供することを検討すべきかもしれないわね。そうすれば，子どものいる住民がもっと来られるかもしれない。"
         }
       ]
     },
