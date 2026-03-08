@@ -459,7 +459,8 @@
           ],
           "answer": "2",
           "explanation": "天気が回復したためヨガの場所がスタジオからサンデッキに変更されたことが述べられている。よって、2「サンデッキ」が正解。",
-          "script": "Good morning, passengers. We have updates regarding today's activities. First, as the weather has cleared up, the 10:00 a.m. yoga class has been moved from the studio to the Sun Deck, where you can enjoy the sea breeze. Next, the trivia challenge in the Grand Lounge will begin as scheduled at 2:00 p.m. There has, however, been a time change for the cooking demonstration; it will begin at 11:30 a.m. in the Paradise Lounge. Finally, the jazz performance at 9:00 p.m. will take place on the covered Rear Deck, as rain is forecasted for tonight. We apologize for any inconvenience."
+          "script": "Good morning, passengers. We have updates regarding today's activities. First, as the weather has cleared up, the 10:00 a.m. yoga class has been moved from the studio to the Sun Deck, where you can enjoy the sea breeze. Next, the trivia challenge in the Grand Lounge will begin as scheduled at 2:00 p.m. There has, however, been a time change for the cooking demonstration; it will begin at 11:30 a.m. in the Paradise Lounge. Finally, the jazz performance at 9:00 p.m. will take place on the covered Rear Deck, as rain is forecasted for tonight. We apologize for any inconvenience.",
+          "scriptJa": "ご乗船の皆様、おはようございます。本日のアクティビティに関する最新情報をお知らせします。初めに、天候が回復し晴れましたので、午前10時のヨガクラスの場所がスタジオから、海風を楽しめるサンデッキに変更されました。次に、グランドラウンジでのクイズチャレンジは、予定通り午後2時に開始いたします。ただし、料理の実演につきましては時間変更がございます。パラダイスラウンジにて午前11時30分に始まります。最後に、午後9時のジャズ演奏は今夜雨が降ると予報されておりますので、屋根付きのリアデッキにて行います。ご不便をおかけして申し訳ございません。"
         },
         {
           "id": "q26",
@@ -476,7 +477,8 @@
           ],
           "answer": "2",
           "explanation": "ハリバートン通りでは北側から空港に行くと遅延するので不適。9号線は事故により閉鎖されているので不適。アップルトン大通りは工事の車線規制があるが比較的交通が流れている。リージェントパークウェイは市内中心部からの道であり、北側からではない。よって、2「アップルトン大通り」が正解。",
-          "script": "This is the WJTX traffic report. I'm afraid there are some problems around Branagh Airport today. Conditions are smooth on Haliburton Road coming from the south, but drivers heading in from the north end will face delays. If you're coming from there, traffic on Highway 9 is completely blocked due to a collision. However, although there are lane restrictions due to construction on Appleton Boulevard, traffic there is only slightly slower than usual. From the city center, there are delays on Dundas Road, so it's advisable to make a slight detour using Regent Parkway, which is relatively clear right now."
+          "script": "This is the WJTX traffic report. I'm afraid there are some problems around Branagh Airport today. Conditions are smooth on Haliburton Road coming from the south, but drivers heading in from the north end will face delays. If you're coming from there, traffic on Highway 9 is completely blocked due to a collision. However, although there are lane restrictions due to construction on Appleton Boulevard, traffic there is only slightly slower than usual. From the city center, there are delays on Dundas Road, so it's advisable to make a slight detour using Regent Parkway, which is relatively clear right now.",
+          "scriptJa": "WJTX交通情報です。あいにく本日はブラナー空港周辺でいくつか問題があります。ハリバートン通りでは南側からの流れはスムーズですが、北側から向かう方は遅延の恐れがあります。そちらから来る場合、9号線は衝突事故のため完全に通行止めとなっています。しかし、アップルトン大通りでは工事のため車線規制がありますが、交通の流れは通常よりわずかに遅い程度です。市の中心部からは、ダンダス通りで渋滞があるため、現在比較的空いているリージェントパークウェイを通って少し迂回することをお勧めします。"
         },
         {
           "id": "q27",
@@ -493,7 +495,8 @@
           ],
           "answer": "3",
           "explanation": "第3文に「花のイラストは可愛らしいが、競合他社の製品に比べると洗練さに欠ける」とあることから、花のイラストを変更した方が良いことがわかる。したがって、3「花のイラスト」が正解。ボトルの形については「現代的で魅力的」と肯定的に評価されている。",
-          "script": "The most notable feature of your hand cream is that it really stands out on the shelf. The striking, unique font used for the product name catches customers' eyes, and the black-and-white colors of the box give it a very bold image. The flower illustration is adorable, but it's lacking in sophistication compared with some of your competitors' products. As for the shape of the bottle, it's very contemporary and attractive, although the production costs of such a unique design must be rather high."
+          "script": "The most notable feature of your hand cream is that it really stands out on the shelf. The striking, unique font used for the product name catches customers' eyes, and the black-and-white colors of the box give it a very bold image. The flower illustration is adorable, but it's lacking in sophistication compared with some of your competitors' products. As for the shape of the bottle, it's very contemporary and attractive, although the production costs of such a unique design must be rather high.",
+          "scriptJa": "御社のハンドクリームの最も顕著な特徴は、商品棚上でとても目立つことです。商品名に使われている魅力的で独特なフォントが顧客の目を引きつけ、箱の黒と白の色が非常に大胆な印象を与えています。花のイラストは可愛らしいですが、競合他社の製品のいくつかと比較して洗練さに欠けます。ボトルの形状については、非常に現代的で魅力的です。ただし、このような独特なデザインの生産コストはかなり高いはずです。"
         },
         {
           "id": "q28",
@@ -510,7 +513,8 @@
           ],
           "answer": "1",
           "explanation": "第3文に「すでに済ませた申請に関しての連絡を受けて電話した場合は『1』を押す」ように指示がある。これは「パスポートを申請した後、窓口から追加情報を求める手紙を受け取った」という状況に合致する。よって、1「『1』を押す」が正解。",
-          "script": "Thank you for calling the passport office. Please note that due to the large number of applications currently being processed, it may take eight to ten weeks to receive your passport. If you are calling because you've been contacted by us regarding your application, press 1. If you are calling about the requirements for a new passport application, please press 2. To find out the progress of an ongoing application, press 3. For all other inquiries, please press 4. Our operators are currently very busy, so it may take some time to connect you."
+          "script": "Thank you for calling the passport office. Please note that due to the large number of applications currently being processed, it may take eight to ten weeks to receive your passport. If you are calling because you've been contacted by us regarding your application, press 1. If you are calling about the requirements for a new passport application, please press 2. To find out the progress of an ongoing application, press 3. For all other inquiries, please press 4. Our operators are currently very busy, so it may take some time to connect you.",
+          "scriptJa": "パスポート申請窓口にお電話いただきありがとうございます。現在多数の申請が処理されているため、パスポート受け取りまでに8週間から10週間かかる場合がありますのでご了承ください。申請に関して当窓口から連絡を受けたためにお電話された場合は「1」を押してください。新規パスポート申請の条件についてお問い合わせの場合は「2」を押してください。現在申請手続き中の進捗状況をお知りになりたい場合は「3」を押してください。それ以外のすべてのお問い合わせについては「4」を押してください。現在オペレーターが対応に追われているため、つながるまでに時間がかかる場合があります。"
         },
         {
           "id": "q29",
@@ -527,7 +531,8 @@
           ],
           "answer": "2",
           "explanation": "購入条件は「高品質」「予算300ドル以内」「非会員」。オムニパワーは非会員500ドルで予算超過。ドリルレジェンドは高品質で、現在は非会員でも280ドルで販売中。パワーP3は320ドルで予算超過。ビットプラスは230ドルだが品質が劣る。よって、2「ドリルレジェンド」が正解。",
-          "script": "The Omni-Power is top-of-the-line and can handle almost any job. It's $500 for nonmembers and $450 for members. Next up, the Drill Legend is a quality drill that will deal with most building jobs. It's usually $350 but is currently offered at $280 for members and nonmembers. Next, we have the Power P3. It's $320, and like the Drill Legend, it's solid and durable. Finally, this is the Bit Plus. It's suitable for simple DIY tasks and only costs $230, but it can't match the others in terms of quality or durability."
+          "script": "The Omni-Power is top-of-the-line and can handle almost any job. It's $500 for nonmembers and $450 for members. Next up, the Drill Legend is a quality drill that will deal with most building jobs. It's usually $350 but is currently offered at $280 for members and nonmembers. Next, we have the Power P3. It's $320, and like the Drill Legend, it's solid and durable. Finally, this is the Bit Plus. It's suitable for simple DIY tasks and only costs $230, but it can't match the others in terms of quality or durability.",
+          "scriptJa": "オムニパワーは最高級品で、ほとんどすべての作業に対応できます。非会員は500ドル、会員は450ドルです。次に、ドリルレジェンドは、ほとんどの建築作業に対応できる高品質のドリルです。通常は350ドルですが、現在は会員、非会員ともに280ドルで提供されています。続いてはパワーP3です。価格は320ドルで、ドリルレジェンドと同様に頑丈で耐久性があります。最後に、これはビットプラスです。簡単なDIY作業に適しており、価格はたったの230ドルですが、品質や耐久性の点では他の製品に及びません。"
         }
       ]
     }
