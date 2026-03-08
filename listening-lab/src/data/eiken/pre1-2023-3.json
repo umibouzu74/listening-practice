@@ -31,7 +31,8 @@
           ],
           "answer": "2",
           "explanation": "最初の男性の発言「どうしたの」に対する女性の返事に注目する。「記事を書くことが大幅に遅れている」「明日の締め切りに間に合うかわからない」とあることから、2「彼女は記事を時間内に終わらせられないかもしれない」が正解。way behind は「大幅に遅れて」の意。その部分が聞き取れなくても、I'm not sure I can make tomorrow's deadline. がより直接的な表現である。",
-          "script": "M: You look really stressed. What's up?\nW: I'm way behind on writing this article about American composers. I'm not sure I can make tomorrow's deadline.\nM: Let me give you a hand.\nW: Really? That'd be fantastic. Thanks.\nM: Not a problem. I've been in your situation before.\nW: Would you mind doing some fact-checking? I need to confirm my sources.\nM: Not at all. Just let me read the draft first, and then I'll get on it."
+          "script": "M: You look really stressed. What's up?\nW: I'm way behind on writing this article about American composers. I'm not sure I can make tomorrow's deadline.\nM: Let me give you a hand.\nW: Really? That'd be fantastic. Thanks.\nM: Not a problem. I've been in your situation before.\nW: Would you mind doing some fact-checking? I need to confirm my sources.\nM: Not at all. Just let me read the draft first, and then I'll get on it.",
+          "scriptJa": "M: すごくストレスを感じているようだね。どうしたの？\nW: アメリカの作曲家に関するこの記事を書いているんだけど，大幅に遅れてるの。明日の締め切りに間に合うかわからないのよ。\nM: ぼくにも手伝わせてよ。\nW: 本当に？　それはすごく助かる。ありがとう。\nM: いいよ。ぼくも以前同じ状況だったから。\nW: 事実確認をいくつかしてくれる？　情報源を確認する必要があるの。\nM: もちろん。まずは下書きを読ませて。それから取りかかるよ。"
         },
         {
           "id": "q2",
@@ -46,7 +47,8 @@
           ],
           "answer": "3",
           "explanation": "2番目の男性の発言に To be honest とあり、「正直に言って」の意で何かを相手に打ち明けるときの表現である。その次に「もう大学には行きたくないと思っている」と述べられているので、3「彼は大学に行くことへの興味を失っている」が正解。",
-          "script": "W: Jared, I got a phone call from your homeroom teacher today. She's concerned about your grades this term.\nM: I thought I did OK.\nW: That was her point. Your grades are usually excellent, but they're only average this term. She said you won't be able to get into a good college if you don't make more of an effort.\nM: To be honest, I don't think I want to go to college anymore.\nW: What? That's the first time I've heard about it. We'll talk about this more when your father gets home."
+          "script": "W: Jared, I got a phone call from your homeroom teacher today. She's concerned about your grades this term.\nM: I thought I did OK.\nW: That was her point. Your grades are usually excellent, but they're only average this term. She said you won't be able to get into a good college if you don't make more of an effort.\nM: To be honest, I don't think I want to go to college anymore.\nW: What? That's the first time I've heard about it. We'll talk about this more when your father gets home.",
+          "scriptJa": "W: ジャレッド，今日担任の先生から電話があったわよ。今学期の成績が気になるって。\nM: 大丈夫だと思ってたんだけどなあ。\nW: そこが先生が言っていたことよ。あなたの成績は普段はすばらしいけど，今学期は平均しかないじゃない。もっと努力しないと良い大学には入れないって言ってたわよ。\nM: 正直言って，もう大学には行きたくないと思ってるんだ。\nW: 何ですって？　それは初めて聞いたわよ。お父さんが帰って来たら，このことをもっと話し合いましょう。"
         },
         {
           "id": "q3",
@@ -61,7 +63,8 @@
           ],
           "answer": "2",
           "explanation": "男性の最初の発言に「破産」とあることから、心配の内容が金銭面に関することであると予測できる。2番目の男性の発言に「新しいヘルメット、グローブ、パッドをずっと買う予定」とあることから、2「スポーツ用品の費用」が正解。3「アイスホッケーの危険性」については女性の発言に「もっと安全であればいいのに」とあるが、男性は「少しの傷や打撲には対処できる」と述べており、男性の心配ごとにはならないので不適。",
-          "script": "M: Why did we ever encourage Jacob to play ice hockey? It's going to make us bankrupt.\nW: I know it's not as cheap as we expected, but he loves it. I just wish it was safer.\nM: A few scrapes and bruises I can handle, but he keeps growing out of his skates, and it seems like we're constantly buying new helmets, gloves, and padding.\nW: You know, when he's grown up and has left home, we'll miss worrying over these little things."
+          "script": "M: Why did we ever encourage Jacob to play ice hockey? It's going to make us bankrupt.\nW: I know it's not as cheap as we expected, but he loves it. I just wish it was safer.\nM: A few scrapes and bruises I can handle, but he keeps growing out of his skates, and it seems like we're constantly buying new helmets, gloves, and padding.\nW: You know, when he's grown up and has left home, we'll miss worrying over these little things.",
+          "scriptJa": "M: どうしてジェイコブにアイスホッケーをやるよう勧めちゃったんだろう？　破産しそうだよ。\nW: 思っていたよりも安くないけど，彼はそれが大好きよ。もっと安全だったらいいのにね。\nM: 少しの傷や打撲ならみてやれるけど，彼は大きくなり続けてスケート靴が入らなくなっているし，ずっと新しいヘルメットやグローブ，パッドを買うことになるみたいだよ。\nW: まあまあ，彼が大人になって家を出ていったら，こういう小さな心配ごとが恋しくなるわよ。"
         },
         {
           "id": "q4",
@@ -76,7 +79,8 @@
           ],
           "answer": "1",
           "explanation": "最初の男性の発言から、男性の要望は「返金してほしい」ということである。店員は繰り返し男性の要望を断っている。男性がいら立っている原因は返金できないことにあるため、1「返金してもらえないから」が正解。男性の発言にある my money back が、選択肢では get a refund に言い換えられている。",
-          "script": "M: I bought this watch here two months ago, but it has stopped working. I'd like my money back, please.\nW: I'm very sorry, but that's not possible. We can replace the watch for you.\nM: But it's still under warranty.\nW: Even so, it's store policy, I'm afraid. It's also stated on the warranty.\nM: That wasn't made clear to me when I bought the watch.\nW: I'm sorry, sir, but there's nothing else I can do.\nM: Well, I guess I don't have a choice, but I won't be shopping here again."
+          "script": "M: I bought this watch here two months ago, but it has stopped working. I'd like my money back, please.\nW: I'm very sorry, but that's not possible. We can replace the watch for you.\nM: But it's still under warranty.\nW: Even so, it's store policy, I'm afraid. It's also stated on the warranty.\nM: That wasn't made clear to me when I bought the watch.\nW: I'm sorry, sir, but there's nothing else I can do.\nM: Well, I guess I don't have a choice, but I won't be shopping here again.",
+          "scriptJa": "M: 2カ月前にここでこの時計を買ったのですが，動かなくなってしまいました。返金していただきたいのですが。\nW: 申し訳ございませんが，それはできかねます。時計を交換することは可能ですが。\nM: でも，まだ保証期間内ですよ。\nW: それでも，申し訳ございませんが店の規則ですので。保証書にもそのように記載されております。\nM: それは，購入時にはちゃんと説明されなかったのですが。\nW: 申し訳ございませんが，これ以上のことはできかねます。\nM: やれやれ，仕方ないですが，もうここで買い物はしませんからね。"
         },
         {
           "id": "q5",
@@ -91,7 +95,8 @@
           ],
           "answer": "2",
           "explanation": "2番目の女性の発言に「かなり激しく雪が降った」「代わりにそり遊びをした」とあり、サイクリングに行けなかった理由に雪が関わっていることがわかる。したがって、2「雪が多すぎた」が正解。",
-          "script": "M: How was your trip? I heard you rented a cabin in the mountains.\nW: It was fun, but the weather was really changeable.\nM: Did you at least get to enjoy the outdoors?\nW: We did. We wanted to rent bikes and go cycling one day, but it snowed pretty heavily, so we went sledding instead.\nM: Did it stay cold?\nW: No. A few days later, the temperature rose so much we wore T-shirts and shorts when we went fishing."
+          "script": "M: How was your trip? I heard you rented a cabin in the mountains.\nW: It was fun, but the weather was really changeable.\nM: Did you at least get to enjoy the outdoors?\nW: We did. We wanted to rent bikes and go cycling one day, but it snowed pretty heavily, so we went sledding instead.\nM: Did it stay cold?\nW: No. A few days later, the temperature rose so much we wore T-shirts and shorts when we went fishing.",
+          "scriptJa": "M: 旅行はどうだった？　山でキャビンを借りたって聞いたよ。\nW: 楽しかったけど，天気がとても変わりやすかったのよ。\nM: せめてアウトドアは楽しめたかい？\nW: ええ。一日自転車を借りてサイクリングに行きたかったんだけど，かなり激しく雪が降ったから，代わりにそり遊びをしたの。\nM: その後も寒かった？\nW: いいえ。数日後には気温がかなり上がったから，釣りに行ったときはTシャツとショートパンツを着ていたわ。"
         },
         {
           "id": "q6",
@@ -106,7 +111,8 @@
           ],
           "answer": "4",
           "explanation": "2番目の女性の発言にある as long as に注目する。「彼が新しい方針を導入しようとしない限りは」とあり、その目的が「ただ自分が責任者であることを示すため」であると述べている。また「新しいマネージャーが外部から来たときにたいてい起こることだ」とも言っている。4「新しいマネージャーが不要な変更を行うかもしれない」が正解。",
-          "script": "W: Have you met the new head of the department yet? I've heard he's been criticizing the way we do things on the team.\nM: I had a meeting with him yesterday, actually. He had some good ideas for improving our efficiency.\nW: Well, as long as he doesn't try to introduce new policies just to show he's in charge. That's usually what happens when new managers come in from outside.\nM: True, but you have to admit there's room for improvement, and I'm sure he'll get the team's input before deciding anything.\nW: I hope you're right."
+          "script": "W: Have you met the new head of the department yet? I've heard he's been criticizing the way we do things on the team.\nM: I had a meeting with him yesterday, actually. He had some good ideas for improving our efficiency.\nW: Well, as long as he doesn't try to introduce new policies just to show he's in charge. That's usually what happens when new managers come in from outside.\nM: True, but you have to admit there's room for improvement, and I'm sure he'll get the team's input before deciding anything.\nW: I hope you're right.",
+          "scriptJa": "W: 新しい部門長にはもう会った？　彼は私たちのチームのやり方を批判していると聞いたけど。\nM: 実は昨日，彼と会議をしたんだ。効率を良くするいいアイデアをいくつか持っていたよ。\nW: まあ，自分が責任者だってことを示すためだけに，彼が新しい方針を導入しようとしなければいいけどね。外部から新しいマネージャーが来ると，普通そうなるものだから。\nM: 確かにね。だけど改善の余地があることは認めなきゃいけないし，彼は何かを決める前にきっとチームの意見を聞いてくれると思うよ。\nW: そうだといいわね。"
         },
         {
           "id": "q7",
@@ -121,7 +127,8 @@
           ],
           "answer": "2",
           "explanation": "男性の2番目の発言で「面接官は質問に対する自分の答えが気に入らないようだった」「自分の経験がいかに彼らのニーズに合っていないかを指摘し続けた」と述べていることから、2「面接官は彼に感銘を受けていないようだった」が正解。",
-          "script": "M: I've been invited to a second job interview at Palmer Group.\nW: Really? I thought you'd given up on them.\nM: I had. The guy didn't seem to like my answers to his questions at the first interview, and he kept pointing out how my experience didn't fit their needs.\nW: Are you planning on going to the second interview?\nM: I'm not sure. I doubt I'd take a job there unless they suddenly became a lot more enthusiastic about me.\nW: Well, it couldn't hurt. Maybe someone different will talk to you."
+          "script": "M: I've been invited to a second job interview at Palmer Group.\nW: Really? I thought you'd given up on them.\nM: I had. The guy didn't seem to like my answers to his questions at the first interview, and he kept pointing out how my experience didn't fit their needs.\nW: Are you planning on going to the second interview?\nM: I'm not sure. I doubt I'd take a job there unless they suddenly became a lot more enthusiastic about me.\nW: Well, it couldn't hurt. Maybe someone different will talk to you.",
+          "scriptJa": "M: パーマーグループから2次面接を案内されたんだ。\nW: 本当？　そこは諦めたんだと思ってた。\nM: そうだよ。1次面接では，面接官は質問に対する僕の答えが気に入らなかったみたいで，僕の経験がいかに彼らのニーズに合っていないかを指摘し続けたからね。\nW: 2次面接には行くつもりなの？\nM: まだわからないな。彼らが急に僕についてもっと乗り気にならなかったら，そこで働くことはないと思うし。\nW: 行って損はないんじゃない？　別の人が話をするかもしれないじゃない。"
         },
         {
           "id": "q8",
@@ -136,7 +143,8 @@
           ],
           "answer": "3",
           "explanation": "3番目の女性の発言に「監視カメラをいくつか設置する」というアイデアがあり、続く男性の発言もそれに賛成しているので、3「ビデオ監視を設置する」が正解。女性の発言にある security cameras が選択肢では video surveillance に言い換えられている。",
-          "script": "M: What happened to the plants in the front yard? Half of them have been dug up.\nW: I think it was the neighbor's dog. It's always getting loose, and Josh from across the road said he saw it in our yard this morning.\nM: We should go next door and say something.\nW: You're right, but we don't have any proof the dog did it.\nM: What do you suggest, then? I spent ages making that flowerbed look nice.\nW: We could get some security cameras in case it happens again.\nM: Good idea. I'll look into it."
+          "script": "M: What happened to the plants in the front yard? Half of them have been dug up.\nW: I think it was the neighbor's dog. It's always getting loose, and Josh from across the road said he saw it in our yard this morning.\nM: We should go next door and say something.\nW: You're right, but we don't have any proof the dog did it.\nM: What do you suggest, then? I spent ages making that flowerbed look nice.\nW: We could get some security cameras in case it happens again.\nM: Good idea. I'll look into it.",
+          "scriptJa": "M: 前庭の植物はどうしたの？　半分が掘り返されているじゃないか。\nW: お隣の犬だと思うの。いつも逃げ出していて，今朝私たちの庭にいるのを向かいのジョシュが見たって言ってたから。\nM: お隣さんに言いに行くべきだね。\nW: そうね，でも犬がやったっていう証拠は何もないのよ。\nM: じゃあどうすればいいんだい？　あの花壇をきれいにするのに，すごく時間をかけたっていうのに。\nW: 同じことがまた起こるといけないから，監視カメラをいくつか設置するといいかもしれないわね。\nM: いい考えだね。調べてみるよ。"
         },
         {
           "id": "q9",
@@ -151,7 +159,8 @@
           ],
           "answer": "1",
           "explanation": "女性の2番目の発言に「ホテルのお得情報があるオンライン予約サイトを知っている」とあり、3番目の発言に「あなたにリンクをEメールで送る」とあることから、1「ウェブサイトの情報を送る」が正解。e-mail は動詞で「〜をEメールで送る」の意。",
-          "script": "W: How's the planning going for your trip to Italy?\nM: OK, but I'm having trouble finding hotels within my budget. The flights cost more than I expected, so I need to watch what I spend.\nW: Actually, I know an online booking site that has some great deals on hotels.\nM: That sounds like just what I need. Is it reliable?\nW: Well, I used it when I went to Spain last year and didn't have any problems. I'll e-mail you the link.\nM: Thanks."
+          "script": "W: How's the planning going for your trip to Italy?\nM: OK, but I'm having trouble finding hotels within my budget. The flights cost more than I expected, so I need to watch what I spend.\nW: Actually, I know an online booking site that has some great deals on hotels.\nM: That sounds like just what I need. Is it reliable?\nW: Well, I used it when I went to Spain last year and didn't have any problems. I'll e-mail you the link.\nM: Thanks.",
+          "scriptJa": "W: イタリア旅行の計画はどう？\nM: まあまあかな。でも，予算内でホテルを見つけるのに苦労しているんだ。飛行機代が予想以上に高かったから，出費に注意しなくちゃいけなくて。\nW: だったら，ホテル代がすごく安くなるオンライン予約サイトを知ってるわよ。\nM: それこそ僕が必要としているものだよ。そのサイトは信頼できるのかい？\nW: そうね，去年スペインに行ったときに使ったけど，何の問題もなかったわよ。リンクをメールで送るわね。\nM: ありがとう。"
         },
         {
           "id": "q10",
@@ -166,7 +175,8 @@
           ],
           "answer": "1",
           "explanation": "女性の2番目の発言に「昨日が期限だった報告書について」とあるのに対して、男性の2番目の発言に「明日が締め切りだと思っていた」とある。女性の3番目の発言で「スケジュールによると昨日が期限だった」とあることから、1「締め切りを逃してしまった」が正解。yesterday, tomorrow, deadline, schedule といったキーワードをしっかり聞き取ること。",
-          "script": "W: George, the boss is looking for you, and she doesn't look happy.\nM: Really? I wonder what the problem is.\nW: She said something about a report that was due yesterday.\nM: The sales figures for the Mackenzie account? But I thought the deadline for that was tomorrow.\nW: Let me check. No, according to the schedule, it was due yesterday.\nM: Oh. I must have got the days mixed up. I'll go and see her now.\nW: Good luck!"
+          "script": "W: George, the boss is looking for you, and she doesn't look happy.\nM: Really? I wonder what the problem is.\nW: She said something about a report that was due yesterday.\nM: The sales figures for the Mackenzie account? But I thought the deadline for that was tomorrow.\nW: Let me check. No, according to the schedule, it was due yesterday.\nM: Oh. I must have got the days mixed up. I'll go and see her now.\nW: Good luck!",
+          "scriptJa": "W: ジョージ，ボスがあなたを探しているわ。あまり機嫌が良さそうじゃないけど。\nM: 本当？　何か問題でもあったのかな。\nW: 昨日が期限だった報告書のことを言ってたわよ。\nM: マッケンジー社との取引の売上数字のことかい？　締め切りは明日だと思ってたんだけど。\nW: ちょっと確認するわね。いいえ，スケジュールだと昨日が期限になってたわよ。\nM: しまった。日付を混同しちゃったんだな。今すぐ彼女に会いに行くよ。\nW: がんばって！"
         },
         {
           "id": "q11",
@@ -181,7 +191,8 @@
           ],
           "answer": "4",
           "explanation": "女性の2番目と3番目の発言に「政府の上層部が何年も国民に嘘をついていた」「関与していた政治家を30人以上名指しした」とあることから、4「それは不正な政治家を暴露した」が正解。発言の name「名指しする」が reveal「暴露する」に言い換えられている。選択肢1について、女性の発言で claimed という単語が聞き取れるが、「間違った主張をした」とは述べられていないため不適。",
-          "script": "W: Did you see that documentary last night about corruption in the government?\nM: No, but I heard it was pretty shocking.\nW: It was. It claimed senior members of the government had been lying to the public for years, and it gave pretty convincing evidence, too.\nM: That's nothing new. Governments always keep things from the public.\nW: Yes, but usually when it's necessary to protect people. This was just to help politicians get rich, and the documentary named more than 30 politicians who were involved.\nM: It sounds like I should watch it."
+          "script": "W: Did you see that documentary last night about corruption in the government?\nM: No, but I heard it was pretty shocking.\nW: It was. It claimed senior members of the government had been lying to the public for years, and it gave pretty convincing evidence, too.\nM: That's nothing new. Governments always keep things from the public.\nW: Yes, but usually when it's necessary to protect people. This was just to help politicians get rich, and the documentary named more than 30 politicians who were involved.\nM: It sounds like I should watch it.",
+          "scriptJa": "W: 昨夜やってた政府の汚職についてのドキュメンタリーを見た？\nM: いや，見てない。でもかなり衝撃的なものだって聞いたよ。\nW: そうだったわ。政府の上層部が何年も国民に嘘をついていたと主張している内容で，かなり説得力のある証拠も示していたのよ。\nM: そんなのいつものことだよ。政府っていうのは常に国民に何かを隠しているからね。\nW: そうね。でも通常は人々を守るために必要なときの話だから。でも今回のは政治家たちがお金持ちになるのを助けるためだけのもので，ドキュメンタリーでは関与していた政治家を30人以上名指ししていたの。\nM: それは見たほうが良さそうだね。"
         },
         {
           "id": "q12",
@@ -196,7 +207,8 @@
           ],
           "answer": "3",
           "explanation": "女性の考えとは「いとこと同じように1年間ワーキングホリデーをやってみること」である。男性の3番目の発言に How exciting! とあり肯定的にとらえていることがわかる。「それが将来のことについて決心するのに役立つだろう」とあることから、3「それが彼女が何をしたいのか決めるのに役立つ」が正解。",
-          "script": "M: Have you submitted your university applications yet, Erin?\nW: No. To be honest, I'm not sure I want to go now.\nM: But I thought you had your mind set on studying law.\nW: Yes, but only because that's what my parents want me to do. My cousin took a working holiday in Australia for a year, and he said it was a great experience. I'm considering doing the same.\nM: How exciting! I'm sure that would help you make up your mind about your future.\nW: Right. I think I'll talk to my parents about it tonight.\nM: Good luck."
+          "script": "M: Have you submitted your university applications yet, Erin?\nW: No. To be honest, I'm not sure I want to go now.\nM: But I thought you had your mind set on studying law.\nW: Yes, but only because that's what my parents want me to do. My cousin took a working holiday in Australia for a year, and he said it was a great experience. I'm considering doing the same.\nM: How exciting! I'm sure that would help you make up your mind about your future.\nW: Right. I think I'll talk to my parents about it tonight.\nM: Good luck.",
+          "scriptJa": "M: もう大学の願書は提出したかい，エリン？\nW: いいえ。正直なところ，今は大学に行きたいかどうかわからないのよ。\nM: でも，君は法律を学ぼうと心に決めているんだと思ってたんだけどな。\nW: そうだけど，それは両親が私にそうしてほしいと思っているからというだけのことなの。いとこがオーストラリアで1年間ワーキングホリデーをして，それがすごく良い経験だったと言ってたの。私も同じことをやってみようかと考えているのよ。\nM: すごく楽しそうだね！　将来のことについて決心がつくのにきっと役立つんじゃないかな。\nW: そうね。今夜，両親にそのことを話そうと思ってる。\nM: がんばってね。"
         }
       ]
     },
