@@ -10,8 +10,11 @@ import eikenPre120232 from "./eiken/pre1-2023-2.json";
 import eikenPre120233 from "./eiken/pre1-2023-3.json";
 import eikenPre120241 from "./eiken/pre1-2024-1.json";
 import eikenPre120242 from "./eiken/pre1-2024-2.json";
+import eikenPre120243 from "./eiken/pre1-2024-3.json";
+import eikenPre120251 from "./eiken/pre1-2025-1.json";
+import eikenPre120252 from "./eiken/pre1-2025-2.json";
 
-const examSets = [eikenPre120221, eikenPre120222, eikenPre120223, eikenPre120231, eikenPre120232, eikenPre120233, eikenPre120241, eikenPre120242];
+const examSets = [eikenPre120221, eikenPre120222, eikenPre120223, eikenPre120231, eikenPre120232, eikenPre120233, eikenPre120241, eikenPre120242, eikenPre120243, eikenPre120251, eikenPre120252];
 
 // examType ごとにグルーピングしたマップを構築
 function buildRegistry() {
