@@ -22,193 +22,193 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2025-1/02_No01.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the woman ask the man to do?",
           "choices": [
             { "label": "1", "text": "Help her contact clients." },
             { "label": "2", "text": "Take on more projects." },
             { "label": "3", "text": "Add her to e-mails." },
             { "label": "4", "text": "Leave notes on her desk." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "女性の3番目の発言第2文で、自分に男性からのメールが届かなかったことに対して「今後は私も（送信先に）入れてくれる？」と言っていることから、3「彼女をメールの宛先に加える」が正解。1は、女性は男性にメールを送るように頼んでいるだけで、自分がクライアントとやり取りをすることを依頼しているわけではないので誤り。2についての言及はないので不適切。4は「パソコンのモニターにメモを貼って忘れないようにするよ」という男性の3番目の発言の第3文に合致しない。",
+          "script": "W: Hey, do you have a minute to talk?\nM: Sure. What's the problem?\nW: One of our clients asked me a question about your project, but I'm not up-to-date on the details.\nM: Didn't you get my e-mails?\nW: I guess you must have forgotten to add my address. Could you make sure that I'm included from now on?\nM: Of course. Sorry. I'll make sure to stick a note on my computer monitor to remind me.",
+          "scriptJa": "W: ねえ、ちょっと話せる？\nM: いいよ。どうしたの？\nW: クライアントの一人から、あなたのプロジェクトについて質問があったんだけど、細かいところまでは最新の状況を追えていなくて。\nM: 僕のメールは届かなかった？\nW: たぶん、私のアドレスを追加するのを忘れたんじゃないかしら。今後は私も入れてくれる？\nM: もちろんだよ。ごめんね。パソコンのモニターにメモを貼って忘れないようにするよ。"
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2025-1/03_No02.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the woman tell the man?",
           "choices": [
             { "label": "1", "text": "The automated system is broken." },
             { "label": "2", "text": "The novel he wants is popular." },
             { "label": "3", "text": "He cannot pay by credit card." },
             { "label": "4", "text": "He cannot borrow the book now." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "男性の3番目の発言「今すぐ借りることはできますか？」に対して、女性が紛失した本の代金を支払っていない男性に「申し訳ありませんが、例外は認められません」と言っていることから、正解は4「彼は今すぐ本を借りることができない」である。1は女性の2番目の発言第2文より、自動貸出機が使えない原因は紛失した本の代金の未払いであり、故障ではないので不適切。2のような内容を示唆する発言はないので不適切。3については、クレジットカードに関することは男性が2番目の発言の第2文で言っているが、発言者が男性であることと、「クレジットカードで支払えない」ということを示唆する発言はないので誤りである。",
+          "script": "W: Can I help you, sir?\nM: I'm trying to check out this novel a friend recommended, but the automated checkout won't let me.\nW: Let me see. It seems you haven't paid to replace a missing book.\nM: Really? I'm sure I paid that by credit card online.\nW: If you have proof of payment, I can restore your borrowing privileges.\nM: I'll look for that, but can I just borrow the book now?\nW: I'm afraid I can't make any exceptions.",
+          "scriptJa": "W: どうなさいましたか。\nM: 友達に勧められたこの小説を借りたいんですが、自動貸出機が使えなくて。\nW: ちょっと見てみますね。どうやら、紛失した本の代金をまだ支払っていないようです。\nM: 本当ですか？ オンラインでクレジットカード決済をしたはずなんですが。\nW: 支払いの証明があれば、貸出の権利を回復できますよ。\nM: 探してみますが、今すぐ借りることはできますか？\nW: 申し訳ありませんが、例外は認められません。"
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2025-1/04_No03.mp3",
-          "prompt": "TODO",
+          "prompt": "Why is the man concerned?",
           "choices": [
             { "label": "1", "text": "He could not submit his project." },
             { "label": "2", "text": "His boss is often too strict." },
             { "label": "3", "text": "He could not take time off." },
             { "label": "4", "text": "His boss misses a lot of work." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "男性の3番目の発言第1文の本社に報告すべき「この件」とは、男性の2番目の発言第2文の「上司が家庭の都合等でよく仕事を休む」という内容を指しているので、正解は4「彼の上司はよく仕事を休むから」である。1・2のような内容を示唆する発言はないので不適切。3は、男性の2番目の発言第2文で、彼の上司は休みをすでに6日間取っていると述べられているが、男性が休みを取れなかったという発言はないので、誤りである。",
+          "script": "M: Is Kristoff in his office?\nW: No, he's out again today. He's at his daughter's soccer game, I think.\nM: Family time is important, but our manager needs to be around to actually manage things. He's already taken around six days off this month to help out with school field trips or take his kids somewhere.\nW: Yeah, we missed a deadline last week because he wasn't around.\nM: I think we need to bring this up with the corporate office. It's getting serious.",
+          "scriptJa": "M: クリストフはオフィスにいる？\nW: いいえ、今日もいないわ。娘さんのサッカーの試合に行っていると思う。\nM: 家族の時間は大切だけど、マネージャーは実際にいろいろ管理するために職場にいてもらわないといけないよ。今月だけで学校の校外学習を手伝ったり、子どもをどこかへ連れて行ったりするために、すでに6日ほど休んでいるよね。\nW: ええ、先週も彼がいなかったせいで締め切りに間に合わなかったわ。\nM: この件は本社に報告した方がいいと思う。深刻になってきているよ。"
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2025-1/05_No04.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the woman suggest?",
           "choices": [
             { "label": "1", "text": "Cooking a special meal." },
             { "label": "2", "text": "Planning a big party." },
             { "label": "3", "text": "Having a quiet dinner without the kids." },
             { "label": "4", "text": "Taking a vacation as a family." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "女性の2番目の発言第2文「みんなで数日泊まれる家を借りる」より、正解はこれを言い換えた4「家族で休暇をとること」である。1を提案しているのは、男性の2番目の発言より、女性ではなく男性とわかるので誤り。2を提案しているのは、男性の1番目の発言より、女性ではなく子どもたちとわかるので不適切。3を表す発言はないので誤りである。",
+          "script": "W: How should we celebrate our anniversary? Twenty-five years is a big deal.\nM: The kids want us to have a party with a fancy dinner, music, and dancing.\nW: I was thinking something a bit simpler. Maybe renting a house somewhere that we could all stay in for a couple of days.\nM: You know, we could save money if we just lit some candles while eating a nice steak dinner at home.\nW: A dinner that I'd have to cook? I think twenty-five years deserves a bit more than that.\nM: OK. Your idea sounds good.",
+          "scriptJa": "W: 記念日をどう祝おうか？ 25年って大きな節目だよね。\nM: 子どもたちは、豪華なディナーや音楽、ダンスパーティーがいいって言ってるよ。\nW: 私はもう少しシンプルなことを考えていたの。みんなで数日泊まれる家をどこかで借りるとか。\nM: 家でキャンドルを灯しながらおいしいステーキを食べればお金も節約できるよ。\nW: 私が夕食を作らなきゃいけないの？ 25年の節目にはそれよりもう少し特別なことをするべきだと思うわ。\nM: わかった。君の案がいいね。"
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2025-1/06_No05.mp3",
-          "prompt": "TODO",
+          "prompt": "What advice does the woman give the man about the midterm paper?",
           "choices": [
             { "label": "1", "text": "He should try to submit it early." },
             { "label": "2", "text": "He should look for recent sources." },
             { "label": "3", "text": "He should use books rather than journal articles." },
             { "label": "4", "text": "He should not include his opinion." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "女性の3番目の発言「それら（本）が最新のものかを確認してね。レポートが最新の研究に基づくように、学術論文も含めるといいわよ」より、2「彼は最近の情報源を探すべきである」が正解である。1は言及されていない。3については、女性の3番目の発言より、最新のものならレポートに本を利用してもよく、さらに学術論文を含めるとよいということがわかるので、誤りである。4に関しては、男性の2番目の発言第2文「レポートに自分の意見を入れてもいいですよね？」に対して、女性が「研究で裏付けられているなら入れてもいいわよ」と答えているので、誤りである。",
+          "script": "M: Professor Barnes, could you remind me when our midterm paper is due?\nW: Sure, Mason. It's due at 5 p.m. a week from today.\nM: Got it. I can include my opinion in the paper, right?\nW: If it's supported by research. You need sources to back up your ideas.\nM: I've found some excellent books in the library.\nW: Make sure they're up-to-date. It might be wise to include some journal articles to ensure your paper is based on the latest research.\nM: OK.",
+          "scriptJa": "M: バーンズ先生、中間レポートの提出期限をもう一度教えていただけますか？\nW: もちろん、メイソン。提出期限は今日から1週間後の午後5時よ。\nM: わかりました。レポートに自分の意見を入れてもいいですよね？\nW: 研究で裏付けられているなら入れてもいいわよ。自分の考えの裏付けになる資料が必要ね。\nM: 図書館ですばらしい本を何冊か見つけました。\nW: それらが最新のものかを確認してね。レポートが最新の研究に基づくように、学術論文も含めるといいわよ。\nM: わかりました。"
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2025-1/07_No06.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man say about the accident?",
           "choices": [
             { "label": "1", "text": "He does not have any insurance." },
             { "label": "2", "text": "He was trying to avoid hitting an animal." },
             { "label": "3", "text": "He was not the one who caused it." },
             { "label": "4", "text": "He thinks the damage is serious." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "男性が2番目の発言で「道路に猫が突然現れて、ぶつからないようにしようとしたんです」と言っていることから、正解は2「彼は動物にぶつかるのを避けようとしていた」である。1については、男性の3番目の発言第2文「全責任は私にあるので、こちらの保険で補償します」より誤り。3・4については男性の発言内容にはない。",
+          "script": "M: I'm so sorry about hitting your car. Are you OK?\nW: I'm fine. And it looks like the damage is minimal, too.\nM: A cat suddenly appeared on the road, and I was trying not to hit it.\nW: Well, I'm glad it's safe.\nM: Me, too. Obviously, my insurance will need to cover this since I'm completely responsible.\nW: OK. Let's exchange information, and we can deal with it later. I'm late for a business meeting.\nM: Definitely. I really hope I didn't mess up your whole day.",
+          "scriptJa": "M: あなたの車にぶつけてしまって、本当にごめんなさい。大丈夫ですか。\nW: 大丈夫です。損傷もひどくなさそうですね。\nM: 道路に猫が突然現れて、ぶつからないようにしようとしたんです。\nW: そうなんですね、猫が無事でよかったです。\nM: 私もそう思います。当然、全責任は私にあるので、こちらの保険で補償してもらうようにします。\nW: わかりました。それでは情報を交換して、あとで対処しましょう。仕事の会議に遅れているんです。\nM: そうですね。あなたの一日を台無しにしていなければいいのですが。"
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2025-1/08_No07.mp3",
-          "prompt": "TODO",
+          "prompt": "Why is the woman concerned about Benny?",
           "choices": [
             { "label": "1", "text": "He does not have enough time to study." },
             { "label": "2", "text": "He does not enjoy his club activities." },
             { "label": "3", "text": "He did not make the baseball team." },
             { "label": "4", "text": "He is not interested in going to college." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "女性が3・4番目の発言で、ベニーはクラブ活動を「やりすぎている」「勉強を犠牲にしてまでやるべきではない」と言っていることから、正解は1「彼には勉強する時間が十分にないから」である。2については、男性が2番目の発言で「あんなにクラブ活動をやっている中で勉強との両立はきっと大変だろうね」と言っていることから、ベニーが熱心にクラブ活動に取り組んでいることがわかるので、誤りである。3・4の内容を示唆する発言はないので誤りである。",
+          "script": "W: I had a talk with Benny's school counselor today.\nM: And?\nW: She's concerned because his grades are slipping.\nM: Well, it must be hard to balance studying with all the club activities he's been doing.\nW: I think he's taken on too much this year.\nM: But extracurricular activities are important, too. They look good on college applications.\nW: Yes, but not at the expense of schoolwork. He'll need to cut back on something.\nM: OK, but I think he should continue playing baseball.",
+          "scriptJa": "W: 今日、ベニーのスクール・カウンセラーと話をしたの。\nM: で、どうだった？\nW: 彼の成績が落ちてきているので、彼女は心配しているのよ。\nM: なるほど、あんなにクラブ活動をやっている中で勉強との両立はきっと大変だろうね。\nW: 今年はやりすぎていると思うの。\nM: でも、課外活動も大事だよね。大学の出願書類に書くと印象が良いし。\nW: そうだけど、勉強を犠牲にしてまでやるべきではないわ。何かを減らす必要があると思う。\nM: わかった、でも、野球は続けるべきだと思う。"
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2025-1/09_No08.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man decide to do?",
           "choices": [
             { "label": "1", "text": "Find a job for Caitlin." },
             { "label": "2", "text": "Work extra hours at his job." },
             { "label": "3", "text": "Search for a new bank." },
             { "label": "4", "text": "Get help from a professional." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "男性の3番目の発言「専門家に相談する必要があるかもね。銀行に電話して、アドバイザーとの面談を予約しよう」から、正解は4「専門家に相談する」である。1については、男性が2番目の発言第2文で「学費の足しにするために彼女に仕事をしてもらうつもりだよ」と言っているが、男性が仕事を見つけるとは言っていないので誤りである。2・3に関する発言はないので、不適切である。",
+          "script": "W: We need to talk about saving for Caitlin's college expenses.\nM: She just started elementary school. What's the hurry?\nW: There are investment accounts specifically designed for long-term savings. A little each month now is better than big amounts later on.\nM: I guess so. But I expect her to get a job to help pay her tuition.\nW: Certainly, but she won't be able to pay it all on her own.\nM: Maybe we need some expert advice. I'll call the bank and set up an appointment with an adviser.",
+          "scriptJa": "W: ケイトリンの大学費用のための貯蓄について話す必要があるわ。\nM: 彼女は小学校に入ったばかりだよ。急ぐ必要あるのかい？\nW: 長期的な貯蓄用に特化した投資口座があるのよ。今から毎月少しずつ貯める方が、後でまとめて貯めるよりもいいの。\nM: そうかもね。でも、学費の足しにするために彼女に仕事をしてもらうつもりだよ。\nW: もちろん、でも全部自分で払えるわけじゃないわよ。\nM: それなら、専門家に相談する必要があるかもね。銀行に電話して、アドバイザーとの面談を予約しよう。"
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2025-1/10_No09.mp3",
-          "prompt": "TODO",
+          "prompt": "What is the man's opinion about the restaurant?",
           "choices": [
             { "label": "1", "text": "The food tasted bad." },
             { "label": "2", "text": "The service was poor." },
             { "label": "3", "text": "It had a nice atmosphere." },
             { "label": "4", "text": "It should pay its staff more." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "男性の2番目の発言「注文が届くのにやたら時間がかかったし、接客をしてくれた人の態度も失礼だった」より、男性がレストランの対応に満足していないことがわかるので、正解は2「サービスが悪かった」である。1については、男性が2番目の発言で「まあまあだった」と言っているので誤り。3に関しては、男性ではなく女性が1番目の発言第2文で述べていることなので不適切。4については言及されていないので、誤りである。",
+          "script": "M: I wasn't very impressed by that restaurant we went to last night.\nW: Really? I thought the food tasted pretty good, and it had a lively atmosphere.\nM: I guess the food was OK, but it took ages for our order to arrive, and the waitstaff was rude.\nW: I have to admit, the guy who served us was a little impolite, but I think that was just because he had to deal with so many tables at once.\nM: That's no excuse. The restaurant should hire more staff.",
+          "scriptJa": "M: 昨夜行ったあのレストラン、あまりいい印象じゃなかったな。\nW: 本当に？ 私は料理も美味しかったし、雰囲気も活気があると思ったけど。\nM: 料理はまあまあだったけど、注文が届くのにやたら時間がかかったし、接客をしてくれた人の態度も失礼だった。\nW: 確かに、私たちに対応してくれた人は少し失礼だったけど、同時にたくさんのテーブルの対応をしなければならなかったからだと思うわ。\nM: それは言い訳にならないよ。あのレストランはもっとスタッフを雇うべきだよ。"
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2025-1/11_No10.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the woman thinks about the project?",
           "choices": [
             { "label": "1", "text": "It is unlikely to succeed." },
             { "label": "2", "text": "It will create too much work." },
             { "label": "3", "text": "She should be the project leader." },
             { "label": "4", "text": "The man should join the project team." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "女性が2番目の発言で「私には仕事が増えるだけにしか聞こえないし、今の仕事量をこなすのにすでに苦労しているのよ」と言っていることから、新たに仕事が増えることを懸念しているのがわかるので、正解は2「それはあまりに多くの仕事をもたらす」である。1については、プロジェクトが成功する可能性については言及されていないので誤り。3に関して、男性の最初の発言第1文より、プロジェクトリーダーは上司であることがわかり、また女性がプロジェクトリーダーになるべきだという趣旨の発言はないので、不適切である。4の内容を示唆する発言はないので誤りである。",
+          "script": "W: David, have you heard about the new project our department is taking on?\nM: Yeah, my boss is the project leader, so he announced it in our weekly team meeting. I'm really excited about it.\nW: It just sounds like extra work to me, and we're already struggling to cope with our workload.\nM: I agree that it's going to make us busy, but I think it'll be worth it. If the project's a success, we'll have a much better chance of being promoted.\nW: Even so, I'm still concerned.",
+          "scriptJa": "W: デイビッド、私たちの部署が取り組む新しいプロジェクトのこと聞いた？\nM: うん、うちの上司がプロジェクトリーダーだから、週例ミーティングで発表してくれたんだ。すごく楽しみだよ。\nW: 私には仕事が増えるだけにしか聞こえないし、今の仕事量をこなすのにすでに苦労しているのよ。\nM: 忙しくなるのは確かだけど、やる価値はあると思う。もしプロジェクトが成功したら、昇進のチャンスもずっと広がるし。\nW: そうだとしても、私はやっぱり心配だわ。"
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2025-1/12_No11.mp3",
-          "prompt": "TODO",
+          "prompt": "What do the man and woman agree to do?",
           "choices": [
             { "label": "1", "text": "Contact a plumber as soon as possible." },
             { "label": "2", "text": "Reduce how much hot water they use." },
             { "label": "3", "text": "Get a new shower for their bathroom." },
             { "label": "4", "text": "Wait before replacing the water heater." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "調子が悪いと男性が考える給湯器についての女性の2番目の発言「そうね、でもとりあえずは様子を見ましょう」を受けて、男性が最後の発言の第1文で「わかった」と言っていることから、4「給湯器を取り替える前に様子を見る」が正解である。1については、男性が最後の発言の第2文で「問題が続くなら水道屋さんを呼ぶ」と言っているが、すぐに連絡するとは言っていないので誤りである。2の内容を示唆する発言はないので誤りである。3に関して、話題は給湯器の交換であって、新しいシャワーの設置には言及していないので不適切である。",
+          "script": "M: We may need to replace the water heater in the bathroom. The water kept going cold while I was having a shower.\nW: Really? I had no trouble getting hot water this morning. Water heaters are expensive, so I'd rather not get a new one unless we have to.\nM: I understand what you're saying, but it would be better to replace it before it stops working altogether.\nW: Fair enough, but let's just keep an eye on it for now.\nM: OK. But if the problem keeps happening, I'm calling the plumber.",
+          "scriptJa": "M: バスルームの給湯器を取り替えなきゃいけないかもしれないよ。シャワーを浴びてたらお湯がどんどん冷たくなったんだ。\nW: 本当？ 私は今朝お湯を出すのに困らなかったわよ。給湯器って高いから、そうする必要がなければ新しいのは買いたくないわ。\nM: 君の言うこともわかるけど、完全に壊れる前に取り替えたほうがいいよ。\nW: そうね、でもとりあえずは様子を見ましょう。\nM: わかった。でも問題が続くようなら、水道屋さんに連絡するからね。"
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2025-1/13_No12.mp3",
-          "prompt": "TODO",
+          "prompt": "What will the student probably do?",
           "choices": [
             { "label": "1", "text": "Get started early on her assignment." },
             { "label": "2", "text": "Change the topic for her assignment." },
             { "label": "3", "text": "Send the professor a list of her sources." },
             { "label": "4", "text": "Ask the professor to extend the deadline." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "男性が最初の発言第2文で課題について「かなり調査が必要になるだろうし、思っているより時間がかかるかもしれない」と述べたことに対して、女性が2番目の発言で「わかりました。今週末にテーマを決めて、レポートのアウトラインを作ります」と言っていることから、1「課題に早めに取りかかる」が正解である。2・4を示唆する発言はないので誤りである。3について、男性は2番目の発言第2文で資料探しの相談に来てもいいと言っているが、資料リストを送るようには述べていないので誤りである。",
+          "script": "W: Professor Roberts, could you remind me of the deadline for the assignment?\nM: It's due at the end of the month, but I encourage you not to leave it to the last minute. You'll need to do a fair bit of research, which might take longer than you think.\nW: OK. I'll choose a topic and make an essay outline this weekend.\nM: Good idea. And feel free to ask me if you need any help finding good sources.\nW: Thanks, Professor. I appreciate that.",
+          "scriptJa": "W: ロバーツ先生、課題の締め切りをもう一度教えていただけますか。\nM: 今月末が締め切りだけど、ぎりぎりまで放っておかないことを勧めるよ。かなり調査が必要になるだろうし、思っているより時間がかかるかもしれないからね。\nW: わかりました。今週末にテーマを決めて、レポートのアウトラインを作ります。\nM: いい考えだね。それから、適切な資料を探すのに困ったら、遠慮なく聞いてくれていいよ。\nW: ありがとうございます、先生。助かります。"
         }
       ]
     },
