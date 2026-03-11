@@ -22,193 +22,193 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2025-2/02_No01.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man tell his daughter about social media?",
           "choices": [
             { "label": "1", "text": "It is useful for staying connected with her friends." },
             { "label": "2", "text": "He does not want her to communicate with strangers." },
             { "label": "3", "text": "It can negatively affect communication skills." },
             { "label": "4", "text": "He agrees with her about its effects." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "ソーシャルメディアに関する父親と娘の会話。1番目の男性の発言から、午後6時以降はソーシャルメディアを禁止していることがわかる。2番目の男性の発言で、彼はその理由を説明しており、「ソーシャルメディアに時間をかけすぎると、現実世界で互いの関わり方を忘れてしまう」と伝えている。よって、正解は3「それはコミュニケーション能力に悪影響を及ぼす」である。",
+          "script": "M: Christy, you know the rule. No social media after 6 p.m.\nW: Sorry, Dad. I just need to post an update to one account.\nM: Look, there are reasons your mother and I set these limits. For one, spending too much time on social media makes people forget how to relate to each other in the real world.\nW: But I only really use it to share things with my close friends.\nM: Well, if they're your close friends, you can communicate when you see them in person!",
+          "scriptJa": "M: クリスティ、ルールは覚えてるね。午後6時以降はソーシャルメディア禁止だよ。\nW: ごめんなさい、お父さん。1つのアカウントに更新情報を投稿するだけだから。\nM: いいかい、お母さんと私が制限を設けたのには理由があるんだよ。一つには、ソーシャルメディアに時間をかけすぎると、現実世界で互いの関わり方を忘れてしまうからなんだ。\nW: でも、私は実際には仲の良い友達と共有するためにしかそれを使ってないわ。\nM: ねえ、親しい友達なら、会ったときに直接伝えればいいじゃないか！"
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2025-2/03_No02.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man say?",
           "choices": [
             { "label": "1", "text": "He does not enjoy his program." },
             { "label": "2", "text": "He may be taking on too much." },
             { "label": "3", "text": "He may not graduate on time." },
             { "label": "4", "text": "He wants to graduate early." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "夏休みに関する親子の会話。選択肢の主語がすべてHeになっていることから、男性の発言に特に注目したい。1番目の男性の発言から、彼が夏休みに授業をいくつか取ろうとしていることがわかる。そして2番目の男性の発言に「予定より早く卒業したい」と言っていることから、4「彼は早く卒業したいと思っている」が正解となる。",
+          "script": "W: You must be looking forward to summer vacation, Rick.\nM: I'm actually planning to take a few classes, Mom.\nW: Shouldn't you take a break? Your engineering program is so demanding.\nM: Well, I'm hoping to graduate ahead of schedule and start on my master's degree.\nW: It might not be a bad idea to get some work experience first.\nM: I'd rather get my studies over with while I'm motivated.\nW: If you say so, but you should give it some thought.",
+          "scriptJa": "W: 夏休みが楽しみでしょうね、リック。\nM: 実は、いくつか授業を取る予定なんだ、お母さん。\nW: 休んだほうがいいんじゃないの？ 工学部の課程はとてもきついのに。\nM: うん、でも予定より早く卒業して、修士課程を始めたいんだ。\nW: まずは職業経験を積むのも悪い考えじゃないと思うけど。\nM: やる気があるうちに勉強を終わらせたいんだよね。\nW: あなたがそう言うならいいけど、少し考えたほうがいいわね。"
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2025-2/04_No03.mp3",
-          "prompt": "TODO",
+          "prompt": "What has the couple decided to do?",
           "choices": [
             { "label": "1", "text": "Take away Jared's tablet computer." },
             { "label": "2", "text": "Get the screen of Jared's tablet computer fixed." },
             { "label": "3", "text": "Buy Jared a new tablet computer." },
             { "label": "4", "text": "Control Jared's use of his tablet computer." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "子どもについて相談する夫婦の会話。選択肢にtablet computerとあることから、タブレット端末に関係する会話であることを前提に聞くとわかりやすいだろう。女性の3番目の発言に「毎日の使用時間に制限を設ける」とあり、続く発言で男性もそれに同意していることがわかる。4「ジャレッドのタブレットの使用を管理する」が正解。",
+          "script": "W: We need to talk about Jared. He doesn't play sports with his friends anymore, and he hasn't read a book in weeks.\nM: I know. And he used to love those things.\nW: This has all happened since we purchased that tablet computer for him. He reaches for it as soon as he wakes up.\nM: Yeah. We bought it to help him with his school reports, not for him to waste time watching online videos.\nW: Maybe we should set a limit on his daily screen time.\nM: I agree.",
+          "scriptJa": "W: ジャレッドのことを話さなきゃ。あの子はもう友達とスポーツをしないし、何週間も本を読んでいないのよ。\nM: ああ、わかってるよ。前はそういうことが大好きだったのにな。\nW: あのタブレットを買ってあげてからこうなったのよ。起きたらすぐに触ってるもの。\nM: そうだね。あれは学校のレポート作成に役立てるために買ったのであって、ネット動画を見て時間をムダにするためじゃないんだ。\nW: たぶん毎日の使用時間に制限を設けるべきなんだわ。\nM: 僕もそう思うよ。"
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2025-2/05_No04.mp3",
-          "prompt": "TODO",
+          "prompt": "What do we learn about the woman's watch?",
           "choices": [
             { "label": "1", "text": "The repairs will take a long time." },
             { "label": "2", "text": "The manufacturer has gone out of business." },
             { "label": "3", "text": "She will not have to pay for the repairs." },
             { "label": "4", "text": "She lost it last month." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "1番目の男性の発言にあるwhat's wrongや1番目の女性の発言にあるIt's strangeから、女性の腕時計が故障していることが予測できる。3番目の男性の発言に「保証があるといい」とあり、続く3番目の女性の発言に「お店の保証が適用されることはわかっている」とあることから、故障した腕時計は保証で修理できるとわかり、3「彼女は修理費を支払う必要はない」が正解となる。",
+          "script": "M: Did you find out what's wrong with your watch, Cindy?\nW: Not yet. It's strange that it keeps running fast. It's off by almost ten minutes every day.\nM: I thought you just bought it last month.\nW: I did, but it was used, so I guess it can't be helped.\nM: I hope it has a warranty, though. Repairs aren't cheap.\nW: The manufacturer's warranty has expired, but I know the store's warranty will cover it.\nM: That's good.",
+          "scriptJa": "M: 腕時計の調子が悪い理由はわかったかい、シンディ？\nW: まだわからないのよ。ずっと早く進んでいておかしいの。毎日10分くらいずれるのよ。\nM: 先月買ったばかりだと思ってたけど。\nW: そうなんだけど、中古だったから仕方ないかもね。\nM: でも保証があるといいね。修理するのは安くないから。\nW: メーカー保証は切れてるけど、お店の保証が適用されることはわかっているの。\nM: それはよかった。"
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2025-2/06_No05.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man suggest the woman do?",
           "choices": [
             { "label": "1", "text": "Try a different recruiting method." },
             { "label": "2", "text": "Take classes at the business school." },
             { "label": "3", "text": "Use an employment agency." },
             { "label": "4", "text": "Add work experience to her résumé." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "人事に関する担当者の会話。男性の2番目の発言に注目する。How about doingは「〜してはどうか」という提案を表す表現で、その内容が設問で問われることが多い。ここでは「ビジネススクールに何か掲示してみるのはどうか」という提案である。女性の発言がうまく聞き取れなかったとしても1「別の採用方法を試す」を選ぶことができる。business schoolの部分だけに引っ張られて、2を選ばないこと。",
+          "script": "M: We need to hire more staff for the accounting department.\nW: We've been trying, but no suitable candidates have applied. We tried an employment agency, which was a waste of time! The candidates they introduced didn't even have the necessary qualifications.\nM: How about posting something at the business school? This year's graduates may not have much experience, but they should have the qualifications you need.\nW: It's worth a try. I'll ask if I can post something on the school's career board.",
+          "scriptJa": "M: 経理部にもっと職員を雇う必要があるね。\nW: 努力してるけど、適任者が応募してこないのよ。職業紹介所も使ったけど、時間の無駄だったわ！ 紹介してきた候補者たちは必要な資格すら持ってなかったんだから。\nM: ビジネススクールに何か掲示してみるのはどうだい？ 今年の卒業生なら経験はあまりないかもしれないけど、必要な資格は持っているはずだから。\nW: やってみる価値はあるわね。学校の職業掲示板に貼り出してもいいか聞いてみるわ。"
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2025-2/07_No06.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the man says?",
           "choices": [
             { "label": "1", "text": "He does not like any of the houses." },
             { "label": "2", "text": "He would prefer a house with fewer stairs." },
             { "label": "3", "text": "He has decided not to buy a house." },
             { "label": "4", "text": "He wants to live close to a station." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "不動産会社の女性と客の男性の会話。1番目の発言で男性は「決められない」と言っているので、1と3は不適切。女性の2番目の発言に「どれだけ駅に近いところに住みたいかがむしろ重要だ」とあり、それに対して男性は2番目の発言で「それが私の一番の優先事項だ」と言っている。したがって、4「彼は駅の近くに住みたい」が正解となる。",
+          "script": "W: This is Melanie from Rydale Real Estate. Did you look over the floor plans I emailed?\nM: Yes, but I can't decide whether to go for a two- or three-story house.\nW: It's more about how close you want to be to a train station.\nM: That's definitely my priority.\nW: Most homes closer to stations are on smaller pieces of land, so they tend to have three floors. If you don't mind climbing stairs, you get more space.\nM: Stairs don't bother me.",
+          "scriptJa": "W: ライデール不動産のメラニーです。メールでお送りした間取り図はご覧になりましたか？\nM: ええ、でも2階建てにするか3階建てにするか決めかねていて。\nW: どれだけ駅に近いところに住みたいかがむしろ重要ですよね。\nM: それが私の一番の優先事項です。\nW: 駅に近いほとんどの家は、土地が狭いので3階建てになりがちです。階段を上るのが気にならなければ、広いスペースが使えますよ。\nM: 階段は気にしないです。"
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2025-2/08_No07.mp3",
-          "prompt": "TODO",
+          "prompt": "What will the couple probably do?",
           "choices": [
             { "label": "1", "text": "Go to bed early." },
             { "label": "2", "text": "Go out for dinner." },
             { "label": "3", "text": "Take turns washing the dishes." },
             { "label": "4", "text": "Buy a dishwasher." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "前半のやり取りから、夫婦が皿洗いの順番について話し合っているという状況をつかみたい。女性の3番目の発言に「食器洗い機を買いましょう」とあり、続く男性の発言に「わかった」「明日は店に行く時間がある」とある。話の流れから、男性の言っている「店」とは食器洗い機を売っている店であることが推測できるので、4「食器洗い機を買う」が正解。",
+          "script": "W: Phil, it's your turn to do the dishes tonight.\nM: I'm exhausted, Kim. Can you do it? I promise I'll take your turn tomorrow.\nW: Look, I know you don't like doing it, but you agreed we'd share the housework equally.\nM: I know. I just don't have the energy at night.\nW: Well, neither do I. If you don't want to help out, then let's get a dishwasher.\nM: OK. I'm free to go to the store tomorrow.",
+          "scriptJa": "W: フィル、今夜はあなたが皿洗いの番よ。\nM: もうくたくただよ、キム。君がやってくれない？ 明日、君の番を代わるって約束するからさ。\nW: ねえ、やりたくないのはわかるけど、家事は平等に分担することにあなたは賛成したでしょ。\nM: わかってるよ。ただ、夜はもう体力がないんだ。\nW: まあ、私だって同じよ。もし手伝いたくないなら、食器洗い機を買いましょうよ。\nM: わかった。明日なら店に行く時間があるよ。"
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2025-2/09_No08.mp3",
-          "prompt": "TODO",
+          "prompt": "Why are the speakers concerned?",
           "choices": [
             { "label": "1", "text": "Their next-door neighbor had something stolen." },
             { "label": "2", "text": "Neighborhood traffic problems are getting worse." },
             { "label": "3", "text": "One of their neighbors has been acting strangely." },
             { "label": "4", "text": "Their house may be robbed." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "女性の最初の発言に「心配な電話」とあることから、その内容をしっかり意識して聞き取りたい。女性の2番目の発言にある「怪しい車が走っていた」や、続く男性の2番目の発言にある「侵入する家を探している」という情報から、2人が心配しているのは自分の家に誰かが侵入してくるかもしれないことだと推測できる。よって、4「彼らの家が強盗に遭うかもしれない」が最も適当。",
+          "script": "W: I just got a worrying phone call from Glenda next door.\nM: What did she say?\nW: Last night, some of the other neighbors saw a suspicious-looking car driving around slowly with its lights out. It disappeared when they went outside.\nM: That sounds like burglars looking for a house to break into. I'm glad she let us know.\nW: Yes. Thank goodness we have neighbors who are alert.",
+          "scriptJa": "W: 今、隣のグレンダから心配な電話があったの。\nM: なんて言ってたの？\nW: 昨夜、怪しい車がライトを消したままゆっくり走っているのを、近所の人の何人かが見たそうよ。外に出たときにはその車は消えてたんですって。\nM: それは侵入する家を探している強盗みたいだな。知らせてくれてよかったよ。\nW: ほんとうね。警戒心のあるご近所さんがいてよかったわ。"
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2025-2/10_No09.mp3",
-          "prompt": "TODO",
+          "prompt": "What will probably be discussed at the meeting?",
           "choices": [
             { "label": "1", "text": "Whether or not to lower the price." },
             { "label": "2", "text": "Ways to increase the battery life." },
             { "label": "3", "text": "The wording of the advertisements." },
             { "label": "4", "text": "Adding more features to the product." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "男性の最初の発言に「マーケティングキャンペーンについて少し心配している」とあるため、男性の心配の内容を意識しながら聞きたい。続く女性の1番目の発言に「誤解を招く」とあり、続く男性の2番目の発言に「多くの苦情につながる」とある。そして最後の男性の発言に「広告の文言の一部を調整する」とあることから、会議で話し合われるのは3「広告の文言」である。",
+          "script": "M: I'm a bit concerned about our marketing campaign for the new model of our smartwatch, Ursula.\nW: I am too. I think some of the descriptions of the features are misleading.\nM: I know they're trying to justify the price increase, but I'm worried they'll lead to a lot of complaints.\nW: Yeah, especially the claims about the battery. Most people won't get that much life out of them.\nM: I think we'd better have a meeting about adjusting some of the text in the ads.",
+          "scriptJa": "M: スマートウォッチの新モデルのマーケティングキャンペーンが少し心配なんだ、ウルスラ。\nW: 私もよ。特徴の説明の一部が誤解を招くと思うの。\nM: 値上げを正当化しようとしているのはわかるけど、それで多くの苦情につながるんじゃないかと心配なんだ。\nW: ええ、特にバッテリーに関する宣伝文句ね。ほとんどの人はそんなに長くもたないわよ。\nM: 広告の文言の一部を調整する会議を開いたほうがよさそうだね。"
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2025-2/11_No10.mp3",
-          "prompt": "TODO",
+          "prompt": "What did Michael's teacher tell the parents?",
           "choices": [
             { "label": "1", "text": "He was bothering the other children." },
             { "label": "2", "text": "He was not concentrating on the lessons." },
             { "label": "3", "text": "He damaged the classroom's window." },
             { "label": "4", "text": "He was rude to the teacher." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "息子の担任からの電話に関する夫婦の会話。2番目の男性の発言に「マイケルが授業中に集中していない」とあることから、2「彼は授業に集中していなかった」が正解。放送のpaying attentionが、選択肢ではconcentratingに言い換えられている。",
+          "script": "M: Honey, I got a phone call from Michael's teacher today.\nW: Oh, what did she say?\nM: It seems that Michael hasn't been paying attention in class. She seemed quite concerned about him.\nW: I hope he's not disturbing the other kids, is he?\nM: No, she said he was just staring out the window.\nW: We'll have to talk with him about this when he gets home.",
+          "scriptJa": "M: ねえ、今日マイケルの先生から電話があったんだ。\nW: あら、なんて言ってたの？\nM: マイケルは授業中に集中していないみたいだ。先生はかなり心配そうだったよ。\nW: ほかの子の邪魔をしてるわけじゃないでしょうね？\nM: いや、ただ窓の外をじっと眺めていたって言ってたな。\nW: 家に帰ってきたら、このことについて話さないといけないわね。"
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2025-2/12_No11.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man imply?",
           "choices": [
             { "label": "1", "text": "The woman should choose a different recipe." },
             { "label": "2", "text": "It will be difficult to get the ingredients." },
             { "label": "3", "text": "The woman should follow the recipe." },
             { "label": "4", "text": "Creativity is the most important part of cooking." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "最後の男性の発言にあることわざの引用がヒント。「ルールを破る前にまずルールを学べ」ということなので、彼が女性に言いたいことは「ルールに従うこと」であると推測できる。本問の会話は料理に関するやり取りなので、「料理に関するルールに従う」という内容に近い3「女性はレシピに従うべきだ」を選ぶ。男性の3番目の発言にある「それはレシピそのものを習得してからの話だ」の部分も、正解を選ぶうえでポイントとなる。",
+          "script": "W: Hey, honey, I'm about to experiment with a new recipe.\nM: What do you mean by \"experiment\"?\nW: I'm just going to try it out for the first time to see if it's good.\nM: Oh, OK. It's just that sometimes you like to play around with the ingredients and amounts.\nW: Well, cooking is all about creativity!\nM: Sure, but that's after you've mastered the recipe as it is. You know that old saying: \"You must learn the rules before you can break them.\"",
+          "scriptJa": "W: ねえ、あなた、これから新しいレシピを実験してみようと思うの。\nM: 「実験」ってどういう意味だい？\nW: おいしいかどうか確かめるために初めて作ってみるだけよ。\nM: ああ、そういうことね。君って時々材料とか分量をいじるのが好きだからさ。\nW: だって、料理ってまったくもって創造力でしょ！\nM: たしかにそうだけど、それはレシピそのものを習得してからの話だよ。昔からのことわざにあるだろ、「ルールを破る前にまずルールを学べ」って。"
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2025-2/13_No12.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man say about the pocket watch?",
           "choices": [
             { "label": "1", "text": "He is planning to sell it." },
             { "label": "2", "text": "It may be worth a lot of money." },
             { "label": "3", "text": "It does not work well anymore." },
             { "label": "4", "text": "He does not like the design on the back." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "懐中時計に関する男女の会話。男性の3番目の発言に「かなり価値があるはずだ」とあることから、2「それはかなり価値が高いかもしれない」が正解。放送のquite valuableが選択肢ではworth a lot of moneyに言い換えられている。",
+          "script": "W: That's a beautiful old pocket watch.\nM: It was my great-grandfather's. It's over a century old, but it still tells the time accurately.\nW: Wow. It's really fancy-looking too.\nM: Look at the design on the back. It's really artistic.\nW: Oh, it's an eagle. Very elegant.\nM: I heard it was designed by a famous watchmaker. It's supposed to be quite valuable.\nW: You could sell it to an antique dealer.\nM: I think I'll keep it and pass it down to my children.",
+          "scriptJa": "W: きれいな古い懐中時計ね。\nM: これはひいおじいさんのものだったんだ。100年以上前のものだけど、今でも正確に時間を教えてくれるんだよ。\nW: わあ、見た目も本当に豪華ね。\nM: 裏のデザインを見てごらんよ。とても芸術的なんだ。\nW: あっ、ワシね。とても上品だわ。\nM: 有名な時計職人がデザインしたそうだよ。かなり価値があるはずだ。\nW: 骨董商の人に売ってもいいんじゃない。\nM: 手元に置いて子どもたちに渡そうと思ってるんだよ。"
         }
       ]
     },
@@ -225,17 +225,17 @@
           "passageLabel": "Passage A",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/15_question_A.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/16_No13.mp3",
-          "prompt": "TODO",
+          "prompt": "What did legend say about the Kraken?",
           "choices": [
             { "label": "1", "text": "It fed on the fish that followed it around." },
             { "label": "2", "text": "It could bring benefits for fishermen." },
             { "label": "3", "text": "It protected Norway from attack by ships." },
             { "label": "4", "text": "It killed a powerful Norwegian king." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "第1段第2文（According to legend, …）に「伝説によると、勇気のある漁師たちは大きな漁獲量を得ることができた」とあることから、2「それは漁師たちに利益をもたらすことができた」が正解。放送でlarge catch「大漁」と具体的に述べられている部分が、選択肢ではbenefits for fishermen「漁師の利益」と抽象的に言い換えられている。",
+          "script": "In Nordic mythology, the Kraken was a sea monster that attacked ships and consumed their crews. According to legend, large shoals of fish swam alongside the Kraken, so fishermen brave enough to go near it could get large catches. The Kraken was first described in writing by King Sverre of Norway in the twelfth century, and the myth became so accepted that the creature was listed in the first systemized surveys of the natural world written in the eighteenth century.\nScientists now believe the myth originated from sightings of giant squid, which can reach a length of around twelve meters. These creatures live deep in the world's oceans and are rarely seen. Although a scientific description of a dead giant squid was carried out in the 1850s, studying them has proved difficult. In fact, it was not until 2004 that one was photographed in its natural habitat.",
+          "scriptJa": "北欧神話において、クラーケンは船を襲い、その乗組員を食べてしまう海の怪物であった。伝説によると、大きな魚の群れがクラーケンと並んで泳いでいたため、それに近づくだけの勇気がある漁師たちは大きな漁獲量を得ることができたという。クラーケンは12世紀にノルウェーのスヴェレ王によって初めて文書に記されたが、その神話が広く受け入れられるようになったため、18世紀に書かれた最初の体系的な自然界の調査書にもその生物が掲載された。\nこの神話は全長約12メートルに達することがあるダイオウイカの目撃に由来するものだと、科学者たちは現在考えている。この生物は世界中の海底に生息しており、めったに目撃されることがない。1850年代に死んだダイオウイカの科学的記述が行われたが、それらの研究は困難を極めた。実際、2004年になって初めてその姿が自然の生息地で写真に撮影されたのである。"
         },
         {
           "id": "q14",
@@ -243,17 +243,17 @@
           "passageLabel": "Passage A",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/15_question_A.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/17_No14.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the speaker say about giant squid?",
           "choices": [
             { "label": "1", "text": "Their natural habitat is declining." },
             { "label": "2", "text": "They are smaller than people think." },
             { "label": "3", "text": "There has been little research into them." },
             { "label": "4", "text": "They were not described scientifically until the 2000s." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第2段第2文（These creatures live …）の最後にrarely seen「ほとんど見られない」とあり、続く第3文（Although a scientific …）の最後にstudying them has proved difficult「それらの研究は困難を極めた」と述べられている。これらを聞き取り、3「それらについての研究はほとんど行われていない」を選ぶ。4を選ばないよう注意。2004年は「初めて写真に撮影された」ときで、科学的記述は1850年代になされている。",
+          "script": "In Nordic mythology, the Kraken was a sea monster that attacked ships and consumed their crews. According to legend, large shoals of fish swam alongside the Kraken, so fishermen brave enough to go near it could get large catches. The Kraken was first described in writing by King Sverre of Norway in the twelfth century, and the myth became so accepted that the creature was listed in the first systemized surveys of the natural world written in the eighteenth century.\nScientists now believe the myth originated from sightings of giant squid, which can reach a length of around twelve meters. These creatures live deep in the world's oceans and are rarely seen. Although a scientific description of a dead giant squid was carried out in the 1850s, studying them has proved difficult. In fact, it was not until 2004 that one was photographed in its natural habitat.",
+          "scriptJa": "北欧神話において、クラーケンは船を襲い、その乗組員を食べてしまう海の怪物であった。伝説によると、大きな魚の群れがクラーケンと並んで泳いでいたため、それに近づくだけの勇気がある漁師たちは大きな漁獲量を得ることができたという。クラーケンは12世紀にノルウェーのスヴェレ王によって初めて文書に記されたが、その神話が広く受け入れられるようになったため、18世紀に書かれた最初の体系的な自然界の調査書にもその生物が掲載された。\nこの神話は全長約12メートルに達することがあるダイオウイカの目撃に由来するものだと、科学者たちは現在考えている。この生物は世界中の海底に生息しており、めったに目撃されることがない。1850年代に死んだダイオウイカの科学的記述が行われたが、それらの研究は困難を極めた。実際、2004年になって初めてその姿が自然の生息地で写真に撮影されたのである。"
         },
         {
           "id": "q15",
@@ -261,17 +261,17 @@
           "passageLabel": "Passage B",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/18_question_B.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/19_No15.mp3",
-          "prompt": "TODO",
+          "prompt": "How was the Freedom House Ambulance Service different from other hospital transportation services?",
           "choices": [
             { "label": "1", "text": "It worked together with police officers." },
             { "label": "2", "text": "Its staff had more medical training." },
             { "label": "3", "text": "It operated all over the city." },
             { "label": "4", "text": "Its ambulances drove faster." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "第1段第3文（Freedom House was …）に「アメリカ初」「高度な訓練を受けた専門家」「治療を提供する」とあることから、2「その職員はより多くの医療訓練を受けていた」が選べる。paramedics「救急救命士」という単語が聞き取れなくても、具体的に言い換えて説明されている部分を落ち着いて聞き取れば十分対応できる。",
+          "script": "The Freedom House Ambulance Service was established in the late 1960s in Pittsburgh, Pennsylvania. Before Freedom House, the majority of people being taken to hospitals were transported by the police or funeral homes, and they concentrated more on speedy transport than on providing care on the way. Freedom House was the first American ambulance service to have paramedics, highly trained professionals who provided treatment that could make the difference between life and death.\nFreedom House began in a Black neighborhood with high unemployment rates. Its Black paramedics were local residents who received education and training from doctors who wanted to improve the health of the community. Although they sometimes encountered hostility from White patients who did not want to be treated by non-White paramedics, they saved many lives and became role models. The Freedom House Ambulance Service ended in the mid-seventies, but it inspired many cities to start their own paramedic programs.",
+          "scriptJa": "フリーダム・ハウス救急サービスは、1960年代後半にペンシルベニア州ピッツバーグで設立された。フリーダム・ハウスができる以前は、病院へ運ばれる人々の大多数は警察や葬儀場によって搬送されており、搬送中の治療よりも速く運ぶことを重視していた。フリーダム・ハウスは、アメリカ初の救急救命士を擁する救急サービスであり、彼らは生死を分ける可能性のある治療を提供できる高度な訓練を受けた専門家であった。\nフリーダム・ハウスは失業率の高い黒人居住地域で始まった。その黒人救急救命士たちは、地域の健康を改善したいと思っている医師たちから教育と訓練を受けた地域住民であった。彼らは時に、非白人の救命士に治療されたくないと思う白人患者からの敵意を向けられることもあったが、多くの命を救い、模範的な存在となった。フリーダム・ハウス救急サービスは70年代半ばに終了したが、多くの都市に自前の救命士プログラムを始めるきっかけを与えたのである。"
         },
         {
           "id": "q16",
@@ -279,17 +279,17 @@
           "passageLabel": "Passage B",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/18_question_B.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/20_No16.mp3",
-          "prompt": "TODO",
+          "prompt": "What problem did the Freedom House paramedics face?",
           "choices": [
             { "label": "1", "text": "Some of the patients were prejudiced." },
             { "label": "2", "text": "They were unable to save patients." },
             { "label": "3", "text": "They could not help people in their own area." },
             { "label": "4", "text": "Some doctors did not trust their skills." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "第2段第3文の「非白人の救命士に治療されたくない」の部分を聞き取れば、人種差別の問題だと推測することができる。黒人救命士の治療を受けたくない白人患者から敵意を向けられることもあったという内容を言い換えた1「一部の患者が偏見を持っていた」が正解。",
+          "script": "The Freedom House Ambulance Service was established in the late 1960s in Pittsburgh, Pennsylvania. Before Freedom House, the majority of people being taken to hospitals were transported by the police or funeral homes, and they concentrated more on speedy transport than on providing care on the way. Freedom House was the first American ambulance service to have paramedics, highly trained professionals who provided treatment that could make the difference between life and death.\nFreedom House began in a Black neighborhood with high unemployment rates. Its Black paramedics were local residents who received education and training from doctors who wanted to improve the health of the community. Although they sometimes encountered hostility from White patients who did not want to be treated by non-White paramedics, they saved many lives and became role models. The Freedom House Ambulance Service ended in the mid-seventies, but it inspired many cities to start their own paramedic programs.",
+          "scriptJa": "フリーダム・ハウス救急サービスは、1960年代後半にペンシルベニア州ピッツバーグで設立された。フリーダム・ハウスができる以前は、病院へ運ばれる人々の大多数は警察や葬儀場によって搬送されており、搬送中の治療よりも速く運ぶことを重視していた。フリーダム・ハウスは、アメリカ初の救急救命士を擁する救急サービスであり、彼らは生死を分ける可能性のある治療を提供できる高度な訓練を受けた専門家であった。\nフリーダム・ハウスは失業率の高い黒人居住地域で始まった。その黒人救急救命士たちは、地域の健康を改善したいと思っている医師たちから教育と訓練を受けた地域住民であった。彼らは時に、非白人の救命士に治療されたくないと思う白人患者からの敵意を向けられることもあったが、多くの命を救い、模範的な存在となった。フリーダム・ハウス救急サービスは70年代半ばに終了したが、多くの都市に自前の救命士プログラムを始めるきっかけを与えたのである。"
         },
         {
           "id": "q17",
@@ -297,17 +297,17 @@
           "passageLabel": "Passage C",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/21_question_C.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/22_No17.mp3",
-          "prompt": "TODO",
+          "prompt": "What was one advantage the Singer sewing machine had over other models?",
           "choices": [
             { "label": "1", "text": "It made much larger stitches." },
             { "label": "2", "text": "It was much less expensive." },
             { "label": "3", "text": "It could produce lines that were straighter." },
             { "label": "4", "text": "It could do more types of sewing patterns." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "第1段第3文にHoweverが出てくることから、それ以降の内容に注意して聞き取りたい。同文後半に「他のミシンよりも多様な作業を行うことができた」とあることから、4「より多くの種類の縫い方を行うことができた」が正解。",
+          "script": "The Singer sewing machine was one of the nineteenth century's most significant innovations. While sewing machines existed already, they could only produce straight lines, and the number of stitches they could sew at one time was limited. However, the American inventor Isaac Singer designed a machine capable of operating continuously and which could also sew curved lines, permitting users to do a greater variety of tasks than other sewing machines did.\nSinger's machines often cost several months' salary. Though many women were enthusiastic about a machine that meant they would not have to sew by hand, many men were reluctant to purchase the machines. This was because prejudices of the time made them believe the new inventions were too complicated for women to operate. Therefore, Singer hired women to demonstrate them in public. Along with special payment plans that let people pay a little at a time, these demonstrations made the machines hugely popular.",
+          "scriptJa": "シンガーミシンは19世紀のもっとも重要な発明品の一つであった。ミシンはすでに存在していたが、それらは直線しか縫うことができず、一度に縫える縫い目の数も限られていた。しかし、アメリカの発明家アイザック・シンガーは、連続的に作動できて曲線も縫える機械を設計し、それによって使用者は他のミシンよりも多様な作業を行うことが可能になった。\nシンガーミシンは数カ月分の給料ほどになることも多かった。多くの女性は手縫いをしなくてよくなる機械に夢中になったが、多くの男性はその機械を購入したがらなかった。これは当時の偏見によって、男性たちがその新しい発明品は女性たちには複雑すぎて操作できないと考えていたためである。そこで、シンガーは女性たちを雇って公の場で実演した。一度に少しずつ支払いができる特別な支払制度とともに、これらの実演はそのミシンを非常に人気のあるものにしたのである。"
         },
         {
           "id": "q18",
@@ -315,17 +315,17 @@
           "passageLabel": "Passage C",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/21_question_C.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/23_No18.mp3",
-          "prompt": "TODO",
+          "prompt": "What problem did Isaac Singer have?",
           "choices": [
             { "label": "1", "text": "He could not meet the demand for his machines." },
             { "label": "2", "text": "People did not like to use payment plans." },
             { "label": "3", "text": "Men thought women could not use his machines." },
             { "label": "4", "text": "Most people preferred sewing by hand." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第2段第2文（Though many women …）で、男性がシンガーミシンを買いたがらなかったことが述べられている。続く第3文がThis was becauseから始まっており、「当時の偏見」「その新しい発明品は女性には複雑すぎて操作できない」の部分を聞き取り、ミシンは女性に操作できないという偏見があったとわかれば、3「男性は女性がミシンを使えないと思っていた」が正解だとわかる。",
+          "script": "The Singer sewing machine was one of the nineteenth century's most significant innovations. While sewing machines existed already, they could only produce straight lines, and the number of stitches they could sew at one time was limited. However, the American inventor Isaac Singer designed a machine capable of operating continuously and which could also sew curved lines, permitting users to do a greater variety of tasks than other sewing machines did.\nSinger's machines often cost several months' salary. Though many women were enthusiastic about a machine that meant they would not have to sew by hand, many men were reluctant to purchase the machines. This was because prejudices of the time made them believe the new inventions were too complicated for women to operate. Therefore, Singer hired women to demonstrate them in public. Along with special payment plans that let people pay a little at a time, these demonstrations made the machines hugely popular.",
+          "scriptJa": "シンガーミシンは19世紀のもっとも重要な発明品の一つであった。ミシンはすでに存在していたが、それらは直線しか縫うことができず、一度に縫える縫い目の数も限られていた。しかし、アメリカの発明家アイザック・シンガーは、連続的に作動できて曲線も縫える機械を設計し、それによって使用者は他のミシンよりも多様な作業を行うことが可能になった。\nシンガーミシンは数カ月分の給料ほどになることも多かった。多くの女性は手縫いをしなくてよくなる機械に夢中になったが、多くの男性はその機械を購入したがらなかった。これは当時の偏見によって、男性たちがその新しい発明品は女性たちには複雑すぎて操作できないと考えていたためである。そこで、シンガーは女性たちを雇って公の場で実演した。一度に少しずつ支払いができる特別な支払制度とともに、これらの実演はそのミシンを非常に人気のあるものにしたのである。"
         },
         {
           "id": "q19",
@@ -333,17 +333,17 @@
           "passageLabel": "Passage D",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/24_question_D.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/25_No19.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the speaker tells us about the British Indian Army?",
           "choices": [
             { "label": "1", "text": "Its soldiers were sent to fight in Belgium." },
             { "label": "2", "text": "Few of its soldiers were Muslims." },
             { "label": "3", "text": "None of its soldiers returned to Britain." },
             { "label": "4", "text": "Its soldiers were not allowed in hospitals in Britain." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "第1段第3文（Khan was sent …）に「カーンはベルギーで戦うために、仲間の兵士たちと共に派遣された」とあることから、1「その兵士たちはベルギーで戦うために派遣された」が正解。事前に選択肢にできるだけ目を通しておき、to fight in Belgiumと書かれているのをあらかじめ把握しておけば認識しやすいだろう。",
+          "script": "In World War I, over one million Indian soldiers fought as part of the British Indian Army. One such soldier was Khudadad Khan, a Muslim born in what is now Pakistan. Khan was sent with his fellow soldiers to fight in Belgium. While he was there, the Germans attacked. Khan's comrades were eventually killed, but Khan kept firing despite being injured. His bravery helped prevent the Germans from succeeding and gave Britain enough time to send extra troops.\nKhan was sent to a hospital in Britain to recover. The king visited him there, and Khan received the Victoria Cross, an award for outstanding bravery. During the war, other British Indian Army soldiers were also awarded the Victoria Cross. Some people say their stories and those of many British Indian Army soldiers who died in battle have been forgotten. They believe it is time for those stories to be remembered.",
+          "scriptJa": "第一次世界大戦では、100万人以上のインド人兵士がイギリス領インド軍の一員として戦った。そのような兵士の一人が、現在のパキスタンで生まれたイスラム教徒のフダッド・カーンである。カーンはベルギーで戦うために、仲間の兵士たちと共に派遣された。彼がそこにいるあいだに、ドイツ軍が攻撃を仕掛けた。カーンの仲間たちは最終的に戦死したが、カーンは負傷しているにも関わらず銃を撃ち続けた。彼の勇敢な行動はドイツ軍の進軍を阻止する助けとなり、イギリスが増援を送るための時間を十分稼いだのである。\nカーンは回復のためにイギリスの病院に送られた。国王はそこに彼を訪問し、カーンはヴィクトリア十字章という傑出した勇敢さに対する賞を与えられた。戦争中、他のイギリス領インド軍の兵士たちもヴィクトリア十字章を授与された。人々の中には、彼らの物語や戦いで死んだ多くのイギリス領インド軍兵士たちの物語が忘れられていると言う者もいる。今こそそれらの物語が思い出されるべき時だと、彼らは信じている。"
         },
         {
           "id": "q20",
@@ -351,17 +351,17 @@
           "passageLabel": "Passage D",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/24_question_D.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/26_No20.mp3",
-          "prompt": "TODO",
+          "prompt": "According to the speaker, what do some people believe?",
           "choices": [
             { "label": "1", "text": "British Indian Army soldiers did not deserve their awards." },
             { "label": "2", "text": "The stories of British Indian Army soldiers need to be told." },
             { "label": "3", "text": "Khan probably died in battle in World War I." },
             { "label": "4", "text": "The king initially refused to visit Khan." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "第2段第4文（Some people say …）に「一部の人々は、兵士たちの物語が忘れられていると言っている」とあり、続く最終文（They believe …）に「それらの物語が思い出されるべき時だと、彼らは信じている」とあることから、2「イギリス領インド軍の兵士たちの物語は語られる必要がある」が正解。",
+          "script": "In World War I, over one million Indian soldiers fought as part of the British Indian Army. One such soldier was Khudadad Khan, a Muslim born in what is now Pakistan. Khan was sent with his fellow soldiers to fight in Belgium. While he was there, the Germans attacked. Khan's comrades were eventually killed, but Khan kept firing despite being injured. His bravery helped prevent the Germans from succeeding and gave Britain enough time to send extra troops.\nKhan was sent to a hospital in Britain to recover. The king visited him there, and Khan received the Victoria Cross, an award for outstanding bravery. During the war, other British Indian Army soldiers were also awarded the Victoria Cross. Some people say their stories and those of many British Indian Army soldiers who died in battle have been forgotten. They believe it is time for those stories to be remembered.",
+          "scriptJa": "第一次世界大戦では、100万人以上のインド人兵士がイギリス領インド軍の一員として戦った。そのような兵士の一人が、現在のパキスタンで生まれたイスラム教徒のフダッド・カーンである。カーンはベルギーで戦うために、仲間の兵士たちと共に派遣された。彼がそこにいるあいだに、ドイツ軍が攻撃を仕掛けた。カーンの仲間たちは最終的に戦死したが、カーンは負傷しているにも関わらず銃を撃ち続けた。彼の勇敢な行動はドイツ軍の進軍を阻止する助けとなり、イギリスが増援を送るための時間を十分稼いだのである。\nカーンは回復のためにイギリスの病院に送られた。国王はそこに彼を訪問し、カーンはヴィクトリア十字章という傑出した勇敢さに対する賞を与えられた。戦争中、他のイギリス領インド軍の兵士たちもヴィクトリア十字章を授与された。人々の中には、彼らの物語や戦いで死んだ多くのイギリス領インド軍兵士たちの物語が忘れられていると言う者もいる。今こそそれらの物語が思い出されるべき時だと、彼らは信じている。"
         },
         {
           "id": "q21",
@@ -369,17 +369,17 @@
           "passageLabel": "Passage E",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/27_question_E.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/28_No21.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the speaker say about Katharine Wright as a teenager?",
           "choices": [
             { "label": "1", "text": "She had to do chores instead of her mother." },
             { "label": "2", "text": "She was more interested in aviation than her brothers." },
             { "label": "3", "text": "She had to give up her education." },
             { "label": "4", "text": "Her brothers found her a teaching job." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "第1段第3文（The siblings' mother died …）の後半に「彼女は家事の責任を引き継がなければならなかった」とあることから、1「彼女は母親の代わりに家事をしなければならなかった」が正解となる。放送のtake over the household responsibilitiesが選択肢ではdo chores「家事をする」に言い換えられている。",
+          "script": "American aviation pioneers Wilbur and Orville Wright are famous around the world. Perhaps less well-known is the role their sister, Katharine, played in their success. The siblings' mother died when Katharine was a teenager, so she had to take over the household responsibilities. Despite this, Katharine continued her studies and even graduated from college—a rare achievement for a woman in the nineteenth century. As a supporter of women's rights, she would later join an organization that campaigned to secure the vote for women.\nAfter graduation, Katharine took a teaching job, but she kept running the Wright family's affairs. This enabled her brothers to focus on their business activities. After Orville was severely hurt in a test flight, however, she left her job to look after him. Over time, she played an increasingly important role in managing the brothers' records and correspondence, and she even traveled abroad to promote their aviation projects.",
+          "scriptJa": "アメリカの航空産業の先駆者であるウィルバーとオーヴィル・ライト兄弟は、世界中で有名である。おそらくあまり知られていないのは、彼らの成功において妹のキャサリンが果たした役割だろう。キャサリンが10代のころに母親が亡くなったため、彼女は家事の責任を引き継がなければならなかった。それにもかかわらず、キャサリンは勉強を続け、大学を卒業すらした——それは19世紀の女性としてはまれな偉業であった。女性の権利を支持する者として、彼女は後に女性が参政権を得るための運動を行う団体に加入することになる。\n卒業後にキャサリンは教職についたが、ライト家の家事も管理し続けた。これによって兄たちは事業活動に専念することができたのである。しかし、オーヴィルが試験飛行中に重傷を負ったとき、彼女は仕事を辞めて彼の世話をした。やがてキャサリンは兄たちの記録や通信の管理にますます重要な役割を果たすようになり、彼らの航空事業を宣伝するために海外へも赴いた。"
         },
         {
           "id": "q22",
@@ -387,17 +387,17 @@
           "passageLabel": "Passage E",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/27_question_E.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/29_No22.mp3",
-          "prompt": "TODO",
+          "prompt": "Why did Katharine stop teaching?",
           "choices": [
             { "label": "1", "text": "She decided to care for her injured brother." },
             { "label": "2", "text": "She wanted to focus on improving women's rights." },
             { "label": "3", "text": "She wanted to travel abroad to support her brothers." },
             { "label": "4", "text": "She was better at business than at teaching." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "第2段第3文（After Orville was …）の途中で出てくるhoweverに注目する。その前に「オーヴィルが重傷を負った」、その後に「彼女は仕事を辞めて彼の世話をした」とあることから、1「彼女は負傷した兄の世話をする決心をした」が正解。",
+          "script": "American aviation pioneers Wilbur and Orville Wright are famous around the world. Perhaps less well-known is the role their sister, Katharine, played in their success. The siblings' mother died when Katharine was a teenager, so she had to take over the household responsibilities. Despite this, Katharine continued her studies and even graduated from college—a rare achievement for a woman in the nineteenth century. As a supporter of women's rights, she would later join an organization that campaigned to secure the vote for women.\nAfter graduation, Katharine took a teaching job, but she kept running the Wright family's affairs. This enabled her brothers to focus on their business activities. After Orville was severely hurt in a test flight, however, she left her job to look after him. Over time, she played an increasingly important role in managing the brothers' records and correspondence, and she even traveled abroad to promote their aviation projects.",
+          "scriptJa": "アメリカの航空産業の先駆者であるウィルバーとオーヴィル・ライト兄弟は、世界中で有名である。おそらくあまり知られていないのは、彼らの成功において妹のキャサリンが果たした役割だろう。キャサリンが10代のころに母親が亡くなったため、彼女は家事の責任を引き継がなければならなかった。それにもかかわらず、キャサリンは勉強を続け、大学を卒業すらした——それは19世紀の女性としてはまれな偉業であった。女性の権利を支持する者として、彼女は後に女性が参政権を得るための運動を行う団体に加入することになる。\n卒業後にキャサリンは教職についたが、ライト家の家事も管理し続けた。これによって兄たちは事業活動に専念することができたのである。しかし、オーヴィルが試験飛行中に重傷を負ったとき、彼女は仕事を辞めて彼の世話をした。やがてキャサリンは兄たちの記録や通信の管理にますます重要な役割を果たすようになり、彼らの航空事業を宣伝するために海外へも赴いた。"
         },
         {
           "id": "q23",
@@ -405,17 +405,17 @@
           "passageLabel": "Passage F",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/30_question_F.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/31_No23.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the speaker say about bleeding canker?",
           "choices": [
             { "label": "1", "text": "It causes infected trees' branches to fall off." },
             { "label": "2", "text": "It has spread throughout the United Kingdom." },
             { "label": "3", "text": "It is most common in parks." },
             { "label": "4", "text": "It is not known what causes it." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "第1段最終文（Thousands of horse chestnut trees …）に「イギリス中で数千本のマロニエの木が感染している」とあることから、2「それはイギリス全体に広がっている」を正解として選ぶ。",
+          "script": "Horse chestnut trees are common in the United Kingdom, both in parks and in natural areas. In recent years, however, they have been threatened by a disease known as bleeding canker. This damages the bark of the trees and interferes with the transport of nutrients from the roots to the branches. Scientists initially believed the disease was due to a fungus, but recent studies revealed that it was caused by bacterial infection. Thousands of horse chestnut trees across the country have been infected, many of which are expected to die.\nIn an attempt to control the disease, large numbers of trees have been cut down in infected areas. However, some experts believe this could be counterproductive since it also destroys trees that have recovered from the disease or have natural resistance to it. This prevents scientists from studying these trees in order to find ways to protect all horse chestnut trees.",
+          "scriptJa": "マロニエの木は、イギリスの公園や自然地域でよく見られる。しかし近年、それらはかいよう病として知られる病気に脅かされている。この病気は樹皮を傷つけ、根から枝への栄養の運搬を妨げる。科学者たちは当初、この病気は菌類が原因だと考えていたが、それが細菌感染によって引き起こされていることが最近の研究で明らかになった。イギリス中で数千本のマロニエの木が感染しており、その多くが枯死すると予想されている。\nこの病気の拡大を防ぐ試みとして、感染地域では多くの木が伐採されている。しかし、この方法は逆効果になる可能性があると一部の専門家は考えている。この方法が病気から回復した木や病気への自然の抵抗力を持つ木も破壊してしまうからである。これにより、すべてのマロニエを保護する方法を見つけるために科学者たちがそれらの木を研究することが阻まれているのだ。"
         },
         {
           "id": "q24",
@@ -423,17 +423,17 @@
           "passageLabel": "Passage F",
           "passageAudio": "audio/eiken/eiken-pre1-2025-2/30_question_F.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-2/32_No24.mp3",
-          "prompt": "TODO",
+          "prompt": "What do some experts believe about bleeding canker?",
           "choices": [
             { "label": "1", "text": "It can affect many kinds of trees." },
             { "label": "2", "text": "There is no way to protect trees from it." },
             { "label": "3", "text": "Some trees can survive being infected by it." },
             { "label": "4", "text": "It will probably disappear naturally." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第2段第2文（However, some experts …）にrecovered from the disease、natural resistance to itとあることを聞き取れば、3「感染しても生き残ることができる木もある」が正解であるとわかる。",
+          "script": "Horse chestnut trees are common in the United Kingdom, both in parks and in natural areas. In recent years, however, they have been threatened by a disease known as bleeding canker. This damages the bark of the trees and interferes with the transport of nutrients from the roots to the branches. Scientists initially believed the disease was due to a fungus, but recent studies revealed that it was caused by bacterial infection. Thousands of horse chestnut trees across the country have been infected, many of which are expected to die.\nIn an attempt to control the disease, large numbers of trees have been cut down in infected areas. However, some experts believe this could be counterproductive since it also destroys trees that have recovered from the disease or have natural resistance to it. This prevents scientists from studying these trees in order to find ways to protect all horse chestnut trees.",
+          "scriptJa": "マロニエの木は、イギリスの公園や自然地域でよく見られる。しかし近年、それらはかいよう病として知られる病気に脅かされている。この病気は樹皮を傷つけ、根から枝への栄養の運搬を妨げる。科学者たちは当初、この病気は菌類が原因だと考えていたが、それが細菌感染によって引き起こされていることが最近の研究で明らかになった。イギリス中で数千本のマロニエの木が感染しており、その多くが枯死すると予想されている。\nこの病気の拡大を防ぐ試みとして、感染地域では多くの木が伐採されている。しかし、この方法は逆効果になる可能性があると一部の専門家は考えている。この方法が病気から回復した木や病気への自然の抵抗力を持つ木も破壊してしまうからである。これにより、すべてのマロニエを保護する方法を見つけるために科学者たちがそれらの木を研究することが阻まれているのだ。"
         }
       ]
     },
@@ -450,19 +450,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-2/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "Which store should you choose?",
-          "promptJa": "TODO",
+          "promptJa": "どの店を選ぶべきか？",
           "situation": "You want a part-time job with the best hourly pay rate possible. You take a computer class on Tuesday evenings. You call a job agency and are told the following.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは可能な限り時給の高いアルバイトを探している。あなたは火曜の夜にコンピュータの授業がある。職業紹介所に電話し、次の説明を聞いた。",
           "choices": [
             { "label": "1", "text": "Snow's Supermarket." },
             { "label": "2", "text": "Heely Good Shoe Plaza." },
             { "label": "3", "text": "HCE." },
             { "label": "4", "text": "Mega-Z Music." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "条件は「できるだけ時給が良い」「火曜の夜は都合が悪い」の2点。HCEは「一番時給が高い」「シフトは金曜・月曜・火曜の午前9時から午後1時まで」とあり、2つの条件を満たすので3「HCE」が正解。1のスノーズは時給が低く、2のヒーリー・グッド・シュー・プラザと4のメガZミュージックは火曜の夜に勤務があるため不適切。",
+          "script": "We have some positions at local stores. First up is Snow's Supermarket. Working days are flexible, which is great, but the hourly pay is very low. Then we have Heely Good Shoe Plaza. The hourly pay here is considerably better. It's three evenings, Monday through Wednesday, with one Sunday shift a month. Next is HCE, the clothing retailer. The hourly pay is the best of the bunch. Shifts run from 9:00 a.m. to 1:00 p.m. on Friday, Monday, and Tuesday. Finally, Mega-Z Music. The hourly pay is the same as Snow's, and you work five weekday evenings a week.",
+          "scriptJa": "地域の店舗にいくつか求人があります。最初はスノーズ・スーパーマーケットです。勤務日は柔軟で、それは良いところなのですが、時給がとても低いです。次はヒーリー・グッド・シュー・プラザです。こちらは時給がかなり良いです。勤務は月曜から水曜の夜が3回で、月に1回日曜の勤務があります。次は衣料小売のHCEです。ここは一番時給が高いです。勤務は金曜・月曜・火曜の午前9時から午後1時までです。最後にメガZミュージックです。時給はスノーズと同じで、平日の夜に週5日勤務です。"
         },
         {
           "id": "q26",
@@ -470,19 +470,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-2/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "Where should you go?",
-          "promptJa": "TODO",
+          "promptJa": "あなたはどこへ行くべきか？",
           "situation": "You are in a meeting at work when you hear the following announcement. The meeting room is on the second floor of Building B.",
-          "situationJa": "TODO",
+          "situationJa": "次のアナウンスを聞いたとき、あなたは仕事で会議中である。会議室は建物Bの2階にある。",
           "choices": [
             { "label": "1", "text": "To the main lobby." },
             { "label": "2", "text": "To the north wing." },
             { "label": "3", "text": "To the atrium." },
             { "label": "4", "text": "To Stetson Hall." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "状況より、建物Bの2階にいることがわかる。放送の第6文に「建物Bの2階・3階にいる場合はステットソン・ホールの大階段へ進む」と指示があるので、4「ステットソン・ホール」が正解。",
+          "script": "Attention, everyone. Due to a possible gas leak, we must initiate emergency evacuation procedures for Buildings A and B. If you are on the first floor of Building A, make your way to the main lobby exit. If you are on the first floor of Building B, proceed to the exit in the north wing. If you are on the second or third floor of Building A, proceed to the main stairwell in the atrium. If you are on the second or third floor of Building B, proceed to the large stairwell in Stetson Hall. Thank you for your cooperation.",
+          "scriptJa": "皆さん、注意してください。ガス漏れの可能性があるため、建物AとBの緊急避難手順を開始してください。建物Aの1階にいる場合は正面ロビー出口へ向かってください。建物Bの1階にいる場合は北ウイング出口へ進んでください。建物Aの2階・3階にいる場合はアトリウムの主階段へ進んでください。建物Bの2階・3階にいる場合はステットソン・ホールの大階段へ進んでください。ご協力をお願いいたします。"
         },
         {
           "id": "q27",
@@ -490,19 +490,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-2/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "Which company should you contact?",
-          "promptJa": "TODO",
+          "promptJa": "あなたはどの会社に連絡すべきか？",
           "situation": "You need a supplier of sensors for your company's automatic doors. Your budget is $180 per unit, and you need eight hundred of them. You hear the following message from a coworker.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは自社の自動ドア用センサーの納入業者を必要としている。予算は1個あたり180ドル、必要数は800個である。あなたは同僚から次のメッセージを聞く。",
           "choices": [
             { "label": "1", "text": "NexusFlow." },
             { "label": "2", "text": "OmniSensor." },
             { "label": "3", "text": "Briarson Technologies." },
             { "label": "4", "text": "Winchester Electronics." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "条件は「1個あたり180ドル」「800個必要」の2点。オムニセンサー社は「通常は1個200ドルだが、500個以上注文すれば1個170ドルに下げられる」とあり条件を満たす。2「オムニセンサー社」が正解。3のブライアソン・テクノロジーズ社は「互換性がない」ため不適。1のネクサスフロー社は最小注文数が1000個で購入不可、4のウィンチェスター・エレクトロニクス社は800個での価格が190ドルで予算超過。",
+          "script": "This is Natalie. I've done some research and come up with some potential suppliers. First, there's NexusFlow. Their sensors are $175 each. Their minimum order is one thousand units, however. Another company I found was OmniSensor. They're regularly $200 each, but if we order over five hundred, we could get the price down to $170 per item. Briarson Technologies has sensors for $160, with no minimum order. Oh, wait. Their sensors aren't compatible with our doors. Finally, there's Winchester Electronics. Their price was $190 for five hundred or more and $170 for orders over one thousand units. Let me know if you have any questions.",
+          "scriptJa": "こちらはナタリーです。調査を行い、候補となる業者を見つけました。まずネクサスフロー社です。こちらのセンサーは1個175ドルですが、最小注文数は1000個です。見つかったもう1つの企業はオムニセンサー社です。通常は1個200ドルですが、500個以上注文すれば1個170ドルまで価格を下げられます。ブライアソン・テクノロジーズ社は1個160ドルで、最小注文数はありません。あっ、ちょっと待ってください。このセンサーはうちのドアとは互換性がないですね。最後にウィンチェスター・エレクトロニクス社です。こちらの価格は500個以上で1個190ドル、1000個以上で1個170ドルでした。何か質問があればお知らせください。"
         },
         {
           "id": "q28",
@@ -510,19 +510,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-2/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "Which instrument should Carlos choose?",
-          "promptJa": "TODO",
+          "promptJa": "カルロスはどの楽器を選ぶべきか？",
           "situation": "Your son Carlos wants to join the band at his school. Your budget for instrument rental is $150 per school term. The band instructor tells you the following.",
-          "situationJa": "TODO",
+          "situationJa": "息子のカルロスは学校のバンドに入りたいと思っている。あなたの学期ごとの楽器レンタル予算は150ドルである。バンドの指導者はあなたに以下のことを伝える。",
           "choices": [
             { "label": "1", "text": "The flute." },
             { "label": "2", "text": "The trumpet." },
             { "label": "3", "text": "The clarinet." },
             { "label": "4", "text": "The drums." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "条件は「楽器レンタル予算は150ドル」。1のフルートと2のトランペットは175ドルで予算超過。クラリネットは「レンタル料は学期ごとに140ドル」で予算内なので3「クラリネット」が正解。4のドラムは125ドルだが校内でのみ使用可能で、自宅にドラムセットがないので練習が難しいとあり不適。",
+          "script": "First, Carlos needs to choose an instrument. There's the flute, which is a fun instrument once students start making progress. Rentals are $175 per term. Next is the trumpet, which is also a lot of fun. Rentals are priced the same as for the flute. The clarinet is also popular. It's relatively easy to learn but difficult to master. Rentals are $140 per term. Finally, we have the drums. The $125 term fee allows in-school use of a band drum set. You mentioned you didn't have one at home, which makes practice difficult, so I'd consider a wind instrument for now.",
+          "scriptJa": "まず、カルロスは楽器を選ぶ必要があります。フルートですが、いったん上達し始めると楽しい楽器です。レンタル料は学期ごとに175ドルです。次はトランペットで、これもとても楽しいです。レンタル料はフルートと同じです。クラリネットも人気です。比較的学びやすいですが、極めるのは難しいです。レンタル料は学期ごとに140ドルです。最後にドラムです。学期ごとに125ドルの利用料で、校内でバンド用ドラムセットを使えます。お家にドラムセットがないとのことで、それだと練習が難しいですから、今は管楽器を検討した方がよいでしょう。"
         },
         {
           "id": "q29",
@@ -530,19 +530,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-2/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "Which dog should you inquire about?",
-          "promptJa": "TODO",
+          "promptJa": "あなたはどの犬について問い合わせるべきか？",
           "situation": "You want to adopt a dog that is already trained and will get along with your six-year-old daughter. You call a local animal shelter and hear the following recorded message.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは、すでにしつけ済みで6歳の娘とも仲良くできる犬を引き取りたいと思っている。あなたは地域の保護動物施設に電話し、次の録音メッセージを聞く。",
           "choices": [
             { "label": "1", "text": "Tiffy, the black Labrador." },
             { "label": "2", "text": "Roger, the honey-colored Labrador." },
             { "label": "3", "text": "Fluffy, the spaniel." },
             { "label": "4", "text": "Wildy, the poodle." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "条件は「しつけ済み」「6歳の娘と仲良くできる」の2点。ティフィーは「トイレのしつけができており、子どもの周りでも行儀がよい」とあるため、1「黒いラブラドールのティフィー」が正解。2のロジャーと3のフラッフィーは訓練が必要、4のワイルディはやんちゃで高校生以上の子どもがいる家庭に最適なため不適。",
+          "script": "Thanks for calling Doggy Lives. We have four dogs that are ready for a new home. Tiffy is a black Labrador with a sweet personality. She's house-trained and well-behaved around kids. Roger is a fun, outgoing, honey-colored Labrador. Unlike Tiffy, though, he will require further training. Fluffy is a cute spaniel. She's only one, so she still needs some training and attention. Finally, Wildy is a charming poodle. He's a bit naughty, though, and likes to be the center of attention, so he's best suited to a couple or family with children high-school-age or older. Stay on the line to speak to a shelter volunteer.",
+          "scriptJa": "ドギー・ライブズにお電話いただきありがとうございます。新しい家を見つける準備ができている犬は4頭います。ティフィーは、優しい性格の黒いラブラドールです。トイレのしつけができており、子どもの周りでもお行儀よく過ごせます。ロジャーは楽しく社交的な蜂蜜色のラブラドールです。ですが、ティフィーと違って、さらに訓練が必要です。フラッフィーは可愛いスパニエルです。まだ1歳なので、これからも訓練と注意が必要です。最後に、ワイルディは魅力的なプードルです。少しやんちゃですが、注目されるのが好きなので、高校生以上の子どもがいる家庭やカップルに最適です。保護施設のボランティアとお話しされる場合は、このままお待ちください。"
         }
       ]
     }
