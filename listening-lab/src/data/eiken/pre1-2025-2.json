@@ -22,193 +22,193 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2025-2/02_No01.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man tell his daughter about social media?",
           "choices": [
             { "label": "1", "text": "It is useful for staying connected with her friends." },
             { "label": "2", "text": "He does not want her to communicate with strangers." },
             { "label": "3", "text": "It can negatively affect communication skills." },
             { "label": "4", "text": "He agrees with her about its effects." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "ソーシャルメディアに関する父親と娘の会話。1番目の男性の発言から、午後6時以降はソーシャルメディアを禁止していることがわかる。2番目の男性の発言で、彼はその理由を説明しており、「ソーシャルメディアに時間をかけすぎると、現実世界で互いの関わり方を忘れてしまう」と伝えている。よって、正解は3「それはコミュニケーション能力に悪影響を及ぼす」である。",
+          "script": "M: Christy, you know the rule. No social media after 6 p.m.\nW: Sorry, Dad. I just need to post an update to one account.\nM: Look, there are reasons your mother and I set these limits. For one, spending too much time on social media makes people forget how to relate to each other in the real world.\nW: But I only really use it to share things with my close friends.\nM: Well, if they're your close friends, you can communicate when you see them in person!",
+          "scriptJa": "M: クリスティ、ルールは覚えてるね。午後6時以降はソーシャルメディア禁止だよ。\nW: ごめんなさい、お父さん。1つのアカウントに更新情報を投稿するだけだから。\nM: いいかい、お母さんと私が制限を設けたのには理由があるんだよ。一つには、ソーシャルメディアに時間をかけすぎると、現実世界で互いの関わり方を忘れてしまうからなんだ。\nW: でも、私は実際には仲の良い友達と共有するためにしかそれを使ってないわ。\nM: ねえ、親しい友達なら、会ったときに直接伝えればいいじゃないか！"
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2025-2/03_No02.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man say?",
           "choices": [
             { "label": "1", "text": "He does not enjoy his program." },
             { "label": "2", "text": "He may be taking on too much." },
             { "label": "3", "text": "He may not graduate on time." },
             { "label": "4", "text": "He wants to graduate early." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "夏休みに関する親子の会話。選択肢の主語がすべてHeになっていることから、男性の発言に特に注目したい。1番目の男性の発言から、彼が夏休みに授業をいくつか取ろうとしていることがわかる。そして2番目の男性の発言に「予定より早く卒業したい」と言っていることから、4「彼は早く卒業したいと思っている」が正解となる。",
+          "script": "W: You must be looking forward to summer vacation, Rick.\nM: I'm actually planning to take a few classes, Mom.\nW: Shouldn't you take a break? Your engineering program is so demanding.\nM: Well, I'm hoping to graduate ahead of schedule and start on my master's degree.\nW: It might not be a bad idea to get some work experience first.\nM: I'd rather get my studies over with while I'm motivated.\nW: If you say so, but you should give it some thought.",
+          "scriptJa": "W: 夏休みが楽しみでしょうね、リック。\nM: 実は、いくつか授業を取る予定なんだ、お母さん。\nW: 休んだほうがいいんじゃないの？ 工学部の課程はとてもきついのに。\nM: うん、でも予定より早く卒業して、修士課程を始めたいんだ。\nW: まずは職業経験を積むのも悪い考えじゃないと思うけど。\nM: やる気があるうちに勉強を終わらせたいんだよね。\nW: あなたがそう言うならいいけど、少し考えたほうがいいわね。"
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2025-2/04_No03.mp3",
-          "prompt": "TODO",
+          "prompt": "What has the couple decided to do?",
           "choices": [
             { "label": "1", "text": "Take away Jared's tablet computer." },
             { "label": "2", "text": "Get the screen of Jared's tablet computer fixed." },
             { "label": "3", "text": "Buy Jared a new tablet computer." },
             { "label": "4", "text": "Control Jared's use of his tablet computer." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "子どもについて相談する夫婦の会話。選択肢にtablet computerとあることから、タブレット端末に関係する会話であることを前提に聞くとわかりやすいだろう。女性の3番目の発言に「毎日の使用時間に制限を設ける」とあり、続く発言で男性もそれに同意していることがわかる。4「ジャレッドのタブレットの使用を管理する」が正解。",
+          "script": "W: We need to talk about Jared. He doesn't play sports with his friends anymore, and he hasn't read a book in weeks.\nM: I know. And he used to love those things.\nW: This has all happened since we purchased that tablet computer for him. He reaches for it as soon as he wakes up.\nM: Yeah. We bought it to help him with his school reports, not for him to waste time watching online videos.\nW: Maybe we should set a limit on his daily screen time.\nM: I agree.",
+          "scriptJa": "W: ジャレッドのことを話さなきゃ。あの子はもう友達とスポーツをしないし、何週間も本を読んでいないのよ。\nM: ああ、わかってるよ。前はそういうことが大好きだったのにな。\nW: あのタブレットを買ってあげてからこうなったのよ。起きたらすぐに触ってるもの。\nM: そうだね。あれは学校のレポート作成に役立てるために買ったのであって、ネット動画を見て時間をムダにするためじゃないんだ。\nW: たぶん毎日の使用時間に制限を設けるべきなんだわ。\nM: 僕もそう思うよ。"
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2025-2/05_No04.mp3",
-          "prompt": "TODO",
+          "prompt": "What do we learn about the woman's watch?",
           "choices": [
             { "label": "1", "text": "The repairs will take a long time." },
             { "label": "2", "text": "The manufacturer has gone out of business." },
             { "label": "3", "text": "She will not have to pay for the repairs." },
             { "label": "4", "text": "She lost it last month." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "1番目の男性の発言にあるwhat's wrongや1番目の女性の発言にあるIt's strangeから、女性の腕時計が故障していることが予測できる。3番目の男性の発言に「保証があるといい」とあり、続く3番目の女性の発言に「お店の保証が適用されることはわかっている」とあることから、故障した腕時計は保証で修理できるとわかり、3「彼女は修理費を支払う必要はない」が正解となる。",
+          "script": "M: Did you find out what's wrong with your watch, Cindy?\nW: Not yet. It's strange that it keeps running fast. It's off by almost ten minutes every day.\nM: I thought you just bought it last month.\nW: I did, but it was used, so I guess it can't be helped.\nM: I hope it has a warranty, though. Repairs aren't cheap.\nW: The manufacturer's warranty has expired, but I know the store's warranty will cover it.\nM: That's good.",
+          "scriptJa": "M: 腕時計の調子が悪い理由はわかったかい、シンディ？\nW: まだわからないのよ。ずっと早く進んでいておかしいの。毎日10分くらいずれるのよ。\nM: 先月買ったばかりだと思ってたけど。\nW: そうなんだけど、中古だったから仕方ないかもね。\nM: でも保証があるといいね。修理するのは安くないから。\nW: メーカー保証は切れてるけど、お店の保証が適用されることはわかっているの。\nM: それはよかった。"
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2025-2/06_No05.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man suggest the woman do?",
           "choices": [
             { "label": "1", "text": "Try a different recruiting method." },
             { "label": "2", "text": "Take classes at the business school." },
             { "label": "3", "text": "Use an employment agency." },
             { "label": "4", "text": "Add work experience to her résumé." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "人事に関する担当者の会話。男性の2番目の発言に注目する。How about doingは「〜してはどうか」という提案を表す表現で、その内容が設問で問われることが多い。ここでは「ビジネススクールに何か掲示してみるのはどうか」という提案である。女性の発言がうまく聞き取れなかったとしても1「別の採用方法を試す」を選ぶことができる。business schoolの部分だけに引っ張られて、2を選ばないこと。",
+          "script": "M: We need to hire more staff for the accounting department.\nW: We've been trying, but no suitable candidates have applied. We tried an employment agency, which was a waste of time! The candidates they introduced didn't even have the necessary qualifications.\nM: How about posting something at the business school? This year's graduates may not have much experience, but they should have the qualifications you need.\nW: It's worth a try. I'll ask if I can post something on the school's career board.",
+          "scriptJa": "M: 経理部にもっと職員を雇う必要があるね。\nW: 努力してるけど、適任者が応募してこないのよ。職業紹介所も使ったけど、時間の無駄だったわ！ 紹介してきた候補者たちは必要な資格すら持ってなかったんだから。\nM: ビジネススクールに何か掲示してみるのはどうだい？ 今年の卒業生なら経験はあまりないかもしれないけど、必要な資格は持っているはずだから。\nW: やってみる価値はあるわね。学校の職業掲示板に貼り出してもいいか聞いてみるわ。"
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2025-2/07_No06.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the man says?",
           "choices": [
             { "label": "1", "text": "He does not like any of the houses." },
             { "label": "2", "text": "He would prefer a house with fewer stairs." },
             { "label": "3", "text": "He has decided not to buy a house." },
             { "label": "4", "text": "He wants to live close to a station." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "不動産会社の女性と客の男性の会話。1番目の発言で男性は「決められない」と言っているので、1と3は不適切。女性の2番目の発言に「どれだけ駅に近いところに住みたいかがむしろ重要だ」とあり、それに対して男性は2番目の発言で「それが私の一番の優先事項だ」と言っている。したがって、4「彼は駅の近くに住みたい」が正解となる。",
+          "script": "W: This is Melanie from Rydale Real Estate. Did you look over the floor plans I emailed?\nM: Yes, but I can't decide whether to go for a two- or three-story house.\nW: It's more about how close you want to be to a train station.\nM: That's definitely my priority.\nW: Most homes closer to stations are on smaller pieces of land, so they tend to have three floors. If you don't mind climbing stairs, you get more space.\nM: Stairs don't bother me.",
+          "scriptJa": "W: ライデール不動産のメラニーです。メールでお送りした間取り図はご覧になりましたか？\nM: ええ、でも2階建てにするか3階建てにするか決めかねていて。\nW: どれだけ駅に近いところに住みたいかがむしろ重要ですよね。\nM: それが私の一番の優先事項です。\nW: 駅に近いほとんどの家は、土地が狭いので3階建てになりがちです。階段を上るのが気にならなければ、広いスペースが使えますよ。\nM: 階段は気にしないです。"
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2025-2/08_No07.mp3",
-          "prompt": "TODO",
+          "prompt": "What will the couple probably do?",
           "choices": [
             { "label": "1", "text": "Go to bed early." },
             { "label": "2", "text": "Go out for dinner." },
             { "label": "3", "text": "Take turns washing the dishes." },
             { "label": "4", "text": "Buy a dishwasher." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "前半のやり取りから、夫婦が皿洗いの順番について話し合っているという状況をつかみたい。女性の3番目の発言に「食器洗い機を買いましょう」とあり、続く男性の発言に「わかった」「明日は店に行く時間がある」とある。話の流れから、男性の言っている「店」とは食器洗い機を売っている店であることが推測できるので、4「食器洗い機を買う」が正解。",
+          "script": "W: Phil, it's your turn to do the dishes tonight.\nM: I'm exhausted, Kim. Can you do it? I promise I'll take your turn tomorrow.\nW: Look, I know you don't like doing it, but you agreed we'd share the housework equally.\nM: I know. I just don't have the energy at night.\nW: Well, neither do I. If you don't want to help out, then let's get a dishwasher.\nM: OK. I'm free to go to the store tomorrow.",
+          "scriptJa": "W: フィル、今夜はあなたが皿洗いの番よ。\nM: もうくたくただよ、キム。君がやってくれない？ 明日、君の番を代わるって約束するからさ。\nW: ねえ、やりたくないのはわかるけど、家事は平等に分担することにあなたは賛成したでしょ。\nM: わかってるよ。ただ、夜はもう体力がないんだ。\nW: まあ、私だって同じよ。もし手伝いたくないなら、食器洗い機を買いましょうよ。\nM: わかった。明日なら店に行く時間があるよ。"
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2025-2/09_No08.mp3",
-          "prompt": "TODO",
+          "prompt": "Why are the speakers concerned?",
           "choices": [
             { "label": "1", "text": "Their next-door neighbor had something stolen." },
             { "label": "2", "text": "Neighborhood traffic problems are getting worse." },
             { "label": "3", "text": "One of their neighbors has been acting strangely." },
             { "label": "4", "text": "Their house may be robbed." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "女性の最初の発言に「心配な電話」とあることから、その内容をしっかり意識して聞き取りたい。女性の2番目の発言にある「怪しい車が走っていた」や、続く男性の2番目の発言にある「侵入する家を探している」という情報から、2人が心配しているのは自分の家に誰かが侵入してくるかもしれないことだと推測できる。よって、4「彼らの家が強盗に遭うかもしれない」が最も適当。",
+          "script": "W: I just got a worrying phone call from Glenda next door.\nM: What did she say?\nW: Last night, some of the other neighbors saw a suspicious-looking car driving around slowly with its lights out. It disappeared when they went outside.\nM: That sounds like burglars looking for a house to break into. I'm glad she let us know.\nW: Yes. Thank goodness we have neighbors who are alert.",
+          "scriptJa": "W: 今、隣のグレンダから心配な電話があったの。\nM: なんて言ってたの？\nW: 昨夜、怪しい車がライトを消したままゆっくり走っているのを、近所の人の何人かが見たそうよ。外に出たときにはその車は消えてたんですって。\nM: それは侵入する家を探している強盗みたいだな。知らせてくれてよかったよ。\nW: ほんとうね。警戒心のあるご近所さんがいてよかったわ。"
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2025-2/10_No09.mp3",
-          "prompt": "TODO",
+          "prompt": "What will probably be discussed at the meeting?",
           "choices": [
             { "label": "1", "text": "Whether or not to lower the price." },
             { "label": "2", "text": "Ways to increase the battery life." },
             { "label": "3", "text": "The wording of the advertisements." },
             { "label": "4", "text": "Adding more features to the product." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "男性の最初の発言に「マーケティングキャンペーンについて少し心配している」とあるため、男性の心配の内容を意識しながら聞きたい。続く女性の1番目の発言に「誤解を招く」とあり、続く男性の2番目の発言に「多くの苦情につながる」とある。そして最後の男性の発言に「広告の文言の一部を調整する」とあることから、会議で話し合われるのは3「広告の文言」である。",
+          "script": "M: I'm a bit concerned about our marketing campaign for the new model of our smartwatch, Ursula.\nW: I am too. I think some of the descriptions of the features are misleading.\nM: I know they're trying to justify the price increase, but I'm worried they'll lead to a lot of complaints.\nW: Yeah, especially the claims about the battery. Most people won't get that much life out of them.\nM: I think we'd better have a meeting about adjusting some of the text in the ads.",
+          "scriptJa": "M: スマートウォッチの新モデルのマーケティングキャンペーンが少し心配なんだ、ウルスラ。\nW: 私もよ。特徴の説明の一部が誤解を招くと思うの。\nM: 値上げを正当化しようとしているのはわかるけど、それで多くの苦情につながるんじゃないかと心配なんだ。\nW: ええ、特にバッテリーに関する宣伝文句ね。ほとんどの人はそんなに長くもたないわよ。\nM: 広告の文言の一部を調整する会議を開いたほうがよさそうだね。"
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2025-2/11_No10.mp3",
-          "prompt": "TODO",
+          "prompt": "What did Michael's teacher tell the parents?",
           "choices": [
             { "label": "1", "text": "He was bothering the other children." },
             { "label": "2", "text": "He was not concentrating on the lessons." },
             { "label": "3", "text": "He damaged the classroom's window." },
             { "label": "4", "text": "He was rude to the teacher." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "息子の担任からの電話に関する夫婦の会話。2番目の男性の発言に「マイケルが授業中に集中していない」とあることから、2「彼は授業に集中していなかった」が正解。放送のpaying attentionが、選択肢ではconcentratingに言い換えられている。",
+          "script": "M: Honey, I got a phone call from Michael's teacher today.\nW: Oh, what did she say?\nM: It seems that Michael hasn't been paying attention in class. She seemed quite concerned about him.\nW: I hope he's not disturbing the other kids, is he?\nM: No, she said he was just staring out the window.\nW: We'll have to talk with him about this when he gets home.",
+          "scriptJa": "M: ねえ、今日マイケルの先生から電話があったんだ。\nW: あら、なんて言ってたの？\nM: マイケルは授業中に集中していないみたいだ。先生はかなり心配そうだったよ。\nW: ほかの子の邪魔をしてるわけじゃないでしょうね？\nM: いや、ただ窓の外をじっと眺めていたって言ってたな。\nW: 家に帰ってきたら、このことについて話さないといけないわね。"
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2025-2/12_No11.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man imply?",
           "choices": [
             { "label": "1", "text": "The woman should choose a different recipe." },
             { "label": "2", "text": "It will be difficult to get the ingredients." },
             { "label": "3", "text": "The woman should follow the recipe." },
             { "label": "4", "text": "Creativity is the most important part of cooking." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "最後の男性の発言にあることわざの引用がヒント。「ルールを破る前にまずルールを学べ」ということなので、彼が女性に言いたいことは「ルールに従うこと」であると推測できる。本問の会話は料理に関するやり取りなので、「料理に関するルールに従う」という内容に近い3「女性はレシピに従うべきだ」を選ぶ。男性の3番目の発言にある「それはレシピそのものを習得してからの話だ」の部分も、正解を選ぶうえでポイントとなる。",
+          "script": "W: Hey, honey, I'm about to experiment with a new recipe.\nM: What do you mean by \"experiment\"?\nW: I'm just going to try it out for the first time to see if it's good.\nM: Oh, OK. It's just that sometimes you like to play around with the ingredients and amounts.\nW: Well, cooking is all about creativity!\nM: Sure, but that's after you've mastered the recipe as it is. You know that old saying: \"You must learn the rules before you can break them.\"",
+          "scriptJa": "W: ねえ、あなた、これから新しいレシピを実験してみようと思うの。\nM: 「実験」ってどういう意味だい？\nW: おいしいかどうか確かめるために初めて作ってみるだけよ。\nM: ああ、そういうことね。君って時々材料とか分量をいじるのが好きだからさ。\nW: だって、料理ってまったくもって創造力でしょ！\nM: たしかにそうだけど、それはレシピそのものを習得してからの話だよ。昔からのことわざにあるだろ、「ルールを破る前にまずルールを学べ」って。"
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2025-2/13_No12.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man say about the pocket watch?",
           "choices": [
             { "label": "1", "text": "He is planning to sell it." },
             { "label": "2", "text": "It may be worth a lot of money." },
             { "label": "3", "text": "It does not work well anymore." },
             { "label": "4", "text": "He does not like the design on the back." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "懐中時計に関する男女の会話。男性の3番目の発言に「かなり価値があるはずだ」とあることから、2「それはかなり価値が高いかもしれない」が正解。放送のquite valuableが選択肢ではworth a lot of moneyに言い換えられている。",
+          "script": "W: That's a beautiful old pocket watch.\nM: It was my great-grandfather's. It's over a century old, but it still tells the time accurately.\nW: Wow. It's really fancy-looking too.\nM: Look at the design on the back. It's really artistic.\nW: Oh, it's an eagle. Very elegant.\nM: I heard it was designed by a famous watchmaker. It's supposed to be quite valuable.\nW: You could sell it to an antique dealer.\nM: I think I'll keep it and pass it down to my children.",
+          "scriptJa": "W: きれいな古い懐中時計ね。\nM: これはひいおじいさんのものだったんだ。100年以上前のものだけど、今でも正確に時間を教えてくれるんだよ。\nW: わあ、見た目も本当に豪華ね。\nM: 裏のデザインを見てごらんよ。とても芸術的なんだ。\nW: あっ、ワシね。とても上品だわ。\nM: 有名な時計職人がデザインしたそうだよ。かなり価値があるはずだ。\nW: 骨董商の人に売ってもいいんじゃない。\nM: 手元に置いて子どもたちに渡そうと思ってるんだよ。"
         }
       ]
     },
