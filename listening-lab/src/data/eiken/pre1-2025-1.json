@@ -24,22 +24,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/02_No01.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Help her contact clients." },
+            { "label": "2", "text": "Take on more projects." },
+            { "label": "3", "text": "Add her to e-mails." },
+            { "label": "4", "text": "Leave notes on her desk." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -52,22 +40,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/03_No02.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "The automated system is broken." },
+            { "label": "2", "text": "The novel he wants is popular." },
+            { "label": "3", "text": "He cannot pay by credit card." },
+            { "label": "4", "text": "He cannot borrow the book now." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -80,22 +56,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/04_No03.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "He could not submit his project." },
+            { "label": "2", "text": "His boss is often too strict." },
+            { "label": "3", "text": "He could not take time off." },
+            { "label": "4", "text": "His boss misses a lot of work." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -108,22 +72,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/05_No04.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Cooking a special meal." },
+            { "label": "2", "text": "Planning a big party." },
+            { "label": "3", "text": "Having a quiet dinner without the kids." },
+            { "label": "4", "text": "Taking a vacation as a family." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -136,22 +88,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/06_No05.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "He should try to submit it early." },
+            { "label": "2", "text": "He should look for recent sources." },
+            { "label": "3", "text": "He should use books rather than journal articles." },
+            { "label": "4", "text": "He should not include his opinion." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -164,22 +104,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/07_No06.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "He does not have any insurance." },
+            { "label": "2", "text": "He was trying to avoid hitting an animal." },
+            { "label": "3", "text": "He was not the one who caused it." },
+            { "label": "4", "text": "He thinks the damage is serious." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -192,22 +120,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/08_No07.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "He does not have enough time to study." },
+            { "label": "2", "text": "He does not enjoy his club activities." },
+            { "label": "3", "text": "He did not make the baseball team." },
+            { "label": "4", "text": "He is not interested in going to college." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -220,22 +136,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/09_No08.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Find a job for Caitlin." },
+            { "label": "2", "text": "Work extra hours at his job." },
+            { "label": "3", "text": "Search for a new bank." },
+            { "label": "4", "text": "Get help from a professional." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -248,22 +152,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/10_No09.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "The food tasted bad." },
+            { "label": "2", "text": "The service was poor." },
+            { "label": "3", "text": "It had a nice atmosphere." },
+            { "label": "4", "text": "It should pay its staff more." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -276,22 +168,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/11_No10.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "It is unlikely to succeed." },
+            { "label": "2", "text": "It will create too much work." },
+            { "label": "3", "text": "She should be the project leader." },
+            { "label": "4", "text": "The man should join the project team." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -304,22 +184,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/12_No11.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Contact a plumber as soon as possible." },
+            { "label": "2", "text": "Reduce how much hot water they use." },
+            { "label": "3", "text": "Get a new shower for their bathroom." },
+            { "label": "4", "text": "Wait before replacing the water heater." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -332,22 +200,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/13_No12.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Get started early on her assignment." },
+            { "label": "2", "text": "Change the topic for her assignment." },
+            { "label": "3", "text": "Send the professor a list of her sources." },
+            { "label": "4", "text": "Ask the professor to extend the deadline." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -371,22 +227,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/16_No13.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "It covered most areas of Britain." },
+            { "label": "2", "text": "It was divided into multiple sections." },
+            { "label": "3", "text": "It led to the failure of Roman invasions." },
+            { "label": "4", "text": "It was an important resource for Roman armies." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -401,22 +245,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/17_No14.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "It cannot be more than six thousand years old." },
+            { "label": "2", "text": "Humans are not to blame for its destruction." },
+            { "label": "3", "text": "Ancient historians were mostly correct about it." },
+            { "label": "4", "text": "It had already shrunk when the Romans arrived." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -431,22 +263,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/19_No15.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Their photographs showed the damaging effects of war." },
+            { "label": "2", "text": "Capa prevented Taro from becoming a photographer." },
+            { "label": "3", "text": "They were unable to travel to Spain together." },
+            { "label": "4", "text": "Taro first introduced Capa to war photography." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -461,22 +281,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/20_No16.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "She had not wanted to go to the front line." },
+            { "label": "2", "text": "Her photographic techniques were not original." },
+            { "label": "3", "text": "Her work got little attention for many years after she died." },
+            { "label": "4", "text": "She preferred working with Capa to working alone." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -491,22 +299,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/22_No17.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Spider silk can pick up sounds humans cannot." },
+            { "label": "2", "text": "Spiders have no need to detect sounds." },
+            { "label": "3", "text": "Spiders produce sounds that humans cannot hear." },
+            { "label": "4", "text": "Spider webs can be damaged by sound waves." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -521,22 +317,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/23_No18.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "They can negatively affect human hearing." },
+            { "label": "2", "text": "They become less effective as they get smaller." },
+            { "label": "3", "text": "They cannot detect some frequencies produced by humans." },
+            { "label": "4", "text": "They make vibrations that the brain cannot process." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -551,22 +335,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/25_No19.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Their agriculture polluted the Nile River." },
+            { "label": "2", "text": "Their agriculture relied on the Nile River." },
+            { "label": "3", "text": "Their crops were poorly suited to the region." },
+            { "label": "4", "text": "Their farming methods were very advanced." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -581,22 +353,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/26_No20.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Some were less accurate than others." },
+            { "label": "2", "text": "Historians are unsure why they were built." },
+            { "label": "3", "text": "Historians think they had more than one function." },
+            { "label": "4", "text": "They were paid for using taxpayers' money." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -611,22 +371,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/28_No21.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Hospitals lack expertise regarding brain conditions." },
+            { "label": "2", "text": "Brain conditions are difficult to treat." },
+            { "label": "3", "text": "Brain conditions make people more sensitive to heat." },
+            { "label": "4", "text": "Past research on brain conditions was incorrect." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -641,22 +389,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/29_No22.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "The effects of global warming will be reduced." },
+            { "label": "2", "text": "New kinds of brain conditions will appear." },
+            { "label": "3", "text": "People will adapt to extreme weather events." },
+            { "label": "4", "text": "More people will suffer from brain conditions." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -671,22 +407,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/31_No23.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "They are usually located within the workplace." },
+            { "label": "2", "text": "Financial cost does not prevent people from entering." },
+            { "label": "3", "text": "Creative people benefit from them the most." },
+            { "label": "4", "text": "They can make work-life balance harder to achieve." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -701,22 +425,10 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/32_No24.mp3",
           "prompt": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "They may be inspired to change careers." },
+            { "label": "2", "text": "Remote work could become more difficult to manage." },
+            { "label": "3", "text": "Their work environment can become healthier." },
+            { "label": "4", "text": "They could benefit from increased formal training." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -737,27 +449,15 @@
           "number": 25,
           "audio": "audio/eiken/eiken-pre1-2025-1/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
-          "prompt": "TODO",
+          "prompt": "Which room should you rent?",
           "promptJa": "TODO",
-          "situation": "TODO",
+          "situation": "You are planning a painting workshop for twenty people. You call an arts center to ask about renting a room and are told the following.",
           "situationJa": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "The Rose Gallery." },
+            { "label": "2", "text": "The Sun Gallery." },
+            { "label": "3", "text": "The Blue Room." },
+            { "label": "4", "text": "The Sky Studio." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -769,27 +469,15 @@
           "number": 26,
           "audio": "audio/eiken/eiken-pre1-2025-1/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
-          "prompt": "TODO",
+          "prompt": "Where should you go?",
           "promptJa": "TODO",
-          "situation": "TODO",
+          "situation": "You are a tenth-grade high school student. You are in the art classroom at school when you hear the following announcement.",
           "situationJa": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "To the main sports field." },
+            { "label": "2", "text": "To the staff parking lot." },
+            { "label": "3", "text": "To the gym." },
+            { "label": "4", "text": "To the small auditorium." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -801,27 +489,15 @@
           "number": 27,
           "audio": "audio/eiken/eiken-pre1-2025-1/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
-          "prompt": "TODO",
+          "prompt": "What should you do next?",
           "promptJa": "TODO",
-          "situation": "TODO",
+          "situation": "You have a tree in your yard that has a disease. It is sixty centimeters in diameter. A tree specialist is giving you advice.",
           "situationJa": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Purchase more of the chemical." },
+            { "label": "2", "text": "Continue to check the tree's condition." },
+            { "label": "3", "text": "Get in touch with city hall." },
+            { "label": "4", "text": "Book a date with the tree specialist." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -833,27 +509,15 @@
           "number": 28,
           "audio": "audio/eiken/eiken-pre1-2025-1/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
-          "prompt": "TODO",
+          "prompt": "Which tour should you take?",
           "promptJa": "TODO",
-          "situation": "TODO",
+          "situation": "You are on vacation with your husband. You are both interested in history and physical activities. A staff member at the tourist office gives you some tour options.",
           "situationJa": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "The evening city tour." },
+            { "label": "2", "text": "The daytime bus tour." },
+            { "label": "3", "text": "The cycling tour." },
+            { "label": "4", "text": "The river tour." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
@@ -865,27 +529,15 @@
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2025-1/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "TODO",
+          "prompt": "Who should you ask to work tomorrow?",
           "promptJa": "TODO",
-          "situation": "TODO",
+          "situation": "You are the manager of a store. Part-time employees can work a maximum of thirty hours per week. You receive the following voicemail from a coworker.",
           "situationJa": "TODO",
           "choices": [
-            {
-              "label": "1",
-              "text": "TODO"
-            },
-            {
-              "label": "2",
-              "text": "TODO"
-            },
-            {
-              "label": "3",
-              "text": "TODO"
-            },
-            {
-              "label": "4",
-              "text": "TODO"
-            }
+            { "label": "1", "text": "Miranda." },
+            { "label": "2", "text": "Jack." },
+            { "label": "3", "text": "Dana." },
+            { "label": "4", "text": "Rakesh." }
           ],
           "answer": "TODO",
           "explanation": "TODO",
