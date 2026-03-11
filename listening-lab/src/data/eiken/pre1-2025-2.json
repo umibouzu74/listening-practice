@@ -450,19 +450,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-2/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "Which store should you choose?",
-          "promptJa": "TODO",
+          "promptJa": "どの店を選ぶべきか？",
           "situation": "You want a part-time job with the best hourly pay rate possible. You take a computer class on Tuesday evenings. You call a job agency and are told the following.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは可能な限り時給の高いアルバイトを探している。あなたは火曜の夜にコンピュータの授業がある。職業紹介所に電話し、次の説明を聞いた。",
           "choices": [
             { "label": "1", "text": "Snow's Supermarket." },
             { "label": "2", "text": "Heely Good Shoe Plaza." },
             { "label": "3", "text": "HCE." },
             { "label": "4", "text": "Mega-Z Music." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "条件は「できるだけ時給が良い」「火曜の夜は都合が悪い」の2点。HCEは「一番時給が高い」「シフトは金曜・月曜・火曜の午前9時から午後1時まで」とあり、2つの条件を満たすので3「HCE」が正解。1のスノーズは時給が低く、2のヒーリー・グッド・シュー・プラザと4のメガZミュージックは火曜の夜に勤務があるため不適切。",
+          "script": "We have some positions at local stores. First up is Snow's Supermarket. Working days are flexible, which is great, but the hourly pay is very low. Then we have Heely Good Shoe Plaza. The hourly pay here is considerably better. It's three evenings, Monday through Wednesday, with one Sunday shift a month. Next is HCE, the clothing retailer. The hourly pay is the best of the bunch. Shifts run from 9:00 a.m. to 1:00 p.m. on Friday, Monday, and Tuesday. Finally, Mega-Z Music. The hourly pay is the same as Snow's, and you work five weekday evenings a week.",
+          "scriptJa": "地域の店舗にいくつか求人があります。最初はスノーズ・スーパーマーケットです。勤務日は柔軟で、それは良いところなのですが、時給がとても低いです。次はヒーリー・グッド・シュー・プラザです。こちらは時給がかなり良いです。勤務は月曜から水曜の夜が3回で、月に1回日曜の勤務があります。次は衣料小売のHCEです。ここは一番時給が高いです。勤務は金曜・月曜・火曜の午前9時から午後1時までです。最後にメガZミュージックです。時給はスノーズと同じで、平日の夜に週5日勤務です。"
         },
         {
           "id": "q26",
@@ -470,19 +470,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-2/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "Where should you go?",
-          "promptJa": "TODO",
+          "promptJa": "あなたはどこへ行くべきか？",
           "situation": "You are in a meeting at work when you hear the following announcement. The meeting room is on the second floor of Building B.",
-          "situationJa": "TODO",
+          "situationJa": "次のアナウンスを聞いたとき、あなたは仕事で会議中である。会議室は建物Bの2階にある。",
           "choices": [
             { "label": "1", "text": "To the main lobby." },
             { "label": "2", "text": "To the north wing." },
             { "label": "3", "text": "To the atrium." },
             { "label": "4", "text": "To Stetson Hall." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "状況より、建物Bの2階にいることがわかる。放送の第6文に「建物Bの2階・3階にいる場合はステットソン・ホールの大階段へ進む」と指示があるので、4「ステットソン・ホール」が正解。",
+          "script": "Attention, everyone. Due to a possible gas leak, we must initiate emergency evacuation procedures for Buildings A and B. If you are on the first floor of Building A, make your way to the main lobby exit. If you are on the first floor of Building B, proceed to the exit in the north wing. If you are on the second or third floor of Building A, proceed to the main stairwell in the atrium. If you are on the second or third floor of Building B, proceed to the large stairwell in Stetson Hall. Thank you for your cooperation.",
+          "scriptJa": "皆さん、注意してください。ガス漏れの可能性があるため、建物AとBの緊急避難手順を開始してください。建物Aの1階にいる場合は正面ロビー出口へ向かってください。建物Bの1階にいる場合は北ウイング出口へ進んでください。建物Aの2階・3階にいる場合はアトリウムの主階段へ進んでください。建物Bの2階・3階にいる場合はステットソン・ホールの大階段へ進んでください。ご協力をお願いいたします。"
         },
         {
           "id": "q27",
@@ -490,19 +490,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-2/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "Which company should you contact?",
-          "promptJa": "TODO",
+          "promptJa": "あなたはどの会社に連絡すべきか？",
           "situation": "You need a supplier of sensors for your company's automatic doors. Your budget is $180 per unit, and you need eight hundred of them. You hear the following message from a coworker.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは自社の自動ドア用センサーの納入業者を必要としている。予算は1個あたり180ドル、必要数は800個である。あなたは同僚から次のメッセージを聞く。",
           "choices": [
             { "label": "1", "text": "NexusFlow." },
             { "label": "2", "text": "OmniSensor." },
             { "label": "3", "text": "Briarson Technologies." },
             { "label": "4", "text": "Winchester Electronics." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "条件は「1個あたり180ドル」「800個必要」の2点。オムニセンサー社は「通常は1個200ドルだが、500個以上注文すれば1個170ドルに下げられる」とあり条件を満たす。2「オムニセンサー社」が正解。3のブライアソン・テクノロジーズ社は「互換性がない」ため不適。1のネクサスフロー社は最小注文数が1000個で購入不可、4のウィンチェスター・エレクトロニクス社は800個での価格が190ドルで予算超過。",
+          "script": "This is Natalie. I've done some research and come up with some potential suppliers. First, there's NexusFlow. Their sensors are $175 each. Their minimum order is one thousand units, however. Another company I found was OmniSensor. They're regularly $200 each, but if we order over five hundred, we could get the price down to $170 per item. Briarson Technologies has sensors for $160, with no minimum order. Oh, wait. Their sensors aren't compatible with our doors. Finally, there's Winchester Electronics. Their price was $190 for five hundred or more and $170 for orders over one thousand units. Let me know if you have any questions.",
+          "scriptJa": "こちらはナタリーです。調査を行い、候補となる業者を見つけました。まずネクサスフロー社です。こちらのセンサーは1個175ドルですが、最小注文数は1000個です。見つかったもう1つの企業はオムニセンサー社です。通常は1個200ドルですが、500個以上注文すれば1個170ドルまで価格を下げられます。ブライアソン・テクノロジーズ社は1個160ドルで、最小注文数はありません。あっ、ちょっと待ってください。このセンサーはうちのドアとは互換性がないですね。最後にウィンチェスター・エレクトロニクス社です。こちらの価格は500個以上で1個190ドル、1000個以上で1個170ドルでした。何か質問があればお知らせください。"
         },
         {
           "id": "q28",
@@ -510,19 +510,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-2/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "Which instrument should Carlos choose?",
-          "promptJa": "TODO",
+          "promptJa": "カルロスはどの楽器を選ぶべきか？",
           "situation": "Your son Carlos wants to join the band at his school. Your budget for instrument rental is $150 per school term. The band instructor tells you the following.",
-          "situationJa": "TODO",
+          "situationJa": "息子のカルロスは学校のバンドに入りたいと思っている。あなたの学期ごとの楽器レンタル予算は150ドルである。バンドの指導者はあなたに以下のことを伝える。",
           "choices": [
             { "label": "1", "text": "The flute." },
             { "label": "2", "text": "The trumpet." },
             { "label": "3", "text": "The clarinet." },
             { "label": "4", "text": "The drums." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "条件は「楽器レンタル予算は150ドル」。1のフルートと2のトランペットは175ドルで予算超過。クラリネットは「レンタル料は学期ごとに140ドル」で予算内なので3「クラリネット」が正解。4のドラムは125ドルだが校内でのみ使用可能で、自宅にドラムセットがないので練習が難しいとあり不適。",
+          "script": "First, Carlos needs to choose an instrument. There's the flute, which is a fun instrument once students start making progress. Rentals are $175 per term. Next is the trumpet, which is also a lot of fun. Rentals are priced the same as for the flute. The clarinet is also popular. It's relatively easy to learn but difficult to master. Rentals are $140 per term. Finally, we have the drums. The $125 term fee allows in-school use of a band drum set. You mentioned you didn't have one at home, which makes practice difficult, so I'd consider a wind instrument for now.",
+          "scriptJa": "まず、カルロスは楽器を選ぶ必要があります。フルートですが、いったん上達し始めると楽しい楽器です。レンタル料は学期ごとに175ドルです。次はトランペットで、これもとても楽しいです。レンタル料はフルートと同じです。クラリネットも人気です。比較的学びやすいですが、極めるのは難しいです。レンタル料は学期ごとに140ドルです。最後にドラムです。学期ごとに125ドルの利用料で、校内でバンド用ドラムセットを使えます。お家にドラムセットがないとのことで、それだと練習が難しいですから、今は管楽器を検討した方がよいでしょう。"
         },
         {
           "id": "q29",
@@ -530,19 +530,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-2/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "Which dog should you inquire about?",
-          "promptJa": "TODO",
+          "promptJa": "あなたはどの犬について問い合わせるべきか？",
           "situation": "You want to adopt a dog that is already trained and will get along with your six-year-old daughter. You call a local animal shelter and hear the following recorded message.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは、すでにしつけ済みで6歳の娘とも仲良くできる犬を引き取りたいと思っている。あなたは地域の保護動物施設に電話し、次の録音メッセージを聞く。",
           "choices": [
             { "label": "1", "text": "Tiffy, the black Labrador." },
             { "label": "2", "text": "Roger, the honey-colored Labrador." },
             { "label": "3", "text": "Fluffy, the spaniel." },
             { "label": "4", "text": "Wildy, the poodle." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "条件は「しつけ済み」「6歳の娘と仲良くできる」の2点。ティフィーは「トイレのしつけができており、子どもの周りでも行儀がよい」とあるため、1「黒いラブラドールのティフィー」が正解。2のロジャーと3のフラッフィーは訓練が必要、4のワイルディはやんちゃで高校生以上の子どもがいる家庭に最適なため不適。",
+          "script": "Thanks for calling Doggy Lives. We have four dogs that are ready for a new home. Tiffy is a black Labrador with a sweet personality. She's house-trained and well-behaved around kids. Roger is a fun, outgoing, honey-colored Labrador. Unlike Tiffy, though, he will require further training. Fluffy is a cute spaniel. She's only one, so she still needs some training and attention. Finally, Wildy is a charming poodle. He's a bit naughty, though, and likes to be the center of attention, so he's best suited to a couple or family with children high-school-age or older. Stay on the line to speak to a shelter volunteer.",
+          "scriptJa": "ドギー・ライブズにお電話いただきありがとうございます。新しい家を見つける準備ができている犬は4頭います。ティフィーは、優しい性格の黒いラブラドールです。トイレのしつけができており、子どもの周りでもお行儀よく過ごせます。ロジャーは楽しく社交的な蜂蜜色のラブラドールです。ですが、ティフィーと違って、さらに訓練が必要です。フラッフィーは可愛いスパニエルです。まだ1歳なので、これからも訓練と注意が必要です。最後に、ワイルディは魅力的なプードルです。少しやんちゃですが、注目されるのが好きなので、高校生以上の子どもがいる家庭やカップルに最適です。保護施設のボランティアとお話しされる場合は、このままお待ちください。"
         }
       ]
     }
