@@ -450,19 +450,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "Which room should you rent?",
-          "promptJa": "TODO",
+          "promptJa": "どの部屋を借りるべきか？",
           "situation": "You are planning a painting workshop for twenty people. You call an arts center to ask about renting a room and are told the following.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは20人のための絵画ワークショップを計画している。部屋をレンタルするためにアートセンターに電話をかけ、以下の案内を受けた。",
           "choices": [
             { "label": "1", "text": "The Rose Gallery." },
             { "label": "2", "text": "The Sun Gallery." },
             { "label": "3", "text": "The Blue Room." },
             { "label": "4", "text": "The Sky Studio." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "ローズ・ギャラリーとサン・ギャラリーについては、第3文に「それらの部屋はすべて美術品の展示専用」とあるので、1と2は不適切。第5文でインクや絵の具を使う場合は、筆やその他の道具を洗うための流し台があるブルー・ルームの方がスカイ・スタジオより適していると述べられているので、条件に合うとわかる。よって正解は3「ブルー・ルーム」である。",
+          "script": "If you're holding an exhibition, we have the Rose Gallery and the Sun Gallery. The Sun Gallery can hold up to fifty people, while the Rose Gallery can hold around ninety. However, those rooms are only for displaying art, so if you're planning a workshop or class, we have the Blue Room or the Sky Studio. They can each accommodate up to thirty people. If you're using ink or paints, the Blue Room is more suitable because it has a sink for washing brushes and other equipment. All rooms can be rented by the day or by the hour.",
+          "scriptJa": "もし展示会を開く場合は、ローズ・ギャラリーとサン・ギャラリーをご利用いただけます。サン・ギャラリーは最大50人まで収容でき、ローズ・ギャラリーはおよそ90人収容可能です。しかし、それらの部屋はすべて美術品の展示専用なので、ワークショップや講義を予定されている場合は、ブルー・ルームまたはスカイ・スタジオをご利用いただけます。それぞれ最大30人まで収容可能です。もしインクや絵の具を使う場合は、ブルー・ルームには筆やその他の道具を洗うための流し台があるので、そちらの方が適しています。すべての部屋は、1日単位、または1時間単位でレンタル可能です。"
         },
         {
           "id": "q26",
@@ -470,19 +470,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "Where should you go?",
-          "promptJa": "TODO",
+          "promptJa": "あなたはどこに行くべきか？",
           "situation": "You are a tenth-grade high school student. You are in the art classroom at school when you hear the following announcement.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは高校1年生だ。あなたは学校の美術室にいて、次の放送を耳にする。",
           "choices": [
             { "label": "1", "text": "To the main sports field." },
             { "label": "2", "text": "To the staff parking lot." },
             { "label": "3", "text": "To the gym." },
             { "label": "4", "text": "To the small auditorium." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "第3文より、運動場に行くのは中学3年生なので1は誤り。第4文より、体育館は保守点検中だとわかるので、3は不適切。第5文で「高校1年生は職員用駐車場へ向かってください」と述べられるので、いったん2が正解の候補となるが、第7文で「美術室、および音楽室にいる学生と職員も、学年に関係なく小講堂へ移動してください」と述べられているので、4「小講堂へ」が正解となる。",
+          "script": "Attention students and staff. The fire drill will begin in ten minutes. Ninth-grade classes should proceed to the main sports field behind the gym. Please note that due to maintenance work, you cannot walk through the gym to reach the field. Tenth-grade classes should head to the staff parking lot. Eleventh- and twelfth-grade classes are to assemble in the small auditorium. Students and staff currently in the art and music rooms should also proceed to this location, regardless of class year. Remember, this is a drill designed for your safety, so please follow instructions carefully. Thank you for your cooperation.",
+          "scriptJa": "学生および職員のみなさんにお知らせします。火災訓練は10分後に始まります。中学3年生は、体育館の裏にある運動場へ移動してください。なお、体育館は保守点検作業のため、体育館の中を通って運動場に行くことはできません。高校1年生は職員用駐車場へ向かってください。高校2年生と高校3年生は小講堂に集合してください。現在、美術室、および音楽室にいる学生と職員も、学年に関係なく小講堂へ移動してください。これは皆さんの安全のために行われる訓練ですので、指示をよく守ってください。ご協力ありがとうございます。"
         },
         {
           "id": "q27",
@@ -490,19 +490,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "What should you do next?",
-          "promptJa": "TODO",
+          "promptJa": "次にあなたがすべきことは何か？",
           "situation": "You have a tree in your yard that has a disease. It is sixty centimeters in diameter. A tree specialist is giving you advice.",
-          "situationJa": "TODO",
+          "situationJa": "あなたの庭に病気の木がある。その直径は60センチである。樹木の専門家があなたに助言をしている。",
           "choices": [
             { "label": "1", "text": "Purchase more of the chemical." },
             { "label": "2", "text": "Continue to check the tree's condition." },
             { "label": "3", "text": "Get in touch with city hall." },
             { "label": "4", "text": "Book a date with the tree specialist." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第4文で「もしその木の直径が50センチを超える場合、撤去には市役所の許可が必要です」と述べられているので、3「市役所に連絡する」が正解である。1の「薬剤の購入」や2の「木を観察し続ける」といった内容は述べられていないので誤りである。第4文と最終文より、直径50センチを超える木を伐採する場合は、市役所の許可をとることが最優先なので、4は不正解である。",
+          "script": "As I warned you last year, the chemical treatment we applied is not always effective. The disease has progressed, and it's no longer possible to save the tree. It's a shame, but due to its condition, your only option is to have it removed. If the tree is more than fifty centimeters in diameter, you'll need a permit from city hall for the removal. I'm afraid I can't apply on your behalf. Once that's taken care of, you can book a date to have the tree taken down.",
+          "scriptJa": "昨年もお伝えしたとおり、私たちが行った薬剤処理は必ずしも効果があるわけではありません。病気は進行しており、もはやこの木を救うことはできません。残念ですが、この状態から考えて、唯一の選択肢は木を撤去することです。もしその木の直径が50センチを超える場合、撤去には市役所の許可が必要です。申し訳ありませんが、代理申請はできません。それが終わられましたら、伐採の日程を予約することができます。"
         },
         {
           "id": "q28",
@@ -510,19 +510,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "Which tour should you take?",
-          "promptJa": "TODO",
+          "promptJa": "どのツアーに参加するべきか？",
           "situation": "You are on vacation with your husband. You are both interested in history and physical activities. A staff member at the tourist office gives you some tour options.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは夫と一緒に休暇中である。二人とも歴史と体を動かす活動に興味がある。観光案内所のスタッフがいくつかのツアーを紹介する。",
           "choices": [
             { "label": "1", "text": "The evening city tour." },
             { "label": "2", "text": "The daytime bus tour." },
             { "label": "3", "text": "The cycling tour." },
             { "label": "4", "text": "The river tour." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "夕方の市内ツアーについて、第2文で「丘の上の城、古い大聖堂、市内から数キロ離れたローマ橋を徒歩で巡る」と説明されている。歴史的な場所を徒歩で巡るため体力も必要なので、1「夕方の市内ツアー」が正解である。2については、第3文で徒歩ツアーに比べて体の負担は少ないと述べられているので誤り。3に関しては、第4文より、このツアーには歴史に関わる見どころが含まれていないので、不適切である。4については最終文より、体を動かす活動が含まれていないので、誤りである。",
+          "script": "First up is the evening city tour. You'll walk to the hilltop castle, the old cathedral, and the Roman bridge a few kilometers out of town. We also have a daytime bus tour that includes those sites, so that's less physically demanding than the walking tour. A daytime tour requiring fitness is the cycling tour, which takes you beyond the city to explore local nature spots, including the stunning lake. Finally, we have a two-hour tour along the city's river. Just relax on a riverboat, enjoy lunch, and listen as the guide gives you the lowdown on local history.",
+          "scriptJa": "最初のおすすめは夕方の市内観光ツアーです。丘の上の城、古い大聖堂、市内から数キロ離れたローマ橋を徒歩で巡ります。また、これらの場所を含む日中のバスツアーもあり、徒歩ツアーに比べて体の負担は少ないです。体力が必要な日中のツアーとしては、サイクリングツアーがあり、これは市街地を越えて、美しい湖などの地元の自然の名所を訪れるものです。最後に、市内の川をめぐる2時間ツアーもあります。川船にゆったり乗りながらランチを楽しみ、ガイドから地元の詳しい歴史をお聞きください。"
         },
         {
           "id": "q29",
@@ -530,19 +530,19 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "Who should you ask to work tomorrow?",
-          "promptJa": "TODO",
+          "promptJa": "明日の勤務を頼むべき人物は誰か？",
           "situation": "You are the manager of a store. Part-time employees can work a maximum of thirty hours per week. You receive the following voicemail from a coworker.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは店のマネージャーである。アルバイトは1週間に最大30時間まで働ける。あなたは同僚から以下の留守番電話を受け取る。",
           "choices": [
             { "label": "1", "text": "Miranda." },
             { "label": "2", "text": "Jack." },
             { "label": "3", "text": "Dana." },
             { "label": "4", "text": "Rakesh." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第3文の後半で「ミランダは今週すでに30時間働いている」と述べられているので、1は誤りである。第5文で「エイミーの仕事に必要なトレーニングを受けていない」と説明されていることから、2は不適切である。最終文で、ラケシュはすでに明日の通常シフトに入っていると述べられているので、4は誤りである。よってダナ以外の3人は不適当であり、さらに第6文で「ダナは、他に出勤できる人がいない場合でなければ、引き受けません」と述べられていることにも合致するため、3「ダナ」が正解となる。",
+          "script": "This is Jamal. I'm afraid Amy can't work tomorrow, so we need to find a replacement to work her six-hour shift. Miranda should be willing—oh, she's already worked thirty hours this week. Jack and Dana have worked just fifteen hours, so they'd be below the limit. Jack isn't trained for Amy's job, though. And Dana doesn't want to do it unless there's no one else who can come in. Hmm. Rakesh has worked twenty hours, so he might be your best bet. Oh, wait, he's already doing his regular shift for tomorrow, so he's unavailable.",
+          "scriptJa": "こちらはジャマールです。エイミーは明日出勤できないようなので、彼女の6時間のシフトに代わりに入ってくれる人を探さなければなりません。ミランダなら引き受けてくれるはず――あ、彼女は今週すでに30時間働いています。ジャックとダナはまだ15時間しか働いていないので、制限内です。ただし、ジャックはエイミーの仕事に必要なトレーニングを受けていません。ダナは、他にシフトに入れる人がいない場合でなければ、引き受けたくないそうです。うーん。ラケシュは20時間働いているので、最も適任かもしれません。あ、でも彼はすでに明日の通常シフトに入っているので無理です。"
         }
       ]
     }
