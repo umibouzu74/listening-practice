@@ -22,193 +22,193 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2024-3/02_No01.mp3",
-          "prompt": "TODO",
+          "prompt": "Why is the woman annoyed?",
           "choices": [
             { "label": "1", "text": "The store clerk charged her too much." },
             { "label": "2", "text": "The shirt was damaged when she bought it." },
             { "label": "3", "text": "The store will not give her a refund." },
             { "label": "4", "text": "The shirt she ordered has not arrived." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "最初のやり取りで、女性が返品して返金を希望しているのに対して、店員はレシートの日付が5週間前であり、30日以内でなければ返金できないと伝えている。2番目の店員の発言で I'm afraid not と言っていることから、女性が要求している返品に店側が応じないことがわかり、これが女性のいら立ちの原因だと考えられる。よって、正解は3「店が返金に応じようとしない」。",
+          "script": "W: I'd like to return this shirt and get my money back, please. Here's my receipt.\nM: I'm sorry, but our return policy states that we can only do that for items brought back within thirty days. This receipt is from five weeks ago.\nW: I don't see what difference a few days makes. Can't you overlook it this time?\nM: I'm afraid not, but we can offer you store credit or exchange the shirt for another item.\nW: Well, if that's the best you can do, I'll take the credit.",
+          "scriptJa": "W: このシャツを返品して返金してもらいたいのですが。これがレシートです。\nM: 申し訳ありませんが、私どもの返品規定では30日以内に持ち込まれた商品しか対応できません。このレシートは5週間前のものですので。\nW: 数日違うだけでどんな違いがあるのかわからないです。今回は見逃してもらえないのですか？\nM: 申し訳ありませんができません、ですが、ストアクレジットかそのシャツを他の商品に交換することは可能です。\nW: それが最善なら、ストアクレジットにするわ。"
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2024-3/03_No02.mp3",
-          "prompt": "TODO",
+          "prompt": "What will the woman do?",
           "choices": [
             { "label": "1", "text": "Introduce the man to a friend." },
             { "label": "2", "text": "Let the man move into her apartment." },
             { "label": "3", "text": "Loan the man money for an apartment." },
             { "label": "4", "text": "Choose a neighborhood for the man." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "男性の最初の発言第2文から、彼が新しいアパートを探していることがわかる。女性の2番目の発言で、女性の友だちのルームメイトが引っ越すから、紹介できると伝えているのが聞き取れれば、正解の1「男性を友人に紹介する」を選ぶことができる。",
+          "script": "M: Could I get some advice? I need to find a new apartment after I graduate, but I'm unsure which neighborhoods to look at.\nW: Why don't you just get an apartment near the university?\nM: I'm not sure I could afford the rent there.\nW: You know, I think one of my friend's roommates is moving out at the end of the semester. You would only pay one-third of the rent. I can introduce you to each other.\nM: That would be great. Thanks.",
+          "scriptJa": "M: アドバイスをくれないかな？ 卒業後に新しいアパートを探す必要があるんだけど、どの地域を考えたらいいのかわからないんだ。\nW: 大学の近くのアパートにすればいいだけじゃないの？\nM: そのあたりは家賃が払えるかどうかわからないんだよ。\nW: ねえ、友だちのルームメイトの一人が、今学期の終わりに出ていく予定だったと思うわ。家賃は3分の1しか払わなくていいの。紹介してあげるわよ。\nM: それはありがたいな。ありがとう。"
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2024-3/04_No03.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the woman says about the movie?",
           "choices": [
             { "label": "1", "text": "The story was different from the book." },
             { "label": "2", "text": "It should have been shorter." },
             { "label": "3", "text": "The filmmakers disliked the book." },
             { "label": "4", "text": "It added too many characters." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "女性の2番目の発言で、「映画監督は結末もかなり変更した」「物語の大事な部分を削除した」と述べている。この内容から、彼女は本と映画で内容が違っていたことを指摘していることがわかり、1「ストーリーが本と違っていた」が正解となる。",
+          "script": "M: Did you like the movie?\nW: To be honest, I much preferred the book because it was so much clearer about what the characters were thinking.\nM: That's almost always true. An author can write many pages describing characters' thoughts, but audiences have to rely on actors' abilities to show feelings in a film.\nW: Exactly. The filmmakers also changed the ending quite a bit, and they cut out important sections of the story.\nM: I enjoyed the film, personally. I guess I'm lucky I didn't read the book.",
+          "scriptJa": "M: 映画は楽しかった？\nW: 正直言って、本の方がずっとよかったわ。登場人物が何を考えているかがずっとはっきり伝わったもの。\nM: まあほとんどいつもそうだよね。作家は何ページも使って登場人物の思考を書けるけど、映画だと観客は俳優の表現力頼みだからね。\nW: その通りなのよ。映画監督は結末もけっこう変更してたし、物語の大事な部分もカットされていたわ。\nM: 個人的には僕は楽しめたけどね。本を読んでなかったのがよかったのかもしれないな。"
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2024-3/05_No04.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the man tell the woman?",
           "choices": [
             { "label": "1", "text": "Home-grown vegetables are economical." },
             { "label": "2", "text": "Farmers' market produce is too expensive." },
             { "label": "3", "text": "Gardening is not an enjoyable activity." },
             { "label": "4", "text": "He prefers another hobby to gardening." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "男性の最後の発言第2文に I'd much rather とあるのに注目。would rather は「むしろ～したい」の意なので、男性は庭で野菜を育てることよりもゴルフのコースに出たいと思っていることがわかる。したがって、正解は4「彼はガーデニングより他の趣味が好きである」。1は男性の1番目の発言に「割に合わない」とあるので不適。2は男性の1番目と2番目の発言に合わないので不適。3は、男性の最後の発言第1文に「たしかにその瞬間はある」とあり、「楽しい活動ではない」は言い過ぎである。",
+          "script": "W: It's nearly spring already. Have you ordered seeds for your vegetable garden?\nM: You know, between the cost of the seeds and supplies and the work I put in, I've decided it's not worth it.\nW: Really? But home-grown vegetables taste so much better than store-bought vegetables.\nM: I can get great produce at the farmers' market every week.\nW: But I always thought you enjoyed working in the garden.\nM: It does have its moments. To be honest, though, I'd much rather be out on the golf course.",
+          "scriptJa": "W: もうすぐ春ね。家庭菜園用の種は注文した？\nM: いやあ、種や道具の費用やらかける労力やらで、割に合わないってことになったんだ。\nW: 本当？ でも自家製の野菜って、お店で買った野菜よりずっとおいしいわよ。\nM: 農家の直売所でいい野菜が毎週買えるしね。\nW: でも、あなたは庭仕事が楽しいんだっていつも思ってたんだけど。\nM: たしかに楽しいときはあるよ。でも正直言って、ゴルフコースに出る方がずっといいんだよね。"
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2024-3/06_No05.mp3",
-          "prompt": "TODO",
+          "prompt": "Why does the man want to see his wife's dentist?",
           "choices": [
             { "label": "1", "text": "To get a second opinion." },
             { "label": "2", "text": "His dentist does not do implants." },
             { "label": "3", "text": "To spend less on the surgery." },
             { "label": "4", "text": "He is worried about pain." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "男性の1番目の発言から、彼は自分の歯医者から抜歯とインプラントを勧められていることがわかる。一方で、男性の2番目の発言に「予約はしなかった」「君の歯医者に診てもらうことを考えていた」とある。さらに男性の最後の発言に「できれば歯は抜きたくない」とあることから、最初に診てもらった歯医者の提案以外の方法を男性が期待していることがわかる。よって、1「別の意見を聞きたいから」が正解。3は男性の最後の発言に「費用についてはそれほど心配していない」とあるので不適。",
+          "script": "W: What did the dentist say about your tooth, honey?\nM: He recommends pulling it and putting in an implant.\nW: When's that going to happen?\nM: He's booked for a while, so I didn't make an appointment. Actually, I was thinking of having your dentist take a look at it. Maybe she'd have another suggestion.\nW: Oh, you should. She's great at keeping pain to a minimum, and the costs are reasonable.\nM: I'm not so worried about the cost, but I'd like to save the tooth if at all possible.",
+          "scriptJa": "W: 歯医者は歯のことをどう言ってたの、あなた？\nM: 抜いてインプラントにした方がいいって勧めてるね。\nW: それはいつする予定なの？\nM: しばらくは予約がいっぱいだったから、予約は取らなかったよ。実は君の歯医者に診てもらおうかと思ってたんだ。ひょっとしたら別の提案があるかもしれないし。\nW: そうね、ぜひそうするといいわ。彼女は痛みを最小限に抑えるのがとても上手だし、費用も妥当よ。\nM: 費用はそんなに気にしてないけど、できれば歯は抜かずに済ませたいんだ。"
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2024-3/07_No06.mp3",
-          "prompt": "TODO",
+          "prompt": "What will the woman likely do next?",
           "choices": [
             { "label": "1", "text": "Take an exam." },
             { "label": "2", "text": "Search her room." },
             { "label": "3", "text": "Borrow a textbook." },
             { "label": "4", "text": "Visit her professor." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "女性が3番目の発言第2文で「部屋を探しても答案が見つからない」と言っているのに対して、男性は3番目の発言で「答えを見ずに試験について話すのは難しい」「もう一度探した方がいい」と言っている。それに対して女性は最後の発言で「わかりました」と言っているので、彼女が次にすることは試験の答案をもう一度探すことである。よって、2「部屋を探す」が正解。",
+          "script": "W: Professor, are you free to talk about my midterm exam results?\nM: Of course. I have office hours today from two to four. You could stop by then.\nW: Thanks. Should I bring my notes or the textbook?\nM: Bring your exam and something to write with.\nW: I'm not sure if I have my exam. I couldn't find it in my room this morning.\nM: Well, it'll be tough to talk about the exam without seeing your answers. Maybe you should take another look.\nW: OK.",
+          "scriptJa": "W: 先生、中間試験の結果についてお話しする時間はありますか？\nM: もちろん。私は今日の2時から4時までがオフィスアワーです。それまでに終わってくれればいいですよ。\nW: ありがとうございます。ノートか教科書を持っていった方がいいですか？\nM: 試験の答案と筆記用具を持ってきてください。\nW: 答案があるかどうかわからないんです。今朝部屋を探しても見つけられなかったので。\nM: うーん、答えを見ずに試験について話すのは難しいですね。多分もう一度探した方がいいですよ。\nW: わかりました。"
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2024-3/08_No07.mp3",
-          "prompt": "TODO",
+          "prompt": "Why is the man concerned?",
           "choices": [
             { "label": "1", "text": "His contract may not be renewed." },
             { "label": "2", "text": "He has not heard about his promotion." },
             { "label": "3", "text": "His manager is not satisfied with him." },
             { "label": "4", "text": "His new job will start in March." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "男性の最初の発言に contract「契約」とあることに注目する。男性の3番目の発言第2文で「他からも何件かオファーがあるが、ここでの将来が不確かだと断りたくない」と話している。したがって男性が気にしているのは、今の会社で契約が更新されるかどうかであるとわかり、1「契約が更新されないかもしれない」が正解となる。2は his promotion「昇進」であり、「契約」ではないため不適。",
+          "script": "M: Alice, I wanted to talk to you about my contract. It expires on April 1st.\nW: I've already talked to personnel, and they're optimistic about having you continue.\nM: When will you know for certain?\nW: Not until February or March. They want to see what our needs will be first.\nM: That could be an issue. I've had a couple of other offers, and I'm reluctant to turn them down unless I'm certain of my future here.\nW: I understand. I'll try to hurry things up, then. We'd hate to lose you.",
+          "scriptJa": "M: アリス、契約のことで君と話したいんだ。4月1日で契約が切れるからね。\nW: 人事部とはもう話したけど、あなたを引き続き雇うことには前向きよ。\nM: はっきりわかるのはいつなのかな？\nW: 2月か3月までは無理ね。まずは人員の必要性を見たいのよ。\nM: それだと問題があるかもしれないな。他からも何件かオファーがあって、ここでの将来が確実じゃないなら断りたくなくてね。\nW: わかったわ。早めに進められるようにする。あなたを失いたくないもの。"
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2024-3/09_No08.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the woman imply?",
           "choices": [
             { "label": "1", "text": "The man should have changed the bag." },
             { "label": "2", "text": "The man ought to buy more bags." },
             { "label": "3", "text": "The man may have broken the vacuum cleaner." },
             { "label": "4", "text": "The man needs to clean the basement again." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "女性の2番目の発言で「掃除機がゴミをいろいろなところにまき散らし始めた」とあり、次の女性の3番目の発言第1文で「こうなるのはバッグが満杯のときだ」と言っている。女性は最初に掃除機を使ったかどうかを男性に確認していることから、掃除機の異常の原因は男性がバッグの交換を怠ったことにあると考えていることがわかる。したがって、正解は1「男性はバッグを替えるべきだった」。",
+          "script": "W: Have you used the vacuum cleaner recently?\nM: Yeah, I cleaned the basement with it yesterday. Why?\nW: Well, I was just cleaning the living room, and it started shooting out dirt everywhere.\nM: I did clean up a lot of stuff off the floor, but nothing that might have broken the machine.\nW: You know this happens when the bag is too full. And you do know where the extra bags are, right?\nM: Yes, in the laundry room. Let me take care of it.",
+          "scriptJa": "W: 最近掃除機を使った？\nM: うん、昨日掃除機で地下室を掃除したよ。どうしてだい？\nW: それが、今リビングを掃除してたら、ゴミをいろんなところにまき散らし始めたのよ。\nM: 確かに床からゴミはたくさん吸ったけど、機械が壊れるようなものは吸いこまなかったよ。\nW: こうなるのって、バッグが満杯のときだって知ってるわよね。替えのバッグがどこにあるかも知ってるでしょ？\nM: うん、洗濯室にあるよ。僕がやっておくね。"
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2024-3/10_No09.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the woman imply about David?",
           "choices": [
             { "label": "1", "text": "He is not good at gardening." },
             { "label": "2", "text": "He does not like trying new things." },
             { "label": "3", "text": "He does not get along with other members." },
             { "label": "4", "text": "He has been damaging the garden's facilities." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "男性の「コミュニティガーデンの区画を個人仕様にしたい」という発言に対して、女性の2番目の発言第2文に「デイビッドは保守的で、彼の承認がないと絶対に無理だ」とある。この発言から、デイビッドが新しいアイディアに対して否定的であることが読み取れる。したがって、正解は2「彼は新しいことを試すのが好きでない」。",
+          "script": "M: You know, Margaret and I were talking, and we were thinking it would be nice if all the members were allowed to personalize their spaces in the community garden.\nW: You mean, like putting up decorations or fences or something?\nM: Exactly. I've been wanting to add some lighting myself.\nW: Hmm. You know how conservative David is, and without his approval, it'll never happen.\nM: You're right. Maybe we should talk with some other people and see if we can think of a way to convince him.",
+          "scriptJa": "M: ねえ、マーガレットと話してたんだけど、みんながコミュニティガーデンの区画を自分好みに変えられたらいいよね、って思ってたんだ。\nW: 飾りやフェンスとかを付ける、みたいなこと？\nM: そうそう。僕は照明を付けたいってずっと思ってるんだ。\nW: うーん。でもデイビッドって保守的でしょ。彼の承認なしじゃ絶対に無理よ。\nM: そうなんだよね。他の人にも相談して、彼を納得させる方法を考えた方がいいな。"
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2024-3/11_No10.mp3",
-          "prompt": "TODO",
+          "prompt": "What request does the woman make?",
           "choices": [
             { "label": "1", "text": "She wants the man to contact the client." },
             { "label": "2", "text": "She wants the meeting to be short." },
             { "label": "3", "text": "She wants help writing an e-mail." },
             { "label": "4", "text": "She wants the man to check the shipment." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "女性の2番目の発言第2文で「手短に済ませられるか」と聞いていることから、彼女の要望が「何かを短くする」という内容につながる選択肢を選ぶ。2「彼女は会議を短くしてほしい」が正解。",
+          "script": "W: Sergio? Parvati here. NTC Electronics is complaining about the last shipment of parts they received from us.\nM: I just heard. It sounds like we should get the team together to discuss this.\nW: OK. Things are pretty hectic, though, so can we keep it brief?\nM: Sure. I don't think this is anything major.\nW: That's a relief. I've been a bit worried about it.\nM: I'll send out an e-mail to everyone involved.\nW: Thanks.",
+          "scriptJa": "W: セルジオ？ パールヴァティよ。NTCエレクトロニクスが、うちから受け取った部品の最後の出荷分について苦情を言ってるの。\nM: 今聞いたところだ。チームを集めて話し合った方がよさそうだね。\nW: わかったわ。でも今すごく忙しいから、手短にできる？\nM: もちろん。大した問題じゃないと思うし。\nW: それを聞いて安心したわ。ちょっと心配だったのよ。\nM: 関係者全員にメールを送っておくよ。\nW: ありがとう。"
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2024-3/12_No11.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing that the woman says about Kingsquare?",
           "choices": [
             { "label": "1", "text": "It is not as fun as Strategy Sphere." },
             { "label": "2", "text": "It has a fancy board and cards." },
             { "label": "3", "text": "It takes time to learn how to play." },
             { "label": "4", "text": "It gets boring after a few plays." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "女性の1番目の発言では「すごく複雑で、覚えるのにとても時間がかかった」と言っている。したがって、正解は3「遊び方を覚えるのに時間がかかる」。2はストラテジースフィアに対する男性の感想なので不適。",
+          "script": "M: Have you been playing that Kingsquare game you got for Christmas much?\nW: Yeah. It's really complex, and it took us forever to figure out. But it was well worth it.\nM: I'm thinking about giving it a try, too.\nW: Do you like Strategy Sphere? It's pretty similar.\nM: Oh, my wife and I played that a lot last year. I loved the fancy artwork on the board and the cards.\nW: Well, Kingsquare is a lot plainer, but it's just as enjoyable.",
+          "scriptJa": "M: クリスマスにもらったキングスクエアのゲーム、けっこうやってる？\nW: ええ。すごく複雑で覚えるのにとても時間がかかったけど、やる価値はあったわ。\nM: 僕もやってみようかなと思ってるんだ。\nW: ストラテジースフィアは好き？ それとかなり似てるわよ。\nM: ああ、それは去年妻とよくやってたよ。ボードやカードの絵が豪華で好きだったな。\nW: キングスクエアはもっと地味だけど、同じくらい楽しいわよ。"
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2024-3/13_No12.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one piece of advice that the man gives to the woman?",
           "choices": [
             { "label": "1", "text": "To explain the center's new hiring policy." },
             { "label": "2", "text": "To thank Mr. Jefferson for his support." },
             { "label": "3", "text": "To apologize to the people who were upset." },
             { "label": "4", "text": "To talk about the tutoring programs' success." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "男性の発言で女性に伝えているアドバイスは大きく2つある。1つ目は、最初の発言の「学習支援プログラムが子どもたちの成績向上にいかに役立ったかを強調してほしい」という点。2つ目は、2番目の発言の「ジェファーソン氏の辞職の話題は避ける」という点である。よって、4「学習支援プログラムの成果を話すこと」が正解となる。",
+          "script": "M: Amanda, when you make your speech at the community center, I'd like you to emphasize how the tutoring programs have helped improve the children's academic results.\nW: Sure, I was definitely planning to do that.\nM: And it's probably better to avoid the subject of Mr. Jefferson resigning last June.\nW: Yes, I know some people were upset about how the hiring of his replacement was handled.\nM: OK, well, good luck with your speech. I'm looking forward to hearing it tomorrow night.",
+          "scriptJa": "M: アマンダ、コミュニティセンターでスピーチするときは、学習支援プログラムが子どもたちの成績向上にいかに役立ったかを強調してほしいんだ。\nW: もちろん、必ずそうするように計画していたわよ。\nM: それと、ジェファーソン氏が去年の6月に辞職した件にはおそらく触れない方がいいね。\nW: ええ、彼の後任者の選考方法に不満を持っている人もいたのは知ってるわ。\nM: よし、じゃあ、スピーチ頑張って。明日の夜それを聞くのを楽しみにしてるよ。"
         }
       ]
     },
