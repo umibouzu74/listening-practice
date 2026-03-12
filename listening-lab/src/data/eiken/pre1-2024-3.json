@@ -225,17 +225,17 @@
           "passageLabel": "Passage A",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/15_question_A.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/16_No13.mp3",
-          "prompt": "TODO",
+          "prompt": "According to the survey, what can help people advance their careers?",
           "choices": [
             { "label": "1", "text": "Developing supportive relationships with coworkers." },
             { "label": "2", "text": "Openly communicating their desire to be promoted." },
             { "label": "3", "text": "Pointing out mistakes made by their superiors." },
             { "label": "4", "text": "Seeking advice from people outside their company." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "第1段第3文に「自分の間違いを認め、仲間を褒めることで、謙虚な人々は自分を信頼し尊敬してくれる同僚のネットワークを築く」とあり、続く第4文に「このことが彼らに職場でのより高い地位を与える」とある。この内容をまとめたものとして最も適切なのは、1「同僚と協力関係を築くこと」である。",
+          "script": "Getting Ahead at Work\n\nIt is commonly believed that being aggressive and bossy helps workers get promoted to top positions. According to a survey of 610 business leaders and their coworkers, however, there is another way to achieve such success in the workplace: being humble. By admitting their own mistakes and praising fellow workers, humble people develop a network of coworkers who trust and respect them. This gives them a higher status in the office, which their superiors recognize and reward with promotion.\n\nThe researchers say that when dominant leaders make mistakes, they aren't forgiven as easily as humble leaders are. Therefore, they could be at greater risk of being removed from their positions. The researchers suggest that companies take steps to encourage leaders to be humble. For example, humble behavior can be rewarded through performance evaluations. Additionally, human resources teams can organize leadership training programs that encourage people to maintain a humble attitude.",
+          "scriptJa": "仕事で成功すること\n\n積極的で横柄であることは、労働者がトップの地位へ昇進する助けになると一般的に信じられている。しかし、610人のビジネスリーダーとその同僚を対象とした調査によると、職場でそのような成功を収めるもう一つの方法がある――すなわち謙虚であることである。自分自身の間違いを認め、仲間を褒めることによって、謙虚な人々は自分を信頼し尊敬してくれる同僚のネットワークを築く。これによって彼らは職場でより高い地位を得て、そのことを上司が認め、昇進で報いてくれるのである。\n\n支配的なリーダーが間違いを犯すと、謙虚なリーダーほど容易には許されないと研究者たちは言う。したがって、彼らはその地位から外される危険がより大きい可能性がある。企業はリーダーが謙虚であるように促すための措置を取るべきであると、研究者たちは提案している。たとえば、謙虚な行動は業績評価を通じて報われることができる。さらに、人事部は人々が謙虚な態度を維持するよう促す、リーダーシップ研修プログラムを企画することができる。"
         },
         {
           "id": "q14",
@@ -243,17 +243,17 @@
           "passageLabel": "Passage A",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/15_question_A.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/17_No14.mp3",
-          "prompt": "TODO",
+          "prompt": "What do the researchers say about dominant leaders?",
           "choices": [
             { "label": "1", "text": "They should join human resources teams." },
             { "label": "2", "text": "Their positions could be less secure." },
             { "label": "3", "text": "They are especially likely to make errors." },
             { "label": "4", "text": "Their mistakes are often ignored by others." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "第2段第1文に「支配的なリーダーが間違いを犯すと、謙虚なリーダーほど容易には許されない」とある。続く第2文で「彼らはその地位から外される危険がより大きい」と言っていることから、正解は2「彼らの地位はより不安定である可能性がある」となる。",
+          "script": "Getting Ahead at Work\n\nIt is commonly believed that being aggressive and bossy helps workers get promoted to top positions. According to a survey of 610 business leaders and their coworkers, however, there is another way to achieve such success in the workplace: being humble. By admitting their own mistakes and praising fellow workers, humble people develop a network of coworkers who trust and respect them. This gives them a higher status in the office, which their superiors recognize and reward with promotion.\n\nThe researchers say that when dominant leaders make mistakes, they aren't forgiven as easily as humble leaders are. Therefore, they could be at greater risk of being removed from their positions. The researchers suggest that companies take steps to encourage leaders to be humble. For example, humble behavior can be rewarded through performance evaluations. Additionally, human resources teams can organize leadership training programs that encourage people to maintain a humble attitude.",
+          "scriptJa": "仕事で成功すること\n\n積極的で横柄であることは、労働者がトップの地位へ昇進する助けになると一般的に信じられている。しかし、610人のビジネスリーダーとその同僚を対象とした調査によると、職場でそのような成功を収めるもう一つの方法がある――すなわち謙虚であることである。自分自身の間違いを認め、仲間を褒めることによって、謙虚な人々は自分を信頼し尊敬してくれる同僚のネットワークを築く。これによって彼らは職場でより高い地位を得て、そのことを上司が認め、昇進で報いてくれるのである。\n\n支配的なリーダーが間違いを犯すと、謙虚なリーダーほど容易には許されないと研究者たちは言う。したがって、彼らはその地位から外される危険がより大きい可能性がある。企業はリーダーが謙虚であるように促すための措置を取るべきであると、研究者たちは提案している。たとえば、謙虚な行動は業績評価を通じて報われることができる。さらに、人事部は人々が謙虚な態度を維持するよう促す、リーダーシップ研修プログラムを企画することができる。"
         },
         {
           "id": "q15",
@@ -261,17 +261,17 @@
           "passageLabel": "Passage B",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/18_question_B.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/19_No15.mp3",
-          "prompt": "TODO",
+          "prompt": "What did Viking warriors believe about Valkyries?",
           "choices": [
             { "label": "1", "text": "The Valkyries could keep them safe in battle." },
             { "label": "2", "text": "The Valkyries were more powerful than Odin." },
             { "label": "3", "text": "The Valkyries helped to build Valhalla." },
             { "label": "4", "text": "The Valkyries lived for many centuries." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "第1段最終文に「ワルキューレが戦いの結果に影響を与え、彼女たちの好意を得た戦士の命を守ってくれるとも思っていた」とある。これとほぼ同じ意味になるのが、1「ワルキューレは彼らを戦いの中で安全にしておくことができた」である。",
+          "script": "Valkyries\n\nNumerous Viking legends feature female figures called Valkyries. They were often described as being fierce women armed with spears who had magical powers. The Valkyries were believed to serve a powerful god named Odin and to escort warriors who lost their lives in battle to a magical place called Valhalla. Viking warriors also thought that the Valkyries could influence the outcome of a battle and protect the lives of warriors who earned their favor.\n\nExperts think that myths about the Valkyries evolved over the centuries. Evidence suggests that before the myths were written down, the Valkyries were likely seen as evil creatures who transported men killed in battle to the underworld. Other myths said they were daughters of Odin. Later written records describe them as human women who had been given magical powers.",
+          "scriptJa": "ワルキューレ\n\n多くのヴァイキングの伝説には、ワルキューレと呼ばれる女性の姿が登場する。彼女たちはしばしば、魔法の力を持ち槍で武装した気性が荒い女性として描かれた。ワルキューレはオーディンという強力な神に仕え、戦いで命を落とした戦士たちをヴァルハラと呼ばれる魔法の場所へ連れて行くと信じられていた。ヴァイキングの戦士たちは、ワルキューレが戦いの結果に影響を与え、彼女たちの好意を得た戦士の命を守ってくれるとも考えていた。\n\n専門家たちは、ワルキューレに関する神話は何世紀にもわたって進化したと考えている。その神話が書き記される前には、ワルキューレは戦いで殺された男たちを冥界に運ぶ邪悪な存在だと考えられていた可能性が高いことを示す証拠もある。別の神話では、彼女たちはオーディンの娘であるとされていた。後の記録では、彼女たちは魔法の力を与えられた人間の女性として描かれている。"
         },
         {
           "id": "q16",
@@ -279,17 +279,17 @@
           "passageLabel": "Passage B",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/18_question_B.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/20_No16.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing that experts believe about the Valkyrie legends?",
           "choices": [
             { "label": "1", "text": "Some were based on actual people's lives." },
             { "label": "2", "text": "They were originally much longer." },
             { "label": "3", "text": "Some were written by women." },
             { "label": "4", "text": "They changed over time." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "第2段第1文に「ワルキューレに関する神話は何世紀にもわたって進化した」とあることから、4「それらは時代とともに変化した」が正解。放送ではevolvedという動詞が使われているのに対して、正解の選択肢ではchangedと言い換えられている。",
+          "script": "Valkyries\n\nNumerous Viking legends feature female figures called Valkyries. They were often described as being fierce women armed with spears who had magical powers. The Valkyries were believed to serve a powerful god named Odin and to escort warriors who lost their lives in battle to a magical place called Valhalla. Viking warriors also thought that the Valkyries could influence the outcome of a battle and protect the lives of warriors who earned their favor.\n\nExperts think that myths about the Valkyries evolved over the centuries. Evidence suggests that before the myths were written down, the Valkyries were likely seen as evil creatures who transported men killed in battle to the underworld. Other myths said they were daughters of Odin. Later written records describe them as human women who had been given magical powers.",
+          "scriptJa": "ワルキューレ\n\n多くのヴァイキングの伝説には、ワルキューレと呼ばれる女性の姿が登場する。彼女たちはしばしば、魔法の力を持ち槍で武装した気性が荒い女性として描かれた。ワルキューレはオーディンという強力な神に仕え、戦いで命を落とした戦士たちをヴァルハラと呼ばれる魔法の場所へ連れて行くと信じられていた。ヴァイキングの戦士たちは、ワルキューレが戦いの結果に影響を与え、彼女たちの好意を得た戦士の命を守ってくれるとも考えていた。\n\n専門家たちは、ワルキューレに関する神話は何世紀にもわたって進化したと考えている。その神話が書き記される前には、ワルキューレは戦いで殺された男たちを冥界に運ぶ邪悪な存在だと考えられていた可能性が高いことを示す証拠もある。別の神話では、彼女たちはオーディンの娘であるとされていた。後の記録では、彼女たちは魔法の力を与えられた人間の女性として描かれている。"
         },
         {
           "id": "q17",
@@ -297,17 +297,17 @@
           "passageLabel": "Passage C",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/21_question_C.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/22_No17.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the speaker says about the young Lee Elder?",
           "choices": [
             { "label": "1", "text": "He failed to win any tournaments." },
             { "label": "2", "text": "He used his salary as a caddie to pay for school." },
             { "label": "3", "text": "He preferred to learn without an instructor." },
             { "label": "4", "text": "He learned about golf while working as a caddie." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "第1段第3文の後半に「彼は高校を中退してゴルフのキャディーとして働いた」とあり、続く第4文に「彼はゴルフについてより多くを学んだ」とあることから、4「彼はキャディーとして働きながらゴルフを学んだ」が正解となる。3「彼はインストラクターなしで学ぶことを好んだ」は、第1段最終文に「あるインストラクターが彼が腕を上げるのを助けた」とあり、不適。",
+          "script": "Lee Elder\n\nIn 1975, Lee Elder made golfing history at the Masters Tournament in the United States. Elder did not win but became the first African American to play in the world-famous event. Elder's parents died when he was young, and he dropped out of high school and worked as a golf caddie, carrying other players' clubs. During this time, he learned more about golf. After an instructor helped him improve his game, he entered tournaments open to Black players and won many.\n\nUntil 1961, Black golfers were banned from the biggest tournaments, which were run by an organization called the PGA. After the ban was lifted, Elder played in PGA tournaments. His first victory qualified him to appear at the 1975 Masters Tournament, one of the biggest competitions in the world. After his long career, Elder continued to push for equality by supporting various educational programs. A short time before his death, a golf scholarship for young people was also founded in his name.",
+          "scriptJa": "リー・エルダー\n\n1975年、リー・エルダーはアメリカ合衆国のマスターズ・トーナメントでゴルフの歴史を作った。エルダーは優勝しなかったが、この世界的に有名なイベントに出場した最初のアフリカ系アメリカ人となったのだ。エルダーの両親は彼が若いころに亡くなったので、彼は高校を中退してゴルフのキャディーとして働き、他の選手のクラブを運んだ。その間に彼はゴルフについてより多くを学んだ。あるインストラクターの助けで腕を上げたあと、彼は黒人選手に開かれた大会に出場し、多くの勝利を収めた。\n\n1961年まで、黒人のゴルファーは大規模な大会への出場を禁止されていたが、それはPGAと呼ばれる団体によって運営されていた。その禁止が解除された後、エルダーはPGAの大会に出場した。最初の勝利によって、彼は1975年に世界最大級の大会の一つであるマスターズ・トーナメントに出場する資格を得た。長い選手生活の後、エルダーは様々な教育プログラムを支援することで平等を推進し続けた。彼が亡くなる少し前には、若者のためのゴルフ奨学金も彼の名のもとに設立されたのである。"
         },
         {
           "id": "q18",
@@ -315,17 +315,17 @@
           "passageLabel": "Passage C",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/21_question_C.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/23_No18.mp3",
-          "prompt": "TODO",
+          "prompt": "What did Elder do after retiring from golf?",
           "choices": [
             { "label": "1", "text": "He opened his own golf school." },
             { "label": "2", "text": "He helped provide educational opportunities to others." },
             { "label": "3", "text": "He started playing other sports." },
             { "label": "4", "text": "He bought a golf course for young golfers to practice on." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "第2段第4文に「エルダーは様々な教育プログラムを支援することで平等を推進し続けた」とある。また、同段最終文に「若者のためのゴルフ奨学金も彼の名のもとに設立された」とある。これらの内容に最も近いのは、2「彼は他者に教育の機会を与える援助をした」である。",
+          "script": "Lee Elder\n\nIn 1975, Lee Elder made golfing history at the Masters Tournament in the United States. Elder did not win but became the first African American to play in the world-famous event. Elder's parents died when he was young, and he dropped out of high school and worked as a golf caddie, carrying other players' clubs. During this time, he learned more about golf. After an instructor helped him improve his game, he entered tournaments open to Black players and won many.\n\nUntil 1961, Black golfers were banned from the biggest tournaments, which were run by an organization called the PGA. After the ban was lifted, Elder played in PGA tournaments. His first victory qualified him to appear at the 1975 Masters Tournament, one of the biggest competitions in the world. After his long career, Elder continued to push for equality by supporting various educational programs. A short time before his death, a golf scholarship for young people was also founded in his name.",
+          "scriptJa": "リー・エルダー\n\n1975年、リー・エルダーはアメリカ合衆国のマスターズ・トーナメントでゴルフの歴史を作った。エルダーは優勝しなかったが、この世界的に有名なイベントに出場した最初のアフリカ系アメリカ人となったのだ。エルダーの両親は彼が若いころに亡くなったので、彼は高校を中退してゴルフのキャディーとして働き、他の選手のクラブを運んだ。その間に彼はゴルフについてより多くを学んだ。あるインストラクターの助けで腕を上げたあと、彼は黒人選手に開かれた大会に出場し、多くの勝利を収めた。\n\n1961年まで、黒人のゴルファーは大規模な大会への出場を禁止されていたが、それはPGAと呼ばれる団体によって運営されていた。その禁止が解除された後、エルダーはPGAの大会に出場した。最初の勝利によって、彼は1975年に世界最大級の大会の一つであるマスターズ・トーナメントに出場する資格を得た。長い選手生活の後、エルダーは様々な教育プログラムを支援することで平等を推進し続けた。彼が亡くなる少し前には、若者のためのゴルフ奨学金も彼の名のもとに設立されたのである。"
         },
         {
           "id": "q19",
@@ -333,17 +333,17 @@
           "passageLabel": "Passage D",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/24_question_D.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/25_No19.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the speaker say about the findings of the 2024 study?",
           "choices": [
             { "label": "1", "text": "They apply mainly to people who exercise regularly." },
             { "label": "2", "text": "They show that jogging can reduce anger." },
             { "label": "3", "text": "They suggest anger can have positive effects." },
             { "label": "4", "text": "They disagree with a widely accepted theory." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "第1段第2文に「心理学において一般に受け入れられている理論」とあり、その中身は「怒りを外に対して表現することで対処する」ということである。一方、Howeverから始まる第3文では「そのような行動が実際には怒りの感情をより強める可能性がある」とあり、これは第2文の内容と反対である。したがって正解は4「それらは広く受け入れられている理論と一致しない」。",
+          "script": "A New Look at Anger\n\nAnger is an emotion that affects most people throughout their lives. One commonly accepted theory in psychology encourages people to deal with anger by outwardly expressing it—for example, by shouting into a pillow or clenching their fists. However, a 2024 study that examined past research found such behavior could actually make feelings of anger more intense. Surprisingly, this includes seemingly healthier tactics, such as hitting a punching bag at the gym or even going jogging.\n\nThe researchers found the best way to relieve anger was to engage in activities that have a calming effect—essentially, those that reduce heart rate and blood pressure. These include many of the same activities often recommended for stress management, such as meditation and controlled breathing. One exception, however, seemed to be playing ball sports. The researchers believe such sports may relieve anger by encouraging positive emotions through playful group interactions.",
+          "scriptJa": "怒りへの新しい考察\n\n怒りは、人生を通じて大多数の人に影響を与える感情である。心理学において一般に受け入れられている理論の一つは、それを外に向かって表現することによって怒りに対処するよう人々に勧めている――例えば、枕に向かって叫んだり、拳を握りしめたりすることである。しかし、過去の調査について調べた2024年の研究は、そのような行動が実際には怒りの感情をより強める可能性があることを発見した。驚くべきことに、これにはジムでサンドバッグを叩いたりジョギングに行ったりすることのような、一見より健康的に見える方法さえ含まれているのである。\n\n研究者たちは、怒りを和らげる最良の方法は、つまるところ心拍数や血圧を下げるような、心を落ち着かせる効果のある活動に取り組むことであることを発見した。これには、ストレス管理のためによく推奨されるのと同じような活動、たとえば瞑想や呼吸のコントロールといったものの多くが含まれる。しかし、一つの例外は球技をすることのようである。研究者たちは、そのようなスポーツが遊び心のある集団的な交流を通じて肯定的な感情を促すことで、怒りを和らげるかもしれないと考えている。"
         },
         {
           "id": "q20",
@@ -351,17 +351,17 @@
           "passageLabel": "Passage D",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/24_question_D.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/26_No20.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the researchers discovered about anger?",
           "choices": [
             { "label": "1", "text": "It can be relieved by playing certain sports." },
             { "label": "2", "text": "Common meditation practices can make it worse." },
             { "label": "3", "text": "It does not always raise heart rate and blood pressure." },
             { "label": "4", "text": "Its effects on health are greatest among athletes." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "第2段第3文でhoweverが聞こえてくるのをしっかり聞き取りたい。その直後に「球技をすること」とあり、続く最終文に「そのようなスポーツが怒りを和らげる可能性がある」とある。したがって正解は1「それは特定のスポーツをすることで和らげられる可能性がある」である。",
+          "script": "A New Look at Anger\n\nAnger is an emotion that affects most people throughout their lives. One commonly accepted theory in psychology encourages people to deal with anger by outwardly expressing it—for example, by shouting into a pillow or clenching their fists. However, a 2024 study that examined past research found such behavior could actually make feelings of anger more intense. Surprisingly, this includes seemingly healthier tactics, such as hitting a punching bag at the gym or even going jogging.\n\nThe researchers found the best way to relieve anger was to engage in activities that have a calming effect—essentially, those that reduce heart rate and blood pressure. These include many of the same activities often recommended for stress management, such as meditation and controlled breathing. One exception, however, seemed to be playing ball sports. The researchers believe such sports may relieve anger by encouraging positive emotions through playful group interactions.",
+          "scriptJa": "怒りへの新しい考察\n\n怒りは、人生を通じて大多数の人に影響を与える感情である。心理学において一般に受け入れられている理論の一つは、それを外に向かって表現することによって怒りに対処するよう人々に勧めている――例えば、枕に向かって叫んだり、拳を握りしめたりすることである。しかし、過去の調査について調べた2024年の研究は、そのような行動が実際には怒りの感情をより強める可能性があることを発見した。驚くべきことに、これにはジムでサンドバッグを叩いたりジョギングに行ったりすることのような、一見より健康的に見える方法さえ含まれているのである。\n\n研究者たちは、怒りを和らげる最良の方法は、つまるところ心拍数や血圧を下げるような、心を落ち着かせる効果のある活動に取り組むことであることを発見した。これには、ストレス管理のためによく推奨されるのと同じような活動、たとえば瞑想や呼吸のコントロールといったものの多くが含まれる。しかし、一つの例外は球技をすることのようである。研究者たちは、そのようなスポーツが遊び心のある集団的な交流を通じて肯定的な感情を促すことで、怒りを和らげるかもしれないと考えている。"
         },
         {
           "id": "q21",
@@ -369,17 +369,17 @@
           "passageLabel": "Passage E",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/27_question_E.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/28_No21.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the speaker says about Jane and Anna Maria Porter?",
           "choices": [
             { "label": "1", "text": "They were originally from Scotland." },
             { "label": "2", "text": "A statue of them will be put in Edinburgh." },
             { "label": "3", "text": "They were fans of Sir Walter Scott's books." },
             { "label": "4", "text": "Sir Walter Scott copied ideas from their books." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "第1段最終文の後半部分に「スコットが、その姉妹が数年前に出版した小説からとった筋書きや執筆方法を使っていた」とある。したがって、正解は4「ウォルター・スコット卿が彼女たちの本から着想を模倣した」である。放送のused plots and writing methodsが、選択肢ではcopied ideasと簡単に言い換えられている。",
+          "script": "Pioneers of Historical Romance\n\nThe Scottish poet and author Sir Walter Scott is considered by many to be the pioneer of historical romance novels. He published many successful books during the 1800s, and a statue in Edinburgh honors his contribution to literature. However, the discovery of the private letters of two English authors, Jane and Anna Maria Porter, revealed that Scott used plots and writing methods that were taken from novels the sisters had published years before.\n\nIn fact, imitating the work of other writers was not unusual at the time, and it was generally accepted as long as authors acknowledged where their ideas came from. Scott never did this, which angered Jane so much that she publicly challenged him about it. However, the literary world took Scott's side, and Jane's accusation was dismissed. This damaged the sisters' reputations, and as Scott's novels became more popular, theirs were largely forgotten.",
+          "scriptJa": "歴史ロマンスの先駆者たち\n\nスコットランドの詩人であり作家であったウォルター・スコット卿は、歴史ロマンス小説の先駆者である、と多くの人が考えている。彼は1800年代に多くの成功した本を出版し、エディンバラには文学に対する彼の貢献を称える像がある。しかし、2人のイギリス人作家、ジェーン・ポーターとアンナ・マリア・ポーターの私的な手紙の発見により、スコットはその姉妹が数年前に出版した小説からとった筋書きや執筆方法を使っていたことが明らかになった。\n\n実際、当時は他の作家の作品を模倣することは珍しいことではなく、作者たちが自分の着想がどこから来たのかを認める限り、それは一般的に受け入れられていた。スコットはそれを一度も行わず、このことがジェーンを非常に怒らせたため、彼女は彼に対して公に異議を唱えた。しかし、文学界はスコットの味方をし、ジェーンの告訴は退けられた。このことは姉妹の評判を傷つけ、スコットの小説がより人気を得るにつれて、彼女たちの作品はほとんど忘れ去られていったのである。"
         },
         {
           "id": "q22",
@@ -387,17 +387,17 @@
           "passageLabel": "Passage E",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/27_question_E.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/29_No22.mp3",
-          "prompt": "TODO",
+          "prompt": "What is true of the literary world?",
           "choices": [
             { "label": "1", "text": "It celebrated the work of the Porter sisters." },
             { "label": "2", "text": "It banned Sir Walter Scott's work." },
             { "label": "3", "text": "It rejected Jane Porter's claim." },
             { "label": "4", "text": "It attempted to prevent imitation." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第2段第3文で「文学界はスコットの味方をし、ジェーンの告訴は退けられた」とある。したがって、3「ジェーン・ポーターの主張を退けた」が正解。dismissedが聞き取れれば、その言い換えであるrejectedから容易に選べる。",
+          "script": "Pioneers of Historical Romance\n\nThe Scottish poet and author Sir Walter Scott is considered by many to be the pioneer of historical romance novels. He published many successful books during the 1800s, and a statue in Edinburgh honors his contribution to literature. However, the discovery of the private letters of two English authors, Jane and Anna Maria Porter, revealed that Scott used plots and writing methods that were taken from novels the sisters had published years before.\n\nIn fact, imitating the work of other writers was not unusual at the time, and it was generally accepted as long as authors acknowledged where their ideas came from. Scott never did this, which angered Jane so much that she publicly challenged him about it. However, the literary world took Scott's side, and Jane's accusation was dismissed. This damaged the sisters' reputations, and as Scott's novels became more popular, theirs were largely forgotten.",
+          "scriptJa": "歴史ロマンスの先駆者たち\n\nスコットランドの詩人であり作家であったウォルター・スコット卿は、歴史ロマンス小説の先駆者である、と多くの人が考えている。彼は1800年代に多くの成功した本を出版し、エディンバラには文学に対する彼の貢献を称える像がある。しかし、2人のイギリス人作家、ジェーン・ポーターとアンナ・マリア・ポーターの私的な手紙の発見により、スコットはその姉妹が数年前に出版した小説からとった筋書きや執筆方法を使っていたことが明らかになった。\n\n実際、当時は他の作家の作品を模倣することは珍しいことではなく、作者たちが自分の着想がどこから来たのかを認める限り、それは一般的に受け入れられていた。スコットはそれを一度も行わず、このことがジェーンを非常に怒らせたため、彼女は彼に対して公に異議を唱えた。しかし、文学界はスコットの味方をし、ジェーンの告訴は退けられた。このことは姉妹の評判を傷つけ、スコットの小説がより人気を得るにつれて、彼女たちの作品はほとんど忘れ去られていったのである。"
         },
         {
           "id": "q23",
@@ -405,17 +405,17 @@
           "passageLabel": "Passage F",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/30_question_F.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/31_No23.mp3",
-          "prompt": "TODO",
+          "prompt": "According to researchers, why are loon populations in Wisconsin declining?",
           "choices": [
             { "label": "1", "text": "Poisonous substances have entered their habitat." },
             { "label": "2", "text": "Water conditions have made hunting more difficult." },
             { "label": "3", "text": "Climate change has helped their predators survive." },
             { "label": "4", "text": "Water levels in lakes have been decreasing." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "第1段第2文に「水の透明度の低下」とあり、その直後に「アビにとって魚を見たり捕まえたりすることを難しくしている」とある。したがって、「水の透明度の低下」をwater conditionsと抽象的に言い換えている2「水の状態が狩りをより困難にしたため」が正解となる。",
+          "script": "Trouble for Loons\n\nIn recent decades, researchers have noticed a decline in populations of water birds called loons in lakes in the US state of Wisconsin. A recent study found this was linked to a decrease in water clarity, which has made it harder for the loons to see and catch fish below the surface. The researchers say climate change has caused increased rainfall, which has likely resulted in organic matter flowing into the water from shorelines and decreasing visibility.\n\nThe researchers also noted the body mass of loon chicks had decreased. They believe this is because rainfall increased in July, the month when loon chicks need to undergo the most growth. The researchers note that since loons' hunting behavior is consistent worldwide, the same problem is likely to occur anywhere rainfall amounts are expected to increase. The study highlights the need for further research on how climate change might impact wildlife.",
+          "scriptJa": "水鳥アビにとっての災難\n\nこの数十年で、研究者たちはアメリカ合衆国ウィスコンシン州の湖に生息するアビと呼ばれる水鳥の個体数が減少していることに気づいた。最近の研究で、この減少は水の透明度の低下と関連しており、それがアビにとって水面下で魚を見つけて捕まえることを難しくしていることがわかった。研究者たちは、気候変動によって降雨量が増加し、それが結果として岸辺から有機物が水中に流れ込むことになり、視界を悪化させている可能性が高いと述べている。\n\n研究者たちはまた、アビのひなの体重が減少していることにも注目した。彼らはこれは、ひなが最も成長しなければならない7月に降雨量が増加したためだと考えている。研究者たちは、アビの狩猟行動は世界中で一貫しているため、降雨量が増加すると予想される地域ではどこでも、同じ問題が起こる可能性が高いと指摘する。この研究は、気候変動が野生生物にどのように影響するかについて、さらなる研究の必要性を際立たせている。"
         },
         {
           "id": "q24",
@@ -423,17 +423,17 @@
           "passageLabel": "Passage F",
           "passageAudio": "audio/eiken/eiken-pre1-2024-3/30_question_F.mp3",
           "audio": "audio/eiken/eiken-pre1-2024-3/32_No24.mp3",
-          "prompt": "TODO",
+          "prompt": "What do the researchers say about the problem faced by the loons?",
           "choices": [
             { "label": "1", "text": "It is probably not limited to one region." },
             { "label": "2", "text": "It is mainly affecting adults in loon populations." },
             { "label": "3", "text": "The birds will likely adapt to environmental changes." },
             { "label": "4", "text": "The decrease in body mass could be unrelated to it." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "第2段第3文に「アビの狩猟行動は世界中で一貫しており」「降雨量が増加すると予想される地域ではどこでも同じ問題が起こる可能性が高い」とある。したがって、ウィスコンシン州だけでなく他の地域でも同様の問題が起こる可能性を研究者は指摘していることがわかる。よって、正解は1「それはおそらく一地域に限られない」になる。",
+          "script": "Trouble for Loons\n\nIn recent decades, researchers have noticed a decline in populations of water birds called loons in lakes in the US state of Wisconsin. A recent study found this was linked to a decrease in water clarity, which has made it harder for the loons to see and catch fish below the surface. The researchers say climate change has caused increased rainfall, which has likely resulted in organic matter flowing into the water from shorelines and decreasing visibility.\n\nThe researchers also noted the body mass of loon chicks had decreased. They believe this is because rainfall increased in July, the month when loon chicks need to undergo the most growth. The researchers note that since loons' hunting behavior is consistent worldwide, the same problem is likely to occur anywhere rainfall amounts are expected to increase. The study highlights the need for further research on how climate change might impact wildlife.",
+          "scriptJa": "水鳥アビにとっての災難\n\nこの数十年で、研究者たちはアメリカ合衆国ウィスコンシン州の湖に生息するアビと呼ばれる水鳥の個体数が減少していることに気づいた。最近の研究で、この減少は水の透明度の低下と関連しており、それがアビにとって水面下で魚を見つけて捕まえることを難しくしていることがわかった。研究者たちは、気候変動によって降雨量が増加し、それが結果として岸辺から有機物が水中に流れ込むことになり、視界を悪化させている可能性が高いと述べている。\n\n研究者たちはまた、アビのひなの体重が減少していることにも注目した。彼らはこれは、ひなが最も成長しなければならない7月に降雨量が増加したためだと考えている。研究者たちは、アビの狩猟行動は世界中で一貫しているため、降雨量が増加すると予想される地域ではどこでも、同じ問題が起こる可能性が高いと指摘する。この研究は、気候変動が野生生物にどのように影響するかについて、さらなる研究の必要性を際立たせている。"
         }
       ]
     },
