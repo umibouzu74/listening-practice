@@ -450,19 +450,19 @@
           "audio": "audio/eiken/eiken-pre1-2024-3/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "Where should you go?",
-          "promptJa": "TODO",
+          "promptJa": "あなたはどこに行くべきか？",
           "situation": "You have just arrived at a natural history museum. You bought tickets online for both general admission and the special exhibit on Saturn. An employee makes the following announcement.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは自然史博物館に到着したところである。あなたはオンラインで一般入場と土星の特別展示の両方のチケットを購入した。博物館の職員が次のアナウンスをしている。",
           "choices": [
             { "label": "1", "text": "Entrance A." },
             { "label": "2", "text": "Entrance B." },
             { "label": "3", "text": "The reception window." },
             { "label": "4", "text": "The second floor." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "状況から「一般入場と土星の特別展示の両方のチケットを購入した」ことがわかる。放送の第4文に「土星展示が中止になった」とあり、続く第5文に「すでにこの展示のチケットを購入された方は、受付窓口のスタッフにお申し出ください」とあることから、3「受付窓口」が正解。",
+          "script": "Attention visitors! If you already have your general admission ticket and will not see a special exhibit, proceed to Entrance A. If you have both a general admission ticket and a special exhibit ticket, proceed to Entrance B at the far end of the reception hall. Please note the Saturn exhibit has been canceled due to technical problems; we apologize for the inconvenience. If you have already purchased a ticket for this exhibit, speak to the staff at the reception window. If you are here to see a special exhibit only, proceed to the second floor. Thank you for cooperating.",
+          "scriptJa": "ご来館の皆さま！ すでに一般入場券をお持ちで特別展示をご覧にならない方は、入口Aへお進みください。一般入場券と特別展示券の両方をお持ちの方は、受付ホール奥にある入口Bへお進みください。土星展示は技術的な問題により中止となりましたことにご注意ください。ご不便をおかけして申し訳ございません。すでにこの展示のチケットを購入された方は、受付窓口のスタッフにお申し出ください。特別展示のみをご覧にいらっしゃった方は、2階へお進みください。ご協力ありがとうございます。"
         },
         {
           "id": "q26",
@@ -470,19 +470,19 @@
           "audio": "audio/eiken/eiken-pre1-2024-3/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "Which restaurant should you go to?",
-          "promptJa": "TODO",
+          "promptJa": "あなたはどのレストランに行くべきか？",
           "situation": "You are at the information desk at your hotel. You want to eat at a Mexican restaurant. You would like to try real Mexican food, and you want good service. The concierge tells you the following.",
-          "situationJa": "TODO",
+          "situationJa": "あなたはホテルの案内デスクにいる。メキシコ料理のレストランで食事をしたい。あなたは本物のメキシコ料理を食べてみたいが、良いサービスも求めている。コンシェルジュが次のように説明する。",
           "choices": [
             { "label": "1", "text": "La Fiesta." },
             { "label": "2", "text": "El Amigo." },
             { "label": "3", "text": "La Luna." },
             { "label": "4", "text": "El Mariachi." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "状況から読み取れる条件は「本物のメキシコ料理」と「良いサービス」である。ラ・ルナは「完全に本格的で、サービスは最高」とあるので、この2つの条件を満たす。したがって正解は3「ラ・ルナ」。",
+          "script": "First, there's La Fiesta. It's great if you're on a budget, and the food is quite authentic. I did find the servers rather impolite, though. Next is El Amigo. The owners are from Mexico, but they've altered a lot of the dishes to suit local tastes. Fortunately, the food is fabulous. If you don't mind a place with unattractive decor, head to La Luna. It's completely authentic, and the service is superb. Finally, there's El Mariachi. It serves traditional Mexican food, and at one time, the service was fantastic. Unfortunately, the quality of the service has declined a lot recently.",
+          "scriptJa": "まずラ・フィエスタがあります。予算を抑えたい方にはおすすめで、料理もかなり本格的です。ただ、店員がやや失礼だと強く感じました。次にエル・アミーゴです。オーナーはメキシコ出身ですが、料理の多くを地元の味に合わせて変えています。幸い味はすばらしいです。内装が良くないのを気にしないのであれば、ラ・ルナに行ってください。ここは完全に本格的で、サービスは最高です。最後にエル・マリアッチです。ここは伝統的なメキシコ料理を出していて、かつてはサービスもすばらしかったです。残念なことに、最近はサービスの質がかなり落ちていますね。"
         },
         {
           "id": "q27",
@@ -490,19 +490,19 @@
           "audio": "audio/eiken/eiken-pre1-2024-3/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "What should you do to get the best prices?",
-          "promptJa": "TODO",
+          "promptJa": "最もお得な価格で買うためには、あなたは何をすべきか？",
           "situation": "You visit a local drugstore and want to stock up on bathroom cleaning goods. You have the store's app on your phone. You hear the following announcement.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは地元のドラッグストアを訪れ、バスルームの掃除用品をまとめ買いしたいと思っている。あなたのスマートフォンにはこの店のアプリが入っている。店内で次のアナウンスを聞く。",
           "choices": [
             { "label": "1", "text": "Use the coupon on the app." },
             { "label": "2", "text": "Get a friend to download the JD app." },
             { "label": "3", "text": "Head directly to the third floor." },
             { "label": "4", "text": "Come back tomorrow." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "状況から「バスルームの掃除用品をまとめ買いしたい」ことがわかる。バスルーム製品は2階にあり、「アプリを開いてクーポンをクリックすれば、購入が20％割引になる」とあることから、1「アプリのクーポンを使う」が正解。",
+          "script": "Welcome to JD Drugs. Today, we have some fantastic New Year deals. On the first floor, explore our range of electric toothbrushes, hair dryers, and razors—all 10 percent off. You can get another 5 percent off just by getting a friend to download the JD app! Next, we have bargains on body soaps, shampoos, and bathroom cleaning products on the second floor. Access your app, click on the coupon, and you'll get 20 percent off your purchase. Finally, our kitchen goods sale starts tomorrow on the third floor. Use your JD app to get some incredible two-for-one deals!",
+          "scriptJa": "JDドラッグへようこそ。本日はすばらしい新春セールを開催しています。1階では電動歯ブラシ、ヘアドライヤー、シェーバーの品ぞろえをご覧ください。全品10％割引でご用意しております。さらに、お友達にJDアプリをダウンロードしてもらうだけで、追加で5％割引になります！ 次に、2階ではボディソープ、シャンプー、バスルームの掃除用品がお買い得です。アプリを開いてクーポンをクリックすれば、購入が20％割引になります。最後に、3階のキッチン用品セールは明日から始まります。JDアプリを使って、一つ買うと一つ無料のすばらしいお買い得品をお求めください！"
         },
         {
           "id": "q28",
@@ -510,19 +510,19 @@
           "audio": "audio/eiken/eiken-pre1-2024-3/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "What should you do?",
-          "promptJa": "TODO",
+          "promptJa": "あなたは何をすべきか？",
           "situation": "You would like to do volunteer work in your neighborhood. You are good with computers and are only free on weekends. You attend a community meeting and hear the following announcement.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは近所でボランティア活動をしたいと思っている。あなたはコンピュータが得意だが、週末しか時間が空いていない。あなたは地域の集会に参加し、次のアナウンスを聞く。",
           "choices": [
             { "label": "1", "text": "Talk to Kathy." },
             { "label": "2", "text": "Check the high school's website." },
             { "label": "3", "text": "Visit the library." },
             { "label": "4", "text": "Talk to John." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "状況から「コンピュータが得意」で「週末しか時間がない」ことがわかる。図書館の仕事は土曜日で「データベースの利用を利用者に教えるためにコンピュータ技術のある人」という条件も合致する。「図書館に直接申し込む」ようにとあるので、3「図書館を訪れる」が正解。",
+          "script": "First, I have an announcement about volunteer opportunities. The school cafeterias need help preparing meals on weekdays. Talk to Kathy after the meeting if you're interested; she'll be standing by the exit. The high school also needs volunteers to assist the basketball coach with after-school training during the week. Check the school's website for details. The library needs people with computer skills to help patrons use the database on Saturdays. Please apply in person during library business hours. Finally, Whitehall Hospital needs help with clerical work on Monday nights. Speak to John for more information; he'll be near the stage after the meeting.",
+          "scriptJa": "まず、ボランティア活動についてのお知らせです。学校のカフェテリアでは平日に食事の準備を手伝ってくれる方を募集しています。興味がある方は、会議の後にキャシーに声をかけてください。出口のそばにいます。高校では、平日の放課後にバスケットボールのコーチを手伝ってくれるボランティアも募集しています。詳しくは学校のウェブサイトを確認してください。図書館では、土曜日にデータベースの利用を利用者に教えるためにコンピュータ技術のある人を必要としています。図書館の開館時間内に直接申し込みをしてください。最後に、ホワイトホール病院では月曜の夜に事務作業を手伝ってくれる人を募集しています。詳しい情報はジョンに聞いてください。彼は会議の後、ステージの近くにいます。"
         },
         {
           "id": "q29",
@@ -530,19 +530,19 @@
           "audio": "audio/eiken/eiken-pre1-2024-3/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "Where should you sit?",
-          "promptJa": "TODO",
+          "promptJa": "あなたはどこに座るべきか？",
           "situation": "You are attending your university graduation ceremony, and you hear the following announcement. You are in the Biology Department.",
-          "situationJa": "TODO",
+          "situationJa": "あなたは大学の卒業式に参加しており、会場で次のアナウンスを聞く。あなたは生物学部に所属している。",
           "choices": [
             { "label": "1", "text": "In Section A." },
             { "label": "2", "text": "In Section B." },
             { "label": "3", "text": "In Section C." },
             { "label": "4", "text": "In Section D." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "状況から生物学部の学生がどこに座るべきかを聞き取る。放送には Biology Department という語は出てこないが、「C区域はすべての理系学部生用」とあり、この the science departments が the Biology Department の言い換えであるとわかる。よって正解は3「C区域」。",
+          "script": "Graduating students should sit in the designated areas at the front of the hall. If you're in the Fine Arts Department or Performing Arts Department, please sit in Section A, and if you're in the Economics Department or Business Studies Department, go to Section B. Section C is for students in any of the science departments, and Section D is for students in any of the language departments. Parents and family members can sit anywhere other than the designated areas.",
+          "scriptJa": "卒業生はホール前方の指定された区域に座ってください。美術学部または舞台芸術学部の学生はA区域に座ってください。経済学部または経営学部の学生はB区域に行ってください。C区域はすべての理系学部生用で、D区域はすべての語学系学部生用です。保護者や家族は、指定区域以外ならどこに座って頂いてもかまいません。"
         }
       ]
     }
