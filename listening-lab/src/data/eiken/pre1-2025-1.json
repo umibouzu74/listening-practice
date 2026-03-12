@@ -225,17 +225,17 @@
           "passageLabel": "Passage A",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/15_question_A.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/16_No13.mp3",
-          "prompt": "TODO",
+          "prompt": "What did many ancient Roman historians say about the Great Wood of Caledon?",
           "choices": [
             { "label": "1", "text": "It covered most areas of Britain." },
             { "label": "2", "text": "It was divided into multiple sections." },
             { "label": "3", "text": "It led to the failure of Roman invasions." },
             { "label": "4", "text": "It was an important resource for Roman armies." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第1段第3文で「多くのローマの歴史家は侵略がうまくいかなかった理由として、その土地一帯を覆う密集した松林での戦闘が難しかったことを挙げていた」と述べられていることから、正解は3「それはローマの侵略の失敗を招いた」である。1は第1段最初の文に「現在のスコットランドにあった」とあるので誤り。2・4については言及されていない。",
+          "script": "The Great Wood of Caledon\nAncient Roman historical records refer to an immense forest known as the Great Wood of Caledon in what is now Scotland. Rome had conquered the rest of Britain, but had failed repeatedly to conquer this region. Many Roman historians claimed the invasions were unsuccessful because of the difficulty of fighting in the dense pine forest that covered the landscape. Indeed, the Romans were long blamed for the destruction of a Scottish pine forest some two thousand years ago.\nHowever, modern research suggests this may not all be true. First, the forest also contained trees other than pine, and the forests do not seem to have been as dark and dense as Roman writings suggested. Furthermore, the forest peaked in size some six thousand years ago and had been in decline ever since. It was likely ancient humans chopping down the forest for hunting and agriculture that was mainly responsible for reducing its size rather than the Romans being responsible.",
+          "scriptJa": "カレドンの大森林\n古代ローマの歴史の記録には、現在のスコットランドにあった「カレドンの大森林」として知られる広大な森が登場する。ローマはブリテン島の他の地域を征服したが、この地域だけは繰り返し征服に失敗した。多くのローマの歴史家は侵略が失敗した理由として、その土地一帯を覆う密集した松林での戦闘が難しかったことを挙げていた。実際、ローマ人は約2000年前にスコットランドの松林を破壊したと長らく非難されてきた。\nしかし、現代の研究では、それがすべて正しいわけではないことが示唆されている。まず、森には松以外の木も含まれており、ローマの記録が示すほど暗く密集してはいなかったようだ。さらに、この森は約6000年前に最も広がりを見せ、その後は縮小していった。森の縮小の主な原因はローマ人ではなく、古代の人々が狩猟や農業のために木を伐採したことだったと考えられている。"
         },
         {
           "id": "q14",
@@ -243,17 +243,17 @@
           "passageLabel": "Passage A",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/15_question_A.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/17_No14.mp3",
-          "prompt": "TODO",
+          "prompt": "What does modern research suggest about the Great Wood of Caledon?",
           "choices": [
             { "label": "1", "text": "It cannot be more than six thousand years old." },
             { "label": "2", "text": "Humans are not to blame for its destruction." },
             { "label": "3", "text": "Ancient historians were mostly correct about it." },
             { "label": "4", "text": "It had already shrunk when the Romans arrived." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "第2段最終文で「森の縮小の主な原因はローマ人ではなく、古代の人々が狩猟や農業のために木を伐採したことだった」とあることから、ローマ人到着よりもずっと前に古代人の活動によって森が縮小したことがわかるので、正解は4「ローマ人が到着したとき、すでに縮小していた」である。1については、第2段第3文で「その森は約6000年前に最も広がりを見せた」と言及されていることから、この森が6000年以上前からあったことが示唆されているので誤りである。2は第2段最終文より、人間の活動が縮小の原因であったことがわかるので、不適切である。3については、第2段第1文で古代の歴史家の主張がすべて正しいわけではないと述べられているので、誤りである。",
+          "script": "The Great Wood of Caledon\nAncient Roman historical records refer to an immense forest known as the Great Wood of Caledon in what is now Scotland. Rome had conquered the rest of Britain, but had failed repeatedly to conquer this region. Many Roman historians claimed the invasions were unsuccessful because of the difficulty of fighting in the dense pine forest that covered the landscape. Indeed, the Romans were long blamed for the destruction of a Scottish pine forest some two thousand years ago.\nHowever, modern research suggests this may not all be true. First, the forest also contained trees other than pine, and the forests do not seem to have been as dark and dense as Roman writings suggested. Furthermore, the forest peaked in size some six thousand years ago and had been in decline ever since. It was likely ancient humans chopping down the forest for hunting and agriculture that was mainly responsible for reducing its size rather than the Romans being responsible.",
+          "scriptJa": "カレドンの大森林\n古代ローマの歴史の記録には、現在のスコットランドにあった「カレドンの大森林」として知られる広大な森が登場する。ローマはブリテン島の他の地域を征服したが、この地域だけは繰り返し征服に失敗した。多くのローマの歴史家は侵略が失敗した理由として、その土地一帯を覆う密集した松林での戦闘が難しかったことを挙げていた。実際、ローマ人は約2000年前にスコットランドの松林を破壊したと長らく非難されてきた。\nしかし、現代の研究では、それがすべて正しいわけではないことが示唆されている。まず、森には松以外の木も含まれており、ローマの記録が示すほど暗く密集してはいなかったようだ。さらに、この森は約6000年前に最も広がりを見せ、その後は縮小していった。森の縮小の主な原因はローマ人ではなく、古代の人々が狩猟や農業のために木を伐採したことだったと考えられている。"
         },
         {
           "id": "q15",
@@ -261,17 +261,17 @@
           "passageLabel": "Passage B",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/18_question_B.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/19_No15.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the speaker say about Gerda Taro and Robert Capa?",
           "choices": [
             { "label": "1", "text": "Their photographs showed the damaging effects of war." },
             { "label": "2", "text": "Capa prevented Taro from becoming a photographer." },
             { "label": "3", "text": "They were unable to travel to Spain together." },
             { "label": "4", "text": "Taro first introduced Capa to war photography." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "第1段最終文で「この二人は最前線の戦闘だけでなく、民間人や難民の苦しみなど、戦争のさまざまな側面も撮影した」と述べられていることから、戦争によるさまざまな被害状況を写真に収めていたことがわかるので、正解は1「彼らの写真は戦争の被害の影響を示していた」である。2については、第1段第3文より、キャパがタローに写真を教えたことがわかるので、誤りである。3については、第1段第1文より、二人が一緒にスペインに行ったことがわかるので、誤りである。4については言及されていない。",
+          "script": "On the Front Line\nIn 1936, photographers Gerda Taro and Robert Capa traveled to Spain to cover the civil war there. Taro became interested in photography after first meeting Capa, who would later become a famous war photographer. While Taro helped promote Capa's photos, Capa helped her learn photography, and she became an officially registered member of the press. While in Spain, the couple photographed not just frontline battles but also other aspects of war, including the suffering of civilians and refugees.\nTaro also began to work more independently, and it is said she was determined to experience the reality of war firsthand. Sadly, in one operation in 1937, she was struck by a tank and later died. She is said to be the first female photographer to have been killed reporting on war. Soon after her death, her work was largely forgotten. It was only many decades later that it became more widely appreciated.",
+          "scriptJa": "最前線で\n1936年、写真家のゲルダ・タローとロバート・キャパはスペインに向かい、内戦を取材した。タローは、後に有名な戦場カメラマンとなるキャパに初めて会ったことで写真に興味を持つようになった。タローはキャパの写真を広める手助けをする一方で、キャパは彼女が写真技術を学ぶのを手伝い、タローは正式に報道機関の登録記者となった。スペイン滞在中、この二人は最前線の戦闘だけでなく、民間人や難民の苦しみなど、戦争のさまざまな側面も撮影した。\nタローはさらに独立して活動するようになり、戦争の現実を直接体験しようと決意していたと言われている。悲しいことに、1937年のある活動中にタローは戦車に轢かれて、後に死亡した。彼女は、戦争取材中に命を落とした最初の女性写真家だといわれている。タローの死後、彼女の作品はほとんど忘れられていた。数十年後になってようやく広く評価されるようになった。"
         },
         {
           "id": "q16",
@@ -279,17 +279,17 @@
           "passageLabel": "Passage B",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/18_question_B.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/20_No16.mp3",
-          "prompt": "TODO",
+          "prompt": "What does the speaker conclude about Taro?",
           "choices": [
             { "label": "1", "text": "She had not wanted to go to the front line." },
             { "label": "2", "text": "Her photographic techniques were not original." },
             { "label": "3", "text": "Her work got little attention for many years after she died." },
             { "label": "4", "text": "She preferred working with Capa to working alone." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第2段最終2文で「タローの死後、彼女の作品はほとんど忘れられていた。数十年後になってようやく広く評価された」と述べられていることから、正解は3「彼女の作品は彼女の死後、長い間ほとんど注目されなかった」である。1に関して、第1段最終文および第2段第1文より、自ら幅広く戦争の現実を記録する意欲があったことがわかるので、誤りである。2に関して、タローの写真技術については言及されていないので、誤りである。4について、タローの仕事上での好みについては述べられていないので、不適切である。",
+          "script": "On the Front Line\nIn 1936, photographers Gerda Taro and Robert Capa traveled to Spain to cover the civil war there. Taro became interested in photography after first meeting Capa, who would later become a famous war photographer. While Taro helped promote Capa's photos, Capa helped her learn photography, and she became an officially registered member of the press. While in Spain, the couple photographed not just frontline battles but also other aspects of war, including the suffering of civilians and refugees.\nTaro also began to work more independently, and it is said she was determined to experience the reality of war firsthand. Sadly, in one operation in 1937, she was struck by a tank and later died. She is said to be the first female photographer to have been killed reporting on war. Soon after her death, her work was largely forgotten. It was only many decades later that it became more widely appreciated.",
+          "scriptJa": "最前線で\n1936年、写真家のゲルダ・タローとロバート・キャパはスペインに向かい、内戦を取材した。タローは、後に有名な戦場カメラマンとなるキャパに初めて会ったことで写真に興味を持つようになった。タローはキャパの写真を広める手助けをする一方で、キャパは彼女が写真技術を学ぶのを手伝い、タローは正式に報道機関の登録記者となった。スペイン滞在中、この二人は最前線の戦闘だけでなく、民間人や難民の苦しみなど、戦争のさまざまな側面も撮影した。\nタローはさらに独立して活動するようになり、戦争の現実を直接体験しようと決意していたと言われている。悲しいことに、1937年のある活動中にタローは戦車に轢かれて、後に死亡した。彼女は、戦争取材中に命を落とした最初の女性写真家だといわれている。タローの死後、彼女の作品はほとんど忘れられていた。数十年後になってようやく広く評価されるようになった。"
         },
         {
           "id": "q17",
@@ -297,17 +297,17 @@
           "passageLabel": "Passage C",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/21_question_C.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/22_No17.mp3",
-          "prompt": "TODO",
+          "prompt": "What is true according to the speaker?",
           "choices": [
             { "label": "1", "text": "Spider silk can pick up sounds humans cannot." },
             { "label": "2", "text": "Spiders have no need to detect sounds." },
             { "label": "3", "text": "Spiders produce sounds that humans cannot hear." },
             { "label": "4", "text": "Spider webs can be damaged by sound waves." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "1",
+          "explanation": "第1段第3文で「この糸は人間の可聴範囲を超えた周波数も検知可能である」と述べられていることから、正解は1「クモの糸は人間が聴くことのできない音も捉えられる」である。2・3・4の内容を示唆する内容は述べられていないので、誤りである。",
+          "script": "Spider Sounds\nResearchers in the United States have discovered that spiders can detect sounds through their webs. They found that the silk used in spiderwebs could pick up air disturbances created by sound waves up to three meters away. The silk is also capable of detecting frequencies outside the range of human hearing. A mechanical engineer in the US believes this knowledge can be used to help make more powerful and more sensitive microphones.\nHuman hearing is controlled by air pressure. Pressure changes cause the eardrum to vibrate at different frequencies, and the brain processes the resulting vibrations as sounds. Currently, microphones are designed based on this principle, but one drawback is that making microphones bigger is the only way to make them more sensitive. However, the US researchers have demonstrated that microphones that respond to airflow in the way that spider silk does can be significantly smaller without losing sensitivity.",
+          "scriptJa": "クモの音の感知\nアメリカの研究者たちは、クモが巣を通して音を感知できることを発見した。クモの巣に使われる糸は、最大3メートル離れた音波による空気の乱れを捉えることができる。また、この糸は人間の可聴範囲を超えた周波数も検知可能である。アメリカの機械工学者は、この知識を使って、より高性能で感度の高いマイクを作ることができると考えている。\n人間の聴覚は空気圧によって左右される。圧力の変化により鼓膜が異なる周波数で振動し、脳はその結果、生じる振動を音として処理する。現在では、マイクはこの原理に基づいて設計されているが、欠点として、感度を高めるにはマイクを大きくするしかない。しかし、アメリカの研究者たちは、クモの糸のように空気の流れに反応するマイクは感度を失わずにかなり小型化できることを示した。"
         },
         {
           "id": "q18",
@@ -315,17 +315,17 @@
           "passageLabel": "Passage C",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/21_question_C.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/23_No18.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the speaker says about current microphones?",
           "choices": [
             { "label": "1", "text": "They can negatively affect human hearing." },
             { "label": "2", "text": "They become less effective as they get smaller." },
             { "label": "3", "text": "They cannot detect some frequencies produced by humans." },
             { "label": "4", "text": "They make vibrations that the brain cannot process." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "第2段第3文で「現在のマイクの欠点として、感度を高めるにはマイクを大きくするしかない」とあることから、マイクを小さくすれば感度が低くなると考えられるので、正解は2「それらは小さくなるほど性能が落ちる」である。1・3・4のマイクに関する記述はどれも述べられていないので、誤りである。",
+          "script": "Spider Sounds\nResearchers in the United States have discovered that spiders can detect sounds through their webs. They found that the silk used in spiderwebs could pick up air disturbances created by sound waves up to three meters away. The silk is also capable of detecting frequencies outside the range of human hearing. A mechanical engineer in the US believes this knowledge can be used to help make more powerful and more sensitive microphones.\nHuman hearing is controlled by air pressure. Pressure changes cause the eardrum to vibrate at different frequencies, and the brain processes the resulting vibrations as sounds. Currently, microphones are designed based on this principle, but one drawback is that making microphones bigger is the only way to make them more sensitive. However, the US researchers have demonstrated that microphones that respond to airflow in the way that spider silk does can be significantly smaller without losing sensitivity.",
+          "scriptJa": "クモの音の感知\nアメリカの研究者たちは、クモが巣を通して音を感知できることを発見した。クモの巣に使われる糸は、最大3メートル離れた音波による空気の乱れを捉えることができる。また、この糸は人間の可聴範囲を超えた周波数も検知可能である。アメリカの機械工学者は、この知識を使って、より高性能で感度の高いマイクを作ることができると考えている。\n人間の聴覚は空気圧によって左右される。圧力の変化により鼓膜が異なる周波数で振動し、脳はその結果、生じる振動を音として処理する。現在では、マイクはこの原理に基づいて設計されているが、欠点として、感度を高めるにはマイクを大きくするしかない。しかし、アメリカの研究者たちは、クモの糸のように空気の流れに反応するマイクは感度を失わずにかなり小型化できることを示した。"
         },
         {
           "id": "q19",
@@ -333,17 +333,17 @@
           "passageLabel": "Passage D",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/24_question_D.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/25_No19.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the speaker says about the ancient Egyptians?",
           "choices": [
             { "label": "1", "text": "Their agriculture polluted the Nile River." },
             { "label": "2", "text": "Their agriculture relied on the Nile River." },
             { "label": "3", "text": "Their crops were poorly suited to the region." },
             { "label": "4", "text": "Their farming methods were very advanced." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "第1段第1文より、2「彼らの農業はナイル川に依存していた」が正解である。was heavily dependent onが選択肢ではrelied onに言い換えられている。1・3・4の内容を示唆することは述べられていないので、不適切である。",
+          "script": "Nilometers\nAncient Egypt was heavily dependent on the Nile River. Each year, the river flooded the surrounding plains, leaving fertile soil behind when the water level dropped. This allowed the ancient Egyptians to grow crops, so the size of the flood had a major impact on the annual harvest. If the flood was too small, only a limited area would be covered with the soil, leading to a poor harvest. If the flood was too big, the crops could be destroyed.\nTo predict the size of the annual flood, the ancient Egyptians built large stone structures called nilometers, which measured the river's water level. In fact, historians now believe these structures had an additional purpose. The ancient Egyptian government placed a tax on goods, and the rate of this tax was decided each year. If nilometer measurements suggested there would be a good harvest, the tax was set at a higher rate.",
+          "scriptJa": "ナイロメーター\n古代エジプトはナイル川に大きく依存していた。毎年、川があふれて周囲の平野を水浸しにし、水が引いたあとには、肥沃な土壌が残った。これにより古代エジプト人は作物を育てることができたので、洪水の規模はその年の収穫に大きな影響を与えた。洪水が小さすぎれば、土で覆われる範囲が限られ、収穫は少なくなった。逆に洪水が大きすぎれば、作物が全滅する可能性もあった。\n毎年の洪水の規模を予測するために、古代エジプト人はナイロメーターと呼ばれる大きな石の構造物を建て、川の水位を測定した。実際には、これらの構造物には別の目的もあったと歴史家たちは今では考えている。古代エジプト政府は物品に課税しており、その税率は毎年決められていた。もしナイロメーターの測定が豊作を示していれば、税率は高めに設定されたのである。"
         },
         {
           "id": "q20",
@@ -351,17 +351,17 @@
           "passageLabel": "Passage D",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/24_question_D.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/26_No20.mp3",
-          "prompt": "TODO",
+          "prompt": "What do we learn about nilometers?",
           "choices": [
             { "label": "1", "text": "Some were less accurate than others." },
             { "label": "2", "text": "Historians are unsure why they were built." },
             { "label": "3", "text": "Historians think they had more than one function." },
             { "label": "4", "text": "They were paid for using taxpayers' money." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第2段第2文に「実際には、これらの構造物には別の目的もあったと歴史家たちは考えている」とあり、この前後の文より、ナイロメーターは水位を測るだけでなく、税率決定というもうひとつの役割を持っていたことがわかるので、3「歴史家たちはそれらに複数の役割があったと考えている」が正解である。2については、第2段第1文より、毎年の洪水の規模を予測するためにナイロメーターが建てられたことがわかるので、誤りである。1のナイロメーターの精度の話や、4のナイロメーターの建築費用については言及されていないので、誤りである。",
+          "script": "Nilometers\nAncient Egypt was heavily dependent on the Nile River. Each year, the river flooded the surrounding plains, leaving fertile soil behind when the water level dropped. This allowed the ancient Egyptians to grow crops, so the size of the flood had a major impact on the annual harvest. If the flood was too small, only a limited area would be covered with the soil, leading to a poor harvest. If the flood was too big, the crops could be destroyed.\nTo predict the size of the annual flood, the ancient Egyptians built large stone structures called nilometers, which measured the river's water level. In fact, historians now believe these structures had an additional purpose. The ancient Egyptian government placed a tax on goods, and the rate of this tax was decided each year. If nilometer measurements suggested there would be a good harvest, the tax was set at a higher rate.",
+          "scriptJa": "ナイロメーター\n古代エジプトはナイル川に大きく依存していた。毎年、川があふれて周囲の平野を水浸しにし、水が引いたあとには、肥沃な土壌が残った。これにより古代エジプト人は作物を育てることができたので、洪水の規模はその年の収穫に大きな影響を与えた。洪水が小さすぎれば、土で覆われる範囲が限られ、収穫は少なくなった。逆に洪水が大きすぎれば、作物が全滅する可能性もあった。\n毎年の洪水の規模を予測するために、古代エジプト人はナイロメーターと呼ばれる大きな石の構造物を建て、川の水位を測定した。実際には、これらの構造物には別の目的もあったと歴史家たちは今では考えている。古代エジプト政府は物品に課税しており、その税率は毎年決められていた。もしナイロメーターの測定が豊作を示していれば、税率は高めに設定されたのである。"
         },
         {
           "id": "q21",
@@ -369,17 +369,17 @@
           "passageLabel": "Passage E",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/27_question_E.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/28_No21.mp3",
-          "prompt": "TODO",
+          "prompt": "What is one thing the UK study showed?",
           "choices": [
             { "label": "1", "text": "Hospitals lack expertise regarding brain conditions." },
             { "label": "2", "text": "Brain conditions are difficult to treat." },
             { "label": "3", "text": "Brain conditions make people more sensitive to heat." },
             { "label": "4", "text": "Past research on brain conditions was incorrect." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第1段最終文で「脳に病気があると、…高温の影響を受けやすくなる」と述べられているので、3「脳に病気があると、高温に敏感になる」が正解である。放送のvulnerableが選択肢ではsensitiveに言い換えられている。1・2・4については言及されていないので、誤りである。",
+          "script": "Climate and the Brain\nScientists have long known that climatic conditions affect physical health, but a UK study suggests they also influence the brain. By analyzing past research, the study's authors found that heat waves caused a rise in hospital visits due to brain conditions. According to the study's leader, the brain only functions properly within a certain temperature range, so it usually regulates its own temperature. However, brain conditions can prevent this from happening, making sufferers of such conditions more vulnerable to the effects of high temperatures.\nIn fact, the study showed that healthy people were also affected by climatic conditions. Extreme weather events such as storms disrupt people's lives and create stress, which can have a negative effect on brain function over time. One of the study's authors warned that this meant the number of people suffering from brain conditions would likely increase because global warming is making extreme weather events more common.",
+          "scriptJa": "気候と脳\n科学者たちは、気候条件が身体の健康に影響を与えることを長い間知っていたが、イギリスの研究は、脳にも影響を与える可能性があることを示唆している。過去の研究を分析したところ、研究の著者たちは、熱波によって脳の病気で病院を訪れる人が増加することを発見した。研究の責任者によれば、脳は一定の温度の範囲内でのみ正常に機能するため、通常は自らの温度を調節する。しかし、脳に病気があると、この調節が妨げられ、そのような症状を持つ人は高温の影響を受けやすくなる。\n実際、研究では健康な人も気候条件の影響を受けることが示された。嵐のような極端な天候は人々の生活を乱し、ストレスを生み、それが長期的に脳機能に悪影響を及ぼす可能性がある。研究の著者の一人は、地球温暖化によって異常気象が増えているため、脳の病気で苦しむ人の数は今後増加する可能性があると警告している。"
         },
         {
           "id": "q22",
@@ -387,17 +387,17 @@
           "passageLabel": "Passage E",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/27_question_E.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/29_No22.mp3",
-          "prompt": "TODO",
+          "prompt": "What does one of the study's authors believe will happen?",
           "choices": [
             { "label": "1", "text": "The effects of global warming will be reduced." },
             { "label": "2", "text": "New kinds of brain conditions will appear." },
             { "label": "3", "text": "People will adapt to extreme weather events." },
             { "label": "4", "text": "More people will suffer from brain conditions." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "4",
+          "explanation": "第2段最終文で「脳の病気で苦しむ人の数は今後増加する可能性がある」と述べられているので、4「脳の病気で苦しむ人が増えるだろう」が正解である。1の地球温暖化に関しては、第2段最終文に地球温暖化によって異常気象が増えていると述べられていることから、その影響が軽減されるとは考えられないので誤りである。2に関して、脳の病気の種類については言及されていないので、誤りである。3については、第2段第2文より、嵐のような異常気象が人々の生活を乱し、健康に悪影響を与えることがわかるので、誤りである。",
+          "script": "Climate and the Brain\nScientists have long known that climatic conditions affect physical health, but a UK study suggests they also influence the brain. By analyzing past research, the study's authors found that heat waves caused a rise in hospital visits due to brain conditions. According to the study's leader, the brain only functions properly within a certain temperature range, so it usually regulates its own temperature. However, brain conditions can prevent this from happening, making sufferers of such conditions more vulnerable to the effects of high temperatures.\nIn fact, the study showed that healthy people were also affected by climatic conditions. Extreme weather events such as storms disrupt people's lives and create stress, which can have a negative effect on brain function over time. One of the study's authors warned that this meant the number of people suffering from brain conditions would likely increase because global warming is making extreme weather events more common.",
+          "scriptJa": "気候と脳\n科学者たちは、気候条件が身体の健康に影響を与えることを長い間知っていたが、イギリスの研究は、脳にも影響を与える可能性があることを示唆している。過去の研究を分析したところ、研究の著者たちは、熱波によって脳の病気で病院を訪れる人が増加することを発見した。研究の責任者によれば、脳は一定の温度の範囲内でのみ正常に機能するため、通常は自らの温度を調節する。しかし、脳に病気があると、この調節が妨げられ、そのような症状を持つ人は高温の影響を受けやすくなる。\n実際、研究では健康な人も気候条件の影響を受けることが示された。嵐のような極端な天候は人々の生活を乱し、ストレスを生み、それが長期的に脳機能に悪影響を及ぼす可能性がある。研究の著者の一人は、地球温暖化によって異常気象が増えているため、脳の病気で苦しむ人の数は今後増加する可能性があると警告している。"
         },
         {
           "id": "q23",
@@ -405,17 +405,17 @@
           "passageLabel": "Passage F",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/30_question_F.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/31_No23.mp3",
-          "prompt": "TODO",
+          "prompt": "What is true about \"third places\"?",
           "choices": [
             { "label": "1", "text": "They are usually located within the workplace." },
             { "label": "2", "text": "Financial cost does not prevent people from entering." },
             { "label": "3", "text": "Creative people benefit from them the most." },
             { "label": "4", "text": "They can make work-life balance harder to achieve." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "2",
+          "explanation": "第1段最終文で「入るのに費用が妨げにならないこと」と述べられているので、正解は2「費用を気にせず入れる」である。放送のbe a barrier toが選択肢ではpreventに言い換えられている。1について、第1段第1文の後半でサードプレイスについて「自宅や職場とは別の空間のこと」と定義されているので、誤りである。3に関して、第2段第1文で、サードプレイスが恩恵をもたらすのはとりわけ職場のリーダーだと述べられているので誤りである。4について、第1段第2文より、サードプレイスによって健全なワークライフバランスを得ることができるとわかるので、不適切である。",
+          "script": "Third Places and Leadership\nIn the late twentieth century, the sociologist Ray Oldenburg proposed the idea of the \"third place\"—a space separate from home and the workplace, such as a park or café, where people can relax and socialize. These spaces can help individuals release stress, stimulate creativity, and achieve a healthier work-life balance. While third places can vary widely, Oldenburg noted some essential characteristics. For example, cost should not be a barrier to entering, and people should be free to come and go as they wish.\nThird places can be especially beneficial for workplace leaders. For such people, balancing life and work can be particularly challenging, especially since remote working has blurred the lines between work and homelife. Socializing in third places can help leaders gain new perspectives and bring renewed energy to work. This can enhance leadership effectiveness and also help create a workplace culture that benefits employees' well-being.",
+          "scriptJa": "サードプレイスとリーダーシップ\n20世紀後半に社会学者レイ・オルデンバーグは「サードプレイス」という考えを提唱した。これは自宅や職場とは別の空間のことで、公園やカフェのように、人々がくつろいだり交流したりできる場所を指す。こうした空間は、人々がストレスを解消し、創造性を刺激し、より健全なワークライフバランスを達成するのに役立つ可能性がある。サードプレイスには多様な形があり得るが、オルデンバーグはいくつかの重要な特徴を挙げている。例えば、入るのに費用が妨げにならないこと、そして人々が自由に出入りできることである。\nサードプレイスは、職場のリーダーにとって、とりわけ有益になり得る。そのような人にとって、仕事と生活の両立は特に困難であるが、それはとりわけ在宅勤務によって仕事と家庭生活の境界があいまいになっているためである。サードプレイスでの交流は、リーダーに新たな視点をもたらし、仕事に新しい活力を注ぐ助けとなり得る。これによりリーダーシップの効果が高まり、従業員の幸福に資する職場文化をつくることもできる。"
         },
         {
           "id": "q24",
@@ -423,17 +423,17 @@
           "passageLabel": "Passage F",
           "passageAudio": "audio/eiken/eiken-pre1-2025-1/30_question_F.mp3",
           "audio": "audio/eiken/eiken-pre1-2025-1/32_No24.mp3",
-          "prompt": "TODO",
+          "prompt": "According to the speaker, what can happen when leaders visit third places?",
           "choices": [
             { "label": "1", "text": "They may be inspired to change careers." },
             { "label": "2", "text": "Remote work could become more difficult to manage." },
             { "label": "3", "text": "Their work environment can become healthier." },
             { "label": "4", "text": "They could benefit from increased formal training." }
           ],
-          "answer": "TODO",
-          "explanation": "TODO",
-          "script": "TODO",
-          "scriptJa": "TODO"
+          "answer": "3",
+          "explanation": "第2段最終文で「サードプレイスを利用することで、リーダーシップの効果が高まり、従業員の幸福に資する職場文化をつくることもできる」と述べられているので、3「職場環境がより健全になるだろう」が正解である。1・2・4を示唆する内容は述べられていないので、不適切である。",
+          "script": "Third Places and Leadership\nIn the late twentieth century, the sociologist Ray Oldenburg proposed the idea of the \"third place\"—a space separate from home and the workplace, such as a park or café, where people can relax and socialize. These spaces can help individuals release stress, stimulate creativity, and achieve a healthier work-life balance. While third places can vary widely, Oldenburg noted some essential characteristics. For example, cost should not be a barrier to entering, and people should be free to come and go as they wish.\nThird places can be especially beneficial for workplace leaders. For such people, balancing life and work can be particularly challenging, especially since remote working has blurred the lines between work and homelife. Socializing in third places can help leaders gain new perspectives and bring renewed energy to work. This can enhance leadership effectiveness and also help create a workplace culture that benefits employees' well-being.",
+          "scriptJa": "サードプレイスとリーダーシップ\n20世紀後半に社会学者レイ・オルデンバーグは「サードプレイス」という考えを提唱した。これは自宅や職場とは別の空間のことで、公園やカフェのように、人々がくつろいだり交流したりできる場所を指す。こうした空間は、人々がストレスを解消し、創造性を刺激し、より健全なワークライフバランスを達成するのに役立つ可能性がある。サードプレイスには多様な形があり得るが、オルデンバーグはいくつかの重要な特徴を挙げている。例えば、入るのに費用が妨げにならないこと、そして人々が自由に出入りできることである。\nサードプレイスは、職場のリーダーにとって、とりわけ有益になり得る。そのような人にとって、仕事と生活の両立は特に困難であるが、それはとりわけ在宅勤務によって仕事と家庭生活の境界があいまいになっているためである。サードプレイスでの交流は、リーダーに新たな視点をもたらし、仕事に新しい活力を注ぐ助けとなり得る。これによりリーダーシップの効果が高まり、従業員の幸福に資する職場文化をつくることもできる。"
         }
       ]
     },
