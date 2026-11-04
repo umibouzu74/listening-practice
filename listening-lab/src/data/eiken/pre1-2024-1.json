@@ -450,7 +450,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "What should you do last?",
-          "promptJa": "あなたたち一家は今日客を迎えることになっている。あなたは今日の早い時間に青いタオルを使用し、今は汚れている。母親があなたに次のように言う。",
+          "situationJa": "あなたたち一家は今日客を迎えることになっている。あなたは今日の早い時間に青いタオルを使用し、今は汚れている。母親があなたに次のように言う。",
           "choices": [
             { "label": "1", "text": "Make the bed with clean bedding." },
             { "label": "2", "text": "Start the washing machine." },
@@ -468,7 +468,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "What should you do next?",
-          "promptJa": "あなたは初めてテレビゲームをすることになっている。あなたの友人が教えてくれると言っている。あなたはもうすでにログインしている。友人があなたに次のように言う。",
+          "situationJa": "あなたは初めてテレビゲームをすることになっている。あなたの友人が教えてくれると言っている。あなたはもうすでにログインしている。友人があなたに次のように言う。",
           "choices": [
             { "label": "1", "text": "Create a user profile." },
             { "label": "2", "text": "Choose the number of players." },
@@ -486,7 +486,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "How should you get to the hotel?",
-          "promptJa": "あなたは旅行中で、空港からリーガルホテルへ行く必要がある。あなたは歩く距離が最短のルートを選びたい。インフォメーションカウンターの従業員があなたに次のように言う。",
+          "situationJa": "あなたは旅行中で、空港からリーガルホテルへ行く必要がある。あなたは歩く距離が最短のルートを選びたい。インフォメーションカウンターの従業員があなたに次のように言う。",
           "choices": [
             { "label": "1", "text": "Take the Silver Arrow." },
             { "label": "2", "text": "Take the Metro South Line." },
@@ -504,7 +504,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "Which item should you buy?",
-          "promptJa": "あなたは新しいコンピューターを買いにきている。小さくて軽いラップトップが欲しいが、タブレットには興味がない。あなたは次の放送を聞く。",
+          "situationJa": "あなたは新しいコンピューターを買いにきている。小さくて軽いラップトップが欲しいが、タブレットには興味がない。あなたは次の放送を聞く。",
           "choices": [
             { "label": "1", "text": "The Lightning 500." },
             { "label": "2", "text": "The Slick Assistant." },
@@ -522,7 +522,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-1/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "Which site should you choose?",
-          "promptJa": "あなたの会社は顧客向けに社交行事を開催する。あなたはその会場を選ばなければならない。客は300人で、屋外が望ましい。イベントプランナーがあなたに次のように言う。",
+          "situationJa": "あなたの会社は顧客向けに社交行事を開催する。あなたはその会場を選ばなければならない。客は300人で、屋外が望ましい。イベントプランナーがあなたに次のように言う。",
           "choices": [
             { "label": "1", "text": "Wingra Hills." },
             { "label": "2", "text": "Charlevoix Manor." },

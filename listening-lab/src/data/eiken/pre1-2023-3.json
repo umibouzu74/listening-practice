@@ -450,7 +450,7 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "What should your son do first on Friday morning?",
-          "promptJa": "あなたの息子は4年生で、金曜日に学校から旅行に行く。担任の先生はクレイン先生である。保護者会で校長が以下のことを話す。",
+          "situationJa": "あなたの息子は4年生で、金曜日に学校から旅行に行く。担任の先生はクレイン先生である。保護者会で校長が以下のことを話す。",
           "choices": [
             { "label": "1", "text": "Get on Bus 1." },
             { "label": "2", "text": "Get on Bus 2." },
@@ -468,7 +468,7 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "Whose lecture should you attend?",
-          "promptJa": "あなたは教育に関する会議に参加している。あなたは試験と課題の採点についてもっと学びたいと考えている。あなたは次のアナウンスを聞く。",
+          "situationJa": "あなたは教育に関する会議に参加している。あなたは試験と課題の採点についてもっと学びたいと考えている。あなたは次のアナウンスを聞く。",
           "choices": [
             { "label": "1", "text": "Manal Abad's." },
             { "label": "2", "text": "Yukari Hatayama's." },
@@ -486,7 +486,7 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "What should you do?",
-          "promptJa": "あなたが乗っている列車が駅間で停車しており、次のアナウンスを聞く。あなたは11時にピックフォードで重要な会議がある。",
+          "situationJa": "あなたが乗っている列車が駅間で停車しており、次のアナウンスを聞く。あなたは11時にピックフォードで重要な会議がある。",
           "choices": [
             { "label": "1", "text": "Take a bus from the next stop." },
             { "label": "2", "text": "Take a bus from Filburn." },
@@ -504,7 +504,7 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "Which dentist should you see?",
-          "promptJa": "今日は月曜日である。あなたは地元の歯科医院に定期検診の予約をしようと電話をかけている。あなたは平日の午前10時から午後4時まで仕事をしている。受付係が次のように言う。",
+          "situationJa": "今日は月曜日である。あなたは地元の歯科医院に定期検診の予約をしようと電話をかけている。あなたは平日の午前10時から午後4時まで仕事をしている。受付係が次のように言う。",
           "choices": [
             { "label": "1", "text": "Dr. James." },
             { "label": "2", "text": "Dr. Manganiello." },
@@ -522,7 +522,7 @@
           "audio": "audio/eiken/eiken-pre1-2023-3/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "Where should you spend the night?",
-          "promptJa": "あなたは幼い子どもたちと一緒に2日間車で旅行するため、一晩泊まるためのホテルを予約する必要がある。友人が次のように話す。",
+          "situationJa": "あなたは幼い子どもたちと一緒に2日間車で旅行するため、一晩泊まるためのホテルを予約する必要がある。友人が次のように話す。",
           "choices": [
             { "label": "1", "text": "The Waverton Inn." },
             { "label": "2", "text": "The Ridge Motel." },

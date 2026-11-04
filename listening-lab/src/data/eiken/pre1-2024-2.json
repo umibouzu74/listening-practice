@@ -450,7 +450,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "Where should you go?",
-          "promptJa": "あなたはクルーズ船で休暇を過ごしている。時刻は午前9時30分。朝のヨガクラスに行くために準備をしている。次のような船長からのアナウンスを聞く。",
+          "situationJa": "あなたはクルーズ船で休暇を過ごしている。時刻は午前9時30分。朝のヨガクラスに行くために準備をしている。次のような船長からのアナウンスを聞く。",
           "choices": [
             { "label": "1", "text": "The studio." },
             { "label": "2", "text": "The Sun Deck." },
@@ -468,7 +468,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "Which road should you take?",
-          "promptJa": "あなたは市内北部にあるホテルに滞在しており、出来るだけ早く空港に到着する必要がある。ラジオで次のような交通情報を聞く。",
+          "situationJa": "あなたは市内北部にあるホテルに滞在しており、出来るだけ早く空港に到着する必要がある。ラジオで次のような交通情報を聞く。",
           "choices": [
             { "label": "1", "text": "Haliburton Road." },
             { "label": "2", "text": "Appleton Boulevard." },
@@ -486,7 +486,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "What should you change?",
-          "promptJa": "あなたの会社はハンドクリームを製造していて、商品のパッケージにもっと高級感をもたせたいと思っている。コンサルタントが製品のパッケージを分析した後、あなたに報告をしている。",
+          "situationJa": "あなたの会社はハンドクリームを製造していて、商品のパッケージにもっと高級感をもたせたいと思っている。コンサルタントが製品のパッケージを分析した後、あなたに報告をしている。",
           "choices": [
             { "label": "1", "text": "The font used for the name." },
             { "label": "2", "text": "The color of the box." },
@@ -504,7 +504,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "What should you do?",
-          "promptJa": "あなたは最近パスポートを申請し、パスポート申請窓口から追加情報を求める手紙を受け取った。窓口に電話して、次のような自動メッセージを聞く。",
+          "situationJa": "あなたは最近パスポートを申請し、パスポート申請窓口から追加情報を求める手紙を受け取った。窓口に電話して、次のような自動メッセージを聞く。",
           "choices": [
             { "label": "1", "text": "Press 1." },
             { "label": "2", "text": "Press 2." },
@@ -522,7 +522,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "Which drill should you purchase?",
-          "promptJa": "あなたは建築業者で、高品質の電動ドリルが必要である。予算は300ドル。工具店を訪れ、店員と話をする。あなたは会員ではない。",
+          "situationJa": "あなたは建築業者で、高品質の電動ドリルが必要である。予算は300ドル。工具店を訪れ、店員と話をする。あなたは会員ではない。",
           "choices": [
             { "label": "1", "text": "The Omni-Power drill." },
             { "label": "2", "text": "The Drill Legend drill." },
