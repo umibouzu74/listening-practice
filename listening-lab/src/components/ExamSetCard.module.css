@@ -54,3 +54,56 @@
 .arrow {
   color: var(--color-text-muted);
 }
+
+.footer .stat {
+  flex: 1;
+}
+
+.arrow {
+  display: inline-flex;
+  margin-left: 8px;
+}
+
+.progress {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-family: var(--font-mono);
+  color: var(--color-text-muted);
+}
+
+.progressTrack {
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.progressFill {
+  display: block;
+  height: 100%;
+  background: var(--card-accent);
+}
+
+.draft {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.draft:active {
+  border-color: var(--color-border);
+  background: var(--color-bg-card);
+}
+
+.draftBadge {
+  margin-left: 8px;
+  padding: 1px 6px;
+  border: 1px solid var(--color-border-hover);
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  vertical-align: middle;
+}

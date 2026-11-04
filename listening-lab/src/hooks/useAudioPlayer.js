@@ -1,228 +1,239 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
+import { loadSpeed, saveSpeed, claimPlayback, releasePlayback } from '../utils/audio';
 
-const SPEED_KEY = 'listening-lab-speed';
-const VOLUME_KEY = 'listening-lab-volume';
-
-function getSavedSpeed() {
-  try {
-    const v = parseFloat(localStorage.getItem(SPEED_KEY));
-    return v && isFinite(v) ? v : 1.0;
-  } catch {
-    return 1.0;
-  }
+function normalize(sources) {
+  if (!sources) return [];
+  return (Array.isArray(sources) ? sources : [sources]).filter(Boolean);
 }
 
-function getSavedVolume() {
-  try {
-    const v = parseFloat(localStorage.getItem(VOLUME_KEY));
-    return v >= 0 && v <= 1 ? v : 1.0;
-  } catch {
-    return 1.0;
-  }
+function durationOf(audio) {
+  return audio && isFinite(audio.duration) ? audio.duration : 0;
 }
 
-export default function useAudioPlayer(src) {
-  const audioRef = useRef(null);
+/**
+ * 1つ以上の音声ファイルを「1本のトラック」として連続再生するフック。
+ * 例: [本文, Q13, Q14] を渡すと、本文 → Q13 → Q14 と自動でつながり、
+ *     シークバーも3つを合算した長さで扱える。単一ファイルなら文字列でOK。
+ *
+ * isPlaying は audio 要素の play / pause イベントから同期するので、
+ * OS のメディア操作や他プレイヤーによる停止とも表示がずれない。
+ */
+export default function useAudioPlayer(sources) {
+  const list = normalize(sources);
+  const key = list.join('|');
+
+  const audiosRef = useRef([]);
+  const activeRef = useRef(0);
+  const loopRef = useRef(false);
+  const rateRef = useRef(null);
+
+  const [trackKey, setTrackKey] = useState(key);
+  const [durations, setDurations] = useState(() => list.map(() => 0));
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeTime, setActiveTime] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
-  const [currentTime, setCurrentTime] = useState(0);
-  const [duration, setDuration] = useState(0);
-  const [playbackRate, setPlaybackRate] = useState(getSavedSpeed);
-  const [volume, setVolumeState] = useState(getSavedVolume);
-  const [isLoaded, setIsLoaded] = useState(false);
   const [error, setError] = useState(null);
-
-  // Loop (repeat) state
   const [isLooping, setIsLooping] = useState(false);
+  const [playbackRate, setPlaybackRate] = useState(loadSpeed);
 
-  // Seeking state — use ref for synchronous access in timeupdate handler
-  const isSeekingRef = useRef(false);
-  const setIsSeeking = useCallback((v) => { isSeekingRef.current = v; }, []);
-
-  // RAF throttle for timeupdate
-  const rafRef = useRef(null);
-
-  const progress = duration > 0 ? (currentTime / duration) * 100 : 0;
-
-  // Create / recreate Audio when src changes
-  useEffect(() => {
+  // 音源が変わったら表示用の状態をリセット（レンダー中に調整するパターン）
+  if (trackKey !== key) {
+    setTrackKey(key);
+    setDurations(list.map(() => 0));
+    setActiveIndex(0);
+    setActiveTime(0);
     setIsPlaying(false);
-    setCurrentTime(0);
-    setDuration(0);
-    setIsLoaded(false);
     setError(null);
-    setIsLooping(false);
+  }
 
-    if (!src) {
-      audioRef.current = null;
-      return;
-    }
-
-    const audio = new Audio(src);
-    audio.playbackRate = playbackRate;
-    audio.volume = volume;
-    audioRef.current = audio;
-
-    const onLoadedMetadata = () => {
-      setDuration(audio.duration);
-      setIsLoaded(true);
-    };
-
-    const onTimeUpdate = () => {
-      if (isSeekingRef.current) return;
-      if (rafRef.current) return;
-      rafRef.current = requestAnimationFrame(() => {
-        rafRef.current = null;
-        if (!isSeekingRef.current) {
-          setCurrentTime(audio.currentTime);
-        }
-      });
-    };
-
-    const onEnded = () => {
-      setIsPlaying(false);
-    };
-
-    const onError = () => {
-      setError('音声ファイルの読み込みに失敗しました');
-      setIsPlaying(false);
-      setIsLoaded(false);
-    };
-
-    audio.addEventListener('loadedmetadata', onLoadedMetadata);
-    audio.addEventListener('timeupdate', onTimeUpdate);
-    audio.addEventListener('ended', onEnded);
-    audio.addEventListener('error', onError);
-
-    return () => {
-      audio.removeEventListener('loadedmetadata', onLoadedMetadata);
-      audio.removeEventListener('timeupdate', onTimeUpdate);
-      audio.removeEventListener('ended', onEnded);
-      audio.removeEventListener('error', onError);
-      if (rafRef.current) {
-        cancelAnimationFrame(rafRef.current);
-        rafRef.current = null;
-      }
-      audio.pause();
-      audio.src = '';
-      audioRef.current = null;
-    };
-    // playbackRate, volume intentionally excluded — synced separately
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [src]);
-
-  // Loop: replay from start when audio ends
-  useEffect(() => {
-    const audio = audioRef.current;
-    if (!audio || !isLooping) return;
-
-    const onEnded = () => {
-      audio.currentTime = 0;
-      audio.play().catch(() => {});
-    };
-
-    audio.addEventListener('ended', onEnded);
-    return () => audio.removeEventListener('ended', onEnded);
-  }, [isLooping]);
-
-  const play = useCallback(() => {
-    const audio = audioRef.current;
-    if (!audio) return;
-    audio.play().then(() => {
-      setIsPlaying(true);
-    }).catch(() => {
-      setError('再生できませんでした');
+  const safePlay = useCallback((audio) => {
+    audio.play().catch((err) => {
+      // pause() による中断（AbortError）は正常系なので無視
+      if (err?.name !== 'AbortError') setIsPlaying(false);
     });
   }, []);
 
+  const goTo = useCallback((index, time, autoplay) => {
+    const audios = audiosRef.current;
+    const target = audios[index];
+    if (!target) return;
+    audios.forEach((a, i) => {
+      if (i !== index && !a.paused) a.pause();
+    });
+    activeRef.current = index;
+    setActiveIndex(index);
+    try {
+      target.currentTime = time;
+    } catch {
+      // メタデータ未読込の場合は位置指定できないので先頭から
+    }
+    setActiveTime(time);
+    if (autoplay) safePlay(target);
+  }, [safePlay]);
+
+  // audio 要素の生成と破棄
+  useEffect(() => {
+    const srcs = key ? key.split('|') : [];
+    if (rateRef.current === null) rateRef.current = loadSpeed();
+    activeRef.current = 0;
+
+    const audios = srcs.map((src) => {
+      const a = new Audio();
+      a.preload = 'metadata';
+      a.src = src;
+      a.defaultPlaybackRate = rateRef.current;
+      a.playbackRate = rateRef.current;
+      return a;
+    });
+    audiosRef.current = audios;
+
+    const owner = { pause: () => audios.forEach((a) => a.pause()) };
+    const last = audios.length - 1;
+
+    const handlers = audios.map((audio, i) => {
+      const onDuration = () => {
+        setDurations((prev) => {
+          const next = prev.length === audios.length ? [...prev] : audios.map(() => 0);
+          next[i] = durationOf(audio);
+          return next;
+        });
+      };
+      const onTimeUpdate = () => {
+        if (activeRef.current === i) setActiveTime(audio.currentTime);
+      };
+      const onPlay = () => {
+        claimPlayback(owner);
+        setIsPlaying(true);
+      };
+      const onPause = () => {
+        // トラック末尾での pause は、次トラックへの連結・ループ時は無視
+        if (audio.ended && (i < last || loopRef.current)) return;
+        if (activeRef.current === i) setIsPlaying(false);
+      };
+      const onEnded = () => {
+        if (i < last) goTo(i + 1, 0, true);
+        else if (loopRef.current) goTo(0, 0, true);
+        else setIsPlaying(false);
+      };
+      const onError = () => {
+        setError('音声ファイルを読み込めませんでした');
+        setIsPlaying(false);
+      };
+
+      const map = {
+        loadedmetadata: onDuration,
+        durationchange: onDuration,
+        timeupdate: onTimeUpdate,
+        play: onPlay,
+        pause: onPause,
+        ended: onEnded,
+        error: onError,
+      };
+      for (const [type, fn] of Object.entries(map)) audio.addEventListener(type, fn);
+      return map;
+    });
+
+    return () => {
+      audios.forEach((audio, i) => {
+        for (const [type, fn] of Object.entries(handlers[i])) audio.removeEventListener(type, fn);
+        audio.pause();
+        audio.removeAttribute('src');
+        audio.load(); // ダウンロードを中断
+      });
+      releasePlayback(owner);
+      audiosRef.current = [];
+    };
+  }, [key, goTo]);
+
+  const currentCombinedTime = useCallback(() => {
+    const audios = audiosRef.current;
+    const idx = activeRef.current;
+    let t = 0;
+    for (let i = 0; i < idx; i++) t += durationOf(audios[i]);
+    return t + (audios[idx]?.currentTime || 0);
+  }, []);
+
+  const play = useCallback(() => {
+    const audios = audiosRef.current;
+    const active = audios[activeRef.current];
+    if (!active) return;
+    // 最後まで再生し終わっていたら頭から
+    if (active.ended && activeRef.current === audios.length - 1) goTo(0, 0, true);
+    else safePlay(active);
+  }, [goTo, safePlay]);
+
   const pause = useCallback(() => {
-    const audio = audioRef.current;
-    if (!audio) return;
-    audio.pause();
-    setIsPlaying(false);
+    audiosRef.current[activeRef.current]?.pause();
   }, []);
 
   const toggle = useCallback(() => {
-    const audio = audioRef.current;
-    if (!audio) return;
-    if (audio.paused) {
-      audio.play().then(() => setIsPlaying(true)).catch(() => {
-        setError('再生できませんでした');
-      });
-    } else {
-      audio.pause();
-      setIsPlaying(false);
-    }
-  }, []);
+    const active = audiosRef.current[activeRef.current];
+    if (!active) return;
+    if (active.paused) play();
+    else pause();
+  }, [play, pause]);
 
+  /** 連結トラック全体での秒数を指定してシーク */
   const seek = useCallback((time) => {
-    const audio = audioRef.current;
-    if (!audio || !isFinite(time)) return;
-    const clamped = Math.max(0, Math.min(time, audio.duration || 0));
-    audio.currentTime = clamped;
-    setCurrentTime(clamped);
-  }, []);
+    const audios = audiosRef.current;
+    if (audios.length === 0 || !isFinite(time)) return;
+    const ds = audios.map(durationOf);
+    const total = ds.reduce((s, d) => s + d, 0);
+    let t = Math.max(0, Math.min(time, total));
+    let idx = 0;
+    while (idx < audios.length - 1 && t >= ds[idx]) {
+      t -= ds[idx];
+      idx++;
+    }
+    t = Math.min(t, ds[idx]);
+    const wasPlaying = !(audios[activeRef.current]?.paused ?? true);
+    goTo(idx, t, wasPlaying);
+  }, [goTo]);
 
-  const seekByPercent = useCallback((percent) => {
-    const audio = audioRef.current;
-    if (!audio || !audio.duration) return;
-    const clamped = Math.max(0, Math.min(percent, 100));
-    const time = (clamped / 100) * audio.duration;
-    audio.currentTime = time;
-    setCurrentTime(time);
-  }, []);
+  const skip = useCallback((delta) => {
+    seek(currentCombinedTime() + delta);
+  }, [seek, currentCombinedTime]);
 
   const setSpeed = useCallback((rate) => {
+    rateRef.current = rate;
     setPlaybackRate(rate);
-    const audio = audioRef.current;
-    if (audio) {
-      audio.playbackRate = rate;
-    }
-    try { localStorage.setItem(SPEED_KEY, String(rate)); } catch {}
-  }, []);
-
-  const setVolume = useCallback((val) => {
-    const v = Math.max(0, Math.min(1, val));
-    setVolumeState(v);
-    const audio = audioRef.current;
-    if (audio) {
-      audio.volume = v;
-    }
-    try { localStorage.setItem(VOLUME_KEY, String(v)); } catch {}
+    audiosRef.current.forEach((a) => {
+      a.defaultPlaybackRate = rate;
+      a.playbackRate = rate;
+    });
+    saveSpeed(rate);
   }, []);
 
   const reset = useCallback(() => {
-    const audio = audioRef.current;
-    if (!audio) return;
-    audio.pause();
-    audio.currentTime = 0;
+    audiosRef.current.forEach((a) => a.pause());
+    goTo(0, 0, false);
     setIsPlaying(false);
-    setCurrentTime(0);
+  }, [goTo]);
+
+  const toggleLoop = useCallback(() => {
+    loopRef.current = !loopRef.current;
+    setIsLooping(loopRef.current);
   }, []);
 
-  // Loop toggle
-  const toggleLoop = useCallback(() => {
-    setIsLooping((prev) => !prev);
-  }, []);
+  const offset = durations.slice(0, activeIndex).reduce((s, d) => s + d, 0);
+  const duration = durations.reduce((s, d) => s + d, 0);
 
   return {
+    hasSource: list.length > 0,
     isPlaying,
-    currentTime,
+    currentTime: offset + activeTime,
     duration,
-    progress,
+    durations,
+    activeIndex,
     playbackRate,
-    volume,
-    isLoaded,
-    error,
-    isSeeking: isSeekingRef.current,
-    setIsSeeking,
     isLooping,
+    error,
     play,
     pause,
     toggle,
     seek,
-    seekByPercent,
+    skip,
     setSpeed,
-    setVolume,
     reset,
     toggleLoop,
   };

@@ -1,9 +1,7 @@
 import styles from './ExamTypeCard.module.css';
 
 export default function ExamTypeCard({ examType, count, onClick }) {
-  const isComingSoon = examType.comingSoon;
-  const isEmpty = !isComingSoon && count === 0;
-  const isDisabled = isComingSoon || isEmpty;
+  const isDisabled = count === 0;
 
   return (
     <button
@@ -20,9 +18,7 @@ export default function ExamTypeCard({ examType, count, onClick }) {
         <span className={styles.description}>{examType.description}</span>
       </div>
       <div className={styles.meta}>
-        {isComingSoon ? (
-          <span className={styles.preparing}>準備中</span>
-        ) : isEmpty ? (
+        {isDisabled ? (
           <span className={styles.preparing}>準備中</span>
         ) : (
           <>

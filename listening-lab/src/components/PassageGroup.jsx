@@ -1,14 +1,11 @@
-import { useMemo } from 'react';
-import PassageQuestionPlayer from './PassageQuestionPlayer';
 import MiniAudioPlayer from './MiniAudioPlayer';
 import QuestionCard from './QuestionCard';
 import styles from './PassageGroup.module.css';
 
 /**
- * Renders a passage group: one combined audio player (passage → Q1 → Q2 ...)
- * followed by individual question cards (without their own audio).
- *
- * After all questions in the group are checked, shows a "replay passage" player.
+ * 1つの本文に複数の設問がぶら下がるグループ（英検 Part 2 など）。
+ * 本文 → Q1 → Q2 … を1本で連続再生するプレイヤーの下に、音声なしの設問カードを並べる。
+ * グループ内の全問を答え合わせしたら、本文だけを聞き直すプレイヤーを出す。
  */
 export default function PassageGroup({
   passageAudio,
@@ -19,70 +16,51 @@ export default function PassageGroup({
   onAnswer,
   onCheck,
   accentColor,
-  questionRefs,
+  registerRef,
   showOnlyWrong,
 }) {
   const accent = accentColor || 'var(--color-accent)';
+  const label = passageLabel || '本文';
 
-  // Build questionAudios array for the chained player
-  const questionAudios = useMemo(() =>
-    questions.map((q) => ({
-      src: q.audio,
-      label: `Q${q.number}`,
-    })),
-    [questions]
-  );
-
-  // Check if all questions in this group are checked
+  const sources = [passageAudio, ...questions.map((q) => q.audio)];
+  const phaseLabels = [label, ...questions.map((q) => `Q${q.number}`)];
   const allGroupChecked = questions.every((q) => checkedQuestions.has(q.id));
+
+  const visible = questions.filter(
+    (q) => !(showOnlyWrong && checkedQuestions.has(q.id) && answers[q.id] === q.answer)
+  );
+  if (visible.length === 0) return null;
 
   return (
     <div className={styles.group}>
-      {/* Group header */}
       <div className={styles.groupHeader}>
         <span className={styles.groupLabel} style={{ borderColor: accent }}>
-          {passageLabel}
+          {label}
         </span>
         <span className={styles.groupCount}>
           {questions.map((q) => `Q${q.number}`).join(' / ')}
         </span>
       </div>
 
-      {/* Combined chained player: passage → Q1 → Q2 */}
-      <PassageQuestionPlayer
-        passageSrc={passageAudio}
-        questionAudios={questionAudios}
-        passageLabel={passageLabel}
-        accentColor={accent}
-      />
+      <MiniAudioPlayer sources={sources} phaseLabels={phaseLabels} accentColor={accent} />
 
-      {/* Individual question cards (without audio) */}
-      {questions.map((q) => {
-        const isChecked = checkedQuestions.has(q.id);
-        if (showOnlyWrong && isChecked && answers[q.id] === q.answer) return null;
-        return (
-          <div key={q.id} ref={(el) => { if (questionRefs) questionRefs.current[q.id] = el; }}>
-            <QuestionCard
-              question={q}
-              userAnswer={answers[q.id] || null}
-              showResult={isChecked}
-              onAnswer={(choice) => onAnswer(q.id, choice)}
-              onCheck={() => onCheck(q.id)}
-              accentColor={accent}
-              hideAudio
-            />
-          </div>
-        );
-      })}
+      {visible.map((q) => (
+        <div key={q.id} ref={(el) => registerRef?.(q.id, el)}>
+          <QuestionCard
+            question={q}
+            userAnswer={answers[q.id] || null}
+            showResult={checkedQuestions.has(q.id)}
+            onAnswer={(choice) => onAnswer(q.id, choice)}
+            onCheck={() => onCheck(q.id)}
+            accentColor={accent}
+            hideAudio
+          />
+        </div>
+      ))}
 
-      {/* Replay passage only (after all group questions checked) */}
       {allGroupChecked && (
         <div className={styles.replaySection}>
-          <MiniAudioPlayer
-            src={passageAudio}
-            label={`${passageLabel || '本文'}を聞き直す`}
-            accentColor={accent}
-          />
+          <MiniAudioPlayer src={passageAudio} label={`${label}だけ聞き直す`} accentColor={accent} />
         </div>
       )}
     </div>

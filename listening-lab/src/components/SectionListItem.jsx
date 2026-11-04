@@ -1,3 +1,4 @@
+import { ChevronIcon } from './AudioIcons';
 import styles from './SectionListItem.module.css';
 
 function relativeTime(isoString) {
@@ -10,68 +11,60 @@ function relativeTime(isoString) {
   if (hours < 24) return `${hours}時間前`;
   const days = Math.floor(hours / 24);
   if (days < 30) return `${days}日前`;
-  const months = Math.floor(days / 30);
-  return `${months}ヶ月前`;
+  return `${Math.floor(days / 30)}ヶ月前`;
 }
 
-export default function SectionListItem({ section, accentColor, onClick, history }) {
+export default function SectionListItem({ title, subtitle, questionCount, playCount, accentColor, onClick, history, onReviewWrong }) {
   const accent = accentColor || 'var(--color-accent)';
-  const questionCount = section.questions?.length || 0;
+  const wrongCount = history?.lastWrong?.length || 0;
 
   return (
-    <button
-      className={styles.item}
-      onClick={onClick}
-      style={{ '--item-accent': accent }}
-    >
-      <div className={styles.body}>
-        <span className={styles.title}>{section.title}</span>
-        {(section.subtitle || section.description) && (
-          <span className={styles.subtitle}>{section.subtitle || section.description}</span>
-        )}
-        <div className={styles.meta}>
-          <span className={styles.stat}>{questionCount}問</span>
-          {section.playCount && (
-            <>
-              <span className={styles.dot}>·</span>
-              <span className={styles.stat}>{section.playCount}</span>
-            </>
-          )}
-          {history && (
-            <>
-              <span className={styles.dot}>·</span>
-              <span className={styles.historyBadge}>
-                最高 {history.bestScore.correct}/{history.bestScore.total}
-              </span>
-              <span className={styles.dot}>·</span>
-              <span className={styles.attempts}>{history.attempts}回</span>
-              {history.lastAttempt && (
-                <>
-                  <span className={styles.dot}>·</span>
-                  <span className={styles.lastTime}>{relativeTime(history.lastAttempt)}</span>
-                </>
-              )}
-            </>
-          )}
+    <div className={styles.container} style={{ '--item-accent': accent }}>
+      <button className={styles.item} onClick={onClick}>
+        <div className={styles.body}>
+          <span className={styles.title}>{title}</span>
+          {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
+          <div className={styles.meta}>
+            <span className={styles.stat}>{questionCount}問</span>
+            {playCount && (
+              <>
+                <span className={styles.dot}>·</span>
+                <span className={styles.stat}>{playCount}</span>
+              </>
+            )}
+            {history && (
+              <>
+                <span className={styles.dot}>·</span>
+                <span className={styles.historyBadge}>
+                  最高 {history.bestScore.correct}/{history.bestScore.total}
+                </span>
+                <span className={styles.dot}>·</span>
+                <span className={styles.attempts}>{history.attempts}回</span>
+                {history.lastAttempt && (
+                  <>
+                    <span className={styles.dot}>·</span>
+                    <span className={styles.lastTime}>{relativeTime(history.lastAttempt)}</span>
+                  </>
+                )}
+              </>
+            )}
+          </div>
         </div>
-      </div>
-      {history && (
-        <span
-          className={styles.doneMark}
-          style={{ color: accent }}
-        >
-          済
+        {history && (
+          <span className={styles.doneMark} style={{ color: accent }}>
+            済
+          </span>
+        )}
+        <span className={styles.arrow}>
+          <ChevronIcon />
         </span>
+      </button>
+
+      {onReviewWrong && wrongCount > 0 && (
+        <button className={styles.reviewButton} onClick={onReviewWrong}>
+          前回間違えた {wrongCount}問を解き直す
+        </button>
       )}
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className={styles.arrow}>
-        <path
-          d="M6 4L10 8L6 12"
-          stroke="currentColor"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </button>
+    </div>
   );
 }
