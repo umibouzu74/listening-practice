@@ -9,8 +9,8 @@
  *   node scripts/excel-to-json.js path/to/template.xlsx --dry-run
  */
 
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
-import { resolve, dirname, join } from "path";
+import { writeFileSync, mkdirSync } from "fs";
+import { resolve, join } from "path";
 
 // --- Minimal XLSX parser (no npm dependency needed) ---
 // Uses the SheetJS-compatible approach of reading the xlsx as a zip
@@ -257,4 +257,4 @@ console.log(
 console.log(`   audioBase: ${audioBase}/`);
 console.log(`\n次のステップ:`);
 console.log(`  1. 音声ファイルを public/${audioBase}/ に配置`);
-console.log(`  2. node scripts/build-registry.js を実行して registry.js を更新`);
+console.log(`  2. npm run validate でデータと音声の整合性をチェック（JSON は自動で登録されます）`);
