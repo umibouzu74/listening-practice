@@ -32,6 +32,7 @@ export default function useAudioPlayer(sources) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [activeTime, setActiveTime] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isEnded, setIsEnded] = useState(false);
   const [error, setError] = useState(null);
   const [isLooping, setIsLooping] = useState(false);
   const [playbackRate, setPlaybackRate] = useState(loadSpeed);
@@ -43,6 +44,7 @@ export default function useAudioPlayer(sources) {
     setActiveIndex(0);
     setActiveTime(0);
     setIsPlaying(false);
+    setIsEnded(false);
     setError(null);
   }
 
@@ -104,6 +106,7 @@ export default function useAudioPlayer(sources) {
       const onPlay = () => {
         claimPlayback(owner);
         setIsPlaying(true);
+        setIsEnded(false);
       };
       const onPause = () => {
         // トラック末尾での pause は、次トラックへの連結・ループ時は無視
@@ -113,7 +116,10 @@ export default function useAudioPlayer(sources) {
       const onEnded = () => {
         if (i < last) goTo(i + 1, 0, true);
         else if (loopRef.current) goTo(0, 0, true);
-        else setIsPlaying(false);
+        else {
+          setIsPlaying(false);
+          setIsEnded(true);
+        }
       };
       const onError = () => {
         setError('音声ファイルを読み込めませんでした');
@@ -208,6 +214,7 @@ export default function useAudioPlayer(sources) {
     audiosRef.current.forEach((a) => a.pause());
     goTo(0, 0, false);
     setIsPlaying(false);
+    setIsEnded(false);
   }, [goTo]);
 
   const toggleLoop = useCallback(() => {
@@ -221,6 +228,8 @@ export default function useAudioPlayer(sources) {
   return {
     hasSource: list.length > 0,
     isPlaying,
+    /** 最後のトラックまで再生し終えたか */
+    isEnded,
     currentTime: offset + activeTime,
     duration,
     durations,

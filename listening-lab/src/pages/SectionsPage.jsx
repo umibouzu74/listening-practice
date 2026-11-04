@@ -2,14 +2,14 @@ import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import SectionListItem from '../components/SectionListItem';
 import { getExamColor } from '../utils/examConfig';
-import { getExamSet, isDraft, countQuestions } from '../data/registry';
+import { getExamSummary, isDraft, countQuestions } from '../data/registry';
 import { getRecord, recordKey } from '../utils/history';
 import styles from './SectionsPage.module.css';
 
 export default function SectionsPage() {
   const { examType, examId } = useParams();
   const navigate = useNavigate();
-  const examSet = getExamSet(examId);
+  const examSet = getExamSummary(examId);
   const accent = getExamColor(examType);
 
   if (!examSet || isDraft(examSet)) {
@@ -59,7 +59,7 @@ export default function SectionsPage() {
               key={section.id}
               title={section.title}
               subtitle={section.subtitle || section.description}
-              questionCount={section.questions?.length || 0}
+              questionCount={section.questionCount}
               playCount={section.playCount}
               accentColor={accent}
               history={sectionRecords[i]}
@@ -83,6 +83,16 @@ export default function SectionsPage() {
             />
           </>
         )}
+
+        <h3 className={styles.subheading}>本番形式で解く</h3>
+        <SectionListItem
+          title="本番モード"
+          subtitle="説明から最後の問題まで、音声が1回ずつ止まらずに流れます。最後にまとめて採点"
+          questionCount={countQuestions(examSet)}
+          playCount={meta.totalTime ? `約${meta.totalTime}分` : undefined}
+          accentColor={accent}
+          onClick={() => navigate(practicePath('all', 'exam'))}
+        />
       </div>
     </div>
   );

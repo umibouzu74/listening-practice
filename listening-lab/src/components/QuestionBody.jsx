@@ -41,6 +41,8 @@ export default function QuestionBody({
   onCheck,
   accentColor,
   large = false,
+  hidePrompt = false,
+  examMode = false,
 }) {
   const [showTranslation, setShowTranslation] = useState(false);
   const [showScript, setShowScript] = useState(false);
@@ -53,7 +55,9 @@ export default function QuestionBody({
   // Part 3 形式: 英語の状況文があればそれを、なければ和訳のみを表示
   const situationText = question.situation || question.situationJa;
   const situationIsEnglish = Boolean(question.situation);
-  const translations = [
+  // 状況文のある問題（Part 3）は本番でも設問が印刷されている。それ以外は音声だけで読まれる
+  const concealPrompt = hidePrompt && !situationText && !showResult;
+  const translations = examMode || concealPrompt ? [] : [
     situationIsEnglish && question.situationJa,
     question.promptJa,
   ].filter(Boolean);
@@ -67,12 +71,14 @@ export default function QuestionBody({
         </div>
       )}
 
-      {question.prompt && (
+      {question.prompt && (concealPrompt ? (
+        <p className={styles.promptHidden}>設問は音声で読まれます（答え合わせ後に表示）</p>
+      ) : (
         <p className={styles.prompt}>
           {situationText && <span className={styles.promptLabel}>Question</span>}
           {question.prompt}
         </p>
-      )}
+      ))}
 
       {translations.length > 0 && (
         <div className={styles.translation}>

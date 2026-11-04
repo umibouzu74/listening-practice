@@ -1,0 +1,258 @@
+.page {
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem 1rem 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: var(--color-text-primary);
+}
+
+.titleSub {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+/* 開始前 */
+.intro {
+  padding: 16px;
+  border-radius: var(--radius-md);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+}
+
+.rules {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 1.1em;
+  list-style: disc;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+}
+
+.rules strong {
+  color: var(--color-text-primary);
+}
+
+.meta {
+  margin: 14px 0;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.startButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.startButton:disabled {
+  opacity: 0.4;
+}
+
+/* 放送状況（スクロールしても見えるように固定） */
+.status {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 4px 12px;
+  margin: 0 -1rem 1rem;
+  padding: 10px 1rem 0;
+  background: rgba(15, 15, 26, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.statusMain {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+}
+
+.statusSection {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.statusLabel {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.statusTime {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.pauseButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.statusTrack {
+  grid-column: 1 / -1;
+  height: 3px;
+  margin: 6px -1rem 0;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.statusFill {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.3s linear;
+}
+
+/* 問題 */
+.questions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.questionCard {
+  padding: 14px;
+  border-radius: var(--radius-md);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  transition: border-color 0.2s;
+}
+
+.questionCurrent {
+  border-color: var(--accent);
+}
+
+.questionNumber {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.endPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  border-radius: var(--radius-md);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+/* 解答用紙 */
+.sheet {
+  margin-top: 1.5rem;
+}
+
+.sheetTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+}
+
+.sheetTitle span {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.sheetGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 2px 12px;
+}
+
+.sheetRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 4px;
+  border-radius: 6px;
+}
+
+.sheetRowCurrent {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.sheetNo {
+  width: 22px;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-align: right;
+  color: var(--color-text-muted);
+}
+
+.bubble {
+  width: 28px;
+  height: 28px;
+  min-width: 28px;
+  min-height: 28px;
+  padding: 0;
+  border-radius: 50%;
+  border: 1px solid var(--color-border-hover);
+  background: transparent;
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+}
+
+.bubbleOn {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+.finishEarly {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}

@@ -18,6 +18,7 @@ export default function PassageGroup({
   accentColor,
   registerRef,
   showOnlyWrong,
+  hidePrompt,
 }) {
   const accent = accentColor || 'var(--color-accent)';
   const label = passageLabel || '本文';
@@ -54,6 +55,7 @@ export default function PassageGroup({
             onCheck={() => onCheck(q.id)}
             accentColor={accent}
             hideAudio
+            hidePrompt={hidePrompt}
           />
         </div>
       ))}

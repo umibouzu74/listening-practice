@@ -48,6 +48,12 @@
   line-height: 1.7;
 }
 
+.promptHidden {
+  margin-bottom: 12px;
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
 .translation {
   margin-top: -6px;
   margin-bottom: 12px;

@@ -49,6 +49,7 @@ export default function FocusedPracticeView({
   accentColor,
   sectionTitle,
   examTitle,
+  hidePrompt,
 }) {
   const accent = accentColor || 'var(--color-accent)';
   const [currentIndex, setCurrentIndex] = useState(() =>
@@ -179,6 +180,7 @@ export default function FocusedPracticeView({
           onCheck={() => onCheck(question.id)}
           accentColor={accent}
           large
+          hidePrompt={hidePrompt}
         />
 
         <p className={styles.keyHint}>

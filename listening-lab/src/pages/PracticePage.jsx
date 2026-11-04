@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
-import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams, useLocation } from 'react-router-dom';
 import Header from '../components/Header';
 import AudioPlayer from '../components/AudioPlayer';
 import MiniAudioPlayer from '../components/MiniAudioPlayer';
@@ -8,8 +8,8 @@ import PassageGroup from '../components/PassageGroup';
 import ScoreBanner from '../components/ScoreBanner';
 import FocusedPracticeView from '../components/FocusedPracticeView';
 import useAudioPlayer from '../hooks/useAudioPlayer';
+import usePreference from '../hooks/usePreference';
 import { getExamColor } from '../utils/examConfig';
-import { getExamSet, isDraft } from '../data/registry';
 import {
   recordKey, getRecord, saveResult, updateWrong,
   loadProgress, saveProgress, clearProgress,
@@ -94,13 +94,13 @@ function buildRenderItems(questions) {
   return items;
 }
 
-export default function PracticePage() {
+export default function PracticePage({ examSet }) {
   const { examType, examId, sectionId } = useParams();
   const [searchParams] = useSearchParams();
   const reviewWrong = searchParams.get('mode') === 'wrong';
   const navigate = useNavigate();
+  const fromExam = Boolean(useLocation().state?.fromExam);
   const accent = getExamColor(examType);
-  const examSet = getExamSet(examId);
   const historyKey = recordKey(examId, sectionId);
   const progressKey = reviewWrong ? `${historyKey}:wrong` : historyKey;
   const backToSections = () => navigate(`/${examType}/${examId}`);
@@ -134,6 +134,7 @@ export default function PracticePage() {
   const [showRestoredNotice, setShowRestoredNotice] = useState(Boolean(restored));
   const [focus, setFocus] = useState(null); // { questions, initialIndex } | null
   const [showOnlyWrong, setShowOnlyWrong] = useState(false);
+  const [hidePrompt, setHidePrompt] = usePreference('hidePrompt', false);
   const questionRefs = useRef({});
   const savedRef = useRef(false);
 
@@ -240,17 +241,6 @@ export default function PracticePage() {
     }
   }, [showOnlyWrong, wrongQuestions, questions, answers, checkedQuestions]);
 
-  if (!examSet || isDraft(examSet)) {
-    return (
-      <div className={styles.page}>
-        <Header onBack={() => navigate(`/${examType}`)} accentColor={accent} />
-        <div className={styles.empty}>
-          {examSet ? 'この回は問題データを準備中です' : '試験データが見つかりません'}
-        </div>
-      </div>
-    );
-  }
-
   if (questions.length === 0) {
     return (
       <div className={styles.page}>
@@ -300,17 +290,28 @@ export default function PracticePage() {
                   ? `${checkedCount} / ${questions.length} 確認済み`
                   : `${answeredCount} / ${questions.length} 回答済み`}
               </span>
-              <button
-                className={styles.focusToggle}
-                onClick={() => openFocus('practice')}
-                style={{ '--accent': accent }}
-              >
+              <span className={styles.progressTools}>
+                <button
+                  className={`${styles.focusToggle} ${hidePrompt ? styles.toggleOn : ''}`}
+                  onClick={() => setHidePrompt((v) => !v)}
+                  style={{ '--accent': accent }}
+                  aria-pressed={hidePrompt}
+                  title="本番と同じく、音声で読まれる設問文を答え合わせまで隠します"
+                >
+                  設問を隠す
+                </button>
+                <button
+                  className={styles.focusToggle}
+                  onClick={() => openFocus('practice')}
+                  style={{ '--accent': accent }}
+                >
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                   <rect x="2" y="3" width="12" height="4" rx="1" stroke="currentColor" strokeWidth="1.3" />
                   <rect x="2" y="9" width="12" height="4" rx="1" stroke="currentColor" strokeWidth="1.3" opacity="0.3" />
                 </svg>
-                1問ずつ
-              </button>
+                  1問ずつ
+                </button>
+              </span>
             </div>
             <div className={styles.progressTrack}>
               {checkedCount > 0 && (
@@ -363,6 +364,7 @@ export default function PracticePage() {
                     accentColor={accent}
                     registerRef={registerRef}
                     showOnlyWrong={showOnlyWrong}
+                    hidePrompt={hidePrompt}
                   />
                 </div>
               );
@@ -386,6 +388,7 @@ export default function PracticePage() {
                   onCheck={() => handleCheckQuestion(q.id)}
                   accentColor={accent}
                   showPassageAudio={passageAudioShown[item.index]}
+                  hidePrompt={hidePrompt}
                 />
               </div>
             );
@@ -419,6 +422,7 @@ export default function PracticePage() {
 
         {score && (
           <div className={styles.resultSection}>
+            {fromExam && <p className={styles.resultLabel}>本番モードの結果</p>}
             <ScoreBanner correct={score.correct} total={score.total} />
 
             <div className={styles.resultActions}>
@@ -470,6 +474,7 @@ export default function PracticePage() {
           accentColor={accent}
           sectionTitle={sectionTitle}
           examTitle={[examSet.meta.title, examSet.meta.subtitle].filter(Boolean).join(' ')}
+          hidePrompt={hidePrompt}
         />
       )}
     </div>

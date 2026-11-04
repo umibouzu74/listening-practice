@@ -12,6 +12,7 @@ export default function QuestionCard({
   accentColor,
   showPassageAudio,
   hideAudio,
+  hidePrompt,
 }) {
   const accent = accentColor || 'var(--color-accent)';
 
@@ -54,6 +55,7 @@ export default function QuestionCard({
         onAnswer={onAnswer}
         onCheck={onCheck}
         accentColor={accent}
+        hidePrompt={hidePrompt}
       />
     </div>
   );
