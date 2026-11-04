@@ -9,9 +9,8 @@
  *   node scripts/scan-audio.js --exam eiken-pre1-2024-1  # 特定の試験だけチェック
  */
 
-import { readdirSync, readFileSync, writeFileSync, statSync, existsSync } from "fs";
+import { readdirSync, readFileSync, writeFileSync, existsSync } from "fs";
 import { resolve, join, relative, basename } from "path";
-import { globSync } from "fs";
 
 const args = process.argv.slice(2);
 const doFix = args.includes("--fix");
@@ -60,7 +59,9 @@ function scanJsonFiles() {
           if (data.examType && data.id && data.sections) {
             files.push({ path: full, data });
           }
-        } catch {}
+        } catch {
+          // JSON として読めないファイルは対象外
+        }
       }
     }
   }
@@ -123,7 +124,6 @@ for (const { path: jsonPath, data: exam } of jsonFiles) {
   const refs = getAudioRefs(exam);
   let missing = 0;
   let fixed = 0;
-  let modified = false;
 
   for (const ref of refs) {
     totalRefs++;
@@ -148,7 +148,6 @@ for (const { path: jsonPath, data: exam } of jsonFiles) {
       usedAudioPaths.add(newPath);
       fixed++;
       totalFixed++;
-      modified = true;
     } else if (candidates.length > 0) {
       missing++;
       totalMissing++;

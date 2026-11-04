@@ -1,0 +1,76 @@
+.track {
+  --rail-height: 4px;
+  --thumb-size: 14px;
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+  height: 24px;
+  cursor: pointer;
+  touch-action: none;
+  outline: none;
+}
+
+.lg {
+  --rail-height: 6px;
+  --thumb-size: 16px;
+  height: 30px;
+}
+
+.disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+.rail,
+.fill {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: var(--rail-height);
+  border-radius: calc(var(--rail-height) / 2);
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.rail {
+  right: 0;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.fill {
+  background: var(--accent);
+}
+
+.boundary {
+  position: absolute;
+  top: 50%;
+  width: 2px;
+  height: calc(var(--rail-height) + 6px);
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 1px;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.thumb {
+  position: absolute;
+  top: 50%;
+  width: var(--thumb-size);
+  height: var(--thumb-size);
+  border-radius: 50%;
+  background: var(--accent);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  z-index: 2;
+  transition: transform 0.1s;
+}
+
+.dragging {
+  transform: translate(-50%, -50%) scale(1.25);
+}
+
+.track:focus-visible .thumb {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.25);
+}

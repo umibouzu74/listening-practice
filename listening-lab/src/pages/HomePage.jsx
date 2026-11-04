@@ -10,15 +10,6 @@ const examTypeList = Object.values(EXAM_TYPES);
 export default function HomePage() {
   const navigate = useNavigate();
 
-  const handleClick = (et) => {
-    if (et.comingSoon) return;
-    if (et.externalUrl) {
-      window.location.href = et.externalUrl;
-    } else {
-      navigate(`/${et.id}`);
-    }
-  };
-
   return (
     <div className={styles.page}>
       <Header showSubtitle />
@@ -28,7 +19,7 @@ export default function HomePage() {
             key={et.id}
             examType={et}
             count={getExamCount(et.id)}
-            onClick={() => handleClick(et)}
+            onClick={() => navigate(`/${et.id}`)}
           />
         ))}
       </div>

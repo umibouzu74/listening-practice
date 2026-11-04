@@ -1,8 +1,9 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import ExamSetCard from '../components/ExamSetCard';
-import { getExamType, getGradeLabel, getPrefectureLabel } from '../utils/examConfig';
+import { getExamType, getGradeLabel, getGradeOrder, getPrefectureLabel } from '../utils/examConfig';
 import { getExamSets } from '../data/registry';
+import { getRecord, recordKey } from '../utils/history';
 import styles from './ExamListPage.module.css';
 
 function groupExamSets(sets, groupBy, sortOrder) {
@@ -24,6 +25,8 @@ function groupExamSets(sets, groupBy, sortOrder) {
 
   const keys = Object.keys(grouped);
   keys.sort((a, b) => {
+    // 級は「1級 → 準1級 → 2級 …」の決まった順に並べる
+    if (groupBy === 'grade') return getGradeOrder(a) - getGradeOrder(b);
     if (sortOrder === 'desc') return String(b).localeCompare(String(a), undefined, { numeric: true });
     return String(a).localeCompare(String(b), undefined, { numeric: true });
   });
@@ -87,6 +90,9 @@ export default function ExamListPage() {
                     key={examSet.id}
                     examSet={examSet}
                     accentColor={config.color}
+                    completedSections={
+                      examSet.sections.filter((sec) => getRecord(recordKey(examSet.id, sec.id))).length
+                    }
                     onClick={() => navigate(`/${examType}/${examSet.id}`)}
                   />
                 ))}

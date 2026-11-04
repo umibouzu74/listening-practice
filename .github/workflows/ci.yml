@@ -1,0 +1,41 @@
+name: CI
+
+# PR 時に lint・データ検証・ビルドが通るかを確認する（デプロイはしない）
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: listening-lab/package-lock.json
+
+      - name: Install dependencies
+        working-directory: listening-lab
+        run: npm ci
+
+      - name: Lint
+        working-directory: listening-lab
+        run: npm run lint
+
+      - name: Validate exam data
+        working-directory: listening-lab
+        run: npm run validate
+
+      - name: Build
+        working-directory: listening-lab
+        run: npm run build

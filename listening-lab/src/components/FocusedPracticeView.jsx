@@ -1,20 +1,46 @@
-import { useState, useCallback, useMemo, useRef, useEffect } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import useAudioPlayer from '../hooks/useAudioPlayer';
-import useChainedAudioPlayer from '../hooks/useChainedAudioPlayer';
+import AudioPlayer from './AudioPlayer';
+import QuestionBody from './QuestionBody';
 import styles from './FocusedPracticeView.module.css';
 
-const SPEEDS = [0.75, 1.0, 1.25, 1.5];
-const SKIP_SEC = 5;
-
-function formatTime(seconds) {
-  if (!seconds || !isFinite(seconds)) return '0:00';
-  const m = Math.floor(seconds / 60);
-  const s = Math.floor(seconds % 60);
-  return `${m}:${s.toString().padStart(2, '0')}`;
+function isTypingTarget(el) {
+  return el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA' || el.isContentEditable);
 }
 
+/** 1問ずつモードの下部プレイヤー（問題ごとに key で作り直す） */
+function QuestionAudio({ question, accent, controlsRef, extraControls }) {
+  const chained = Boolean(question.passageAudio && question.audio);
+  const sources = chained
+    ? [question.passageAudio, question.audio]
+    : question.passageAudio || question.audio || null;
+  const audio = useAudioPlayer(sources);
+  const phaseLabels = chained ? [question.passageLabel || '本文', `Q${question.number}`] : null;
+
+  // キーボードショートカット用に親から操作できるようにする
+  const { toggle, skip } = audio;
+  useEffect(() => {
+    controlsRef.current = { toggle, skip };
+  }, [controlsRef, toggle, skip]);
+
+  return (
+    <AudioPlayer
+      audio={audio}
+      accentColor={accent}
+      phaseLabels={phaseLabels}
+      extraControls={extraControls}
+      variant="bare"
+    />
+  );
+}
+
+/**
+ * 1問ずつ表示する全画面モード。
+ * キー操作: ←/→ 前後の問題, Space 再生/停止, 1-4 選択肢, Enter 答え合わせ, Esc 閉じる
+ */
 export default function FocusedPracticeView({
   questions,
+  initialIndex = 0,
   answers,
   checkedQuestions,
   onAnswer,
@@ -23,162 +49,93 @@ export default function FocusedPracticeView({
   accentColor,
   sectionTitle,
   examTitle,
+  hidePrompt,
 }) {
   const accent = accentColor || 'var(--color-accent)';
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [showScript, setShowScript] = useState(false);
-  const [showScriptJa, setShowScriptJa] = useState(false);
-  const progressRef = useRef(null);
-  const draggingRef = useRef(false);
-  const [dragProgress, setDragProgress] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(() =>
+    Math.min(Math.max(initialIndex, 0), Math.max(questions.length - 1, 0))
+  );
+  const bodyRef = useRef(null);
+  const audioControlsRef = useRef(null);
 
   const question = questions[currentIndex];
+  const lastIndex = questions.length - 1;
 
-  // Determine audio mode: chained (passage + question) or single
-  const hasChainedAudio = question?.passageAudio && question?.audio;
-  const singleAudioSrc = hasChainedAudio ? null : (question?.passageAudio || question?.audio || null);
+  const goToPrev = useCallback(() => setCurrentIndex((i) => Math.max(0, i - 1)), []);
+  const goToNext = useCallback(() => setCurrentIndex((i) => Math.min(lastIndex, i + 1)), [lastIndex]);
 
-  // Build sources array for chained mode: [passageAudio, questionAudio]
-  const chainedSources = useMemo(() => {
-    if (!hasChainedAudio) return [];
-    return [question.passageAudio, question.audio];
-  }, [hasChainedAudio, question?.passageAudio, question?.audio]);
-
-  const singleAudio = useAudioPlayer(singleAudioSrc);
-  const chainedAudio = useChainedAudioPlayer(hasChainedAudio ? chainedSources : []);
-
-  // Use the appropriate audio state
-  const audioState = hasChainedAudio ? chainedAudio : singleAudio;
-
-  const {
-    isPlaying, currentTime, duration, progress,
-    playbackRate, error, toggle, seek, setSpeed, reset,
-    isLooping, toggleLoop, setIsSeeking,
-  } = audioState;
-
-  // Phase labels for chained audio
-  const chainedPhaseLabels = hasChainedAudio
-    ? [question.passageLabel || '本文', `Q${question.number}`]
-    : [];
-
-  const displayProgress = dragProgress !== null ? dragProgress : progress;
-
-  // Reset script visibility when changing question
+  // 背景ページのスクロールを止める
   useEffect(() => {
-    setShowScript(false);
-    setShowScriptJa(false);
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, []);
+
+  // 問題が変わったら先頭までスクロール
+  useEffect(() => {
+    bodyRef.current?.scrollTo({ top: 0 });
   }, [currentIndex]);
 
-  // Keyboard shortcuts
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
-      switch (e.key) {
-        case 'ArrowLeft':
+      if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey || isTypingTarget(e.target)) return;
+      if (!question) return;
+      const checked = checkedQuestions.has(question.id);
+
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        goToPrev();
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        goToNext();
+      } else if (e.key === ' ') {
+        e.preventDefault();
+        audioControlsRef.current?.toggle();
+      } else if (e.key === 'Escape') {
+        e.preventDefault();
+        onClose();
+      } else if (/^[1-9]$/.test(e.key) && !checked) {
+        const choice = question.choices[Number(e.key) - 1];
+        if (choice) {
           e.preventDefault();
-          if (currentIndex > 0) setCurrentIndex((i) => i - 1);
-          break;
-        case 'ArrowRight':
-          e.preventDefault();
-          if (currentIndex < questions.length - 1) setCurrentIndex((i) => i + 1);
-          break;
-        case ' ':
-          e.preventDefault();
-          toggle();
-          break;
-        case 'Escape':
-          e.preventDefault();
-          onClose();
-          break;
+          onAnswer(question.id, choice.label);
+        }
+      } else if (e.key === 'Enter' && !checked && answers[question.id]) {
+        e.preventDefault();
+        onCheck(question.id);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex, questions.length, toggle, onClose]);
-
-  // --- Seekbar drag ---
-  const calcRatio = useCallback((clientX) => {
-    const rect = progressRef.current?.getBoundingClientRect();
-    if (!rect) return 0;
-    return Math.max(0, Math.min(1, (clientX - rect.left) / rect.width));
-  }, []);
-
-  const handlePointerMove = useCallback((e) => {
-    if (!draggingRef.current) return;
-    const ratio = calcRatio(e.clientX);
-    setDragProgress(ratio * 100);
-  }, [calcRatio]);
-
-  const handlePointerUp = useCallback((e) => {
-    if (!draggingRef.current) return;
-    draggingRef.current = false;
-    setIsSeeking(false);
-    const ratio = calcRatio(e.clientX);
-    seek(ratio * (duration || 0));
-    setDragProgress(null);
-    document.removeEventListener('pointermove', handlePointerMove);
-    document.removeEventListener('pointerup', handlePointerUp);
-  }, [calcRatio, duration, seek, handlePointerMove, setIsSeeking]);
-
-  const handlePointerDown = useCallback((e) => {
-    if (!duration) return;
-    e.preventDefault();
-    draggingRef.current = true;
-    setIsSeeking(true);
-    const ratio = calcRatio(e.clientX);
-    setDragProgress(ratio * 100);
-    document.addEventListener('pointermove', handlePointerMove);
-    document.addEventListener('pointerup', handlePointerUp);
-  }, [duration, calcRatio, handlePointerMove, handlePointerUp, setIsSeeking]);
-
-  useEffect(() => {
-    return () => {
-      document.removeEventListener('pointermove', handlePointerMove);
-      document.removeEventListener('pointerup', handlePointerUp);
-    };
-  }, [handlePointerMove, handlePointerUp]);
-
-  const handleProgressClick = useCallback((e) => {
-    if (!duration || draggingRef.current) return;
-    const ratio = calcRatio(e.clientX);
-    seek(ratio * duration);
-  }, [duration, seek, calcRatio]);
-
-  const cycleSpeed = useCallback(() => {
-    const idx = SPEEDS.indexOf(playbackRate);
-    const next = SPEEDS[(idx + 1) % SPEEDS.length];
-    setSpeed(next);
-  }, [playbackRate, setSpeed]);
-
-  const skipBack = useCallback(() => {
-    seek(Math.max(0, currentTime - SKIP_SEC));
-  }, [currentTime, seek]);
-
-  const skipForward = useCallback(() => {
-    seek(Math.min(duration || 0, currentTime + SKIP_SEC));
-  }, [currentTime, duration, seek]);
-
-  const goToPrev = useCallback(() => {
-    if (currentIndex > 0) setCurrentIndex(currentIndex - 1);
-  }, [currentIndex]);
-
-  const goToNext = useCallback(() => {
-    if (currentIndex < questions.length - 1) setCurrentIndex(currentIndex + 1);
-  }, [currentIndex, questions.length]);
+  }, [question, answers, checkedQuestions, goToPrev, goToNext, onAnswer, onCheck, onClose]);
 
   if (!question) return null;
 
-  const isChecked = checkedQuestions.has(question.id);
-  const isCorrect = isChecked && answers[question.id] === question.answer;
-  const isIncorrect = isChecked && answers[question.id] && answers[question.id] !== question.answer;
+  const navButtons = (
+    <>
+      <button className={styles.navBtn} onClick={goToPrev} disabled={currentIndex === 0} aria-label="前の問題">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M13 15L7 10L13 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <line x1="14" y1="5" x2="14" y2="15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      </button>
+      <button className={styles.navBtn} onClick={goToNext} disabled={currentIndex === lastIndex} aria-label="次の問題">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M7 5L13 10L7 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <line x1="6" y1="5" x2="6" y2="15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        </svg>
+      </button>
+    </>
+  );
 
   return (
-    <div className={styles.overlay}>
-      {/* Header */}
+    <div className={styles.overlay} role="dialog" aria-modal="true" aria-label="1問ずつ演習">
       <div className={styles.header}>
         <button className={styles.backBtn} onClick={onClose} aria-label="一覧に戻る">
-          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-            <path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M12.5 15L7.5 10L12.5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </button>
         <div className={styles.headerTitle}>
@@ -188,279 +145,57 @@ export default function FocusedPracticeView({
         <span className={styles.headerCount}>{currentIndex + 1} / {questions.length}</span>
       </div>
 
-      {/* Question content */}
-      <div className={styles.body}>
+      {/* 問題ごとの進捗ドット（タップでジャンプ） */}
+      <div className={styles.dots}>
+        {questions.map((q, i) => {
+          const checked = checkedQuestions.has(q.id);
+          const state = checked
+            ? answers[q.id] === q.answer ? styles.dotCorrect : styles.dotWrong
+            : answers[q.id] ? styles.dotAnswered : '';
+          return (
+            <button
+              key={q.id}
+              className={`${styles.dot} ${state} ${i === currentIndex ? styles.dotCurrent : ''}`}
+              style={i === currentIndex ? { '--accent': accent } : undefined}
+              onClick={() => setCurrentIndex(i)}
+              aria-label={`問${q.number}へ移動`}
+              aria-current={i === currentIndex ? 'step' : undefined}
+            />
+          );
+        })}
+      </div>
+
+      <div className={styles.body} ref={bodyRef}>
         <div className={styles.questionHeader}>
-          {question.passageLabel && (
-            <span className={styles.passageLabel}>{question.passageLabel}</span>
-          )}
+          {question.passageLabel && <span className={styles.passageLabel}>{question.passageLabel}</span>}
           <span className={styles.questionNumber}>問 {question.number}</span>
         </div>
 
-        {/* Japanese prompt */}
-        {question.promptJa && (
-          <p className={styles.promptJa}>{question.promptJa}</p>
-        )}
+        <QuestionBody
+          key={question.id}
+          question={question}
+          userAnswer={answers[question.id] || null}
+          showResult={checkedQuestions.has(question.id)}
+          onAnswer={(label) => onAnswer(question.id, label)}
+          onCheck={() => onCheck(question.id)}
+          accentColor={accent}
+          large
+          hidePrompt={hidePrompt}
+        />
 
-        {/* English prompt */}
-        {question.prompt && (
-          <p className={styles.prompt}>{question.prompt}</p>
-        )}
-
-        {/* Image */}
-        {question.image && (
-          <div className={styles.imageWrapper}>
-            <img
-              src={question.image}
-              alt={`問題${question.number}の図表`}
-              className={styles.image}
-            />
-          </div>
-        )}
-
-        {/* Choices */}
-        <div className={styles.choices}>
-          {question.choices.map((choice) => {
-            const isSelected = answers[question.id] === choice.label;
-            const isCorrectChoice = isChecked && choice.label === question.answer;
-            const isWrongSelected = isChecked && isSelected && choice.label !== question.answer;
-
-            let choiceClass = styles.choice;
-            if (isCorrectChoice) choiceClass += ` ${styles.correct}`;
-            else if (isWrongSelected) choiceClass += ` ${styles.incorrect}`;
-            else if (isSelected && !isChecked) choiceClass += ` ${styles.selected}`;
-
-            return (
-              <button
-                key={choice.label}
-                className={choiceClass}
-                onClick={() => !isChecked && onAnswer(question.id, choice.label)}
-                disabled={isChecked}
-                style={
-                  isSelected && !isChecked
-                    ? { borderColor: accent, background: `${accent}15` }
-                    : undefined
-                }
-              >
-                <span
-                  className={styles.choiceLabel}
-                  style={
-                    isSelected && !isChecked
-                      ? { background: accent, borderColor: accent }
-                      : isCorrectChoice
-                        ? { background: 'var(--color-correct)', borderColor: 'var(--color-correct)' }
-                        : isWrongSelected
-                          ? { background: 'var(--color-incorrect)', borderColor: 'var(--color-incorrect)' }
-                          : undefined
-                  }
-                >
-                  {isCorrectChoice ? '✓' : isWrongSelected ? '✕' : choice.label}
-                </span>
-                <span className={styles.choiceText}>{choice.text}</span>
-              </button>
-            );
-          })}
-        </div>
-
-        {/* Per-question check button */}
-        {!isChecked && answers[question.id] && onCheck && (
-          <button
-            className={styles.checkButton}
-            onClick={() => onCheck(question.id)}
-            style={{ '--accent': accent }}
-          >
-            答え合わせ
-          </button>
-        )}
-
-        {/* Result: explanation */}
-        {isChecked && question.explanation && (
-          <div className={styles.explanation}>
-            <div className={styles.explanationHeader}>
-              {isCorrect ? (
-                <span className={styles.resultCorrect}>正解！</span>
-              ) : (
-                <span className={styles.resultIncorrect}>
-                  不正解（正解: {question.answer}）
-                </span>
-              )}
-            </div>
-            <p className={styles.explanationText}>{question.explanation}</p>
-          </div>
-        )}
-
-        {/* Script toggle */}
-        {isChecked && question.script && (
-          <div className={styles.scriptSection}>
-            <button
-              className={styles.scriptToggle}
-              onClick={() => setShowScript((v) => !v)}
-              style={{ '--accent': accent }}
-            >
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <circle cx="8" cy="8" r="6.5" stroke="currentColor" strokeWidth="1.5"/>
-                <circle cx="8" cy="8" r="2" fill="currentColor"/>
-              </svg>
-              {showScript ? 'スクリプトを隠す' : 'スクリプトをみる'}
-            </button>
-            {showScript && (
-              <>
-                {question.scriptJa && (
-                  <button
-                    className={styles.scriptJaToggle}
-                    onClick={() => setShowScriptJa((v) => !v)}
-                  >
-                    {showScriptJa ? '日本語訳を隠す' : '日本語訳を表示'}
-                  </button>
-                )}
-                {showScriptJa && question.scriptJa ? (
-                  <div className={styles.scriptInterleaved}>
-                    {question.script.split('\n').map((enLine, i) => {
-                      const jaLines = question.scriptJa.split('\n');
-                      return (
-                        <div key={i} className={styles.scriptPair}>
-                          <p className={styles.scriptEnLine}>{enLine}</p>
-                          {jaLines[i] && (
-                            <p className={styles.scriptJaLine}>{jaLines[i]}</p>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-                ) : (
-                  <p className={styles.scriptText}>{question.script}</p>
-                )}
-              </>
-            )}
-          </div>
-        )}
+        <p className={styles.keyHint}>
+          キー操作: ←/→ 前後の問題 · Space 再生/停止 · 1〜4 選択 · Enter 答え合わせ · Esc 閉じる
+        </p>
       </div>
 
-      {/* Bottom audio player */}
       <div className={styles.bottomPlayer}>
-        {/* Phase indicator for chained audio */}
-        {hasChainedAudio && chainedPhaseLabels.length > 0 && (
-          <div className={styles.phaseRow}>
-            {chainedPhaseLabels.map((label, i) => (
-              <span key={i} style={{ display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
-                {i > 0 && (
-                  <svg className={styles.phaseArrow} width="12" height="12" viewBox="0 0 12 12" fill="none">
-                    <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                )}
-                <span
-                  className={`${styles.phaseTag} ${chainedAudio.activeIndex === i && isPlaying ? styles.phaseActive : ''}`}
-                  style={chainedAudio.activeIndex === i && isPlaying ? { color: accent } : undefined}
-                >
-                  {label}
-                </span>
-              </span>
-            ))}
-          </div>
-        )}
-
-        {/* Seek bar */}
-        <div className={styles.seekRow}>
-          <button
-            className={styles.abBtn}
-            onClick={skipBack}
-            aria-label="5秒戻る"
-          >
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M3 10C3 6.13 6.13 3 10 3C13.87 3 17 6.13 17 10C17 13.87 13.87 17 10 17C8.11 17 6.42 16.2 5.2 14.9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-              <path d="M3 5V9H7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          </button>
-          <div
-            className={styles.seekTrack}
-            ref={progressRef}
-            onClick={handleProgressClick}
-            onPointerDown={handlePointerDown}
-          >
-            <div
-              className={styles.seekFill}
-              style={{ width: `${displayProgress}%`, background: accent }}
-            />
-            {/* Boundary markers between chained segments */}
-            {hasChainedAudio && duration > 0 && chainedAudio.durations.length > 1 && (() => {
-              let acc = 0;
-              return chainedAudio.durations.slice(0, -1).map((d, i) => {
-                acc += d;
-                return (
-                  <div
-                    key={i}
-                    className={styles.seekBoundary}
-                    style={{ left: `${(acc / duration) * 100}%` }}
-                  />
-                );
-              });
-            })()}
-            <div
-              className={styles.seekThumb}
-              style={{ left: `${displayProgress}%`, background: accent }}
-            />
-          </div>
-          <button
-            className={styles.abBtn}
-            onClick={skipForward}
-            aria-label="5秒進む"
-          >
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M10 3.5V1L14.5 4.5L10 8V5.5C6.96 5.5 4.5 7.96 4.5 11C4.5 14.04 6.96 16.5 10 16.5C13.04 16.5 15.5 14.04 15.5 11H17.5C17.5 15.14 14.14 18.5 10 18.5C5.86 18.5 2.5 15.14 2.5 11C2.5 6.86 5.86 3.5 10 3.5Z" fill="currentColor"/>
-              <text x="10" y="12.5" textAnchor="middle" fontSize="7" fontWeight="700" fill="currentColor">5</text>
-            </svg>
-          </button>
-        </div>
-
-        {/* Controls */}
-        <div className={styles.controlsRow}>
-          <button className={styles.loopBtn} onClick={toggleLoop} aria-label="ループ再生"
-            style={isLooping ? { color: accent } : undefined}
-          >
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M14 3L17 6L14 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M3 10V8C3 6.34 4.34 5 6 5H17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-              <path d="M6 17L3 14L6 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M17 10V12C17 13.66 15.66 15 14 15H3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-            </svg>
-          </button>
-
-          <button className={styles.speedBtn} onClick={cycleSpeed} aria-label={`再生速度 ${playbackRate}x`}>
-            {playbackRate}x
-          </button>
-
-          <button
-            className={styles.mainPlayBtn}
-            onClick={toggle}
-            style={{ background: accent }}
-            aria-label={isPlaying ? '一時停止' : '再生'}
-          >
-            {isPlaying ? (
-              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                <rect x="8" y="6" width="4" height="16" rx="1" fill="white"/>
-                <rect x="16" y="6" width="4" height="16" rx="1" fill="white"/>
-              </svg>
-            ) : (
-              <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
-                <path d="M10 6V22L22 14L10 6Z" fill="white"/>
-              </svg>
-            )}
-          </button>
-
-          <button className={styles.navBtn} onClick={goToPrev} disabled={currentIndex === 0} aria-label="前の問題">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M13 15L7 10L13 5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <line x1="14" y1="5" x2="14" y2="15" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-            </svg>
-          </button>
-
-          <button className={styles.navBtn} onClick={goToNext} disabled={currentIndex === questions.length - 1} aria-label="次の問題">
-            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-              <path d="M7 5L13 10L7 15" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <line x1="6" y1="5" x2="6" y2="15" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-            </svg>
-          </button>
-        </div>
+        <QuestionAudio
+          key={question.id}
+          question={question}
+          accent={accent}
+          controlsRef={audioControlsRef}
+          extraControls={navButtons}
+        />
       </div>
     </div>
   );

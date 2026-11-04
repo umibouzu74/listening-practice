@@ -62,48 +62,12 @@
   gap: 8px;
 }
 
-.actions {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-top: 1.25rem;
-}
-
-.actionButton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  width: 100%;
-  padding: 0.875rem 1rem;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-border);
-  background: var(--color-bg-card);
-  color: var(--color-text-primary);
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: border-color 0.15s, background 0.15s;
-}
-
-.actionButton:active {
-  border-color: var(--color-border-hover);
-}
-
-.actionButtonPrimary {
-  composes: actionButton;
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
-}
-
-.actionButtonPrimary:active {
-  opacity: 0.9;
-}
-
-.phase2 {
-  composes: actionButton;
+.subheading {
+  margin: 1.5rem 0 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
   color: var(--color-text-muted);
-  font-size: 0.8rem;
 }
 
 .empty {

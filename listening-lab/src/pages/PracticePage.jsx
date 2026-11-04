@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useCallback, useRef } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams, useLocation } from 'react-router-dom';
 import Header from '../components/Header';
 import AudioPlayer from '../components/AudioPlayer';
 import MiniAudioPlayer from '../components/MiniAudioPlayer';
@@ -8,81 +8,112 @@ import PassageGroup from '../components/PassageGroup';
 import ScoreBanner from '../components/ScoreBanner';
 import FocusedPracticeView from '../components/FocusedPracticeView';
 import useAudioPlayer from '../hooks/useAudioPlayer';
-import useHistory from '../hooks/useHistory';
+import usePreference from '../hooks/usePreference';
 import { getExamColor } from '../utils/examConfig';
-import { getExamSet } from '../data/registry';
+import {
+  recordKey, getRecord, saveResult, updateWrong,
+  loadProgress, saveProgress, clearProgress,
+} from '../utils/history';
 import styles from './PracticePage.module.css';
 
-export default function PracticePage() {
-  const { examType, examId, sectionId } = useParams();
-  const navigate = useNavigate();
-  const accent = getExamColor(examType);
-  const examSet = getExamSet(examId);
-  const { saveRecord } = useHistory();
+const EMPTY = { questions: [], sectionAudio: null, sectionTitle: '', instructionAudio: null, nextSection: null };
 
-  // Build questions list
-  const { questions, sectionAudio, sectionTitle, instructionAudio } = useMemo(() => {
-    if (!examSet) return { questions: [], sectionAudio: null, sectionTitle: '', instructionAudio: null };
+/** 演習対象の問題リストを組み立てる */
+function buildPractice(examSet, sectionId, wrongIds) {
+  if (!examSet) return EMPTY;
+  let result;
 
-    let qs;
-    let secAudio = null;
-    let secTitle = '';
-    let instrAudio = null;
-
-    if (sectionId === 'all') {
-      qs = examSet.sections.flatMap((s) =>
-        (s.questions || []).map((q, qi) => ({
+  if (sectionId === 'all') {
+    result = {
+      ...EMPTY,
+      sectionTitle: '全問通し演習',
+      questions: examSet.sections.flatMap((s) =>
+        (s.questions || []).map((q) => ({
           ...q,
           id: `${s.id}_${q.id}`,
-          _sectionTitle: qi === 0 ? s.title : null,
+          _sectionId: s.id,
+          _sectionTitle: s.title,
+          _localId: q.id,
         }))
-      );
-      secTitle = '全問通し演習';
-    } else {
-      const section = examSet.sections.find((s) => s.id === sectionId);
-      if (!section) return { questions: [], sectionAudio: null, sectionTitle: '', instructionAudio: null };
-      qs = section.questions || [];
-      secAudio = section.audioFile || section.audio || null;
-      secTitle = section.title || '';
-      instrAudio = section.instructionAudio || null;
-    }
+      ),
+    };
+  } else {
+    const idx = examSet.sections.findIndex((s) => s.id === sectionId);
+    const section = examSet.sections[idx];
+    if (!section) return EMPTY;
+    result = {
+      questions: (section.questions || []).map((q) => ({
+        ...q,
+        _sectionId: section.id,
+        _sectionTitle: section.title,
+        _localId: q.id,
+      })),
+      sectionAudio: section.audioFile || section.audio || null,
+      sectionTitle: section.title || '',
+      instructionAudio: section.instructionAudio || null,
+      nextSection: examSet.sections[idx + 1] || null,
+    };
+  }
 
-    return { questions: qs, sectionAudio: secAudio, sectionTitle: secTitle, instructionAudio: instrAudio };
-  }, [examSet, sectionId]);
+  if (wrongIds) {
+    const set = new Set(wrongIds);
+    result.questions = result.questions.filter((q) => set.has(q.id));
+    result.sectionTitle += '（間違えた問題）';
+    result.nextSection = null;
+  }
 
-  // Section-level audio player (only used when section has a single audio file)
-  const audio = useAudioPlayer(sectionAudio);
-
-  // Build render items: group consecutive questions that share passageAudio,
-  // or render them individually if they don't have passageAudio
-  const renderItems = useMemo(() => {
-    const items = [];
-    let currentGroup = null;
-
-    questions.forEach((q, i) => {
-      if (q.passageAudio && q.audio) {
-        // This question belongs to a passage group
-        if (currentGroup && currentGroup.passageAudio === q.passageAudio) {
-          currentGroup.questions.push(q);
-        } else {
-          currentGroup = {
-            type: 'passageGroup',
-            passageAudio: q.passageAudio,
-            passageLabel: q.passageLabel || '本文',
-            questions: [q],
-          };
-          items.push(currentGroup);
-        }
-      } else {
-        currentGroup = null;
-        items.push({ type: 'question', question: q, index: i });
-      }
+  // 全問通しでは各セクションの最初の問題の前に見出しを出す
+  if (sectionId === 'all') {
+    let prev = null;
+    result.questions = result.questions.map((q) => {
+      const showDivider = q._sectionId !== prev;
+      prev = q._sectionId;
+      return { ...q, _divider: showDivider ? q._sectionTitle : null };
     });
+  }
+  return result;
+}
 
-    return items;
-  }, [questions]);
+/** 同じ本文（passageAudio）を共有する連続した設問をグループにまとめる */
+function buildRenderItems(questions) {
+  const items = [];
+  let group = null;
+  questions.forEach((q, index) => {
+    if (q.passageAudio && q.audio) {
+      if (group && group.passageAudio === q.passageAudio) {
+        group.questions.push(q);
+      } else {
+        group = { type: 'passageGroup', passageAudio: q.passageAudio, passageLabel: q.passageLabel, questions: [q] };
+        items.push(group);
+      }
+    } else {
+      group = null;
+      items.push({ type: 'question', question: q, index });
+    }
+  });
+  return items;
+}
 
-  // Track which passageAudio labels have been shown (for non-grouped questions only)
+export default function PracticePage({ examSet }) {
+  const { examType, examId, sectionId } = useParams();
+  const [searchParams] = useSearchParams();
+  const reviewWrong = searchParams.get('mode') === 'wrong';
+  const navigate = useNavigate();
+  const fromExam = Boolean(useLocation().state?.fromExam);
+  const accent = getExamColor(examType);
+  const historyKey = recordKey(examId, sectionId);
+  const progressKey = reviewWrong ? `${historyKey}:wrong` : historyKey;
+  const backToSections = () => navigate(`/${examType}/${examId}`);
+
+  // ページ表示時点の「前回間違えた問題」で固定する
+  const [wrongIds] = useState(() => (reviewWrong ? getRecord(historyKey)?.lastWrong ?? [] : null));
+  const { questions, sectionAudio, sectionTitle, instructionAudio, nextSection } = useMemo(
+    () => buildPractice(examSet, sectionId, wrongIds),
+    [examSet, sectionId, wrongIds]
+  );
+  const renderItems = useMemo(() => buildRenderItems(questions), [questions]);
+
+  // passageAudio はあるが設問音声がない問題では、本文プレイヤーを最初の1問にだけ出す
   const passageAudioShown = useMemo(() => {
     const seen = new Set();
     return questions.map((q) => {
@@ -94,225 +125,259 @@ export default function PracticePage() {
     });
   }, [questions]);
 
-  const [answers, setAnswers] = useState({});
-  const [checkedQuestions, setCheckedQuestions] = useState(new Set());
-  const [focusedMode, setFocusedMode] = useState(false);
+  const sectionPlayer = useAudioPlayer(sectionAudio);
+
+  // 解答途中の状態はタブを閉じるまで保持（戻る操作で消えないように）
+  const [restored] = useState(() => loadProgress(progressKey));
+  const [answers, setAnswers] = useState(() => restored?.answers ?? {});
+  const [checkedQuestions, setCheckedQuestions] = useState(() => new Set(restored?.checked ?? []));
+  const [showRestoredNotice, setShowRestoredNotice] = useState(Boolean(restored));
+  const [focus, setFocus] = useState(null); // { questions, initialIndex } | null
   const [showOnlyWrong, setShowOnlyWrong] = useState(false);
+  const [hidePrompt, setHidePrompt] = usePreference('hidePrompt', false);
   const questionRefs = useRef({});
-  const historySavedRef = useRef(false);
+  const savedRef = useRef(false);
+
+  const registerRef = useCallback((id, el) => {
+    if (el) questionRefs.current[id] = el;
+    else delete questionRefs.current[id];
+  }, []);
 
   const handleAnswer = useCallback((questionId, choice) => {
     if (checkedQuestions.has(questionId)) return;
     setAnswers((prev) => ({ ...prev, [questionId]: choice }));
   }, [checkedQuestions]);
 
-  // Check a single question's answer
   const handleCheckQuestion = useCallback((questionId) => {
     if (!answers[questionId]) return;
     setCheckedQuestions((prev) => new Set(prev).add(questionId));
   }, [answers]);
 
-  // Check all answered-but-unchecked questions at once
   const handleCheckAll = useCallback(() => {
-    const answeredIds = questions.filter((q) => answers[q.id]).map((q) => q.id);
-    if (answeredIds.length === 0) return;
     setCheckedQuestions((prev) => {
       const next = new Set(prev);
-      answeredIds.forEach((id) => next.add(id));
+      questions.forEach((q) => answers[q.id] && next.add(q.id));
       return next;
     });
   }, [questions, answers]);
 
-  const allAnswered = questions.length > 0 && questions.every((q) => answers[q.id]);
-  const allChecked = questions.length > 0 && questions.every((q) => checkedQuestions.has(q.id));
-  const answeredCount = Object.keys(answers).length;
-  const checkedCount = checkedQuestions.size;
-  const uncheckedAnsweredCount = questions.filter((q) => answers[q.id] && !checkedQuestions.has(q.id)).length;
+  const answeredCount = questions.filter((q) => answers[q.id]).length;
+  const checkedCount = questions.filter((q) => checkedQuestions.has(q.id)).length;
+  const allAnswered = questions.length > 0 && answeredCount === questions.length;
+  const allChecked = questions.length > 0 && checkedCount === questions.length;
+  const uncheckedAnsweredCount = answeredCount - questions.filter((q) => answers[q.id] && checkedQuestions.has(q.id)).length;
 
-  // Save history when all questions are checked
+  const wrongQuestions = useMemo(
+    () => (allChecked ? questions.filter((q) => answers[q.id] !== q.answer) : []),
+    [allChecked, questions, answers]
+  );
+  const score = allChecked ? { correct: questions.length - wrongQuestions.length, total: questions.length } : null;
+
+  // 途中経過の保存
   useEffect(() => {
-    if (allChecked && !historySavedRef.current) {
-      historySavedRef.current = true;
-      const correct = questions.filter((q) => answers[q.id] === q.answer).length;
-      const total = questions.length;
-      const recordKey = `${examId}__${sectionId}`;
-      saveRecord(recordKey, { correct, total });
+    if (!allChecked) saveProgress(progressKey, answers, checkedQuestions);
+  }, [allChecked, progressKey, answers, checkedQuestions]);
+
+  // 全問答え合わせしたら履歴に保存
+  useEffect(() => {
+    if (!allChecked || savedRef.current || !examSet) return;
+    savedRef.current = true;
+    clearProgress(progressKey);
+
+    const wrongIdsNow = wrongQuestions.map((q) => q.id);
+    if (reviewWrong) {
+      updateWrong(historyKey, wrongIdsNow);
+      return;
     }
-  }, [allChecked, questions, answers, examId, sectionId, saveRecord]);
+    saveResult(historyKey, {
+      correct: questions.length - wrongQuestions.length,
+      total: questions.length,
+      wrongIds: wrongIdsNow,
+    });
+    // 全問通しの結果は各セクションの履歴にも反映する
+    if (sectionId === 'all') {
+      for (const s of examSet.sections) {
+        const qs = questions.filter((q) => q._sectionId === s.id);
+        if (qs.length === 0) continue;
+        const wrong = qs.filter((q) => answers[q.id] !== q.answer);
+        saveResult(recordKey(examId, s.id), {
+          correct: qs.length - wrong.length,
+          total: qs.length,
+          wrongIds: wrong.map((q) => q._localId),
+        });
+      }
+    }
+  }, [allChecked, examSet, examId, sectionId, historyKey, progressKey, reviewWrong, questions, answers, wrongQuestions]);
+
+  const scrollToQuestion = useCallback((id) => {
+    questionRefs.current[id]?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, []);
 
   const scrollToFirstUnanswered = useCallback(() => {
     const first = questions.find((q) => !answers[q.id]);
-    if (first && questionRefs.current[first.id]) {
-      questionRefs.current[first.id].scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-  }, [questions, answers]);
+    if (first) scrollToQuestion(first.id);
+  }, [questions, answers, scrollToQuestion]);
 
-  const handleSubmit = useCallback(() => {
-    if (!allAnswered) {
-      scrollToFirstUnanswered();
-      return;
-    }
-    handleCheckAll();
-  }, [allAnswered, scrollToFirstUnanswered, handleCheckAll]);
-
-  const score = useMemo(() => {
-    if (!allChecked) return null;
-    const correct = questions.filter((q) => answers[q.id] === q.answer).length;
-    return { correct, total: questions.length };
-  }, [allChecked, questions, answers]);
-
-  const resetAudio = audio.reset;
+  const resetSectionAudio = sectionPlayer.reset;
   const handleRetry = useCallback(() => {
     setAnswers({});
     setCheckedQuestions(new Set());
     setShowOnlyWrong(false);
-    historySavedRef.current = false;
-    resetAudio();
+    setShowRestoredNotice(false);
+    savedRef.current = false;
+    clearProgress(progressKey);
+    resetSectionAudio();
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [resetAudio]);
+  }, [resetSectionAudio, progressKey]);
 
-  if (!examSet) {
-    return (
-      <div className={styles.page}>
-        <Header onBack={() => navigate(`/${examType}`)} accentColor={accent} />
-        <div className={styles.empty}>試験データが見つかりません</div>
-      </div>
-    );
-  }
+  const openFocus = useCallback((mode) => {
+    if (mode === 'review') {
+      const list = showOnlyWrong ? wrongQuestions : questions;
+      const firstWrong = list.findIndex((q) => answers[q.id] !== q.answer);
+      setFocus({ questions: list, initialIndex: Math.max(firstWrong, 0) });
+    } else {
+      const firstOpen = questions.findIndex((q) => !checkedQuestions.has(q.id));
+      setFocus({ questions, initialIndex: Math.max(firstOpen, 0) });
+    }
+  }, [showOnlyWrong, wrongQuestions, questions, answers, checkedQuestions]);
 
   if (questions.length === 0) {
     return (
       <div className={styles.page}>
-        <Header onBack={() => navigate(`/${examType}/${examId}`)} accentColor={accent} />
-        <div className={styles.empty}>問題が見つかりません</div>
+        <Header onBack={backToSections} accentColor={accent} />
+        <div className={styles.empty}>
+          {reviewWrong ? '解き直す問題はありません。全問正解です！' : '問題が見つかりません'}
+        </div>
       </div>
     );
   }
 
   return (
     <div className={styles.page}>
-      <Header
-        onBack={() => navigate(`/${examType}/${examId}`)}
-        accentColor={accent}
-      />
+      <Header onBack={backToSections} accentColor={accent} />
 
       <div className={styles.content}>
-        {/* Section title */}
-        {sectionTitle && (
-          <h2 className={styles.sectionTitle}>{examSet.meta.title} — {sectionTitle}</h2>
+        <h2 className={styles.sectionTitle}>
+          {examSet.meta.title}
+          {examSet.meta.subtitle && ` ${examSet.meta.subtitle}`} — {sectionTitle}
+        </h2>
+
+        {showRestoredNotice && !allChecked && (
+          <div className={styles.notice}>
+            <span>前回の続きから再開しました</span>
+            <button className={styles.noticeAction} onClick={handleRetry}>最初から</button>
+            <button className={styles.noticeClose} onClick={() => setShowRestoredNotice(false)} aria-label="閉じる">×</button>
+          </div>
         )}
 
-        {/* Instruction audio (e.g. Eiken part explanations) */}
         {instructionAudio && (
           <div className={styles.audioSection}>
-            <MiniAudioPlayer
-              src={instructionAudio}
-              label="説明音声"
-              accentColor={accent}
-            />
+            <MiniAudioPlayer src={instructionAudio} label="説明音声" accentColor={accent} />
           </div>
         )}
 
-        {/* Section-level audio player (when section has a single audio) */}
         {sectionAudio && (
           <div className={styles.audioSection}>
-            <AudioPlayer
-              src={sectionAudio}
-              accentColor={accent}
-              audio={audio}
-            />
+            <AudioPlayer audio={sectionPlayer} accentColor={accent} />
           </div>
         )}
 
-        {/* Progress indicator + Focus mode toggle */}
         {!allChecked && (
           <div className={styles.progressBar}>
             <div className={styles.progressInfo}>
               <span>
                 {checkedCount > 0
                   ? `${checkedCount} / ${questions.length} 確認済み`
-                  : `${answeredCount} / ${questions.length} 回答済み`
-                }
+                  : `${answeredCount} / ${questions.length} 解答済み`}
               </span>
-              <button
-                className={styles.focusToggle}
-                onClick={() => setFocusedMode(true)}
-                style={{ '--accent': accent }}
-                aria-label="1問ずつ表示"
-              >
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                  <rect x="2" y="3" width="12" height="4" rx="1" stroke="currentColor" strokeWidth="1.3"/>
-                  <rect x="2" y="9" width="12" height="4" rx="1" stroke="currentColor" strokeWidth="1.3" opacity="0.3"/>
+              <span className={styles.progressTools}>
+                <button
+                  className={`${styles.focusToggle} ${hidePrompt ? styles.toggleOn : ''}`}
+                  onClick={() => setHidePrompt((v) => !v)}
+                  style={{ '--accent': accent }}
+                  aria-pressed={hidePrompt}
+                  title="本番と同じく、音声で読まれる設問文を答え合わせまで隠します"
+                >
+                  設問を隠す
+                </button>
+                <button
+                  className={styles.focusToggle}
+                  onClick={() => openFocus('practice')}
+                  style={{ '--accent': accent }}
+                >
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <rect x="2" y="3" width="12" height="4" rx="1" stroke="currentColor" strokeWidth="1.3" />
+                  <rect x="2" y="9" width="12" height="4" rx="1" stroke="currentColor" strokeWidth="1.3" opacity="0.3" />
                 </svg>
-                1問ずつ
-              </button>
+                  1問ずつ
+                </button>
+              </span>
             </div>
             <div className={styles.progressTrack}>
               {checkedCount > 0 && (
                 <div
                   className={styles.progressFillChecked}
-                  style={{
-                    width: `${(checkedCount / questions.length) * 100}%`,
-                  }}
+                  style={{ width: `${(checkedCount / questions.length) * 100}%` }}
                 />
               )}
               <div
                 className={styles.progressFill}
-                style={{
-                  width: `${(answeredCount / questions.length) * 100}%`,
-                  background: accent,
-                }}
+                style={{ width: `${(answeredCount / questions.length) * 100}%`, background: accent }}
               />
             </div>
           </div>
         )}
 
-        {/* Wrong-answer filter toggle */}
-        {allChecked && score && score.correct < score.total && (
+        {score && score.correct < score.total && (
           <div className={styles.filterRow}>
             <button
               className={`${styles.filterToggle} ${showOnlyWrong ? styles.filterActive : ''}`}
               style={{ '--accent': accent }}
               onClick={() => setShowOnlyWrong((v) => !v)}
+              aria-pressed={showOnlyWrong}
             >
               {showOnlyWrong
                 ? `全問表示（${questions.length}問）`
-                : `間違えた問題のみ（${score.total - score.correct}問）`
-              }
+                : `間違えた問題のみ表示（${wrongQuestions.length}問）`}
             </button>
           </div>
         )}
 
-        {/* Questions — grouped by passage or rendered individually */}
         <div className={styles.questions}>
           {renderItems.map((item) => {
             if (item.type === 'passageGroup') {
               return (
-                <PassageGroup
-                  key={item.passageAudio}
-                  passageAudio={item.passageAudio}
-                  passageLabel={item.passageLabel}
-                  questions={item.questions}
-                  answers={answers}
-                  checkedQuestions={checkedQuestions}
-                  onAnswer={handleAnswer}
-                  onCheck={handleCheckQuestion}
-                  accentColor={accent}
-                  questionRefs={questionRefs}
-                  showOnlyWrong={showOnlyWrong}
-                />
+                <div key={item.passageAudio}>
+                  {item.questions[0]._divider && (
+                    <h3 className={styles.sectionDivider} style={{ borderColor: accent }}>
+                      {item.questions[0]._divider}
+                    </h3>
+                  )}
+                  <PassageGroup
+                    passageAudio={item.passageAudio}
+                    passageLabel={item.passageLabel}
+                    questions={item.questions}
+                    answers={answers}
+                    checkedQuestions={checkedQuestions}
+                    onAnswer={handleAnswer}
+                    onCheck={handleCheckQuestion}
+                    accentColor={accent}
+                    registerRef={registerRef}
+                    showOnlyWrong={showOnlyWrong}
+                    hidePrompt={hidePrompt}
+                  />
+                </div>
               );
             }
 
-            // Individual question (no passage group)
             const q = item.question;
             const isChecked = checkedQuestions.has(q.id);
             if (showOnlyWrong && isChecked && answers[q.id] === q.answer) return null;
             return (
-              <div key={q.id} ref={(el) => { questionRefs.current[q.id] = el; }}>
-                {q._sectionTitle && (
+              <div key={q.id} ref={(el) => registerRef(q.id, el)}>
+                {q._divider && (
                   <h3 className={styles.sectionDivider} style={{ borderColor: accent }}>
-                    {q._sectionTitle}
+                    {q._divider}
                   </h3>
                 )}
                 <QuestionCard
@@ -323,25 +388,24 @@ export default function PracticePage() {
                   onCheck={() => handleCheckQuestion(q.id)}
                   accentColor={accent}
                   showPassageAudio={passageAudioShown[item.index]}
+                  hidePrompt={hidePrompt}
                 />
               </div>
             );
           })}
         </div>
 
-        {/* Bottom action buttons */}
         {!allChecked && (
           <div className={styles.submitRow}>
             {uncheckedAnsweredCount > 0 && (
               <button
                 className={styles.submitButton}
                 style={{ '--accent': accent }}
-                onClick={allAnswered ? handleSubmit : handleCheckAll}
+                onClick={handleCheckAll}
               >
                 {allAnswered
                   ? `まとめて答え合わせ（${questions.length}問）`
-                  : `回答済みをまとめて確認（${uncheckedAnsweredCount}問）`
-                }
+                  : `解答済みをまとめて確認（${uncheckedAnsweredCount}問）`}
               </button>
             )}
             {!allAnswered && (
@@ -350,36 +414,47 @@ export default function PracticePage() {
                 style={{ '--accent': accent }}
                 onClick={scrollToFirstUnanswered}
               >
-                未回答あり（{answeredCount}/{questions.length}）
+                未解答の問題へ（{answeredCount}/{questions.length}）
               </button>
             )}
           </div>
         )}
 
-        {/* Results */}
-        {allChecked && score && (
+        {score && (
           <div className={styles.resultSection}>
+            {fromExam && <p className={styles.resultLabel}>本番モードの結果</p>}
             <ScoreBanner correct={score.correct} total={score.total} />
 
             <div className={styles.resultActions}>
+              {nextSection && (
+                <button
+                  className={styles.primaryButton}
+                  style={{ '--accent': accent }}
+                  onClick={() => navigate(`/${examType}/${examId}/${nextSection.id}`)}
+                >
+                  次へ: {nextSection.title}
+                </button>
+              )}
+              {wrongQuestions.length > 0 && (
+                <button
+                  className={styles.outlineButton}
+                  style={{ '--accent': accent }}
+                  onClick={() => navigate(`/${examType}/${examId}/${sectionId}?mode=wrong`)}
+                >
+                  間違えた{wrongQuestions.length}問を解き直す
+                </button>
+              )}
               <button
-                className={styles.retryButton}
+                className={styles.outlineButton}
                 style={{ '--accent': accent }}
-                onClick={handleRetry}
-              >
-                もう一度
-              </button>
-              <button
-                className={styles.focusReviewButton}
-                style={{ '--accent': accent }}
-                onClick={() => setFocusedMode(true)}
+                onClick={() => openFocus('review')}
               >
                 1問ずつ復習する
               </button>
-              <button
-                className={styles.backButton}
-                onClick={() => navigate(`/${examType}/${examId}`)}
-              >
+              <button className={styles.ghostButton} onClick={handleRetry}>
+                もう一度（全{questions.length}問）
+              </button>
+              <button className={styles.ghostButton} onClick={backToSections}>
                 セクション選択に戻る
               </button>
             </div>
@@ -387,18 +462,19 @@ export default function PracticePage() {
         )}
       </div>
 
-      {/* Focused mode overlay */}
-      {focusedMode && (
+      {focus && (
         <FocusedPracticeView
-          questions={questions}
+          questions={focus.questions}
+          initialIndex={focus.initialIndex}
           answers={answers}
           checkedQuestions={checkedQuestions}
           onAnswer={handleAnswer}
           onCheck={handleCheckQuestion}
-          onClose={() => setFocusedMode(false)}
+          onClose={() => setFocus(null)}
           accentColor={accent}
           sectionTitle={sectionTitle}
-          examTitle={examSet?.meta?.title}
+          examTitle={[examSet.meta.title, examSet.meta.subtitle].filter(Boolean).join(' ')}
+          hidePrompt={hidePrompt}
         />
       )}
     </div>

@@ -49,6 +49,16 @@
   transition: border-color 0.2s, color 0.2s;
 }
 
+.progressTools {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.toggleOn {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .focusToggle:active {
   background: rgba(255, 255, 255, 0.04);
 }
@@ -179,7 +189,26 @@
   margin-top: 1.25rem;
 }
 
-.retryButton {
+.primaryButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border-radius: var(--radius-md);
+  border: none;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: opacity 0.15s;
+}
+
+.primaryButton:active {
+  opacity: 0.9;
+}
+
+.outlineButton {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -194,30 +223,11 @@
   transition: background 0.15s;
 }
 
-.retryButton:active {
+.outlineButton:active {
   background: rgba(255, 255, 255, 0.04);
 }
 
-.focusReviewButton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 0.875rem 1rem;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--accent);
-  background: transparent;
-  color: var(--accent);
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: background 0.15s;
-}
-
-.focusReviewButton:active {
-  background: rgba(255, 255, 255, 0.04);
-}
-
-.backButton {
+.ghostButton {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -232,7 +242,7 @@
   transition: border-color 0.15s;
 }
 
-.backButton:active {
+.ghostButton:active {
   border-color: var(--color-border-hover);
 }
 
@@ -241,4 +251,50 @@
   color: var(--color-text-muted);
   padding: 3rem 1rem;
   font-size: 0.9rem;
+}
+
+.notice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 1rem;
+  padding: 6px 6px 6px 12px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--color-border);
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+}
+
+.notice > span {
+  flex: 1;
+}
+
+.noticeAction,
+.noticeClose {
+  min-height: 32px;
+  border: none;
+  background: transparent;
+  color: var(--color-text-secondary);
+  font-size: 0.8rem;
+}
+
+.noticeAction {
+  padding: 0 8px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.noticeClose {
+  min-width: 32px;
+  font-size: 1rem;
+  color: var(--color-text-muted);
+}
+
+.resultLabel {
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-align: center;
 }

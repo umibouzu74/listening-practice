@@ -5,103 +5,25 @@
   border-radius: var(--radius-md);
 }
 
+.bare {
+  /* 背景・枠は親要素が持つ */
+}
+
 .fallback {
   text-align: center;
-  padding: 20px 0;
+  padding: 12px 0;
   color: var(--color-text-muted);
   font-size: 13px;
 }
 
-/* Seek bar row: [skip back] [seekbar] [skip forward] */
+/* [5秒戻る] [シークバー] [5秒進む] */
 .seekRow {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 8px;
+  gap: 8px;
 }
 
-.seekBtn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  min-width: 36px;
-  min-height: 36px;
-  border: none;
-  border-radius: 50%;
-  background: transparent;
-  color: var(--color-text-muted);
-  transition: color 0.15s;
-  flex-shrink: 0;
-}
-
-.seekBtn:active:not(:disabled) {
-  color: var(--color-text-primary);
-}
-
-.seekBtn:disabled {
-  opacity: 0.4;
-}
-
-.seekTrack {
-  flex: 1;
-  height: 6px;
-  background: rgba(255, 255, 255, 0.12);
-  border-radius: 3px;
-  cursor: pointer;
-  position: relative;
-  touch-action: none;
-  padding: 12px 0;
-  background-clip: content-box;
-}
-
-.seekFill {
-  position: absolute;
-  top: 12px;
-  left: 0;
-  height: 6px;
-  border-radius: 3px;
-  pointer-events: none;
-  will-change: width;
-}
-
-.seekThumb {
-  position: absolute;
-  top: 50%;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  will-change: left;
-  pointer-events: none;
-  z-index: 2;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-}
-
-/* Time row */
-.timeRow {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 2px;
-  margin-bottom: 8px;
-}
-
-.time {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  color: var(--color-text-muted);
-}
-
-/* Controls row: [loop] [speed] [play] */
-.controlsRow {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-}
-
-.loopBtn {
+.iconBtn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,22 +35,45 @@
   border-radius: var(--radius-sm);
   background: transparent;
   color: var(--color-text-muted);
+  flex-shrink: 0;
   transition: color 0.15s;
 }
 
-.loopBtn:active:not(:disabled) {
+.iconBtn:active:not(:disabled) {
   color: var(--color-text-primary);
 }
 
-.loopBtn:disabled {
-  opacity: 0.4;
+.iconBtn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.timeRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 48px;
+  margin-bottom: 8px;
+}
+
+.time {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+/* [ループ] [速度] [再生] [追加ボタン…] */
+.controlsRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 
 .speedBtn {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 48px;
+  min-width: 52px;
   height: 40px;
   padding: 0 8px;
   border: 1px solid var(--color-border);
@@ -141,13 +86,9 @@
   transition: border-color 0.2s, color 0.2s;
 }
 
-.speedBtn:active:not(:disabled) {
+.speedBtn:active {
   border-color: var(--color-border-hover);
   color: var(--color-text-primary);
-}
-
-.speedBtn:disabled {
-  opacity: 0.4;
 }
 
 .mainPlayBtn {
@@ -161,18 +102,9 @@
   border: none;
   border-radius: 50%;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition: transform 0.15s;
 }
 
-.mainPlayBtn:active:not(:disabled) {
-  transform: scale(1.06);
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
-}
-
-.mainPlayBtn:active:not(:disabled) {
+.mainPlayBtn:active {
   transform: scale(0.94);
-}
-
-.mainPlayBtn:disabled {
-  opacity: 0.4;
 }

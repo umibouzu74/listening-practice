@@ -1,16 +1,23 @@
-const GITHUB_USER = "umibouzu74";
-const GITHUB_PAGES_BASE = `https://${GITHUB_USER}.github.io`;
-
+// 試験種別の設定（表示名・アイコン・カラーなど）を一元管理する。
+// データ（src/data/{examType}/*.json）が1件もない種別はホーム画面で「準備中」と表示される。
 const EXAM_TYPES = {
   eiken: {
     id: "eiken",
-    label: "英検準1級",
+    label: "英検",
     icon: "🏅",
     color: "#3498db",
-    description: "英検準1級 リスニング演習",
+    description: "英検 リスニング演習（準1級）",
     groupBy: "grade",
     sortOrder: "desc",
-    grades: { pre1: "準1級" },
+    // 表示順（上から）
+    grades: {
+      "1": "1級",
+      pre1: "準1級",
+      "2": "2級",
+      pre2plus: "準2級プラス",
+      pre2: "準2級",
+      "3": "3級",
+    },
   },
   kyotsu: {
     id: "kyotsu",
@@ -18,8 +25,8 @@ const EXAM_TYPES = {
     icon: "📝",
     color: "#e94560",
     description: "大学入学共通テスト リスニング",
-    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-kyotsu/`,
-    comingSoon: true,
+    groupBy: "year",
+    sortOrder: "desc",
   },
   toeic: {
     id: "toeic",
@@ -27,8 +34,6 @@ const EXAM_TYPES = {
     icon: "🌐",
     color: "#e67e22",
     description: "TOEIC Listening 演習",
-    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-toeic/`,
-    comingSoon: true,
   },
   nyushi: {
     id: "nyushi",
@@ -36,8 +41,7 @@ const EXAM_TYPES = {
     icon: "🏫",
     color: "#2ecc71",
     description: "公立高校入試 リスニング",
-    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-nyushi/`,
-    comingSoon: true,
+    groupBy: "prefecture",
   },
   custom: {
     id: "custom",
@@ -45,8 +49,6 @@ const EXAM_TYPES = {
     icon: "✏️",
     color: "#9b59b6",
     description: "オリジナル・その他のリスニング教材",
-    externalUrl: `${GITHUB_PAGES_BASE}/listening-practice-custom/`,
-    comingSoon: true,
   },
 };
 
@@ -71,6 +73,14 @@ export function getExamColor(examType) {
  */
 export function getGradeLabel(grade) {
   return EXAM_TYPES.eiken.grades[grade] || grade;
+}
+
+/**
+ * 英検の級の並び順（上位級ほど小さい値）。未知の級は末尾。
+ */
+export function getGradeOrder(grade) {
+  const idx = Object.keys(EXAM_TYPES.eiken.grades).indexOf(String(grade));
+  return idx === -1 ? Number.MAX_SAFE_INTEGER : idx;
 }
 
 const PREFECTURE_LABELS = {

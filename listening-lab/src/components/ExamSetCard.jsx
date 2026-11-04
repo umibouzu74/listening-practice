@@ -1,39 +1,45 @@
+import { ChevronIcon } from './AudioIcons';
+import { countQuestions, isDraft } from '../data/registry';
 import styles from './ExamSetCard.module.css';
 
-export default function ExamSetCard({ examSet, accentColor, onClick }) {
+export default function ExamSetCard({ examSet, accentColor, completedSections = 0, onClick }) {
   const accent = accentColor || 'var(--color-accent)';
   const { meta, sections } = examSet;
-  const totalQuestions = sections.reduce(
-    (sum, s) => sum + (s.questions?.length || 0),
-    0
-  );
+  const draft = isDraft(examSet);
+  const progress = sections.length > 0 ? completedSections / sections.length : 0;
 
   return (
     <button
-      className={styles.card}
-      onClick={onClick}
+      className={`${styles.card} ${draft ? styles.draft : ''}`}
+      onClick={draft ? undefined : onClick}
+      disabled={draft}
       style={{ '--card-accent': accent }}
     >
       <div className={styles.header}>
-        <span className={styles.title}>{meta.subtitle || meta.title}</span>
-        {meta.description && (
-          <span className={styles.description}>{meta.description}</span>
-        )}
+        <span className={styles.title}>
+          {meta.subtitle || meta.title}
+          {draft && <span className={styles.draftBadge}>準備中</span>}
+        </span>
+        {meta.description && <span className={styles.description}>{meta.description}</span>}
       </div>
       <div className={styles.footer}>
         <span className={styles.stat}>
-          {sections.length}セクション・{totalQuestions}問
-          {meta.totalTime && ` ・ ${meta.totalTime}分`}
+          {sections.length}セクション・{countQuestions(examSet)}問
+          {meta.totalTime && ` ・ 約${meta.totalTime}分`}
         </span>
-        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className={styles.arrow}>
-          <path
-            d="M6 4L10 8L6 12"
-            stroke="currentColor"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+        {!draft && completedSections > 0 && (
+          <span className={styles.progress}>
+            <span className={styles.progressTrack}>
+              <span className={styles.progressFill} style={{ width: `${progress * 100}%` }} />
+            </span>
+            {completedSections}/{sections.length}
+          </span>
+        )}
+        {!draft && (
+          <span className={styles.arrow}>
+            <ChevronIcon />
+          </span>
+        )}
       </div>
     </button>
   );
