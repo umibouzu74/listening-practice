@@ -15,7 +15,7 @@
     {
       "id": "part1",
       "title": "Part 1",
-      "description": "会話の応答 — 対話を聞き、最後の発言に対する応答として最も適切なものを選びなさい。",
+      "description": "会話の内容一致選択 — 会話を聞き、その質問に対して最も適切なものを選びなさい。",
       "playCount": "1回読み",
       "instructionAudio": "audio/eiken/eiken-pre1-2022-2/01_Part1_explanation.mp3",
       "questions": [
