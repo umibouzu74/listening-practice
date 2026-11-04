@@ -143,7 +143,7 @@ export default function QuestionBody({
             ) : (
               <span className={styles.resultIncorrect}>
                 不正解（正解: {question.answer}
-                {correctChoice?.text ? ` ${correctChoice.text}` : ''}）
+                {correctChoice?.text ? `. ${correctChoice.text}` : ''}）
               </span>
             )}
           </div>

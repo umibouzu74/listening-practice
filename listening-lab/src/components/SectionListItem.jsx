@@ -39,7 +39,7 @@ export default function SectionListItem({ title, subtitle, questionCount, playCo
                   最高 {history.bestScore.correct}/{history.bestScore.total}
                 </span>
                 <span className={styles.dot}>·</span>
-                <span className={styles.attempts}>{history.attempts}回</span>
+                <span className={styles.attempts}>挑戦{history.attempts}回</span>
                 {history.lastAttempt && (
                   <>
                     <span className={styles.dot}>·</span>

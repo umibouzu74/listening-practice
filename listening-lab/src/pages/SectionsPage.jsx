@@ -87,7 +87,7 @@ export default function SectionsPage() {
         <h3 className={styles.subheading}>本番形式で解く</h3>
         <SectionListItem
           title="本番モード"
-          subtitle="説明から最後の問題まで、音声が1回ずつ止まらずに流れます。最後にまとめて採点"
+          subtitle="説明から最後の問題まで音声が1回ずつ止まらずに流れ、最後にまとめて採点します"
           questionCount={countQuestions(examSet)}
           playCount={meta.totalTime ? `約${meta.totalTime}分` : undefined}
           accentColor={accent}

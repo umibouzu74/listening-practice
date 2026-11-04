@@ -38,12 +38,12 @@ export default function QuestionCard({
           {showPassageAudio && question.passageAudio && (
             <MiniAudioPlayer
               src={question.passageAudio}
-              label={question.passageLabel || 'Passage'}
+              label={question.passageLabel || '本文'}
               accentColor={accent}
             />
           )}
           {question.audio && (
-            <MiniAudioPlayer src={question.audio} label="Question" accentColor={accent} />
+            <MiniAudioPlayer src={question.audio} label="問題音声" accentColor={accent} />
           )}
         </>
       )}

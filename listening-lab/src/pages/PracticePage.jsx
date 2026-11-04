@@ -288,7 +288,7 @@ export default function PracticePage({ examSet }) {
               <span>
                 {checkedCount > 0
                   ? `${checkedCount} / ${questions.length} 確認済み`
-                  : `${answeredCount} / ${questions.length} 回答済み`}
+                  : `${answeredCount} / ${questions.length} 解答済み`}
               </span>
               <span className={styles.progressTools}>
                 <button
@@ -405,7 +405,7 @@ export default function PracticePage({ examSet }) {
               >
                 {allAnswered
                   ? `まとめて答え合わせ（${questions.length}問）`
-                  : `回答済みをまとめて確認（${uncheckedAnsweredCount}問）`}
+                  : `解答済みをまとめて確認（${uncheckedAnsweredCount}問）`}
               </button>
             )}
             {!allAnswered && (
@@ -414,7 +414,7 @@ export default function PracticePage({ examSet }) {
                 style={{ '--accent': accent }}
                 onClick={scrollToFirstUnanswered}
               >
-                未回答の問題へ（{answeredCount}/{questions.length}）
+                未解答の問題へ（{answeredCount}/{questions.length}）
               </button>
             )}
           </div>

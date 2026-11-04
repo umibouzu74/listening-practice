@@ -23,7 +23,7 @@ export default function PracticeRoute() {
     const message = {
       loading: '読み込み中…',
       notfound: '試験データが見つかりません',
-      error: '問題データを読み込めませんでした。通信状況を確認してください',
+      error: '問題データを読み込めませんでした。通信状況を確認してください。',
     }[status] ?? 'この回は問題データを準備中です';
     return (
       <div className={styles.page}>

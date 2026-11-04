@@ -12,6 +12,9 @@
 - 答え合わせ後に解説・スクリプト・和訳（段落ごとの対訳）を表示
 - 学習履歴（最高点・回数・前回間違えた問題）を端末に保存し、**間違えた問題だけを解き直す** ことができる
 - 解答途中で戻ってしまっても、同じタブなら続きから再開
+- **本番モード**: 説明 → 各問の音声を本番どおり1回ずつ止めずに流し、マークシート風の解答用紙で解答。終了後に採点
+- **設問を隠す** 設定: 英検 Part 1・2 のように本番で印刷されない設問文を、答え合わせまで隠せる
+- 問題データは回ごとに分割して必要なときだけ読み込む（一覧画面は軽い目次だけで表示）
 
 ## 開発
 
@@ -33,6 +36,7 @@ PR では同じチェック（デプロイなし）が `.github/workflows/ci.yml
 
 1. `src/data/{examType}/{任意の名前}.json` を作成する（下記フォーマット）
    - **JSON を置くだけで自動的にアプリに登録されます**（レジストリの手動更新は不要）
+   - 一覧用の目次は `vite.config.js` の exam-index プラグインがビルド時に自動生成します
 2. 音声ファイルを `public/audio/{examType}/{examId}/` に置く
 3. `npm run validate` でエラーがないことを確認する
 
@@ -64,7 +68,7 @@ PR では同じチェック（デプロイなし）が `.github/workflows/ci.yml
         {
           "id": "q1",
           "number": 1,
-          "audio": "audio/eiken/eiken-pre1-2024-3/02_No01.mp3",
+          "audio": "audio/eiken/eiken-pre1-2024-3/02_No01.mp3",   // 本番モードでは解答時間の無音も含めて連続再生する
           "prompt": "Why is the woman annoyed?",
           "choices": [
             { "label": "1", "text": "The store clerk charged her too much." },
@@ -90,6 +94,7 @@ PR では同じチェック（デプロイなし）が `.github/workflows/ci.yml
 | `passageAudio` / `passageLabel` | 本文音声と見出し（英検 Part 2 など）。同じ `passageAudio` を持つ連続した設問は1グループとして表示され、本文 → 各設問を連続再生する |
 | `situation` / `situationJa` | Real-Life 形式（英検 Part 3）の状況文と和訳。英文がない場合は和訳を状況文として表示 |
 | `promptJa` | 設問文の和訳（「和訳を表示」で表示） |
+| （共通） | `situation` / `situationJa` がない問題の `prompt` は「本番では音声だけで読まれる設問」として扱われ、「設問を隠す」設定や本番モードで答え合わせまで非表示になる |
 | `image` | 図表画像のパス（`public/` からの相対パス） |
 | section の `audioFile` | セクション全体で1本の音声がある場合（共通テストなど） |
 

@@ -62,7 +62,7 @@ export default function PassageGroup({
 
       {allGroupChecked && (
         <div className={styles.replaySection}>
-          <MiniAudioPlayer src={passageAudio} label={`${label}だけ聞き直す`} accentColor={accent} />
+          <MiniAudioPlayer src={passageAudio} label="本文だけ聞き直す" accentColor={accent} />
         </div>
       )}
     </div>
