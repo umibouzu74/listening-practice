@@ -30,9 +30,9 @@
             { "label": "4", "text": "He finds it hard to download e-books." }
           ],
           "answer": "4",
-          "explanation": "男性は2番目の発言の第2文で「それをダウンロードするのが問題だ」と述べている。them は、直前の女性の発言中の e-books を指しているから、4「電子書籍をダウンロードするのが難しいと思っている」が正解。",
+          "explanation": "男性の2番目の発言「downloading them is the problem」から、電子書籍をダウンロードすることに苦労しているとわかるので4が正解。リーダーは手元にあり、文字を大きくする方法まで尋ねているので1・3は誤り。無料の電子書籍があることも知っていると答えており、買いたくないという話ではないので2も当たらない。",
           "script": "W: Why are you reading that paperback book, Dad? I just gave you an e-reader for your birthday!\nM: I already finished the book you downloaded for me.\nW: There's more where that came from. And there are a lot of free e-books on the Internet.\nM: Yeah, I know. But downloading them is the problem.\nW: I'm always happy to help, Dad.\nM: That would be great. And while you're at it, can you show me how to make the letters bigger on the reader?\nW: Of course.",
-          "scriptJa": "W: お父さん、どうしてペーパーバックの本を読んでいるの？ お誕生日に電子書籍リーダーをあげたばかりなのに！\nM: 君がダウンロードしてくれた本はもう読み終わった。\nW: その本のダウンロード元にはもっとたくさんの本があるわよ。それにインターネット上には無料の電子書籍がたくさんあるのに。\nM: ああ、知っている。でもそれをダウンロードするのが問題でね。\nW: お父さん、いつでも喜んで手伝うわよ。\nM: それは助かる。ついでに、リーダー上で字を大きくする方法を教えてくれないか？\nW: もちろん。"
+          "scriptJa": "W: お父さん、どうしてその文庫本を読んでいるの？誕生日に電子書籍リーダーをあげたばかりじゃない！\nM: お前がダウンロードしてくれた本は、もう読み終わってしまったんだよ。\nW: 本ならまだいくらでもあるよ。それに、インターネットには無料の電子書籍もたくさんあるし。\nM: ああ、それはわかっているんだ。でも、ダウンロードするのが難しくてね。\nW: いつでも手伝うよ、お父さん。\nM: それは助かるな。ついでに、リーダーの文字を大きくする方法も教えてくれないか？\nW: もちろん。"
         },
         {
           "id": "q2",
@@ -46,9 +46,9 @@
             { "label": "4", "text": "Join another yoga group." }
           ],
           "answer": "3",
-          "explanation": "男性は最初の発言で「最近、（ヨガに）前より少し熱が入ってきたが、ポーズは少しも楽にならない」と述べている。男性は、2番目の発言では「（他の生徒と自分を比べると）恥ずかしくなる時がある」と述べている。しかし、女性の最後の発言を受けて、最後の発言では「次にクラスで転んだ時には、それを思い出すようにする」と述べていることから、3「現在のクラスを続ける」が適切である。",
+          "explanation": "男性は最後の発言で、次にクラスで転んだときには講師の言葉を思い出すようにすると言っており、今のクラスに今後も通うつもりだとわかるので3が正解。ほかの生徒と比べて恥ずかしいとは述べているが、個人レッスンや別のヨガのグループ、ほかの活動に移るという話は出てこないので1・2・4は誤り。",
           "script": "W: It's nice to see you coming to yoga class more regularly, José.\nM: Yeah, I've been getting into it a little more lately. Still, the poses don't seem to get any easier.\nW: Be patient with yourself; change happens gradually.\nM: Sometimes I feel embarrassed because the other students are so much more flexible.\nW: Don't worry about comparing yourself with anyone. Yoga is a holistic mind-and-body practice, not a competition.\nM: I'll try to keep that in mind next time I fall over in class.",
-          "scriptJa": "W: ヨガクラスに前より定期的に来てくれるようになってよかったわ、ホセ。\nM: ええ、最近、前より少し熱が入ってきました。それでも、ポーズは少しも楽にならないみたいです。\nW: あせらないで。変化は徐々に起きるものですから。\nM: 他の生徒さんははるかに柔軟なので、恥ずかしくなる時もあります。\nW: 自分を誰かと比べて悩まないでね。ヨガは全体的な心身の修練で、競争ではありません。\nM: 次にクラスで転んだ時には、それを思い出すようにします。"
+          "scriptJa": "W: ホセ、最近は前よりきちんとヨガのクラスに来てくれてうれしいわ。\nM: ええ、このところ少しはまってきたんです。それでも、ポーズは一向に楽にならない気がします。\nW: 焦らないで。変化は少しずつ起きるものよ。\nM: ほかの生徒さんたちのほうがずっと体が柔らかいので、ときどき恥ずかしくなるんです。\nW: 誰かと自分を比べて気にすることはないわ。ヨガは心と体をまるごと整えるもので、競争ではないのよ。\nM: 次にクラスで転んだときは、その言葉を思い出すようにします。"
         },
         {
           "id": "q3",
@@ -62,9 +62,9 @@
             { "label": "4", "text": "She wants to increase staff salaries." }
           ],
           "answer": "1",
-          "explanation": "女性の2番目の発言の第2文「彼女はいくつか面白い企画を持っていて、それこそが私たちの部が必要としているものだ」より、1「彼女は部のためにいくつか新しいアイデアを持っている」が正解となる。2は、女性の2番目の発言の第1文に合致しない。",
+          "explanation": "女性の2番目の発言で、新しい上司は面白い構想を持っていてそれが部署に必要だと述べているので、これを「部署のための新しい考えがある」と言い換えた1が正解。出版業界にとても詳しいと言っているので2は逆の内容である。高校が同じだったことは話しているが成績には触れておらず、給与の話も出ないので3・4も誤り。",
           "script": "M: Have you met the new boss?\nW: I have. We discovered we're from the same hometown. We even went to the same high school, though she was a few years ahead of me.\nM: Small world! What did you think of her?\nW: She's very knowledgeable about the publishing business. She has some interesting plans, and that's what our division needs.\nM: Well, that's exciting. We need a supportive leader.",
-          "scriptJa": "M: 新しいボスに会った？\nW: ええ。お互い同郷者だとわかったの。高校も一緒。彼女の方が少し先輩だけど。\nM: 世間は狭いね！ 彼女のことどう思った？\nW: 彼女は出版業界のことをよく知っているわ。いくつか面白い企画を持っていて、それこそが私たちの部が必要としているものよ。\nM: そう、それはワクワクするね。僕たちには支援してくれるリーダーが必要だ。"
+          "scriptJa": "M: 新しい上司にはもう会った？\nW: 会ったわ。同じ町の出身だとわかったの。高校まで同じだったのよ。向こうのほうが何年か先輩だけど。\nM: 世間は狭いね！どんな印象だった？\nW: 出版業界のことにとても詳しい人よ。面白い構想をいくつか持っていて、それこそうちの部署に必要なものだわ。\nM: それは楽しみだね。僕たちには支えてくれるリーダーが必要だから。"
         },
         {
           "id": "q4",
@@ -73,14 +73,14 @@
           "prompt": "Why is the woman giving away her clothes?",
           "choices": [
             { "label": "1", "text": "She wants to help a family in need." },
-            { "label": "2", "text": "They no longer fit her." },
+            { "label": "2", "text": "They no longer fit her well." },
             { "label": "3", "text": "There is an event at her school." },
             { "label": "4", "text": "She does not have storage space for them." }
           ],
           "answer": "1",
-          "explanation": "女性が2番目の発言で「コミュニティセンターで家が火事になった家族のために服を集めている。彼らはすべてを失ってしまった」と述べているから、1「彼女は困っている家族を助けたい」が正解。火事ですべてを失った家族のことを、選択肢では a family in need と言い換えている。2については、男性が2番目の発言の第2文で「サイズが変わったのではないだろう」と述べたのに対して、女性は No と答えているので不適切。3については、学校で行事があったのは約1カ月前。4については言及されていない。",
+          "explanation": "女性の2番目の発言で、火事ですべてを失った家族のために公民館が服を集めていると説明しているので、これを「困っている家族を助けたい」と言い換えた1が正解。男性の問いかけに対してサイズは変わっていないと答えているので2は誤り。学校の資金集めは1か月前の話であり、置き場所の問題にも触れていないので3・4も当たらない。",
           "script": "M: Why are all of your clothes piled up on the bed?\nW: I'm sorting through them to see which items I want to donate.\nM: Didn't you do that about a month ago for a school fund-raiser? It's not like your size has changed since then.\nW: No, but the community center is gathering clothes for a family who just had a house fire. They lost everything.\nM: That's terrible. Do they need men's clothes? I could part with a few items myself.",
-          "scriptJa": "M: どうして君の洋服がベッドの上に山積みになっているんだい？\nW: そこから寄付したいものを選んでいるの。\nM: 1カ月くらい前に学校の資金集めの行事でそれをやらなかった？ あれから君のサイズは変わってないみたいだけど。\nW: そうだけど、コミュニティセンターで家が火事になった家族のために服を集めているの。彼らはすべてを失ってしまったから。\nM: それは大変だ。男物は必要だろうか？ 僕も手放せる物が何枚かあるかもしれない。"
+          "scriptJa": "M: どうして君の服がベッドの上に山積みになっているの？\nW: 寄付する服を選ぶために仕分けしているの。\nM: 1か月くらい前にも、学校の資金集めのために同じことをしなかった？あれからサイズが変わったわけでもないだろう。\nW: 変わってないわ。でも、火事で家を失ったばかりの家族のために、公民館が服を集めているの。その家族は何もかもなくしてしまったのよ。\nM: それは気の毒に。男物の服も要るのかな？僕も何着か手放してもいいよ。"
         },
         {
           "id": "q5",
@@ -94,9 +94,9 @@
             { "label": "4", "text": "It will lead to many staff being fired." }
           ],
           "answer": "3",
-          "explanation": "男性が2番目の発言の第3文で、「これによって、営業経費は削減され、我々の市場における地位は強化されるだろう」と述べている。よって、3「それによって会社はもっとうまくいく」が正解。4については、職場を去るスタッフについて言及されているが、自発的に職場を去ると述べられているので不適切。",
+          "explanation": "男性の2番目の発言で、合併によって運営経費が減り、市場での立場も強くなると述べており、これを「会社がより成功する」とまとめた3が正解。辞める社員は自分の意思で独立するのであって解雇されるわけではないので4は誤り。自分の仕事量が減ることや、独立した業者との仕事が増えることは話題になっていないので1・2も当たらない。",
           "script": "M: Did you see the latest newsletter? It seems our merger with Evan's Real Estate is now official.\nW: I'm dreading moving our offices, but I admit it makes sense.\nM: I agree. We've been working with their agents for years. This will just reduce our operating expenses and strengthen our market position.\nW: Yeah. But I've heard that some of our staff have decided to leave to work on their own.\nM: I think the merger is just convenient timing for them. They've wanted to become independent for a while.\nW: Well, I'll still be sad to see them go.",
-          "scriptJa": "M: 最新の社報を見た？ エバンズ不動産との合併が正式なものになったようだ。\nW: オフィスの移転がものすごく心配だけど、賢明だと認めるわ。\nM: 同感だ。我々は長い間彼らの代理店と仕事をしてきた。これによって、営業経費は削減され、我々の市場における地位は強化されるだろうね。\nW: そうね。でも、スタッフの中には辞めて独立することにした人もいると聞いたわ。\nM: 彼らにとって合併はちょうどいいタイミングなんだろう。彼らは以前から独立したがっていたんだ。\nW: そう、それでも彼らがいなくなるのはさびしいわ。"
+          "scriptJa": "M: 最新の社内報を見た？エヴァンズ不動産との合併が正式に決まったみたいだね。\nW: オフィスの引っ越しは気が重いけど、合併が理にかなっているのは認めるわ。\nM: 同感だよ。うちは何年も前から向こうの仲介担当者と一緒に仕事をしてきたしね。これで運営経費は減るし、市場での立場も強くなるよ。\nW: そうね。でも、うちの社員の何人かが独立するために辞めることにしたって聞いたわ。\nM: 彼らにとっては、合併がちょうどいいきっかけになっただけだと思うよ。しばらく前から独立したがっていたからね。\nW: それでも、彼らがいなくなるのは寂しいわ。"
         },
         {
           "id": "q6",
@@ -110,9 +110,9 @@
             { "label": "4", "text": "They do not have many environmental benefits." }
           ],
           "answer": "2",
-          "explanation": "女性が最初の発言で「ソーラーパネルを設置すれば、光熱費の節約になるだろう」と提案すると、男性は最初の発言の第2文で「僕たちに合わないと思う」と述べ、2番目の発言で「投資したお金を取り戻すのに15年程度かかるが、僕たちはこの家にそんなに長く住み続けないだろう」とその理由を説明している。よって、2「それによって夫婦がお金を節約することはないだろう」が適切。4については、男性は最初の発言の第1文で「パネルは環境に優しい」と述べているので不適切。",
+          "explanation": "男性の2番目の発言で、元を取るのに15年ほどかかるがそれほど長くは住まないと述べ、最後の発言では売却時の価値もあまり上がらないと言っている。つまりこの夫婦にとっては節約にならないので2が正解。男性はパネルが環境にやさしいと認めているので4は誤り。「時代遅れになる」は売るときの価値についての話で、数年で交換が必要になるという意味ではないので3も当たらない。",
           "script": "W: What do you think about installing solar panels on our roof? The initial costs are a little high, but we'd save a lot on energy bills.\nM: Well, panels are becoming more efficient, and they're eco-friendly. But I don't think they'd be a good match for us.\nW: Why not?\nM: It would take something like 15 years to make our money back on the investment, but we won't be living in this house that long.\nW: But wouldn't solar panels make the place worth more when we sell it?\nM: Not by much. By then, our panels would be outdated.",
-          "scriptJa": "W: うちの屋根にソーラーパネルを設置するのはどうかしら？ 初期費用は少し高いけど、光熱費をずいぶん節約できそうよ。\nM: そうだね、実際、パネルの効率は上がっているし、環境に優しい。でも、僕たちには合わないと思うよ。\nW: どうして？\nM: 投資したお金を取り戻すのに15年程度かかるけど、僕たちはこの家にそんなに長く住まないだろう。\nW: でも、売る時に、ソーラーパネルがあれば建物の価値が上がるんじゃない？\nM: たいしたことはないね。その頃には、うちのソーラーパネルは時代遅れになっているだろうから。"
+          "scriptJa": "W: うちの屋根にソーラーパネルを付けるのはどうかしら？初期費用は少し高いけど、光熱費がずいぶん浮くわよ。\nM: うーん、パネルは効率もよくなってきているし、環境にもやさしいよね。でも、うちには向いていないと思うんだ。\nW: どうして？\nM: 投資した分を取り戻すのに15年くらいかかるけど、僕たちはそんなに長くこの家に住まないだろう。\nW: でも、ソーラーパネルがあれば、家を売るときに高く売れるんじゃない？\nM: 大して変わらないよ。その頃にはうちのパネルは時代遅れになっているだろうから。"
         },
         {
           "id": "q7",
@@ -121,14 +121,14 @@
           "prompt": "What does the woman imply?",
           "choices": [
             { "label": "1", "text": "Miki has not completed her translation work." },
-            { "label": "2", "text": "The deadline is likely to be changed." },
+            { "label": "2", "text": "The deadline is likely to change." },
             { "label": "3", "text": "The client has made a number of mistakes." },
             { "label": "4", "text": "Miki often does not work carefully enough." }
           ],
           "answer": "4",
-          "explanation": "女性は最後の発言の第2文で「彼女に時間をかけてと頼んでも、ミキはすぐに私に返そうと急ぐ傾向がある」と述べ、男性は「徹底的にチェックする」と応じている。これらのやりとりから、4「ミキは仕事に十分な注意を払わないことが多い」が正解。1については、女性と男性の最初のやりとりから、ミキの翻訳は完了したことがわかるので不適切。2については、締切りの変更がありそうだとは述べていない。",
+          "explanation": "女性の3番目の発言で、ミキは時間をかけるよう頼んでも急いで仕上げてしまう傾向があると言っており、仕事が雑になりがちだと暗に示しているので4が正解。翻訳はすでに仕上がって確認に回されているので1は誤り。締め切りまで数日あると述べているだけで変更の話はなく、ミスを心配しているのも顧客のものではないので2・3も当たらない。",
           "script": "W: Could you have a look at this translation, Jared?\nM: Sure. Is it the one that Miki did for LTR Chemicals?\nW: Yes. Please give it extra attention because they're very particular about accuracy. We can't afford to lose them as a client.\nM: OK. Is the deadline urgent?\nW: No, we're ahead of schedule and still have a few days until it's due. Miki has a tendency to rush to get things back to me quickly, even though I ask her to take her time.\nM: OK, I'll give it a thorough check.",
-          "scriptJa": "W: ジャレド、この翻訳を見てもらえるかしら？\nM: いいとも。これはミキがLTR化学のためにやったものかな？\nW: ええ。彼らは正確さにこだわるから、特に注意してね。彼らを顧客として失うことはできないわ。\nM: わかった。締切りは迫っている？\nW: いいえ、予定よりも早く進んでいて、期限までまだ数日あるわ。ミキは、時間をかけてやってと頼んでも、すぐに返そうと急ぐ傾向があるの。\nM: わかった。徹底的にチェックするよ。"
+          "scriptJa": "W: ジャレッド、この翻訳を見てもらえる？\nM: いいですよ。ミキがLTRケミカルズ向けにやったものですか？\nW: そう。あそこは正確さにとてもうるさいから、特に念入りに見てちょうだい。お客さんとして失うわけにはいかないの。\nM: わかりました。締め切りは迫っていますか？\nW: いいえ、予定より早く進んでいて、締め切りまでまだ数日あるわ。ミキは、時間をかけていいと言っているのに、急いで早く仕上げて私に戻してくる癖があるのよ。\nM: わかりました。しっかりチェックします。"
         },
         {
           "id": "q8",
@@ -142,9 +142,9 @@
             { "label": "4", "text": "He is unable to book another cruise." }
           ],
           "answer": "1",
-          "explanation": "男性は最初の発言の第1文で「考え直している」と述べ、続く第2文では「いくつかのウェブサイトでレビューを見ていたら、不満を持った客がたくさんいるようだ」と述べている。よって、1「彼はオンラインでたくさんの不満を見つけた」が正解。2と3については、男性は最後の発言で「予算を少し増やして、もっと評判のいいクルーズを予約してはどうか」と述べているので不適切。4については、女性が最後の発言で「代理店に話してみる」と述べているので不適切。",
+          "explanation": "男性の最初の発言で、複数のサイトでレビューを見たら不満を持つ客が多いようだと述べているので、これを「ネット上で多くの苦情を見つけた」と言い換えた1が正解。予算を増やすのは男性自身の提案であり、料金が値上がりしたわけではないので2は誤り。仕事の休みが取れないことや、ほかのクルーズが予約できないことは話題になっていないので3・4も当たらない。",
           "script": "W: Honey, the travel agent just called. He said the cruise is nearly sold out, so we have to decide soon.\nM: Actually, I've been having second thoughts. I was looking at reviews on several websites, and there seem to be a lot of dissatisfied customers.\nW: Really? A few of the ones I saw were very positive. Well, we don't have to go. I just think you should get some kind of reward for working so hard lately.\nM: How about increasing our budget a bit and booking a cruise with a better reputation?\nW: OK. I'll talk to the agent.",
-          "scriptJa": "W: ねえ、あなた、旅行代理店からたった今電話があったわ。クルーズが売り切れ間近だから、すぐに決める必要があるそうよ。\nM: 実を言うと、考え直しているところなんだ。いくつかのウェブサイトでレビューを見ていたら、不満を持った客がたくさんいるようでね。\nW: 本当？ 私が見た中のいくつかはとても肯定的だったけど。まあ、無理に行く必要はないわね。あなたが最近頑張って働いていたから、そのご褒美みたいなものがあってもいいかしらと思っただけなの。\nM: 予算を少し増やして、もっと評判のいいクルーズを予約するのはどうだろう？\nW: いいわ。代理店に話してみる。"
+          "scriptJa": "W: ねえ、さっき旅行代理店の人から電話があったの。クルーズがもうすぐ満席になるから、早く決めないといけないって。\nM: 実は、考え直していたところなんだ。いくつかのサイトでレビューを見ていたら、不満を持っている客がたくさんいるみたいでね。\nW: 本当？私が見たいくつかのレビューはすごく好意的だったけど。まあ、無理に行かなくてもいいのよ。最近あなたがとても頑張って働いているから、何かご褒美があってもいいと思っただけなの。\nM: 予算を少し増やして、もっと評判のいいクルーズを予約するのはどうかな？\nW: いいわ。代理店の人に話してみる。"
         },
         {
           "id": "q9",
@@ -158,9 +158,9 @@
             { "label": "4", "text": "It may not be renewed for another season." }
           ],
           "answer": "3",
-          "explanation": "男性が2番目の発言で裏切り者がわかった場面について女性に感想を求めると、「本当にショックだった。間違いなく工作員ターナーだろうと思ったが…」と女性は答え、男性は「全くだ」と同意している。このやりとりから、2人にとってドラマの展開が予想外だったことが推測できる。したがって、3「筋を予測するのは難しかった」が適切。2については、男性の最後の発言に「脚本はすばらしい」とあるが、「向上した」とは述べていないので不適切。4については、女性の最後の発言に合致しない。",
+          "explanation": "女性の2番目の発言で、裏切り者の正体に衝撃を受け、ターナー捜査官だと思い込んでいたと述べていることから、話の展開が予想しにくかったとわかるので3が正解。脚本が素晴らしいとは言っているが、以前より良くなったとは言っていないので2は誤り。女性は次のシーズンを楽しみにしており、打ち切りを心配する様子はないので4も当たらない。",
           "script": "M: Did you watch the season finale of Shield Force last night?\nW: Of course! I thought that was the best episode of the entire season.\nM: What did you think of the scene where Agent Martinez was revealed to be the traitor?\nW: That was such a shocker. I was so sure it was going to be Agent Turner, but the way they explained it made perfect sense.\nM: Totally. The writing on that show is just fantastic.\nW: I can't wait to see what happens next season.",
-          "scriptJa": "M: 昨夜、『シールドフォース』のシーズン最終回を見た？\nW: もちろん！ シーズン全体を通して最高の回だったと思う。\nM: 工作員マルチネスが裏切り者だとわかった場面はどう思った？\nW: あれは本当にショックだったわ。間違いなく工作員ターナーだろうと思っていたけど、あの説明は完全に筋が通っていたわね。\nM: 全くだ。あの番組の脚本は実にすばらしい。\nW: 次のシーズンで何が起こるか待ちきれないわ。"
+          "scriptJa": "M: 昨日の夜の『シールド・フォース』のシーズン最終話、見た？\nW: もちろん！シーズン全体で一番いい回だったと思うわ。\nM: マルティネス捜査官が裏切り者だと明かされる場面はどう思った？\nW: あれは本当に衝撃的だったわ。てっきりターナー捜査官だと思い込んでいたけど、あの説明の仕方ですごく納得がいったの。\nM: まったくだね。あのドラマの脚本は本当に素晴らしいよ。\nW: 次のシーズンがどうなるのか待ちきれないわ。"
         },
         {
           "id": "q10",
@@ -174,9 +174,9 @@
             { "label": "4", "text": "He may not have enough experience." }
           ],
           "answer": "4",
-          "explanation": "男性が最初の発言で「マークを新しいソフトウェアプロジェクトの管理担当にしようと考えている」と述べると、女性は「彼がそれをこなせると思うか」と疑問を呈し、その理由として「彼は会社に入ってたった18カ月である」と述べている。よって、4「彼には十分な経験がないかもしれない」が適切。女性が最後の発言で「事態が破綻した」と述べているのはヤスヒロについてなので、3は不適切。",
+          "explanation": "女性の最初の発言で、マークは頭がいいものの入社してまだ18か月しかたっていないと懸念を示しており、経験不足を心配していることがわかるので4が正解。手いっぱいなのはジュヌビエーヴであり、過去にプロジェクトを失敗させたのはヤスヒロなので、1・3はマークについての内容ではない。マークとジュヌビエーヴの関係にも触れていないので2も誤り。",
           "script": "M: I've been thinking about assigning Mark to manage the new software project.\nW: Do you think he can handle it? I know he's bright, but he's only been with the firm for 18 months.\nM: Well, I was originally considering Genevieve, but she's really got her hands full these days. That leaves either Mark or Yasuhiro.\nW: In that case, I guess we have no choice but to give it to Mark. The last time we put Yasuhiro in charge of a project, things quickly went off the rails.",
-          "scriptJa": "M: マークに新しいソフトウェアプロジェクトの管理をさせようと考えているんだ。\nW: 彼がそれをこなせると思いますか？ 頭がいいのは知っていますが、会社に入ってたった18カ月ですよ。\nM: 実は、初めはジュヌビエーブを考えていたんだが、彼女はここのところ本当に手がふさがっているからね。そうすると、マークかヤスヒロということになる。\nW: それなら、マークにやってもらうしかないでしょうね。この前ヤスヒロにプロジェクトを任せた時には、すぐに事態は破綻しましたから。"
+          "scriptJa": "M: 新しいソフトウェアのプロジェクトの管理をマークに任せようかと考えているんだ。\nW: 彼にこなせると思う？頭がいいのはわかっているけど、入社してまだ18か月しかたっていないのよ。\nM: うーん、最初はジュヌビエーヴを考えていたんだけど、彼女は最近本当に手いっぱいでね。そうなると、マークかヤスヒロのどちらかしか残らないんだ。\nW: それなら、マークに任せるしかなさそうね。前にヤスヒロにプロジェクトを担当させたときは、あっという間にめちゃくちゃになってしまったから。"
         },
         {
           "id": "q11",
@@ -190,9 +190,9 @@
             { "label": "4", "text": "She does not grade fairly." }
           ],
           "answer": "4",
-          "explanation": "男性が2番目の発言の第2文で「リッター教授は採点の時、自分と同じ政治的意見を持っている学生を特別扱いしたようだ」と述べているので、4「彼女は公平な採点をしない」が正解。「採点する」という表現は、放送文では mark で、選択肢では grade が用いられている。2については、女性が2番目の発言で「読む物の量が多いことが問題だったのか」と尋ねたのに対して、男性は「妥当な量だったと思う」と答えているから不適切。3については、教授の政治的意見が極端なものだとは述べていないので不適切。",
+          "explanation": "男性の2番目の発言で、教授がレポートを採点する際に自分と政治的な考えが同じ学生をひいきしているようだったと述べており、これを「公平に採点しない」と言い換えた4が正解。課題の量は妥当だったと言っているので2は誤り。教授の政治的な考え自体が極端だとは言っておらず、講義の長さにも触れていないので1・3も当たらない。",
           "script": "W: Hey, did you take Professor Ritter's Politics 302 class last semester?\nM: Yeah. Some of the lectures were interesting, but I wouldn't really recommend it.\nW: Oh. I heard it involves a lot of reading. Was that the problem?\nM: Actually, the workload seemed reasonable to me. My issue was that when she was marking papers, Professor Ritter seemed to favor students who share her political views.\nW: Oh, really?\nM: If I were you, I'd sign up for Professor Tamura's or Professor Wilson's class instead.",
-          "scriptJa": "W: ねえ、あなた先学期、リッター教授の政治学302の授業を受けた？\nM: うん。面白い講義もあったけど、あまり勧めないね。\nW: あら。読む物がたくさんあると聞いたけど。それが問題だったの？\nM: 実際のところ、教材の量は妥当に思えた。僕にとっての問題は、リッター教授は採点の時、自分と同じ政治的意見を持っている学生を特別扱いしたようだってことだ。\nW: まあ、本当？\nM: 僕だったら、代わりにタムラ教授かウィルソン教授の授業を受講登録するだろうね。"
+          "scriptJa": "W: ねえ、前の学期にリッター教授の政治学302の授業を取った？\nM: うん。面白い講義もあったけど、あまりおすすめはしないな。\nW: そうなの。読む量がすごく多いって聞いたけど、それが問題だったの？\nM: いや、課題の量は妥当だと思ったよ。僕が気になったのは、リッター教授がレポートを採点するとき、自分と同じ政治的な考えを持つ学生をひいきしているように見えたことなんだ。\nW: え、本当に？\nM: 僕が君なら、代わりにタムラ教授かウィルソン教授の授業に登録するよ。"
         },
         {
           "id": "q12",
@@ -206,9 +206,9 @@
             { "label": "4", "text": "Move to a quieter neighborhood." }
           ],
           "answer": "2",
-          "explanation": "女性が最後の発言で「きちんとした犬の訓練士を雇うべきだ。費用がかかることはわかっているけれど、平穏と静けさのためにはそれだけの価値がある」という内容のことを述べると、男性は「君の言う通りかもしれない」と応じている。よって、2「専門家の手を借りる」が正解。放送文の a proper dog trainer を、選択肢では a professional と言い換えている。1については、男性が2番目の発言で「オンラインで見つけられる訓練法はどれももう試した」と述べているので不適切。",
+          "explanation": "女性の3番目の発言で、専門のドッグトレーナーを雇うべきだと提案し、男性も最後に同意しているので、これを「専門家の助けを借りる」と言い換えた2が正解。ネットで見つけた方法はすでに全部試したと男性が言っているので1は誤り。近所の人は苦情を言ってきそうな相手として出てくるだけで相談相手ではなく、引っ越しの話も出ていないので3・4も当たらない。",
           "script": "W: We need to do something about the dogs. Their barking is becoming a real problem.\nM: I don't know. Most dogs bark at strangers, no?\nW: Yes, but ours bark every time someone goes past the house. We'll get complaints from the neighbors if this keeps up.\nM: Well, we've already tried every training method we could find online. I'm not sure what else we can do.\nW: I think we should hire a proper dog trainer. I know it'll be expensive, but it'll be worth it for some peace and quiet.\nM: I guess you're right.",
-          "scriptJa": "W: 犬のことを何とかしなくちゃ。うちの犬が吠えることは大問題になりつつあるわ。\nM: どうかな。たいていの犬は知らない人に向かって吠える、そうじゃない？\nW: ええ、でもうちの犬たちは誰かが家の前を通るたびに吠えている。これが続いたら、ご近所から苦情が来るわよ。\nM: でも、僕たちはオンラインで見つけられる訓練法はどれももう試した。他に何ができるか僕にはわからない。\nW: きちんとした犬の訓練士を雇うべきだと思うの。費用がかかることはわかっているけれど、平穏と静けさのためにはそれだけの価値があるでしょう。\nM: 君の言う通りかもしれないね。"
+          "scriptJa": "W: 犬たちのことを何とかしないと。吠えるのが本当に困ったことになってきているわ。\nM: どうかな。たいていの犬は知らない人に吠えるものだろう？\nW: そうだけど、うちの子たちは誰かが家の前を通るたびに吠えるのよ。このままだと近所から苦情が来るわ。\nM: でも、ネットで見つけたしつけの方法はもう全部試したよ。ほかに何ができるのかわからないな。\nW: ちゃんとしたドッグトレーナーを雇うべきだと思う。お金がかかるのはわかっているけど、静かに過ごせるならその価値はあるわ。\nM: 君の言う通りかもしれないね。"
         }
       ]
     },
@@ -233,9 +233,9 @@
             { "label": "4", "text": "To celebrate their time in Egypt." }
           ],
           "answer": "2",
-          "explanation": "第1段第2・3文で「数千年前に収穫祭として始まり、祭りの間、人々はその年の作物に対する神への感謝を表した」という内容が述べられていることから、2「育てた食べ物に感謝するため」が正解。「作物」という表現に、放送文では the year's crops が使われ、選択肢では the food they grew に言い換えられている。4については、同段第4文で「のちに、エジプトでの隷属から逃れた直後の時期と関連づけられた」という内容が述べられているので不適切。",
+          "explanation": "第1段落で、スコットはもともと収穫祭として始まり、人々がその年の作物について神に感謝を示したと説明されているので2が正解。砂漠やエジプトは後になって祭りと結びつけられた出来事で、しかもエジプトでは奴隷の身分だったので3・4は誤り。作物の質を良くするための祭りだとは述べられていないので1も当たらない。",
           "script": "Sukkoth\n\nSukkoth is a religious holiday celebrated by Jewish people around the world. It originated thousands of years ago as a harvest festival. During the festival, people demonstrated their appreciation to their god for the year's crops. Later, the holiday became connected with the time immediately after the ancient Jewish people had escaped from slavery in Egypt. According to tradition, the Jewish people wandered in the desert and had to live in fragile shelters called sukkahs that protected them from the heat of the sun.\n\nToday, Jewish people celebrate the holiday by building a sukkah in their backyards or on balconies. Sukkahs generally have three walls, and the roof is made with leaves and has openings so that the stars are visible above. During the festival's seven days, people consume their meals in the sukkah, and if they live in a warm climate, they sleep in it as well.",
-          "scriptJa": "スコス（仮庵の祭り）\n\nスコス（仮庵の祭り）は世界中のユダヤ人が祝う宗教的な祭日である。それは数千年前に収穫祭として始まった。祭りの間、人々はその年の作物に対する神への感謝を表した。のちに、祭日は、古代ユダヤ人がエジプトでの隷属から逃れた直後の時期と関連づけられた。伝承によると、ユダヤ人たちは砂漠をさまよい、太陽の熱から身を守るための、スッカー（仮庵）という壊れやすい小屋で暮らさなければならなかった。\n\n今日、ユダヤの人々は裏庭やバルコニーに仮庵を建てて祭日を祝う。仮庵は普通、三方が壁で、屋根は葉で作られていて隙間があり、上方に星を見ることができる。祭りの7日間、人々は仮庵で食事をし、温暖な気候の所だと、そこで眠りもする。"
+          "scriptJa": "スコット\n\nスコットは、世界中のユダヤの人々が祝う宗教的な祝日である。この祝日は数千年前に収穫祭として始まった。祭りの間、人々はその年の作物について神に感謝の気持ちを示した。その後、この祝日は、古代のユダヤの人々がエジプトでの奴隷の身分から逃れた直後の時期と結びつけられるようになった。言い伝えによると、ユダヤの人々は砂漠をさまよい、「スッカー」と呼ばれる壊れやすい仮小屋で暮らさなければならなかった。この小屋は彼らを強い日差しの暑さから守るものだった。\n\n今日、ユダヤの人々は裏庭やベランダにスッカーを建ててこの祝日を祝う。スッカーにはふつう3面の壁があり、屋根は葉で作られていて、上に星が見えるようにすき間が開けてある。祭りの7日間、人々はスッカーの中で食事をとり、暖かい地域に住んでいる場合はそこで寝ることもある。"
         },
         {
           "id": "q14",
@@ -251,9 +251,9 @@
             { "label": "4", "text": "People can see the sky from inside them." }
           ],
           "answer": "4",
-          "explanation": "第2段第2文で「屋根は葉で作られていて隙間があり、上方に星を見ることができる」と述べられているから、4「人々はその中から空を見ることができる」が正解となる。3については、同段最終文に「そこで食事をする」とあるが、「調理しなければいけない」とは述べていないので不適切。",
+          "explanation": "第2段落で、スッカーの屋根は葉で作られ、上に星が見えるようにすき間が開けてあると述べられているので、これを「中から空が見える」と言い換えた4が正解。屋根にはわざとすき間が開けてあり、涼しく保つために覆うという説明はないので2は誤り。スッカーの中で食事をとるとは言っているが調理しなければならないとは言っておらず、壁の絵にも触れていないので1・3も当たらない。",
           "script": "Sukkoth\n\nSukkoth is a religious holiday celebrated by Jewish people around the world. It originated thousands of years ago as a harvest festival. During the festival, people demonstrated their appreciation to their god for the year's crops. Later, the holiday became connected with the time immediately after the ancient Jewish people had escaped from slavery in Egypt. According to tradition, the Jewish people wandered in the desert and had to live in fragile shelters called sukkahs that protected them from the heat of the sun.\n\nToday, Jewish people celebrate the holiday by building a sukkah in their backyards or on balconies. Sukkahs generally have three walls, and the roof is made with leaves and has openings so that the stars are visible above. During the festival's seven days, people consume their meals in the sukkah, and if they live in a warm climate, they sleep in it as well.",
-          "scriptJa": "スコス（仮庵の祭り）\n\nスコス（仮庵の祭り）は世界中のユダヤ人が祝う宗教的な祭日である。それは数千年前に収穫祭として始まった。祭りの間、人々はその年の作物に対する神への感謝を表した。のちに、祭日は、古代ユダヤ人がエジプトでの隷属から逃れた直後の時期と関連づけられた。伝承によると、ユダヤ人たちは砂漠をさまよい、太陽の熱から身を守るための、スッカー（仮庵）という壊れやすい小屋で暮らさなければならなかった。\n\n今日、ユダヤの人々は裏庭やバルコニーに仮庵を建てて祭日を祝う。仮庵は普通、三方が壁で、屋根は葉で作られていて隙間があり、上方に星を見ることができる。祭りの7日間、人々は仮庵で食事をし、温暖な気候の所だと、そこで眠りもする。"
+          "scriptJa": "スコット\n\nスコットは、世界中のユダヤの人々が祝う宗教的な祝日である。この祝日は数千年前に収穫祭として始まった。祭りの間、人々はその年の作物について神に感謝の気持ちを示した。その後、この祝日は、古代のユダヤの人々がエジプトでの奴隷の身分から逃れた直後の時期と結びつけられるようになった。言い伝えによると、ユダヤの人々は砂漠をさまよい、「スッカー」と呼ばれる壊れやすい仮小屋で暮らさなければならなかった。この小屋は彼らを強い日差しの暑さから守るものだった。\n\n今日、ユダヤの人々は裏庭やベランダにスッカーを建ててこの祝日を祝う。スッカーにはふつう3面の壁があり、屋根は葉で作られていて、上に星が見えるようにすき間が開けてある。祭りの7日間、人々はスッカーの中で食事をとり、暖かい地域に住んでいる場合はそこで寝ることもある。"
         },
         {
           "id": "q15",
@@ -269,9 +269,9 @@
             { "label": "4", "text": "They survive in vultures' stomachs." }
           ],
           "answer": "1",
-          "explanation": "第1段第3文で「死んだ動物を食べることで、その鳥は病気を引き起こす細菌が水源など周囲の環境に侵入するのを防いでいる」と述べられている。また、同段最終文では「彼らの強力な胃酸は細菌を殺すことができるので、ハゲワシが病気を人間にうつす可能性は低い」と述べられている。これらの内容から、2・3・4は不適切で、1「ハゲワシはそれらが人間に感染するのを防ぐのに役立っている」が正解となる。",
+          "explanation": "第1段落で、ハゲワシは死んだ動物を食べることで病原菌が環境に入るのを防ぎ、胃の強い酸で菌を殺すので人間に病気をうつしにくいと述べられているので1が正解。病気をうつしにくいと言っているので、ほかの動物に広めるという2は逆の内容である。胃酸は病原菌を殺すので、菌が胃の中で生き延びるという4や、菌がハゲワシにとって命取りになるという3も誤り。",
           "script": "Vultures\n\nVultures are birds well-known for their diet, which consists of the remains of dead animals. This association has given many people a negative impression of the birds, but we in fact owe much gratitude to vultures. By eating dead animals, the birds prevent disease-causing germs from entering the environment, including water sources. And because the strong acid in their stomachs is so good at killing germs, vultures are unlikely to pass on diseases to humans.\n\nThe bodies of dead animals do more than spread disease — they also release CO₂ and other greenhouse gases as they decay on the ground. When vultures feed, they prevent this from happening. However, in many parts of the world today, vulture populations have declined significantly, resulting in millions of tons of extra greenhouse-gas emissions entering the atmosphere. Ensuring vulture populations remain healthy is therefore an important step in combating climate change.",
-          "scriptJa": "ハゲワシ\n\nハゲワシはその食べ物で有名な鳥で、動物の死骸を食べる。この連想から多くの人たちはハゲワシに否定的な印象を持つが、実際には、私たちはハゲワシに大いに感謝しなければならない。死んだ動物を食べることで、その鳥は病気を引き起こす細菌が水源など周囲の環境に侵入するのを防いでいる。そして、彼らの強力な胃酸は細菌を殺すことができるので、ハゲワシが病気を人間にうつす可能性は低い。\n\n動物の死体は、病気を広げるだけではない――地面で腐敗する時には、二酸化炭素などの温室効果ガスも放出する。ハゲワシが食べて、これが起こるのを防いでいる。しかし、今日、世界の多くの地域でハゲワシの生息数は著しく減少し、これによって数百万トンもの余分な温室効果ガスが大気中に放出される結果となっている。したがって、ハゲワシを健全に生息させることは、気候変動と闘う重要なステップである。"
+          "scriptJa": "ハゲワシ\n\nハゲワシは、死んだ動物の残骸を食べることでよく知られた鳥である。そのため多くの人がこの鳥に悪い印象を抱いているが、実は私たちはハゲワシに大いに感謝すべきなのだ。死んだ動物を食べることで、ハゲワシは病気を引き起こす病原菌が水源をはじめとする環境に入り込むのを防いでいる。また、ハゲワシの胃の中の強い酸は病原菌を殺す力が非常に強いため、ハゲワシが人間に病気をうつすことはまずない。\n\n動物の死骸は病気を広めるだけではない。地面の上で腐敗するにつれて、二酸化炭素などの温室効果ガスも放出するのだ。ハゲワシが死骸を食べれば、これを防ぐことができる。しかし今日、世界の多くの地域でハゲワシの数は大幅に減っており、その結果、数百万トンもの温室効果ガスが余分に大気中に放出されている。したがって、ハゲワシの個体数を健全に保つことは、気候変動に立ち向かううえで重要な一歩なのである。"
         },
         {
           "id": "q16",
@@ -281,15 +281,15 @@
           "passageLabel": "Passage B",
           "prompt": "What is suggested about climate change?",
           "choices": [
-            { "label": "1", "text": "Vultures' feeding habits help reduce its effects." },
+            { "label": "1", "text": "Vultures' feeding habits help to reduce its effects." },
             { "label": "2", "text": "It has increased vulture populations worldwide." },
             { "label": "3", "text": "Vultures' food sources have changed because of it." },
             { "label": "4", "text": "It has forced vultures to find new habitats." }
           ],
           "answer": "1",
-          "explanation": "第2段第1・2文で「ハゲワシが動物の死体を食べることで、二酸化炭素やその他の温室効果ガスが放出されるのを防いでいる」と述べられている。したがって、1「ハゲワシの食習慣がその影響を減らすのに役立っている」が正解。放送文の When vultures feed「ハゲワシが食べる時」を、選択肢では Vultures' feeding habits に言い換えている。",
+          "explanation": "第2段落で、ハゲワシが死骸を食べることで腐敗による温室効果ガスの放出が防がれ、ハゲワシの数を健全に保つことが気候変動対策の重要な一歩になると述べられているので1が正解。ハゲワシの数は多くの地域で減っているので2は誤り。気候変動によって食べ物や生息地が変わったという話は出てこないので3・4も当たらない。",
           "script": "Vultures\n\nVultures are birds well-known for their diet, which consists of the remains of dead animals. This association has given many people a negative impression of the birds, but we in fact owe much gratitude to vultures. By eating dead animals, the birds prevent disease-causing germs from entering the environment, including water sources. And because the strong acid in their stomachs is so good at killing germs, vultures are unlikely to pass on diseases to humans.\n\nThe bodies of dead animals do more than spread disease — they also release CO₂ and other greenhouse gases as they decay on the ground. When vultures feed, they prevent this from happening. However, in many parts of the world today, vulture populations have declined significantly, resulting in millions of tons of extra greenhouse-gas emissions entering the atmosphere. Ensuring vulture populations remain healthy is therefore an important step in combating climate change.",
-          "scriptJa": "ハゲワシ\n\nハゲワシはその食べ物で有名な鳥で、動物の死骸を食べる。この連想から多くの人たちはハゲワシに否定的な印象を持つが、実際には、私たちはハゲワシに大いに感謝しなければならない。死んだ動物を食べることで、その鳥は病気を引き起こす細菌が水源など周囲の環境に侵入するのを防いでいる。そして、彼らの強力な胃酸は細菌を殺すことができるので、ハゲワシが病気を人間にうつす可能性は低い。\n\n動物の死体は、病気を広げるだけではない――地面で腐敗する時には、二酸化炭素などの温室効果ガスも放出する。ハゲワシが食べて、これが起こるのを防いでいる。しかし、今日、世界の多くの地域でハゲワシの生息数は著しく減少し、これによって数百万トンもの余分な温室効果ガスが大気中に放出される結果となっている。したがって、ハゲワシを健全に生息させることは、気候変動と闘う重要なステップである。"
+          "scriptJa": "ハゲワシ\n\nハゲワシは、死んだ動物の残骸を食べることでよく知られた鳥である。そのため多くの人がこの鳥に悪い印象を抱いているが、実は私たちはハゲワシに大いに感謝すべきなのだ。死んだ動物を食べることで、ハゲワシは病気を引き起こす病原菌が水源をはじめとする環境に入り込むのを防いでいる。また、ハゲワシの胃の中の強い酸は病原菌を殺す力が非常に強いため、ハゲワシが人間に病気をうつすことはまずない。\n\n動物の死骸は病気を広めるだけではない。地面の上で腐敗するにつれて、二酸化炭素などの温室効果ガスも放出するのだ。ハゲワシが死骸を食べれば、これを防ぐことができる。しかし今日、世界の多くの地域でハゲワシの数は大幅に減っており、その結果、数百万トンもの温室効果ガスが余分に大気中に放出されている。したがって、ハゲワシの個体数を健全に保つことは、気候変動に立ち向かううえで重要な一歩なのである。"
         },
         {
           "id": "q17",
@@ -305,9 +305,9 @@
             { "label": "4", "text": "Most bosses do not give enough praise." }
           ],
           "answer": "2",
-          "explanation": "第1段最終文で「研究者がでたらめに労働者をほめた時、その労働者たちの生産活動の質は、ほめられなかった人たちと比べて劇的に向上した」と述べられている。よって、2「でたらめにほめることで仕事ぶりが向上する可能性がある」が正解。",
+          "explanation": "第1段落で、研究者が無作為に選んだ労働者を褒めたところ、褒められなかった人に比べて仕事の質が劇的に上がったと述べられているので2が正解。褒められるだけの成果がなくても効果があったという内容であり、褒めすぎると逆効果だという3とは合わない。労働者が自分は褒められるに値しないと思うことや、上司の褒め方が足りないことは述べられていないので1・4も誤り。",
           "script": "Praising Employees\n\nEveryone knows that praise is important for motivating employees and increasing their satisfaction. Surprisingly, however, according to researchers, praise can improve employee performance even when the employee does not earn the praise. When researchers gave praise to random workers, the quality of the workers' output increased dramatically compared to those who were not praised.\n\nAnother study suggests that some kinds of praise are more effective than others. The study identifies two kinds of mindsets. Those with a so-called fixed mindset think they are born with a certain level of ability and that they are unlikely to get better at things. On the other hand, those with a so-called growth mindset feel that they have the capability to acquire new skills and talents. It seems that praising effort rather than results may have a positive effect because it encourages a growth mindset in unhappy employees who would otherwise be frustrated with their jobs.",
-          "scriptJa": "従業員をほめること\n\nほめることは従業員にやる気を持たせ、彼らの満足度を高めるのに重要であることは、誰でも知っている。しかし驚いたことに、研究者によると、従業員がほめられるようなことをしていない時でさえ、ほめることで従業員の仕事ぶりが向上する可能性があるのだ。研究者がでたらめに労働者をほめた時、その労働者たちの生産活動の質は、ほめられなかった人たちと比べて劇的に向上した。\n\n別の研究は、ある種の称賛は他のものよりも効果的であることを示唆している。その研究によって、2種類の考え方が特定された。いわゆる固定思考を持つ人たちは、自分にはあるレベルの能力が生まれつき備わっていて、それ以上になる可能性は低いと考えている。一方で、いわゆる成長思考を持つ人たちは、新しい技術や才能を獲得する能力を自分が持っていると考える。「結果」ではなく「努力」をほめることはプラスの効果があるようだ。それは、そうでなければ仕事に不満を感じるであろう、不幸な従業員の成長思考を強めるからである。"
+          "scriptJa": "従業員を褒めること\n\n褒めることが従業員のやる気を引き出し、満足度を高めるうえで大切であることは誰もが知っている。しかし驚いたことに、研究者たちによると、従業員が褒められるだけの成果を上げていなくても、褒めることでその人の仕事ぶりが向上することがあるという。研究者たちが無作為に選んだ労働者を褒めたところ、褒められなかった人たちに比べて、仕事の質が劇的に向上したのだ。\n\n別の研究では、褒め方によって効果に差があることが示されている。この研究では、2種類の考え方（マインドセット）が取り上げられている。いわゆる「固定型マインドセット」の人は、自分の能力は生まれつき決まっていて、物事が上達する見込みは低いと考える。一方、いわゆる「成長型マインドセット」の人は、自分には新しい技能や才能を身につける力があると感じている。結果ではなく努力を褒めると良い効果が得られるようだ。それによって、放っておけば仕事にいら立ちを感じてしまうような満足していない従業員に、成長型マインドセットが育まれるからである。"
         },
         {
           "id": "q18",
@@ -323,9 +323,9 @@
             { "label": "4", "text": "They affect the mindsets of workers around them." }
           ],
           "answer": "3",
-          "explanation": "第2段最終文で「『結果』ではなく『努力』をほめることは好影響を与える可能性があるようだ」という内容が述べられている。otherwise は「もしそうでなければ」の意味で、「成長思考でなければ仕事に不満を感じるであろう、不幸な従業員」の意。つまり、成長思考であれば仕事に不満を感じることはないということであり、よって、3「成長思考を持つことは彼らのためになるかもしれない」が正解。",
+          "explanation": "第2段落の最後で、努力を褒めると満足していない従業員に成長型マインドセットが育まれ、良い効果があると述べられているので、成長型マインドセットを持つことが彼らのためになるとした3が正解。褒め方しだいで良い効果があるという話であり、褒められると否定的に反応するという1は誤り。仕事のことを気にしすぎることや、周りの人の考え方に影響を与えることは述べられていないので2・4も当たらない。",
           "script": "Praising Employees\n\nEveryone knows that praise is important for motivating employees and increasing their satisfaction. Surprisingly, however, according to researchers, praise can improve employee performance even when the employee does not earn the praise. When researchers gave praise to random workers, the quality of the workers' output increased dramatically compared to those who were not praised.\n\nAnother study suggests that some kinds of praise are more effective than others. The study identifies two kinds of mindsets. Those with a so-called fixed mindset think they are born with a certain level of ability and that they are unlikely to get better at things. On the other hand, those with a so-called growth mindset feel that they have the capability to acquire new skills and talents. It seems that praising effort rather than results may have a positive effect because it encourages a growth mindset in unhappy employees who would otherwise be frustrated with their jobs.",
-          "scriptJa": "従業員をほめること\n\nほめることは従業員にやる気を持たせ、彼らの満足度を高めるのに重要であることは、誰でも知っている。しかし驚いたことに、研究者によると、従業員がほめられるようなことをしていない時でさえ、ほめることで従業員の仕事ぶりが向上する可能性があるのだ。研究者がでたらめに労働者をほめた時、その労働者たちの生産活動の質は、ほめられなかった人たちと比べて劇的に向上した。\n\n別の研究は、ある種の称賛は他のものよりも効果的であることを示唆している。その研究によって、2種類の考え方が特定された。いわゆる固定思考を持つ人たちは、自分にはあるレベルの能力が生まれつき備わっていて、それ以上になる可能性は低いと考えている。一方で、いわゆる成長思考を持つ人たちは、新しい技術や才能を獲得する能力を自分が持っていると考える。「結果」ではなく「努力」をほめることはプラスの効果があるようだ。それは、そうでなければ仕事に不満を感じるであろう、不幸な従業員の成長思考を強めるからである。"
+          "scriptJa": "従業員を褒めること\n\n褒めることが従業員のやる気を引き出し、満足度を高めるうえで大切であることは誰もが知っている。しかし驚いたことに、研究者たちによると、従業員が褒められるだけの成果を上げていなくても、褒めることでその人の仕事ぶりが向上することがあるという。研究者たちが無作為に選んだ労働者を褒めたところ、褒められなかった人たちに比べて、仕事の質が劇的に向上したのだ。\n\n別の研究では、褒め方によって効果に差があることが示されている。この研究では、2種類の考え方（マインドセット）が取り上げられている。いわゆる「固定型マインドセット」の人は、自分の能力は生まれつき決まっていて、物事が上達する見込みは低いと考える。一方、いわゆる「成長型マインドセット」の人は、自分には新しい技能や才能を身につける力があると感じている。結果ではなく努力を褒めると良い効果が得られるようだ。それによって、放っておけば仕事にいら立ちを感じてしまうような満足していない従業員に、成長型マインドセットが育まれるからである。"
         },
         {
           "id": "q19",
@@ -341,9 +341,9 @@
             { "label": "4", "text": "They feared Germans would be able to steal the art." }
           ],
           "answer": "2",
-          "explanation": "第1段第3文で「当初、それらをカナダへ船で運ぶことが提案されたが、イギリスの指導者たちは、何千もの船を沈めているドイツの潜水艦の脅威を心配していた」と述べられているので、イギリスの指導者たちは絵画を運んでいる船が潜水艦によって沈められることを懸念したことがわかる。よって、2「美術品が破壊されることを心配したから」が正解。",
+          "explanation": "第1段落で、カナダへ船で送る案に対し、イギリスの指導者たちは何千隻もの船を沈めていたドイツの潜水艦の脅威を心配したと述べられている。船が沈めば絵画も失われるので、これを「美術品が破壊されることを心配した」と言い換えた2が正解。侵攻を恐れていたからこそ絵画を移そうとしたので1は誤りで、カナダが侵攻されることやドイツ人が絵画を盗むことは話題になっていないので3・4も当たらない。",
           "script": "Manod Mine\n\nDuring World War II, there was great fear that Britain would be invaded by Nazi Germany. In this environment, it was decided that paintings from the National Gallery in London should be moved somewhere safer. At first, it was suggested that they be shipped to Canada, but British leaders worried about the threat from the German submarines that were sinking thousands of ships. Eventually, the art treasures were stored in an old mine in a remote area of Wales called Manod.\n\nTransporting the art was extremely difficult as many of the works were large and had to be moved carefully through the small mine entrance. Furthermore, there was great concern that moisture and cold temperatures would damage the paintings, so special air-conditioned structures were built in the mine to contain them. Thanks to the project at Manod, the paintings survived the war, and much was learned about preserving art.",
-          "scriptJa": "マノド坑道\n\n第二次世界大戦中、イギリスはナチスドイツに侵攻される大きな恐れがあった。このような状況下、ロンドンにあるナショナルギャラリーの絵画をどこか安全なところへ移動させることが決まった。当初、それらをカナダへ船で運ぶことが提案されたが、イギリスの指導者たちは、何千もの船を沈めているドイツの潜水艦の脅威を心配していた。最終的には、貴重な美術品は、マノドと呼ばれるウェールズの人里離れた場所にある、古い坑道に保管された。\n\n多くの作品は大きく、小さな坑道の入り口を通って搬入するには細心の注意が必要だったので、美術品の輸送は困難を極めた。その上、湿気と低温が絵画にダメージを与える懸念が大きかったので、それらを収容するために空調管理された特別な構造物が坑道内に作られた。マノドでのプロジェクトのおかげで、絵画は戦争を耐え抜き、美術品の保存について多くのことがわかった。"
+          "scriptJa": "マノッド鉱山\n\n第二次世界大戦中、イギリスがナチス・ドイツに侵攻されるのではないかと強く恐れられていた。こうした状況の中で、ロンドンのナショナル・ギャラリーの絵画をもっと安全な場所に移すことが決まった。当初はカナダへ船で送ることが提案されたが、イギリスの指導者たちは、何千隻もの船を沈めていたドイツの潜水艦の脅威を心配した。最終的に、これらの貴重な美術品は、ウェールズの人里離れた地域にあるマノッドという古い鉱山に保管された。\n\n美術品の輸送は非常に困難だった。多くの作品が大きく、狭い鉱山の入り口から慎重に運び込まなければならなかったからだ。さらに、湿気や低温で絵画が傷むことが強く懸念されたため、絵画を収める特別な空調設備付きの建物が鉱山の中に造られた。マノッドでのこの計画のおかげで、絵画は戦争を無事に乗り越え、美術品の保存について多くのことがわかった。"
         },
         {
           "id": "q20",
@@ -359,9 +359,9 @@
             { "label": "4", "text": "Ways of keeping art in good condition." }
           ],
           "answer": "4",
-          "explanation": "第2段最終文で「マノドでのプロジェクトのおかげで、美術品の保存について多くのことがわかった」と述べられている。よって、4「よい状態で美術品を保管する方法」が正解。3については、同段第2文で「湿気と低温が絵画にダメージを与える懸念があったので、空調管理された構造物が坑道内に建てられた」とあるが、低温の影響について学んだとは述べられていないので不適切。",
+          "explanation": "第2段落の最後で、マノッドでの計画のおかげで絵画は戦争を乗り越え、美術品の保存について多くのことがわかったと述べられているので、これを「美術品を良い状態に保つ方法」と言い換えた4が正解。湿気や低温で絵画が傷むことは計画の段階から心配されていたことで、その影響が新たにわかったわけではないので3は誤り。戦時中の芸術の大切さや、鉱山を大きくする方法には触れていないので1・2も当たらない。",
           "script": "Manod Mine\n\nDuring World War II, there was great fear that Britain would be invaded by Nazi Germany. In this environment, it was decided that paintings from the National Gallery in London should be moved somewhere safer. At first, it was suggested that they be shipped to Canada, but British leaders worried about the threat from the German submarines that were sinking thousands of ships. Eventually, the art treasures were stored in an old mine in a remote area of Wales called Manod.\n\nTransporting the art was extremely difficult as many of the works were large and had to be moved carefully through the small mine entrance. Furthermore, there was great concern that moisture and cold temperatures would damage the paintings, so special air-conditioned structures were built in the mine to contain them. Thanks to the project at Manod, the paintings survived the war, and much was learned about preserving art.",
-          "scriptJa": "マノド坑道\n\n第二次世界大戦中、イギリスはナチスドイツに侵攻される大きな恐れがあった。このような状況下、ロンドンにあるナショナルギャラリーの絵画をどこか安全なところへ移動させることが決まった。当初、それらをカナダへ船で運ぶことが提案されたが、イギリスの指導者たちは、何千もの船を沈めているドイツの潜水艦の脅威を心配していた。最終的には、貴重な美術品は、マノドと呼ばれるウェールズの人里離れた場所にある、古い坑道に保管された。\n\n多くの作品は大きく、小さな坑道の入り口を通って搬入するには細心の注意が必要だったので、美術品の輸送は困難を極めた。その上、湿気と低温が絵画にダメージを与える懸念が大きかったので、それらを収容するために空調管理された特別な構造物が坑道内に作られた。マノドでのプロジェクトのおかげで、絵画は戦争を耐え抜き、美術品の保存について多くのことがわかった。"
+          "scriptJa": "マノッド鉱山\n\n第二次世界大戦中、イギリスがナチス・ドイツに侵攻されるのではないかと強く恐れられていた。こうした状況の中で、ロンドンのナショナル・ギャラリーの絵画をもっと安全な場所に移すことが決まった。当初はカナダへ船で送ることが提案されたが、イギリスの指導者たちは、何千隻もの船を沈めていたドイツの潜水艦の脅威を心配した。最終的に、これらの貴重な美術品は、ウェールズの人里離れた地域にあるマノッドという古い鉱山に保管された。\n\n美術品の輸送は非常に困難だった。多くの作品が大きく、狭い鉱山の入り口から慎重に運び込まなければならなかったからだ。さらに、湿気や低温で絵画が傷むことが強く懸念されたため、絵画を収める特別な空調設備付きの建物が鉱山の中に造られた。マノッドでのこの計画のおかげで、絵画は戦争を無事に乗り越え、美術品の保存について多くのことがわかった。"
         },
         {
           "id": "q21",
@@ -373,13 +373,13 @@
           "choices": [
             { "label": "1", "text": "To help warn about an attack." },
             { "label": "2", "text": "To check the location of British soldiers." },
-            { "label": "3", "text": "To gather supplies for the American troops." },
+            { "label": "3", "text": "To gather supplies for American troops." },
             { "label": "4", "text": "To lead her father away from danger." }
           ],
           "answer": "1",
-          "explanation": "第1段第2文で「使者は来たるイギリスの攻撃について警告したが、ルディントンの兵士たちは地域周辺に散らばっていた」と述べられ、同段第3・4文で「指揮官の娘シビルは、彼らへの通報を買って出た」こと、「彼女は65キロ以上馬を走らせた」ことが述べられている。第3文の alert them の them は、第2文の Ludington's soldiers を指している。これらの内容から、1「攻撃について警告するのを手伝うため」が正解。",
+          "explanation": "第1段落で、使者がイギリス軍の攻撃が迫っていると知らせたが兵士たちが散らばっていたため、シビルが彼らに知らせる役を引き受けたと述べられているので1が正解。シビルが馬を走らせたのは兵士たちに警告して集めるためで、イギリス兵の居場所を確かめたり物資を集めたりするためではないので2・3は誤り。父親を危険から遠ざけるという話も出てこないので4も当たらない。",
           "script": "The Midnight Ride of Sybil Ludington\n\nOn the night of April 26, 1777, during the American Revolution, a messenger arrived at American commander Henry Ludington's house. The messenger warned of a coming British attack, but Ludington's soldiers were scattered around the region. The commander's daughter, Sybil, bravely volunteered to alert them. Though just 16 years old, Sybil rode on horseback for over 65 kilometers in stormy weather. Thanks to her night ride, the troops assembled and drove away the British. After the war, however, Sybil was forgotten for many years.\n\nSome historians question whether Sybil's ride ever really happened. While documents show that the British attack occurred, there are no official records of Sybil's journey. It appeared in a history book published in the 1800s, but the book failed to give sources to confirm it. Nevertheless, the story has been widely accepted, and Sybil has become a symbol of the role of women in the American Revolution.",
-          "scriptJa": "シビル・ルディントンの真夜中の騎乗\n\nアメリカ独立革命中の1777年4月26日の夜、アメリカの指揮官ヘンリー・ルディントンの家に使者が到着した。使者は来たるイギリスの攻撃について警告したが、ルディントンの兵士たちは地域周辺に散らばっていた。指揮官の娘シビルは、勇敢にも彼らへの通報を買って出た。まだ16歳だったが、シビルは暴風雨の中、65キロ以上馬を走らせた。彼女が夜に馬を走らせたおかげで、部隊は集結し、イギリス軍を退散させた。しかし、戦争のあと、シビルのことは長い間忘れられていた。\n\n歴史家の中には、シビルの騎乗が果たして本当に起きたのか、疑問視する人たちもいる。記録にはイギリスの攻撃があったことが示されているが、シビルの遠乗りについて公式の記録はない。1800年代に出版された歴史の本でそれが取り上げられたが、それを裏づける情報源は示されなかった。それにもかかわらず、その話は広く受け入れられ、シビルはアメリカ独立革命における、女性が果たした役割の象徴になっている。"
+          "scriptJa": "シビル・ルディントンの真夜中の騎行\n\nアメリカ独立戦争中の1777年4月26日の夜、アメリカ軍の司令官ヘンリー・ルディントンの家に1人の使者がやって来た。使者はイギリス軍の攻撃が迫っていると知らせたが、ルディントンの兵士たちは地域のあちこちに散らばっていた。司令官の娘のシビルは、勇敢にも兵士たちに知らせに行く役を買って出た。まだ16歳だったが、シビルは嵐の中、馬に乗って65キロ以上を駆け抜けた。彼女が夜通し馬を走らせたおかげで兵士たちは集まり、イギリス軍を追い払った。しかし戦争が終わると、シビルは長い間忘れられてしまった。\n\nシビルの騎行が本当にあったのかどうかを疑う歴史家もいる。イギリス軍の攻撃があったことは文書で確認できるが、シビルの騎行については公式の記録が残っていない。この話は1800年代に出版された歴史書に登場するものの、その本はそれを裏付ける出典を示していなかった。それでもこの話は広く受け入れられ、シビルはアメリカ独立戦争で女性が果たした役割の象徴となっている。"
         },
         {
           "id": "q22",
@@ -395,9 +395,9 @@
             { "label": "4", "text": "A history book claims it did not happen." }
           ],
           "answer": "3",
-          "explanation": "第2段第2文の後半部で「シビルの遠乗りについて公式の記録はない」とあり、続く第3文の but 以下では「それについて記述がある歴史書にもそれを裏づける情報源は示されなかった」と述べられている。よって、3「それは公式に記録されなかった」が適切である。2については、第2文の前半部の記述に反している。",
+          "explanation": "第2段落で、イギリス軍の攻撃は文書で確認できるが、シビルの騎行には公式の記録がないと述べられているので3が正解。攻撃の記録は存在するので2は逆の内容である。歴史書は騎行の話を載せたものの出典を示さなかっただけで、騎行がなかったと主張したわけではないので4も誤り。別の女性が馬を走らせたという証拠にも触れていないので1も当たらない。",
           "script": "The Midnight Ride of Sybil Ludington\n\nOn the night of April 26, 1777, during the American Revolution, a messenger arrived at American commander Henry Ludington's house. The messenger warned of a coming British attack, but Ludington's soldiers were scattered around the region. The commander's daughter, Sybil, bravely volunteered to alert them. Though just 16 years old, Sybil rode on horseback for over 65 kilometers in stormy weather. Thanks to her night ride, the troops assembled and drove away the British. After the war, however, Sybil was forgotten for many years.\n\nSome historians question whether Sybil's ride ever really happened. While documents show that the British attack occurred, there are no official records of Sybil's journey. It appeared in a history book published in the 1800s, but the book failed to give sources to confirm it. Nevertheless, the story has been widely accepted, and Sybil has become a symbol of the role of women in the American Revolution.",
-          "scriptJa": "シビル・ルディントンの真夜中の騎乗\n\nアメリカ独立革命中の1777年4月26日の夜、アメリカの指揮官ヘンリー・ルディントンの家に使者が到着した。使者は来たるイギリスの攻撃について警告したが、ルディントンの兵士たちは地域周辺に散らばっていた。指揮官の娘シビルは、勇敢にも彼らへの通報を買って出た。まだ16歳だったが、シビルは暴風雨の中、65キロ以上馬を走らせた。彼女が夜に馬を走らせたおかげで、部隊は集結し、イギリス軍を退散させた。しかし、戦争のあと、シビルのことは長い間忘れられていた。\n\n歴史家の中には、シビルの騎乗が果たして本当に起きたのか、疑問視する人たちもいる。記録にはイギリスの攻撃があったことが示されているが、シビルの遠乗りについて公式の記録はない。1800年代に出版された歴史の本でそれが取り上げられたが、それを裏づける情報源は示されなかった。それにもかかわらず、その話は広く受け入れられ、シビルはアメリカ独立革命における、女性が果たした役割の象徴になっている。"
+          "scriptJa": "シビル・ルディントンの真夜中の騎行\n\nアメリカ独立戦争中の1777年4月26日の夜、アメリカ軍の司令官ヘンリー・ルディントンの家に1人の使者がやって来た。使者はイギリス軍の攻撃が迫っていると知らせたが、ルディントンの兵士たちは地域のあちこちに散らばっていた。司令官の娘のシビルは、勇敢にも兵士たちに知らせに行く役を買って出た。まだ16歳だったが、シビルは嵐の中、馬に乗って65キロ以上を駆け抜けた。彼女が夜通し馬を走らせたおかげで兵士たちは集まり、イギリス軍を追い払った。しかし戦争が終わると、シビルは長い間忘れられてしまった。\n\nシビルの騎行が本当にあったのかどうかを疑う歴史家もいる。イギリス軍の攻撃があったことは文書で確認できるが、シビルの騎行については公式の記録が残っていない。この話は1800年代に出版された歴史書に登場するものの、その本はそれを裏付ける出典を示していなかった。それでもこの話は広く受け入れられ、シビルはアメリカ独立戦争で女性が果たした役割の象徴となっている。"
         },
         {
           "id": "q23",
@@ -413,9 +413,9 @@
             { "label": "4", "text": "They were opposed to using artificial snow." }
           ],
           "answer": "3",
-          "explanation": "第1段第3文に「多くのスキーリゾート地では、顧客の要望に応えるには山にもっと多くの雪が必要だとわかった」と述べられている。放送文の they needed more snow を言い換えた、3「十分に雪がなかった」が正解。4については、同段最終文で「人工雪」に言及しているが、反対したとは述べられていないので不適切。",
+          "explanation": "第1段落で、1950年代にスキーの人気が高まる一方、多くのスキー場は客の需要に応えるには山の雪が足りないと気づいたと述べられているので3が正解。この問題を受けて人工雪を作る機械が開発され、雪が少なくても営業できるようになったので、人工雪に反対したという4や閉鎖したという2は誤り。人口の多い地域への移転にも触れていないので1も当たらない。",
           "script": "Banff Sunshine Village\n\nDuring the economic boom of the 1950s in the US and Canada, interest in recreational activities increased dramatically. One activity that grew in popularity was skiing. However, many ski resorts found that they needed more snow on their mountains to meet customer demand. Machines were developed to create snow artificially using water and compressed air, enabling ski resorts to operate even without a lot of natural snowfall.\n\nHowever, snowmaking requires significant energy consumption as well as water from reservoirs and lakes. A Canadian ski resort known as Banff Sunshine Village relies instead on a method called snow farming. The resort takes advantage of the area's windy conditions by putting up fences at high altitudes to catch snow that blows in from surrounding mountains. Later, the snow is transported down to slopes that need it. This allows the resort to maximize snow cover in an environmentally sustainable and energy-efficient way.",
-          "scriptJa": "バンフ・サンシャイン・ビレッジ\n\n1950年代のアメリカとカナダでは、好景気中に、レクリエーション活動への関心が大きく高まった。人気が高まった活動の1つがスキーだった。しかし、多くのスキーリゾート地では、顧客の要望に応えるには山にもっと多くの雪が必要だとわかった。水と圧縮空気を使って人工的に雪を作る機械が開発され、スキーリゾート地は自然の降雪が少なくても営業できるようになった。\n\nしかし、雪を作るには、貯水池や湖からの水に加えて、相当なエネルギーが必要だ。バンフ・サンシャイン・ビレッジとして知られるカナダのスキーリゾート地では、その代わりに、スノーファーミングという手法に頼っている。そのリゾート地では、風が強い環境を利用し、高所にフェンスを建てて、周囲の山々から吹き込む雪を受け止めている。そのあと、雪は必要としているゲレンデへと運び下ろされる。これによって、同リゾート地では、環境的に持続可能でエネルギー効率のよい方法で積雪を最大限に確保している。"
+          "scriptJa": "バンフ・サンシャイン・ヴィレッジ\n\n1950年代のアメリカとカナダの好景気の間、レジャー活動への関心が劇的に高まった。人気が高まった活動の1つがスキーである。しかし多くのスキー場は、客の需要に応えるには山の雪が足りないことに気づいた。そこで、水と圧縮空気を使って人工的に雪を作る機械が開発され、自然の雪があまり降らなくてもスキー場が営業できるようになった。\n\nしかし、人工雪を作るには多くのエネルギーを使ううえ、貯水池や湖の水も必要になる。カナダにあるバンフ・サンシャイン・ヴィレッジというスキー場は、その代わりに「スノーファーミング」と呼ばれる方法を用いている。このスキー場は、その地域の風が強いという条件を生かし、標高の高い場所にフェンスを立てて、周りの山々から吹き込んでくる雪を受け止める。その後、その雪を、雪が必要なゲレンデまで運び下ろす。こうすることで、このスキー場は環境面で持続可能で、エネルギー効率も高い方法で、雪に覆われる範囲をできるだけ広げることができている。"
         },
         {
           "id": "q24",
@@ -431,9 +431,9 @@
             { "label": "4", "text": "Its slopes are at unusually high altitudes." }
           ],
           "answer": "2",
-          "explanation": "第2段第3文で「そのリゾート地では、風が強い環境を利用し、高所にフェンスを建てて、周囲の山々から吹き込む雪を受け止めている」と述べられている。よって、2「運営に役立てるために風を利用している」が正解。「〜を利用する」という表現に、放送文では take advantage of 〜を、選択肢では make use of 〜を用いている。1については、人工雪のマイナス点について触れているが、バンフ・サンシャイン・ビレッジの事業に悪影響を及ぼしているとは述べられていない。3については、他のスキーリゾート地へ提供しているとは述べられていない。4については、「フェンスが高所に建てられている」ことがわかるが、ゲレンデが高所にあるとは述べていない。",
+          "explanation": "第2段落で、このスキー場は地域の風の強さを生かし、高い場所にフェンスを立てて周りの山から吹き込む雪を集めていると述べられているので2が正解。集めた雪は自分のゲレンデに運ぶのであって、近くのほかのスキー場に提供するわけではないので3は誤り。標高の高い場所にあるのはフェンスでありゲレンデが特に高いとは言っておらず、人工雪のせいで経営が悪化したという話もないので1・4も当たらない。",
           "script": "Banff Sunshine Village\n\nDuring the economic boom of the 1950s in the US and Canada, interest in recreational activities increased dramatically. One activity that grew in popularity was skiing. However, many ski resorts found that they needed more snow on their mountains to meet customer demand. Machines were developed to create snow artificially using water and compressed air, enabling ski resorts to operate even without a lot of natural snowfall.\n\nHowever, snowmaking requires significant energy consumption as well as water from reservoirs and lakes. A Canadian ski resort known as Banff Sunshine Village relies instead on a method called snow farming. The resort takes advantage of the area's windy conditions by putting up fences at high altitudes to catch snow that blows in from surrounding mountains. Later, the snow is transported down to slopes that need it. This allows the resort to maximize snow cover in an environmentally sustainable and energy-efficient way.",
-          "scriptJa": "バンフ・サンシャイン・ビレッジ\n\n1950年代のアメリカとカナダでは、好景気中に、レクリエーション活動への関心が大きく高まった。人気が高まった活動の1つがスキーだった。しかし、多くのスキーリゾート地では、顧客の要望に応えるには山にもっと多くの雪が必要だとわかった。水と圧縮空気を使って人工的に雪を作る機械が開発され、スキーリゾート地は自然の降雪が少なくても営業できるようになった。\n\nしかし、雪を作るには、貯水池や湖からの水に加えて、相当なエネルギーが必要だ。バンフ・サンシャイン・ビレッジとして知られるカナダのスキーリゾート地では、その代わりに、スノーファーミングという手法に頼っている。そのリゾート地では、風が強い環境を利用し、高所にフェンスを建てて、周囲の山々から吹き込む雪を受け止めている。そのあと、雪は必要としているゲレンデへと運び下ろされる。これによって、同リゾート地では、環境的に持続可能でエネルギー効率のよい方法で積雪を最大限に確保している。"
+          "scriptJa": "バンフ・サンシャイン・ヴィレッジ\n\n1950年代のアメリカとカナダの好景気の間、レジャー活動への関心が劇的に高まった。人気が高まった活動の1つがスキーである。しかし多くのスキー場は、客の需要に応えるには山の雪が足りないことに気づいた。そこで、水と圧縮空気を使って人工的に雪を作る機械が開発され、自然の雪があまり降らなくてもスキー場が営業できるようになった。\n\nしかし、人工雪を作るには多くのエネルギーを使ううえ、貯水池や湖の水も必要になる。カナダにあるバンフ・サンシャイン・ヴィレッジというスキー場は、その代わりに「スノーファーミング」と呼ばれる方法を用いている。このスキー場は、その地域の風が強いという条件を生かし、標高の高い場所にフェンスを立てて、周りの山々から吹き込んでくる雪を受け止める。その後、その雪を、雪が必要なゲレンデまで運び下ろす。こうすることで、このスキー場は環境面で持続可能で、エネルギー効率も高い方法で、雪に覆われる範囲をできるだけ広げることができている。"
         }
       ]
     },
@@ -450,7 +450,9 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "Which restaurant should you choose?",
-          "situationJa": "あなたはホテルに滞在している。今、午後6時30分で、あなたは午後7時頃に近くのレストランで夕食をとりたい。コンシェルジュがあなたに次のように言う。",
+          "promptJa": "どのレストランを選ぶべきか？",
+          "situation": "You are staying at a hotel. It is 6:30 p.m. now, and you want to have dinner at a nearby restaurant around 7:00 p.m. The concierge tells you the following.",
+          "situationJa": "あなたはホテルに滞在している。今は午後6時30分で、午後7時ごろに近くのレストランで夕食をとりたい。コンシェルジュが次のように説明する。",
           "choices": [
             { "label": "1", "text": "Kingsley's." },
             { "label": "2", "text": "Shrimp Lover." },
@@ -458,9 +460,9 @@
             { "label": "4", "text": "Boca." }
           ],
           "answer": "3",
-          "explanation": "時刻と場所に注意して、説明される順に確認する。キングズリーズは8時に開店するので不適切。シュリンプラバーは電車で約45分かかるので不適切。ランディーズはほんの1ブロックのところにあり、夕食時でもすぐに座れるので条件に合う。ボカは少なくとも前日までに予約をしておかないと席を取るのは難しいので不適切。よって、3「ランディーズ」が正解。",
+          "explanation": "7時ごろに近くで夕食をとりたいという条件に注目する。キングズリーズは8時開店、シュリンプ・ラバーは電車で45分かかり、ボカは前日までに予約していないと席を取るのが難しい。1ブロック先のランディーズは夕食の時間帯でもすぐに座れるとのことなので3が正解。",
           "script": "We're near the harbor, so there are a lot of good seafood options. Kingsley's is a very popular lobster restaurant and bar, but it doesn't open until eight. Shrimp Lover is a seafood restaurant that just opened one month ago. It's about 45 minutes away by train. Randy's is a unique Mexican restaurant just a block away. They only have counter seats, but I'm sure you can be seated right away, even at dinner time. Then, there's Boca here in the hotel, but it's very difficult to get a table if you haven't booked at least a day in advance.",
-          "scriptJa": "港の近くですから、たくさんのおいしいシーフードの選択肢があります。キングズリーズは非常に人気のあるロブスターのレストランバーですが、開店は8時です。シュリンプラバーは1カ月前に開店したばかりのシーフードレストランです。電車で45分くらいのところにあります。ランディーズは珍しいメキシコ料理レストランで、ほんの1ブロック先です。カウンター席しかありませんが、夕食時でも、すぐに座れるはずです。それから、ボカがこのホテル内にありますが、少なくとも前日までに予約をしておかなければ、席を取るのは大変難しいです。"
+          "scriptJa": "当ホテルは港の近くにございますので、おいしいシーフードのお店がたくさんございます。キングズリーズはロブスター料理のレストラン兼バーでとても人気がありますが、開店は8時です。シュリンプ・ラバーは1か月前にオープンしたばかりのシーフードレストランで、電車で45分ほどのところにございます。ランディーズは1ブロック先にある個性的なメキシコ料理店です。カウンター席しかございませんが、夕食の時間帯でもきっとすぐにお席に着けると思います。それから、このホテルの中にボカがございますが、少なくとも前日までにご予約いただいていないと、席を取るのはかなり難しいです。"
         },
         {
           "id": "q26",
@@ -468,7 +470,9 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "What should you do?",
-          "situationJa": "あなたは500枚ある音楽CDのコレクションのうち半分を売ることに決めた。中古CDを売買する店に電話をして、次のような録音メッセージを聞く。",
+          "promptJa": "あなたは何をすべきか？",
+          "situation": "You have decided to sell half of your collection of 500 music CDs. You call a shop that buys and sells used CDs and hear the following recorded message.",
+          "situationJa": "あなたは500枚ある音楽CDのコレクションの半分を売ることにした。中古CDを売買している店に電話をかけると、次の録音メッセージが流れる。",
           "choices": [
             { "label": "1", "text": "Start the sales procedure online." },
             { "label": "2", "text": "Begin packing your CDs into boxes." },
@@ -476,9 +480,9 @@
             { "label": "4", "text": "Make an appointment for an assessment." }
           ],
           "answer": "4",
-          "explanation": "250枚の CD を売るためにすべきことを聞き取る。99枚までの CD を売る人への手続きの説明があるが、250枚なので該当しない。100枚以上の CD を売る人への手続きとして、最終文で「担当者が、コレクションを査定するためにお宅に伺う予定についてお話しします」と述べられているので、4「査定のための約束をする」が正解。",
+          "explanation": "売りたいのは500枚の半分、つまり250枚である。ウェブサイトで手続きできるのは99枚までで、100枚以上の場合は2を押して担当者と話し、自宅での査定の訪問日程を決めると案内されているので4が正解。1と3はウェブサイトでの売却手続きや会員登録に関するもので、99枚までの場合の手順なので当てはまらない。",
           "script": "Welcome to CD Masters. This holiday season, don't miss out on our \"CD Surprise\" boxes with 30 random CDs inside. Additionally, to sell up to 99 CDs, any registered member can log into their account on our website and start the sales procedure. If you don't have an account, you can register today just by filling out the form on our website. If you would prefer to register over the phone, press 1. If you are looking to sell 100 or more CDs at once, press 2. A representative will speak with you to schedule a home visit to assess your CD collection.",
-          "scriptJa": "CDマスターズにようこそ。このホリデーシーズンは、ランダムに選ばれた30枚のCDが入った『CDサプライズ』ボックスをお見逃しなく。さらに、CDの販売が99枚までであれば、登録済みのメンバーならどなたでも、ウェブサイト上のアカウントにログインして販売の手続きを開始できます。アカウントをお持ちでなければ、ウェブサイト上のフォームに入力するだけで本日登録できます。電話での登録をご希望でしたら、1を押してください。いっぺんに100枚以上のCDを売ろうとしているのでしたら、2を押してください。担当者が、あなたのCDコレクションを査定するためにお宅に伺う予定についてお話しします。"
+          "scriptJa": "CDマスターズへようこそ。このホリデーシーズンは、CDがランダムに30枚入った「CDサプライズ」ボックスをお見逃しなく。また、99枚までのCDをお売りいただく場合は、登録会員の方ならどなたでも、当店のウェブサイトでご自分のアカウントにログインして売却の手続きを始めていただけます。アカウントをお持ちでない方は、ウェブサイト上のフォームにご記入いただくだけで、今日からご登録いただけます。お電話でのご登録をご希望の方は、1を押してください。一度に100枚以上のCDの売却をお考えの方は、2を押してください。担当者がお話を伺い、お手持ちのCDコレクションを査定するためのご自宅訪問の日程を決めさせていただきます。"
         },
         {
           "id": "q27",
@@ -486,7 +490,9 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "Which class should you take?",
-          "situationJa": "あなたは大学生である。あなたは古代のギリシア人とローマ人について学びたいが、グループワークは好きではない。あなたは履修指導員の説明を聞いている。",
+          "promptJa": "あなたはどの授業を取るべきか？",
+          "situation": "You are a college student. You want to learn about ancient Greeks and Romans and do not like group work. You are listening to an academic adviser's explanation.",
+          "situationJa": "あなたは大学生である。古代ギリシャ人とローマ人について学びたいが、グループ作業は好きではない。あなたは学業アドバイザーの説明を聞いている。",
           "choices": [
             { "label": "1", "text": "History 103." },
             { "label": "2", "text": "Philosophy 105." },
@@ -494,9 +500,9 @@
             { "label": "4", "text": "Latin 102." }
           ],
           "answer": "3",
-          "explanation": "学びたい内容と、グループワークの有無に注意して確認する。歴史103は18・19世紀のヨーロッパの歴史なので内容が合わない。哲学105は内容はよいがチーム討論への参加が必要なので不適切。歴史202は講義中心で対話型ではなく、古代エジプト・ギリシア・ローマの歴史を扱うので条件に合う。ラテン語102は古代ローマにのみ焦点を当てており内容が合わない。よって、3「歴史202」が正解。",
+          "explanation": "条件は古代ギリシャとローマについて学べることと、グループ作業がないことの2つである。歴史103はグループ課題がないが18〜19世紀のヨーロッパ史が対象で、哲学105は毎回チームでの討論があり、ラテン語102は古代ローマだけでギリシャを扱わない。講義形式でやり取りがなく、古代ギリシャとローマの歴史を扱う歴史202が両方の条件に合うので3が正解。",
           "script": "In History 103, students can learn about European history in the eighteenth and nineteenth centuries. This class has no group projects, and there is an option available to take it online. Next, Philosophy 105 is for those who want to grasp the gist of Western philosophy, including that of ancient Greece and Rome. Students are expected to take part in spirited team debates in each class. History 202 is a lecture-based class and is non-interactive. It focuses primarily on ancient Egyptian, Greek, and Roman history. Finally, Latin 102 focuses exclusively on ancient Rome. In that class, you'll learn Latin by reading ancient Roman plays.",
-          "scriptJa": "歴史103では、学生は18・19世紀のヨーロッパの歴史について学ぶことができます。この授業ではグループ研究はなく、オンラインで授業を受けることもできます。次に、哲学105は、古代ギリシア・ローマの哲学など、西洋哲学の要点を理解したい人向けです。学生は毎時間活発なチーム討論に参加することが求められます。歴史202は講義が中心の授業で、対話型ではありません。主に古代エジプト、ギリシア、ローマの歴史を中心に扱います。最後に、ラテン語102は古代ローマにのみ焦点を当てます。授業では、古代ローマの劇を読むことでラテン語を学べます。"
+          "scriptJa": "歴史103では、18世紀と19世紀のヨーロッパの歴史を学ぶことができます。この授業にはグループ課題がなく、オンラインで受講することも選べます。次に、哲学105は、古代ギリシャやローマの哲学を含む西洋哲学の要点をつかみたい人のための授業です。受講生は毎回の授業で、白熱したチーム対抗の討論に参加することが求められます。歴史202は講義形式の授業で、受講生同士のやり取りはありません。主に古代エジプト、ギリシャ、ローマの歴史を扱います。最後に、ラテン語102は古代ローマだけを扱います。この授業では、古代ローマの劇を読みながらラテン語を学びます。"
         },
         {
           "id": "q28",
@@ -504,7 +510,9 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "What should you do?",
-          "situationJa": "あなたが娘のために2週間前に買ったタブレットが壊れた。それには1年間の保証期間がある。あなたは製品のメーカーに電話をして、次の録音メッセージを聞く。",
+          "promptJa": "あなたは何をすべきか？",
+          "situation": "The tablet computer you bought for your daughter two weeks ago has broken. It has a one-year warranty. You call the product manufacturer and hear the following recorded message.",
+          "situationJa": "2週間前に娘に買ってあげたタブレット端末が壊れてしまった。保証期間は1年である。製品のメーカーに電話をかけると、次の録音メッセージが流れる。",
           "choices": [
             { "label": "1", "text": "Press 1." },
             { "label": "2", "text": "Press 2." },
@@ -512,9 +520,9 @@
             { "label": "4", "text": "Press 4." }
           ],
           "answer": "2",
-          "explanation": "2週間前に買ったタブレットが壊れ、保証期間内であることを頭に入れて聞く。1は法人客に対してなので不適切。2は保証期間内の製品に関するもので該当する。3は保証期間外の製品に関するものなので不適切。4はタブレットの故障とは無関係なので不適切。よって、2「2を押す」が正解。",
+          "explanation": "タブレットは2週間前に買ったもので、1年間の保証期間内にある。保証期間中の製品の技術サポートや交換の依頼は2を押すよう案内されているので2が正解。3は保証期間が過ぎた製品の修理なので当てはまらず、1は法人顧客向け、4は機種やプランの情報なので目的に合わない。",
           "script": "Thank you for calling the TSS Electronics help desk. For corporate customers who have questions regarding the details of their contracts, press 1. For technical support or to request a replacement for any of our products currently under warranty, press 2. To arrange for a repair or check the repair status of a product outside of warranty, press 3. For information about the different tablet models and data plans that we provide, press 4. For all other inquiries, please remain on the line until a representative becomes available.",
-          "scriptJa": "お電話ありがとうございます。TSSエレクトロニクスのヘルプデスクです。法人のお客様で契約書の詳細に関する質問の方は、1を押してください。技術サポート、また、当社の全製品で現在保証期間中の製品について交換をご希望の場合は、2を押してください。修理の手配、あるいは保証期間外の製品の修理状況の確認は、3を押してください。私どもが提供しておりますさまざまなタブレットモデルやデータプランの情報につきましては、4を押してください。他のすべてのお問い合わせについては、担当者が応対できるようになるまでそのままお待ちください。"
+          "scriptJa": "TSSエレクトロニクスのヘルプデスクにお電話いただき、ありがとうございます。契約内容の詳細についてご質問のある法人のお客様は、1を押してください。技術サポートをご希望の方、または保証期間中の当社製品の交換をご希望の方は、2を押してください。保証期間が過ぎた製品の修理のご依頼、または修理状況のご確認は、3を押してください。当社が提供しているさまざまなタブレットの機種やデータプランについての情報は、4を押してください。その他のお問い合わせは、担当者におつなぎするまでそのままお待ちください。"
         },
         {
           "id": "q29",
@@ -522,7 +530,9 @@
           "audio": "audio/eiken/eiken-pre1-2023-2/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "Which tour should you choose?",
-          "situationJa": "あなたとあなたの7歳の息子は科学博物館にいる。あなたはツアーに参加したい。あなたは45分後に博物館を出なければならない。あなたは次の放送を聞く。",
+          "promptJa": "どのツアーを選ぶべきか？",
+          "situation": "You and your seven-year-old son are at a science museum. You want to take a tour. You must leave the museum in 45 minutes. You hear the following announcement.",
+          "situationJa": "あなたは7歳の息子と科学博物館にいる。ツアーに参加したいが、45分後には博物館を出なければならない。次のアナウンスが流れる。",
           "choices": [
             { "label": "1", "text": "Spark of Genius." },
             { "label": "2", "text": "The Age of Dinos." },
@@ -530,9 +540,9 @@
             { "label": "4", "text": "Museum after Dark." }
           ],
           "answer": "2",
-          "explanation": "「7歳の息子がいる」「45分後に博物館を出る」という2つの条件に合うものを選ぶ。「天才のひらめき」は1時間のツアーなので不適切。「恐竜の時代」は30分のツアーなので条件に合う。「深海へ」は10歳未満の子どもにはお勧めしないと述べられているので不適切。「夜の博物館」は夜間ツアーなので不適切。よって、2「恐竜の時代」が正解。",
+          "explanation": "45分以内に終わり、7歳の息子も参加できるツアーを選ぶ必要がある。スパーク・オブ・ジーニアスは1時間かかり、ディープ・イントゥ・ザ・シーは40分だが10歳未満にはすすめられておらず、ミュージアム・アフター・ダークは夜通しのツアーで予約が必要である。30分で終わるジ・エイジ・オブ・ダイノスが条件に合うので2が正解。",
           "script": "Several tours will be starting shortly. First, Spark of Genius is an hour-long tour about electricity that includes an exciting 30-minute 3D movie. We also have The Age of Dinos, which is a tour that explores the fascinating period when dinosaurs ruled the earth. It takes half an hour. Deep into the Sea is a 40-minute tour that looks at amazing deep-sea creatures. It can be a little scary, so this tour is not recommended for children under the age of 10. Finally, don't forget you can make reservations for our Museum after Dark overnight tour to experience an unforgettable night among our amazing exhibits.",
-          "scriptJa": "いくつかのツアーがまもなく始まります。まず、「天才のひらめき」は、電気についての1時間のツアーで、30分のわくわくする3D映画が含まれています。「恐竜の時代」というツアーもあります。そこでは、恐竜が地球を支配していた頃の魅力的な時代を探検します。30分かかります。「深海へ」は、驚くべき深海の生き物を見る40分のツアーです。少し怖い可能性があるので、このツアーは10歳未満のお子様にはお勧めしません。最後に、驚くべき展示品に囲まれて忘れられない夜を体験できる夜間ツアー「夜の博物館」を予約できることをお忘れなく。"
+          "scriptJa": "まもなく、いくつかのツアーが始まります。まず、「スパーク・オブ・ジーニアス」は電気をテーマにした1時間のツアーで、迫力ある30分の3D映画も含まれています。また、「ジ・エイジ・オブ・ダイノス」は、恐竜が地球を支配していた興味深い時代を探るツアーです。所要時間は30分です。「ディープ・イントゥ・ザ・シー」は、驚くべき深海の生き物たちを見ていく40分のツアーです。少し怖い内容もありますので、10歳未満のお子様にはおすすめしておりません。最後に、夜通し行われる「ミュージアム・アフター・ダーク」ツアーのご予約も受け付けておりますので、すばらしい展示に囲まれて忘れられない一夜をお過ごしください。"
         }
       ]
     }

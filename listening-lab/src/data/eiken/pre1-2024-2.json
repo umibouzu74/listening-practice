@@ -30,9 +30,9 @@
             { "label": "4", "text": "Moving to a different area." }
           ],
           "answer": "2",
-          "explanation": "女性が「ホームセキュリティシステムを検討したい」や「警報機も昔ほど高くない」と述べていることから、女性はセキュリティシステムのひとつである警報機を提案しているとわかる。よって、2「警報システムを購入すること」が正解。",
+          "explanation": "女性の2番目の発言で、I'd rather look into a home-security system と述べ、警報装置は昔ほど高くないと付け加えているので、警報システムの購入を提案している2が正解。3の番犬はマーティン家の話であり、4の引っ越しは男性が余裕がないと述べている。1については、警察がすでにパトロールを強化したと言っているだけで、通報を勧めてはいない。",
           "script": "M: There was another robbery in the neighborhood this week. That's the third time this month.\nW: It's really frightening. I'm glad the police have increased patrols in the area.\nM: The Martins just got a dog to protect their home. It's a really large, aggressive one.\nW: I'd rather look into a home-security system. Alarms are not as expensive as they used to be, you know.\nM: Well, we can't afford to move to a different neighborhood, so that might be our best option.",
-          "scriptJa": "M: 今週また近所で強盗があったよ。今月でもう3回目だ。\nW: 本当に怖いわね。警察がこの地域のパトロールを増やしてくれてよかった。\nM: マーティンさんの家は家を守るために犬を飼ったんだ。すごく大きくて凶暴なやつだよ。\nW: 私はホームセキュリティシステムを検討したいわ。警報機も昔ほど高くないのよ。\nM: まあ、別の地域に引っ越す余裕はないし、それが一番いい選択肢かもしれないね。"
+          "scriptJa": "M: 今週また近所で強盗があったよ。今月でもう3回目だ。\nW: 本当に怖いわね。警察がこの辺りのパトロールを増やしてくれてよかったわ。\nM: マーティンさんの家では、家を守るために犬を飼い始めたんだって。すごく大きくて気性の荒い犬らしいよ。\nW: 私はむしろホームセキュリティーシステムを検討したいわ。警報装置って、昔ほど高くないのよ。\nM: まあ、別の地域に引っ越す余裕はないし、それがいちばんいい選択肢かもしれないね。"
         },
         {
           "id": "q2",
@@ -46,9 +46,9 @@
             { "label": "4", "text": "Give a lecture himself." }
           ],
           "answer": "3",
-          "explanation": "女性の最初の発言から、休み明けの次の授業に向けて彼女のメモをプレゼンテーションのスライドに組み込むよう男性に依頼していることがわかる。3「プレゼンテーションのスライドを何枚か準備する」が正解。2は過去に依頼したことであり、質問は現在形で聞いているため不適。",
+          "explanation": "教授の最初の発言で、自分のメモをメールで送るのでプレゼン用のスライドにしてほしい（put them into presentation slides）と頼んでいるので3が正解。2の小テストの採点は男性がすでに終えたと報告している。1のメモ探しや4の講義の代行は頼まれていない。",
           "script": "M: Professor Quinn, I've finished with the quizzes from Thursday's class that you asked me to grade. Is there anything else I can help with before the semester break?\nW: Actually, yes. I have the slides ready for the first lecture after the break, but I need some created for the following class. Can I e-mail you my notes and have you put them into presentation slides?\nM: Sure. Anything else?\nW: No, but that will be a huge help. Thanks.",
-          "scriptJa": "M: クイン教授、頼まれていた木曜日の授業の小テストの採点が終わりました。学期休み前に他に何かお手伝いできることはありますか？\nW: 実はあるの。休み明け最初の授業のスライドはできているんだけど、その次の授業用のスライドを作ってほしいの。私のメモをメールで送るから、プレゼンテーションのスライドにまとめてもらえる？\nM: もちろんです。他にありますか？\nW: いいえ、でもとても助かるわ。ありがとう。"
+          "scriptJa": "M: クイン先生、頼まれていた木曜日の授業の小テストの採点が終わりました。休みに入る前に、ほかに何かお手伝いできることはありますか？\nW: 実はあるの。休み明け最初の講義のスライドはできているんだけど、その次の授業の分を作らないといけないのよ。私のメモをメールで送るから、それをプレゼン用のスライドにまとめてもらえるかしら？\nM: いいですよ。ほかには何か？\nW: いいえ、でもそれだけで本当に助かるわ。ありがとう。"
         },
         {
           "id": "q3",
@@ -62,9 +62,9 @@
             { "label": "4", "text": "She does not need her own room." }
           ],
           "answer": "1",
-          "explanation": "この会話では夫婦が巣立った子どもたちの部屋の使い方について話しているが、妻は娘のマヤが家に戻ってくる可能性があると述べている。よって、1「彼女は家に戻るかもしれない」が正解。",
+          "explanation": "女性の最初の発言 Maya won't like living so far away, so she might be back から、マヤが実家に戻ってくる可能性があると分かるので1が正解。机をジェイソンの部屋に置くのは男性の仕事場にするためであり、2や3はマヤとは関係がない。部屋をそのまま残しておこうという話なので4も誤り。",
           "script": "M: Now that the kids have moved out, we should make better use of their rooms.\nW: We can change Jason's room for sure, but I have a feeling Maya won't like living so far away, so she might be back.\nM: Do you think so? We should leave her room as it is, then?\nW: I think that would be best. We could put a desk into Jason's room, though. That way, you wouldn't have to work on the kitchen table every night.",
-          "scriptJa": "M: 子どもたちは引っ越して出て行ったんだから、彼らの部屋をもっと有効活用するべきだよ。\nW: 確かにジェイソンの部屋は変えられるけど、マヤは遠くに住むのを嫌がるだろうから戻ってくる気がするわ。\nM: そう思う？ それなら彼女の部屋はそのままにしたほうがいいかな？\nW: それが一番いいと思う。でもジェイソンの部屋に机を置けるわ。そうすれば毎晩キッチンのテーブルで仕事をしなくて済むわよ。"
+          "scriptJa": "M: 子どもたちも家を出たことだし、あの子たちの部屋をもっと有効に使わないとね。\nW: ジェイソンの部屋は確かに模様替えしていいと思う。でも、マヤはあんなに遠くで暮らすのを気に入らないような気がするの。だから、戻ってくるかもしれないわ。\nM: そう思う？じゃあ、マヤの部屋はそのままにしておいたほうがいいのかな？\nW: それがいちばんだと思う。でも、ジェイソンの部屋には机を置けるわね。そうすれば、あなたも毎晩キッチンのテーブルで仕事をしなくて済むでしょう。"
         },
         {
           "id": "q4",
@@ -78,9 +78,9 @@
             { "label": "4", "text": "Think about applying for the position." }
           ],
           "answer": "4",
-          "explanation": "男性がチームリーダーの役職への応募を勧め、女性がためらった後も再度勧めたことで、女性は考えてみると返答している。よって、4「その役職に応募することを考える」が正解。",
+          "explanation": "女性は在籍期間の短さを気にしつつも、最後の発言で it's certainly something I'll consider と述べており、応募を検討するつもりだと分かるので4が正解。求人情報は見ていなかったと言っただけで、今後こまめに確認するとは言っていないので2は誤り。1の管理スタイルの変更や3の上司との相談についての言及はない。",
           "script": "M: Did you see the job posting for the team leader position?\nW: No. I haven't been checking the job postings.\nM: I think you'd make a great team leader. It would be more responsibility, but you've shown a lot of leadership in the past few months.\nW: I suppose I might be good at it. But I don't feel like I've been here long enough to move into a role where I'm managing others.\nM: You should still apply.\nW: Well, it's certainly something I'll consider.",
-          "scriptJa": "M: チームリーダーの募集公示を見た？\nW: いいえ、募集公示はチェックしていなかったわ。\nM: 君は素晴らしいチームリーダーになれると思うよ。責任は増えるけど、ここ数カ月で何度もリーダーシップを発揮してきたからね。\nW: もしかしたら向いているのかもしれないわね。でも、他人を管理するような役職に移れるほど、ここで長く働いているようには思えないわ。\nM: それでも応募したほうがいいよ。\nW: まあ、確かに考えてみるわ。"
+          "scriptJa": "M: チームリーダーの募集、見た？\nW: いいえ。社内の募集はチェックしていなかったわ。\nM: 君ならすばらしいチームリーダーになると思うよ。責任は重くなるけど、ここ数か月、君はすごくリーダーシップを発揮しているからね。\nW: 向いているかもしれないとは思う。でも、人をまとめる立場に就けるほど長くここで働いている気がしないのよ。\nM: それでも応募したほうがいいよ。\nW: そうね、それは間違いなく考えてみるわ。"
         },
         {
           "id": "q5",
@@ -94,9 +94,9 @@
             { "label": "4", "text": "He did not like the honey they made." }
           ],
           "answer": "3",
-          "explanation": "会話後半で男性は、引っ越し先の新しい敷地には養蜂のための場所がなかったと言っている。したがって、3「彼にはそのための場所がなかった」が正解。",
+          "explanation": "男性の2番目の発言 there wasn't enough space on the property から、引っ越し先に巣箱を置く場所がなかったことが理由と分かるので3が正解。1のアレルギーは女性の推測で、男性は No と否定している。費用はかかったがその価値はあったと述べているので2は誤りであり、はちみつはおいしかったと言っているので4も誤り。",
           "script": "W: Thanks for bringing me to the nature center. I loved the demonstration about bees and their hives.\nM: You know, I used to have my own hives. It was a fairly expensive hobby, but all of that delicious honey was worth it!\nW: Why don't you do it anymore? Did you develop an allergy? That happened to my sister.\nM: No, when I moved houses, there wasn't enough space on the property. I sold all of my equipment to another beekeeper.\nW: Too bad. Sounds like you enjoyed it.",
-          "scriptJa": "W: 自然センターに連れてきてくれてありがとう。ミツバチと巣箱の実演はとても気に入ったわ。\nM: 実は、僕は以前自分で巣箱を所有していたんだ。かなりお金のかかる趣味だったけど、あれだけたくさんのおいしいハチミツが採れたんだから、十分その価値はあったよ。\nW: どうしてもうやらないの？ アレルギーを発症した？ 私の妹がそうだったの。\nM: いや、家を引っ越したとき、敷地内に十分な場所がなかったんだ。備品はすべて他の養蜂家に売ったよ。\nW: 残念だったわね。気に入っていたようなのに。"
+          "scriptJa": "W: 自然センターに連れてきてくれてありがとう。ミツバチと巣箱の実演、すごくよかったわ。\nM: 実はね、僕も昔は自分の巣箱を持っていたんだ。かなりお金のかかる趣味だったけど、あのおいしいはちみつのためなら、それだけの価値はあったよ！\nW: どうして今はやっていないの？アレルギーになったとか？私の姉がそうだったのよ。\nM: いや、引っ越したときに、新しい家の敷地に十分なスペースがなかったんだ。道具は全部、別の養蜂家に売ったよ。\nW: 残念ね。楽しんでいたみたいなのに。"
         },
         {
           "id": "q6",
@@ -110,9 +110,9 @@
             { "label": "4", "text": "His mother should not sell her home." }
           ],
           "answer": "1",
-          "explanation": "男性は2番目の発言で、一人暮らしがどんどん難しくなることや、母親が転んで怪我をすることなどを懸念している。よって、1「母親は一人で住むべきではない」が正解。",
+          "explanation": "男性の2番目の発言 being on your own is going to get harder and harder や、転んでけがをしたらどうするのかという心配から、母親の一人暮らしを不安に思っていると分かるので1が正解。男性は家を売れば施設の費用が払えると言っているので4は逆である。2の貯金や3の近くに住むことについては話していない。",
           "script": "M: Mom, have you ever considered moving to an assisted-living facility?\nW: You mean a retirement home? I like living here. Besides, it'd be expensive.\nM: We could afford it if you sold this place. I just think being on your own is going to get harder and harder. What if you fell down and hurt yourself?\nW: There are plenty of people I could call for help.\nM: I guess so, but I'm worried about you, Mom.\nW: I understand. Let me think about it.",
-          "scriptJa": "M: 母さん、介護施設への入居を考えたことはある？\nW: 老人ホームのことかしら？ ここでの生活は気に入っているわ。それにお金もかかるし。\nM: この場所を売ればなんとかなるさ。僕はただ、一人暮らしをするのがどんどん難しくなると思うんだ。もし転んで怪我したらどうするの？\nW: 助けを呼べる人は何人もいるわよ。\nM: そうだろうけど心配だよ、母さん。\nW: わかったわ。考えさせて。"
+          "scriptJa": "M: 母さん、介護付きの施設に移ることを考えたことはある？\nW: 老人ホームのこと？私はここでの暮らしが気に入っているのよ。それに、お金がかかるでしょう。\nM: この家を売れば払えるよ。ただ、一人で暮らすのはこれからどんどん大変になると思うんだ。もし転んでけがをしたらどうするの？\nW: 助けを呼べる人ならたくさんいるわ。\nM: そうかもしれないけど、母さんのことが心配なんだよ。\nW: 分かったわ。少し考えさせて。"
         },
         {
           "id": "q7",
@@ -126,9 +126,9 @@
             { "label": "4", "text": "Change their departure time." }
           ],
           "answer": "1",
-          "explanation": "会話全体を通して女性は男性に荷造りを早く始めるよう促している。「慌てるからパジャマとか忘れるんじゃない」という発言から、前もってしっかりと準備を整え、忘れ物をしないようにしてほしいと考えていることがわかる。したがって、1「より入念に旅行の準備をする」が正解。",
+          "explanation": "女性の2番目の発言で、男性が急いで荷造りするせいで服がしわになったり物を忘れたりすると指摘し、今から準備を始めるよう促しているので、旅行の準備をもっと丁寧にしてほしいという1が正解。パジャマは忘れ物の例として挙げられただけなので2は誤り。3の日程の再確認や4の出発時刻の変更は話題になっていない。",
           "script": "W: OK, my suitcase is ready to go. Have you started packing yet?\nM: No. It'll only take a few minutes. I'll do it before we leave in the morning.\nW: Why don't you start now? You always throw your clothes in your suitcase, and they get wrinkled. And then you forget things like pajamas because you're in such a hurry.\nM: Well, you sometimes leave important things behind, too.\nW: Hardly ever! I make up a list of things to take and check them off so I know I have everything.",
-          "scriptJa": "W: よし、スーツケースは準備できた。もう荷造り始めた？\nM: いや、ほんの数分しかかからないから。朝出発前にやることにするよ。\nW: 今始めたらどう？ いつもスーツケースに服を放り込んで、しわになるじゃない。それにそんなに慌てるから、パジャマとか忘れるんじゃない。\nM: でも君だって時々大事なものを忘れるよね。\nW: めったにないわよ！ 私は持っていくもののリストを作って、全部揃っていることがわかるようにチェックマークをつけているのよ。"
+          "scriptJa": "W: よし、私のスーツケースは準備できたわ。あなたはもう荷造りを始めた？\nM: いや。数分で終わるよ。朝、出発する前にやるさ。\nW: 今から始めたら？あなたはいつも服をスーツケースに放り込むから、しわくちゃになるじゃない。それに、慌てているせいでパジャマみたいなものを忘れるし。\nM: でも、君だって時々大事なものを置き忘れるじゃないか。\nW: めったにないわよ！私は持っていくもののリストを作って、チェックを付けていくから、全部そろっているって分かるの。"
         },
         {
           "id": "q8",
@@ -142,9 +142,9 @@
             { "label": "4", "text": "Next year's conference has been canceled." }
           ],
           "answer": "3",
-          "explanation": "男性の不満が表れているのは「研究発表をする日に講演者が追加されて、僕の講演が短縮された」という発言である。その後も研修生がデータ分析を手伝ったスライドを見せられなかったことへの不満が述べられていることから、3「研究のすべてを発表できなかったから」が正解。",
+          "explanation": "男性の2番目の発言 my talk was cut short と、インターンが手伝ったスライドもすべて削らなければならなかったという発言から、研究を全部発表できなかったことが不満の原因と分かるので3が正解。参加者が少なかったのかという質問には Not at all と答えているので2は誤り。インターンのデータが間違っていたわけではないので1も誤り。",
           "script": "W: Hi, how did things go at your conference?\nM: Not great.\nW: Was it poorly attended?\nM: Not at all, but they added more speakers on the day I was presenting my research, so my talk was cut short.\nW: That's too bad. I know you put a lot of work into it. Did you take the intern with you, too?\nM: Yes. She helped with the data analysis for the slides, but those all had to be cut.\nW: Well, it wasn't your fault. I hope things go better next time!",
-          "scriptJa": "W: こんにちは、学会はどうだった？\nM: あまり良くなかったよ。\nW: 参加者が少なかったの？\nM: いや全くそんなことはないんだけど、ただ研究発表をする日に講演者が追加されて、僕の講演が短縮されたんだ。\nW: それは残念ね。一生懸命取り組んでいたものね。研修生も連れて行ったの？\nM: うん。彼女はスライドのデータ分析を手伝ってくれたけど、そのスライドは全部カットしなければいけなかったよ。\nW: まあ、あなたのせいじゃないわ。次はうまくいくといいわね！"
+          "scriptJa": "W: お帰りなさい、学会はどうだった？\nM: あまりよくなかったよ。\nW: 参加者が少なかったの？\nM: 全然そんなことはないんだけど、僕が研究発表をする日に登壇者が追加されて、発表時間を削られてしまったんだ。\nW: それは残念ね。ずいぶん力を入れて準備していたのに。インターンも一緒に連れて行ったの？\nM: うん。彼女がスライド用のデータ分析を手伝ってくれたんだけど、そのスライドは全部カットしなければならなかったんだ。\nW: まあ、あなたのせいじゃないわ。次はうまくいくといいわね！"
         },
         {
           "id": "q9",
@@ -153,14 +153,14 @@
           "prompt": "What will the man do next?",
           "choices": [
             { "label": "1", "text": "Sit at an indoor table." },
-            { "label": "2", "text": "Take a seat at the bar." },
+            { "label": "2", "text": "Sit at the bar." },
             { "label": "3", "text": "Go to the patio." },
             { "label": "4", "text": "Go outside to meet his party." }
           ],
           "answer": "2",
-          "explanation": "男性客は、同席者たちがあと20分は来ないことから、しばらく待つ必要のある屋内テーブルを選んだ。女性店員が男性客にバーの席で待機してよいことを伝え、男性がそれに同意していることから、2「バーの席に座る」が正解。",
+          "explanation": "男性は連れが来るまで店内の席を待つことにし、女性の2番目の発言でその間バーに座って待てると勧められ、that sounds great と応じているので2が正解。1の店内の席に着くのは準備ができてからであり、すぐに案内できる3のテラス席は選んでいない。4のように外へ連れを迎えに行くという話は出ていない。",
           "script": "M: Good evening. I'd like a table for four.\nW: Certainly, sir. We'll have an indoor table available in around thirty minutes. If you'd prefer a table on the patio, I can seat you immediately.\nM: Well, the rest of my party won't be here for another twenty minutes, so I don't mind waiting.\nW: Excellent. You can have a seat at the bar in the meantime if you'd like. I'll let you know when your table is ready.\nM: Thank you, that sounds great.",
-          "scriptJa": "M: こんばんは。4人掛けのテーブルをお願いします。\nW: かしこまりました。30分ほどで屋内のテーブルをご用意できます。テラスにあるテーブルをご希望でしたら、すぐにお席にご案内できます。\nM: そうですね、他の同席者はあと20分は来ないので、待っても構いません。\nW: 承知しました。もしよろしければ、その間にバーのお席をお使いいただけます。テーブルがご用意できましたらお知らせします。\nM: ありがとう、それで結構です。"
+          "scriptJa": "M: こんばんは。4人で席をお願いしたいのですが。\nW: かしこまりました。店内のお席でしたら30分ほどでご用意できます。テラス席がよろしければ、すぐにご案内できますが。\nM: そうですね、連れがあと20分は来ないので、待つのは構いません。\nW: 承知いたしました。よろしければ、それまでバーカウンターでお待ちいただけます。お席の準備ができましたらお知らせいたします。\nM: ありがとう、それはいいですね。"
         },
         {
           "id": "q10",
@@ -174,9 +174,9 @@
             { "label": "4", "text": "He needs to change his novel's ending." }
           ],
           "answer": "3",
-          "explanation": "会話の前半では男性の執筆がなかなか進まないことが述べられ、後半ではキャラクター作りに苦戦している様子がわかる。正解は3「小説をほとんど進められていない」。書き直しが必要なのは結末ではなく途中の章なので4は不適切。",
+          "explanation": "男性の最初の発言 I've barely accomplished anything these last few days から、執筆がほとんど進んでいないことが悩みだと分かるので3が正解。必要なのは登場人物を増やすことで、削ることではないので2は誤り。書き直すのは中盤の章であり、結末ではないので4も誤り。",
           "script": "W: What's the matter, honey?\nM: Oh, I'm just frustrated with my novel. I've barely accomplished anything these last few days.\nW: Really? I thought you were just finishing up the ending.\nM: I was. But a couple of days ago, I realized that several chapters in the middle needed to be completely rewritten.\nW: That sounds like a lot of work.\nM: Yes, and to do it, I need to introduce an additional character. I just can't come up with a suitable one, though.\nW: Well, hang in there.",
-          "scriptJa": "W: どうしたの、あなた？\nM: ああ、僕はただ自分の小説のことでイライラしているだけさ。ここ数日ほとんど何も進んでなくてさ。\nW: そうなの？ ちょうど結末を仕上げているところだと思っていたわ。\nM: 仕上げていたさ。でも数日前、途中のいくつかの章を完全に書き直す必要があることに気づいたんだ。\nW: それはかなり大変そうね。\nM: ああ、それにそのためには、追加のキャラクターを登場させなくてはいけないんだ。だけどしっくりくるのが思い浮かばないよ。\nW: そうねえ、くじけないで頑張ってね。"
+          "scriptJa": "W: どうしたの、あなた？\nM: ああ、小説のことでイライラしているだけだよ。ここ数日、ほとんど何も進んでいないんだ。\nW: 本当？もう結末を仕上げているところだと思っていたわ。\nM: そうだったんだ。でも2日ほど前に、真ん中のいくつかの章を全部書き直さなきゃいけないって気づいてね。\nW: それは大変そうね。\nM: うん。しかもそのためには、登場人物を1人増やさないといけないんだ。でも、ぴったりの人物がどうしても思いつかなくて。\nW: まあ、頑張って。"
         },
         {
           "id": "q11",
@@ -190,9 +190,9 @@
             { "label": "4", "text": "Start a new course." }
           ],
           "answer": "1",
-          "explanation": "女性が一緒に勉強することを提案し、男性は同意して翌日の日程について後でメールで知らせるとしている。よって、1「試験のために勉強する」が正解。",
+          "explanation": "女性の最後の発言で一緒に勉強しようと提案し、男性が Let's meet tomorrow と応じているので、明日2人で試験勉強をすると分かる。よって1が正解。期末試験は3日後なので3は誤り。教授については試験が難しくないと言っていたことが紹介されるだけで、2のように話しに行く予定はない。",
           "script": "W: You're looking worried, Charlie. Are you OK?\nM: No! The final exam for our history course is in three days, but I haven't even started studying for it yet.\nW: I wouldn't worry about it. Professor Simons said the exam won't be too tough.\nM: Yes, but there's still a lot to remember. And history is my weakest subject.\nW: Why don't we study together? We could quiz each other on the main topics. That always helps me remember things.\nM: Good idea. Let's meet tomorrow. I'll text you to arrange a time.",
-          "scriptJa": "W: 心配事がありそうね、チャーリー。大丈夫？\nM: 大丈夫じゃないよ！ 歴史講座の期末試験は3日後だけど、まだ勉強を始めてもいないんだ。\nW: 心配いらないと思うわ。サイモンズ教授も試験はそれほど難しくないって言ってたし。\nM: そうだけど、それでもたくさん覚えることがあるし。それに歴史は僕の一番苦手な教科なんだ。\nW: 一緒に勉強しない？ 主要なトピックについてお互いに問題を出し合えるわ。それは物を覚えるのにいつも役立つの。\nM: いい考えだね。明日会おう。時間を決めるためにメールを送るよ。"
+          "scriptJa": "W: 心配そうな顔をしているわね、チャーリー。大丈夫？\nM: 大丈夫じゃないよ！歴史の授業の期末試験が3日後なのに、まだ勉強を全然始めていないんだ。\nW: 心配しなくていいと思うわ。シモンズ先生は、試験はそれほど難しくないって言っていたし。\nM: うん、でも覚えることはやっぱりたくさんあるよ。それに、歴史はいちばん苦手な科目なんだ。\nW: 一緒に勉強しない？主なテーマについてお互いに問題を出し合えばいいわ。私はいつもそれで覚えられるの。\nM: いい考えだね。明日会おう。時間を決めるのにメッセージを送るよ。"
         },
         {
           "id": "q12",
@@ -206,9 +206,9 @@
             { "label": "4", "text": "He needs to learn from a professional trainer." }
           ],
           "answer": "4",
-          "explanation": "ウェイトトレーニングを始めようと考えている男性に対して女性が最後の発言で、不適切な機械の使用による怪我の危険性を指摘し、プロに教わることを勧めている。4「彼はプロのトレーナーから学ぶ必要がある」が正解。",
+          "explanation": "教えてほしいという男性の頼みに対し、女性は最後の発言で I recommend getting lessons from a professional と答えているので4が正解。週に5、6回通うのは本格的なボディービルダーの話で、女性自身のことではないので1は誤り。けがの話は一般的な注意であり、女性がけがをしたとは言っていないので3も誤り。",
           "script": "M: Jane, I'm going to take up weight training. Those Internet training videos are really inspiring.\nW: That's great, but you should check out a few gyms before deciding on one.\nM: Why's that?\nW: Some gyms are mainly designed for serious bodybuilders who go five or six times a week. At first, you should go somewhere that caters to a broader range of abilities.\nM: OK. And would you be able to teach me?\nW: I recommend getting lessons from a professional. It's easy to get injured if you don't use the machines properly.",
-          "scriptJa": "M: ジェーン、僕はウェイトトレーニングを始めようと思っているんだ。インターネットのトレーニング動画は本当に刺激になるよ。\nW: それはよいけど、ひとつに決める前にいくつかジムをチェックしたほうがいいわよ。\nM: なんでだい？\nW: 週5、6回通うような本格的なボディビルダー用のジムもあるからよ。まずは、もっと幅広いレベルに対応したところに行ったほうがいいわよ。\nM: わかった。それじゃあ、教えてもらえるかい？\nW: プロからレッスンを受けることをお勧めするわ。マシンを正しく使わないと怪我をしやすいから。"
+          "scriptJa": "M: ジェーン、僕、ウエートトレーニングを始めようと思うんだ。ネットのトレーニング動画にすごく刺激を受けてね。\nW: それはいいわね。でも、ジムを決める前にいくつか見て回ったほうがいいわよ。\nM: どうして？\nW: ジムの中には、週に5、6回通うような本格的なボディービルダー向けに作られているところもあるの。最初は、もっと幅広いレベルの人に対応しているところに行くべきね。\nM: なるほど。それで、君が教えてくれたりはできる？\nW: プロに指導してもらうことを勧めるわ。マシンを正しく使わないと、けがをしやすいから。"
         }
       ]
     },
@@ -233,9 +233,9 @@
             { "label": "4", "text": "The local people were hiding gold." }
           ],
           "answer": "2",
-          "explanation": "第1段第2文に「スペインの入植者は、これらの島々には金がなかったのでほとんど役に立たないと考えていた」とある。よって、2「ほとんど価値のないものであった」が正解。",
+          "explanation": "第1段落で、スペインの植民者たちは金がないことからバハマの島々を essentially useless だと考えたと述べられており、これを「ほとんど価値がない」と言い換えた2が正解。植民者は島に金がないと考えたのであり、4のように住民が金を隠していると考えたわけではない。1や3についての言及はない。",
           "script": "The Lucayans\n\nThe Lucayans were the indigenous people of the Bahamas, a group of islands in the western Atlantic Ocean. Spanish colonizers who arrived in the 1400s in search of riches believed these islands were essentially useless as they did not contain gold. The colonizers enslaved large numbers of Lucayans to work on other islands; this, in combination with the introduction of diseases, led to the near extinction of the Lucayans by the mid-sixteenth century.\n\nIn the 1800s, a large number of Lucayan artifacts, including wood carvings and canoes, were discovered in the Bahamas. By the late twentieth century, however, most of these had been destroyed by rising sea levels as well as construction, agricultural development, and efforts to mine the islands for bat droppings, which are a valuable fertilizer. Nevertheless, archaeologists believe underwater caves around the islands contain undiscovered artifacts that can add to scholars' knowledge of Lucayan culture.",
-          "scriptJa": "ルカヤ人\n\nルカヤ人は西大西洋にあるバハマ諸島の先住民であった。富を求めて1400年代に到着したスペインの入植者たちは、これらの島々には金がなかったので、ほとんど役に立たないと信じていた。入植者たちは他の島で働かせるために多数のルカヤ人を奴隷にしたが、このことと病気が持ち込まれたこととが相まって、16世紀半ばまでにルカヤ人はほぼ絶滅してしまった。\n\n1800年代には、木彫りやカヌーなどの多数のルカヤ人の遺物がバハマ諸島で発見された。しかし、20世紀後半までに、建設、農業開発、そして貴重な肥料であるコウモリの糞を求めて島を掘り起こす作業に加えて、海面上昇により、これらのほとんどが破壊されてしまった。それでも、考古学者たちは、島周辺の水中の洞窟には、ルカヤ文化に関する学者たちの知識を増やすかもしれない未発見の遺物がある、と考えている。"
+          "scriptJa": "ルカヤン族\n\nルカヤン族は、大西洋西部に連なる島々であるバハマの先住民だった。1400年代に富を求めてやって来たスペインの植民者たちは、金が採れないことから、これらの島々は実質的に役に立たないと考えた。植民者たちは多くのルカヤン族を奴隷にして、ほかの島々で働かせた。このことに、持ち込まれた病気の影響が重なり、16世紀半ばまでにルカヤン族はほぼ絶滅してしまった。\n\n1800年代には、木彫りやカヌーをはじめとする大量のルカヤン族の遺物がバハマで発見された。しかし20世紀後半までに、その大半は海面の上昇に加え、建設工事や農地開発、さらに貴重な肥料となるコウモリのふんを島から採掘しようとする取り組みによって失われてしまった。それでも考古学者たちは、島々の周辺にある海中洞窟には未発見の遺物が残されており、それらがルカヤン文化に関する学者たちの知識を広げてくれる可能性があると考えている。"
         },
         {
           "id": "q14",
@@ -247,13 +247,13 @@
           "choices": [
             { "label": "1", "text": "They were tools used for constructing canoes." },
             { "label": "2", "text": "Various factors led to their destruction." },
-            { "label": "3", "text": "Most of them were found underwater." },
+            { "label": "3", "text": "Most of them were discovered underwater." },
             { "label": "4", "text": "They challenged many scholars' theories." }
           ],
           "answer": "2",
-          "explanation": "第2段第2文では、ルカヤ人の遺物が海面上昇や建設、農業開発などの要因によって破壊されてしまったことが述べられている。したがって、2「様々な要因がその破壊につながった」が正解。",
+          "explanation": "第2段落で、1800年代に見つかった遺物の大半は、海面上昇、建設工事、農地開発、コウモリのふんの採掘によって失われたと述べられているので、これらを「さまざまな要因」とまとめた2が正解。海中洞窟にあるとされるのは未発見の遺物なので3は誤り。カヌーは遺物の例として挙げられているだけで、1のようにカヌー作りの道具だったわけではない。",
           "script": "The Lucayans\n\nThe Lucayans were the indigenous people of the Bahamas, a group of islands in the western Atlantic Ocean. Spanish colonizers who arrived in the 1400s in search of riches believed these islands were essentially useless as they did not contain gold. The colonizers enslaved large numbers of Lucayans to work on other islands; this, in combination with the introduction of diseases, led to the near extinction of the Lucayans by the mid-sixteenth century.\n\nIn the 1800s, a large number of Lucayan artifacts, including wood carvings and canoes, were discovered in the Bahamas. By the late twentieth century, however, most of these had been destroyed by rising sea levels as well as construction, agricultural development, and efforts to mine the islands for bat droppings, which are a valuable fertilizer. Nevertheless, archaeologists believe underwater caves around the islands contain undiscovered artifacts that can add to scholars' knowledge of Lucayan culture.",
-          "scriptJa": "ルカヤ人\n\nルカヤ人は西大西洋にあるバハマ諸島の先住民であった。富を求めて1400年代に到着したスペインの入植者たちは、これらの島々には金がなかったので、ほとんど役に立たないと信じていた。入植者たちは他の島で働かせるために多数のルカヤ人を奴隷にしたが、このことと病気が持ち込まれたこととが相まって、16世紀半ばまでにルカヤ人はほぼ絶滅してしまった。\n\n1800年代には、木彫りやカヌーなどの多数のルカヤ人の遺物がバハマ諸島で発見された。しかし、20世紀後半までに、建設、農業開発、そして貴重な肥料であるコウモリの糞を求めて島を掘り起こす作業に加えて、海面上昇により、これらのほとんどが破壊されてしまった。それでも、考古学者たちは、島周辺の水中の洞窟には、ルカヤ文化に関する学者たちの知識を増やすかもしれない未発見の遺物がある、と考えている。"
+          "scriptJa": "ルカヤン族\n\nルカヤン族は、大西洋西部に連なる島々であるバハマの先住民だった。1400年代に富を求めてやって来たスペインの植民者たちは、金が採れないことから、これらの島々は実質的に役に立たないと考えた。植民者たちは多くのルカヤン族を奴隷にして、ほかの島々で働かせた。このことに、持ち込まれた病気の影響が重なり、16世紀半ばまでにルカヤン族はほぼ絶滅してしまった。\n\n1800年代には、木彫りやカヌーをはじめとする大量のルカヤン族の遺物がバハマで発見された。しかし20世紀後半までに、その大半は海面の上昇に加え、建設工事や農地開発、さらに貴重な肥料となるコウモリのふんを島から採掘しようとする取り組みによって失われてしまった。それでも考古学者たちは、島々の周辺にある海中洞窟には未発見の遺物が残されており、それらがルカヤン文化に関する学者たちの知識を広げてくれる可能性があると考えている。"
         },
         {
           "id": "q15",
@@ -269,9 +269,9 @@
             { "label": "4", "text": "They would cause fewer children to be born." }
           ],
           "answer": "4",
-          "explanation": "第1段第3・4文にテディベアとばかり遊ぶことで女の子は母性本能を失い、出生率の低下につながるという当時の人々の懸念が述べられている。よって、4「生まれる子どもの数を減らす」が正解。",
+          "explanation": "第1段落の最後に、テディベアで遊ぶと女の子が母性本能を失い、それが出生率の低下（falling birth rates）につながると予測した人もいたとあるので4が正解。1は出生率との因果関係が逆になっている。人間に似ているのは比較対象の人形のほうであり、テディベアがそう言われたわけではないので2も誤り。",
           "script": "History of the Teddy Bear\n\nTeddy bears have been popular with children worldwide since their invention in the early 1900s. While the stuffed toys are generally considered lovable symbols of comfort and joy, they initially sparked some concerns. As teddy bears became a fixture in toy closets, there were fears that playing with them rather than humanlike dolls would result in girls losing their maternal instinct. Some people even predicted this would lead to falling birth rates.\n\nWhile such fears eventually disappeared, author Jon Mooallem suggests the acceptance of teddy bears did, in fact, correlate with another shift in society. As urbanization brought people away from rural areas where animals like brown bears were a threat, they came to view the bears as cute rather than ferocious. Mooallem notes that, more recently, a similar phenomenon has occurred with polar bears, as climate-change-related habitat loss has led people to see them as delicate victims rather than terrifying predators.",
-          "scriptJa": "テディベアの歴史\n\nテディベアは1900年代初頭に初めて作られて以来、世界中の子どもたちに人気がある。そのぬいぐるみは一般的に、安らぎと喜びの愛すべき象徴と考えられている一方で、最初はいくつかの懸念を生じさせた。テディベアがおもちゃのクローゼットに欠かせないものになると、人型の人形よりもそれらで遊ぶことは、女の子に母性本能を失わせることになるという恐れがあった。これが出生率の低下につながると予測する人さえいた。\n\nこのような恐れは最終的には消えていったが、作家のジョン・ムーアレムは、テディベアの受容は、実は社会の別の変化と相関関係が確実にあったと示唆している。都市化によってヒグマのような動物が脅威であった農村地域から遠ざかるにつれ、人々はクマを獰猛なものではなく、かわいらしいものとして見るようになった。ムーアレムは、さらに最近では、気候変動に関連した生息地の減少によって、人々が北極グマを恐ろしい捕食者ではなく繊細な犠牲者として見るようになり、似たような現象が北極グマにも起きていると述べている。"
+          "scriptJa": "テディベアの歴史\n\nテディベアは1900年代初めに誕生して以来、世界中の子どもたちに親しまれてきた。このぬいぐるみは一般に、安らぎと喜びを象徴する愛らしい存在と見なされているが、当初はいくつかの懸念を呼んだ。テディベアが子どものおもちゃの定番になるにつれ、人間に似た人形ではなくテディベアで遊んでいると、女の子が母性本能を失ってしまうのではないかと心配されたのである。中には、それが出生率の低下につながると予測する人までいた。\n\nそうした懸念はやがて消えたが、作家のジョン・ムーアレムは、テディベアが受け入れられたことは、実は社会の別の変化と関連していたと指摘している。都市化によって、ヒグマのような動物が脅威だった農村部から人々が離れていくにつれ、人々はクマを獰猛な動物ではなく、かわいい動物と見なすようになったというのだ。ムーアレムによれば、最近ではホッキョクグマについても同様の現象が起きている。気候変動に伴う生息地の喪失によって、人々はホッキョクグマを恐ろしい捕食者ではなく、か弱い犠牲者と見るようになったのである。"
         },
         {
           "id": "q16",
@@ -287,9 +287,9 @@
             { "label": "4", "text": "They now face a bigger threat than climate change." }
           ],
           "answer": "3",
-          "explanation": "第2段第3文に気候変動によって生息地が減少した北極グマは恐ろしい捕食者ではなく繊細な犠牲者として見られるようになったとある。3「人々の北極グマに対するイメージは変化した」が正解。",
+          "explanation": "第2段落の最後で、ムーアレムは、人々がホッキョクグマを恐ろしい捕食者ではなく、か弱い犠牲者と見るようになったと述べており、ホッキョクグマに対するイメージの変化を指摘しているので3が正解。気候変動はイメージが変わった原因として挙げられているだけで、4のようにそれ以上の脅威があるとは言っていない。1のヒグマとの比較や2のおもちゃの人気についても述べられていない。",
           "script": "History of the Teddy Bear\n\nTeddy bears have been popular with children worldwide since their invention in the early 1900s. While the stuffed toys are generally considered lovable symbols of comfort and joy, they initially sparked some concerns. As teddy bears became a fixture in toy closets, there were fears that playing with them rather than humanlike dolls would result in girls losing their maternal instinct. Some people even predicted this would lead to falling birth rates.\n\nWhile such fears eventually disappeared, author Jon Mooallem suggests the acceptance of teddy bears did, in fact, correlate with another shift in society. As urbanization brought people away from rural areas where animals like brown bears were a threat, they came to view the bears as cute rather than ferocious. Mooallem notes that, more recently, a similar phenomenon has occurred with polar bears, as climate-change-related habitat loss has led people to see them as delicate victims rather than terrifying predators.",
-          "scriptJa": "テディベアの歴史\n\nテディベアは1900年代初頭に初めて作られて以来、世界中の子どもたちに人気がある。そのぬいぐるみは一般的に、安らぎと喜びの愛すべき象徴と考えられている一方で、最初はいくつかの懸念を生じさせた。テディベアがおもちゃのクローゼットに欠かせないものになると、人型の人形よりもそれらで遊ぶことは、女の子に母性本能を失わせることになるという恐れがあった。これが出生率の低下につながると予測する人さえいた。\n\nこのような恐れは最終的には消えていったが、作家のジョン・ムーアレムは、テディベアの受容は、実は社会の別の変化と相関関係が確実にあったと示唆している。都市化によってヒグマのような動物が脅威であった農村地域から遠ざかるにつれ、人々はクマを獰猛なものではなく、かわいらしいものとして見るようになった。ムーアレムは、さらに最近では、気候変動に関連した生息地の減少によって、人々が北極グマを恐ろしい捕食者ではなく繊細な犠牲者として見るようになり、似たような現象が北極グマにも起きていると述べている。"
+          "scriptJa": "テディベアの歴史\n\nテディベアは1900年代初めに誕生して以来、世界中の子どもたちに親しまれてきた。このぬいぐるみは一般に、安らぎと喜びを象徴する愛らしい存在と見なされているが、当初はいくつかの懸念を呼んだ。テディベアが子どものおもちゃの定番になるにつれ、人間に似た人形ではなくテディベアで遊んでいると、女の子が母性本能を失ってしまうのではないかと心配されたのである。中には、それが出生率の低下につながると予測する人までいた。\n\nそうした懸念はやがて消えたが、作家のジョン・ムーアレムは、テディベアが受け入れられたことは、実は社会の別の変化と関連していたと指摘している。都市化によって、ヒグマのような動物が脅威だった農村部から人々が離れていくにつれ、人々はクマを獰猛な動物ではなく、かわいい動物と見なすようになったというのだ。ムーアレムによれば、最近ではホッキョクグマについても同様の現象が起きている。気候変動に伴う生息地の喪失によって、人々はホッキョクグマを恐ろしい捕食者ではなく、か弱い犠牲者と見るようになったのである。"
         },
         {
           "id": "q17",
@@ -301,13 +301,13 @@
           "choices": [
             { "label": "1", "text": "They have been categorized based on structural similarities." },
             { "label": "2", "text": "Similar languages may not have the same origin." },
-            { "label": "3", "text": "Some languages have been incorrectly grouped together." },
+            { "label": "3", "text": "Some languages have been grouped together incorrectly." },
             { "label": "4", "text": "Languages in the same family may not sound similar." }
           ],
           "answer": "1",
-          "explanation": "第1段第3文に「言語を分類する研究の多くは言語構造に焦点を当ててきた」とあることから、言語はこれまで構造を基に分類されてきたとわかる。よって、1「構造上の類似性に基づいて分類されてきた」が正解。",
+          "explanation": "第1段落で、言語の分類に関する研究の多くは言語の構造（language structures）に注目してきたと述べられているので、これを「構造上の類似点に基づいて分類されてきた」と言い換えた1が正解。同じ語族の言語は同じ祖先の言語から発達したとされているので、2は内容と合わない。3のような誤った分類や、4の同じ語族の音の違いについての言及はない。",
           "script": "Listening to Languages\n\nThere are thought to be around 7,000 languages used around the world, and these languages are often grouped into families. The languages in each family share similarities and are believed to have evolved from the same original language. Much of the research into categorizing languages has focused on language structures, but a recent study took a different approach. The researchers analyzed the sounds of hundreds of languages, comparing their sonority, or loudness.\n\nThe study's results suggest that languages that developed in warm areas are louder than those that developed in cold ones. One explanation for this is that the air is drier in cold climates. Producing louder sounds requires vibrating the vocal cords more, which is harder to do in dry air. An opposing theory relates to the fact that in many tropical areas, sounds bend upward while moving through the air at low altitudes. Higher sonority sounds carry through the air more easily, which explains why they may be preferable in warm areas.",
-          "scriptJa": "言語を聴く\n\n世界中で使用されている言語はおよそ7000あると考えられており、これらの言語は多くの場合、語族に分類される。各語族の言語は類似点を共有しており、同じ元の言語から進化したと考えられている。言語を分類する研究の多くは言語構造に焦点を当ててきたが、最近の研究では異なる手法がとられた。研究者たちは何百もの言語の音を分析し、その聞こえ度、つまり（心理的な）音声の大きさを比較した。\n\n研究結果は、温暖な地域で発達した言語は、寒冷地域で発達した言語よりも音声が大きいことを示している。ある説明によると、寒冷な気候では空気がより乾燥しているからだということだ。大きな音を出すには声帯をより振動させる必要があるが、乾燥した空気の中でそれをするのはより難しい。これに対抗するある理論は、多くの熱帯地域において、低い高度で空気中を移動する際、音は上向きに曲がるという事実と関係している。聞こえ度が高い音ほど空気中を容易に伝わり、これによってそれらの音が温暖な地域で好まれる傾向がある理由の説明がつくのだ。"
+          "scriptJa": "言語の音に耳を傾ける\n\n世界ではおよそ7,000の言語が使われていると考えられており、これらの言語はしばしば語族に分類される。同じ語族に属する言語には共通点があり、同じ祖先の言語から発達したと考えられている。言語の分類に関する研究の多くは言語の構造に注目してきたが、最近のある研究は異なる手法を取った。研究者たちは数百の言語の音を分析し、その聞こえ度、つまり音の大きさを比較したのである。\n\nこの研究の結果は、温暖な地域で発達した言語は、寒冷な地域で発達した言語よりも音が大きいことを示唆している。その説明の1つは、寒冷な気候では空気がより乾燥しているというものだ。大きな音を出すには声帯をより強く振動させる必要があり、乾燥した空気の中ではそれが難しいのである。これと対立する説は、多くの熱帯地域では、低い高度で空気中を伝わる音が上向きに曲がるという事実に関係している。聞こえ度の高い音ほど空気中を遠くまで伝わりやすいため、温暖な地域ではそうした音が好まれるのかもしれないというわけである。"
         },
         {
           "id": "q18",
@@ -323,9 +323,9 @@
             { "label": "4", "text": "Climate influences the sounds of languages." }
           ],
           "answer": "4",
-          "explanation": "第2段では寒冷な地域と比べて温暖な地域の言語は音声がより大きくなる傾向があるとされ、その違いには空気の特徴、つまり気候が関係していることが示唆されている。したがって、4「気候は言語の音に影響を与える」が正解。",
+          "explanation": "第2段落の冒頭で、温暖な地域で発達した言語は寒冷な地域の言語よりも音が大きいという研究結果が示されており、気候が言語の音に影響することを示唆しているので4が正解。地域によって音の大きさが異なるという結果なので2は誤り。1の言語の単純さや3の言語の数については述べられていない。",
           "script": "Listening to Languages\n\nThere are thought to be around 7,000 languages used around the world, and these languages are often grouped into families. The languages in each family share similarities and are believed to have evolved from the same original language. Much of the research into categorizing languages has focused on language structures, but a recent study took a different approach. The researchers analyzed the sounds of hundreds of languages, comparing their sonority, or loudness.\n\nThe study's results suggest that languages that developed in warm areas are louder than those that developed in cold ones. One explanation for this is that the air is drier in cold climates. Producing louder sounds requires vibrating the vocal cords more, which is harder to do in dry air. An opposing theory relates to the fact that in many tropical areas, sounds bend upward while moving through the air at low altitudes. Higher sonority sounds carry through the air more easily, which explains why they may be preferable in warm areas.",
-          "scriptJa": "言語を聴く\n\n世界中で使用されている言語はおよそ7000あると考えられており、これらの言語は多くの場合、語族に分類される。各語族の言語は類似点を共有しており、同じ元の言語から進化したと考えられている。言語を分類する研究の多くは言語構造に焦点を当ててきたが、最近の研究では異なる手法がとられた。研究者たちは何百もの言語の音を分析し、その聞こえ度、つまり（心理的な）音声の大きさを比較した。\n\n研究結果は、温暖な地域で発達した言語は、寒冷地域で発達した言語よりも音声が大きいことを示している。ある説明によると、寒冷な気候では空気がより乾燥しているからだということだ。大きな音を出すには声帯をより振動させる必要があるが、乾燥した空気の中でそれをするのはより難しい。これに対抗するある理論は、多くの熱帯地域において、低い高度で空気中を移動する際、音は上向きに曲がるという事実と関係している。聞こえ度が高い音ほど空気中を容易に伝わり、これによってそれらの音が温暖な地域で好まれる傾向がある理由の説明がつくのだ。"
+          "scriptJa": "言語の音に耳を傾ける\n\n世界ではおよそ7,000の言語が使われていると考えられており、これらの言語はしばしば語族に分類される。同じ語族に属する言語には共通点があり、同じ祖先の言語から発達したと考えられている。言語の分類に関する研究の多くは言語の構造に注目してきたが、最近のある研究は異なる手法を取った。研究者たちは数百の言語の音を分析し、その聞こえ度、つまり音の大きさを比較したのである。\n\nこの研究の結果は、温暖な地域で発達した言語は、寒冷な地域で発達した言語よりも音が大きいことを示唆している。その説明の1つは、寒冷な気候では空気がより乾燥しているというものだ。大きな音を出すには声帯をより強く振動させる必要があり、乾燥した空気の中ではそれが難しいのである。これと対立する説は、多くの熱帯地域では、低い高度で空気中を伝わる音が上向きに曲がるという事実に関係している。聞こえ度の高い音ほど空気中を遠くまで伝わりやすいため、温暖な地域ではそうした音が好まれるのかもしれないというわけである。"
         },
         {
           "id": "q19",
@@ -341,9 +341,9 @@
             { "label": "4", "text": "It tends to be overlooked." }
           ],
           "answer": "4",
-          "explanation": "第1段第1・2文にあるように、競歩はランニング競技に比べて観客を集めにくく、簡単だと思われたり、ランナーとして成功しなかった人が行うスポーツだと誤解されたりしがちである。したがって、4「軽視される傾向がある」が正解。1900年代はオリンピックの種目になった時期であり、考案された時期ではないので3は不適切。",
+          "explanation": "第1段落で、競歩はオリンピック競技であるにもかかわらず観客がはるかに少なく、簡単だと思われたり誤解されたりしがちだと述べられているので、これを「見過ごされがち」とまとめた4が正解。不振のランナーがやるものという見方は誤解（wrongly thought）だとされているので1は誤り。1900年代初めはオリンピック競技になった時期であり、発祥は1800年代なので3も誤り。",
           "script": "Racewalking\n\nDespite the fact that racewalking has been an Olympic sport since the early 1900s, it attracts far fewer spectators than running events. The sport is often considered to be easy or is wrongly thought to be something that unsuccessful runners end up doing. In fact, racewalking requires a technique that is very different from running. It was also once one of America's most popular sports.\n\nRacewalking is believed to have originated in England during the 1800s, when wealthy people employed servants known as footmen to walk alongside their carriages. As a form of entertainment, some people had their footmen race each other and placed bets on who would win. This developed into a spectator sport known as pedestrianism, which later found its way to the United States. There, it gained widespread popularity, with hundreds of spectators going to see events held in indoor arenas. It also produced some of the nation's first celebrity athletes.",
-          "scriptJa": "競歩\n\n競歩は1900年代初頭からオリンピック競技となっている事実にもかかわらず、ランニング競技よりも観客の数がはるかに少ない。このスポーツはたいてい簡単だと見なされるか、あるいはランナーとしてうまくいかなかった選手が最終的にするものだ、と誤って考えられている。実際は、競歩はランニングとは全く異なる技術を必要とする。それはかつてアメリカで最も人気のあるスポーツの一つでもあった。\n\n競歩は、裕福な人々がフットマンとして知られる使用人を雇って馬車の横を歩かせていた、1800年代のイングランドに起源があると考えられている。娯楽の一形態として、一部の人がフットマンにお互いに競わせ、どちらが勝つか賭けをした。これが歩行競技として知られる観戦スポーツに発展し、のちにアメリカに渡った。そこでは、何百人もの観客が屋内競技場で開催された大会を見に行き、幅広い人気を得た。また、その国で初めて有名な選手を数名輩出した。"
+          "scriptJa": "競歩\n\n競歩は1900年代初めからオリンピック競技であるにもかかわらず、走る種目と比べて観客がはるかに少ない。この競技は簡単だと思われがちで、走る競技で成功しなかった人が最終的に行き着くものだと誤解されることも多い。実際には、競歩には走ることとはまったく異なる技術が必要である。また、競歩はかつてアメリカで最も人気のあるスポーツの1つでもあった。\n\n競歩は1800年代のイギリスで生まれたと考えられている。当時、裕福な人々はフットマンと呼ばれる従者を雇い、自分の馬車の横を歩いて付き添わせていた。娯楽として、自分のフットマン同士を競走させ、どちらが勝つかに賭ける人もいた。これが「ペデストリアニズム」と呼ばれる観戦型のスポーツへと発展し、のちにアメリカにも伝わった。アメリカでは広く人気を集め、屋内競技場で開かれる大会には何百人もの観客が詰めかけた。また、この競技からはアメリカで最初期の有名スポーツ選手も生まれた。"
         },
         {
           "id": "q20",
@@ -359,9 +359,9 @@
             { "label": "4", "text": "The rules differed in England and the United States." }
           ],
           "answer": "2",
-          "explanation": "第2段最終文では、アメリカで有名なアスリートを輩出したことが書かれている。したがって、2「一部の競技者は有名になった」が正解。",
+          "explanation": "第2段落の最後に、ペデストリアニズムはアメリカで最初期の有名スポーツ選手（celebrity athletes）を生み出したとあるので2が正解。最初に競走したのは裕福な人々ではなく、彼らに雇われたフットマンなので1は誤り。観戦型のスポーツ（spectator sport）として発展したとあるので3も誤り。",
           "script": "Racewalking\n\nDespite the fact that racewalking has been an Olympic sport since the early 1900s, it attracts far fewer spectators than running events. The sport is often considered to be easy or is wrongly thought to be something that unsuccessful runners end up doing. In fact, racewalking requires a technique that is very different from running. It was also once one of America's most popular sports.\n\nRacewalking is believed to have originated in England during the 1800s, when wealthy people employed servants known as footmen to walk alongside their carriages. As a form of entertainment, some people had their footmen race each other and placed bets on who would win. This developed into a spectator sport known as pedestrianism, which later found its way to the United States. There, it gained widespread popularity, with hundreds of spectators going to see events held in indoor arenas. It also produced some of the nation's first celebrity athletes.",
-          "scriptJa": "競歩\n\n競歩は1900年代初頭からオリンピック競技となっている事実にもかかわらず、ランニング競技よりも観客の数がはるかに少ない。このスポーツはたいてい簡単だと見なされるか、あるいはランナーとしてうまくいかなかった選手が最終的にするものだ、と誤って考えられている。実際は、競歩はランニングとは全く異なる技術を必要とする。それはかつてアメリカで最も人気のあるスポーツの一つでもあった。\n\n競歩は、裕福な人々がフットマンとして知られる使用人を雇って馬車の横を歩かせていた、1800年代のイングランドに起源があると考えられている。娯楽の一形態として、一部の人がフットマンにお互いに競わせ、どちらが勝つか賭けをした。これが歩行競技として知られる観戦スポーツに発展し、のちにアメリカに渡った。そこでは、何百人もの観客が屋内競技場で開催された大会を見に行き、幅広い人気を得た。また、その国で初めて有名な選手を数名輩出した。"
+          "scriptJa": "競歩\n\n競歩は1900年代初めからオリンピック競技であるにもかかわらず、走る種目と比べて観客がはるかに少ない。この競技は簡単だと思われがちで、走る競技で成功しなかった人が最終的に行き着くものだと誤解されることも多い。実際には、競歩には走ることとはまったく異なる技術が必要である。また、競歩はかつてアメリカで最も人気のあるスポーツの1つでもあった。\n\n競歩は1800年代のイギリスで生まれたと考えられている。当時、裕福な人々はフットマンと呼ばれる従者を雇い、自分の馬車の横を歩いて付き添わせていた。娯楽として、自分のフットマン同士を競走させ、どちらが勝つかに賭ける人もいた。これが「ペデストリアニズム」と呼ばれる観戦型のスポーツへと発展し、のちにアメリカにも伝わった。アメリカでは広く人気を集め、屋内競技場で開かれる大会には何百人もの観客が詰めかけた。また、この競技からはアメリカで最初期の有名スポーツ選手も生まれた。"
         },
         {
           "id": "q21",
@@ -377,9 +377,9 @@
             { "label": "4", "text": "Every single surface in it was painted." }
           ],
           "answer": "3",
-          "explanation": "第1段第2文では、必要なものがすべて手の届く範囲に配置され、身体的な労力を減らすように設計されていることが述べられている。この特徴を簡潔に言い換えた3「より効率的に調理できるように設計されていた」が正解。",
+          "explanation": "第1段落で、身体的な労力を減らして時間を節約するため、戸棚、こんろ、流し台をすべて手の届く範囲に配置したと述べられているので、これを「調理をより効率的にするための設計」と言い換えた3が正解。青く塗られたのは戸棚と引き出しであり、すべての表面ではないので4は誤り。1の珍しい収納場所や2の広さについては述べられていない。",
           "script": "The Frankfurt Kitchen\n\nDesigned in 1926 by the Austrian architect Margarete Schütte-Lihotzky, the Frankfurt Kitchen was highly influential in the development of cooking spaces. To reduce the amount of physical effort needed and save time, she created a design where all cupboards, the stove, and the sink were within easy reach. The kitchens also had modern electric stoves instead of wood-burning ones, and every element of the design had a purpose. Even the cupboards' and drawers' blue paint was chosen because researchers believed at the time that flies avoided blue surfaces.\n\nPreviously, most kitchens had been combined with living rooms, and people did everything from bathing to sleeping in them. However, the Frankfurt Kitchen was entirely separate. While Schütte-Lihotzky's intention was to improve women's quality of life, there were several complaints. One was that women were unable to be with their families and watch their children while preparing meals.",
-          "scriptJa": "フランクフルトキッチン\n\n1926年にオーストリアの建築家マルガレーテ・シュッテ＝リホツキーによって設計されたフランクフルトキッチンは、調理スペースの発展において非常に影響力があった。必要とされる身体活動量を減らし、かつ時間を節約するために、彼女はすべての食器棚、コンロ、シンクが簡単に手の届く範囲内にあるようなデザインを作成した。そのキッチンには薪を燃やすコンロの代わりに現代的な電気コンロもあり、設計のあらゆる要素に目的があった。研究者は当時、ハエが青い表面を避けると考えていたため、食器棚や引き出しに青い塗装が選ばれさえした。\n\n以前、ほとんどのキッチンはリビングルームと一体化しており、人々は入浴から就寝まですべてそこで行っていた。しかし、フランクフルトキッチンは完全に独立していた。シュッテ＝リホツキーの意図は、女性の生活の質を向上させることであったが、いくつか不満の声もあがっていた。その一つは、食事を準備している間、女性は家族と一緒にいられず、子どもたちの様子を見ることができない、というものだった。"
+          "scriptJa": "フランクフルト・キッチン\n\n1926年にオーストリアの建築家マルガレーテ・シュッテ＝リホツキーが設計したフランクフルト・キッチンは、調理空間の発展に大きな影響を与えた。必要な身体的労力を減らし、時間を節約するため、彼女はすべての戸棚とこんろ、流し台がすぐ手の届く範囲にある設計を考え出した。このキッチンには、まきを燃やすこんろの代わりに最新の電気こんろが備えられ、設計のあらゆる要素に目的があった。戸棚や引き出しの青い塗装でさえ、ハエは青い表面を避けると当時の研究者たちが考えていたことから選ばれたものだった。\n\nそれまでの台所は、ほとんどが居間と一体になっており、人々は入浴から睡眠まで、あらゆることをそこで行っていた。しかし、フランクフルト・キッチンは完全に独立した空間だった。シュッテ＝リホツキーの狙いは女性の生活の質を向上させることだったが、いくつかの不満の声が上がった。その1つは、食事の準備をしている間、女性が家族と一緒にいたり、子どもを見守ったりできないというものだった。"
         },
         {
           "id": "q22",
@@ -395,9 +395,9 @@
             { "label": "4", "text": "It separated women from their families." }
           ],
           "answer": "4",
-          "explanation": "第2段後半ではフランクフルトキッチンがリビングから完全に独立しており、女性が料理を作る間に家族と一緒にいることができないというデメリットが示されている。よって、4「女性を家族から引き離した」が正解。",
+          "explanation": "第2段落の最後に、不満の1つとして、食事の準備中に女性が家族と一緒にいたり子どもを見守ったりできないことが挙げられているので4が正解。入浴はそれ以前の居間と一体になった台所で行われていたことであり、1は誤り。2の居間のスペースや3の不要な機能に関する不満は述べられていない。",
           "script": "The Frankfurt Kitchen\n\nDesigned in 1926 by the Austrian architect Margarete Schütte-Lihotzky, the Frankfurt Kitchen was highly influential in the development of cooking spaces. To reduce the amount of physical effort needed and save time, she created a design where all cupboards, the stove, and the sink were within easy reach. The kitchens also had modern electric stoves instead of wood-burning ones, and every element of the design had a purpose. Even the cupboards' and drawers' blue paint was chosen because researchers believed at the time that flies avoided blue surfaces.\n\nPreviously, most kitchens had been combined with living rooms, and people did everything from bathing to sleeping in them. However, the Frankfurt Kitchen was entirely separate. While Schütte-Lihotzky's intention was to improve women's quality of life, there were several complaints. One was that women were unable to be with their families and watch their children while preparing meals.",
-          "scriptJa": "フランクフルトキッチン\n\n1926年にオーストリアの建築家マルガレーテ・シュッテ＝リホツキーによって設計されたフランクフルトキッチンは、調理スペースの発展において非常に影響力があった。必要とされる身体活動量を減らし、かつ時間を節約するために、彼女はすべての食器棚、コンロ、シンクが簡単に手の届く範囲内にあるようなデザインを作成した。そのキッチンには薪を燃やすコンロの代わりに現代的な電気コンロもあり、設計のあらゆる要素に目的があった。研究者は当時、ハエが青い表面を避けると考えていたため、食器棚や引き出しに青い塗装が選ばれさえした。\n\n以前、ほとんどのキッチンはリビングルームと一体化しており、人々は入浴から就寝まですべてそこで行っていた。しかし、フランクフルトキッチンは完全に独立していた。シュッテ＝リホツキーの意図は、女性の生活の質を向上させることであったが、いくつか不満の声もあがっていた。その一つは、食事を準備している間、女性は家族と一緒にいられず、子どもたちの様子を見ることができない、というものだった。"
+          "scriptJa": "フランクフルト・キッチン\n\n1926年にオーストリアの建築家マルガレーテ・シュッテ＝リホツキーが設計したフランクフルト・キッチンは、調理空間の発展に大きな影響を与えた。必要な身体的労力を減らし、時間を節約するため、彼女はすべての戸棚とこんろ、流し台がすぐ手の届く範囲にある設計を考え出した。このキッチンには、まきを燃やすこんろの代わりに最新の電気こんろが備えられ、設計のあらゆる要素に目的があった。戸棚や引き出しの青い塗装でさえ、ハエは青い表面を避けると当時の研究者たちが考えていたことから選ばれたものだった。\n\nそれまでの台所は、ほとんどが居間と一体になっており、人々は入浴から睡眠まで、あらゆることをそこで行っていた。しかし、フランクフルト・キッチンは完全に独立した空間だった。シュッテ＝リホツキーの狙いは女性の生活の質を向上させることだったが、いくつかの不満の声が上がった。その1つは、食事の準備をしている間、女性が家族と一緒にいたり、子どもを見守ったりできないというものだった。"
         },
         {
           "id": "q23",
@@ -413,9 +413,9 @@
             { "label": "4", "text": "To regulate the export of wood products to Norway." }
           ],
           "answer": "1",
-          "explanation": "第1段第3文に「森林伐採による炭素排出を削減するための協定」に調印した目的が述べられている。さらに同段最終文では、インドネシアが環境問題を改善すれば、ノルウェーはその活動を支援するとある。したがって、1「気候変動との闘いに貢献すること」が正解。",
+          "explanation": "第1段落で、両国は気候変動への対策で重要な役割を果たしており、森林破壊による炭素排出を減らすための協定を結んだと述べられているので1が正解。両国の文化が異なることには触れているが、2のように相互理解を深めることが目的とは言っていない。3の人口増加の傾向や4の木材製品の輸出規制についての言及はない。",
           "script": "Working Together\n\nNorway and Indonesia may be different in terms of geographical location, climate, culture, and population. However, both nations are playing an important role in addressing climate change. They have signed an agreement to reduce carbon emissions from deforestation. According to officials, deforestation is slowing in Indonesia, and the country aims to eventually store more carbon than it releases. Under the agreement, Norway will financially support such sustainability efforts as they show results.\n\nThe program involves eco-friendly forest-management efforts and replanting of forests, including carbon-dense mangroves, in Indonesia. As the rates of deforestation and CO₂ emissions decrease, Norway will pay more funds. The two countries say they will exchange technical knowledge and that they will get local communities in Indonesia involved in helping protect and manage forests. Some people hope the agreement will open the way for other countries or the private sector to support other conservation programs in the future.",
-          "scriptJa": "共に取り組む\n\nノルウェーとインドネシアは地理的な位置、気候、文化、そして人口の面で異なるかもしれない。しかし、両国は気候変動への取り組みにおいて重要な役割を果たしている。両国は、森林伐採による炭素排出を削減するための協定に調印した。当局によると、インドネシアでの森林伐採はそのペースが減速しており、その国は最終的に、排出するよりも貯蔵する炭素を多くすることを目指している。この協定のもと、このような持続可能性に向けた活動が成果を示すにつれ、ノルウェーはそれらの活動を財政的に支援することになる。\n\nその計画には、インドネシアにおける環境に優しい森林管理活動や、炭素密度の高いマングローブなどの森林の再植林が含まれる。森林伐採と二酸化炭素排出の割合が減少すればするほど、ノルウェーはより多くの資金を支払う。両国は、技術的な知識を交換し、インドネシアの地域社会に森林の保護や管理にあたって協力してもらうつもりだと言っている。その協定によって、他国や民間部門が今後、これ以外の保護管理計画を支援できるようになることを期待している人々もいる。"
+          "scriptJa": "手を取り合って\n\nノルウェーとインドネシアは、地理的な位置や気候、文化、人口の点では異なっているかもしれない。しかし、両国はともに気候変動への対策において重要な役割を果たしている。両国は、森林破壊による炭素排出を削減するための協定を結んだ。当局者によれば、インドネシアでは森林破壊のペースが落ちてきており、同国は最終的に、排出する量よりも多くの炭素を蓄えることを目指している。この協定に基づき、ノルウェーはこうした持続可能性に向けた取り組みに対し、成果が上がるのに応じて資金面で支援する。\n\nこのプログラムには、インドネシアにおける環境に配慮した森林管理の取り組みや、炭素を多く蓄えるマングローブを含む森林の再植林が含まれる。森林破壊と二酸化炭素排出の割合が下がるにつれて、ノルウェーはより多くの資金を支払う。両国は技術的な知見を交換するとともに、インドネシアの地域社会にも森林の保護と管理に参加してもらうとしている。この協定が、将来ほかの国や民間部門が別の保全プログラムを支援する道を開くことを期待する人もいる。"
         },
         {
           "id": "q24",
@@ -431,9 +431,9 @@
             { "label": "4", "text": "It will include participation by local communities." }
           ],
           "answer": "4",
-          "explanation": "第2段第3文に「インドネシアの地域社会を森林の保護と管理の支援に関与させる」とあるので、この計画の特徴としては4「地域社会による参加を含む」が正解。",
+          "explanation": "第2段落で、両国はインドネシアの地域社会（local communities）にも森林の保護と管理に参加してもらうとしているので4が正解。ほかの国や民間部門による支援は将来への期待として語られているだけなので、1や3は誤り。技術的な知見を交換するとはあるが、2のようにインドネシアの専門家がノルウェーの森林を管理するわけではない。",
           "script": "Working Together\n\nNorway and Indonesia may be different in terms of geographical location, climate, culture, and population. However, both nations are playing an important role in addressing climate change. They have signed an agreement to reduce carbon emissions from deforestation. According to officials, deforestation is slowing in Indonesia, and the country aims to eventually store more carbon than it releases. Under the agreement, Norway will financially support such sustainability efforts as they show results.\n\nThe program involves eco-friendly forest-management efforts and replanting of forests, including carbon-dense mangroves, in Indonesia. As the rates of deforestation and CO₂ emissions decrease, Norway will pay more funds. The two countries say they will exchange technical knowledge and that they will get local communities in Indonesia involved in helping protect and manage forests. Some people hope the agreement will open the way for other countries or the private sector to support other conservation programs in the future.",
-          "scriptJa": "共に取り組む\n\nノルウェーとインドネシアは地理的な位置、気候、文化、そして人口の面で異なるかもしれない。しかし、両国は気候変動への取り組みにおいて重要な役割を果たしている。両国は、森林伐採による炭素排出を削減するための協定に調印した。当局によると、インドネシアでの森林伐採はそのペースが減速しており、その国は最終的に、排出するよりも貯蔵する炭素を多くすることを目指している。この協定のもと、このような持続可能性に向けた活動が成果を示すにつれ、ノルウェーはそれらの活動を財政的に支援することになる。\n\nその計画には、インドネシアにおける環境に優しい森林管理活動や、炭素密度の高いマングローブなどの森林の再植林が含まれる。森林伐採と二酸化炭素排出の割合が減少すればするほど、ノルウェーはより多くの資金を支払う。両国は、技術的な知識を交換し、インドネシアの地域社会に森林の保護や管理にあたって協力してもらうつもりだと言っている。その協定によって、他国や民間部門が今後、これ以外の保護管理計画を支援できるようになることを期待している人々もいる。"
+          "scriptJa": "手を取り合って\n\nノルウェーとインドネシアは、地理的な位置や気候、文化、人口の点では異なっているかもしれない。しかし、両国はともに気候変動への対策において重要な役割を果たしている。両国は、森林破壊による炭素排出を削減するための協定を結んだ。当局者によれば、インドネシアでは森林破壊のペースが落ちてきており、同国は最終的に、排出する量よりも多くの炭素を蓄えることを目指している。この協定に基づき、ノルウェーはこうした持続可能性に向けた取り組みに対し、成果が上がるのに応じて資金面で支援する。\n\nこのプログラムには、インドネシアにおける環境に配慮した森林管理の取り組みや、炭素を多く蓄えるマングローブを含む森林の再植林が含まれる。森林破壊と二酸化炭素排出の割合が下がるにつれて、ノルウェーはより多くの資金を支払う。両国は技術的な知見を交換するとともに、インドネシアの地域社会にも森林の保護と管理に参加してもらうとしている。この協定が、将来ほかの国や民間部門が別の保全プログラムを支援する道を開くことを期待する人もいる。"
         }
       ]
     },
@@ -450,7 +450,9 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "Where should you go?",
-          "situationJa": "あなたはクルーズ船で休暇を過ごしている。時刻は午前9時30分。朝のヨガクラスに行くために準備をしている。次のような船長からのアナウンスを聞く。",
+          "promptJa": "あなたはどこへ行くべきか？",
+          "situation": "You are vacationing on a cruise ship. It is 9:30 a.m. You are getting ready to go to a morning yoga class. You hear the following announcement from the captain.",
+          "situationJa": "あなたはクルーズ船で休暇を過ごしている。現在、午前9時30分である。あなたは朝のヨガクラスに行く準備をしている。船長による次のアナウンスが聞こえてくる。",
           "choices": [
             { "label": "1", "text": "The studio." },
             { "label": "2", "text": "The Sun Deck." },
@@ -458,9 +460,9 @@
             { "label": "4", "text": "The Rear Deck." }
           ],
           "answer": "2",
-          "explanation": "天気が回復したためヨガの場所がスタジオからサンデッキに変更されたことが述べられている。よって、2「サンデッキ」が正解。",
+          "explanation": "アナウンスの最初で、午前10時のヨガクラスはスタジオからサンデッキ（the Sun Deck）に変更されたと述べられているので2が正解。1のスタジオは変更前の会場である。3のパラダイスラウンジは料理の実演、4のリアデッキはジャズ演奏の会場なので、いずれも誤り。",
           "script": "Good morning, passengers. We have updates regarding today's activities. First, as the weather has cleared up, the 10:00 a.m. yoga class has been moved from the studio to the Sun Deck, where you can enjoy the sea breeze. Next, the trivia challenge in the Grand Lounge will begin as scheduled at 2:00 p.m. There has, however, been a time change for the cooking demonstration; it will begin at 11:30 a.m. in the Paradise Lounge. Finally, the jazz performance at 9:00 p.m. will take place on the covered Rear Deck, as rain is forecasted for tonight. We apologize for any inconvenience.",
-          "scriptJa": "ご乗船の皆様、おはようございます。本日のアクティビティに関する最新情報をお知らせします。初めに、天候が回復し晴れましたので、午前10時のヨガクラスの場所がスタジオから、海風を楽しめるサンデッキに変更されました。次に、グランドラウンジでのクイズチャレンジは、予定通り午後2時に開始いたします。ただし、料理の実演につきましては時間変更がございます。パラダイスラウンジにて午前11時30分に始まります。最後に、午後9時のジャズ演奏は今夜雨が降ると予報されておりますので、屋根付きのリアデッキにて行います。ご不便をおかけして申し訳ございません。"
+          "scriptJa": "乗客の皆さま、おはようございます。本日の催し物について変更のお知らせです。まず、天候が回復しましたので、午前10時からのヨガクラスは会場をスタジオからサンデッキに変更いたします。サンデッキでは潮風をお楽しみいただけます。次に、グランドラウンジでのクイズ大会は、予定どおり午後2時に始まります。ただし、料理の実演は時間が変更となり、午前11時30分からパラダイスラウンジで行います。最後に、今夜は雨の予報が出ておりますので、午後9時からのジャズ演奏は屋根付きのリアデッキで行います。ご不便をおかけしますことをおわび申し上げます。"
         },
         {
           "id": "q26",
@@ -468,7 +470,9 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "Which road should you take?",
-          "situationJa": "あなたは市内北部にあるホテルに滞在しており、できるだけ早く空港に到着する必要がある。ラジオで次のような交通情報を聞く。",
+          "promptJa": "あなたはどの道路を使うべきか？",
+          "situation": "You are staying at a hotel on the north side of the city and need to get to the airport as soon as possible. You hear the following traffic report on the radio.",
+          "situationJa": "あなたは市の北側にあるホテルに泊まっており、できるだけ早く空港に行く必要がある。ラジオから次の交通情報が聞こえてくる。",
           "choices": [
             { "label": "1", "text": "Haliburton Road." },
             { "label": "2", "text": "Appleton Boulevard." },
@@ -476,9 +480,9 @@
             { "label": "4", "text": "Regent Parkway." }
           ],
           "answer": "2",
-          "explanation": "ハリバートン通りでは北側から空港に行くと遅延するので不適。9号線は事故により閉鎖されているので不適。アップルトン大通りは工事の車線規制があるが比較的交通が流れている。リージェントパークウェイは市内中心部からの道であり、北側からではない。よって、2「アップルトン大通り」が正解。",
+          "explanation": "北側から空港へ向かう場合、ハイウェー9号線は事故で完全に通行止めだが、アップルトン・ブールバードは車線規制があっても通常よりわずかに遅いだけ（only slightly slower than usual）なので2が正解。1のハリバートン・ロードは南から来る場合の道であり、4のリージェント・パークウェーは市の中心部から来る場合の迂回路である。",
           "script": "This is the WJTX traffic report. I'm afraid there are some problems around Branagh Airport today. Conditions are smooth on Haliburton Road coming from the south, but drivers heading in from the north end will face delays. If you're coming from there, traffic on Highway 9 is completely blocked due to a collision. However, although there are lane restrictions due to construction on Appleton Boulevard, traffic there is only slightly slower than usual. From the city center, there are delays on Dundas Road, so it's advisable to make a slight detour using Regent Parkway, which is relatively clear right now.",
-          "scriptJa": "WJTX交通情報です。あいにく本日はブラナー空港周辺でいくつか問題があります。ハリバートン通りでは南側からの流れはスムーズですが、北側から向かう方は遅延の恐れがあります。そちらから来る場合、9号線は衝突事故のため完全に通行止めとなっています。しかし、アップルトン大通りでは工事のため車線規制がありますが、交通の流れは通常よりわずかに遅い程度です。市の中心部からは、ダンダス通りで渋滞があるため、現在比較的空いているリージェントパークウェイを通って少し迂回することをお勧めします。"
+          "scriptJa": "WJTX交通情報です。あいにく本日は、ブラナー空港の周辺でいくつか問題が起きています。南から来るハリバートン・ロードは順調に流れていますが、北側から向かうドライバーの方は遅れが出るでしょう。北側からお越しの場合、ハイウェー9号線は衝突事故のため完全に通行止めとなっています。一方、アップルトン・ブールバードは工事による車線規制があるものの、通常よりわずかに遅い程度です。市の中心部からは、ダンダス・ロードで渋滞が発生していますので、現在比較的すいているリージェント・パークウェーを使って少し迂回することをお勧めします。"
         },
         {
           "id": "q27",
@@ -486,7 +490,9 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "What should you change?",
-          "situationJa": "あなたの会社はハンドクリームを製造していて、商品のパッケージにもっと高級感をもたせたいと思っている。コンサルタントが製品のパッケージを分析した後、あなたに報告をしている。",
+          "promptJa": "あなたは何を変更すべきか？",
+          "situation": "Your company manufactures hand cream, and you want to make your product's packaging more elegant. A consultant is giving you a report after analyzing your product's packages.",
+          "situationJa": "あなたの会社はハンドクリームを製造しており、あなたは製品のパッケージをより上品にしたいと考えている。コンサルタントが製品のパッケージを分析し、その結果を報告している。",
           "choices": [
             { "label": "1", "text": "The font used for the name." },
             { "label": "2", "text": "The color of the box." },
@@ -494,9 +500,9 @@
             { "label": "4", "text": "The shape of the bottle." }
           ],
           "answer": "3",
-          "explanation": "第3文に「花のイラストはかわいらしいが、競合他社の製品に比べると洗練さに欠ける」とあることから、花のイラストを変更したほうがよいことがわかる。したがって、3「花のイラスト」が正解。ボトルの形については「現代的で魅力的」と肯定的に評価されている。",
+          "explanation": "パッケージを上品にしたいという状況に対し、花のイラストはかわいらしいものの、競合製品と比べて洗練さに欠ける（lacking in sophistication）と指摘されているので3が正解。1のフォントと2の箱の色は目を引く長所として評価されている。4のボトルの形は製造コストに触れられているが、デザイン自体は現代的で魅力的とされている。",
           "script": "The most notable feature of your hand cream is that it really stands out on the shelf. The striking, unique font used for the product name catches customers' eyes, and the black-and-white colors of the box give it a very bold image. The flower illustration is adorable, but it's lacking in sophistication compared with some of your competitors' products. As for the shape of the bottle, it's very contemporary and attractive, although the production costs of such a unique design must be rather high.",
-          "scriptJa": "御社のハンドクリームの最も顕著な特徴は、商品棚上でとても目立つことです。商品名に使われている魅力的で独特なフォントが顧客の目を引きつけ、箱の黒と白の色が非常に大胆な印象を与えています。花のイラストはかわいらしいですが、競合他社の製品のいくつかと比較して洗練さに欠けます。ボトルの形状については、非常に現代的で魅力的です。ただし、このような独特なデザインの生産コストはかなり高いはずです。"
+          "scriptJa": "御社のハンドクリームの最も目立った特徴は、店の棚の上で本当によく目立つことです。製品名に使われている印象的で独特なフォントはお客様の目を引きますし、箱の白黒の配色は非常に大胆なイメージを与えています。花のイラストはかわいらしいのですが、競合他社の一部の製品と比べると洗練さに欠けています。ボトルの形については、とても現代的で魅力的です。ただ、これほど独特なデザインだと、製造コストはかなり高くついているのではないでしょうか。"
         },
         {
           "id": "q28",
@@ -504,7 +510,9 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "What should you do?",
-          "situationJa": "あなたは最近パスポートを申請し、パスポート申請窓口から追加情報を求める手紙を受け取った。窓口に電話して、次のような自動メッセージを聞く。",
+          "promptJa": "あなたは何をすべきか？",
+          "situation": "You recently applied for a passport and have received a letter from the passport office requesting additional information. You call the office and hear the following automated message.",
+          "situationJa": "あなたは最近パスポートを申請し、旅券事務所から追加の情報を求める手紙を受け取った。事務所に電話をかけると、次の自動音声メッセージが流れる。",
           "choices": [
             { "label": "1", "text": "Press 1." },
             { "label": "2", "text": "Press 2." },
@@ -512,9 +520,9 @@
             { "label": "4", "text": "Press 4." }
           ],
           "answer": "1",
-          "explanation": "第3文に「すでに済ませた申請に関しての連絡を受けて電話した場合は『1』を押す」ように指示がある。これは「パスポートを申請した後、窓口から追加情報を求める手紙を受け取った」という状況に合致する。よって、1「『1』を押す」が正解。",
+          "explanation": "状況では、旅券事務所から追加情報を求める手紙を受け取っており、これは音声案内の「申請について当事務所から連絡を受けた（you've been contacted by us regarding your application）」場合に当たるので1が正解。申請手続き中ではあるが、問い合わせの目的は進捗状況の確認ではなく事務所からの連絡への対応なので、3は誤り。",
           "script": "Thank you for calling the passport office. Please note that due to the large number of applications currently being processed, it may take eight to ten weeks to receive your passport. If you are calling because you've been contacted by us regarding your application, press 1. If you are calling about the requirements for a new passport application, please press 2. To find out the progress of an ongoing application, press 3. For all other inquiries, please press 4. Our operators are currently very busy, so it may take some time to connect you.",
-          "scriptJa": "パスポート申請窓口にお電話いただきありがとうございます。現在多数の申請が処理されているため、パスポート受け取りまでに8週間から10週間かかる場合がありますのでご了承ください。申請に関して当窓口から連絡を受けたためにお電話された場合は「1」を押してください。新規パスポート申請の条件についてお問い合わせの場合は「2」を押してください。現在申請手続き中の進捗状況をお知りになりたい場合は「3」を押してください。それ以外のすべてのお問い合わせについては「4」を押してください。現在オペレーターが対応に追われているため、つながるまでに時間がかかる場合があります。"
+          "scriptJa": "旅券事務所にお電話いただきありがとうございます。現在、多数の申請を処理しているため、パスポートのお受け取りまでに8週間から10週間かかる場合がありますので、ご了承ください。申請について当事務所から連絡を受けてお電話の方は、1を押してください。新規パスポート申請の要件に関するお問い合わせは、2を押してください。手続き中の申請の進捗状況をお知りになりたい方は、3を押してください。その他のお問い合わせはすべて、4を押してください。ただいまオペレーターが大変混み合っておりますので、おつなぎするまでにお時間がかかる場合がございます。"
         },
         {
           "id": "q29",
@@ -522,7 +530,9 @@
           "audio": "audio/eiken/eiken-pre1-2024-2/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "Which drill should you purchase?",
-          "situationJa": "あなたは建築業者で、高品質の電動ドリルが必要である。予算は300ドル。工具店を訪れ、店員と話をする。あなたは会員ではない。",
+          "promptJa": "あなたはどのドリルを購入すべきか？",
+          "situation": "You are a builder and need a good-quality power drill. Your budget is $300. You visit a hardware store and speak to a staff member. You do not have a membership.",
+          "situationJa": "あなたは建築業者で、品質の良い電動ドリルを必要としている。予算は300ドルである。あなたはホームセンターを訪れ、店員と話をする。あなたは会員ではない。",
           "choices": [
             { "label": "1", "text": "The Omni-Power drill." },
             { "label": "2", "text": "The Drill Legend drill." },
@@ -530,9 +540,9 @@
             { "label": "4", "text": "The Bit Plus drill." }
           ],
           "answer": "2",
-          "explanation": "購入条件は「高品質」「予算300ドル以内」「非会員」。オムニパワーは非会員500ドルで予算超過。ドリルレジェンドは高品質で、現在は非会員でも280ドルで販売中。パワー P3は320ドルで予算超過。ビットプラスは230ドルだが品質が劣る。よって、2「ドリルレジェンド」が正解。",
+          "explanation": "予算300ドル以内で、建築作業に使える品質の良いドリルが必要である。ドリルレジェンドは通常350ドルだが、現在は非会員でも280ドルで購入でき、ほとんどの建築作業に対応できるので2が正解。1のオムニパワーは非会員だと500ドル、3のパワーP3は320ドルで予算を超える。4のビットプラスは予算内だが、品質と耐久性で劣る。",
           "script": "The Omni-Power is top-of-the-line and can handle almost any job. It's $500 for nonmembers and $450 for members. Next up, the Drill Legend is a quality drill that will deal with most building jobs. It's usually $350 but is currently offered at $280 for members and nonmembers. Next, we have the Power P3. It's $320, and like the Drill Legend, it's solid and durable. Finally, this is the Bit Plus. It's suitable for simple DIY tasks and only costs $230, but it can't match the others in terms of quality or durability.",
-          "scriptJa": "オムニパワーは最高級品で、ほとんどすべての作業に対応できます。非会員は500ドル、会員は450ドルです。次に、ドリルレジェンドは、ほとんどの建築作業に対応できる高品質のドリルです。通常は350ドルですが、現在は会員、非会員ともに280ドルで提供されています。続いてはパワーP3です。価格は320ドルで、ドリルレジェンドと同様に頑丈で耐久性があります。最後に、これはビットプラスです。簡単なDIY作業に適しており、価格はたったの230ドルですが、品質や耐久性の点では他の製品に及びません。"
+          "scriptJa": "オムニパワーは最上位モデルで、ほとんどどんな作業にも対応できます。お値段は非会員の方で500ドル、会員の方で450ドルです。次に、ドリルレジェンドはほとんどの建築作業をこなせる高品質なドリルです。通常は350ドルですが、現在は会員・非会員を問わず280ドルでご提供しています。続いて、パワーP3です。こちらは320ドルで、ドリルレジェンドと同じく頑丈で長持ちします。最後に、こちらがビットプラスです。簡単なDIY作業に向いていて、価格はわずか230ドルですが、品質や耐久性ではほかの製品にかないません。"
         }
       ]
     }

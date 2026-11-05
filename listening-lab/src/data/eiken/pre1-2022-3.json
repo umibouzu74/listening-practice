@@ -7,7 +7,6 @@
     "year": 2022,
     "grade": "pre1",
     "session": "2022-3",
-    "status": "draft",
     "icon": "🏅",
     "totalTime": 29
   },
@@ -23,169 +22,193 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2022-3/02_No1.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the woman going to do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Get the man to fill in for the receptionist." },
+            { "label": "2", "text": "Ask the man to fire the receptionist." },
+            { "label": "3", "text": "Do the receptionist's job herself." },
+            { "label": "4", "text": "Warn the receptionist about being late." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "女性は最後の発言で「I'll have to have a talk with her.」と言い、遅刻を繰り返す受付係と話をするつもりだとわかる。これを遅刻について注意すると言い換えた4が正解。男性はすでに受付の代わりをしていてうんざりしており、女性がそれを頼むわけではないので1は不適。解雇を求める発言もないので2も誤り。",
+          "script": "W: Hi, Ron. Why are you sitting there? Where's the new receptionist?\nM: She called to say she'll be late.\nW: Again? That's the third time since she started. What's her excuse now?\nM: She said her babysitter hasn't turned up yet.\nW: I know she has her problems, but it can't go on like this. I'll have to have a talk with her.\nM: Please do. I'm tired of filling in.",
+          "scriptJa": "W: こんにちは、ロン。どうしてそこに座っているの？新しい受付係はどこ？\nM: 遅れるって電話があったんだ。\nW: また？入社してからこれで3回目よ。今度の言い訳は何？\nM: ベビーシッターがまだ来ないんだって。\nW: 彼女にも事情があるのはわかるけど、こんなことが続くのは困るわ。一度きちんと話をしなくちゃ。\nM: ぜひそうしてよ。代わりを務めるのはもううんざりだよ。"
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2022-3/03_No2.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What conclusion can be made about the student?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He has to improve his class performance." },
+            { "label": "2", "text": "He cannot change his work schedule." },
+            { "label": "3", "text": "He will quit his part-time job." },
+            { "label": "4", "text": "He does not go to science class." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "先生は冒頭で「I'm concerned about your performance in my science class」と言い、テストの不合格や課題の未提出を指摘している。生徒は勤務時間を減らし補習も受けることになるので、授業での成績を上げる必要があるという1が正解。勤務時間を減らせるよう上司に相談すると言っているので2は誤りで、アルバイトを辞めるとは言っていないので3も不適。",
+          "script": "W: Tim, I'm concerned about your performance in my science class.\nM: Didn't I pass the test yesterday?\nW: No, and you've missed several assignments.\nM: I'm sorry. I've had to work late every night this month at my part-time job.\nW: Well, we need to solve this problem.\nM: OK. I'll talk to my boss about cutting back my hours.\nW: And how about coming in for extra work before or after school?\nM: Thanks, Mrs. Roberts. I'll be here early tomorrow morning.",
+          "scriptJa": "W: ティム、私の理科の授業でのあなたの成績が心配なの。\nM: 昨日のテストは合格しなかったんですか？\nW: ええ、だめだったわ。それに課題もいくつか出していないわね。\nM: すみません。今月はアルバイトで毎晩遅くまで働かなければならなくて。\nW: そう。この問題は何とかしないといけないわね。\nM: わかりました。勤務時間を減らしてもらえるよう、バイト先の上司に相談します。\nW: それと、始業前か放課後に補習を受けに来るのはどう？\nM: ありがとうございます、ロバーツ先生。明日の朝、早めに来ます。"
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2022-3/04_No3.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the man's problem?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He cannot pay his children's college fees." },
+            { "label": "2", "text": "He lives too far from his company." },
+            { "label": "3", "text": "He believes he is being underpaid." },
+            { "label": "4", "text": "He feels unable to leave his current job." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "男性は2番目の発言で、今ほど給料のよい仕事が見つからず、子どもの大学進学や住宅ローンを抱えているので「I can't really just quit」と述べている。これを今の仕事を辞められないと感じていると言い換えた4が正解。学費は近い将来の負担として触れているだけで払えないとは言っていないので1は誤り。今の給料が安いという不満もないので3も不適。",
+          "script": "W: Hey, Dave. You look down. What's wrong?\nM: Well, mostly, it's just that I'm not enjoying my job.\nW: Have you thought about doing something else?\nM: Yes, but I haven't been able to find anything that pays as well. With the kids almost in college and the house payments, I can't really just quit.\nW: I hear you. Well, I hope things work out for you.\nM: Thanks, but right now I'm not very optimistic.",
+          "scriptJa": "W: ねえ、デイブ。元気がないわね。どうしたの？\nM: うーん、一番の理由は、仕事が楽しくないってことかな。\nW: 何か別の仕事をしようと考えたことはある？\nM: うん、でも今と同じくらい給料のいい仕事が見つからないんだ。子どもたちはもうすぐ大学だし、家のローンもあるから、簡単には辞められないよ。\nW: わかるわ。うまくいくといいわね。\nM: ありがとう。でも今はあまり楽観できないんだ。"
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2022-3/05_No4.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the woman's main complaint?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She is frequently given new goals." },
+            { "label": "2", "text": "She is not paid enough for overtime work." },
+            { "label": "3", "text": "Her vacation request was denied." },
+            { "label": "4", "text": "Her report received negative feedback." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "女性は2番目の発言で「What really bothers me」と前置きし、目標を達成したと思うたびに上司がそれを変えてしまうと不満を述べている。これを頻繁に新しい目標を与えられると言い換えた1が正解。残業の多さには触れているが残業代の話はしていないので2は誤り。夏休みを取らせてもらえるか心配しているだけで、申請を却下されたわけではないので3も不適。",
+          "script": "M: Morning, Fiona. Coffee?\nW: Make it a big one! I was working on a project report until midnight last night. I can't believe I'm here so late every day.\nM: Didn't they warn you about the overtime when you interviewed?\nW: Well, they sort of did. What really bothers me, though, is that every time I think I've achieved my targets, my manager changes them.\nM: That's corporate life. At least you have summer vacation to look forward to.\nW: Yeah. I hope they actually let me take it!",
+          "scriptJa": "M: おはよう、フィオナ。コーヒーはどう？\nW: 大きいのでお願い！昨夜は夜中の12時までプロジェクトの報告書を書いていたの。毎日こんなに遅くまで会社にいるなんて信じられない。\nM: 面接のときに残業のことは言われなかったの？\nW: まあ、言われたと言えば言われたけど。でも本当に嫌なのは、目標を達成したと思うたびに、マネージャーがそれを変えてしまうことなの。\nM: 会社勤めなんてそんなものさ。少なくとも夏休みという楽しみがあるじゃないか。\nW: そうね。本当に休ませてもらえるといいんだけど！"
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2022-3/06_No5.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man tell his daughter?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She should complete her master's degree next year." },
+            { "label": "2", "text": "She should get some work experience." },
+            { "label": "3", "text": "She can rely on his help for one year." },
+            { "label": "4", "text": "She should save some money first." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "父親は最初の発言で「How about working for a few years first?」と提案し、2番目の発言でも1、2年実社会に出れば貴重な経験になると繰り返している。これを職務経験を積むべきだと言い換えた2が正解。費用は援助すると言っているが期間を1年に限ってはいないので3は誤りで、先にお金を貯めるよう勧めてもいないので4も不適。",
+          "script": "W: Dad, I want to go to grad school straight after university. Maybe I'll do a master's in psychology.\nM: That's a big commitment, and it doesn't sound like you have a clear plan. How about working for a few years first?\nW: I'm afraid if I don't do this soon, I never will. I'm worried about the cost, though.\nM: I've told you I'd help with that. But I really think a year or two in the real world would give you valuable experience.\nW: OK. Let me think about it a bit more.",
+          "scriptJa": "W: お父さん、大学を出たらすぐに大学院に行きたいの。心理学の修士課程に進もうかと思って。\nM: それは大きな決断だし、はっきりした計画があるようには聞こえないな。まず何年か働いてみたらどうだい？\nW: すぐに行かないと、もう二度と行かない気がするの。ただ、費用のことが心配なんだけど。\nM: そのことなら手伝うと言っただろう。でも、1、2年実社会に出てみれば、貴重な経験になると本気で思うよ。\nW: わかった。もう少し考えさせて。"
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2022-3/07_No6.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the woman probably do next?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Review the website more carefully." },
+            { "label": "2", "text": "Choose the same plan as the man." },
+            { "label": "3", "text": "Request a meeting with personnel." },
+            { "label": "4", "text": "Look for another insurance plan." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性が最後に人事部の人にもう一度選択肢を説明してもらうよう勧め、女性は「I guess I have no choice.」と応じている。したがって、人事部との面談を頼むという3が正解。ウェブサイトはすでに見たが役に立たなかったと言っているので1は不適で、男性と同じプランを選ぶという話も出ていないので2も誤り。",
+          "script": "M: Shelly, personnel asked me to remind you the deadline for enrolling in an insurance plan is tomorrow.\nW: I know, but I have no idea which one's best for me.\nM: They're all described on the company website. Why don't you look there?\nW: I have, but it wasn't very helpful. I find all the different options so confusing.\nM: Maybe you should have someone in personnel explain the choices again.\nW: I guess I have no choice.",
+          "scriptJa": "M: シェリー、人事部から、保険プランの加入期限は明日だと伝えてほしいと頼まれたよ。\nW: わかってる。でも、どれが私に一番合っているのか全然わからないの。\nM: 全部、会社のウェブサイトに説明が載っているよ。見てみたら？\nW: 見たけど、あまり役に立たなかったわ。いろいろな選択肢があって、すごくややこしいの。\nM: 人事部の誰かに、もう一度選択肢を説明してもらったほうがいいかもね。\nW: そうするしかなさそうね。"
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2022-3/08_No7.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why did the man arrive late?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He got stuck in heavy traffic." },
+            { "label": "2", "text": "He had trouble with his car." },
+            { "label": "3", "text": "He slept for too long." },
+            { "label": "4", "text": "He got lost on the highway." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性は2番目の発言で、眠くなって高速道路を降りて仮眠をとったところ「an hour had passed」と述べている。つまり寝過ごしたことが遅刻の原因なので3が正解。道に迷ったのかという問いは否定しているので4は誤り。渋滞も心配したほどではなかったと答えているので1も不適。",
+          "script": "M: Happy birthday, Kimiko!\nW: Farouk, there you are! I was getting worried you wouldn't make it to the party. Did you get lost?\nM: Sorry to be so late. No, your house was easy to find. Actually, I felt a little drowsy, so I pulled off the highway for a short nap. The next thing I knew, an hour had passed.\nW: Well, I'm just glad you made it here safely. How was the traffic?\nM: Not as heavy as I'd feared. Is it all right if I sit down?\nW: Of course.",
+          "scriptJa": "M: 誕生日おめでとう、キミコ！\nW: ファルーク、やっと来たのね！パーティーに間に合わないんじゃないかと心配になってきていたのよ。道に迷ったの？\nM: こんなに遅くなってごめん。いや、君の家はすぐにわかったよ。実は少し眠くなったから、高速道路を降りてちょっと仮眠をとったんだ。気がついたら1時間たっていたよ。\nW: まあ、無事に着いてくれただけでよかったわ。道は混んでた？\nM: 心配していたほどじゃなかったよ。座ってもいいかな？\nW: もちろん。"
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2022-3/09_No8.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man think?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Jason's teachers should make more effort." },
+            { "label": "2", "text": "Jason should transfer to a private school." },
+            { "label": "3", "text": "Jason's homework load has increased." },
+            { "label": "4", "text": "Jason should be sent to a tutor." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "男性は2番目の発言で、すでに私立校の学費を多く払っているのだから「Shouldn't his teachers be doing something about it?」と言っている。これを先生たちがもっと努力すべきだと言い換えた1が正解。家庭教師を勧めているのは女性で、男性はこれ以上の出費に消極的なので4は誤り。ジェイソンはすでに私立校に通っているので2も不適。",
+          "script": "W: Honey, look at Jason's report card. He's still struggling in math.\nM: I guess I should start helping him with his homework again.\nW: I think it's past that point now. We need to seriously consider getting him a tutor.\nM: We're already paying so much for his private schooling. Shouldn't his teachers be doing something about it?\nW: I understand your frustration, but I think some one-on-one time in another environment would really help him.\nM: I just hate to think of spending even more money right now.",
+          "scriptJa": "W: ねえ、ジェイソンの通知表を見て。まだ数学で苦労しているわ。\nM: また宿題を手伝ってやらないといけないかな。\nW: もうそういう段階は過ぎていると思うの。家庭教師をつけることを真剣に考えないと。\nM: すでに私立の学校にあれだけ学費を払っているんだよ。学校の先生が何とかすべきじゃないのか？\nW: あなたが不満に思う気持ちはわかるけど、別の環境で一対一で教わる時間があれば、きっとあの子のためになると思うの。\nM: 今これ以上お金を使うのは、どうにも気が進まないんだ。"
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2022-3/10_No9.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman imply?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The man should return to his previous position." },
+            { "label": "2", "text": "She will change her position soon." },
+            { "label": "3", "text": "The man should spend more time at home." },
+            { "label": "4", "text": "She would like to travel for work more." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "女性は2番目の発言で、出張の多い男性に「I envy you.」と言い、毎日会社に通うのはうんざりだと述べている。ここから、自分も仕事でもっと出張したいと思っていることがうかがえるので4が正解。女性自身が異動するという話は出ていないので2は誤り。男性に元のポジションに戻るよう勧めてもいないので1も不適。",
+          "script": "W: Hello, Michael. How are you liking your new position? I hear it's been keeping you on the road quite a bit.\nM: Yes, I've spent more time abroad recently than I have at home.\nW: I envy you. I'm tired of going to the office every single day.\nM: Well, even though I'm traveling, mostly all I get to see is the inside of hotels and factories.\nW: I hope you're not regretting changing positions.\nM: No, things should settle down soon.",
+          "scriptJa": "W: こんにちは、マイケル。新しいポジションはどう？出張でずいぶん飛び回っているそうね。\nM: うん、最近は家にいるより海外にいる時間のほうが長いくらいだよ。\nW: うらやましいわ。毎日毎日会社に通うのにはうんざりなの。\nM: でも、出張していても、見られるのはほとんどホテルと工場の中だけなんだよ。\nW: 異動したことを後悔していないといいけど。\nM: いや、そのうち落ち着くはずだよ。"
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2022-3/11_No10.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why is the woman in a bad mood?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The station renovations are behind schedule." },
+            { "label": "2", "text": "Her train was more crowded than usual." },
+            { "label": "3", "text": "She had trouble changing trains." },
+            { "label": "4", "text": "The station she always uses was closed." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "女性は2番目の発言で、バクスター駅での乗り換え中に迷ってしまい、いつもの電車に乗り遅れそうになったと説明している。これを乗り換えに苦労したと言い換えた3が正解。工事は年末まで続くと言っているが予定より遅れているとは言っていないので1は誤り。駅は改修中ではあるが閉鎖されてはいないので4も不適。",
+          "script": "M: Morning, Deborah. Hey, are you OK?\nW: What? Oh, sorry, Stan. I'm just in a bad mood.\nM: What happened?\nW: I got confused while transferring at Baxter Station and almost missed my usual train. It's like a maze now because of the construction.\nM: They're doing major renovations, right?\nW: Yes, and the directions for passengers were unclear. I never thought I'd get lost in the train station I use every morning.\nM: How long will the work continue?\nW: Until the end of the year. I guess I'll have to get used to it.",
+          "scriptJa": "M: おはよう、デボラ。あれ、大丈夫？\nW: え？ああ、ごめんなさい、スタン。ちょっと機嫌が悪いだけなの。\nM: 何があったの？\nW: バクスター駅で乗り換えるときに迷ってしまって、いつもの電車に乗り遅れるところだったの。工事のせいで今は迷路みたいなのよ。\nM: 大規模な改修工事をしているんだよね？\nW: ええ、それに乗客向けの案内がわかりにくくて。毎朝使っている駅で迷うなんて思ってもみなかったわ。\nM: 工事はいつまで続くの？\nW: 年末まで。慣れるしかないわね。"
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2022-3/12_No11.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why is the woman reading books?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To keep her mind active." },
+            { "label": "2", "text": "To improve her job skills." },
+            { "label": "3", "text": "To take her mind off work." },
+            { "label": "4", "text": "To get ideas for her fiction writing." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "女性は最初の発言で、50歳になってから「mental stimulation」のために読書を増やし、頭をさえた状態に保ちたいと述べている。これを頭を活発に保つためと言い換えた1が正解。仕事関連の文書を読んでいるのは男性なので2は誤り。女性は小説を読んではいるが、自分で書くとは言っていないので4も不適。",
+          "script": "M: Have you finished that book already?\nW: Yes. Since I turned 50, I've been trying to read more for mental stimulation. I want to stay sharp and alert.\nM: That's great. Lately, all I ever read are boring work-related documents and manuals.\nW: That does sound dull. These days, I'm mostly reading historical fiction, although sometimes I try to read science books for general audiences.\nM: Maybe I should start reading some fiction as well, before I forget how to enjoy a book.",
+          "scriptJa": "M: もうその本を読み終わったの？\nW: ええ。50歳になってから、頭の刺激になるように本をもっと読むようにしているの。頭をさえた状態に保っておきたいから。\nM: それはいいね。最近僕が読むものといえば、退屈な仕事の書類やマニュアルばかりだよ。\nW: それは確かにつまらなそうね。最近私は主に歴史小説を読んでいるけど、ときどき一般向けの科学の本も読んでみるの。\nM: 本を楽しむ方法を忘れてしまう前に、僕も小説を読み始めたほうがいいかもしれないな。"
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2022-3/13_No12.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What do we learn about the man?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He is an experienced mountain climber." },
+            { "label": "2", "text": "He has not gotten much exercise recently." },
+            { "label": "3", "text": "He wants to take a challenging trail." },
+            { "label": "4", "text": "He dislikes riding in cable cars." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性は2番目の発言で、最近の残業が「cut into my workouts」、つまり運動の時間を削ってしまったと述べている。これを最近あまり運動していないと言い換えた2が正解。きついコースを提案したのは女性で、男性は一番楽なコースを選んでいるので3は誤り。ケーブルカーを嫌がる様子もないので4も不適。",
+          "script": "W: Which trail should we take, Jack?\nM: Trail A looks like the easiest one. The cable car carries us halfway up the mountain, and then we hike for about an hour to the peak.\nW: How about something more challenging? I think we could handle climbing the whole way.\nM: I don't know. All the overtime I've been working recently has really cut into my workouts. I'm not sure my legs will carry me all the way up.\nW: All right. Trail A it is, then.",
+          "scriptJa": "W: どのコースにする、ジャック？\nM: Aコースが一番楽そうだね。ケーブルカーで山の中腹まで行って、そこから頂上まで1時間くらい歩くんだ。\nW: もっときついコースはどう？私たちなら下から全部登れると思うけど。\nM: どうかな。最近残業ばかりで、運動する時間がすっかり減ってしまったんだ。頂上まで足がもつかどうか自信がないよ。\nW: わかった。じゃあ、Aコースにしましょう。"
         }
       ]
     },
@@ -199,206 +222,218 @@
         {
           "id": "q13",
           "number": 13,
-          "audio": "audio/eiken/eiken-pre1-2022-3/16_No13.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/16_No13.mp3",
+          "prompt": "What is one reason Annie Londonderry began her trip?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To improve her failing health." },
+            { "label": "2", "text": "To show off her cycling technique." },
+            { "label": "3", "text": "To challenge a gender stereotype." },
+            { "label": "4", "text": "To test a new kind of bicycle." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段落の最後で、彼女は女性にもこうした挑戦をやり遂げる心身の強さがあることを証明したかったと述べられている。これを女性にはできないという固定観念に挑むためと言い換えた3が正解。旅を始める前は数回しか自転車に乗ったことがなかったので2は誤りで、健康の回復や新型の自転車についての言及もないので1と4も不適。",
+          "script": "Annie Londonderry\n\nAnnie Cohen Kopchovsky—commonly known as Annie Londonderry—was the first woman to ride a bicycle around the world. Some people say she did this in response to a bet that a woman could not make such a journey, though the truth of that story is debated. When she began her journey in 1894, she had only ridden a bicycle a few times. Still, she wanted to prove women had the mental and physical strength to meet such a challenge.\n\nLondonderry believed women should be less restricted in their family and work lives and encouraged women to wear whatever clothing they wanted. In fact, she wore men's clothing for much of her journey. Along the way, Londonderry made money in various ways, including telling stories of her adventures and displaying companies' advertising posters on her bicycles. In fact, the nickname \"Londonderry\" comes from the name of a spring water company whose product she promoted.",
+          "scriptJa": "アニー・ロンドンデリー\n\nアニー・コーエン・コプチョフスキー、通称アニー・ロンドンデリーは、自転車で世界一周を果たした最初の女性である。彼女がこの旅をしたのは、女性にはそのような旅はできないという賭けに応じたためだと言う人もいるが、その話が本当かどうかについては議論がある。1894年に旅を始めたとき、彼女は数回しか自転車に乗ったことがなかった。それでも彼女は、女性にもこのような挑戦をやり遂げる精神的・肉体的な強さがあることを証明したかったのである。\n\nロンドンデリーは、女性は家庭生活や仕事の面でもっと自由であるべきだと考え、女性が好きな服を着ることを勧めた。実際、彼女は旅の大部分で男性の服を着ていた。旅の途中、ロンドンデリーは自らの冒険談を語ったり、自転車に企業の広告ポスターを掲げたりするなど、さまざまな方法でお金を稼いだ。実は、「ロンドンデリー」というあだ名は、彼女が製品を宣伝していた湧き水の会社の名前に由来している。"
         },
         {
           "id": "q14",
           "number": 14,
-          "audio": "audio/eiken/eiken-pre1-2022-3/17_No14.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/17_No14.mp3",
+          "prompt": "What is one way Londonderry earned money on her trip?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She helped companies to advertise their products." },
+            { "label": "2", "text": "She made and sold women's clothing." },
+            { "label": "3", "text": "She founded a spring water company." },
+            { "label": "4", "text": "She took jobs that were usually done by men." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第2段落で、旅の途中に冒険談を語ったり、自転車に企業の広告ポスターを掲げたりしてお金を稼いだと述べられている。後者を企業の製品の宣伝を手伝ったと言い換えた1が正解。湧き水の会社はあだ名の由来として出てくるだけで、彼女が設立したわけではないので3は誤り。男性の服を着ていたとはあるが、女性用の服を作って売ったわけではないので2も不適。",
+          "script": "Annie Londonderry\n\nAnnie Cohen Kopchovsky—commonly known as Annie Londonderry—was the first woman to ride a bicycle around the world. Some people say she did this in response to a bet that a woman could not make such a journey, though the truth of that story is debated. When she began her journey in 1894, she had only ridden a bicycle a few times. Still, she wanted to prove women had the mental and physical strength to meet such a challenge.\n\nLondonderry believed women should be less restricted in their family and work lives and encouraged women to wear whatever clothing they wanted. In fact, she wore men's clothing for much of her journey. Along the way, Londonderry made money in various ways, including telling stories of her adventures and displaying companies' advertising posters on her bicycles. In fact, the nickname \"Londonderry\" comes from the name of a spring water company whose product she promoted.",
+          "scriptJa": "アニー・ロンドンデリー\n\nアニー・コーエン・コプチョフスキー、通称アニー・ロンドンデリーは、自転車で世界一周を果たした最初の女性である。彼女がこの旅をしたのは、女性にはそのような旅はできないという賭けに応じたためだと言う人もいるが、その話が本当かどうかについては議論がある。1894年に旅を始めたとき、彼女は数回しか自転車に乗ったことがなかった。それでも彼女は、女性にもこのような挑戦をやり遂げる精神的・肉体的な強さがあることを証明したかったのである。\n\nロンドンデリーは、女性は家庭生活や仕事の面でもっと自由であるべきだと考え、女性が好きな服を着ることを勧めた。実際、彼女は旅の大部分で男性の服を着ていた。旅の途中、ロンドンデリーは自らの冒険談を語ったり、自転車に企業の広告ポスターを掲げたりするなど、さまざまな方法でお金を稼いだ。実は、「ロンドンデリー」というあだ名は、彼女が製品を宣伝していた湧き水の会社の名前に由来している。"
         },
         {
           "id": "q15",
           "number": 15,
-          "audio": "audio/eiken/eiken-pre1-2022-3/19_No15.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/19_No15.mp3",
+          "prompt": "What does the speaker say about the paintings made by German immigrants?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The images reminded them of Germany." },
+            { "label": "2", "text": "The images were made by professional artists." },
+            { "label": "3", "text": "The images were believed to bring good luck." },
+            { "label": "4", "text": "The images were painted on strips of fabric." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段落の最後で、納屋にシンボルを描く習慣を持ち込んだドイツ系移民は、その絵が農場に「good fortune」をもたらすと信じていたと述べられている。これを幸運をもたらすと信じられていたと言い換えた3が正解。絵が描かれたのは納屋の側面であり、細長い布に描いたわけではないので4は誤り。故郷を思い出させるものだったという説明もないので1も不適。",
+          "script": "Barn Quilts\n\nQuilting involves sewing layers of fabric into patterns to create a warm, attractive blanket known as a quilt. On farms in some parts of the US, however, quilt patterns are also used for a different purpose: to create artwork on the side of barns. The practice of painting symbols on barns was first brought to the US in the 1800s by German immigrants, who believed the images would bring good fortune to their farms.\n\nIn 2001, one American woman decided to paint a quilt design on her barn to honor her mother, who had been a quilt maker. She encouraged other barn owners to decorate their barns with similar designs, now known as \"barn quilts.\" This led to the creation of a \"barn quilt trail\"—a series of local barn quilts that visitors could view. Many communities now have such trails, and the boost to tourism has improved local economies.",
+          "scriptJa": "バーンキルト\n\nキルティングとは、何枚もの布を重ねて模様になるように縫い合わせ、キルトと呼ばれる暖かくて見た目も美しい掛け物を作ることである。しかし、アメリカの一部の地域の農場では、キルトの模様が別の目的にも使われている。それは、納屋の側面に絵を描くことである。納屋にシンボルを描く習慣は、1800年代にドイツからの移民によって初めてアメリカにもたらされた。彼らは、その絵が農場に幸運をもたらすと信じていたのである。\n\n2001年、あるアメリカ人女性が、キルト作りをしていた母親をたたえるため、自分の納屋にキルトの図案を描くことにした。彼女は他の納屋の所有者たちにも同じような図案で納屋を飾るよう呼びかけ、それらは現在「バーンキルト」として知られている。これがきっかけとなって、地域のバーンキルトを順に見て回れる「バーンキルト・トレイル」が作られた。今では多くの地域にこうしたトレイルがあり、観光客の増加が地域経済を潤している。"
         },
         {
           "id": "q16",
           "number": 16,
-          "audio": "audio/eiken/eiken-pre1-2022-3/20_No16.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/20_No16.mp3",
+          "prompt": "What has been one effect of \"barn quilts\" in the US?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "More people have begun sewing as a hobby." },
+            { "label": "2", "text": "Tourism has increased in some areas." },
+            { "label": "3", "text": "Competition among farms has increased." },
+            { "label": "4", "text": "More barns have been built on farms." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第2段落の最後で、多くの地域にバーンキルト・トレイルができ、「the boost to tourism」が地域経済を改善したと述べられている。これを一部の地域で観光が盛んになったと言い換えた2が正解。キルトはもともと布を縫って作るものだが、趣味で裁縫を始める人が増えたという話はないので1は誤り。既存の納屋に絵を描いているだけで、新しく納屋が建てられたわけではないので4も不適。",
+          "script": "Barn Quilts\n\nQuilting involves sewing layers of fabric into patterns to create a warm, attractive blanket known as a quilt. On farms in some parts of the US, however, quilt patterns are also used for a different purpose: to create artwork on the side of barns. The practice of painting symbols on barns was first brought to the US in the 1800s by German immigrants, who believed the images would bring good fortune to their farms.\n\nIn 2001, one American woman decided to paint a quilt design on her barn to honor her mother, who had been a quilt maker. She encouraged other barn owners to decorate their barns with similar designs, now known as \"barn quilts.\" This led to the creation of a \"barn quilt trail\"—a series of local barn quilts that visitors could view. Many communities now have such trails, and the boost to tourism has improved local economies.",
+          "scriptJa": "バーンキルト\n\nキルティングとは、何枚もの布を重ねて模様になるように縫い合わせ、キルトと呼ばれる暖かくて見た目も美しい掛け物を作ることである。しかし、アメリカの一部の地域の農場では、キルトの模様が別の目的にも使われている。それは、納屋の側面に絵を描くことである。納屋にシンボルを描く習慣は、1800年代にドイツからの移民によって初めてアメリカにもたらされた。彼らは、その絵が農場に幸運をもたらすと信じていたのである。\n\n2001年、あるアメリカ人女性が、キルト作りをしていた母親をたたえるため、自分の納屋にキルトの図案を描くことにした。彼女は他の納屋の所有者たちにも同じような図案で納屋を飾るよう呼びかけ、それらは現在「バーンキルト」として知られている。これがきっかけとなって、地域のバーンキルトを順に見て回れる「バーンキルト・トレイル」が作られた。今では多くの地域にこうしたトレイルがあり、観光客の増加が地域経済を潤している。"
         },
         {
           "id": "q17",
           "number": 17,
-          "audio": "audio/eiken/eiken-pre1-2022-3/22_No17.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/22_No17.mp3",
+          "prompt": "What is true about the Little Ice Age?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It lasted a little under a century." },
+            { "label": "2", "text": "It led to new discoveries about weather patterns." },
+            { "label": "3", "text": "It had the largest effect on people near volcanoes." },
+            { "label": "4", "text": "It had a global impact on farming." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第1段落で、気温の低下によって「reduced agricultural harvests worldwide」、つまり世界中で農作物の収穫が減ったと述べられている。これを農業に世界規模の影響を与えたと言い換えた4が正解。小氷期は約500年続いたので1は誤り。火山の噴火は従来説で原因の1つとされているだけで、火山の近くの人々が最も影響を受けたとは言っていないので3も不適。",
+          "script": "The Little Ice Age\n\nAn era known as the Little Ice Age began in the fourteenth century and continued for around 500 years. Carbon dioxide levels in the atmosphere dropped considerably, which lowered air temperatures around the world. This resulted in reduced agricultural harvests worldwide. The traditional explanation is that this ice age came about due to erupting volcanoes and decreased solar activity.\n\nHowever, according to more-recent research, farmland returning to forest may have been a major factor in the cooling of the planet. The native populations of North, Central, and South America had cleared large areas of forest for farming. When European colonists arrived in the late fifteenth century, they brought terrible illnesses. This caused the native populations to drop dramatically and left them unable to maintain the land. Researchers claim this resulted in a large increase in forest growth, which meant less carbon dioxide and a cooler planet.",
+          "scriptJa": "小氷期\n\n小氷期と呼ばれる時代は14世紀に始まり、約500年間続いた。大気中の二酸化炭素濃度が大きく低下し、それによって世界中の気温が下がった。その結果、世界各地で農作物の収穫量が減少した。従来の説明では、この氷期は火山の噴火と太陽活動の低下によって引き起こされたとされている。\n\nしかし、より最近の研究によると、農地が森林に戻ったことが地球の寒冷化の大きな要因だった可能性がある。北米、中米、南米の先住民は、農業のために広大な森林を切り開いていた。15世紀後半にヨーロッパからの入植者がやってくると、彼らは恐ろしい病気を持ち込んだ。これにより先住民の人口は激減し、土地を維持することができなくなった。研究者たちは、その結果として森林が大幅に増え、二酸化炭素が減って地球が寒冷化したと主張している。"
         },
         {
           "id": "q18",
           "number": 18,
-          "audio": "audio/eiken/eiken-pre1-2022-3/23_No18.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/23_No18.mp3",
+          "prompt": "According to more-recent research, what happened that led to the Little Ice Age?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Europeans in North America started building large cities." },
+            { "label": "2", "text": "Forests expanded across the Americas." },
+            { "label": "3", "text": "The growing global population increased pollution." },
+            { "label": "4", "text": "Disease killed off many trees across Europe." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第2段落で、ヨーロッパからの入植者が持ち込んだ病気でアメリカ大陸の先住民が激減して土地を維持できなくなり、その結果、森林が大幅に増えたと説明されている。これをアメリカ大陸全体で森林が広がったと言い換えた2が正解。病気で減ったのは樹木ではなく先住民であり、場所もヨーロッパではないので4は誤り。都市の建設や人口増加による汚染についての言及もないので1と3も不適。",
+          "script": "The Little Ice Age\n\nAn era known as the Little Ice Age began in the fourteenth century and continued for around 500 years. Carbon dioxide levels in the atmosphere dropped considerably, which lowered air temperatures around the world. This resulted in reduced agricultural harvests worldwide. The traditional explanation is that this ice age came about due to erupting volcanoes and decreased solar activity.\n\nHowever, according to more-recent research, farmland returning to forest may have been a major factor in the cooling of the planet. The native populations of North, Central, and South America had cleared large areas of forest for farming. When European colonists arrived in the late fifteenth century, they brought terrible illnesses. This caused the native populations to drop dramatically and left them unable to maintain the land. Researchers claim this resulted in a large increase in forest growth, which meant less carbon dioxide and a cooler planet.",
+          "scriptJa": "小氷期\n\n小氷期と呼ばれる時代は14世紀に始まり、約500年間続いた。大気中の二酸化炭素濃度が大きく低下し、それによって世界中の気温が下がった。その結果、世界各地で農作物の収穫量が減少した。従来の説明では、この氷期は火山の噴火と太陽活動の低下によって引き起こされたとされている。\n\nしかし、より最近の研究によると、農地が森林に戻ったことが地球の寒冷化の大きな要因だった可能性がある。北米、中米、南米の先住民は、農業のために広大な森林を切り開いていた。15世紀後半にヨーロッパからの入植者がやってくると、彼らは恐ろしい病気を持ち込んだ。これにより先住民の人口は激減し、土地を維持することができなくなった。研究者たちは、その結果として森林が大幅に増え、二酸化炭素が減って地球が寒冷化したと主張している。"
         },
         {
           "id": "q19",
           "number": 19,
-          "audio": "audio/eiken/eiken-pre1-2022-3/25_No19.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/25_No19.mp3",
+          "prompt": "What is one thing the speaker says is putting fireflies in danger?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The increase in noise caused by growing cities." },
+            { "label": "2", "text": "People's attempts to catch them." },
+            { "label": "3", "text": "The brightness of urban areas." },
+            { "label": "4", "text": "Growing competition with other insects." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段落で、都市部の拡大は生息地を破壊するだけでなく、都市や郊外の絶え間ない「artificial light」のせいでも問題だと述べられている。点滅が見えにくくなって繁殖が難しくなるという内容なので、これを都市部の明るさと言い換えた3が正解。都市の拡大は挙げられているが騒音には触れていないので1は誤りで、人間による捕獲や他の昆虫との競争にも言及がないので2と4も不適。",
+          "script": "Disappearing Fireflies\n\nFireflies are one of the most beloved insects because of their ability to create light, but firefly populations seem to be declining. The expansion of urban areas is a problem, not only because it destroys fireflies' habitats but also because of the constant artificial light in cities and suburbs. Fireflies attract mates by flashing their lights, so when these flashes become difficult to see, fireflies have trouble reproducing successfully.\n\nUnfortunately, there have not been many studies of fireflies, in part because they are difficult to locate when they are not creating light. Scientists largely depend on information from amateurs, who report seeing fewer fireflies recently. Fireflies' light-flashing patterns vary by species, and scientists are requesting that more people count firefly flashes and report their observations. In this way, scientists will be able to better track the various species.",
+          "scriptJa": "姿を消すホタル\n\nホタルは光を放つことができるため、最も愛されている昆虫の1つだが、その数は減少しているようだ。都市部の拡大は問題である。それはホタルの生息地を破壊するだけでなく、都市や郊外では人工の光が絶えずともっているからだ。ホタルは光を点滅させて交尾の相手を引きつけるため、その点滅が見えにくくなると、うまく繁殖できなくなってしまう。\n\n残念ながら、ホタルの研究はあまり行われてこなかった。その理由の1つは、光を放っていないときのホタルは見つけにくいことである。科学者たちは主にアマチュアからの情報に頼っており、彼らは最近ホタルを見かけることが少なくなったと報告している。ホタルの光の点滅パターンは種によって異なるため、科学者たちはより多くの人にホタルの点滅を数えて観察結果を報告するよう呼びかけている。そうすることで、科学者たちはさまざまな種の動向をよりよく追跡できるようになるのだ。"
         },
         {
           "id": "q20",
           "number": 20,
-          "audio": "audio/eiken/eiken-pre1-2022-3/26_No20.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/26_No20.mp3",
+          "prompt": "What have scientists asked people to do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Locate fireflies that are not producing light." },
+            { "label": "2", "text": "Help them to get more funding for research." },
+            { "label": "3", "text": "Use a different type of light around their homes." },
+            { "label": "4", "text": "Make reports on any fireflies they see." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第2段落の後半で、科学者たちはより多くの人にホタルの点滅を数えて「report their observations」するよう求めていると述べられている。これを見かけたホタルについて報告すると言い換えた4が正解。光っていないホタルは見つけにくいと説明されているだけで、それを探すよう頼んでいるわけではないので1は誤り。研究資金や家の周りの照明についての言及もないので2と3も不適。",
+          "script": "Disappearing Fireflies\n\nFireflies are one of the most beloved insects because of their ability to create light, but firefly populations seem to be declining. The expansion of urban areas is a problem, not only because it destroys fireflies' habitats but also because of the constant artificial light in cities and suburbs. Fireflies attract mates by flashing their lights, so when these flashes become difficult to see, fireflies have trouble reproducing successfully.\n\nUnfortunately, there have not been many studies of fireflies, in part because they are difficult to locate when they are not creating light. Scientists largely depend on information from amateurs, who report seeing fewer fireflies recently. Fireflies' light-flashing patterns vary by species, and scientists are requesting that more people count firefly flashes and report their observations. In this way, scientists will be able to better track the various species.",
+          "scriptJa": "姿を消すホタル\n\nホタルは光を放つことができるため、最も愛されている昆虫の1つだが、その数は減少しているようだ。都市部の拡大は問題である。それはホタルの生息地を破壊するだけでなく、都市や郊外では人工の光が絶えずともっているからだ。ホタルは光を点滅させて交尾の相手を引きつけるため、その点滅が見えにくくなると、うまく繁殖できなくなってしまう。\n\n残念ながら、ホタルの研究はあまり行われてこなかった。その理由の1つは、光を放っていないときのホタルは見つけにくいことである。科学者たちは主にアマチュアからの情報に頼っており、彼らは最近ホタルを見かけることが少なくなったと報告している。ホタルの光の点滅パターンは種によって異なるため、科学者たちはより多くの人にホタルの点滅を数えて観察結果を報告するよう呼びかけている。そうすることで、科学者たちはさまざまな種の動向をよりよく追跡できるようになるのだ。"
         },
         {
           "id": "q21",
           "number": 21,
-          "audio": "audio/eiken/eiken-pre1-2022-3/28_No21.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/28_No21.mp3",
+          "prompt": "What was the purpose of the research?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To study dogs' understanding of words." },
+            { "label": "2", "text": "To study dogs' responses to different voices." },
+            { "label": "3", "text": "To study various ways of training dogs." },
+            { "label": "4", "text": "To study how dogs react to their owners' emotions." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段落で、犬は本当に人間と同じように言葉を処理し理解しているのかという問いが立てられ、研究チームがそれを調べようとしたと述べられている。これを犬の言葉の理解を調べるためと言い換えた1が正解。犬にさまざまな言葉を聞かせてはいるが、声の違いによる反応を比べたわけではないので2は誤り。訓練方法や飼い主の感情についても調べていないので3と4も不適。",
+          "script": "Smart Dogs\n\nDogs can be taught to respond to many words. For example, they can obey commands to sit or roll over. But do dogs actually process and understand words in the same way humans do? One team of researchers attempted to investigate this question. The researchers wanted to gather data directly from dogs themselves rather than from their owners' reports, so they used an imaging machine to scan dogs' brains while the dogs heard different words.\n\nBefore the scan, the dogs, which were of various breeds, were taught certain words. While the dogs were in the machine, the words they had been taught and words they did not know were both spoken to them. Surprisingly, the dogs' brains showed more activity after they heard the unfamiliar words. This is the reverse of a human response—our brains are more active in response to words we know.",
+          "scriptJa": "賢い犬\n\n犬は多くの言葉に反応するように教えることができる。例えば、「お座り」や「ごろん」といった命令に従うことができる。しかし、犬は実際に人間と同じように言葉を処理し、理解しているのだろうか？ある研究チームがこの疑問を調べようとした。研究者たちは、飼い主の報告ではなく犬自身から直接データを集めたいと考え、犬がさまざまな言葉を聞いている間に画像撮影装置で犬の脳をスキャンした。\n\nスキャンの前に、さまざまな犬種の犬たちに特定の言葉が教え込まれた。犬たちが装置の中にいる間、教えられた言葉と知らない言葉の両方が聞かされた。驚いたことに、犬の脳は聞き慣れない言葉を聞いた後のほうが活発に反応した。これは人間の反応とは逆である。人間の脳は、知っている言葉に対してより活発に反応するのだ。"
         },
         {
           "id": "q22",
           "number": 22,
-          "audio": "audio/eiken/eiken-pre1-2022-3/29_No22.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/29_No22.mp3",
+          "prompt": "What did the researchers discover about the dogs' brain activity?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It was consistent with their owners' reports." },
+            { "label": "2", "text": "It varied depending on the breed of the dog." },
+            { "label": "3", "text": "It was opposite to that of human brains." },
+            { "label": "4", "text": "It increased in response to familiar commands." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第2段落の最後で、犬の脳は知らない言葉を聞いたときのほうが活発に反応し、これは「the reverse of a human response」だと述べられている。これを人間の脳とは逆だったと言い換えた3が正解。活動が増えたのは聞き慣れない言葉に対してなので4は誤り。この研究は飼い主の報告に頼らずに行われ、犬種による違いも報告されていないので1と2も不適。",
+          "script": "Smart Dogs\n\nDogs can be taught to respond to many words. For example, they can obey commands to sit or roll over. But do dogs actually process and understand words in the same way humans do? One team of researchers attempted to investigate this question. The researchers wanted to gather data directly from dogs themselves rather than from their owners' reports, so they used an imaging machine to scan dogs' brains while the dogs heard different words.\n\nBefore the scan, the dogs, which were of various breeds, were taught certain words. While the dogs were in the machine, the words they had been taught and words they did not know were both spoken to them. Surprisingly, the dogs' brains showed more activity after they heard the unfamiliar words. This is the reverse of a human response—our brains are more active in response to words we know.",
+          "scriptJa": "賢い犬\n\n犬は多くの言葉に反応するように教えることができる。例えば、「お座り」や「ごろん」といった命令に従うことができる。しかし、犬は実際に人間と同じように言葉を処理し、理解しているのだろうか？ある研究チームがこの疑問を調べようとした。研究者たちは、飼い主の報告ではなく犬自身から直接データを集めたいと考え、犬がさまざまな言葉を聞いている間に画像撮影装置で犬の脳をスキャンした。\n\nスキャンの前に、さまざまな犬種の犬たちに特定の言葉が教え込まれた。犬たちが装置の中にいる間、教えられた言葉と知らない言葉の両方が聞かされた。驚いたことに、犬の脳は聞き慣れない言葉を聞いた後のほうが活発に反応した。これは人間の反応とは逆である。人間の脳は、知っている言葉に対してより活発に反応するのだ。"
         },
         {
           "id": "q23",
           "number": 23,
-          "audio": "audio/eiken/eiken-pre1-2022-3/31_No23.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/31_No23.mp3",
+          "prompt": "What is one thing the speaker says about root cellars?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They help people to keep warm in winter." },
+            { "label": "2", "text": "They are useful for storing some vegetables." },
+            { "label": "3", "text": "Their name comes from their shape." },
+            { "label": "4", "text": "They are used to grow vegetables all year round." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段落で、ルートセラーはジャガイモやニンジンなどの根菜を貯蔵し、野菜の保存に最適な温度と湿度を保つと述べられている。これを一部の野菜を貯蔵するのに役立つと言い換えた2が正解。名前の由来は形ではなく根菜を貯蔵することにあるので3は誤り。野菜を育てる場所や暖をとる場所として使われるという説明はないので1と4も不適。",
+          "script": "Root Cellars\n\nElliston is a village on the Canadian island of Newfoundland. Its long winters mean preserving and storing food has always been an important part of life there. Traditionally, local people accomplished this by using root cellars, which are tunnel-like structures in the sides of small hills. They are called root cellars because they commonly hold root vegetables, such as potatoes and carrots. The root cellars maintain the perfect temperature and moisture levels for preserving the vegetables.\n\nRoot cellars can be found in many places with long winters. However, Elliston is known as the \"Root Cellar Capital of the World.\" For much of its history, the village was a fishing town. But when commercial fishing was banned after a decline in fish populations, Elliston's residents needed a new source of income. They decided to promote their root cellars as an attraction, and today, visitors come from all over to see them.",
+          "scriptJa": "ルートセラー\n\nエリストンは、カナダのニューファンドランド島にある村である。冬が長いため、食料の保存と貯蔵は昔からこの地の生活の重要な一部となってきた。伝統的に、地元の人々はルートセラーを使ってこれを行ってきた。ルートセラーとは、小さな丘の斜面に作られたトンネルのような構造物である。ルートセラーと呼ばれるのは、ジャガイモやニンジンといった根菜類を貯蔵するのが一般的だからだ。ルートセラーは、野菜を保存するのに最適な温度と湿度を保つことができる。\n\nルートセラーは冬の長い多くの地域で見られる。しかし、エリストンは「世界のルートセラーの都」として知られている。歴史の大半において、この村は漁業の町だった。しかし、魚の数が減ったことで商業漁業が禁止されると、エリストンの住民は新たな収入源が必要になった。彼らはルートセラーを観光名所として売り出すことに決め、今では各地から人々がそれを見に訪れている。"
         },
         {
           "id": "q24",
           "number": 24,
-          "audio": "audio/eiken/eiken-pre1-2022-3/32_No24.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-3/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-3/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-3/32_No24.mp3",
+          "prompt": "What is one reason root cellars are important in Elliston today?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They help to support the local economy." },
+            { "label": "2", "text": "They provide a model for surrounding villages." },
+            { "label": "3", "text": "They help the fishing industry to survive." },
+            { "label": "4", "text": "They were found to contain valuable minerals." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第2段落で、商業漁業が禁止されて新たな収入源が必要になった住民がルートセラーを観光名所として売り出し、今では各地から人が訪れていると述べられている。これを地域経済を支えるのに役立っていると言い換えた1が正解。漁業はすでに禁止されているので3は誤り。周辺の村の手本になっているという話や鉱物が見つかったという話も出てこないので2と4も不適。",
+          "script": "Root Cellars\n\nElliston is a village on the Canadian island of Newfoundland. Its long winters mean preserving and storing food has always been an important part of life there. Traditionally, local people accomplished this by using root cellars, which are tunnel-like structures in the sides of small hills. They are called root cellars because they commonly hold root vegetables, such as potatoes and carrots. The root cellars maintain the perfect temperature and moisture levels for preserving the vegetables.\n\nRoot cellars can be found in many places with long winters. However, Elliston is known as the \"Root Cellar Capital of the World.\" For much of its history, the village was a fishing town. But when commercial fishing was banned after a decline in fish populations, Elliston's residents needed a new source of income. They decided to promote their root cellars as an attraction, and today, visitors come from all over to see them.",
+          "scriptJa": "ルートセラー\n\nエリストンは、カナダのニューファンドランド島にある村である。冬が長いため、食料の保存と貯蔵は昔からこの地の生活の重要な一部となってきた。伝統的に、地元の人々はルートセラーを使ってこれを行ってきた。ルートセラーとは、小さな丘の斜面に作られたトンネルのような構造物である。ルートセラーと呼ばれるのは、ジャガイモやニンジンといった根菜類を貯蔵するのが一般的だからだ。ルートセラーは、野菜を保存するのに最適な温度と湿度を保つことができる。\n\nルートセラーは冬の長い多くの地域で見られる。しかし、エリストンは「世界のルートセラーの都」として知られている。歴史の大半において、この村は漁業の町だった。しかし、魚の数が減ったことで商業漁業が禁止されると、エリストンの住民は新たな収入源が必要になった。彼らはルートセラーを観光名所として売り出すことに決め、今では各地から人々がそれを見に訪れている。"
         }
       ]
     },
@@ -414,80 +449,100 @@
           "number": 25,
           "audio": "audio/eiken/eiken-pre1-2022-3/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "How should you go downtown?",
+          "promptJa": "どうやって中心街へ行くべきか？",
+          "situation": "You have just landed at the airport. You need to get downtown as soon as possible. You are told the following at the information desk.",
+          "situationJa": "あなたは空港に着いたところである。できるだけ早く中心街に行く必要がある。インフォメーションデスクで次のように言われる。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "By bus." },
+            { "label": "2", "text": "By subway." },
+            { "label": "3", "text": "By taxi." },
+            { "label": "4", "text": "By light-rail." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "この時間帯は中心部へ向かう道路が混雑していて40分以上かかりそうだと言われているので、道路を使う1のバスと3のタクシーは不適。地下鉄は5分から10分おきに出ていて中心街まで15分で着くため、できるだけ早く行きたいという状況に合う2が正解。ライトレールは眺めはよいが地下鉄より遅いので4も合わない。",
+          "script": "The bus downtown leaves every half hour, and you can take a taxi from the taxi stand at any time. However, all the streets going to the center of town are very busy at this time of day. It's likely to take more than 40 minutes. The subway leaves every 5 to 10 minutes from the underground station. It's a 15-minute ride from the airport to downtown. You can also take the light-rail train. It's slower than the subway but provides a nice view of the city.",
+          "scriptJa": "中心街行きのバスは30分おきに出ていますし、タクシー乗り場からはいつでもタクシーに乗れます。ただ、この時間帯は町の中心部へ向かう道路はどこも大変混雑しています。40分以上かかる可能性が高いでしょう。地下鉄は地下の駅から5分から10分おきに出ています。空港から中心街までは乗車時間15分です。ライトレールに乗ることもできます。地下鉄より時間はかかりますが、街の眺めを楽しめますよ。"
         },
         {
           "id": "q26",
           "number": 26,
           "audio": "audio/eiken/eiken-pre1-2022-3/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which course should you choose?",
+          "promptJa": "どのコースを選ぶべきか？",
+          "situation": "You speak some Italian but want to brush up before your vacation in Italy in three months. You are free on Mondays and Thursdays. A language-school representative tells you the following.",
+          "situationJa": "あなたはイタリア語を少し話せるが、3か月後のイタリアでの休暇の前に磨き直したいと思っている。あなたは月曜日と木曜日が空いている。語学学校の担当者が次のように説明する。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Martina's." },
+            { "label": "2", "text": "Giovanni's." },
+            { "label": "3", "text": "Teresa's." },
+            { "label": "4", "text": "Alfredo's." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "月曜日と木曜日が空いているので、候補は月曜日のジョバンニのコースと木曜日のアルフレードのコースである。ジョバンニのコースはイタリア語を初めて学ぶ人向けの入門コースなので、すでに少し話せるあなたには合わない。アルフレードの中級コースは「in just a few months」で語学力を伸ばしたい人向けで、3か月後の休暇に間に合うので4が正解。火曜日のマルティナと金曜日のテレサは曜日が合わない。",
+          "script": "We offer several courses. Giovanni's introductory course on Monday evenings is ideal if this will be your first experience learning Italian. Martina's course on Tuesdays is for businesspeople looking to develop their written fluency in Italian to an advanced level. It's not suitable for beginners. Alfredo's intermediate course on Thursdays is suitable for people who want to improve their language skills in just a few months. Finally, Teresa's course on Fridays is for people who want to learn Italian and Italian culture through operas. This is a popular course, so I recommend registering today if you are interested.",
+          "scriptJa": "当校ではいくつかのコースをご用意しています。月曜日の夜に行うジョバンニの入門コースは、イタリア語を初めて学ぶ方に最適です。火曜日のマルティナのコースは、イタリア語で文章を書く力を上級レベルまで高めたいビジネスパーソン向けです。初心者の方には向いていません。木曜日のアルフレードの中級コースは、わずか数か月で語学力を伸ばしたい方に適しています。最後に、金曜日のテレサのコースは、オペラを通じてイタリア語とイタリア文化を学びたい方向けです。こちらは人気のコースですので、ご興味があれば今日のうちに登録されることをお勧めします。"
         },
         {
           "id": "q27",
           "number": 27,
           "audio": "audio/eiken/eiken-pre1-2022-3/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which floor should you go to first?",
+          "promptJa": "最初にどの階へ行くべきか？",
+          "situation": "You have just arrived at a shopping mall to buy a new business suit. You want to save as much money as you can. You hear the following announcement.",
+          "situationJa": "あなたは新しいビジネススーツを買うためにショッピングモールに着いたところである。できるだけお金を節約したい。次のようなアナウンスが聞こえる。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The first floor." },
+            { "label": "2", "text": "The second floor." },
+            { "label": "3", "text": "The third floor." },
+            { "label": "4", "text": "The fourth floor." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "スーツは2階で50パーセント引きになっているが、アナウンスの後半で、割引は4階のキオスクでセールに登録した客だけが対象だと述べられている。できるだけ安く買うには、まず4階で登録してカードを受け取る必要があるので4が正解。2階はスーツ売り場だが、先に行っても登録していなければ割引を受けられないので2は不適。",
+          "script": "Good morning, shoppers. Today is the Mayfield Mall 15th Anniversary Sale. Check out the first-floor shops for huge discounts on kids' clothing and back-to-school items. All business wear on the second floor, including suits and shoes, is 50 percent off. And don't forget the sporting goods center on the third floor, where we're offering 25 percent off every item. Remember, discounts are only available for shoppers who have registered for the sale at the fourth-floor kiosk. By registering, you will receive a card that you can present at all participating shops.",
+          "scriptJa": "お客様、おはようございます。本日はメイフィールド・モール15周年記念セールです。1階のお店では、子ども服や新学期用品を大幅に値引きしておりますので、ぜひご覧ください。スーツや靴を含め、2階のビジネスウェアはすべて50パーセント引きです。また、3階のスポーツ用品センターもお忘れなく。全商品を25パーセント引きでご提供しております。なお、割引は4階のキオスクでセールにご登録いただいたお客様のみが対象となりますのでご注意ください。ご登録いただくと、参加店舗すべてで提示できるカードをお渡しします。"
         },
         {
           "id": "q28",
           "number": 28,
           "audio": "audio/eiken/eiken-pre1-2022-3/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which attraction should you go to?",
+          "promptJa": "どのアトラクションに行くべきか？",
+          "situation": "You and your family are at a theme park. Your children are very interested in animals and nature. You hear the following announcement.",
+          "situationJa": "あなたは家族と一緒にテーマパークにいる。子どもたちは動物や自然にとても興味がある。次のようなアナウンスが聞こえる。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Lizard Encounter." },
+            { "label": "2", "text": "Discovery Drive." },
+            { "label": "3", "text": "Into the Sky." },
+            { "label": "4", "text": "Dream Fields." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "動物に関係するのは爬虫類を見られるリザード・エンカウンターとサファリのディスカバリー・ドライブだが、前者は修理のため当面休止しているので1は不適。ディスカバリー・ドライブは通常どおり運営していて、ほとんどの動物を屋外で見られるので2が正解。イントゥ・ザ・スカイは宇宙がテーマのジェットコースター、ドリーム・フィールズはVRで野球を体験するもので、どちらも動物や自然とは関係がない。",
+          "script": "Welcome to All Adventures Park. Unfortunately, due to repairs, the walk-through reptile attraction Lizard Encounter will be closed until further notice. Our space-themed roller coaster, Into the Sky, has also suspended operation today due to strong winds. We apologize for the inconvenience. Please note, however, that our ranger-guided drive-through safari, Discovery Drive, is operating as usual, and most of the animals will be outdoors and visible. Finally, don't forget to check out the park's newest addition, Dream Fields, where guests can use VR technology to experience the game of baseball like never before!",
+          "scriptJa": "オール・アドベンチャーズ・パークへようこそ。あいにく、歩いて見て回る爬虫類のアトラクション「リザード・エンカウンター」は、修理のため当面の間休止いたします。また、宇宙をテーマにしたジェットコースター「イントゥ・ザ・スカイ」も、本日は強風のため運転を見合わせております。ご不便をおかけして申し訳ございません。なお、レンジャーがご案内する車で巡るサファリ「ディスカバリー・ドライブ」は通常どおり運営しており、ほとんどの動物が屋外に出ていてご覧いただけます。最後に、パークに新しく加わった「ドリーム・フィールズ」もぜひお試しください。VR技術を使って、これまでにない形で野球を体験していただけます！"
         },
         {
           "id": "q29",
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2022-3/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Who should you speak to?",
+          "promptJa": "誰に話をするべきか？",
+          "situation": "You want your son to learn a new skill. He already takes swimming lessons after school on Wednesdays. A school administrator makes the following announcement.",
+          "situationJa": "あなたは息子に新しい技能を身につけさせたいと思っている。息子はすでに毎週水曜日の放課後に水泳のレッスンを受けている。学校の管理職が次のようなアナウンスをする。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Mr. Gilbert." },
+            { "label": "2", "text": "Ms. DeLuca." },
+            { "label": "3", "text": "Mr. Roth." },
+            { "label": "4", "text": "Ms. Santos." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "息子はすでに水泳を習っているので、水泳部を担当する2のデルーカ先生では新しい技能にならない。3のロス先生のクラリネットは水曜日で、水泳のレッスンと重なる。4のサントス先生は宿題の手伝いで新しい技能の習得とは言えないため、金曜日に卓球を教えるギルバート先生の1が正解。",
+          "script": "Parents, I'd like to introduce the faculty members in charge of the new after-school activities. Mr. Gilbert will be teaching students table tennis once a week on Fridays. Ms. DeLuca is in charge of the swimming club, which will meet on Mondays and Thursdays. Mr. Roth will be sharing his expertise in music by giving clarinet lessons every Wednesday. And Ms. Santos will be available in the library for study group to help students with their homework on Tuesdays and Thursdays. Please speak to the appropriate faculty member for further details.",
+          "scriptJa": "保護者の皆様、新しい放課後活動を担当する教員をご紹介します。ギルバート先生は、毎週金曜日に週1回、生徒たちに卓球を教えます。デルーカ先生は水泳部の担当で、水泳部は月曜日と木曜日に活動します。ロス先生は毎週水曜日にクラリネットのレッスンを行い、音楽の専門知識を伝えます。そしてサントス先生は、火曜日と木曜日に図書館で学習グループを担当し、生徒たちの宿題を手伝います。詳しくは、それぞれの担当教員にお問い合わせください。"
         }
       ]
     }

@@ -1,0 +1,550 @@
+{
+  "examType": "eiken",
+  "id": "eiken-pre1-2021-3",
+  "meta": {
+    "title": "英検準1級",
+    "subtitle": "2021年度 第3回",
+    "year": 2021,
+    "grade": "pre1",
+    "session": "2021-3",
+    "icon": "🏅",
+    "totalTime": 29
+  },
+  "sections": [
+    {
+      "id": "part1",
+      "title": "Part 1",
+      "description": "会話の内容一致選択 — 会話を聞き、その質問に対して最も適切なものを選びなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2021-3/01_Part1_explanation.mp3",
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "audio": "audio/eiken/eiken-pre1-2021-3/02_No1.mp3",
+          "prompt": "What is the student concerned about?",
+          "choices": [
+            { "label": "1", "text": "His recent test scores." },
+            { "label": "2", "text": "Having to drop the class." },
+            { "label": "3", "text": "Finding a job." },
+            { "label": "4", "text": "Staying awake in class." }
+          ],
+          "answer": "4",
+          "explanation": "学生は2番目の発言で、授業中に目を開けていられない（having a hard time keeping my eyes open）と打ち明け、最前列の席にしてほしいと頼んでいる。これを「授業中に起きていること」と言い換えた4が正解。テストの点数は先生がかなり良いと言っており、履修の取りやめは本人が No, not that. と否定しているので1と2は誤りである。",
+          "script": "M: Dr. Jenkins, could I speak with you for a moment?\nW: Sure, Eric. What's on your mind?\nM: I'm embarrassed to say this, but I'm having a hard time keeping my eyes open in class. I have to work two part-time jobs to make ends meet, and your class is so early in the morning.\nW: So are you thinking about dropping the class? That would be a shame, considering that your test scores have been pretty good.\nM: No, not that. I need this class in order to graduate next year. Actually, I was wondering if you could arrange your seating chart so I'm sitting right up in front. That should help me pay better attention in class.\nW: I think I can probably do that.",
+          "scriptJa": "M: ジェンキンス先生、少しお話ししてもよろしいですか？\nW: いいわよ、エリック。どうしたの？\nM: お恥ずかしい話なのですが、授業中にどうしても目を開けていられないんです。生活費を稼ぐためにアルバイトを2つ掛け持ちしなければならなくて、それに先生の授業は朝がとても早いので。\nW: それで、この授業の履修をやめようと考えているの？テストの点数はかなり良いのだから、それはもったいないわね。\nM: いえ、そうではありません。来年卒業するにはこの授業が必要なんです。実は、座席表を調整して、僕を一番前の席にしていただけないかと思いまして。そうすれば授業にもっと集中できるはずです。\nW: たぶん、それならできると思うわ。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "audio": "audio/eiken/eiken-pre1-2021-3/03_No2.mp3",
+          "prompt": "Why is the woman concerned?",
+          "choices": [
+            { "label": "1", "text": "The man could lose his job." },
+            { "label": "2", "text": "The man forgot his mother's birthday." },
+            { "label": "3", "text": "The man did not reply to her e-mail." },
+            { "label": "4", "text": "The man is not liked by the CEO." }
+          ],
+          "answer": "1",
+          "explanation": "女性は2番目の発言で、会社のパソコンを私的な連絡に使うと解雇される（could get you fired）おそれがあり、会社は人員削減の口実を探していると警告している。つまり男性が職を失うことを心配しているので1が正解。男性は母親の誕生日を覚えていてメールを送ろうとしているので2は誤りで、CEOが男性を嫌っているという話も出てこないので4も誤りである。",
+          "script": "W: You're not sending a personal e-mail from your office computer, are you, Allen?\nM: It's just a quick note to my mom—it's her birthday tomorrow.\nW: Didn't you read the memo from the CEO? Using office computers for private communications could get you fired. I heard they're looking for excuses to cut staff.\nM: I doubt if they'd take a birthday message that seriously, but thanks for the warning.\nW: Better safe than sorry.",
+          "scriptJa": "W: アレン、まさか会社のパソコンで私用のメールを送っているんじゃないでしょうね？\nM: 母にちょっと一言送るだけだよ。明日が誕生日なんだ。\nW: CEOからの通達を読まなかったの？会社のパソコンを私的なやり取りに使うと、クビになるかもしれないのよ。会社は人員削減の口実を探しているって聞いたわ。\nM: 誕生日のメッセージくらいでそこまで深刻に受け止めるとは思えないけど、忠告ありがとう。\nW: 用心するに越したことはないわよ。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "audio": "audio/eiken/eiken-pre1-2021-3/04_No3.mp3",
+          "prompt": "What do we learn about these people?",
+          "choices": [
+            { "label": "1", "text": "They take turns driving." },
+            { "label": "2", "text": "They were in a serious accident." },
+            { "label": "3", "text": "They work in a car repair shop." },
+            { "label": "4", "text": "Neither of them can drive next week." }
+          ],
+          "answer": "1",
+          "explanation": "女性の最初の発言 it's my turn to drive us to work から、2人が交代で車を運転して通勤していることがわかるので1が正解。事故は Just a fender bender（軽い接触事故）だったので2は誤り。来週は男性が代わりに運転すると申し出ているので4も誤りである。",
+          "script": "W: Sam, next week, it's my turn to drive us to work, but my car's in the shop.\nM: What's wrong with it?\nW: Oh, I had an accident over the weekend.\nM: Nothing too serious, I hope.\nW: No. Just a fender bender.\nM: OK. Well, why don't I do the driving next week, and you can take your turn once your car's fixed?\nW: That would be great. Thanks a lot.",
+          "scriptJa": "W: サム、来週は私が車で職場まで送る番なんだけど、車が修理に出ているの。\nM: どうしたの？\nW: ああ、週末に事故を起こしちゃって。\nM: ひどい事故じゃなかったならいいんだけど。\nW: ううん、ちょっとした接触事故よ。\nM: そうか。じゃあ、来週は僕が運転するから、車が直ったら君が代わりに運転するっていうのはどう？\nW: それは助かるわ。本当にありがとう。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "audio": "audio/eiken/eiken-pre1-2021-3/05_No4.mp3",
+          "prompt": "What's the man's problem?",
+          "choices": [
+            { "label": "1", "text": "He cannot use his credit card." },
+            { "label": "2", "text": "He forgot to contact his card issuer." },
+            { "label": "3", "text": "He is short of cash today." },
+            { "label": "4", "text": "He lost his debit card." }
+          ],
+          "answer": "1",
+          "explanation": "店員の最初の発言 your credit card was declined から、男性のクレジットカードが使えなかったことがわかるので1が正解。男性は最後に現金で払うと言っているので、現金が足りないという3は誤り。カード会社への連絡は店員に勧められただけで、男性が忘れていたわけではないので2も合わない。",
+          "script": "W: I'm sorry, sir, but your credit card was declined.\nM: I don't understand why. It was fine yesterday.\nW: Perhaps you've reached your limit. It happens quite often.\nM: I don't know. That's certainly possible, I suppose.\nW: Anyway, I suggest you call your card issuer. Do you have a debit card or a personal check you'd like to use for today's purchases?\nM: No, I'll just pay with cash.",
+          "scriptJa": "W: 申し訳ございませんが、お客様のクレジットカードは承認されませんでした。\nM: どうしてだろう。昨日は問題なく使えたのに。\nW: 利用限度額に達しているのかもしれません。よくあることなんです。\nM: どうかな。まあ、確かにその可能性はあるかもしれない。\nW: いずれにしましても、カード会社にお電話されることをお勧めします。本日のお買い物には、デビットカードか個人小切手をお使いになりますか？\nM: いや、現金で払うよ。"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "audio": "audio/eiken/eiken-pre1-2021-3/06_No5.mp3",
+          "prompt": "What is the woman's opinion about her son?",
+          "choices": [
+            { "label": "1", "text": "He is not suited to the call-center job." },
+            { "label": "2", "text": "He is learning the wrong interview techniques." },
+            { "label": "3", "text": "He should go to the interview he has been offered." },
+            { "label": "4", "text": "He should prioritize finding his dream job." }
+          ],
+          "answer": "3",
+          "explanation": "母親は、息子が向いていないかもしれないと迷うコールセンターの仕事について It doesn't have to be. と言い、多くの仕事を経験する意義を説いたうえで、働きながら他社に応募すればよいと助言している。提示された面接を受けるべきだと考えていることがわかるので3が正解。夢の仕事にこだわっているのは息子のほうであり、母親はまず目の前の機会を勧めているので4は誤りである。",
+          "script": "W: How's the job-hunting going, Tyler? You know your dad and I can't support you forever.\nM: Actually, I've been offered a second interview for a call-center job. I'm not sure it's my thing, though.\nW: It doesn't have to be. The more jobs you try your hand at, the more you'll learn about the working world.\nM: But what if I take it and end up missing out on my dream job?\nW: You can keep applying to other places while you work.\nM: Fair enough. I'll call them back and schedule the second interview.",
+          "scriptJa": "W: タイラー、就職活動はどうなっているの？お父さんも私も、いつまでもあなたを養ってはいけないのよ。\nM: 実は、コールセンターの仕事で2次面接に呼ばれたんだ。でも、自分に向いているかどうかはわからないんだけどね。\nW: 向いていなくてもいいのよ。いろいろな仕事を経験すればするほど、働くということがよくわかるようになるんだから。\nM: でも、そこに就職したせいで、夢の仕事を逃すことになったらどうする？\nW: 働きながら、ほかの会社に応募し続ければいいじゃない。\nM: それもそうだね。折り返し電話して、2次面接の日程を決めるよ。"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "audio": "audio/eiken/eiken-pre1-2021-3/07_No6.mp3",
+          "prompt": "What is the doctor going to do next?",
+          "choices": [
+            { "label": "1", "text": "Have the man take some tests." },
+            { "label": "2", "text": "Encourage the man to exercise more." },
+            { "label": "3", "text": "Give the man advice about work-related stress." },
+            { "label": "4", "text": "Recommend the man to a specialist." }
+          ],
+          "answer": "1",
+          "explanation": "医師は最後の発言で Let's get a few tests done と言い、まず検査を行ってから結果を見て対策を考えるとしているので1が正解。男性は仕事のストレスや食生活に触れているが、医師はその場で運動やストレスについて助言してはいないので2と3は誤り。専門医を紹介する話も出てこないので4も誤りである。",
+          "script": "W: Hello, Sergio. What brings you to the clinic today?\nM: My energy's been really low recently, so I thought I should have a checkup.\nW: Any major changes since your last appointment?\nM: I got promoted to a new position that's pretty stressful and requires a lot of business trips. I've been eating unhealthy food, too.\nW: I see. Getting adequate nutrition can be a challenge when you're traveling.\nM: What should I do?\nW: Let's get a few tests done, and then we'll look at your options once the results come in.",
+          "scriptJa": "W: こんにちは、セルジオ。今日はどうされましたか？\nM: 最近どうも元気が出なくて、健康診断を受けたほうがいいと思ったんです。\nW: 前回の受診から、何か大きな変化はありましたか？\nM: 新しい役職に昇進したんですが、かなりストレスが多くて、出張もたくさんあるんです。それに、体に良くないものばかり食べています。\nW: なるほど。出張中に十分な栄養をとるのは難しいこともありますからね。\nM: どうしたらいいでしょうか？\nW: まずいくつか検査をして、結果が出たら対応策を考えましょう。"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "audio": "audio/eiken/eiken-pre1-2021-3/08_No7.mp3",
+          "prompt": "What is one thing we learn about the man?",
+          "choices": [
+            { "label": "1", "text": "He will take his vacation later in the year." },
+            { "label": "2", "text": "He will meet with the personnel manager." },
+            { "label": "3", "text": "He will do what his manager asks him to do." },
+            { "label": "4", "text": "He will ask the woman to help him." }
+          ],
+          "answer": "3",
+          "explanation": "人事部に苦情を言うよう勧められた男性は、入社してまだ1年なので会社への熱意を示したい（I want to prove I'm committed to the company）と答えている。つまり苦情は言わず、休暇中でも上司の頼みに応じるつもりなので3が正解。人事部に行くのは女性の提案にすぎず男性は断っているので2は誤りで、休暇を年内の後の時期に取り直すという話もないので1も誤りである。",
+          "script": "W: Jasper? I thought you were on vacation this week.\nM: Officially, I am. My manager was planning to take some time off, so I thought I'd do the same. Unfortunately, she's still working, which means she's asking me to do stuff.\nW: She's making you work during your vacation? You should complain to the personnel department.\nM: But I've only been here a year. I want to prove I'm committed to the company.\nW: Well, be sure to set aside a little time for yourself this week. You are technically on vacation.\nM: I will. Thanks.",
+          "scriptJa": "W: ジャスパー？今週は休暇中だと思っていたわ。\nM: 正式にはそうなんだ。上司が休みを取る予定だったから、僕も合わせて取ろうと思ってね。ところが残念なことに、彼女はまだ仕事をしていて、そのせいで僕にいろいろ頼んでくるんだよ。\nW: 休暇中なのに働かせているの？人事部に苦情を言うべきよ。\nM: でも、ここに入ってまだ1年なんだ。会社に本気で尽くすつもりだってところを見せたいんだよ。\nW: まあ、今週は少しでも自分のための時間を確保するようにしてね。名目上は休暇中なんだから。\nM: そうするよ。ありがとう。"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "audio": "audio/eiken/eiken-pre1-2021-3/09_No8.mp3",
+          "prompt": "What do these people think about the proposed logo?",
+          "choices": [
+            { "label": "1", "text": "It needs brighter colors." },
+            { "label": "2", "text": "It fits the company's image." },
+            { "label": "3", "text": "It is too similar to the current one." },
+            { "label": "4", "text": "It needs to be redesigned." }
+          ],
+          "answer": "4",
+          "explanation": "女性はインパクトが足りない、シンプルにしすぎたと指摘し、男性は今のロゴの形のほうが会社を表していると述べ、2人とも案に不満を持っている。最後に男性が We should talk to them again. とデザイナーとの再協議を提案していることから、作り直しが必要だと考えているとわかるので4が正解。男性は色は魅力的だと言っているので1は誤り、会社をうまく表していないと感じているので2も誤りである。",
+          "script": "M: What do you think of the proposed design for our new company logo?\nW: I quite like the style of the lettering, but the logo doesn't have enough impact. How about you?\nM: The colors are appealing, but I think the shape of our current logo represents our company better.\nW: I heard there's a trend toward simplicity these days, but the designers have gone too far in that direction.\nM: Agreed. We should talk to them again.",
+          "scriptJa": "M: 会社の新しいロゴの案について、どう思う？\nW: 文字のスタイルはかなり気に入っているんだけど、ロゴとしてはインパクトが足りないわね。あなたはどう？\nM: 色は魅力的だけど、会社をよく表しているのは今のロゴの形のほうだと思う。\nW: 最近はシンプルさを求める傾向があるらしいけど、デザイナーたちはその方向に行きすぎたわね。\nM: 同感だ。もう一度彼らと話し合うべきだね。"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "audio": "audio/eiken/eiken-pre1-2021-3/10_No9.mp3",
+          "prompt": "What is one thing we learn about the man?",
+          "choices": [
+            { "label": "1", "text": "He has not read Alice's book yet." },
+            { "label": "2", "text": "He cannot attend Alice's party." },
+            { "label": "3", "text": "He is no longer friends with Alice." },
+            { "label": "4", "text": "He was disappointed with Alice's book." }
+          ],
+          "answer": "1",
+          "explanation": "女性がすでに本を読んだと知った男性は That's not fair! と言い、さらに一般に発売されたら読むしかないと述べているので、まだアリスの本を読んでいないとわかり1が正解。パーティーに行けないという発言はないので2は誤り。男性はまだ本を読んでいないので、内容に失望したという4も誤りである。",
+          "script": "M: Sheena, are you going to Alice's book-launch party on Wednesday?\nW: Of course. It's taken her a decade to write, but the book turned out great!\nM: You've already read it? That's not fair! But I suppose you two have been friends since kindergarten.\nW: And I helped with research for one of the chapters.\nM: I guess I'll just have to read it when it's available to the general public.\nW: You only have to wait a few days.",
+          "scriptJa": "M: シーナ、水曜日のアリスの出版記念パーティーには行くの？\nW: もちろん。書き上げるのに10年かかったけど、すごく良い本に仕上がったのよ！\nM: もう読んだの？ずるいなあ！でもまあ、君たち2人は幼稚園の頃からの友達だもんね。\nW: それに、私はある章のリサーチを手伝ったの。\nM: 僕は一般に発売されるまで待って読むしかなさそうだね。\nW: ほんの数日待つだけよ。"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "audio": "audio/eiken/eiken-pre1-2021-3/11_No10.mp3",
+          "prompt": "What will the woman probably do in the future?",
+          "choices": [
+            { "label": "1", "text": "Make sure she catches an earlier train." },
+            { "label": "2", "text": "Use a different train line." },
+            { "label": "3", "text": "Ride her bicycle to the office." },
+            { "label": "4", "text": "Go into the office on weekends." }
+          ],
+          "answer": "2",
+          "explanation": "男性が別の路線の駅まで自転車で行くことを提案し、女性は最後に I think I'll give it a try. と答えているので、今後は別の路線を使うと考えられ2が正解。自転車で行くのは駅までで、会社までではないので3は誤り。新しい方法なら今より遅い電車に乗れると言っているので、早い電車に乗るという1も誤りである。",
+          "script": "W: Morning. Sorry to be late.\nM: No problem. Was your train delayed again?\nW: Yes, for the third time this month. I take an early train, but there are always big delays on weekdays during rush hour.\nM: Isn't there another train line in your area?\nW: Yes, but the station on that line is a 45-minute walk from my house.\nM: Perhaps you could ride your bicycle there.\nW: That's an idea. If I did that, I could catch a later train than I do now.\nM: Cycling would be good exercise, too.\nW: Good point. I think I'll give it a try.",
+          "scriptJa": "W: おはようございます。遅れてすみません。\nM: 大丈夫だよ。また電車が遅れたの？\nW: はい、今月3回目です。早い電車に乗っているんですけど、平日のラッシュアワーはいつも大幅に遅れるんです。\nM: 君の住んでいる地域には、別の路線はないの？\nW: ありますけど、その路線の駅は家から歩いて45分かかるんです。\nM: そこまで自転車で行けばいいんじゃないかな。\nW: それはいい考えですね。そうすれば、今より遅い電車に乗れます。\nM: 自転車ならいい運動にもなるしね。\nW: 確かに。試してみようと思います。"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "audio": "audio/eiken/eiken-pre1-2021-3/12_No11.mp3",
+          "prompt": "What is one thing we learn from the conversation?",
+          "choices": [
+            { "label": "1", "text": "Garbage collection has become less frequent." },
+            { "label": "2", "text": "Garbage bags will become more expensive." },
+            { "label": "3", "text": "Local taxes are likely to rise soon." },
+            { "label": "4", "text": "The newspaper delivery schedule has changed." }
+          ],
+          "answer": "1",
+          "explanation": "女性の2番目の発言で、ごみの収集が14日ごと（a 14-day schedule）に変わったことがわかり、男性も only collecting every two weeks now と確認しているので、収集の頻度が減ったという1が正解。男性は税金について不満を口にしているだけで、増税の話は出てこないので3は誤り。新聞はお知らせが載った媒体として出てくるだけなので4も誤りである。",
+          "script": "W: What're you doing with those garbage bags, Ronan?\nM: I was just about to put them outside. Wednesday is collection day, right?\nW: Actually, they've switched over to a 14-day schedule. There was an announcement in the local paper last month.\nM: They're only collecting every two weeks now? I sometimes wonder what we pay our taxes for.\nW: I know what you mean, but I guess the city needs to reduce spending. They're also talking about lowering the number of bags you can put out.",
+          "scriptJa": "W: ローナン、そのごみ袋をどうするつもり？\nM: ちょうど外に出そうとしていたところだよ。水曜日が収集日だよね？\nW: 実は、14日ごとの収集に変わったのよ。先月、地元の新聞にお知らせが載っていたわ。\nM: 今は2週間に1回しか収集しないの？何のために税金を払っているんだろうと思うことがあるよ。\nW: 気持ちはわかるけど、市も支出を減らさなきゃいけないんでしょうね。出せるごみ袋の数を減らすことも検討しているらしいわ。"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "audio": "audio/eiken/eiken-pre1-2021-3/13_No12.mp3",
+          "prompt": "What will the woman most likely do?",
+          "choices": [
+            { "label": "1", "text": "Try using some earplugs." },
+            { "label": "2", "text": "Have Ranjit talk to her neighbors." },
+            { "label": "3", "text": "Complain about her landlord." },
+            { "label": "4", "text": "Write a message to her neighbors." }
+          ],
+          "answer": "4",
+          "explanation": "男性は2番目の発言で、大家に苦情を言う前にまず上の階の住人に丁寧な手紙を書く（writing a polite note to them first）ことを提案し、女性は最後に I think I'll do that. と応じているので4が正解。耳栓はすでに試して効かなかったので1は誤り。女性が考えていたのは大家に苦情を言うことで、それも男性の助言を受けて見送ったと考えられるので3も誤りである。",
+          "script": "M: Hey, Sharon. Are you OK? You look exhausted.\nW: Hi, Ranjit. Yeah, I can't sleep because of my upstairs neighbors. They're awake at all hours of the night. Even earplugs haven't worked, so I'm going to complain to the landlord.\nM: Have you thought about writing a polite note to them first? They might get upset if you go directly to the landlord.\nW: I hadn't thought about that. Have you ever tried something like that?\nM: No, but I've read online that it can be quite effective.\nW: Thanks. I think I'll do that.",
+          "scriptJa": "M: やあ、シャロン。大丈夫？ずいぶん疲れているみたいだけど。\nW: こんにちは、ランジット。ええ、上の階の人たちのせいで眠れないの。夜中じゅうずっと起きているのよ。耳栓をしても効かなかったから、大家さんに苦情を言うつもり。\nM: まずはその人たちに丁寧な手紙を書いてみることは考えた？いきなり大家さんのところへ行ったら、気を悪くするかもしれないよ。\nW: それは考えていなかったわ。あなたはそういうことをしたことがあるの？\nM: いや、ないけど、かなり効果があるってネットで読んだんだ。\nW: ありがとう。そうしてみるわ。"
+        }
+      ]
+    },
+    {
+      "id": "part2",
+      "title": "Part 2",
+      "description": "文の内容一致選択 — 英文を聞き、その質問に対して最も適切なものを選びなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2021-3/14_Part2_explanation.mp3",
+      "questions": [
+        {
+          "id": "q13",
+          "number": 13,
+          "passageLabel": "Passage A",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/16_No13.mp3",
+          "prompt": "What may be one reason children become picky eaters?",
+          "choices": [
+            { "label": "1", "text": "There are too many food choices available." },
+            { "label": "2", "text": "Schools often prepare uninteresting food." },
+            { "label": "3", "text": "They copy their parents' eating habits." },
+            { "label": "4", "text": "They have a desire to lose weight." }
+          ],
+          "answer": "3",
+          "explanation": "第1段落で、親は子どもの手本となるため、親が偏った不健康な食生活を送っているのを子どもが見ると悪影響がある（it can be damaging）と述べられている。これを「親の食習慣をまねる」と言い換えた3が正解。食べ物の選択肢の多さや学校の食事については触れられていないので1と2は誤りで、減量したいという話も出てこない。",
+          "script": "Picky Eaters\n\nSome children are picky eaters. They will only eat a few foods and refuse to eat anything else, and this is generally considered unhealthy. Researchers have found that genetics may be one cause of this behavior, but the environment in which children are raised may also be important. Parents, for example, serve as role models for their children, so it can be damaging if their children see them following limited, unhealthy diets.\n\nOnce children form such eating habits, how can they be changed? Parents often use rewards. For example, they will tell their children they can have ice cream if they eat their vegetables. However, some experts warn against doing this. They say it does little to change children's negative attitudes toward foods they dislike. Instead, these experts recommend involving children in the growing, purchasing, and preparation of these foods. This may help children develop a positive relationship with healthy meals.",
+          "scriptJa": "偏食の子どもたち\n\n偏食の子どもがいる。そうした子どもはごく限られた食べ物しか口にせず、それ以外は食べようとしない。これは一般に不健康だと考えられている。研究者たちは、遺伝がこの行動の原因の1つである可能性を見いだしているが、子どもが育つ環境もまた重要かもしれない。例えば、親は子どもにとってのお手本となるため、親が偏った不健康な食生活を送っている姿を子どもが目にすると、悪い影響を与えかねない。\n\n子どもにいったんそのような食習慣が身についてしまったら、どうすれば変えられるだろうか。親はよくごほうびを使う。例えば、野菜を食べたらアイスクリームを食べてもいいと子どもに言うのだ。しかし、そうしないよう警告する専門家もいる。そうしたやり方では、嫌いな食べ物に対する子どもの否定的な態度はほとんど変わらないというのだ。その代わりにこうした専門家が勧めるのは、そうした食べ物を育てたり、買ったり、調理したりすることに子どもを参加させることである。そうすることで、子どもは健康的な食事と良い関係を築けるようになるかもしれない。"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "passageLabel": "Passage A",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/17_No14.mp3",
+          "prompt": "What is one thing that some experts recommend?",
+          "choices": [
+            { "label": "1", "text": "Getting children to help make their own meals." },
+            { "label": "2", "text": "Encouraging children to play more sports." },
+            { "label": "3", "text": "Sometimes letting children eat unhealthy foods." },
+            { "label": "4", "text": "Rewarding children for eating vegetables." }
+          ],
+          "answer": "1",
+          "explanation": "第2段落の最後で、専門家は食べ物を育てる、買う、調理する過程に子どもを参加させること（involving children in the growing, purchasing, and preparation）を勧めている。これを「自分の食事作りを手伝わせる」とまとめた1が正解。野菜を食べたらごほうびを与えるやり方には専門家が警告しているので4は誤りである。",
+          "script": "Picky Eaters\n\nSome children are picky eaters. They will only eat a few foods and refuse to eat anything else, and this is generally considered unhealthy. Researchers have found that genetics may be one cause of this behavior, but the environment in which children are raised may also be important. Parents, for example, serve as role models for their children, so it can be damaging if their children see them following limited, unhealthy diets.\n\nOnce children form such eating habits, how can they be changed? Parents often use rewards. For example, they will tell their children they can have ice cream if they eat their vegetables. However, some experts warn against doing this. They say it does little to change children's negative attitudes toward foods they dislike. Instead, these experts recommend involving children in the growing, purchasing, and preparation of these foods. This may help children develop a positive relationship with healthy meals.",
+          "scriptJa": "偏食の子どもたち\n\n偏食の子どもがいる。そうした子どもはごく限られた食べ物しか口にせず、それ以外は食べようとしない。これは一般に不健康だと考えられている。研究者たちは、遺伝がこの行動の原因の1つである可能性を見いだしているが、子どもが育つ環境もまた重要かもしれない。例えば、親は子どもにとってのお手本となるため、親が偏った不健康な食生活を送っている姿を子どもが目にすると、悪い影響を与えかねない。\n\n子どもにいったんそのような食習慣が身についてしまったら、どうすれば変えられるだろうか。親はよくごほうびを使う。例えば、野菜を食べたらアイスクリームを食べてもいいと子どもに言うのだ。しかし、そうしないよう警告する専門家もいる。そうしたやり方では、嫌いな食べ物に対する子どもの否定的な態度はほとんど変わらないというのだ。その代わりにこうした専門家が勧めるのは、そうした食べ物を育てたり、買ったり、調理したりすることに子どもを参加させることである。そうすることで、子どもは健康的な食事と良い関係を築けるようになるかもしれない。"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "passageLabel": "Passage B",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/19_No15.mp3",
+          "prompt": "What was one result of the sea battle?",
+          "choices": [
+            { "label": "1", "text": "Ching Shih's pirates gained a number of ships." },
+            { "label": "2", "text": "Many pirate commanders were captured." },
+            { "label": "3", "text": "Most of the pirates were killed." },
+            { "label": "4", "text": "Ching Shih agreed to help the Chinese navy." }
+          ],
+          "answer": "1",
+          "explanation": "第1段落の後半で、政府の海軍との海戦は政府側に不利に進み、チン・シーの海賊たちが海軍の船を何隻も奪った（captured several naval vessels）と述べられている。これを「多くの船を手に入れた」と言い換えた1が正解。捕らえられたのは海賊の指揮官ではなく海軍の船であり、海賊の大半が殺されたという話もないので2と3は誤りである。",
+          "script": "Ching Shih the Pirate\n\nIt is sometimes said that a Chinese woman named Ching Shih was one of history's most successful pirates. Her husband was also a pirate. Following his death in 1807, Ching Shih took control of their pirate operations, which grew rapidly. The Chinese government then ordered its navy to capture her. The sea battle that followed, however, went badly for the government. Ching Shih's pirates captured several naval vessels, which increased Ching Shih's power.\n\nHowever, it is thought that Ching Shih began having difficulty controlling her huge forces. In 1810, therefore, she came to an agreement with government officials in which she promised to end her operations. In exchange, she was allowed to keep her wealth, and she and most of her followers were given their freedom. While many pirates throughout history died violently, Ching Shih avoided that fate.",
+          "scriptJa": "海賊チン・シー\n\nチン・シーという中国人女性は、歴史上最も成功した海賊の1人だったと言われることがある。彼女の夫もまた海賊だった。1807年に夫が亡くなると、チン・シーは夫婦で営んでいた海賊活動を引き継ぎ、その勢力は急速に拡大した。そこで中国政府は、彼女を捕らえるよう海軍に命じた。しかし、その後に起きた海戦は政府にとって不利な展開となった。チン・シーの海賊たちが海軍の船を何隻も奪い取り、それによってチン・シーの力はさらに強まったのである。\n\nしかし、チン・シーは膨れ上がった配下の勢力を統率するのに苦労し始めたと考えられている。そのため1810年、彼女は政府の役人と合意を結び、海賊活動をやめることを約束した。その見返りとして、彼女は財産を手元に残すことを許され、彼女自身と配下の大半は自由の身となった。歴史上、多くの海賊が非業の死を遂げたが、チン・シーはそうした運命を免れたのである。"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "passageLabel": "Passage B",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/20_No16.mp3",
+          "prompt": "What did Ching Shih do in 1810?",
+          "choices": [
+            { "label": "1", "text": "She left China to escape punishment." },
+            { "label": "2", "text": "She gave away her wealth." },
+            { "label": "3", "text": "She formed a new pirate organization." },
+            { "label": "4", "text": "She agreed to stop her pirate operations." }
+          ],
+          "answer": "4",
+          "explanation": "第2段落で、1810年にチン・シーは政府の役人と合意し、海賊活動をやめることを約束した（promised to end her operations）と述べられているので4が正解。その見返りに財産を手元に残すことを許されたので、財産を手放したという2は誤り。中国から逃げた、新しい組織を作ったという話は出てこないので1と3も誤りである。",
+          "script": "Ching Shih the Pirate\n\nIt is sometimes said that a Chinese woman named Ching Shih was one of history's most successful pirates. Her husband was also a pirate. Following his death in 1807, Ching Shih took control of their pirate operations, which grew rapidly. The Chinese government then ordered its navy to capture her. The sea battle that followed, however, went badly for the government. Ching Shih's pirates captured several naval vessels, which increased Ching Shih's power.\n\nHowever, it is thought that Ching Shih began having difficulty controlling her huge forces. In 1810, therefore, she came to an agreement with government officials in which she promised to end her operations. In exchange, she was allowed to keep her wealth, and she and most of her followers were given their freedom. While many pirates throughout history died violently, Ching Shih avoided that fate.",
+          "scriptJa": "海賊チン・シー\n\nチン・シーという中国人女性は、歴史上最も成功した海賊の1人だったと言われることがある。彼女の夫もまた海賊だった。1807年に夫が亡くなると、チン・シーは夫婦で営んでいた海賊活動を引き継ぎ、その勢力は急速に拡大した。そこで中国政府は、彼女を捕らえるよう海軍に命じた。しかし、その後に起きた海戦は政府にとって不利な展開となった。チン・シーの海賊たちが海軍の船を何隻も奪い取り、それによってチン・シーの力はさらに強まったのである。\n\nしかし、チン・シーは膨れ上がった配下の勢力を統率するのに苦労し始めたと考えられている。そのため1810年、彼女は政府の役人と合意を結び、海賊活動をやめることを約束した。その見返りとして、彼女は財産を手元に残すことを許され、彼女自身と配下の大半は自由の身となった。歴史上、多くの海賊が非業の死を遂げたが、チン・シーはそうした運命を免れたのである。"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "passageLabel": "Passage C",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/22_No17.mp3",
+          "prompt": "What does the speaker say about Canada lynx?",
+          "choices": [
+            { "label": "1", "text": "Their numbers increase at certain times." },
+            { "label": "2", "text": "They are being hunted by humans." },
+            { "label": "3", "text": "Their habitats have become smaller recently." },
+            { "label": "4", "text": "They have been eating fewer snowshoe hares." }
+          ],
+          "answer": "1",
+          "explanation": "第1段落で、カンジキウサギの個体数が約10年周期で増減し、獲物のウサギが多いときにはオオヤマネコの個体数も増える傾向がある（the lynx population tends to grow）と述べられている。つまり特定の時期に数が増えるので1が正解。オオヤマネコは人間を避けるのが巧みだとされているだけで、人間に狩られているとは述べられていないので2は誤り。生息地の縮小やウサギを食べる量の減少についても触れられていない。",
+          "script": "The Canada Lynx\n\nThe Canada lynx is a type of wildcat found mainly in Canada and the northern United States. The animals are skilled at avoiding humans, so they are rarely seen in the wild. However, lynx sightings increase roughly every 10 years. This is because the population of animals called snowshoe hares rises and falls in a roughly 10-year cycle. Lynx hunt snowshoe hares, and when there are more hares to hunt, the lynx population tends to grow.\n\nIt was long believed that Canada lynx live their whole lives in one particular area. However, scientists have discovered that lynx can journey thousands of kilometers to establish new territories. Some scientists think it is likely that these animals are following hares. However, lynx have also been observed making long journeys at other times, so there may be another reason why they travel.",
+          "scriptJa": "カナダオオヤマネコ\n\nカナダオオヤマネコは、主にカナダとアメリカ北部に生息するヤマネコの一種である。この動物は人間を避けるのが巧みなため、野生で見かけることはめったにない。しかし、オオヤマネコの目撃件数はおよそ10年ごとに増加する。これは、カンジキウサギと呼ばれる動物の個体数が、約10年の周期で増減するためである。オオヤマネコはカンジキウサギを狩るので、獲物となるウサギが増えると、オオヤマネコの個体数も増える傾向にあるのだ。\n\nカナダオオヤマネコは、一生を特定の1つの地域で過ごすと長い間信じられてきた。しかし科学者たちは、オオヤマネコが新たな縄張りを築くために何千キロメートルも移動することがあると発見した。この動物はウサギを追って移動している可能性が高いと考える科学者もいる。しかし、オオヤマネコはそれ以外の時期にも長距離を移動する様子が観察されているので、移動には別の理由があるのかもしれない。"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "passageLabel": "Passage C",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/23_No18.mp3",
+          "prompt": "What did scientists discover about Canada lynx?",
+          "choices": [
+            { "label": "1", "text": "They only travel when looking for food." },
+            { "label": "2", "text": "They sometimes travel long distances." },
+            { "label": "3", "text": "They live much longer than other wildcats." },
+            { "label": "4", "text": "They always return to their original territories." }
+          ],
+          "answer": "2",
+          "explanation": "第2段落で、科学者たちはオオヤマネコが新たな縄張りを築くために何千キロメートルも移動することがある（can journey thousands of kilometers）と発見したと述べられているので2が正解。ウサギを追う以外の時期にも長距離の移動が観察されているので、食べ物を探すときだけ移動するという1は誤り。元の縄張りに必ず戻るという話もないので4も誤りである。",
+          "script": "The Canada Lynx\n\nThe Canada lynx is a type of wildcat found mainly in Canada and the northern United States. The animals are skilled at avoiding humans, so they are rarely seen in the wild. However, lynx sightings increase roughly every 10 years. This is because the population of animals called snowshoe hares rises and falls in a roughly 10-year cycle. Lynx hunt snowshoe hares, and when there are more hares to hunt, the lynx population tends to grow.\n\nIt was long believed that Canada lynx live their whole lives in one particular area. However, scientists have discovered that lynx can journey thousands of kilometers to establish new territories. Some scientists think it is likely that these animals are following hares. However, lynx have also been observed making long journeys at other times, so there may be another reason why they travel.",
+          "scriptJa": "カナダオオヤマネコ\n\nカナダオオヤマネコは、主にカナダとアメリカ北部に生息するヤマネコの一種である。この動物は人間を避けるのが巧みなため、野生で見かけることはめったにない。しかし、オオヤマネコの目撃件数はおよそ10年ごとに増加する。これは、カンジキウサギと呼ばれる動物の個体数が、約10年の周期で増減するためである。オオヤマネコはカンジキウサギを狩るので、獲物となるウサギが増えると、オオヤマネコの個体数も増える傾向にあるのだ。\n\nカナダオオヤマネコは、一生を特定の1つの地域で過ごすと長い間信じられてきた。しかし科学者たちは、オオヤマネコが新たな縄張りを築くために何千キロメートルも移動することがあると発見した。この動物はウサギを追って移動している可能性が高いと考える科学者もいる。しかし、オオヤマネコはそれ以外の時期にも長距離を移動する様子が観察されているので、移動には別の理由があるのかもしれない。"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "passageLabel": "Passage D",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/25_No19.mp3",
+          "prompt": "What is one thing we learn about the tunnels?",
+          "choices": [
+            { "label": "1", "text": "Modern burial places are based on their design." },
+            { "label": "2", "text": "They were used for religious purposes." },
+            { "label": "3", "text": "They were only used by non-Christians." },
+            { "label": "4", "text": "The entrances were only found recently." }
+          ],
+          "answer": "2",
+          "explanation": "第1段落で、キリスト教徒はトンネルを使って宗教儀式を行った（used the tunnels to hold religious ceremonies）と述べられているので2が正解。トンネルはさまざまな宗教の人々の埋葬場所として使われ、特にキリスト教徒にとって重要だったとあるので、キリスト教徒以外だけが使ったという3は誤り。現代の墓の設計や入口の発見については触れられていないので1と4も誤りである。",
+          "script": "The Catacombs of Priscilla\n\nIn Rome, there are networks of tunnels that were built around the beginning of the second century AD. These tunnels were used as burial places for people of many religions. However, the tunnels became especially important for Christians. Their religion was not officially recognized at the time, so Christians used the tunnels to hold religious ceremonies.\n\nOne famous section of tunnels is called the Catacombs of Priscilla. In this section, there are some early Christian paintings. One of the paintings seems to show a woman dressed in a priest's robe, and others show women performing religious ceremonies. Some people believe the paintings are proof of female priests in the church in ancient times. This is significant because some Christian churches today do not allow women to become priests. Other observers, however, say that we cannot be sure exactly what the paintings show.",
+          "scriptJa": "プリシラのカタコンベ\n\nローマには、紀元2世紀の初めごろに造られた地下トンネル網がある。これらのトンネルは、さまざまな宗教の人々の埋葬場所として使われた。しかし、このトンネルは特にキリスト教徒にとって重要なものとなった。当時キリスト教は公認されていなかったため、キリスト教徒はトンネルを使って宗教儀式を行ったのである。\n\nトンネルの中でも有名な区画の1つが、プリシラのカタコンベと呼ばれる場所である。この区画には、初期キリスト教の絵画がいくつか残されている。そのうちの1枚には司祭の衣をまとった女性が描かれているように見え、ほかの絵には宗教儀式を執り行う女性たちが描かれている。これらの絵は、古代の教会に女性の司祭がいた証拠だと考える人もいる。現在のキリスト教会の中には女性が司祭になることを認めていないところもあるため、これは重要な意味を持つ。しかし一方で、絵に何が描かれているのかを正確に知ることはできないと指摘する人々もいる。"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "passageLabel": "Passage D",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/26_No20.mp3",
+          "prompt": "What do some people believe the paintings show?",
+          "choices": [
+            { "label": "1", "text": "Women used to be priests long ago." },
+            { "label": "2", "text": "The tunnels were not used as churches." },
+            { "label": "3", "text": "Few early Christians were women." },
+            { "label": "4", "text": "Priests used to create paintings." }
+          ],
+          "answer": "1",
+          "explanation": "第2段落で、これらの絵は古代の教会に女性の司祭がいた証拠（proof of female priests in the church in ancient times）だと考える人がいると述べられているので、これを言い換えた1が正解。トンネルではキリスト教徒が宗教儀式を行っていたので2は誤り。初期のキリスト教徒に女性が少なかったという話や、司祭が絵を描いたという話は出てこないので3と4も誤りである。",
+          "script": "The Catacombs of Priscilla\n\nIn Rome, there are networks of tunnels that were built around the beginning of the second century AD. These tunnels were used as burial places for people of many religions. However, the tunnels became especially important for Christians. Their religion was not officially recognized at the time, so Christians used the tunnels to hold religious ceremonies.\n\nOne famous section of tunnels is called the Catacombs of Priscilla. In this section, there are some early Christian paintings. One of the paintings seems to show a woman dressed in a priest's robe, and others show women performing religious ceremonies. Some people believe the paintings are proof of female priests in the church in ancient times. This is significant because some Christian churches today do not allow women to become priests. Other observers, however, say that we cannot be sure exactly what the paintings show.",
+          "scriptJa": "プリシラのカタコンベ\n\nローマには、紀元2世紀の初めごろに造られた地下トンネル網がある。これらのトンネルは、さまざまな宗教の人々の埋葬場所として使われた。しかし、このトンネルは特にキリスト教徒にとって重要なものとなった。当時キリスト教は公認されていなかったため、キリスト教徒はトンネルを使って宗教儀式を行ったのである。\n\nトンネルの中でも有名な区画の1つが、プリシラのカタコンベと呼ばれる場所である。この区画には、初期キリスト教の絵画がいくつか残されている。そのうちの1枚には司祭の衣をまとった女性が描かれているように見え、ほかの絵には宗教儀式を執り行う女性たちが描かれている。これらの絵は、古代の教会に女性の司祭がいた証拠だと考える人もいる。現在のキリスト教会の中には女性が司祭になることを認めていないところもあるため、これは重要な意味を持つ。しかし一方で、絵に何が描かれているのかを正確に知ることはできないと指摘する人々もいる。"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "passageLabel": "Passage E",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/28_No21.mp3",
+          "prompt": "What does the speaker say about people who focus on success?",
+          "choices": [
+            { "label": "1", "text": "They often have successful family members." },
+            { "label": "2", "text": "They often have low levels of stress." },
+            { "label": "3", "text": "They may miss chances to enjoy simple pleasures." },
+            { "label": "4", "text": "They may make people around them happy." }
+          ],
+          "answer": "3",
+          "explanation": "第1段落で、成功を重視する人は仕事を優先しがちで、その結果、家族と過ごす素朴でくつろいだ時間など人生を楽しくするものを味わう機会を失うかもしれない（they may lose opportunities to enjoy）と述べられているので3が正解。家族が成功しているかどうかやストレスの度合いについては述べられていないので1と2は誤りで、周囲の人を幸せにするという話も出てこない。",
+          "script": "Happiness and Success\n\nMany people believe that only by working hard and having a successful career can they find happiness. However, trying to make a lot of money or get promoted at work may not make people truly happy. People who focus on such success often prioritize work over other activities. Consequently, they may lose opportunities to enjoy the things that make life truly enjoyable, such as simple, relaxing times with their families.\n\nAfter reviewing many studies, researchers recently concluded that success may actually follow happiness. They believe that happy people are more energetic and confident because they experience frequent positive moods, and that this leads to success. Of course, success also depends on factors such as intelligence and social support. More research is needed, but it may be that those whose happiness leads them to success are more likely to stay happy.",
+          "scriptJa": "幸福と成功\n\n多くの人は、懸命に働いて仕事で成功してこそ幸せになれると信じている。しかし、大金を稼いだり出世したりしようとしても、本当に幸せになれるとは限らない。そのような成功を重視する人は、ほかの活動よりも仕事を優先しがちである。その結果、家族と過ごす素朴でくつろいだ時間など、人生を本当に楽しいものにしてくれることを味わう機会を失ってしまうかもしれない。\n\n研究者たちは最近、多くの研究を検討した結果、実は成功は幸福の後についてくるのかもしれないという結論に達した。幸せな人は前向きな気分になることが多いので、より活力と自信にあふれており、それが成功につながると研究者たちは考えている。もちろん、成功は知性や周囲の支えといった要因にも左右される。さらなる研究が必要ではあるが、幸福がきっかけで成功を手にした人のほうが、幸せであり続けやすいのかもしれない。"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "passageLabel": "Passage E",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/29_No22.mp3",
+          "prompt": "What did researchers recently conclude about happy people?",
+          "choices": [
+            { "label": "1", "text": "They do not need family support to stay happy." },
+            { "label": "2", "text": "Their incomes are not likely to be high." },
+            { "label": "3", "text": "Their positive moods make them more active." },
+            { "label": "4", "text": "They are more intelligent than unhappy people." }
+          ],
+          "answer": "3",
+          "explanation": "第2段落で研究者たちは、幸せな人は前向きな気分を頻繁に経験するため、より活力と自信がある（more energetic and confident）と考えている。これを「前向きな気分によってより活動的になる」と言い換えた3が正解。知性は成功を左右する要因の1つとして挙げられているだけで、幸せな人のほうが知的だとは述べられていないので4は誤りである。",
+          "script": "Happiness and Success\n\nMany people believe that only by working hard and having a successful career can they find happiness. However, trying to make a lot of money or get promoted at work may not make people truly happy. People who focus on such success often prioritize work over other activities. Consequently, they may lose opportunities to enjoy the things that make life truly enjoyable, such as simple, relaxing times with their families.\n\nAfter reviewing many studies, researchers recently concluded that success may actually follow happiness. They believe that happy people are more energetic and confident because they experience frequent positive moods, and that this leads to success. Of course, success also depends on factors such as intelligence and social support. More research is needed, but it may be that those whose happiness leads them to success are more likely to stay happy.",
+          "scriptJa": "幸福と成功\n\n多くの人は、懸命に働いて仕事で成功してこそ幸せになれると信じている。しかし、大金を稼いだり出世したりしようとしても、本当に幸せになれるとは限らない。そのような成功を重視する人は、ほかの活動よりも仕事を優先しがちである。その結果、家族と過ごす素朴でくつろいだ時間など、人生を本当に楽しいものにしてくれることを味わう機会を失ってしまうかもしれない。\n\n研究者たちは最近、多くの研究を検討した結果、実は成功は幸福の後についてくるのかもしれないという結論に達した。幸せな人は前向きな気分になることが多いので、より活力と自信にあふれており、それが成功につながると研究者たちは考えている。もちろん、成功は知性や周囲の支えといった要因にも左右される。さらなる研究が必要ではあるが、幸福がきっかけで成功を手にした人のほうが、幸せであり続けやすいのかもしれない。"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "passageLabel": "Passage F",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/31_No23.mp3",
+          "prompt": "What do we learn about oysters along the US East Coast today?",
+          "choices": [
+            { "label": "1", "text": "They are becoming better at fighting disease." },
+            { "label": "2", "text": "Their numbers are lower than they once were." },
+            { "label": "3", "text": "Many of them are not harvested for food." },
+            { "label": "4", "text": "The waters they live in are becoming cleaner." }
+          ],
+          "answer": "2",
+          "explanation": "第1段落で、今日カキの資源量は大きく減少している（oyster stocks have been greatly reduced）と述べられ、乱獲や汚染、病気によって個体数が減ったと説明されているので2が正解。病気は減少の原因として挙げられており、病気に強くなっているわけではないので1は誤り。汚染も原因の1つなので、水がきれいになっているという4も誤りである。",
+          "script": "Ancient Oysters\n\nFor thousands of years, Native Americans along what is now called the US East Coast used oysters as a food source. Today, however, oyster stocks have been greatly reduced. Overharvesting, pollution, and disease have caused oyster populations to fall, especially since the late 1800s, when European settlers introduced new harvesting methods. These methods included dredging, which involves removing huge numbers of oysters from the seabed. This process also damages the ecosystem in which the oysters live.\n\nIn recent years, archaeologists have studied Native American harvesting practices. The archaeologists found that Native Americans did not harvest young oysters. Instead, Native Americans waited for oysters to grow and reproduce before they harvested them. The archaeologists also discovered that average shell size increased until the 1800s, which indicates that Native American practices helped ancient oysters to become larger. This finding surprised the archaeologists, who expected oyster shells to gradually get smaller in response to being harvested.",
+          "scriptJa": "古代のカキ\n\n現在アメリカ東海岸と呼ばれている地域に暮らしていた先住民は、何千年にもわたってカキを食料にしてきた。しかし今日、カキの資源量は大きく減少している。乱獲や汚染、病気によってカキの個体数は減っており、特にヨーロッパからの入植者が新しい採取方法を持ち込んだ1800年代後半以降、その傾向が著しい。そうした方法の中には、海底から大量のカキを一度にさらい取る浚渫（しゅんせつ）が含まれていた。この方法は、カキが生息する生態系にも害を与えてしまう。\n\n近年、考古学者たちは先住民のカキの採取方法を研究してきた。その結果、先住民は若いカキを採らなかったことがわかった。先住民は、カキが成長して繁殖するのを待ってから採っていたのである。考古学者たちはさらに、殻の平均的な大きさが1800年代まで大きくなり続けていたことも発見した。これは、先住民の採取方法のおかげで、古代のカキがより大きく育ったことを示している。この発見に考古学者たちは驚いた。採取され続けることで、カキの殻は徐々に小さくなっていくだろうと予想していたからである。"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "passageLabel": "Passage F",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-3/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-3/32_No24.mp3",
+          "prompt": "What is one thing the archaeologists discovered?",
+          "choices": [
+            { "label": "1", "text": "Native American harvesting practices helped oysters grow." },
+            { "label": "2", "text": "Native American harvesting methods included dredging." },
+            { "label": "3", "text": "Native Americans still harvest oysters." },
+            { "label": "4", "text": "Native Americans only harvested young oysters." }
+          ],
+          "answer": "1",
+          "explanation": "第2段落で、殻の平均的な大きさが1800年代まで大きくなり続けており、先住民の採取方法が古代のカキを大きく育てるのに役立った（helped ancient oysters to become larger）ことがわかったと述べられているので1が正解。浚渫はヨーロッパからの入植者が持ち込んだ方法なので2は誤り。先住民は若いカキを採らなかったので4も誤りである。",
+          "script": "Ancient Oysters\n\nFor thousands of years, Native Americans along what is now called the US East Coast used oysters as a food source. Today, however, oyster stocks have been greatly reduced. Overharvesting, pollution, and disease have caused oyster populations to fall, especially since the late 1800s, when European settlers introduced new harvesting methods. These methods included dredging, which involves removing huge numbers of oysters from the seabed. This process also damages the ecosystem in which the oysters live.\n\nIn recent years, archaeologists have studied Native American harvesting practices. The archaeologists found that Native Americans did not harvest young oysters. Instead, Native Americans waited for oysters to grow and reproduce before they harvested them. The archaeologists also discovered that average shell size increased until the 1800s, which indicates that Native American practices helped ancient oysters to become larger. This finding surprised the archaeologists, who expected oyster shells to gradually get smaller in response to being harvested.",
+          "scriptJa": "古代のカキ\n\n現在アメリカ東海岸と呼ばれている地域に暮らしていた先住民は、何千年にもわたってカキを食料にしてきた。しかし今日、カキの資源量は大きく減少している。乱獲や汚染、病気によってカキの個体数は減っており、特にヨーロッパからの入植者が新しい採取方法を持ち込んだ1800年代後半以降、その傾向が著しい。そうした方法の中には、海底から大量のカキを一度にさらい取る浚渫（しゅんせつ）が含まれていた。この方法は、カキが生息する生態系にも害を与えてしまう。\n\n近年、考古学者たちは先住民のカキの採取方法を研究してきた。その結果、先住民は若いカキを採らなかったことがわかった。先住民は、カキが成長して繁殖するのを待ってから採っていたのである。考古学者たちはさらに、殻の平均的な大きさが1800年代まで大きくなり続けていたことも発見した。これは、先住民の採取方法のおかげで、古代のカキがより大きく育ったことを示している。この発見に考古学者たちは驚いた。採取され続けることで、カキの殻は徐々に小さくなっていくだろうと予想していたからである。"
+        }
+      ]
+    },
+    {
+      "id": "part3",
+      "title": "Part 3",
+      "description": "Real-Life形式の内容一致選択 — 実生活で遭遇する場面での英文を聞き、質問に答えなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2021-3/33_Part3_explanation.mp3",
+      "questions": [
+        {
+          "id": "q25",
+          "number": 25,
+          "audio": "audio/eiken/eiken-pre1-2021-3/34_question_G_No25.mp3",
+          "passageLabel": "Situation G",
+          "prompt": "Which bus stop should you get off at?",
+          "promptJa": "どのバス停で降りるべきか？",
+          "situation": "You are about to take a tour bus around a town in Italy. You want to join the guided walking tour. You hear the following announcement.",
+          "situationJa": "あなたはイタリアのある町で、町を巡る観光バスに乗ろうとしている。あなたはガイド付きのウォーキングツアーに参加したいと思っている。次のアナウンスが聞こえてくる。",
+          "choices": [
+            { "label": "1", "text": "Stop 4." },
+            { "label": "2", "text": "Stop 7." },
+            { "label": "3", "text": "Stop 9." },
+            { "label": "4", "text": "Stop 13." }
+          ],
+          "answer": "3",
+          "explanation": "7番の停留所はふだんウォーキングツアーの集合場所だが、工事のため今回は9番の停留所（stop 9, just in front of Montalto Gardens）から出発するとアナウンスされているので3が正解。normally the meeting place という説明につられて2を選ばないよう注意したい。4番は城と図書館、13番は橋と噴水に行くための停留所なので1と4も誤りである。",
+          "script": "This bus goes around town all day, so you can just hop on and off anytime. The castle can be accessed from stop 4, and the medieval library is also just a five-minute walk away from that stop. If you're interested in the San Giovanni church, stop 7 is the nearest. It's also normally the meeting place for our 30-minute guided walking tour, but please note that due to an ongoing construction project, that tour will begin from stop 9, just in front of Montalto Gardens. Stop 13 offers access to famous sights like the Gravina Bridge and the town fountain.",
+          "scriptJa": "このバスは一日中町を巡回していますので、いつでも自由に乗り降りしていただけます。お城へは4番の停留所から行くことができ、中世の図書館もその停留所から歩いてわずか5分です。サン・ジョヴァンニ教会に興味がある方は、7番の停留所が最寄りです。7番は通常、30分間のガイド付きウォーキングツアーの集合場所にもなっていますが、現在行われている工事のため、ツアーは9番の停留所、モンタルト庭園のすぐ前から出発しますのでご注意ください。13番の停留所からは、グラヴィーナ橋や町の噴水といった有名な名所に行くことができます。"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "audio": "audio/eiken/eiken-pre1-2021-3/35_question_H_No26.mp3",
+          "passageLabel": "Situation H",
+          "prompt": "What should you do first?",
+          "promptJa": "まず何をすべきか？",
+          "situation": "You are abroad on a working-holiday program. You call the immigration office about renewing your visa and are told the following.",
+          "situationJa": "あなたはワーキングホリデー制度で海外に滞在している。ビザの更新について入国管理局に電話をかけ、次のように言われる。",
+          "choices": [
+            { "label": "1", "text": "Fill out an application online." },
+            { "label": "2", "text": "Request salary statements from your employer." },
+            { "label": "3", "text": "Show evidence of your savings." },
+            { "label": "4", "text": "Obtain a medical examination certificate." }
+          ],
+          "answer": "4",
+          "explanation": "申請前の準備として、まず医師による健康診断を受けた証明（proof that you've had a medical examination）が必要で、それが済んだら（Once you've done that）就労の証明を出すと説明されているので、最初にすべきことは健康診断の証明書を手に入れることであり4が正解。給与明細はすでに持っているので2は不要で、貯金の証明は今回は求められないので3も誤り。オンライン申請はこれらの準備の後に行うので1も最初ではない。",
+          "script": "You can apply online to renew your working-holiday visa. However, there are some things you should prepare before you apply. You'll need to provide proof that you've had a medical examination by a qualified doctor and have no serious health issues. Once you've done that, you'll also have to present evidence of your employment until now. You mentioned you had all of your salary statements, so those should be sufficient. Since you're applying from within the country, proof that you've saved enough to cover your living costs will not be required this time around.",
+          "scriptJa": "ワーキングホリデービザの更新はオンラインで申請できます。ただし、申請の前に準備しておくべきものがいくつかあります。資格のある医師による健康診断を受け、重大な健康上の問題がないことを証明するものを提出していただく必要があります。それが済んだら、これまでの就労を証明するものも提示していただかなければなりません。給与明細はすべてお持ちだとおっしゃっていましたので、それで十分なはずです。国内からの申請ですので、今回は生活費をまかなえるだけの貯金があることの証明は必要ありません。"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "audio": "audio/eiken/eiken-pre1-2021-3/36_question_I_No27.mp3",
+          "passageLabel": "Situation I",
+          "prompt": "What should you do first?",
+          "promptJa": "まず何をすべきか？",
+          "situation": "You are a supermarket manager. You want to reduce losses caused by theft. A security analyst tells you the following.",
+          "situationJa": "あなたはスーパーマーケットの店長である。盗難による損失を減らしたいと考えている。セキュリティーアナリストから次のように言われる。",
+          "choices": [
+            { "label": "1", "text": "Give some staff members more training." },
+            { "label": "2", "text": "Install more security cameras." },
+            { "label": "3", "text": "Review customer receipts at the exit." },
+            { "label": "4", "text": "Clearly mark prices for fruit." }
+          ],
+          "answer": "1",
+          "explanation": "アナリストは、セルフレジで高価な果物を安い品目として入力する不正が起きているとみて、セルフレジを監視する従業員への追加の指導（extra guidance for staff observing the self-checkout stations）を勧めている。これを「一部の従業員にさらに研修を行う」と言い換えた1が正解。出口でのレシート確認は指導がうまくいかなかった場合の次の手段なので3は最初にすべきことではなく、防犯カメラはすでに効果を上げているので2も誤りである。",
+          "script": "The new security cameras, warning signs, and staff training have all worked. Shoplifting of most products is much lower than in the last quarter. However, stock records for low-cost fruit items like bananas and oranges and expensive things like avocados and mangoes don't match the sales records. This usually means some customers at the self-checkout registers are entering false information to get costly items at a cheaper price. I recommend extra guidance for staff observing the self-checkout stations. If this doesn't work, you may have to think about checking customers' receipts at the exit.",
+          "scriptJa": "新しい防犯カメラ、警告の掲示、従業員研修はいずれも効果を上げています。ほとんどの商品で、万引きは前の四半期よりも大幅に減っています。しかし、バナナやオレンジのような安価な果物と、アボカドやマンゴーのような高価な商品については、在庫記録が販売記録と一致していません。これはたいてい、セルフレジを使う客の一部が偽りの情報を入力して、高価な商品を安い値段で手に入れていることを意味します。セルフレジを監視する従業員に追加の指導を行うことをお勧めします。それでうまくいかなければ、出口で客のレシートを確認することを検討しなければならないかもしれません。"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "audio": "audio/eiken/eiken-pre1-2021-3/37_question_J_No28.mp3",
+          "passageLabel": "Situation J",
+          "prompt": "What should you do to save the most money?",
+          "promptJa": "最もお金を節約するには何をすべきか？",
+          "situation": "You want a new washing machine. You currently own a Duplanne washing machine. You visit an electronics store in July and hear the following announcement.",
+          "situationJa": "あなたは新しい洗濯機が欲しいと思っている。現在、デュプラン製の洗濯機を持っている。7月に家電量販店を訪れ、次のアナウンスを聞く。",
+          "choices": [
+            { "label": "1", "text": "Download the store's smartphone app." },
+            { "label": "2", "text": "Apply for the cash-back deal." },
+            { "label": "3", "text": "Exchange your washing machine this month." },
+            { "label": "4", "text": "Buy a new Duplanne washing machine in August." }
+          ],
+          "answer": "4",
+          "explanation": "あなたが持っているのはデュプランの洗濯機であり、8月中にデュプランの古い家電を下取りに出すと新しいデュプラン製品が150ドル引きになる（get $150 off a new one）ので4が正解。今月の下取りはラネックスの洗濯機が対象で金額も100ドルなので3は当てはまらない。アプリのクーポンは掃除機、キャッシュバックは食器洗い機が対象なので1と2も誤りである。",
+          "script": "Welcome to our summer sale. We're offering great discounts on all brands, including Rannexe and Duplanne. Interested in a new vacuum cleaner? Use the coupon available on our smartphone app to get $50 off any brand. How about a new washing machine? This month, exchange your used Rannexe washing machine for a $100 credit toward any new Rannexe product. During the month of August, exchange any old Duplanne appliance and get $150 off a new one. Finally, we are offering $75 cash back on any new dishwasher until the end of August.",
+          "scriptJa": "当店のサマーセールへようこそ。ラネックスやデュプランを含む全ブランドで大幅な割引を実施しております。新しい掃除機をお探しですか？当店のスマートフォンアプリで入手できるクーポンを使えば、どのブランドの製品でも50ドル引きになります。新しい洗濯機はいかがでしょうか？今月は、お使いのラネックスの洗濯機を下取りに出していただくと、ラネックスの新製品にご利用いただける100ドル分のクレジットを差し上げます。8月中は、デュプランの古い家電製品をどれでも下取りに出していただくと、デュプランの新製品が150ドル引きになります。最後に、8月末まで、新しい食器洗い機はどれでも75ドルのキャッシュバックを実施しております。"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "audio": "audio/eiken/eiken-pre1-2021-3/38_question_K_No29.mp3",
+          "passageLabel": "Situation K",
+          "prompt": "What should you do?",
+          "promptJa": "あなたは何をすべきか？",
+          "situation": "You see a suit you want in a local store, but it does not have one in your size. You do not want to travel out of town. A clerk tells you the following.",
+          "situationJa": "あなたは地元の店で欲しいスーツを見つけたが、その店には自分のサイズのものがない。あなたは町の外まで出かけたくない。店員から次のように言われる。",
+          "choices": [
+            { "label": "1", "text": "Wait until the store gets some new stock." },
+            { "label": "2", "text": "Have the clerk check the other store." },
+            { "label": "3", "text": "Order the suit from the online store." },
+            { "label": "4", "text": "Have the suit delivered to your home." }
+          ],
+          "answer": "2",
+          "explanation": "店員は、別の店舗にサイズがあるかオンラインで調べると申し出たうえで、在庫があれば取り置いて追加料金なしでこの店に送ってもらえると説明している。町の外まで出かけたくないなら、まず店員に別の店舗の在庫を調べてもらうべきなので2が正解。在庫処分品で新たな入荷はないので1は誤り。オンラインで調べるのは店員でありオンラインストアで注文するわけではなく、送り先も自宅ではなくこの店なので3と4も誤りである。",
+          "script": "This suit is a clearance item, so we only have what's here on the shelves. Our other location may still have one in your size, though. If you'd like, I can check online for you. If our other store has one, you could go there, if you don't mind driving out of town. The other option would be to reserve one for you and have it sent over to this store at no extra cost. That might take a few days, but if you give me your number, I can call you when it arrives.",
+          "scriptJa": "こちらのスーツは在庫処分品ですので、棚に並んでいるものしかございません。ですが、当店の別の店舗にはお客様のサイズがまだあるかもしれません。よろしければ、オンラインでお調べいたします。もう一方の店舗にあれば、町の外まで車で行くのが苦にならないようでしたら、そちらへ行っていただくこともできます。もう1つの方法としては、お客様の分をお取り置きして、追加料金なしでこちらの店舗に送ってもらうこともできます。数日かかるかもしれませんが、お電話番号を教えていただければ、届いたときにご連絡いたします。"
+        }
+      ]
+    }
+  ]
+}

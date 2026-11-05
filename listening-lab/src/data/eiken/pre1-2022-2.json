@@ -7,7 +7,6 @@
     "year": 2022,
     "grade": "pre1",
     "session": "2022-2",
-    "status": "draft",
     "icon": "🏅",
     "totalTime": 29
   },
@@ -23,169 +22,193 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2022-2/02_No1.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the woman probably do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Get a blood test today." },
+            { "label": "2", "text": "Try to eat less for breakfast." },
+            { "label": "3", "text": "Go to lunch with Noah." },
+            { "label": "4", "text": "Have a medical checkup next week." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "女性は朝食をとってしまったため、今日の血液検査は受けられない。男性の最後の発言で健康診断が来週水曜日に再び実施されると聞き、女性は「I'll make sure to remember」と答えているので、来週健診を受けるという4が正解。1は朝食を食べたので今日は受けられず不適。3は男性が向かっているのは昼食ではなく健診である。",
+          "script": "W: Leaving for lunch already, Noah?\nM: Actually, I'm on my way upstairs. We have our company medical checkups today, remember?\nW: No, I completely forgot about them.\nM: You can still go. You don't need an appointment.\nW: Yeah, but I had a big breakfast this morning. You're not supposed to eat before the blood test, right?\nM: Right. In fact, I'm starving. Anyway, you'll have another chance next week. They'll be back again on Wednesday.\nW: Really? I'll make sure to remember.",
+          "scriptJa": "W: もうお昼に出るの、ノア？\nM: いや、実は上の階に行くところなんだ。今日は会社の健康診断だよ、覚えてる？\nW: ううん、すっかり忘れてた。\nM: 今からでも受けられるよ。予約はいらないから。\nW: そうね、でも今朝しっかり朝ごはんを食べちゃったの。血液検査の前は食べちゃいけないんだよね？\nM: そうだよ。実際、僕はお腹がぺこぺこさ。とにかく、来週もう一回チャンスがあるよ。水曜日にまた来るんだって。\nW: 本当？今度は絶対忘れないようにするわ。"
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2022-2/03_No2.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "How does the man feel about the woman's situation?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She needs to take more time off." },
+            { "label": "2", "text": "She should be less concerned about money." },
+            { "label": "3", "text": "She is not ready for so much responsibility." },
+            { "label": "4", "text": "She deserves more pay." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "男性は最初の発言で「they don't pay you nearly enough」と言い、報酬の見直しを求めるよう勧めている。さらに2番目の発言で責任が倍になったことを指摘しているので、女性はもっと給料をもらうべきだという4が正解。2は男性がむしろお金の話を切り出すよう促しているので逆である。3は責任が増えたとは言っているが、女性にその準備ができていないとは言っていない。",
+          "script": "W: Looks like I'll be putting in another 60-hour week. Seems like I live here at the office these days.\nM: You do live at the office these days, and they don't pay you nearly enough. Why don't you drop a hint that you'd like to review your compensation?\nW: But I've only been working here a year.\nM: In which time they've doubled your responsibilities. Come on, Laurie! You need to stand up for yourself.\nW: Well, maybe you're right.",
+          "scriptJa": "W: 今週もまた60時間労働になりそう。最近はまるでオフィスに住んでるみたい。\nM: 実際、最近は住んでるようなものだよ。それなのに給料は全然見合ってない。報酬を見直してほしいって、それとなく伝えてみたらどう？\nW: でも、ここで働き始めてまだ1年よ。\nM: その1年で君の責任は倍になったじゃないか。しっかりしてよ、ローリー！自分のためにちゃんと声を上げないと。\nW: まあ、あなたの言う通りかもね。"
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2022-2/04_No3.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the doctor tell the man?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He needs to undergo further tests." },
+            { "label": "2", "text": "He will not be able to play in the game." },
+            { "label": "3", "text": "He needs to find a different form of exercise." },
+            { "label": "4", "text": "He has to stay at the hospital." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "医師の2番目の発言「you're going to have to sit that one out」は、木曜日の試合には出られないという意味なので2が正解。検査結果はただの捻挫で、今日退院できると言われているので1と4は誤り。3は運動の種類を変えるよう言われたのではなく、しばらく激しい運動を控えるよう言われただけである。",
+          "script": "M: Doctor, how were the test results?\nW: Not bad. It's just a sprain. Nevertheless, I still think you should avoid strenuous exercise for at least a couple of weeks after you leave the hospital today.\nM: But my softball team's got a big game this Thursday.\nW: I'm afraid you're going to have to sit that one out. You should wait till you fully recover or you may make it worse.",
+          "scriptJa": "M: 先生、検査の結果はどうでしたか？\nW: 悪くないですよ。ただの捻挫です。それでも、今日退院してから少なくとも2週間ほどは激しい運動を避けたほうがいいと思います。\nM: でも、今週の木曜日にソフトボールチームの大事な試合があるんです。\nW: 残念ですが、その試合は休んでもらうしかありませんね。完全に治るまで待たないと、悪化させてしまうかもしれませんよ。"
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2022-2/05_No4.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man imply the woman should do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Contact the new employee." },
+            { "label": "2", "text": "Speak to the manager." },
+            { "label": "3", "text": "Work the shift herself." },
+            { "label": "4", "text": "Change shifts with him." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性は3番目の発言「I'd just get in touch with the manager」で、こうした問題はマネージャーの責任だから連絡するよう勧めているので2が正解。1の新人については女性が口にしただけで、男性は取り合っていない。3は男性が最後に周りにうつすかもしれないと止めている。4は男性はすでに予定があると断っている。",
+          "script": "W: Hi, Phil. I'm sorry to bother you on your day off, but I'm not feeling well. Could you cover my shift this afternoon?\nM: Unfortunately, I've already got plans.\nW: I see. Do you know who might be able to change shifts with me?\nM: I'm not sure.\nW: Maybe the new guy can cover it.\nM: I'd just get in touch with the manager. It's her responsibility to deal with these issues.\nW: I know, but I hate bothering her. Maybe I should just work the shift.\nM: No, don't do that. You might make everyone else sick.",
+          "scriptJa": "W: もしもし、フィル。休みの日に邪魔してごめんね、でも体調が悪くて。今日の午後のシフト、代わってもらえない？\nM: 悪いけど、もう予定が入ってるんだ。\nW: そっか。誰かシフトを代わってくれそうな人、知らない？\nM: さあ、どうかな。\nW: 新しく入った人なら代われるかも。\nM: 僕ならマネージャーに連絡するよ。こういう問題に対応するのは彼女の仕事だから。\nW: わかってるけど、彼女に迷惑をかけたくないのよ。やっぱり自分で出たほうがいいかな。\nM: いや、それはやめなよ。ほかのみんなにうつすかもしれないし。"
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2022-2/06_No5.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the woman do before leaving for the trip?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Contact the hotel about Internet access." },
+            { "label": "2", "text": "Confirm the meeting schedule." },
+            { "label": "3", "text": "Finish preparing the presentation." },
+            { "label": "4", "text": "Buy a ticket for the flight." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "女性はプレゼン資料を明日仕上げる予定だと言い、最後の発言でも「It'll be done before we go」と出発前に終わらせると述べているので3が正解。2のスケジュール確認をするのは男性で、しかも会議ではなくフライトの予定である。1はホテルのネット環境が話題に出るだけで、問い合わせるとは言っていない。",
+          "script": "W: I'm looking forward to our business trip next week.\nM: Me, too. I'll double-check the flight schedule tomorrow.\nW: Thanks.\nM: Have you finished putting together the presentation for our meeting?\nW: Not yet. I was planning to get it done tomorrow.\nM: That's a good idea. I remember trying to finish one at a hotel last year, and I couldn't connect to the Internet.\nW: Our hotel is supposed to have good Wi-Fi, but don't worry. It'll be done before we go.",
+          "scriptJa": "W: 来週の出張、楽しみだわ。\nM: 僕もだよ。明日、フライトのスケジュールをもう一度確認しておくね。\nW: ありがとう。\nM: 会議用のプレゼン資料はもうまとめ終わった？\nW: まだなの。明日仕上げるつもりだったんだ。\nM: それがいいね。去年ホテルで仕上げようとしたら、インターネットにつながらなかったことがあってさ。\nW: 今度のホテルはWi-Fiがいいらしいけど、心配しないで。出発前には終わらせるから。"
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2022-2/07_No6.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the couple decide to do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Take a taxi home." },
+            { "label": "2", "text": "Order more wine." },
+            { "label": "3", "text": "Catch the last train home." },
+            { "label": "4", "text": "Walk to the closest bus stop." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "女性の3番目の発言で、終電は1時間後まで来ないので「treat ourselves to a taxi」と提案し、男性も「Works for me」と同意しているので1が正解。3の終電は男性が提案したが、女性に退けられている。4はバス停に行っても最終バスに間に合わないとわかっており、2人はタクシーを拾うために大通りへ向かう。",
+          "script": "W: Shall we order some more wine?\nM: I'd love to, but we should probably catch the bus home soon. It's already eleven.\nW: Eleven? Oh, dear. The last one will have left by the time we get to the bus stop.\nM: We can still catch the last train.\nW: That train doesn't come for another hour. I say we treat ourselves to a taxi.\nM: Works for me.\nW: Great. Let's head over to the main street. We can probably catch one there.",
+          "scriptJa": "W: ワイン、もう少し頼まない？\nM: そうしたいけど、そろそろバスで帰ったほうがいいよ。もう11時だし。\nW: 11時？あら大変。バス停に着くころには最終バスが出ちゃってるわ。\nM: 終電ならまだ間に合うよ。\nW: その電車はあと1時間は来ないのよ。ここは奮発してタクシーにしましょう。\nM: 賛成。\nW: よかった。大通りまで行きましょう。あそこならたぶん拾えるわ。"
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2022-2/08_No7.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man offer to do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Pick up the children from school." },
+            { "label": "2", "text": "Cook dinner for his family." },
+            { "label": "3", "text": "Buy the ingredients for tonight's dinner." },
+            { "label": "4", "text": "Order food from a new restaurant." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性の2番目の発言「Leave dinner to me」で夕食作りを引き受け、続けて初心者向けサイトで見つけたパスタを作ると説明しているので2が正解。4は女性が出前を疑ったが、男性は「No」と否定している。3は食料品はすでに買ってあるので不適。1の子どもの迎えについては話に出ていない。",
+          "script": "M: Honey, did you see that the new restaurant down the block finally opened?\nW: I'm sorry, I can't chat right now. I need to start making dinner so it'll be ready by the time the kids get home from school.\nM: Leave dinner to me.\nW: Really? But you don't cook. You aren't planning to order takeout, are you? We just bought groceries.\nM: No. I know I'm not a good chef, but I found a cooking website for beginners. I saw a great recipe for a pasta dish I think I can make.\nW: Oh, that would be lovely!",
+          "scriptJa": "M: ねえ、この先の新しいレストラン、やっと開店したの知ってた？\nW: ごめん、今はおしゃべりしてる暇がないの。子どもたちが学校から帰ってくるまでに間に合うよう、夕食を作り始めないと。\nM: 夕食は僕に任せて。\nW: 本当？でもあなた、料理しないじゃない。まさか出前を頼むつもりじゃないわよね？食料品を買ったばかりなのよ。\nM: 違うよ。料理が下手なのはわかってるけど、初心者向けの料理サイトを見つけたんだ。僕にも作れそうなおいしそうなパスタのレシピがあってね。\nW: まあ、それは素敵ね！"
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2022-2/09_No8.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is one problem the man has?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He has to pay an unexpected fee." },
+            { "label": "2", "text": "He canceled his insurance policy." },
+            { "label": "3", "text": "He is late for a meeting." },
+            { "label": "4", "text": "The company cannot find his policy number." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "女性の3番目の発言で男性の契約にはレッカーの補償がないと告げられ、最後に「you'll have to pay out of pocket this time」と今回は自己負担になると言われているので、予期せぬ費用を払わなければならないという1が正解。4は契約番号を伝えて照会できているので誤り。3は会議は1時間後で、迎えの車も10分で来るので遅刻しているわけではない。",
+          "script": "W: AFP Automotive.\nM: Hi. I'm on Highway 5. My engine overheated, and it won't start. I need my car towed, and I could use a ride downtown. I have to be at a meeting in an hour.\nW: Could you tell me your policy number?\nM: It's A735.\nW: I'm sorry. A car will arrive in about 10 minutes to take you downtown, but the system says you don't have towing coverage.\nM: Really? I thought my plan included towing.\nW: Unfortunately, you'll have to pay out of pocket this time, but we can add it to your insurance policy in the future.",
+          "scriptJa": "W: AFPオートモーティブです。\nM: もしもし。今、5号線にいるんですが、エンジンがオーバーヒートしてかからなくなってしまって。車をレッカーしてもらいたいのと、できれば中心街まで乗せてもらえると助かります。1時間後に会議があるんです。\nW: ご契約番号を教えていただけますか？\nM: A735です。\nW: 申し訳ございません。中心街までお送りする車は10分ほどで到着しますが、システム上ではお客様のご契約にレッカーの補償が含まれていないようです。\nM: 本当ですか？プランにレッカーも入っていると思っていました。\nW: あいにく今回は自己負担となりますが、今後は保険契約に追加することもできます。"
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2022-2/10_No9.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman imply?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The man should not change his major." },
+            { "label": "2", "text": "A career in communications might suit the man better." },
+            { "label": "3", "text": "Graphic design is a good choice for the man." },
+            { "label": "4", "text": "The man is not doing well in class." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "男性は美術の腕に自信がないと打ち明けるが、教授は最後の発言で彼の作品を見てきたうえで「you could be quite successful」と言い、グラフィックデザインへの専攻変更を後押ししているので3が正解。1と2は教授の励ましとは逆の内容である。4は教授が男性の作品を評価しているので誤り。",
+          "script": "M: Excuse me, Professor Garcia. Could I ask you for some advice?\nW: Of course. Is it about our art classes?\nM: Sort of. I'm thinking about changing my major from communications to graphic design, but I'm not sure if it's a good idea.\nW: Why are you considering the change?\nM: It gives me career options. I could do advertising, marketing, or even web design.\nW: Those are good careers. What's your concern?\nM: Well, I'm not confident that my artistic skills are good enough.\nW: I've seen your work. If you make the effort, I think you could be quite successful.",
+          "scriptJa": "M: すみません、ガルシア先生。少しご相談してもよろしいですか？\nW: もちろん。美術の授業のこと？\nM: ある意味そうです。専攻をコミュニケーション学からグラフィックデザインに変えようかと考えているんですが、それがいい考えなのかわからなくて。\nW: どうして変えようと思っているの？\nM: 仕事の選択肢が広がるからです。広告やマーケティング、ウェブデザインの仕事だってできます。\nW: どれもいい仕事ね。何が心配なの？\nM: その、自分の美術の腕が十分なのか自信がないんです。\nW: あなたの作品は見てきたわ。努力すれば、かなり成功できると思うわよ。"
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2022-2/11_No10.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the man do next?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Find another online chat tool." },
+            { "label": "2", "text": "Prepare a request for a software upgrade." },
+            { "label": "3", "text": "Get more people to join online meetings." },
+            { "label": "4", "text": "Ask to increase the company's budget." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "女性の2番目の発言で「submit an official request with the cost」、つまり費用を添えた正式な申請を出すよう頼まれているので、男性はソフトのアップグレードの申請を準備すると考えられ、2が正解。1の別のツールを探す話は出ていない。4は男性が予算に余裕があるか尋ねただけで、予算の増額を求めるわけではない。",
+          "script": "M: Alicia, can I talk to you about that online meeting software we're using?\nW: Sure, Ben. What is it?\nM: We've been using the free version, but I think we should consider paying to upgrade to the full version. The free version can be inconvenient at times.\nW: The participant limit has been a problem. Sometimes we'd like to have more than eight people in a meeting at once. Could you submit an official request with the cost?\nM: Does that mean there's room in the budget for an upgrade?\nW: I'll see what I can do.",
+          "scriptJa": "M: アリシア、今使っているオンライン会議ソフトのことで話があるんだけど、いいかな？\nW: ええ、ベン。何かしら？\nM: これまで無料版を使ってきたけど、お金を払って完全版にアップグレードすることを考えるべきだと思うんだ。無料版だと不便なときがあるからね。\nW: 参加人数の上限は問題になっているわね。一度に8人より多くで会議したいときもあるし。費用を添えて正式な申請を出してもらえる？\nM: それって、アップグレードの予算に余裕があるってこと？\nW: 何とかしてみるわ。"
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2022-2/12_No11.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will the woman do for the rest of the day?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Go to the plant." },
+            { "label": "2", "text": "Study Spanish." },
+            { "label": "3", "text": "Meet with Barbara." },
+            { "label": "4", "text": "Look for an interpreter." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性の最後の発言で、通常業務はバーバラに任せ、午後の残りは「brushing up on vocabulary」、つまりスペイン語の語彙の復習に充てるよう提案され、女性が承諾しているので2が正解。1は検査官が工場に来るのは明日で、今日の残りの時間にすることではない。3はバーバラに仕事を頼むという話で、会うわけではない。4は女性自身が通訳を務めるので不適。",
+          "script": "M: Carol, I have a favor to ask you.\nW: What is it?\nM: Inspectors from Mexico are coming to our plant tomorrow, and our regular interpreter is on vacation. I remember you majored in Spanish in college. Do you think you could substitute?\nW: Well, I did study Spanish, but I'm not sure I can handle all the technical terms.\nM: What if we asked Barbara to do your regular work today, and you spent the rest of the afternoon brushing up on vocabulary?\nW: OK. I'll do my best.",
+          "scriptJa": "M: キャロル、頼みたいことがあるんだけど。\nW: 何でしょう？\nM: 明日、メキシコから検査官がうちの工場に来るんだけど、いつもの通訳が休暇中なんだ。たしか大学でスペイン語を専攻していたよね。代わりをお願いできないかな？\nW: 確かにスペイン語は勉強しましたけど、専門用語まで全部対応できるかどうか。\nM: 今日の君の通常業務はバーバラに頼んで、午後の残りの時間は単語の復習に充てるっていうのはどうかな？\nW: わかりました。精一杯やってみます。"
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2022-2/13_No12.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is the police officer going to do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Radio for an ambulance." },
+            { "label": "2", "text": "Move the woman's car for her." },
+            { "label": "3", "text": "Give the woman a parking ticket." },
+            { "label": "4", "text": "Wait in his police car." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "警察官は3番目の発言で「I'll stand by in the police car」と、女性が回復するまでパトカーで待機すると言っているので4が正解。1の救急車は女性が断っている。3は事情を聞いたうえで休憩を認めており、違反切符を切るとは言っていない。2の車を移動させる話は出ていない。",
+          "script": "M: Excuse me, ma'am, this is a no-parking zone.\nW: I'm sorry, officer. I felt ill while I was driving, so I stopped my car here to take a short rest.\nM: Are you OK? I can call an ambulance for you.\nW: No, thanks. I'm feeling much better now, but can I rest here for another 10 minutes or so?\nM: No problem. I'll stand by in the police car until you feel well enough to leave. Honk your horn if you need help.\nW: I will. Thanks.",
+          "scriptJa": "M: すみません、ここは駐車禁止区域ですよ。\nW: すみません、お巡りさん。運転中に気分が悪くなったので、少し休もうとここに車を止めたんです。\nM: 大丈夫ですか？救急車を呼びましょうか。\nW: いいえ、結構です。もうだいぶよくなりました。でも、あと10分くらいここで休んでもいいですか？\nM: 構いませんよ。運転できるくらい回復するまで、私はパトカーで待機しています。何かあったらクラクションを鳴らしてください。\nW: そうします。ありがとうございます。"
         }
       ]
     },
@@ -199,206 +222,218 @@
         {
           "id": "q13",
           "number": 13,
-          "audio": "audio/eiken/eiken-pre1-2022-2/16_No13.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/16_No13.mp3",
+          "prompt": "What problem did the P-47 Thunderbolt have at first?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It could not fly high enough." },
+            { "label": "2", "text": "It was too small and light." },
+            { "label": "3", "text": "It could only fly short distances." },
+            { "label": "4", "text": "It used a rare kind of fuel." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段落で、初期の深刻な弱点は「limited fuel supply」だったと述べられ、のちに追加タンクを付けて長い任務に出られるようになったとある。つまり当初は短い距離しか飛べなかったので3が正解。1は高空ではほかの機体より速く飛べたとあるので誤り。2は小さく軽いのではなく、非常に重い機体だった。",
+          "script": "The P-47 Thunderbolt\n\nWhen the P-47 Thunderbolt first appeared in World War II, American pilots worried that this extremely heavy fighter plane would be at a disadvantage against smaller, lighter German planes. The P-47 was indeed slower at low altitudes, but when it was flying high, it could outrun almost any other plane. One serious weakness early on was its limited fuel supply. Eventually, however, extra tanks were fitted onto the P-47 so that it could go on longer missions.\n\nThe P-47 had eight powerful machine guns and was able to carry an impressive selection of bombs and rockets. The real reason that pilots came to love it, though, is that it was one of the most durable planes of the war and survived many hits that would have destroyed other planes. In one extreme case, a pilot was able to land his P-47 after it was shot over 100 times.",
+          "scriptJa": "P-47サンダーボルト\n\nP-47サンダーボルトが第二次世界大戦で初めて登場したとき、アメリカのパイロットたちは、この非常に重い戦闘機では、より小型で軽量なドイツ機に対して不利になるのではないかと心配した。確かにP-47は低空では速度が劣ったが、高空を飛んでいるときにはほとんどどの機体よりも速く飛ぶことができた。初期の深刻な弱点の一つは、燃料の搭載量が限られていることだった。しかし最終的には追加の燃料タンクが取り付けられ、より長い任務にも出られるようになった。\n\nP-47は強力な機関銃を8門備え、さまざまな爆弾やロケット弾を数多く搭載することができた。しかし、パイロットたちがこの機体を愛するようになった本当の理由は、それが大戦中で最も頑丈な機体の一つであり、ほかの機体なら破壊されていたであろう多くの被弾にも耐えたことにある。極端な例では、100発以上撃たれたP-47をパイロットが着陸させることができたこともあった。"
         },
         {
           "id": "q14",
           "number": 14,
-          "audio": "audio/eiken/eiken-pre1-2022-2/17_No14.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/17_No14.mp3",
+          "prompt": "What did pilots like most about flying the P-47 Thunderbolt?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It was tougher than other planes." },
+            { "label": "2", "text": "It had a new kind of weapon." },
+            { "label": "3", "text": "It could land very quickly." },
+            { "label": "4", "text": "It could drop bombs accurately." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第2段落で、パイロットに愛された本当の理由は、大戦中で最も「durable」な機体の一つで、多くの被弾に耐えたことだと述べられている。durableをtougherと言い換えた1が正解。2の機関銃や爆弾には触れているが、新しい種類の兵器とは言っていない。3は被弾しても着陸できた例が挙がっているだけで、着陸の速さの話ではない。",
+          "script": "The P-47 Thunderbolt\n\nWhen the P-47 Thunderbolt first appeared in World War II, American pilots worried that this extremely heavy fighter plane would be at a disadvantage against smaller, lighter German planes. The P-47 was indeed slower at low altitudes, but when it was flying high, it could outrun almost any other plane. One serious weakness early on was its limited fuel supply. Eventually, however, extra tanks were fitted onto the P-47 so that it could go on longer missions.\n\nThe P-47 had eight powerful machine guns and was able to carry an impressive selection of bombs and rockets. The real reason that pilots came to love it, though, is that it was one of the most durable planes of the war and survived many hits that would have destroyed other planes. In one extreme case, a pilot was able to land his P-47 after it was shot over 100 times.",
+          "scriptJa": "P-47サンダーボルト\n\nP-47サンダーボルトが第二次世界大戦で初めて登場したとき、アメリカのパイロットたちは、この非常に重い戦闘機では、より小型で軽量なドイツ機に対して不利になるのではないかと心配した。確かにP-47は低空では速度が劣ったが、高空を飛んでいるときにはほとんどどの機体よりも速く飛ぶことができた。初期の深刻な弱点の一つは、燃料の搭載量が限られていることだった。しかし最終的には追加の燃料タンクが取り付けられ、より長い任務にも出られるようになった。\n\nP-47は強力な機関銃を8門備え、さまざまな爆弾やロケット弾を数多く搭載することができた。しかし、パイロットたちがこの機体を愛するようになった本当の理由は、それが大戦中で最も頑丈な機体の一つであり、ほかの機体なら破壊されていたであろう多くの被弾にも耐えたことにある。極端な例では、100発以上撃たれたP-47をパイロットが着陸させることができたこともあった。"
         },
         {
           "id": "q15",
           "number": 15,
-          "audio": "audio/eiken/eiken-pre1-2022-2/19_No15.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/19_No15.mp3",
+          "prompt": "What was one result of Sir Joseph Hooker's program for Ascension Island?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Water supplies decreased." },
+            { "label": "2", "text": "The air became less polluted." },
+            { "label": "3", "text": "Many people had to leave the island." },
+            { "label": "4", "text": "The number of trees increased." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第1段落で、フッカーの計画により最終的に「an entire mountain being covered in forest」、つまり山全体が森に覆われたと述べられているので4が正解。1は第2段落で、新しい生態系によって利用できる水が増えたとあるので逆である。2の大気汚染や3の住民の退去については触れられていない。",
+          "script": "Ascension Island\n\nAscension Island lies in the middle of the Atlantic Ocean. Originally, it was nearly treeless, and fresh water was scarce, which made for tough living conditions for the first settlers. However, in the 1840s, a British scientist named Sir Joseph Hooker started a program to transform the desert island. He started importing trees and other plants that were able to survive in the island's dry environment by absorbing water from mist in the air. His program eventually resulted in an entire mountain being covered in forest. However, Hooker's plants have been so successful that several native plant species have gone extinct.\n\nThere is now a debate about the island's future. Some people say efforts must be made to preserve the plants that were originally found on the island. Others, though, want the new ecosystem to be left as is, since it has had benefits, such as increasing available water and creating the potential for agriculture.",
+          "scriptJa": "アセンション島\n\nアセンション島は大西洋の真ん中に位置している。もともとほとんど木がなく、真水も乏しかったため、最初の入植者たちにとって生活環境は厳しいものだった。しかし1840年代、ジョセフ・フッカー卿というイギリスの科学者が、この不毛の島を変える計画を始めた。彼は、空気中の霧から水分を吸収することで島の乾燥した環境でも生き延びられる木やその他の植物を持ち込み始めた。この計画により、最終的には山一つがまるごと森林に覆われるまでになった。ところが、フッカーの植物があまりにもうまく根付いたため、いくつかの在来植物の種が絶滅してしまった。\n\n現在、島の将来をめぐって議論が起きている。島にもともと生えていた植物を保護する努力をすべきだと主張する人々がいる。一方で、新しい生態系には利用できる水を増やしたり、農業の可能性を生み出したりといった利点があったため、このままにしておくべきだと考える人々もいる。"
         },
         {
           "id": "q16",
           "number": 16,
-          "audio": "audio/eiken/eiken-pre1-2022-2/20_No16.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/20_No16.mp3",
+          "prompt": "What do people disagree about regarding Ascension Island?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "How to classify the new ecosystem." },
+            { "label": "2", "text": "What to use the water supply for." },
+            { "label": "3", "text": "Whether native plants should be protected." },
+            { "label": "4", "text": "Where agriculture should be allowed." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第2段落で、島の将来をめぐり、もともとの植物を保護すべきだという意見と、新しい生態系をそのまま残すべきだという意見に分かれていると述べられている。これを在来植物を保護すべきかどうかとまとめた3が正解。1は生態系の分類ではなく、残すかどうかの議論である。2と4の水や農業は新しい生態系の利点として挙げられているだけで、議論の対象ではない。",
+          "script": "Ascension Island\n\nAscension Island lies in the middle of the Atlantic Ocean. Originally, it was nearly treeless, and fresh water was scarce, which made for tough living conditions for the first settlers. However, in the 1840s, a British scientist named Sir Joseph Hooker started a program to transform the desert island. He started importing trees and other plants that were able to survive in the island's dry environment by absorbing water from mist in the air. His program eventually resulted in an entire mountain being covered in forest. However, Hooker's plants have been so successful that several native plant species have gone extinct.\n\nThere is now a debate about the island's future. Some people say efforts must be made to preserve the plants that were originally found on the island. Others, though, want the new ecosystem to be left as is, since it has had benefits, such as increasing available water and creating the potential for agriculture.",
+          "scriptJa": "アセンション島\n\nアセンション島は大西洋の真ん中に位置している。もともとほとんど木がなく、真水も乏しかったため、最初の入植者たちにとって生活環境は厳しいものだった。しかし1840年代、ジョセフ・フッカー卿というイギリスの科学者が、この不毛の島を変える計画を始めた。彼は、空気中の霧から水分を吸収することで島の乾燥した環境でも生き延びられる木やその他の植物を持ち込み始めた。この計画により、最終的には山一つがまるごと森林に覆われるまでになった。ところが、フッカーの植物があまりにもうまく根付いたため、いくつかの在来植物の種が絶滅してしまった。\n\n現在、島の将来をめぐって議論が起きている。島にもともと生えていた植物を保護する努力をすべきだと主張する人々がいる。一方で、新しい生態系には利用できる水を増やしたり、農業の可能性を生み出したりといった利点があったため、このままにしておくべきだと考える人々もいる。"
         },
         {
           "id": "q17",
           "number": 17,
-          "audio": "audio/eiken/eiken-pre1-2022-2/22_No17.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/22_No17.mp3",
+          "prompt": "What is one thing we learn about Vivian Maier?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She carried her camera everywhere." },
+            { "label": "2", "text": "She made friends with emergency workers." },
+            { "label": "3", "text": "She lent her camera to the children she took care of." },
+            { "label": "4", "text": "She went to many places as a tourist." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段落で「She always had her camera with her」とあり、いつもカメラを持ち歩いていたことが述べられているので1が正解。2と4の救急隊員や観光客は、彼女の写真の被写体として挙がっているだけである。3は子どもの世話をする仕事をしていたとあるが、カメラを貸したという話はない。",
+          "script": "Vivian Maier\n\nOne of the twentieth century's greatest street photographers, Vivian Maier is known for her fascinating images of people in cities like Chicago and New York. Maier worked in childcare, but her true passion was photography. She always had her camera with her, and this habit allowed her to capture unique and unusual shots of people going about their daily lives. Her photos depict everything from strangely dressed tourists to emergency workers caring for accident victims.\n\nDespite the incredible number of photos she took, Maier was an intensely private person. Unlike most photographers, she refused to allow others to see her work. Nevertheless, a collection of her photos was purchased at an auction in 2007, and the buyers began exhibiting her unusual work. It was not until after her death in 2009, however, that she was recognized as an artistic genius.",
+          "scriptJa": "ヴィヴィアン・マイヤー\n\n20世紀を代表するストリート写真家の一人であるヴィヴィアン・マイヤーは、シカゴやニューヨークといった都市の人々をとらえた魅力的な写真で知られている。マイヤーは子どもの世話をする仕事をしていたが、彼女が本当に情熱を注いでいたのは写真だった。彼女はいつもカメラを持ち歩いており、この習慣のおかげで、日々の暮らしを送る人々の独特で珍しい姿を写真に収めることができた。彼女の写真には、奇妙な服装の観光客から、事故の被害者を手当てする救急隊員まで、あらゆるものが写っている。\n\n途方もない数の写真を撮ったにもかかわらず、マイヤーは極めて人目を避ける人物だった。ほとんどの写真家とは違い、彼女は他人に自分の作品を見せることを拒んだ。それでも、2007年にオークションで彼女の写真の一部が購入され、買い手たちがその独特な作品を展示し始めた。しかし、彼女が芸術の天才として認められたのは、2009年に亡くなった後のことだった。"
         },
         {
           "id": "q18",
           "number": 18,
-          "audio": "audio/eiken/eiken-pre1-2022-2/23_No18.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/23_No18.mp3",
+          "prompt": "How was Maier different from other photographers?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She became famous early in her career." },
+            { "label": "2", "text": "She mainly took photos at auctions." },
+            { "label": "3", "text": "She held very large exhibitions." },
+            { "label": "4", "text": "She did not show people her photos." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第2段落で「Unlike most photographers, she refused to allow others to see her work」と、ほとんどの写真家と違って作品を他人に見せなかったと述べられているので4が正解。1は天才と認められたのは死後なので誤り。2のオークションは2007年に彼女の写真が買い取られた場であり、撮影場所ではない。3の展示を始めたのは写真を購入した人々で、大規模な展示会という話もない。",
+          "script": "Vivian Maier\n\nOne of the twentieth century's greatest street photographers, Vivian Maier is known for her fascinating images of people in cities like Chicago and New York. Maier worked in childcare, but her true passion was photography. She always had her camera with her, and this habit allowed her to capture unique and unusual shots of people going about their daily lives. Her photos depict everything from strangely dressed tourists to emergency workers caring for accident victims.\n\nDespite the incredible number of photos she took, Maier was an intensely private person. Unlike most photographers, she refused to allow others to see her work. Nevertheless, a collection of her photos was purchased at an auction in 2007, and the buyers began exhibiting her unusual work. It was not until after her death in 2009, however, that she was recognized as an artistic genius.",
+          "scriptJa": "ヴィヴィアン・マイヤー\n\n20世紀を代表するストリート写真家の一人であるヴィヴィアン・マイヤーは、シカゴやニューヨークといった都市の人々をとらえた魅力的な写真で知られている。マイヤーは子どもの世話をする仕事をしていたが、彼女が本当に情熱を注いでいたのは写真だった。彼女はいつもカメラを持ち歩いており、この習慣のおかげで、日々の暮らしを送る人々の独特で珍しい姿を写真に収めることができた。彼女の写真には、奇妙な服装の観光客から、事故の被害者を手当てする救急隊員まで、あらゆるものが写っている。\n\n途方もない数の写真を撮ったにもかかわらず、マイヤーは極めて人目を避ける人物だった。ほとんどの写真家とは違い、彼女は他人に自分の作品を見せることを拒んだ。それでも、2007年にオークションで彼女の写真の一部が購入され、買い手たちがその独特な作品を展示し始めた。しかし、彼女が芸術の天才として認められたのは、2009年に亡くなった後のことだった。"
         },
         {
           "id": "q19",
           "number": 19,
-          "audio": "audio/eiken/eiken-pre1-2022-2/25_No19.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/25_No19.mp3",
+          "prompt": "What is one thing the speaker says about cat-food production?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It does not require the use of fresh water." },
+            { "label": "2", "text": "It can only be done in certain climates." },
+            { "label": "3", "text": "It produces a large amount of gas." },
+            { "label": "4", "text": "It uses less meat than it did in the past." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段落で、猫は主に肉を食べ、その肉の生産は「substantial amounts of carbon dioxide gas」を大気中に放出すると述べられているので3が正解。1の真水の使用、2の気候、4の肉の使用量の変化については、いずれも述べられていない。",
+          "script": "The Impact of Cats\n\nCats are one of the most popular pets today, but like many other pets, they affect the environment through their eating habits. As carnivores, cats primarily eat meat, the production of which releases substantial amounts of carbon dioxide gas into the atmosphere and often creates air and water pollution. According to a recent study, however, the management of cats' waste may be more harmful to the environment than their diet is.\n\nCat owners commonly prepare boxes for their cats that contain cat litter, a material that traps the cats' waste. However, the clay that is used in most litter is usually acquired through surface mining, a process that requires oil-powered heavy machinery and can destroy large natural areas. Recently, more manufacturers have begun producing litter made from environmentally friendly materials like wood and seeds. Nevertheless, clay-based litter is still the most used type due to its low cost and exceptional odor absorption.",
+          "scriptJa": "猫が与える影響\n\n猫は今日最も人気のあるペットの一つだが、ほかの多くのペットと同様に、その食習慣を通じて環境に影響を与えている。猫は肉食動物なので主に肉を食べるが、肉の生産は大量の二酸化炭素を大気中に放出し、しばしば大気汚染や水質汚染を引き起こす。しかし最近の研究によると、猫の排泄物の処理のほうが、食事よりも環境に有害である可能性があるという。\n\n猫の飼い主は一般的に、猫の排泄物を閉じ込める素材である猫砂を入れた箱を用意する。しかし、ほとんどの猫砂に使われている粘土は通常、露天掘りによって採取されている。これは石油で動く重機を必要とし、広大な自然の地域を破壊しかねない方法である。最近では、木材や種子といった環境にやさしい素材で作られた猫砂を生産するメーカーも増えてきた。それでも、価格の安さと抜群の消臭力から、粘土系の猫砂が今でも最も多く使われている。"
         },
         {
           "id": "q20",
           "number": 20,
-          "audio": "audio/eiken/eiken-pre1-2022-2/26_No20.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/26_No20.mp3",
+          "prompt": "What do we learn about the process of collecting clay?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The machines it uses are very expensive." },
+            { "label": "2", "text": "It is damaging to wide areas of land." },
+            { "label": "3", "text": "It releases chemicals into nearby farmland." },
+            { "label": "4", "text": "It is frequently dangerous for workers." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第2段落で、猫砂の粘土は露天掘りで採取され、その方法は重機を必要とし「can destroy large natural areas」と述べられているので、広い土地に被害を与えるという2が正解。1は石油で動く重機が必要だとあるだけで、機械が高価だとは言っていない。3の農地への化学物質や4の作業員の危険については触れられていない。",
+          "script": "The Impact of Cats\n\nCats are one of the most popular pets today, but like many other pets, they affect the environment through their eating habits. As carnivores, cats primarily eat meat, the production of which releases substantial amounts of carbon dioxide gas into the atmosphere and often creates air and water pollution. According to a recent study, however, the management of cats' waste may be more harmful to the environment than their diet is.\n\nCat owners commonly prepare boxes for their cats that contain cat litter, a material that traps the cats' waste. However, the clay that is used in most litter is usually acquired through surface mining, a process that requires oil-powered heavy machinery and can destroy large natural areas. Recently, more manufacturers have begun producing litter made from environmentally friendly materials like wood and seeds. Nevertheless, clay-based litter is still the most used type due to its low cost and exceptional odor absorption.",
+          "scriptJa": "猫が与える影響\n\n猫は今日最も人気のあるペットの一つだが、ほかの多くのペットと同様に、その食習慣を通じて環境に影響を与えている。猫は肉食動物なので主に肉を食べるが、肉の生産は大量の二酸化炭素を大気中に放出し、しばしば大気汚染や水質汚染を引き起こす。しかし最近の研究によると、猫の排泄物の処理のほうが、食事よりも環境に有害である可能性があるという。\n\n猫の飼い主は一般的に、猫の排泄物を閉じ込める素材である猫砂を入れた箱を用意する。しかし、ほとんどの猫砂に使われている粘土は通常、露天掘りによって採取されている。これは石油で動く重機を必要とし、広大な自然の地域を破壊しかねない方法である。最近では、木材や種子といった環境にやさしい素材で作られた猫砂を生産するメーカーも増えてきた。それでも、価格の安さと抜群の消臭力から、粘土系の猫砂が今でも最も多く使われている。"
         },
         {
           "id": "q21",
           "number": 21,
-          "audio": "audio/eiken/eiken-pre1-2022-2/28_No21.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/28_No21.mp3",
+          "prompt": "What is one reason for the popularity of \"axe-throwing bars\"?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Young people's changing interests." },
+            { "label": "2", "text": "Young people's increasing need for exercise." },
+            { "label": "3", "text": "Young people's economic situation." },
+            { "label": "4", "text": "Young people's passion for nature." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段落冒頭で、多くの若者にとって物より体験が大切になってきたと述べられ、それが斧投げバーのような体験型ビジネスの商機につながったと説明されている。これを若者の関心の変化と言い換えた1が正解。2の運動の必要性や3の経済状況については触れられていない。4は斧が普通は森と結び付けられると述べているだけで、自然への情熱の話ではない。",
+          "script": "Profitable Experiences\n\nFor many young people today, experiences have become more important than material things. This has created money-making opportunities for businesses that can provide memorable and exciting experiences. One recent example is \"axe-throwing bars.\" While axes would normally be associated with chopping wood in a forest, now people in many cities can go to special bars and throw axes like darts. Some worry about the possible dangers of this activity, but fans argue that it is a fun way to release stress.\n\nSuch businesses that sell experiences have spread across the US, but critics argue these businesses may negatively affect communities in the long run. They say the businesses are probably a short-term trend whose popularity will not last. And, when the businesses close, their employees are left without a source of income. The critics recommend that cities encourage the development of businesses that will be popular for decades, not just a few years.",
+          "scriptJa": "利益を生む体験\n\n今日の多くの若者にとって、物よりも体験のほうが大切になってきている。これにより、記憶に残るわくわくする体験を提供できる企業に、お金を稼ぐ機会が生まれている。最近の一例が「斧投げバー」だ。斧といえば普通は森で木を切ることを連想するが、今では多くの都市で、専用のバーに行ってダーツのように斧を投げることができる。この遊びの危険性を心配する人もいるが、愛好家たちはストレスを発散する楽しい方法だと主張している。\n\n体験を売るこうしたビジネスはアメリカ中に広がっているが、批評家たちは、長い目で見れば地域社会に悪影響を及ぼすかもしれないと主張する。彼らによれば、こうしたビジネスはおそらく一時的な流行で、人気は長続きしないという。そして店が閉店すれば、従業員は収入源を失ってしまう。批評家たちは、ほんの数年ではなく何十年も人気が続くようなビジネスの発展を促すよう、都市に勧めている。"
         },
         {
           "id": "q22",
           "number": 22,
-          "audio": "audio/eiken/eiken-pre1-2022-2/29_No22.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/29_No22.mp3",
+          "prompt": "What is one criticism of businesses that sell experiences?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They are unlikely to survive long." },
+            { "label": "2", "text": "They do not do well outside of cities." },
+            { "label": "3", "text": "They rarely employ local people." },
+            { "label": "4", "text": "They take up too much space." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第2段落で、批評家はこうしたビジネスは「a short-term trend whose popularity will not last」、つまり人気が続かない一時的な流行だと述べているので、長く生き残りそうにないという1が正解。3は閉店すると従業員が収入を失うと言っているだけで、地元の人を雇わないとは言っていない。2の都市以外での業績や4の場所の広さについては話に出ていない。",
+          "script": "Profitable Experiences\n\nFor many young people today, experiences have become more important than material things. This has created money-making opportunities for businesses that can provide memorable and exciting experiences. One recent example is \"axe-throwing bars.\" While axes would normally be associated with chopping wood in a forest, now people in many cities can go to special bars and throw axes like darts. Some worry about the possible dangers of this activity, but fans argue that it is a fun way to release stress.\n\nSuch businesses that sell experiences have spread across the US, but critics argue these businesses may negatively affect communities in the long run. They say the businesses are probably a short-term trend whose popularity will not last. And, when the businesses close, their employees are left without a source of income. The critics recommend that cities encourage the development of businesses that will be popular for decades, not just a few years.",
+          "scriptJa": "利益を生む体験\n\n今日の多くの若者にとって、物よりも体験のほうが大切になってきている。これにより、記憶に残るわくわくする体験を提供できる企業に、お金を稼ぐ機会が生まれている。最近の一例が「斧投げバー」だ。斧といえば普通は森で木を切ることを連想するが、今では多くの都市で、専用のバーに行ってダーツのように斧を投げることができる。この遊びの危険性を心配する人もいるが、愛好家たちはストレスを発散する楽しい方法だと主張している。\n\n体験を売るこうしたビジネスはアメリカ中に広がっているが、批評家たちは、長い目で見れば地域社会に悪影響を及ぼすかもしれないと主張する。彼らによれば、こうしたビジネスはおそらく一時的な流行で、人気は長続きしないという。そして店が閉店すれば、従業員は収入源を失ってしまう。批評家たちは、ほんの数年ではなく何十年も人気が続くようなビジネスの発展を促すよう、都市に勧めている。"
         },
         {
           "id": "q23",
           "number": 23,
-          "audio": "audio/eiken/eiken-pre1-2022-2/31_No23.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/31_No23.mp3",
+          "prompt": "Why did the researchers decide to analyze alligators?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Alligators have efficient jaws." },
+            { "label": "2", "text": "Alligators are related to dinosaurs." },
+            { "label": "3", "text": "Alligators have muscles in unusual places." },
+            { "label": "4", "text": "Alligators evolved at the same time as T. rex." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段落の最後で、研究者たちは「a modern animal descended from dinosaurs」としてワニに目を向けたと述べられている。恐竜の子孫であることを「related to dinosaurs」と言い換えた2が正解。1は、穴の位置が顎の筋肉には非効率だったという話を利用したひっかけである。4のティラノサウルスと同時期に進化したという話は出てこない。",
+          "script": "T. rex Skulls\n\nT. rex had two large holes at the top of its skull, which scientists used to believe held muscles that aided jaw movement. Recently, however, researchers realized that this would not have been an efficient location for jaw muscles, so they began searching for another explanation. They looked at a modern animal descended from dinosaurs: the alligator.\n\nThe researchers found that alligator skulls have similar holes. They are filled with blood vessels that help alligators control the amount of heat in their bodies. When alligators need to warm themselves, these areas absorb external heat, and they release heat when alligators need to cool down. Since large meat-eating dinosaurs such as T. rex likely tended to overheat, these holes and blood vessels could have functioned as a sort of internal air-conditioning system. Of course, we cannot observe living dinosaurs, but studies like this provide interesting clues as to what these prehistoric giants were like.",
+          "scriptJa": "ティラノサウルスの頭骨\n\nティラノサウルスの頭骨の上部には2つの大きな穴があり、科学者たちはかつて、そこには顎の動きを助ける筋肉が収まっていたと考えていた。しかし最近、研究者たちは、そこが顎の筋肉にとって効率のよい位置ではなかったはずだと気づき、別の説明を探し始めた。彼らが目を向けたのは、恐竜の子孫である現代の動物、ワニだった。\n\n研究者たちは、ワニの頭骨にも似たような穴があることを発見した。その穴は、ワニが体内の熱の量を調節するのに役立つ血管で満たされている。ワニが体を温める必要があるときにはこの部分が外部の熱を吸収し、体を冷やす必要があるときには熱を放出する。ティラノサウルスのような大型の肉食恐竜は体温が上がりすぎる傾向があったと考えられるため、これらの穴と血管は一種の体内冷房装置として機能していたのかもしれない。もちろん、生きた恐竜を観察することはできないが、このような研究は、これら先史時代の巨大生物がどのようなものだったかについて興味深い手がかりを与えてくれる。"
         },
         {
           "id": "q24",
           "number": 24,
-          "audio": "audio/eiken/eiken-pre1-2022-2/32_No24.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-2/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-2/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-2/32_No24.mp3",
+          "prompt": "What do the researchers now think the holes in T. rex skulls were used for?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To help with food digestion." },
+            { "label": "2", "text": "To sense other animals." },
+            { "label": "3", "text": "To create new blood vessels." },
+            { "label": "4", "text": "To control their body temperature." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第2段落で、ワニの頭骨の穴には体内の熱の量を調節する血管があると説明され、ティラノサウルスの穴も体内の冷房装置のように働いていた可能性があると述べられている。これを体温の調節と言い換えた4が正解。3は穴が血管で満たされているとあるだけで、新しい血管を作るわけではない。1の消化や2のほかの動物の感知については触れられていない。",
+          "script": "T. rex Skulls\n\nT. rex had two large holes at the top of its skull, which scientists used to believe held muscles that aided jaw movement. Recently, however, researchers realized that this would not have been an efficient location for jaw muscles, so they began searching for another explanation. They looked at a modern animal descended from dinosaurs: the alligator.\n\nThe researchers found that alligator skulls have similar holes. They are filled with blood vessels that help alligators control the amount of heat in their bodies. When alligators need to warm themselves, these areas absorb external heat, and they release heat when alligators need to cool down. Since large meat-eating dinosaurs such as T. rex likely tended to overheat, these holes and blood vessels could have functioned as a sort of internal air-conditioning system. Of course, we cannot observe living dinosaurs, but studies like this provide interesting clues as to what these prehistoric giants were like.",
+          "scriptJa": "ティラノサウルスの頭骨\n\nティラノサウルスの頭骨の上部には2つの大きな穴があり、科学者たちはかつて、そこには顎の動きを助ける筋肉が収まっていたと考えていた。しかし最近、研究者たちは、そこが顎の筋肉にとって効率のよい位置ではなかったはずだと気づき、別の説明を探し始めた。彼らが目を向けたのは、恐竜の子孫である現代の動物、ワニだった。\n\n研究者たちは、ワニの頭骨にも似たような穴があることを発見した。その穴は、ワニが体内の熱の量を調節するのに役立つ血管で満たされている。ワニが体を温める必要があるときにはこの部分が外部の熱を吸収し、体を冷やす必要があるときには熱を放出する。ティラノサウルスのような大型の肉食恐竜は体温が上がりすぎる傾向があったと考えられるため、これらの穴と血管は一種の体内冷房装置として機能していたのかもしれない。もちろん、生きた恐竜を観察することはできないが、このような研究は、これら先史時代の巨大生物がどのようなものだったかについて興味深い手がかりを与えてくれる。"
         }
       ]
     },
@@ -414,80 +449,100 @@
           "number": 25,
           "audio": "audio/eiken/eiken-pre1-2022-2/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do first after getting off the plane?",
+          "promptJa": "飛行機を降りたら、まず何をすべきか？",
+          "situation": "You are on a plane that has just landed, and you need to catch your connecting flight. A flight attendant is making an announcement.",
+          "situationJa": "あなたは着陸したばかりの飛行機に乗っていて、乗り継ぎ便に乗らなければならない。客室乗務員がアナウンスをしている。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Collect your luggage." },
+            { "label": "2", "text": "Take a bus to another terminal." },
+            { "label": "3", "text": "Find a gate agent." },
+            { "label": "4", "text": "Get a new boarding pass printed." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "アナウンスの前半で、乗り継ぎ便のある乗客のためにゲート係員が待機しており、機内を出たら乗り継ぎゲートへ案内してくれると述べられている。あなたは乗り継ぎ便に乗る必要があるので、まず係員を見つけるという3が正解。1の荷物の受け取りや2のバスは、ここが最終目的地の乗客向けの案内である。4は搭乗券を用意するよう言われているだけで、印刷し直す必要はない。",
+          "script": "Welcome to Greenville. As we approach the gate, please remain in your seats with your seat belts fastened. We realize many of you have connecting flights, so we have gate agents standing by who can direct you to your connecting gates once you exit the plane. Please have your boarding passes ready to show them. If this is your final destination, you can find your luggage on the carousels in the main terminal. If you need to arrange ground transportation, look for the bus service just past the baggage claim. Customer service representatives are available throughout the airport if you need assistance.",
+          "scriptJa": "グリーンビルへようこそ。当機はただいまゲートに向かっております。シートベルトを締めたまま、お席でお待ちください。乗り継ぎ便をご利用のお客様が多いことと存じますので、飛行機を降りられましたら乗り継ぎゲートまでご案内するゲート係員が待機しております。係員にお見せいただけるよう、搭乗券をご用意ください。こちらが最終目的地のお客様は、メインターミナルのターンテーブルでお荷物をお受け取りください。地上交通機関の手配が必要な方は、手荷物受取所のすぐ先にあるバスサービスをご利用ください。お困りの際は、空港内の各所にカスタマーサービスの係員がおりますので、お声がけください。"
         },
         {
           "id": "q26",
           "number": 26,
           "audio": "audio/eiken/eiken-pre1-2022-2/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which incense brand should you buy?",
+          "promptJa": "どのブランドのお香を買うべきか？",
+          "situation": "You want to buy some stick-type incense to burn to help you relax. A store clerk tells you the following.",
+          "situationJa": "あなたはリラックスするために焚くスティック型のお香を買いたい。店員が次のように説明する。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Bouquet Himalaya." },
+            { "label": "2", "text": "Magnolia's Sanctuary." },
+            { "label": "3", "text": "Akebono." },
+            { "label": "4", "text": "Shirley's Gift." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "条件はスティック型であることと、リラックス効果があることである。1のブーケ・ヒマラヤはリラックス効果があるが紙タイプ、2のマグノリアズ・サンクチュアリはスティック型だが気分を高めるためのもの、3のアケボノはコーン型である。最後に紹介されたシャーリーズ・ギフトはスティック型で、緊張をほぐすために開発されたものなので4が正解。",
+          "script": "We sell four original incense brands. Bouquet Himalaya is a paper-type incense that features the scents of flowers from India. It has a deep, calming effect and helps relieve stress and anxiety. Next, Magnolia's Sanctuary is a stick-type incense that contains sweet-smelling substances. This incense will immediately lift your spirits and is perfect for creating an energizing mood. Akebono is a cone-type purifying incense made with sage, and it's popular among meditation practitioners. Finally, Shirley's Gift is a stick-type incense that was also developed specifically for releasing tension. The aroma calms the mind, creating a tranquil atmosphere.",
+          "scriptJa": "当店ではオリジナルのお香を4ブランド扱っております。ブーケ・ヒマラヤは紙タイプのお香で、インドの花の香りが特徴です。深いリラックス効果があり、ストレスや不安を和らげるのに役立ちます。次に、マグノリアズ・サンクチュアリはスティックタイプのお香で、甘い香りの成分が含まれています。このお香はすぐに気分を高めてくれるので、活気のある雰囲気を作るのにぴったりです。アケボノはセージを使ったコーン型の浄化用のお香で、瞑想をする人たちに人気があります。最後に、シャーリーズ・ギフトはスティックタイプのお香で、こちらも緊張をほぐすために特別に開発されたものです。その香りは心を落ち着かせ、穏やかな雰囲気を生み出します。"
         },
         {
           "id": "q27",
           "number": 27,
           "audio": "audio/eiken/eiken-pre1-2022-2/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたはどうすべきか？",
+          "situation": "It is Monday, and you receive a voice mail from a representative at your new Internet provider. You have to work this Thursday from noon to 8 p.m.",
+          "situationJa": "月曜日に、新しく契約したインターネット・プロバイダーの担当者から留守番電話のメッセージが届いた。あなたは今週の木曜日、正午から午後8時まで仕事がある。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Reschedule for this weekend." },
+            { "label": "2", "text": "Reschedule for a weekday next week." },
+            { "label": "3", "text": "Reschedule for this Thursday morning." },
+            { "label": "4", "text": "Reschedule for this Friday after 6 p.m." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "今週木曜日の予約（正午から午後3時）は仕事と重なるので変更が必要である。メッセージでは、空いている予約枠は来週のみで、技術者の対応は月曜日から金曜日の午前9時から午後6時までとあるので、来週の平日に変更するという2が正解。1は週末は対応しておらず、3と4は今週の枠がないので不可である。4はさらに午後6時以降という点でも対応時間外である。",
+          "script": "I'm calling to confirm your appointment to set up your new Internet service. It's scheduled for this Thursday. Our technician will arrive sometime between noon and 3 p.m. If this time slot is OK, no action is necessary. However, if it's not, please contact us to reschedule. Please note that we're currently experiencing high demand, so our only available appointment times would be next week. Also, our technicians are only available Monday through Friday between 9 a.m. and 6 p.m. Remember that our offices are closed on weekends. Thank you.",
+          "scriptJa": "新しいインターネットサービスの設置のご予約を確認するためにお電話いたしました。ご予約は今週の木曜日となっております。技術者が正午から午後3時の間に伺います。この時間帯でよろしければ、特にお手続きは必要ありません。ご都合が悪い場合は、予約変更のためご連絡ください。なお、現在大変多くのご依頼をいただいているため、ご案内できる予約枠は来週のみとなります。また、技術者が対応できるのは月曜日から金曜日の午前9時から午後6時までです。土日は営業所が休みとなりますのでご注意ください。よろしくお願いいたします。"
         },
         {
           "id": "q28",
           "number": 28,
           "audio": "audio/eiken/eiken-pre1-2022-2/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたはどうすべきか？",
+          "situation": "You are applying to a college to study psychology. An admissions officer is talking to you about your application.",
+          "situationJa": "あなたは心理学を学ぶために大学に出願している。入試担当者があなたの願書について話している。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Pay your application fee." },
+            { "label": "2", "text": "Go to a campus event next week." },
+            { "label": "3", "text": "Get a letter of recommendation." },
+            { "label": "4", "text": "Submit your high school records." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "担当者は後半で「all that's left for you to do is submit a letter」と、残っているのは先生か雇用主からの推薦状の提出だけだと述べているので3が正解。1の出願料は支払い済みで、4の成績証明書は高校から間もなく届く。2のオープンキャンパスは専攻を決めていない人向けであり、心理学を学ぶと決めているあなたには必要ない。",
+          "script": "I've checked your application, and it appears that you've submitted all of the required forms that were on our website. It looks like you also paid your application fee when you submitted those documents. And we've been contacted by your high school regarding your transcripts, which should be arriving shortly. If you aren't sure what you want to major in yet, please consider attending our open-campus event next week. Otherwise, all that's left for you to do is submit a letter from a teacher or employer recommending you. Once we receive that, we can start processing your application.",
+          "scriptJa": "願書を確認しましたが、ウェブサイトに掲載されていた必要書類はすべて提出していただいているようですね。書類を提出された際に、出願料もお支払いいただいているようです。また、成績証明書の件であなたの高校から連絡があり、間もなく届くはずです。まだ何を専攻したいか決まっていないのであれば、来週のオープンキャンパスへの参加をぜひご検討ください。そうでなければ、あとは先生か雇用主からの推薦状を提出していただくだけです。それが届き次第、出願の手続きを始めることができます。"
         },
         {
           "id": "q29",
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2022-2/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which tour is the best for you?",
+          "promptJa": "あなたに最も適したツアーはどれか？",
+          "situation": "You are on a trip abroad and want to take a free local tour. You get carsick easily. You are told the following at your hotel's information desk.",
+          "situationJa": "あなたは海外旅行中で、無料の現地ツアーに参加したい。あなたは車に酔いやすい。ホテルの案内所で次のように言われる。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The one from 1 p.m." },
+            { "label": "2", "text": "The one from 2:30 p.m." },
+            { "label": "3", "text": "The one from 3 p.m." },
+            { "label": "4", "text": "The one from 5 p.m." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "条件は無料であることと、車酔いしやすいことである。1時のバスツアーは無料だが乗り物で回るので不向き、3時の自転車ツアーは35ドルかかり、5時のツアーも参加費と飲食代がかかる。2時半のウォーキングツアーは無料で、歩いて回るので2が正解。",
+          "script": "There are four local tours today. Our bus tour starting at 1 p.m. takes passengers to major sites all over the city, and it costs nothing. Next, a walking tour starts at 2:30. Local volunteer guides will escort you around the downtown area, and there's no charge. If you enjoy bike riding, join the tour starting at three. It costs $35, which includes bike rental fees and refreshments. Finally, if you take our tour starting at five, you can try various kinds of local cuisine. The participation fee is just a few dollars, but you'll have to pay for what you eat and drink at food stands or restaurants.",
+          "scriptJa": "本日は現地ツアーが4つございます。午後1時出発のバスツアーでは市内各地の主要な名所を回り、料金はかかりません。次に、2時半からはウォーキングツアーがございます。地元のボランティアガイドが中心街をご案内し、料金は無料です。サイクリングがお好きでしたら、3時出発のツアーにご参加ください。料金は35ドルで、自転車のレンタル料と軽食代が含まれています。最後に、5時からのツアーでは、さまざまな地元料理をお試しいただけます。参加費はほんの数ドルですが、屋台やレストランでの飲食代はご自身でお支払いいただきます。"
         }
       ]
     }
