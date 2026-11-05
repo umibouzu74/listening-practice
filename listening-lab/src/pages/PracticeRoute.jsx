@@ -2,8 +2,10 @@ import { useLocation, useNavigate, useParams, useSearchParams } from 'react-rout
 import Header from '../components/Header';
 import PracticePage from './PracticePage';
 import ExamModePage from './ExamModePage';
+import InterviewExamPage from './InterviewExamPage';
+import InterviewPracticePage from './InterviewPracticePage';
 import useExamSet from '../hooks/useExamSet';
-import { isDraft } from '../data/registry';
+import { isDraft, isInterview } from '../data/registry';
 import { getExamColor } from '../utils/examConfig';
 import styles from './PracticePage.module.css';
 
@@ -12,7 +14,7 @@ import styles from './PracticePage.module.css';
  * 「次のセクションへ」など同じルート内の遷移でも状態をリセットするため、遷移ごとに作り直す。
  */
 export default function PracticeRoute() {
-  const { examType, examId } = useParams();
+  const { examType, examId, sectionId } = useParams();
   const [searchParams] = useSearchParams();
   const location = useLocation();
   const navigate = useNavigate();
@@ -40,6 +42,23 @@ export default function PracticeRoute() {
         </div>
       </div>
     );
+  }
+
+  // 面接（二次試験）: 問題カード1枚ごとに練習形式・本番形式を開く
+  if (isInterview(examSet)) {
+    const section = examSet.sections.find((s) => s.id === sectionId);
+    if (!section) {
+      return (
+        <div className={styles.page}>
+          <Header onBack={() => navigate(`/${examType}/${examId}`)} accentColor={accent} />
+          <div className={styles.empty}>問題カードが見つかりません</div>
+        </div>
+      );
+    }
+    if (searchParams.get('mode') === 'exam') {
+      return <InterviewExamPage key={location.key} examSet={examSet} section={section} />;
+    }
+    return <InterviewPracticePage key={location.key} examSet={examSet} section={section} />;
   }
 
   if (searchParams.get('mode') === 'exam') {

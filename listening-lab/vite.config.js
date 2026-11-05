@@ -29,6 +29,8 @@ function buildExamIndex() {
         path: `./${dir.name}/${file}`,
         examType: data.examType,
         id: data.id,
+        // "interview"（英検二次試験の面接）。省略時はリスニング
+        format: data.format,
         meta: data.meta || {},
         instructions: data.instructions,
         sections: data.sections.map((s) => ({
@@ -38,6 +40,11 @@ function buildExamIndex() {
           description: s.description,
           playCount: s.playCount,
           questionCount: s.questions?.length || 0,
+          // 面接: カード一覧に出す「This is a story about ...」の一文
+          story: s.card?.instruction
+            ?.split('\n')
+            .find((line) => /^This is a story about/i.test(line.trim()))
+            ?.trim(),
         })),
       })
     }

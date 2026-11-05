@@ -93,7 +93,25 @@ export default function useAudioPlayer(sources) {
     const last = audios.length - 1;
 
     const handlers = audios.map((audio, i) => {
+      // ブラウザで録音した webm（面接練習の録音など）は長さが入っておらず duration が
+      // Infinity になる。いったん末尾へシークさせて長さを確定させ、先頭に戻す。
+      let probing = false;
       const onDuration = () => {
+        if (audio.duration === Infinity) {
+          if (!probing) {
+            probing = true;
+            try {
+              audio.currentTime = 1e101;
+            } catch {
+              probing = false;
+            }
+          }
+          return;
+        }
+        if (probing) {
+          probing = false;
+          audio.currentTime = 0;
+        }
         setDurations((prev) => {
           const next = prev.length === audios.length ? [...prev] : audios.map(() => 0);
           next[i] = durationOf(audio);
@@ -101,6 +119,7 @@ export default function useAudioPlayer(sources) {
         });
       };
       const onTimeUpdate = () => {
+        if (probing) return;
         if (activeRef.current === i) setActiveTime(audio.currentTime);
       };
       const onPlay = () => {
@@ -114,6 +133,7 @@ export default function useAudioPlayer(sources) {
         if (activeRef.current === i) setIsPlaying(false);
       };
       const onEnded = () => {
+        if (probing) return;
         if (i < last) goTo(i + 1, 0, true);
         else if (loopRef.current) goTo(0, 0, true);
         else {

@@ -6,7 +6,7 @@ const EXAM_TYPES = {
     label: "英検",
     icon: "🏅",
     color: "#3498db",
-    description: "英検 リスニング演習（準1級）",
+    description: "英検 リスニング・二次試験（面接）演習（準1級）",
     groupBy: "grade",
     sortOrder: "desc",
     // 表示順（上から）
@@ -53,6 +53,59 @@ const EXAM_TYPES = {
 };
 
 export default EXAM_TYPES;
+
+/**
+ * 英検二次試験（面接）の進行設定。時間はすべて秒。
+ * 準1級: 黙読1分 → ナレーション2分 → No.1（カードを見る）→ カードを伏せる → No.2〜4
+ */
+export const INTERVIEW_CONFIG = {
+  /** 黙読（準備）時間 */
+  prepSeconds: 60,
+  /** ナレーションの制限時間 */
+  narrationSeconds: 120,
+  /** ナレーションの残り時間がこれ以下になったらカウントダウンの色を変える */
+  narrationWarnSeconds: 15,
+  /** No.1〜4 の回答時間の目安。超えると経過時間の色が変わる（厳密な制限ではない） */
+  answerTargetSeconds: { 1: 20, 2: 30, 3: 30, 4: 30 },
+  /** 読み上げ（speechSynthesis）の速さ */
+  speechRate: 0.95,
+  /** 自己採点の満点（本番の配点。アティチュード 3点は自己採点に含めない） */
+  maxScores: { narration: 15, qa: 5 },
+  /**
+   * 自己採点の横に出す共通の観点。カードごとの観点はデータの checkpoints に書く
+   *   narration: ナレーション / picture: カードを見て答える質問（No.1）/ opinion: 意見を述べる質問（No.2〜4）
+   */
+  checkpoints: {
+    narration: [
+      '4コマすべてについて話せた',
+      '2〜4コマ目の時間の表現（That afternoon など）を使ってつなげた',
+      '過去形・過去進行形で一貫して話せた',
+      '吹き出しや掲示の内容を、間接話法などで文に組み込めた',
+      '2分以内に最後のコマまで話し終えられた',
+    ],
+    picture: [
+      "「I'd be thinking, ...」などの形で、人物の立場から答えられた",
+      '4コマ目の状況に合った内容を話せた',
+      '2文以上で、理由や今後のことまで言えた',
+    ],
+    opinion: [
+      '最初に自分の立場（Yes / No など）をはっきり示せた',
+      '理由や具体例を2つほど挙げられた',
+      '質問の内容からずれずに答えられた',
+      '長い沈黙をつくらずに話し続けられた',
+    ],
+  },
+  /** 面接官の決まり文句（音声ファイルがないときは読み上げる） */
+  phrases: {
+    prep: 'Here is your card. You have one minute to prepare before you start your narration.',
+    narrationStart: 'All right. Please begin your narration. You have two minutes.',
+    qaIntro: "Thank you. Now, I'm going to ask you four questions.",
+    turnOver: 'Now, please turn over the card and put it down.',
+    // {n} は質問番号に置き換える
+    questionNumber: 'Number {n}.',
+    end: 'All right. This is the end of the test. Thank you.',
+  },
+};
 
 /**
  * 試験種別の設定オブジェクトを返す

@@ -1,18 +1,6 @@
 import { ChevronIcon } from './AudioIcons';
+import { relativeTime } from '../utils/time';
 import styles from './SectionListItem.module.css';
-
-function relativeTime(isoString) {
-  if (!isoString) return null;
-  const diff = Date.now() - new Date(isoString).getTime();
-  const minutes = Math.floor(diff / 60000);
-  if (minutes < 1) return 'たった今';
-  if (minutes < 60) return `${minutes}分前`;
-  const hours = Math.floor(minutes / 60);
-  if (hours < 24) return `${hours}時間前`;
-  const days = Math.floor(hours / 24);
-  if (days < 30) return `${days}日前`;
-  return `${Math.floor(days / 30)}ヶ月前`;
-}
 
 export default function SectionListItem({ title, subtitle, questionCount, playCount, accentColor, onClick, history, onReviewWrong }) {
   const accent = accentColor || 'var(--color-accent)';

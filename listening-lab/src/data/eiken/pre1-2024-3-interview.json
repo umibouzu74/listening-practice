@@ -1,0 +1,145 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2024-3-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2024年度 第3回",
+    "year": 2024,
+    "grade": "pre1",
+    "session": "2024-3",
+    "status": "draft"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2024-3-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a CEO who wanted to cut down on running costs.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a CEO was at her office."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a CEO was at her office. Looking at her computer, she noticed that the company's electricity bills had gone up sharply since the summer began. Her employees were all working in suits, and the air conditioner was running at full power. That afternoon, the CEO gathered her staff and explained two new rules. From then on, the air conditioner would be kept at 28 degrees, and they would be allowed to come to work in casual clothes such as polo shirts. The staff looked delighted with the change. A few weeks later, the CEO reminded her casually dressed employees that some clients would be visiting the office the following day. The thermostat on the wall still read 28 degrees. The next day, the CEO and her guests, who were all in suits and ties, were waiting in the meeting room. Then one of her employees walked in wearing a short-sleeved casual shirt. He looked shocked to realize that he was the only person who was not dressed formally.",
+          "modelAnswerJa": "ある日、ある CEO が自分のオフィスにいた。パソコンを見て、夏に入ってから会社の電気代が急に上がっていることに気づいた。社員はみなスーツ姿で働いていて、エアコンはフル稼働していた。その日の午後、CEO は社員を集めて 2 つの新しいルールを説明した。今後はエアコンを 28 度に設定し、ポロシャツなどの楽な服装で出勤してよいというものだった。社員たちはこの変更をとても喜んでいる様子だった。数週間後、CEO はカジュアルな服装の社員たちに、翌日に取引先が会社に来ることを念押しした。壁の温度計は相変わらず 28 度を示していた。翌日、CEO とスーツにネクタイ姿の来客たちが会議室で待っていた。そこへ社員の 1 人が半袖のカジュアルなシャツ姿で入ってきた。彼は、きちんとした服装をしていないのが自分だけだと気づき、ぼうぜんとしていた。",
+          "explanation": "コマごとに「何が起きたか」を 2 文前後で描写し、全体を過去形でまとめます。2〜4 コマ目の左上にある時間表現（That afternoon / A few weeks later / The next day）は、そのままコマの最初に使うと流れがはっきりします。2 コマ目の掲示（Air conditioner → 28°C / Dress Code → Casual）は、explained that ... would be kept at 28 degrees のように「CEO が伝えた内容」として文にします。3 コマ目の吹き出しは reminded them that some clients would be visiting the following day のように間接話法に直し、時制（will → would）と時の表現（tomorrow → the following day）をずらすのがポイントです。4 コマ目は絵から読み取れる状況（来客はスーツ、社員はカジュアル）を対比させ、人物の気持ちを looked shocked などで添えると、話の結末が伝わります。",
+          "checkpoints": [
+            "1コマ目: 電気代が上がっていること（グラフ）とエアコンの状況を描写できた",
+            "2コマ目: 「エアコン28℃」「服装はカジュアル」の2点を、CEOが伝えた内容として言えた",
+            "3コマ目: 吹き出しを間接話法（told / reminded them that ... would ...）にできた",
+            "4コマ目: スーツ姿の来客とカジュアルな社員の対比を描写できた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the CEO, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの CEO だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I should have told everyone to wear a suit today. Saving energy is important, but we can't look unprofessional in front of our clients. From now on, I'll make a clear rule about what to wear on days when visitors come.\"",
+          "modelAnswerJa": "「今日はスーツを着るよう全員に伝えておくべきだった。省エネは大切だが、取引先の前でだらしなく見えてはいけない。これからは、来客がある日の服装についてはっきりしたルールを作ろう」と考えていると思います。",
+          "explanation": "No.1 は I'd be thinking, \"...\" か I'd be thinking that ... で始め、絵の人物の立場から考えを述べます。引用符を使う形なら、中身は現在形・I を主語にして自然に話せます。「反省（should have + 過去分詞）」と「今後どうするか（From now on, I'll ...）」の 2 文構成にすると、短くてもまとまった答えになります。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do young people these days state their opinions enough?",
+          "promptJa": "最近の若者は、自分の意見を十分に述べていると思いますか。",
+          "modelAnswer": "Yes, I think so. Young people today grow up sharing their thoughts on social media every day, so they are used to expressing themselves. Many of them also take part in online discussions about social issues such as the environment, which shows that they are not afraid to speak up.",
+          "modelAnswerJa": "はい、そう思います。今の若者は毎日 SNS で自分の考えを発信しながら育っているので、自己表現に慣れています。また、環境などの社会問題についてのオンラインの議論に参加する若者も多く、意見を言うことをためらわないことがわかります。",
+          "explanation": "No.2〜4 は最初に Yes / No で立場をはっきりさせ、そのあとに理由を 2 文ほど続けます。理由は「一般論 → 具体例」の順に並べると説得力が出ます。ここでは「SNS で発信に慣れている」→「社会問題の議論にも参加している」と具体化しています。No の立場なら「周りに合わせようとして本音を言わない」などの理由も考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Will people change their occupations more easily in the future?",
+          "promptJa": "将来、人々はより簡単に職業を変えるようになるでしょうか。",
+          "modelAnswer": "Yes, I think so. The idea of working for one company for life is becoming less common in Japan. Also, there are more and more online courses, so people can learn new skills while they are still working. This will make it easier for them to move into a different field.",
+          "modelAnswerJa": "はい、そう思います。日本では、1 つの会社で一生働くという考え方が以前ほど一般的ではなくなっています。また、オンライン講座がどんどん増えているので、働きながら新しい技能を身につけることができます。そのため、別の分野に移ることがより簡単になるでしょう。",
+          "explanation": "「社会の意識の変化（終身雇用の減少）」と「環境の変化（オンライン講座で学び直しがしやすい）」という、種類の違う理由を 2 つ挙げています。最後の This will make it easier for ... で質問の内容（change their occupations more easily）に戻ると、答えがきれいに締まります。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Global warming is a topic of discussion all over the world. Should the problems of climate change be taught more at school?",
+          "promptJa": "地球温暖化は世界中で議論されている話題です。気候変動の問題は、学校でもっと教えられるべきでしょうか。",
+          "modelAnswer": "Yes, they should. Today's students are the ones who will have to live with the effects of climate change the longest. If they learn about its causes at school, they will understand why actions like saving electricity and reducing plastic waste matter, and they may also share what they learn with their families.",
+          "modelAnswerJa": "はい、そうすべきです。今の生徒たちこそ、気候変動の影響の中で最も長く暮らしていかなければならない人たちです。学校でその原因を学べば、節電やプラスチックごみの削減といった行動がなぜ大切なのかを理解でき、学んだことを家族に伝えることもあるでしょう。",
+          "explanation": "No.4 は社会問題についての問いで、前置きの文（Global warming is ...）のあとに本当の質問が来ます。Should ...? には Yes, they should. / No, they shouldn't. と答えると自然です。理由では「なぜ子どもが学ぶべきか」と「学ぶと何が変わるか」を具体的な行動（節電・プラごみ削減）と結びつけています。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2024-3-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a CEO who wanted to improve his employees' English skills.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a CEO was making an announcement to his staff."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a CEO was making an announcement to his staff. He said that the company was going to offer online English lessons, and that employees could take them during working hours. The staff clapped their hands, looking excited about the opportunity. A few days later, one of the employees was sitting at her desk with a headset on, studying English on her computer. She seemed to be enjoying the lesson. Several months later, the same woman was giving a presentation in English to a group of foreign businesspeople. One of her colleagues was impressed and commented that her English had really improved. A month later, however, she came to the CEO's office with a letter of resignation in her hand. She told him that she had found a job abroad. The CEO looked very surprised to hear that.",
+          "modelAnswerJa": "ある日、ある CEO が社員に向けて発表をしていた。会社がオンラインの英語レッスンを提供すること、そして社員は勤務時間中にそれを受講できることを伝えた。社員たちはこの機会に心を躍らせた様子で拍手をした。数日後、社員の 1 人がヘッドセットをつけて自分の席に座り、パソコンで英語を勉強していた。彼女はレッスンを楽しんでいるようだった。数か月後、その同じ女性が外国人のビジネス客たちに英語でプレゼンテーションをしていた。同僚の 1 人は感心し、彼女の英語は本当に上達したと口にした。ところが 1 か月後、彼女は辞表を手に CEO の部屋へやって来た。海外で仕事が見つかったと彼に告げたのだ。CEO はそれを聞いてとても驚いた様子だった。",
+          "explanation": "同じ女性が 2〜4 コマ目に続けて登場するので、one of the employees → the same woman → she と指し方を変えて「同じ人物の話」だとわかるようにします。1 コマ目と 3・4 コマ目の吹き出しは、said that ... / commented that ... / told him that she had found ... のように間接話法に直します（found は過去完了の had found に）。4 コマ目は 3 コマ目までの流れと逆の結末なので、however を入れると話の展開がはっきりします。",
+          "checkpoints": [
+            "1コマ目: オンライン英語レッスンを勤務時間中に受けられることを伝えられた",
+            "2コマ目: 女性社員がパソコンで英語を学んでいる様子を描写できた",
+            "3コマ目: 英語でのプレゼンと同僚の発言（間接話法）を描写できた",
+            "4コマ目: 辞表と「海外で仕事が見つかった」を伝え、however などで展開の変化を示せた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the CEO, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの CEO だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I'm disappointed that she's leaving, but I'm proud that our program helped her grow so much. Next time, I should give our staff more chances to use their English inside the company so that talented people want to stay.\"",
+          "modelAnswerJa": "「彼女が辞めてしまうのは残念だが、うちのプログラムで彼女がこんなに成長したことは誇らしい。次は、優秀な人材が残りたいと思うように、社内で英語を使う機会をもっと社員に与えるべきだ」と考えていると思います。",
+          "explanation": "残念な気持ちだけで終わらせず、「よかった点」と「次にどうするか」まで言うと、前向きでまとまった答えになります。I'm disappointed that ..., but I'm proud that ... のように、but で 2 つの気持ちを対比させる形は No.1 で使いやすい型です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think that a university education is necessary for everyone?",
+          "promptJa": "大学教育はすべての人に必要だと思いますか。",
+          "modelAnswer": "No, I don't think so. Some people want to work in jobs that need practical skills, such as cooking or building houses. For them, going to a vocational school or learning on the job can be more useful than spending four years at a university.",
+          "modelAnswerJa": "いいえ、そうは思いません。料理や家を建てる仕事のように、実践的な技能が必要な仕事に就きたい人もいます。そうした人にとっては、大学で 4 年間過ごすより、専門学校に行ったり働きながら学んだりするほうが役に立つこともあります。",
+          "explanation": "質問に everyone が入っているので、「全員に必要か」という点で No の立場は取りやすくなります。理由では、大学以外の学び方（vocational school / learning on the job）を具体的に示しています。Yes の立場なら「幅広い教養や考える力は、どの仕事にも役立つ」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do you think that robots will take over all human jobs in the future?",
+          "promptJa": "将来、ロボットが人間の仕事をすべて奪うと思いますか。",
+          "modelAnswer": "No, I don't think so. As robots become more common, new kinds of jobs will appear, such as designing, managing, and repairing them. In addition, in fields like nursing and counseling, people will still want to be supported by other humans.",
+          "modelAnswerJa": "いいえ、そうは思いません。ロボットが普及するにつれて、ロボットの設計や管理、修理といった新しい種類の仕事が生まれるでしょう。さらに、介護やカウンセリングのような分野では、人々はやはり人間に支えてもらいたいと思うはずです。",
+          "explanation": "all human jobs という強い言い方に対しては、No の立場で「例外」を示すと答えやすくなります。ここでは「ロボットに関わる新しい仕事が生まれる」「人の支えが求められる分野は残る」という 2 つの観点を In addition でつないでいます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Companies have many different responsibilities. Do employers do enough to provide their workers with a good work-life balance?",
+          "promptJa": "企業にはさまざまな責任があります。雇用主は、従業員がよいワークライフバランスを保てるよう十分なことをしているでしょうか。",
+          "modelAnswer": "No, I don't think they do. Some companies have introduced remote work, but many employees still work long hours of overtime. Also, in many workplaces, it is hard to take paid holidays because people worry about causing trouble for their coworkers. Employers should create an atmosphere where workers can rest without feeling guilty.",
+          "modelAnswerJa": "いいえ、十分ではないと思います。在宅勤務を導入した会社もありますが、多くの社員は今も長時間の残業をしています。また、多くの職場では、同僚に迷惑をかけるのではと心配して有給休暇を取りにくくなっています。雇用主は、社員が後ろめたさを感じずに休める雰囲気をつくるべきです。",
+          "explanation": "「改善している点もあるが（Some companies have ..., but ...）、まだ不十分」という譲歩を入れると、一方的でないバランスのよい意見になります。最後に Employers should ... と具体的な提案で締めると、No の理由がよりはっきり伝わります。"
+        }
+      ]
+    }
+  ]
+}

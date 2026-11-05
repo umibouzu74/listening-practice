@@ -21,6 +21,11 @@ export function isDraft(examSet) {
   return examSet?.meta?.status === 'draft';
 }
 
+/** 英検二次試験（面接）形式の試験セットか。format がなければリスニング */
+export function isInterview(examSet) {
+  return examSet?.format === 'interview';
+}
+
 /** 指定した試験種別の全試験セット（目次）を返す */
 export function getExamSets(examType) {
   return byType[examType] || [];

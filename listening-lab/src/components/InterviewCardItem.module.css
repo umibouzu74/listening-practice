@@ -1,0 +1,100 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px 12px;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.doneMark {
+  flex-shrink: 0;
+  padding: 2px 6px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.history {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-correct);
+}
+
+.story {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.stat {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid var(--color-border);
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 52px;
+  padding: 10px 12px 10px 16px;
+  border: none;
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--color-text-muted);
+  text-align: left;
+}
+
+.action + .action {
+  border-left: 1px solid var(--color-border);
+}
+
+.action:active {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.actionText {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.actionLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--item-accent);
+}
+
+.actionHint {
+  font-size: 11px;
+  color: var(--color-text-muted);
+}

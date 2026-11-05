@@ -1,0 +1,104 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+}
+
+.title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.instruction {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: var(--color-text-secondary);
+}
+
+.story {
+  color: var(--color-text-primary);
+  text-decoration: underline;
+  text-decoration-color: var(--color-border-hover);
+  text-underline-offset: 3px;
+}
+
+.beginLabel {
+  margin-top: 6px;
+}
+
+.firstSentence {
+  font-weight: 700;
+  color: var(--color-text-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.imageScroll {
+  overflow-x: auto;
+  border-radius: var(--radius-sm);
+  background: #fff;
+  -webkit-overflow-scrolling: touch;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.scrollHint {
+  display: none;
+  font-size: 0.7rem;
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+/* スマホ幅: 4コマを横長のまま縮めると小さすぎるので、高さを保って横スクロールにする */
+@media (max-width: 600px) {
+  .image {
+    width: auto;
+    max-width: none;
+    height: 200px;
+  }
+
+  .scrollHint {
+    display: block;
+  }
+}
+
+/* カードを伏せた状態 */
+.back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 140px;
+  padding: 20px 16px;
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--color-border-hover);
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.02) 0 10px,
+    rgba(255, 255, 255, 0.04) 10px 20px
+  );
+  text-align: center;
+}
+
+.backTitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.backNote {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}

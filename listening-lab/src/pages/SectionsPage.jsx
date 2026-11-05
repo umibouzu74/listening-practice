@@ -1,9 +1,11 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import SectionListItem from '../components/SectionListItem';
+import InterviewCardItem from '../components/InterviewCardItem';
 import { getExamColor } from '../utils/examConfig';
-import { getExamSummary, isDraft, countQuestions } from '../data/registry';
+import { getExamSummary, isDraft, isInterview, countQuestions } from '../data/registry';
 import { getRecord, recordKey } from '../utils/history';
+import { getInterviewRecord, summarizeInterview } from '../utils/interviewHistory';
 import styles from './SectionsPage.module.css';
 
 export default function SectionsPage() {
@@ -24,11 +26,59 @@ export default function SectionsPage() {
   }
 
   const { meta, sections, instructions } = examSet;
+  const practicePath = (sectionId, mode) =>
+    `/${examType}/${examId}/${sectionId}${mode ? `?mode=${mode}` : ''}`;
+
+  // 面接（二次試験）: 問題カードの一覧。各カードから練習形式・本番形式を選ぶ
+  if (isInterview(examSet)) {
+    const histories = sections.map((s) => summarizeInterview(getInterviewRecord(examId, s.id)));
+    const practicedCount = histories.filter(Boolean).length;
+    return (
+      <div className={styles.page}>
+        <Header onBack={() => navigate(`/${examType}`)} accentColor={accent} />
+        <div className={styles.content}>
+          <div className={styles.examHeader}>
+            <h2 className={styles.examTitle}>{meta.title}</h2>
+            {meta.subtitle && <p className={styles.examSubtitle}>{meta.subtitle}</p>}
+            {practicedCount > 0 && (
+              <div className={styles.overallProgress}>
+                <span>{practicedCount}/{sections.length} 枚のカードを練習済み</span>
+                <div className={styles.overallTrack}>
+                  <div
+                    className={styles.overallFill}
+                    style={{ width: `${(practicedCount / sections.length) * 100}%`, background: accent }}
+                  />
+                </div>
+              </div>
+            )}
+          </div>
+
+          <div className={styles.instructions}>
+            {instructions ||
+              '問題カードを選んで練習します。練習形式ではナレーションと No.1〜4 を1つずつ何度でもやり直せます。本番形式では黙読1分 → ナレーション2分 → No.1〜4 を本番どおりの流れで通します。録音は端末の中だけで扱い、外部には送信しません。'}
+          </div>
+
+          <div className={styles.list}>
+            {sections.map((section, i) => (
+              <InterviewCardItem
+                key={section.id}
+                title={section.title}
+                story={section.story}
+                accentColor={accent}
+                history={histories[i]}
+                onPractice={() => navigate(practicePath(section.id))}
+                onExam={() => navigate(practicePath(section.id, 'exam'))}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   const sectionRecords = sections.map((s) => getRecord(recordKey(examId, s.id)));
   const allRecord = getRecord(recordKey(examId, 'all'));
   const completedCount = sectionRecords.filter(Boolean).length;
-  const practicePath = (sectionId, mode) =>
-    `/${examType}/${examId}/${sectionId}${mode ? `?mode=${mode}` : ''}`;
 
   return (
     <div className={styles.page}>
