@@ -55,6 +55,33 @@ const EXAM_TYPES = {
 export default EXAM_TYPES;
 
 /**
+ * 英検二次試験（面接）の進行設定。時間はすべて秒。
+ * 準1級: 黙読1分 → ナレーション2分 → No.1（カードを見る）→ カードを伏せる → No.2〜4
+ */
+export const INTERVIEW_CONFIG = {
+  /** 黙読（準備）時間 */
+  prepSeconds: 60,
+  /** ナレーションの制限時間 */
+  narrationSeconds: 120,
+  /** ナレーションの残り時間がこれ以下になったらカウントダウンの色を変える */
+  narrationWarnSeconds: 15,
+  /** No.1〜4 の回答時間の目安。超えると経過時間の色が変わる（厳密な制限ではない） */
+  answerTargetSeconds: { 1: 20, 2: 30, 3: 30, 4: 30 },
+  /** 読み上げ（speechSynthesis）の速さ */
+  speechRate: 0.95,
+  /** 面接官の決まり文句（音声ファイルがないときは読み上げる） */
+  phrases: {
+    prep: 'Here is your card. You have one minute to prepare before you start your narration.',
+    narrationStart: 'All right. Please begin your narration. You have two minutes.',
+    qaIntro: "Thank you. Now, I'm going to ask you four questions.",
+    turnOver: 'Now, please turn over the card and put it down.',
+    // {n} は質問番号に置き換える
+    questionNumber: 'Number {n}.',
+    end: 'All right. This is the end of the test. Thank you.',
+  },
+};
+
+/**
  * 試験種別の設定オブジェクトを返す
  */
 export function getExamType(examType) {

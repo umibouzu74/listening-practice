@@ -2,6 +2,7 @@ import { useLocation, useNavigate, useParams, useSearchParams } from 'react-rout
 import Header from '../components/Header';
 import PracticePage from './PracticePage';
 import ExamModePage from './ExamModePage';
+import InterviewExamPage from './InterviewExamPage';
 import useExamSet from '../hooks/useExamSet';
 import { isDraft, isInterview } from '../data/registry';
 import { getExamColor } from '../utils/examConfig';
@@ -12,7 +13,7 @@ import styles from './PracticePage.module.css';
  * 「次のセクションへ」など同じルート内の遷移でも状態をリセットするため、遷移ごとに作り直す。
  */
 export default function PracticeRoute() {
-  const { examType, examId } = useParams();
+  const { examType, examId, sectionId } = useParams();
   const [searchParams] = useSearchParams();
   const location = useLocation();
   const navigate = useNavigate();
@@ -42,12 +43,19 @@ export default function PracticeRoute() {
     );
   }
 
-  // 面接（二次試験）の練習・本番画面は次の段階で追加する。それまではリスニング用の画面に渡さない
+  // 面接（二次試験）: 問題カード1枚ごとに練習形式・本番形式を開く
   if (isInterview(examSet)) {
+    const section = examSet.sections.find((s) => s.id === sectionId);
+    if (section && searchParams.get('mode') === 'exam') {
+      return <InterviewExamPage key={location.key} examSet={examSet} section={section} />;
+    }
+    // 練習形式は次の段階で追加する
     return (
       <div className={styles.page}>
         <Header onBack={() => navigate(`/${examType}/${examId}`)} accentColor={accent} />
-        <div className={styles.empty}>面接の練習画面は準備中です</div>
+        <div className={styles.empty}>
+          {section ? '面接の練習形式は準備中です' : '問題カードが見つかりません'}
+        </div>
       </div>
     );
   }
