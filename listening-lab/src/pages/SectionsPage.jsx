@@ -5,6 +5,7 @@ import InterviewCardItem from '../components/InterviewCardItem';
 import { getExamColor } from '../utils/examConfig';
 import { getExamSummary, isDraft, isInterview, countQuestions } from '../data/registry';
 import { getRecord, recordKey } from '../utils/history';
+import { getInterviewRecord, summarizeInterview } from '../utils/interviewHistory';
 import styles from './SectionsPage.module.css';
 
 export default function SectionsPage() {
@@ -30,6 +31,8 @@ export default function SectionsPage() {
 
   // 面接（二次試験）: 問題カードの一覧。各カードから練習形式・本番形式を選ぶ
   if (isInterview(examSet)) {
+    const histories = sections.map((s) => summarizeInterview(getInterviewRecord(examId, s.id)));
+    const practicedCount = histories.filter(Boolean).length;
     return (
       <div className={styles.page}>
         <Header onBack={() => navigate(`/${examType}`)} accentColor={accent} />
@@ -37,6 +40,17 @@ export default function SectionsPage() {
           <div className={styles.examHeader}>
             <h2 className={styles.examTitle}>{meta.title}</h2>
             {meta.subtitle && <p className={styles.examSubtitle}>{meta.subtitle}</p>}
+            {practicedCount > 0 && (
+              <div className={styles.overallProgress}>
+                <span>{practicedCount}/{sections.length} 枚のカードを練習済み</span>
+                <div className={styles.overallTrack}>
+                  <div
+                    className={styles.overallFill}
+                    style={{ width: `${(practicedCount / sections.length) * 100}%`, background: accent }}
+                  />
+                </div>
+              </div>
+            )}
           </div>
 
           <div className={styles.instructions}>
@@ -45,12 +59,13 @@ export default function SectionsPage() {
           </div>
 
           <div className={styles.list}>
-            {sections.map((section) => (
+            {sections.map((section, i) => (
               <InterviewCardItem
                 key={section.id}
                 title={section.title}
                 story={section.story}
                 accentColor={accent}
+                history={histories[i]}
                 onPractice={() => navigate(practicePath(section.id))}
                 onExam={() => navigate(practicePath(section.id, 'exam'))}
               />

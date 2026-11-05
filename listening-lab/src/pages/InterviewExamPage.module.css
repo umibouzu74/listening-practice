@@ -285,6 +285,37 @@
   margin-top: 12px;
 }
 
+.totalBox {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin-bottom: 12px;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--accent);
+  background: var(--color-bg-card);
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+}
+
+.totalBox strong {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  color: var(--color-text-primary);
+}
+
+.totalBox small {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.totalNote {
+  margin-left: auto;
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+}
+
 .footerButtons {
   display: flex;
   flex-direction: column;

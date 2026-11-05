@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import PracticePage from './PracticePage';
 import ExamModePage from './ExamModePage';
 import InterviewExamPage from './InterviewExamPage';
+import InterviewPracticePage from './InterviewPracticePage';
 import useExamSet from '../hooks/useExamSet';
 import { isDraft, isInterview } from '../data/registry';
 import { getExamColor } from '../utils/examConfig';
@@ -46,18 +47,18 @@ export default function PracticeRoute() {
   // 面接（二次試験）: 問題カード1枚ごとに練習形式・本番形式を開く
   if (isInterview(examSet)) {
     const section = examSet.sections.find((s) => s.id === sectionId);
-    if (section && searchParams.get('mode') === 'exam') {
+    if (!section) {
+      return (
+        <div className={styles.page}>
+          <Header onBack={() => navigate(`/${examType}/${examId}`)} accentColor={accent} />
+          <div className={styles.empty}>問題カードが見つかりません</div>
+        </div>
+      );
+    }
+    if (searchParams.get('mode') === 'exam') {
       return <InterviewExamPage key={location.key} examSet={examSet} section={section} />;
     }
-    // 練習形式は次の段階で追加する
-    return (
-      <div className={styles.page}>
-        <Header onBack={() => navigate(`/${examType}/${examId}`)} accentColor={accent} />
-        <div className={styles.empty}>
-          {section ? '面接の練習形式は準備中です' : '問題カードが見つかりません'}
-        </div>
-      </div>
-    );
+    return <InterviewPracticePage key={location.key} examSet={examSet} section={section} />;
   }
 
   if (searchParams.get('mode') === 'exam') {

@@ -3,13 +3,15 @@ import { useNavigate, useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import InterviewCard from '../components/InterviewCard';
 import InterviewReview from '../components/InterviewReview';
-import useAudioPlayer from '../hooks/useAudioPlayer';
+import SelfScore from '../components/SelfScore';
+import useQuestionAudio from '../hooks/useQuestionAudio';
 import useRecorder from '../hooks/useRecorder';
 import useWakeLock from '../hooks/useWakeLock';
 import { getExamColor, INTERVIEW_CONFIG } from '../utils/examConfig';
 import { formatTime } from '../utils/audio';
-import { buildExamStages } from '../utils/interview';
-import { speak, cancelSpeech, isSpeechSupported, primeVoices, unlockSpeech } from '../utils/speech';
+import { buildExamStages, checkpointsFor, getInterviewSteps, runCue } from '../utils/interview';
+import { maxScoreOf, recordExamFinished, setExamScore, totalScore } from '../utils/interviewHistory';
+import { cancelSpeech, isSpeechSupported, primeVoices, unlockSpeech } from '../utils/speech';
 import styles from './InterviewExamPage.module.css';
 
 // 進行状態
@@ -54,12 +56,16 @@ export default function InterviewExamPage({ examSet, section }) {
   const accent = getExamColor(examType);
   const stages = useMemo(() => buildExamStages(section), [section]);
   const progressStages = useMemo(() => stages.filter((s) => s.kind !== 'closing'), [stages]);
+  const steps = useMemo(() => getInterviewSteps(section), [section]);
 
   const [state, dispatch] = useReducer(reducer, INITIAL);
   const [now, setNow] = useState(0);
   const [recordings, setRecordings] = useState({});
   // 読み上げ・音声が使えず、質問文を画面に出したステージ
   const [textFallback, setTextFallback] = useState({});
+  // 振り返りでの自己採点（この回の分）と、履歴に保存した回の ID
+  const [scores, setScores] = useState({});
+  const [examRunId, setExamRunId] = useState(null);
 
   const recorder = useRecorder();
   const {
@@ -74,23 +80,7 @@ export default function InterviewExamPage({ examSet, section }) {
   // 質問の音声ファイル（あるときだけ）。useAudioPlayer で再生し、終わったら次へ
   const cueSegments = stage && speaking ? (state.sub === 'replay' ? stage.replay : stage.cue) : null;
   const cueAudioSrc = cueSegments?.find((s) => s.audio)?.audio || null;
-  const questionAudio = useAudioPlayer(cueAudioSrc);
-  const { play: playQuestion, pause: pauseQuestion, isPlaying: questionPlaying, isEnded: questionEnded, error: questionError } = questionAudio;
-  const audioWaiterRef = useRef(null);
-  const questionPlayingRef = useRef(false);
-
-  useEffect(() => {
-    questionPlayingRef.current = questionPlaying;
-  }, [questionPlaying]);
-
-  useEffect(() => {
-    const resolve = audioWaiterRef.current;
-    if (!resolve) return;
-    if (questionEnded || questionError) {
-      audioWaiterRef.current = null;
-      resolve(questionEnded);
-    }
-  }, [questionEnded, questionError]);
+  const { playFile, stop: stopQuestionAudio } = useQuestionAudio(cueAudioSrc);
 
   useWakeLock(inProgress);
 
@@ -105,41 +95,21 @@ export default function InterviewExamPage({ examSet, section }) {
     if (!cueKey) return;
     const current = stages[state.index];
     const isReplay = state.sub === 'replay';
-    const segments = isReplay ? current.replay : current.cue;
-    const rate = INTERVIEW_CONFIG.speechRate;
     let cancelled = false;
-
-    const playFile = () =>
-      new Promise((resolve) => {
-        audioWaiterRef.current = resolve;
-        playQuestion();
-        // 自動再生の制限などで再生が始まらないときは読み上げに切り替える
-        setTimeout(() => {
-          if (audioWaiterRef.current === resolve && !questionPlayingRef.current) {
-            audioWaiterRef.current = null;
-            pauseQuestion();
-            resolve(false);
-          }
-        }, 4000);
-      });
 
     (async () => {
       // 質問を聞き直している間は録音しない
       if (isReplay) pauseRecording();
-      let questionVoiced = true;
-      for (const seg of segments) {
-        if (cancelled) return;
-        let ok = seg.audio ? await playFile() : false;
-        if (cancelled) return;
-        if (!ok) ok = await speak(seg.text, { rate });
-        if (cancelled) return;
-        if (seg.isQuestion && !ok) questionVoiced = false;
-      }
-      if (cancelled) return;
-      if (!questionVoiced) setTextFallback((prev) => ({ ...prev, [current.id]: true }));
+      const result = await runCue(isReplay ? current.replay : current.cue, {
+        playFile,
+        isCancelled: () => cancelled,
+      });
+      if (!result) return;
+      if (!result.questionVoiced) setTextFallback((prev) => ({ ...prev, [current.id]: true }));
 
       if (current.kind === 'closing') {
         releaseMic();
+        setExamRunId(recordExamFinished(examId, section.id));
         dispatch({ type: 'next', from: state.index, total: stages.length });
         return;
       }
@@ -150,11 +120,10 @@ export default function InterviewExamPage({ examSet, section }) {
 
     return () => {
       cancelled = true;
-      audioWaiterRef.current = null;
       cancelSpeech();
-      pauseQuestion();
+      stopQuestionAudio();
     };
-  }, [cueKey, stages, state.index, state.sub, playQuestion, pauseQuestion, startRecording, pauseRecording, resumeRecording, releaseMic]);
+  }, [cueKey, stages, state.index, state.sub, playFile, stopQuestionAudio, startRecording, pauseRecording, resumeRecording, releaseMic, examId, section.id]);
 
   // 受験者の番を終えて次のステージへ（録音していれば止めて保存する）
   const finishingRef = useRef(false);
@@ -195,7 +164,19 @@ export default function InterviewExamPage({ examSet, section }) {
   const begin = () => {
     setRecordings({});
     setTextFallback({});
+    setScores({});
+    setExamRunId(null);
     dispatch({ type: 'start' });
+  };
+
+  const handleScore = (q, score) => {
+    setScores((prev) => {
+      const next = { ...prev };
+      if (typeof score === 'number') next[q.id] = score;
+      else delete next[q.id];
+      return next;
+    });
+    if (examRunId) setExamScore(examId, section.id, examRunId, q.id, score, steps);
   };
 
   const handleStart = async () => {
@@ -212,6 +193,8 @@ export default function InterviewExamPage({ examSet, section }) {
     discardAll();
     setRecordings({});
     setTextFallback({});
+    setScores({});
+    setExamRunId(null);
     dispatch({ type: 'reset' });
   };
 
@@ -231,6 +214,9 @@ export default function InterviewExamPage({ examSet, section }) {
 
   // --- 振り返り ---
   if (state.sub === 'review') {
+    const total = totalScore(scores, steps);
+    const maxTotal = steps.reduce((sum, q) => sum + maxScoreOf(q), 0);
+    const scoredCount = steps.filter((q) => typeof scores[q.id] === 'number').length;
     return (
       <div className={styles.page} style={{ '--accent': accent }}>
         <Header onBack={handleBack} accentColor={accent} />
@@ -239,13 +225,35 @@ export default function InterviewExamPage({ examSet, section }) {
           <div className={styles.reviewIntro}>
             <p className={styles.reviewHeading}>お疲れさまでした。振り返りましょう</p>
             <p>
-              自分の録音を聞き、模範解答・解説と比べてみましょう。録音はこの端末のメモリ上にだけあり、
-              画面を離れると消えます。
+              自分の録音を聞き、模範解答・解説と比べながら自己採点してみましょう。録音はこの端末のメモリ上にだけあり、
+              画面を離れると消えます（自己採点は端末に保存されます）。
             </p>
+          </div>
+          <div className={styles.totalBox}>
+            <span>自己採点の合計</span>
+            <strong>
+              {total ?? '–'} <small>/ {maxTotal}</small>
+            </strong>
+            <span className={styles.totalNote}>
+              {total === null ? `採点済み ${scoredCount}/${steps.length}` : 'アティチュード（3点）は含みません'}
+            </span>
           </div>
           <InterviewCard card={section.card} title={section.title} />
           <div className={styles.reviewList}>
-            <InterviewReview section={section} recordings={recordings} accentColor={accent} />
+            <InterviewReview
+              section={section}
+              recordings={recordings}
+              accentColor={accent}
+              renderExtra={(q) => (
+                <SelfScore
+                  max={maxScoreOf(q)}
+                  value={scores[q.id] ?? null}
+                  onChange={(score) => handleScore(q, score)}
+                  checkpoints={checkpointsFor(q)}
+                  accentColor={accent}
+                />
+              )}
+            />
           </div>
           <div className={styles.footerButtons}>
             <button className={styles.primaryButton} onClick={handleRestart}>

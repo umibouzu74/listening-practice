@@ -1,5 +1,6 @@
 // 英検二次試験（面接）形式のデータを扱うユーティリティ
 import { INTERVIEW_CONFIG } from './examConfig';
+import { speak } from './speech';
 
 /** カード1枚分の問題を「ナレーション → No.1 → … → No.4」の順で返す */
 export function getInterviewSteps(section) {
@@ -24,9 +25,36 @@ export function answerTargetSeconds(q) {
   return INTERVIEW_CONFIG.answerTargetSeconds[q.number] ?? 30;
 }
 
-function questionSegment(q) {
-  // 音声ファイルがあればそれを流し、再生できなければ読み上げに切り替える
+/** 質問1つ分の発話。音声ファイルがあればそれを流し、再生できなければ読み上げに切り替える */
+export function questionSegment(q) {
   return { audio: q.audio || null, text: spokenQuestion(q), isQuestion: true };
+}
+
+/** 自己採点の横に出す観点（共通の観点 + カードごとの checkpoints） */
+export function checkpointsFor(q) {
+  const common = INTERVIEW_CONFIG.checkpoints;
+  const base = q.type === 'narration' ? common.narration : q.showCard ? common.picture : common.opinion;
+  return [...(q.checkpoints || []), ...base];
+}
+
+/**
+ * 面接官の発話（決まり文句・質問）を順に流す。
+ * segments: [{ text, audio?, isQuestion? }]
+ * playFile: 音声ファイルを流す関数（useQuestionAudio の playFile）
+ * 中断されたら null、最後まで流れたら { questionVoiced }（質問を音声で伝えられたか）を返す
+ */
+export async function runCue(segments, { playFile, isCancelled }) {
+  const rate = INTERVIEW_CONFIG.speechRate;
+  let questionVoiced = true;
+  for (const seg of segments) {
+    if (isCancelled()) return null;
+    let ok = seg.audio ? await playFile() : false;
+    if (isCancelled()) return null;
+    if (!ok) ok = await speak(seg.text, { rate });
+    if (isCancelled()) return null;
+    if (seg.isQuestion && !ok) questionVoiced = false;
+  }
+  return { questionVoiced };
 }
 
 /**

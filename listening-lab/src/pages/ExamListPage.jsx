@@ -4,6 +4,7 @@ import ExamSetCard from '../components/ExamSetCard';
 import { getExamType, getGradeLabel, getGradeOrder, getPrefectureLabel } from '../utils/examConfig';
 import { getExamSets, isInterview } from '../data/registry';
 import { getRecord, recordKey } from '../utils/history';
+import { getInterviewRecord } from '../utils/interviewHistory';
 import styles from './ExamListPage.module.css';
 
 // 同じグループ（英検の級など）の中を、リスニングと面接（二次試験）に分けて表示する
@@ -109,7 +110,11 @@ export default function ExamListPage() {
                         examSet={examSet}
                         accentColor={config.color}
                         completedSections={
-                          examSet.sections.filter((sec) => getRecord(recordKey(examSet.id, sec.id))).length
+                          examSet.sections.filter((sec) =>
+                            isInterview(examSet)
+                              ? getInterviewRecord(examSet.id, sec.id)
+                              : getRecord(recordKey(examSet.id, sec.id))
+                          ).length
                         }
                         onClick={() => navigate(`/${examType}/${examSet.id}`)}
                       />
