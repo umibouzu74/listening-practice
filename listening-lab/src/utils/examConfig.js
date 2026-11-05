@@ -6,7 +6,7 @@ const EXAM_TYPES = {
     label: "英検",
     icon: "🏅",
     color: "#3498db",
-    description: "英検 リスニング演習（準1級）",
+    description: "英検 リスニング・二次試験（面接）演習（準1級）",
     groupBy: "grade",
     sortOrder: "desc",
     // 表示順（上から）

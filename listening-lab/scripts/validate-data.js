@@ -6,10 +6,13 @@
  * エラー（終了コード 1）:
  *   - JSON 構文エラー、必須項目の欠落、ID の重複
  *   - 正解（answer）が選択肢のラベルに存在しない
- *   - 参照している音声ファイルが public/ に存在しない
+ *   - 参照している音声・画像ファイルが public/ に存在しない
+ *   - 面接形式（"format": "interview"）: カード画像・指示文・最初の一文の欠落、
+ *     ナレーションと No.1〜4 がそろっていない、質問文（prompt）の欠落
  * 警告（終了コードには影響しない）:
  *   - script / explanation / scriptJa の欠落
  *   - 英文スクリプトと和訳の段落数の不一致
+ *   - 面接形式: modelAnswer / modelAnswerJa / explanation の欠落
  *
  * 使い方:
  *   npm run validate
@@ -23,6 +26,10 @@ const ROOT = resolve(".");
 const DATA_DIR = join(ROOT, "src", "data");
 const PUBLIC_DIR = join(ROOT, "public");
 const EXAM_TYPES = ["kyotsu", "eiken", "toeic", "nyushi", "custom"];
+// format を省略したデータはリスニング（"listening"）として扱う
+const FORMATS = ["listening", "interview"];
+// 面接形式で必要な質問（ナレーション + No.1〜4）
+const INTERVIEW_QA_NUMBERS = [1, 2, 3, 4];
 const quiet = process.argv.includes("--quiet");
 
 const errors = [];
@@ -31,16 +38,72 @@ const examIds = new Map();
 
 const nonEmptyLines = (s) => (s || "").split("\n").filter((l) => l.trim());
 
-function checkAudio(where, path) {
+function checkPublicFile(where, path, kind) {
   if (!path) return;
   if (/^https?:\/\//.test(path)) return;
   if (path.startsWith("/")) {
-    errors.push(`${where}: 音声パスは先頭に / を付けない相対パスにしてください（${path}）`);
+    errors.push(`${where}: ${kind}パスは先頭に / を付けない相対パスにしてください（${path}）`);
     return;
   }
   const full = join(PUBLIC_DIR, path);
   if (!existsSync(full) || !statSync(full).isFile()) {
-    errors.push(`${where}: 音声ファイルが見つかりません: public/${path}`);
+    errors.push(`${where}: ${kind}ファイルが見つかりません: public/${path}`);
+  }
+}
+
+const checkAudio = (where, path) => checkPublicFile(where, path, "音声");
+const checkImage = (where, path) => checkPublicFile(where, path, "画像");
+
+/**
+ * 面接形式（英検二次試験）のセクション（問題カード1枚）を検証する。
+ * 選択肢・正解はないので、カードと質問がそろっているかを見る。
+ */
+function validateInterviewSection(sw, section, draft, missing) {
+  const card = section.card;
+  if (!card || typeof card !== "object") {
+    errors.push(`${sw}: card（問題カード）がありません`);
+  } else {
+    if (!card.image) errors.push(`${sw}: card.image（カード画像）がありません`);
+    checkImage(sw, card.image);
+    if (!card.instruction?.trim()) errors.push(`${sw}: card.instruction（カードの指示文）がありません`);
+    if (!card.firstSentence?.trim()) errors.push(`${sw}: card.firstSentence（ナレーションの最初の一文）がありません`);
+  }
+
+  const questions = section.questions || [];
+  const questionIds = new Set();
+  const narrations = questions.filter((q) => q.type === "narration");
+  if (narrations.length !== 1) {
+    errors.push(`${sw}: type "narration" の問題がちょうど1つ必要です（現在 ${narrations.length} 個）`);
+  }
+  const qaNumbers = [];
+
+  for (const q of questions) {
+    const qw = `${sw} ${q.id ?? "(id なし)"}`;
+    if (!q.id) errors.push(`${qw}: id がありません`);
+    if (questionIds.has(q.id)) errors.push(`${qw}: 問題IDが重複しています`);
+    questionIds.add(q.id);
+    checkAudio(qw, q.audio);
+
+    if (q.type === "qa") {
+      if (typeof q.number !== "number") errors.push(`${qw}: number（No.1〜4 の番号）は数値にしてください`);
+      else qaNumbers.push(q.number);
+      if (!q.prompt?.trim()) errors.push(`${qw}: prompt（面接官の質問文）がありません`);
+    } else if (q.type !== "narration") {
+      errors.push(`${qw}: type は "narration" か "qa" にしてください（${q.type ?? "なし"}）`);
+    }
+    if (q.checkpoints !== undefined && (!Array.isArray(q.checkpoints) || q.checkpoints.some((c) => typeof c !== "string"))) {
+      errors.push(`${qw}: checkpoints は文字列の配列にしてください`);
+    }
+
+    if (draft) continue;
+    if (!q.modelAnswer) missing.modelAnswer.push(`${section.id}/${q.id}`);
+    if (!q.modelAnswerJa) missing.modelAnswerJa.push(`${section.id}/${q.id}`);
+    if (!q.explanation) missing.explanation.push(`${section.id}/${q.id}`);
+  }
+
+  const sorted = [...qaNumbers].sort((a, b) => a - b);
+  if (sorted.join(",") !== INTERVIEW_QA_NUMBERS.join(",")) {
+    errors.push(`${sw}: type "qa" の問題は No.${INTERVIEW_QA_NUMBERS.join("・")} が1つずつ必要です（現在: ${sorted.join(",") || "なし"}）`);
   }
 }
 
@@ -58,13 +121,19 @@ function validateExam(file, data) {
   else examIds.set(data.id, rel);
 
   if (!data.meta?.title) errors.push(`${rel}: meta.title がありません`);
+  if (data.format !== undefined && !FORMATS.includes(data.format)) {
+    errors.push(`${rel}: format "${data.format}" は ${FORMATS.join(" / ")} のいずれかにしてください（省略時は listening）`);
+  }
   if (!Array.isArray(data.sections) || data.sections.length === 0) {
     errors.push(`${rel}: sections が空です`);
     return;
   }
 
   const draft = data.meta?.status === "draft";
-  const missing = { script: [], explanation: [], scriptJa: [] };
+  const interview = data.format === "interview";
+  const missing = interview
+    ? { modelAnswer: [], modelAnswerJa: [], explanation: [] }
+    : { script: [], explanation: [], scriptJa: [] };
   const sectionIds = new Set();
 
   for (const section of data.sections) {
@@ -77,6 +146,11 @@ function validateExam(file, data) {
     checkAudio(sw, section.instructionAudio);
     checkAudio(sw, section.audioFile || section.audio);
 
+    if (interview) {
+      validateInterviewSection(sw, section, draft, missing);
+      continue;
+    }
+
     const questionIds = new Set();
     for (const q of section.questions || []) {
       const qw = `${sw} ${q.id ?? "(id なし)"}`;
@@ -87,6 +161,7 @@ function validateExam(file, data) {
 
       checkAudio(qw, q.audio);
       checkAudio(qw, q.passageAudio);
+      checkImage(qw, q.image);
 
       if (!Array.isArray(q.choices) || q.choices.length < 2) {
         errors.push(`${qw}: choices が2つ以上必要です`);

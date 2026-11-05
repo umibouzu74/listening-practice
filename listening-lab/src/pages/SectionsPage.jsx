@@ -1,8 +1,9 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import SectionListItem from '../components/SectionListItem';
+import InterviewCardItem from '../components/InterviewCardItem';
 import { getExamColor } from '../utils/examConfig';
-import { getExamSummary, isDraft, countQuestions } from '../data/registry';
+import { getExamSummary, isDraft, isInterview, countQuestions } from '../data/registry';
 import { getRecord, recordKey } from '../utils/history';
 import styles from './SectionsPage.module.css';
 
@@ -24,11 +25,45 @@ export default function SectionsPage() {
   }
 
   const { meta, sections, instructions } = examSet;
+  const practicePath = (sectionId, mode) =>
+    `/${examType}/${examId}/${sectionId}${mode ? `?mode=${mode}` : ''}`;
+
+  // 面接（二次試験）: 問題カードの一覧。各カードから練習形式・本番形式を選ぶ
+  if (isInterview(examSet)) {
+    return (
+      <div className={styles.page}>
+        <Header onBack={() => navigate(`/${examType}`)} accentColor={accent} />
+        <div className={styles.content}>
+          <div className={styles.examHeader}>
+            <h2 className={styles.examTitle}>{meta.title}</h2>
+            {meta.subtitle && <p className={styles.examSubtitle}>{meta.subtitle}</p>}
+          </div>
+
+          <div className={styles.instructions}>
+            {instructions ||
+              '問題カードを選んで練習します。練習形式ではナレーションと No.1〜4 を1つずつ何度でもやり直せます。本番形式では黙読1分 → ナレーション2分 → No.1〜4 を本番どおりの流れで通します。録音は端末の中だけで扱い、外部には送信しません。'}
+          </div>
+
+          <div className={styles.list}>
+            {sections.map((section) => (
+              <InterviewCardItem
+                key={section.id}
+                title={section.title}
+                story={section.story}
+                accentColor={accent}
+                onPractice={() => navigate(practicePath(section.id))}
+                onExam={() => navigate(practicePath(section.id, 'exam'))}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   const sectionRecords = sections.map((s) => getRecord(recordKey(examId, s.id)));
   const allRecord = getRecord(recordKey(examId, 'all'));
   const completedCount = sectionRecords.filter(Boolean).length;
-  const practicePath = (sectionId, mode) =>
-    `/${examType}/${examId}/${sectionId}${mode ? `?mode=${mode}` : ''}`;
 
   return (
     <div className={styles.page}>

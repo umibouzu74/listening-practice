@@ -1,5 +1,5 @@
 import { ChevronIcon } from './AudioIcons';
-import { countQuestions, isDraft } from '../data/registry';
+import { countQuestions, isDraft, isInterview } from '../data/registry';
 import styles from './ExamSetCard.module.css';
 
 export default function ExamSetCard({ examSet, accentColor, completedSections = 0, onClick }) {
@@ -24,7 +24,9 @@ export default function ExamSetCard({ examSet, accentColor, completedSections = 
       </div>
       <div className={styles.footer}>
         <span className={styles.stat}>
-          {sections.length}セクション・{countQuestions(examSet)}問
+          {isInterview(examSet)
+            ? `カード${sections.length}枚`
+            : `${sections.length}セクション・${countQuestions(examSet)}問`}
           {meta.totalTime && ` ・ 約${meta.totalTime}分`}
         </span>
         {!draft && completedSections > 0 && (

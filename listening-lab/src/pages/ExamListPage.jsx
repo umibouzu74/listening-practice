@@ -2,9 +2,24 @@ import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import ExamSetCard from '../components/ExamSetCard';
 import { getExamType, getGradeLabel, getGradeOrder, getPrefectureLabel } from '../utils/examConfig';
-import { getExamSets } from '../data/registry';
+import { getExamSets, isInterview } from '../data/registry';
 import { getRecord, recordKey } from '../utils/history';
 import styles from './ExamListPage.module.css';
+
+// 同じグループ（英検の級など）の中を、リスニングと面接（二次試験）に分けて表示する
+const FORMAT_PARTS = [
+  { key: 'listening', label: 'リスニング', match: (s) => !isInterview(s) },
+  { key: 'interview', label: '面接（二次試験）', match: isInterview },
+];
+
+function splitByFormat(items) {
+  const parts = FORMAT_PARTS
+    .map((part) => ({ ...part, items: items.filter(part.match) }))
+    .filter((part) => part.items.length > 0);
+  // リスニングしかないグループは今までどおり見出しなしで並べる
+  if (parts.length === 1 && parts[0].key === 'listening') return [{ ...parts[0], label: null }];
+  return parts;
+}
 
 function groupExamSets(sets, groupBy, sortOrder) {
   if (groupBy === 'none' || !groupBy) {
@@ -84,19 +99,24 @@ export default function ExamListPage() {
               {group.label && (
                 <h2 className={styles.groupHeading}>{group.label}</h2>
               )}
-              <div className={styles.list}>
-                {group.items.map((examSet) => (
-                  <ExamSetCard
-                    key={examSet.id}
-                    examSet={examSet}
-                    accentColor={config.color}
-                    completedSections={
-                      examSet.sections.filter((sec) => getRecord(recordKey(examSet.id, sec.id))).length
-                    }
-                    onClick={() => navigate(`/${examType}/${examSet.id}`)}
-                  />
-                ))}
-              </div>
+              {splitByFormat(group.items).map((part) => (
+                <section key={part.key} className={styles.formatPart}>
+                  {part.label && <h3 className={styles.formatHeading}>{part.label}</h3>}
+                  <div className={styles.list}>
+                    {part.items.map((examSet) => (
+                      <ExamSetCard
+                        key={examSet.id}
+                        examSet={examSet}
+                        accentColor={config.color}
+                        completedSections={
+                          examSet.sections.filter((sec) => getRecord(recordKey(examSet.id, sec.id))).length
+                        }
+                        onClick={() => navigate(`/${examType}/${examSet.id}`)}
+                      />
+                    ))}
+                  </div>
+                </section>
+              ))}
             </div>
           ))
         )}

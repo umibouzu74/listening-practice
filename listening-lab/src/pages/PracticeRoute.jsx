@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import PracticePage from './PracticePage';
 import ExamModePage from './ExamModePage';
 import useExamSet from '../hooks/useExamSet';
-import { isDraft } from '../data/registry';
+import { isDraft, isInterview } from '../data/registry';
 import { getExamColor } from '../utils/examConfig';
 import styles from './PracticePage.module.css';
 
@@ -38,6 +38,16 @@ export default function PracticeRoute() {
             </div>
           )}
         </div>
+      </div>
+    );
+  }
+
+  // 面接（二次試験）の練習・本番画面は次の段階で追加する。それまではリスニング用の画面に渡さない
+  if (isInterview(examSet)) {
+    return (
+      <div className={styles.page}>
+        <Header onBack={() => navigate(`/${examType}/${examId}`)} accentColor={accent} />
+        <div className={styles.empty}>面接の練習画面は準備中です</div>
       </div>
     );
   }
