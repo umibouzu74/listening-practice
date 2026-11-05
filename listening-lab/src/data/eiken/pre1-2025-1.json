@@ -30,9 +30,9 @@
             { "label": "4", "text": "Leave notes on her desk." }
           ],
           "answer": "3",
-          "explanation": "女性の3番目の発言第2文で、自分に男性からのメールが届かなかったことに対して「今後は私も（送信先に）入れてくれる？」と言っていることから、3「彼女をメールの宛先に加える」が正解。1は、女性は男性にメールを送るように頼んでいるだけで、クライアントとの連絡を手伝うよう依頼しているわけではないので誤り。2についての言及はないので不適切。4は「パソコンのモニターにメモを貼って忘れないようにするよ」という男性の3番目の発言の第3文に合致しない。",
+          "explanation": "女性の3番目の発言で、男性がメールに自分のアドレスを入れ忘れていたと指摘し、Could you make sure that I'm included from now on? と頼んでいる。これを「メールに自分を加える」と言い換えた3が正解。4のメモは男性が自分のモニターに貼るもので、女性の机に置くわけではない。1の顧客への連絡は頼まれていない。",
           "script": "W: Hey, do you have a minute to talk?\nM: Sure. What's the problem?\nW: One of our clients asked me a question about your project, but I'm not up-to-date on the details.\nM: Didn't you get my e-mails?\nW: I guess you must have forgotten to add my address. Could you make sure that I'm included from now on?\nM: Of course. Sorry. I'll make sure to stick a note on my computer monitor to remind me.",
-          "scriptJa": "W: ねえ、ちょっと話せる？\nM: いいよ。どうしたの？\nW: クライアントの一人から、あなたのプロジェクトについて質問があったんだけど、細かいところまでは最新の状況を追えていなくて。\nM: 僕のメールは届かなかった？\nW: たぶん、私のアドレスを追加するのを忘れたんじゃないかしら。今後は私も入れてくれる？\nM: もちろんだよ。ごめんね。パソコンのモニターにメモを貼って忘れないようにするよ。"
+          "scriptJa": "W: ねえ、ちょっと話せる時間ある？\nM: いいよ。どうしたの？\nW: お客さんの1人からあなたのプロジェクトについて質問されたんだけど、細かい最新の状況を把握できていなくて。\nM: 僕のメール、届いてなかった？\nW: たぶん私のアドレスを入れ忘れたんだと思う。これからは必ず私も宛先に入れておいてくれる？\nM: もちろん。ごめんね。忘れないように、パソコンのモニターにメモを貼っておくよ。"
         },
         {
           "id": "q2",
@@ -46,9 +46,9 @@
             { "label": "4", "text": "He cannot borrow the book now." }
           ],
           "answer": "4",
-          "explanation": "男性の3番目の発言「今すぐ借りることはできますか？」に対して、女性が紛失した本の代金を支払っていない男性に「申し訳ありませんが、例外は認められません」と言っていることから、正解は4「彼は今すぐ本を借りることができない」である。1は女性の2番目の発言第2文より、自動貸出機が使えない原因は紛失した本の代金の未払いであり、故障ではないので不適切。2のような内容を示唆する発言はないので不適切。3については、クレジットカードに関することは男性が2番目の発言の第2文で言っているが、発言者が男性であり、また「クレジットカードで支払えない」ということを示唆する発言もないので誤りである。",
+          "explanation": "男性の最後の発言で今すぐ本を借りられないかと尋ねたのに対し、女性は I'm afraid I can't make any exceptions. と断っている。つまり今は本を借りられないので4が正解。自動貸出機が使えないのは弁償代が未払いだからで、故障ではないので1は誤り。クレジットカードは男性が支払いに使ったと言っているだけで、使えないとは言われていないので3も誤り。",
           "script": "W: Can I help you, sir?\nM: I'm trying to check out this novel a friend recommended, but the automated checkout won't let me.\nW: Let me see. It seems you haven't paid to replace a missing book.\nM: Really? I'm sure I paid that by credit card online.\nW: If you have proof of payment, I can restore your borrowing privileges.\nM: I'll look for that, but can I just borrow the book now?\nW: I'm afraid I can't make any exceptions.",
-          "scriptJa": "W: どうなさいましたか。\nM: 友達に勧められたこの小説を借りたいんですが、自動貸出機が使えなくて。\nW: ちょっと見てみますね。どうやら、紛失した本の代金をまだ支払っていないようです。\nM: 本当ですか？ オンラインでクレジットカード決済をしたはずなんですが。\nW: 支払いの証明があれば、貸出の権利を回復できますよ。\nM: 探してみますが、今すぐ借りることはできますか？\nW: 申し訳ありませんが、例外は認められません。"
+          "scriptJa": "W: いらっしゃいませ、何かお困りですか？\nM: 友人に勧められたこの小説を借りようとしているんですが、自動貸出機で手続きができないんです。\nW: 拝見しますね。紛失された本の弁償代がまだお支払いいただけていないようです。\nM: 本当ですか？オンラインでクレジットカード払いしたはずなんですが。\nW: お支払いの証明があれば、貸出の権利を元に戻せます。\nM: 探してみますが、とりあえず今この本だけ借りることはできませんか？\nW: 申し訳ありませんが、例外は認められないんです。"
         },
         {
           "id": "q3",
@@ -62,9 +62,9 @@
             { "label": "4", "text": "His boss misses a lot of work." }
           ],
           "answer": "4",
-          "explanation": "男性の3番目の発言第1文の本社に報告すべき「この件」とは、男性の2番目の発言第2文の「上司が家庭の都合等でよく仕事を休む」という内容を指しているので、正解は4「彼の上司はよく仕事を休むから」である。1・2のような内容を示唆する発言はないので不適切。3は、男性の2番目の発言第2文で、彼の上司は休みをすでに6日ほど取っていると述べられているが、男性が休みを取れなかったという発言はないので、誤りである。",
+          "explanation": "男性の2番目の発言で、マネージャーのクリストフが今月すでに6日ほど休んでいると述べ、needs to be around to actually manage things と不満を示している。上司がよく仕事を休むことを心配しているので4が正解。男性自身が休めないという話ではないので3は誤り。上司が厳しすぎるという話も出ていないので2も誤り。",
           "script": "M: Is Kristoff in his office?\nW: No, he's out again today. He's at his daughter's soccer game, I think.\nM: Family time is important, but our manager needs to be around to actually manage things. He's already taken around six days off this month to help out with school field trips or take his kids somewhere.\nW: Yeah, we missed a deadline last week because he wasn't around.\nM: I think we need to bring this up with the corporate office. It's getting serious.",
-          "scriptJa": "M: クリストフはオフィスにいる？\nW: いいえ、今日もいないわ。娘さんのサッカーの試合に行っていると思う。\nM: 家族の時間は大切だけど、マネージャーは実際にいろいろ管理するために職場にいてもらわないといけないよ。今月だけで学校の校外学習を手伝ったり、子どもをどこかへ連れて行ったりするために、すでに6日ほど休んでいるよね。\nW: ええ、先週も彼がいなかったせいで締め切りに間に合わなかったわ。\nM: この件は本社に報告した方がいいと思う。深刻になってきているよ。"
+          "scriptJa": "M: クリストフはオフィスにいる？\nW: いいえ、今日もまた出かけてる。たしか娘さんのサッカーの試合に行ってるんじゃないかな。\nM: 家族との時間は大事だけど、マネージャーなんだから、ちゃんと職場にいて管理してもらわないと。今月はもう6日くらい、学校の遠足の手伝いだとか子どもをどこかに連れて行くだとかで休んでるよ。\nW: そうね、先週も彼がいなかったせいで締め切りに間に合わなかったし。\nM: これは本社に相談したほうがいいと思う。深刻になってきてるよ。"
         },
         {
           "id": "q4",
@@ -78,9 +78,9 @@
             { "label": "4", "text": "Taking a vacation as a family." }
           ],
           "answer": "4",
-          "explanation": "女性の2番目の発言第2文「みんなで数日泊まれる家を借りる」より、正解はこれを言い換えた4「家族で休暇を取ること」である。1を提案しているのは、男性の2番目の発言より、女性ではなく男性とわかるので誤り。2を提案しているのは、男性の1番目の発言より、女性ではなく子どもたちとわかるので不適切。3を表す発言はないので誤りである。",
+          "explanation": "女性は2番目の発言で、どこかに家を借りて we could all stay in for a couple of days と提案しており、最後に男性もそれに同意している。家族みんなで泊まりがけで出かけることを言い換えた4が正解。2の盛大なパーティーは子どもたちの希望で、1の家での特別な食事は男性の案だが、女性は自分が料理することになるとしてこれを退けている。",
           "script": "W: How should we celebrate our anniversary? Twenty-five years is a big deal.\nM: The kids want us to have a party with a fancy dinner, music, and dancing.\nW: I was thinking something a bit simpler. Maybe renting a house somewhere that we could all stay in for a couple of days.\nM: You know, we could save money if we just lit some candles while eating a nice steak dinner at home.\nW: A dinner that I'd have to cook? I think twenty-five years deserves a bit more than that.\nM: OK. Your idea sounds good.",
-          "scriptJa": "W: 記念日をどう祝おうか？ 25年って大きな節目だよね。\nM: 子どもたちは、豪華なディナーや音楽、ダンスのあるパーティーを開いてほしいって言ってるよ。\nW: 私はもう少しシンプルなことを考えていたの。みんなで数日泊まれる家をどこかで借りるとか。\nM: 家でキャンドルを灯しながらおいしいステーキを食べればお金も節約できるよ。\nW: 私が夕食を作らなきゃいけないの？ 25年の節目にはそれよりもう少し特別なことをするべきだと思うわ。\nM: わかった。君の案がいいね。"
+          "scriptJa": "W: 結婚記念日はどうやってお祝いしようか？25周年って大きな節目よね。\nM: 子どもたちは、豪華なディナーに音楽、ダンスもあるパーティーを開いてほしいって。\nW: 私はもう少しシンプルなことを考えてたの。どこかで家を借りて、みんなで2、3日泊まるとか。\nM: そうだなあ、家でろうそくを灯して、おいしいステーキディナーを食べるだけにすればお金も節約できるよ。\nW: そのディナーって私が作るんでしょう？25年の記念なんだから、もう少し特別なことをしてもいいと思うけど。\nM: わかった。君のアイデアがいいね。"
         },
         {
           "id": "q5",
@@ -94,9 +94,9 @@
             { "label": "4", "text": "He should not include his opinion." }
           ],
           "answer": "2",
-          "explanation": "女性の3番目の発言「それら（本）が最新のものかを確認してね。レポートが最新の研究に基づくように、学術論文も含めるといいわよ」より、2「彼は最近の情報源を探すべきである」が正解である。1は言及されていない。3については、女性の3番目の発言より、最新のものならレポートに本を利用してもよく、さらに学術論文を含めるとよいということがわかるので、誤りである。4に関しては、男性の2番目の発言第2文「レポートに自分の意見を入れてもいいですよね？」に対して、女性が「研究で裏付けられているなら入れてもいいわよ」と答えているので、誤りである。",
+          "explanation": "女性の最後の発言で Make sure they're up-to-date. と資料が新しいかを確認するよう求め、最新の研究に基づくよう論文も加えることを勧めている。これを「最近の資料を探す」と言い換えた2が正解。意見は研究の裏付けがあれば入れてよいとされているので4は誤り。本の代わりに論文を使えとは言っておらず、論文を加えるよう勧めているだけなので3も誤り。",
           "script": "M: Professor Barnes, could you remind me when our midterm paper is due?\nW: Sure, Mason. It's due at 5 p.m. a week from today.\nM: Got it. I can include my opinion in the paper, right?\nW: If it's supported by research. You need sources to back up your ideas.\nM: I've found some excellent books in the library.\nW: Make sure they're up-to-date. It might be wise to include some journal articles to ensure your paper is based on the latest research.\nM: OK.",
-          "scriptJa": "M: バーンズ先生、中間レポートの提出期限をもう一度教えていただけますか？\nW: もちろん、メイソン。提出期限は今日から1週間後の午後5時よ。\nM: わかりました。レポートに自分の意見を入れてもいいですよね？\nW: 研究で裏付けられているなら入れてもいいわよ。自分の考えの裏付けになる資料が必要ね。\nM: 図書館ですばらしい本を何冊か見つけました。\nW: それらが最新のものかを確認してね。レポートが最新の研究に基づくように、学術論文も含めるといいわよ。\nM: わかりました。"
+          "scriptJa": "M: バーンズ先生、中間レポートの締め切りをもう一度教えていただけますか？\nW: いいわよ、メイソン。来週の今日の午後5時までよ。\nM: わかりました。レポートには自分の意見を入れてもいいんですよね？\nW: 研究に裏付けられていればね。自分の考えを裏付ける出典が必要よ。\nM: 図書館ですごくいい本を何冊か見つけました。\nW: 内容が古くないか確認してね。最新の研究に基づいたレポートにするために、学術論文もいくつか入れておくといいかもしれないわ。\nM: わかりました。"
         },
         {
           "id": "q6",
@@ -110,9 +110,9 @@
             { "label": "4", "text": "He thinks the damage is serious." }
           ],
           "answer": "2",
-          "explanation": "男性が2番目の発言で「道路に猫が突然現れて、ぶつからないようにしようとしたんです」と言っていることから、正解は2「彼は動物にぶつかるのを避けようとしていた」である。1については、男性の3番目の発言第2文「全責任は私にあるので、こちらの保険で補償してもらうようにします」より誤り。3・4については男性の発言内容にはない。",
+          "explanation": "男性の2番目の発言で、猫が突然道路に現れ I was trying not to hit it と事故の経緯を説明している。猫を「動物」と言い換えた2が正解。男性は自分の保険で対応すると言い、completely responsible だと認めているので1と3は誤り。損傷はほとんどないと言ったのは女性なので4も合わない。",
           "script": "M: I'm so sorry about hitting your car. Are you OK?\nW: I'm fine. And it looks like the damage is minimal, too.\nM: A cat suddenly appeared on the road, and I was trying not to hit it.\nW: Well, I'm glad it's safe.\nM: Me, too. Obviously, my insurance will need to cover this since I'm completely responsible.\nW: OK. Let's exchange information, and we can deal with it later. I'm late for a business meeting.\nM: Definitely. I really hope I didn't mess up your whole day.",
-          "scriptJa": "M: あなたの車にぶつけてしまって、本当にごめんなさい。大丈夫ですか。\nW: 大丈夫です。損傷もひどくなさそうですね。\nM: 道路に猫が突然現れて、ぶつからないようにしようとしたんです。\nW: そうなんですね、猫が無事でよかったです。\nM: 私もそう思います。当然、全責任は私にあるので、こちらの保険で補償してもらうようにします。\nW: わかりました。それでは情報を交換して、あとで対処しましょう。仕事の会議に遅れているんです。\nM: そうですね。あなたの一日を台無しにしていなければいいのですが。"
+          "scriptJa": "M: 車にぶつけてしまって本当にすみません。大丈夫ですか？\nW: 私は大丈夫です。それに、損傷もほとんどないみたいですね。\nM: 急に猫が道路に出てきて、ひかないようにしていたんです。\nW: まあ、猫が無事でよかったです。\nM: 本当に。もちろん、全面的に私の責任ですから、私の保険で対応することになります。\nW: わかりました。連絡先を交換して、後で対応しましょう。仕事の打ち合わせに遅れているので。\nM: そうですね。あなたの一日を台無しにしていなければいいのですが。"
         },
         {
           "id": "q7",
@@ -126,9 +126,9 @@
             { "label": "4", "text": "He is not interested in going to college." }
           ],
           "answer": "1",
-          "explanation": "女性が3・4番目の発言で、ベニーはクラブ活動を「やりすぎている」「勉強を犠牲にしてまでやるべきではない」と言っていることから、正解は1「彼には勉強する時間が十分にないから」である。2については、男性が2番目の発言で「あんなにクラブ活動をやっている中で勉強との両立はきっと大変だろうね」と言っていることから、ベニーが熱心にクラブ活動に取り組んでいることがわかるので、誤りである。3・4の内容を示唆する発言はないので誤りである。",
+          "explanation": "女性はベニーの成績が下がっていることを心配し、he's taken on too much this year と、活動を抱え込みすぎて勉強がおろそかになっていると考えている。つまり勉強する時間が足りないということなので1が正解。部活を楽しんでいないとは言われていないので2は誤り。野球は続けるかどうかが話題になっているだけで、チームに入れなかったわけではないので3も誤り。",
           "script": "W: I had a talk with Benny's school counselor today.\nM: And?\nW: She's concerned because his grades are slipping.\nM: Well, it must be hard to balance studying with all the club activities he's been doing.\nW: I think he's taken on too much this year.\nM: But extracurricular activities are important, too. They look good on college applications.\nW: Yes, but not at the expense of schoolwork. He'll need to cut back on something.\nM: OK, but I think he should continue playing baseball.",
-          "scriptJa": "W: 今日、ベニーのスクール・カウンセラーと話をしたの。\nM: で、どうだった？\nW: 彼の成績が落ちてきているので、彼女は心配しているのよ。\nM: なるほど、あんなにクラブ活動をやっている中で勉強との両立はきっと大変だろうね。\nW: 今年はやりすぎていると思うの。\nM: でも、課外活動も大事だよね。大学の出願書類に書くと印象が良いし。\nW: そうだけど、勉強を犠牲にしてまでやるべきではないわ。何かを減らす必要があると思う。\nM: わかった、でも、野球は続けるべきだと思う。"
+          "scriptJa": "W: 今日、ベニーの学校のカウンセラーと話してきたの。\nM: それで？\nW: 成績が下がってきているから心配だって。\nM: まあ、あれだけ部活をやっていたら、勉強と両立するのは大変だろうね。\nW: 今年はいろいろ抱え込みすぎたんだと思う。\nM: でも課外活動だって大事だよ。大学の願書で印象がよくなるし。\nW: そうね、でも勉強を犠牲にしてまでやることじゃないわ。何かを減らさないと。\nM: わかった。でも野球は続けるべきだと思うな。"
         },
         {
           "id": "q8",
@@ -142,9 +142,9 @@
             { "label": "4", "text": "Get help from a professional." }
           ],
           "answer": "4",
-          "explanation": "男性の3番目の発言「専門家に相談する必要があるかもね。銀行に電話して、アドバイザーとの面談を予約しよう」から、正解は4「専門家に相談する」である。1については、男性が2番目の発言第2文で「学費の足しにするために彼女に仕事をしてもらうつもりだよ」と言っているが、男性が仕事を見つけるとは言っていないので誤りである。2・3に関する発言はないので、不適切である。",
+          "explanation": "男性の最後の発言で Maybe we need some expert advice. と言い、銀行に電話してアドバイザーとの面談を予約すると決めている。これを「専門家の助けを得る」と言い換えた4が正解。銀行には連絡するが新しい銀行を探すわけではないので3は誤り。アルバイトをするのはケイトリン本人で、男性が仕事を探したり残業したりするわけではないので1と2も誤り。",
           "script": "W: We need to talk about saving for Caitlin's college expenses.\nM: She just started elementary school. What's the hurry?\nW: There are investment accounts specifically designed for long-term savings. A little each month now is better than big amounts later on.\nM: I guess so. But I expect her to get a job to help pay her tuition.\nW: Certainly, but she won't be able to pay it all on her own.\nM: Maybe we need some expert advice. I'll call the bank and set up an appointment with an adviser.",
-          "scriptJa": "W: ケイトリンの大学費用のための貯蓄について話す必要があるわ。\nM: 彼女は小学校に入ったばかりだよ。急ぐ必要あるのかい？\nW: 長期的な貯蓄用に特化した投資口座があるのよ。今から毎月少しずつ貯める方が、後でまとめて貯めるよりもいいの。\nM: そうかもね。でも、学費の足しにするために彼女に仕事をしてもらうつもりだよ。\nW: もちろん、でも全部自分で払えるわけじゃないわよ。\nM: それなら、専門家に相談する必要があるかもね。銀行に電話して、アドバイザーとの面談を予約しよう。"
+          "scriptJa": "W: ケイトリンの大学の学費のために貯金することについて話し合わないと。\nM: まだ小学校に入ったばかりだよ。何をそんなに急ぐの？\nW: 長期の貯蓄専用に作られた投資口座があるのよ。後で大きな額を出すより、今から毎月少しずつ積み立てるほうがいいの。\nM: そうかもね。でも、学費の足しにするために、あの子にはアルバイトをしてほしいと思ってるんだ。\nW: もちろんよ。でも全部を自分で払うのは無理でしょう。\nM: 専門家の助言が必要かもしれないね。銀行に電話して、アドバイザーとの面談の予約を入れるよ。"
         },
         {
           "id": "q9",
@@ -158,9 +158,9 @@
             { "label": "4", "text": "It should pay its staff more." }
           ],
           "answer": "2",
-          "explanation": "男性の2番目の発言「注文が届くのにやたら時間がかかったし、接客をしてくれた人の態度も失礼だった」より、男性がレストランの対応に満足していないことがわかるので、正解は2「サービスが悪かった」である。1については、男性が2番目の発言で「まあまあだった」と言っているので誤り。3に関しては、男性ではなく女性が1番目の発言第2文で述べていることなので不適切。4については言及されていないので、誤りである。",
+          "explanation": "男性は2番目の発言で、料理が来るまで時間がかかり the waitstaff was rude だったと不満を述べている。これを「サービスが悪かった」とまとめた2が正解。料理はまあまあだったと言っているので1は誤り。雰囲気をほめたのは女性なので3も誤り。男性は人を増やすべきだと言っているのであって、給料を上げるべきとは言っていないので4も誤り。",
           "script": "M: I wasn't very impressed by that restaurant we went to last night.\nW: Really? I thought the food tasted pretty good, and it had a lively atmosphere.\nM: I guess the food was OK, but it took ages for our order to arrive, and the waitstaff was rude.\nW: I have to admit, the guy who served us was a little impolite, but I think that was just because he had to deal with so many tables at once.\nM: That's no excuse. The restaurant should hire more staff.",
-          "scriptJa": "M: 昨夜行ったあのレストラン、あまりいい印象じゃなかったな。\nW: 本当に？ 私は料理もおいしかったし、雰囲気も活気があると思ったけど。\nM: 料理はまあまあだったけど、注文が届くのにやたら時間がかかったし、接客をしてくれた人の態度も失礼だった。\nW: 確かに、私たちに対応してくれた人は少し失礼だったけど、同時にたくさんのテーブルの対応をしなければならなかったからだと思うわ。\nM: それは言い訳にならないよ。あのレストランはもっとスタッフを雇うべきだよ。"
+          "scriptJa": "M: 昨日の夜に行ったレストラン、あまりよくなかったな。\nW: そう？料理はなかなかおいしかったし、にぎやかな雰囲気だったと思うけど。\nM: 料理はまあまあだったけど、注文したものが来るまですごく時間がかかったし、店員の態度も悪かったよ。\nW: たしかに、私たちの担当だった人はちょっと失礼だったけど、一度にたくさんのテーブルを受け持たなきゃいけなかったからだと思うわ。\nM: それは言い訳にならないよ。あの店はもっと人を雇うべきだね。"
         },
         {
           "id": "q10",
@@ -174,9 +174,9 @@
             { "label": "4", "text": "The man should join the project team." }
           ],
           "answer": "2",
-          "explanation": "女性が2番目の発言で「私には仕事が増えるだけにしか聞こえないし、今の仕事量をこなすのにすでに苦労しているのよ」と言っていることから、新たに仕事が増えることを懸念しているのがわかるので、正解は2「それはあまりに多くの仕事をもたらす」である。1については、プロジェクトが成功する可能性については言及されていないので誤り。3に関して、男性の1番目の発言第1文より、プロジェクトリーダーは上司であることがわかり、また女性がプロジェクトリーダーになるべきだという趣旨の発言はないので、不適切である。4の内容を示唆する発言はないので誤りである。",
+          "explanation": "女性の2番目の発言 It just sounds like extra work to me で、今でも手一杯なのにさらに仕事が増えることを心配している。これを「仕事が多くなりすぎる」と表した2が正解。女性はプロジェクトが失敗しそうだとは言っておらず、成功すれば昇進につながると言ったのは男性なので1は誤り。リーダーは男性の上司なので3も誤り。",
           "script": "W: David, have you heard about the new project our department is taking on?\nM: Yeah, my boss is the project leader, so he announced it in our weekly team meeting. I'm really excited about it.\nW: It just sounds like extra work to me, and we're already struggling to cope with our workload.\nM: I agree that it's going to make us busy, but I think it'll be worth it. If the project's a success, we'll have a much better chance of being promoted.\nW: Even so, I'm still concerned.",
-          "scriptJa": "W: デイビッド、私たちの部署が取り組む新しいプロジェクトのこと聞いた？\nM: うん、うちの上司がプロジェクトリーダーだから、週例ミーティングで発表してくれたんだ。すごく楽しみだよ。\nW: 私には仕事が増えるだけにしか聞こえないし、今の仕事量をこなすのにすでに苦労しているのよ。\nM: 忙しくなるのは確かだけど、やる価値はあると思う。もしプロジェクトが成功したら、昇進のチャンスもずっと広がるし。\nW: そうだとしても、私はやっぱり心配だわ。"
+          "scriptJa": "W: デビッド、うちの部署が新しく引き受けるプロジェクトのこと、聞いた？\nM: うん、僕の上司がプロジェクトリーダーだから、週1回のチーム会議で発表があったよ。すごく楽しみなんだ。\nW: 私には仕事が増えるだけに聞こえるわ。今でも自分の仕事をこなすのに精一杯なのに。\nM: 忙しくなるのはたしかだけど、それだけの価値はあると思うよ。プロジェクトが成功すれば、昇進できる可能性がずっと高くなるからね。\nW: それでも、やっぱり心配だわ。"
         },
         {
           "id": "q11",
@@ -190,9 +190,9 @@
             { "label": "4", "text": "Wait before replacing the water heater." }
           ],
           "answer": "4",
-          "explanation": "調子が悪いと男性が考える給湯器についての女性の2番目の発言「そうね、でもとりあえずは様子を見ましょう」を受けて、男性が最後の発言の第1文で「わかった」と言っていることから、4「給湯器を取り替える前に様子を見る」が正解である。1については、男性が最後の発言の第2文で「問題が続くようなら、水道屋さんに連絡する」と言っているが、すぐに連絡するとは言っていないので誤りである。2の内容を示唆する発言はないので誤りである。3に関して、話題は給湯器の交換であって、新しいシャワーの設置には言及していないので不適切である。",
+          "explanation": "女性の2番目の発言 let's just keep an eye on it for now に男性が OK と同意しており、給湯器の交換はひとまず様子を見てから判断することになった。よって4が正解。配管業者に連絡するのは問題が続いた場合なので、すぐに連絡するという1は誤り。お湯の使用量を減らす話やシャワーを新しくする話は出ていないので2と3も誤り。",
           "script": "M: We may need to replace the water heater in the bathroom. The water kept going cold while I was having a shower.\nW: Really? I had no trouble getting hot water this morning. Water heaters are expensive, so I'd rather not get a new one unless we have to.\nM: I understand what you're saying, but it would be better to replace it before it stops working altogether.\nW: Fair enough, but let's just keep an eye on it for now.\nM: OK. But if the problem keeps happening, I'm calling the plumber.",
-          "scriptJa": "M: バスルームの給湯器を取り替えなきゃいけないかもしれないよ。シャワーを浴びてたらお湯がどんどん冷たくなったんだ。\nW: 本当？ 私は今朝お湯を出すのに困らなかったわよ。給湯器って高いから、そうする必要がなければ新しいのは買いたくないわ。\nM: 君の言うこともわかるけど、完全に壊れる前に取り替えたほうがいいよ。\nW: そうね、でもとりあえずは様子を見ましょう。\nM: わかった。でも問題が続くようなら、水道屋さんに連絡するからね。"
+          "scriptJa": "M: 浴室の給湯器を交換しないといけないかもしれない。シャワーを浴びている間、何度もお湯が冷たくなったんだ。\nW: 本当？今朝は普通にお湯が出たけど。給湯器は高いから、どうしても必要になるまでは新しいのを買いたくないな。\nM: 言いたいことはわかるけど、完全に動かなくなる前に交換したほうがいいよ。\nW: それもそうね。でも、とりあえず今は様子を見ましょう。\nM: わかった。でも、また同じことが起きたら配管業者に電話するからね。"
         },
         {
           "id": "q12",
@@ -206,9 +206,9 @@
             { "label": "4", "text": "Ask the professor to extend the deadline." }
           ],
           "answer": "1",
-          "explanation": "男性が1番目の発言第2文で課題について「かなり調査が必要になるだろうし、思っているより時間がかかるかもしれない」と述べたことに対して、女性が2番目の発言で「わかりました。今週末にテーマを決めて、レポートのアウトラインを作ります」と言っていることから、1「課題に早めに取りかかる」が正解である。2・4を示唆する発言はないので誤りである。3について、男性は2番目の発言第2文で資料探しの相談に来てもいいと言っているが、資料リストを送るようには述べていないので誤りである。",
+          "explanation": "教授が don't leave it to the last minute と早めに取りかかるよう勧めたのに対し、学生は2番目の発言で今週末にテーマを決めて構成を作ると答えている。締め切りは月末なので、早めに課題に着手すると言える1が正解。テーマはこれから選ぶのであって変更するわけではないので2は誤り。締め切りの延長を頼む場面もないので4も誤り。",
           "script": "W: Professor Roberts, could you remind me of the deadline for the assignment?\nM: It's due at the end of the month, but I encourage you not to leave it to the last minute. You'll need to do a fair bit of research, which might take longer than you think.\nW: OK. I'll choose a topic and make an essay outline this weekend.\nM: Good idea. And feel free to ask me if you need any help finding good sources.\nW: Thanks, Professor. I appreciate that.",
-          "scriptJa": "W: ロバーツ先生、課題の締め切りをもう一度教えていただけますか。\nM: 今月末が締め切りだけど、ぎりぎりまで放っておかないことを勧めるよ。かなり調査が必要になるだろうし、思っているより時間がかかるかもしれないからね。\nW: わかりました。今週末にテーマを決めて、レポートのアウトラインを作ります。\nM: いい考えだね。それから、適切な資料を探すのに困ったら、遠慮なく聞いてくれていいよ。\nW: ありがとうございます、先生。助かります。"
+          "scriptJa": "W: ロバーツ先生、課題の締め切りをもう一度教えていただけますか？\nM: 月末までだけど、ぎりぎりまで放っておかないようにね。かなり調べものをする必要があるから、思っているより時間がかかるかもしれないよ。\nW: わかりました。今週末にテーマを決めて、レポートの構成を作ります。\nM: いい考えだね。それと、いい資料を探すのに手助けが必要なら、遠慮なく聞いてね。\nW: ありがとうございます、先生。助かります。"
         }
       ]
     },
@@ -233,9 +233,9 @@
             { "label": "4", "text": "It was an important resource for Roman armies." }
           ],
           "answer": "3",
-          "explanation": "第1段第3文で「多くのローマの歴史家は侵略が失敗した理由として、その土地一帯を覆う密集した松林での戦闘が難しかったことを挙げていた」と述べられていることから、正解は3「それはローマの侵略の失敗を招いた」である。1は第1段第1文に「現在のスコットランドにあった」とあるので誤り。2・4については言及されていない。",
-          "script": "The Great Wood of Caledon\nAncient Roman historical records refer to an immense forest known as the Great Wood of Caledon in what is now Scotland. Rome had conquered the rest of Britain, but had failed repeatedly to conquer this region. Many Roman historians claimed the invasions were unsuccessful because of the difficulty of fighting in the dense pine forest that covered the landscape. Indeed, the Romans were long blamed for the destruction of a Scottish pine forest some two thousand years ago.\nHowever, modern research suggests this may not all be true. First, the forest also contained trees other than pine, and the forests do not seem to have been as dark and dense as Roman writings suggested. Furthermore, the forest peaked in size some six thousand years ago and had been in decline ever since. It was likely ancient humans chopping down the forest for hunting and agriculture that was mainly responsible for reducing its size rather than the Romans being responsible.",
-          "scriptJa": "カレドンの大森林\n古代ローマの歴史の記録には、現在のスコットランドにあった「カレドンの大森林」として知られる広大な森が登場する。ローマはブリテン島の他の地域を征服したが、この地域だけは繰り返し征服に失敗した。多くのローマの歴史家は侵略が失敗した理由として、その土地一帯を覆う密集した松林での戦闘が難しかったことを挙げていた。実際、ローマ人は約2000年前にスコットランドの松林を破壊したと長らく非難されてきた。\nしかし、現代の研究では、それがすべて正しいわけではないことが示唆されている。まず、森には松以外の木も含まれており、ローマの記録が示すほど暗く密集してはいなかったようだ。さらに、この森は約6000年前に最も広がりを見せ、その後は縮小していった。森の縮小の主な原因はローマ人ではなく、古代の人々が狩猟や農業のために木を伐採したことだったと考えられている。"
+          "explanation": "第1段落で、多くのローマの歴史家は、深い松林の中での戦闘が難しかったために侵攻が unsuccessful だったと主張したと述べられている。これを「ローマの侵攻の失敗につながった」と言い換えた3が正解。森があったのは現在のスコットランドで、ブリテン島の大部分を覆っていたわけではないので1は誤り。森がローマ軍にとって重要な資源だったという話もないので4も誤り。",
+          "script": "The Great Wood of Caledon\n\nAncient Roman historical records refer to an immense forest known as the Great Wood of Caledon in what is now Scotland. Rome had conquered the rest of Britain, but had failed repeatedly to conquer this region. Many Roman historians claimed the invasions were unsuccessful because of the difficulty of fighting in the dense pine forest that covered the landscape. Indeed, the Romans were long blamed for the destruction of a Scottish pine forest some two thousand years ago.\n\nHowever, modern research suggests this may not all be true. First, the forest also contained trees other than pine, and the forests do not seem to have been as dark and dense as Roman writings suggested. Furthermore, the forest peaked in size some six thousand years ago and had been in decline ever since. It was likely ancient humans chopping down the forest for hunting and agriculture that was mainly responsible for reducing its size rather than the Romans being responsible.",
+          "scriptJa": "カレドンの大森林\n\n古代ローマの歴史記録には、現在のスコットランドにあたる地域に広がっていた「カレドンの大森林」と呼ばれる広大な森についての記述がある。ローマはブリテン島のほかの地域を征服していたが、この地域の征服には何度も失敗していた。多くのローマの歴史家は、その土地を覆っていた深い松林の中で戦うのが難しかったことが、侵攻がうまくいかなかった理由だと主張した。実際、約2000年前にスコットランドの松林が失われたのはローマ人のせいだと、長い間考えられてきた。\n\nしかし、近年の研究によると、こうした話のすべてが正しいわけではないかもしれない。まず、その森には松以外の木も生えており、ローマの文献に書かれていたほど暗くうっそうとした森ではなかったようだ。さらに、森の面積は約6000年前に最大となり、それ以降は縮小し続けていた。森が小さくなった主な原因はローマ人ではなく、狩猟や農業のために森を切り開いた古代の人々だった可能性が高い。"
         },
         {
           "id": "q14",
@@ -251,9 +251,9 @@
             { "label": "4", "text": "It had already shrunk when the Romans arrived." }
           ],
           "answer": "4",
-          "explanation": "第2段第3文で「この森は約6000年前に最も広がりを見せ、その後は縮小していった」、最終文で「森の縮小の主な原因はローマ人ではなく、古代の人々が狩猟や農業のために木を伐採したことだった」とあることから、ローマ人到着よりもずっと前から古代人の活動によって森が縮小していたことがわかるので、正解は4「ローマ人が到着したとき、すでに縮小していた」である。1については、第2段第3文で「この森は約6000年前に最も広がりを見せた」と言及されていることから、この森が6000年以上前からあったことが示唆されているので誤りである。2は第2段最終文より、人間の活動が縮小の原因であったことがわかるので、不適切である。3については、第2段第1文で古代の歴史家の主張がすべて正しいわけではないと述べられているので、誤りである。",
-          "script": "The Great Wood of Caledon\nAncient Roman historical records refer to an immense forest known as the Great Wood of Caledon in what is now Scotland. Rome had conquered the rest of Britain, but had failed repeatedly to conquer this region. Many Roman historians claimed the invasions were unsuccessful because of the difficulty of fighting in the dense pine forest that covered the landscape. Indeed, the Romans were long blamed for the destruction of a Scottish pine forest some two thousand years ago.\nHowever, modern research suggests this may not all be true. First, the forest also contained trees other than pine, and the forests do not seem to have been as dark and dense as Roman writings suggested. Furthermore, the forest peaked in size some six thousand years ago and had been in decline ever since. It was likely ancient humans chopping down the forest for hunting and agriculture that was mainly responsible for reducing its size rather than the Romans being responsible.",
-          "scriptJa": "カレドンの大森林\n古代ローマの歴史の記録には、現在のスコットランドにあった「カレドンの大森林」として知られる広大な森が登場する。ローマはブリテン島の他の地域を征服したが、この地域だけは繰り返し征服に失敗した。多くのローマの歴史家は侵略が失敗した理由として、その土地一帯を覆う密集した松林での戦闘が難しかったことを挙げていた。実際、ローマ人は約2000年前にスコットランドの松林を破壊したと長らく非難されてきた。\nしかし、現代の研究では、それがすべて正しいわけではないことが示唆されている。まず、森には松以外の木も含まれており、ローマの記録が示すほど暗く密集してはいなかったようだ。さらに、この森は約6000年前に最も広がりを見せ、その後は縮小していった。森の縮小の主な原因はローマ人ではなく、古代の人々が狩猟や農業のために木を伐採したことだったと考えられている。"
+          "explanation": "第2段落で、森の大きさは約6000年前に最大となり、それ以降 had been in decline ever since だったと述べられている。ローマ人が来たのは約2000年前なので、その時点で森はすでに縮小していたことになり、4が正解。森を小さくした主な原因は古代の人々による伐採とされているので2は誤り。ローマの歴史家の記述はすべてが正しいわけではないとされているので3も誤り。",
+          "script": "The Great Wood of Caledon\n\nAncient Roman historical records refer to an immense forest known as the Great Wood of Caledon in what is now Scotland. Rome had conquered the rest of Britain, but had failed repeatedly to conquer this region. Many Roman historians claimed the invasions were unsuccessful because of the difficulty of fighting in the dense pine forest that covered the landscape. Indeed, the Romans were long blamed for the destruction of a Scottish pine forest some two thousand years ago.\n\nHowever, modern research suggests this may not all be true. First, the forest also contained trees other than pine, and the forests do not seem to have been as dark and dense as Roman writings suggested. Furthermore, the forest peaked in size some six thousand years ago and had been in decline ever since. It was likely ancient humans chopping down the forest for hunting and agriculture that was mainly responsible for reducing its size rather than the Romans being responsible.",
+          "scriptJa": "カレドンの大森林\n\n古代ローマの歴史記録には、現在のスコットランドにあたる地域に広がっていた「カレドンの大森林」と呼ばれる広大な森についての記述がある。ローマはブリテン島のほかの地域を征服していたが、この地域の征服には何度も失敗していた。多くのローマの歴史家は、その土地を覆っていた深い松林の中で戦うのが難しかったことが、侵攻がうまくいかなかった理由だと主張した。実際、約2000年前にスコットランドの松林が失われたのはローマ人のせいだと、長い間考えられてきた。\n\nしかし、近年の研究によると、こうした話のすべてが正しいわけではないかもしれない。まず、その森には松以外の木も生えており、ローマの文献に書かれていたほど暗くうっそうとした森ではなかったようだ。さらに、森の面積は約6000年前に最大となり、それ以降は縮小し続けていた。森が小さくなった主な原因はローマ人ではなく、狩猟や農業のために森を切り開いた古代の人々だった可能性が高い。"
         },
         {
           "id": "q15",
@@ -269,9 +269,9 @@
             { "label": "4", "text": "Taro first introduced Capa to war photography." }
           ],
           "answer": "1",
-          "explanation": "第1段最終文で「この二人は最前線の戦闘だけでなく、民間人や難民の苦しみなど、戦争のさまざまな側面も撮影した」と述べられていることから、戦争によるさまざまな被害状況を写真に収めていたことがわかるので、正解は1「彼らの写真は戦争の被害の影響を示していた」である。2については、第1段第3文より、キャパがタローに写真を教えたことがわかるので、誤りである。3については、第1段第1文より、二人が一緒にスペインに行ったことがわかるので、誤りである。4については言及されていない。",
-          "script": "On the Front Line\nIn 1936, photographers Gerda Taro and Robert Capa traveled to Spain to cover the civil war there. Taro became interested in photography after first meeting Capa, who would later become a famous war photographer. While Taro helped promote Capa's photos, Capa helped her learn photography, and she became an officially registered member of the press. While in Spain, the couple photographed not just frontline battles but also other aspects of war, including the suffering of civilians and refugees.\nTaro also began to work more independently, and it is said she was determined to experience the reality of war firsthand. Sadly, in one operation in 1937, she was struck by a tank and later died. She is said to be the first female photographer to have been killed reporting on war. Soon after her death, her work was largely forgotten. It was only many decades later that it became more widely appreciated.",
-          "scriptJa": "最前線で\n1936年、写真家のゲルダ・タローとロバート・キャパはスペインに向かい、内戦を取材した。タローは、後に有名な戦場カメラマンとなるキャパに初めて会ったことで写真に興味を持つようになった。タローはキャパの写真を広める手助けをする一方で、キャパは彼女が写真技術を学ぶのを手伝い、タローは正式に報道機関の登録記者となった。スペイン滞在中、この二人は最前線の戦闘だけでなく、民間人や難民の苦しみなど、戦争のさまざまな側面も撮影した。\nタローはさらに独立して活動するようになり、戦争の現実を直接体験しようと決意していたと言われている。悲しいことに、1937年のある活動中にタローは戦車に轢かれて、後に死亡した。彼女は、戦争取材中に命を落とした最初の女性写真家だと言われている。タローの死後、彼女の作品はほとんど忘れられていた。数十年後になってようやく広く評価されるようになった。"
+          "explanation": "第1段落の最後で、2人は最前線の戦闘だけでなく the suffering of civilians and refugees といった戦争のほかの側面も撮影したと述べられている。民間人や難民の苦しみを「戦争がもたらす被害」と言い換えた1が正解。キャパはタローが写真を学ぶのを助けたので2は誤り。2人は一緒にスペインへ行っているので3も誤りで、タローがキャパを戦争写真に導いたという話もないので4も誤り。",
+          "script": "On the Front Line\n\nIn 1936, photographers Gerda Taro and Robert Capa traveled to Spain to cover the civil war there. Taro became interested in photography after first meeting Capa, who would later become a famous war photographer. While Taro helped promote Capa's photos, Capa helped her learn photography, and she became an officially registered member of the press. While in Spain, the couple photographed not just frontline battles but also other aspects of war, including the suffering of civilians and refugees.\n\nTaro also began to work more independently, and it is said she was determined to experience the reality of war firsthand. Sadly, in one operation in 1937, she was struck by a tank and later died. She is said to be the first female photographer to have been killed reporting on war. Soon after her death, her work was largely forgotten. It was only many decades later that it became more widely appreciated.",
+          "scriptJa": "最前線で\n\n1936年、写真家のゲルダ・タローとロバート・キャパは、内戦を取材するためにスペインへ向かった。タローが写真に興味を持つようになったのは、後に有名な戦争写真家となるキャパと出会ってからのことだった。タローがキャパの写真を売り込む手伝いをする一方で、キャパはタローが写真を学ぶのを助け、やがて彼女は正式に登録された報道関係者となった。スペインにいる間、2人は最前線の戦闘だけでなく、民間人や難民の苦しみといった戦争のほかの側面も撮影した。\n\nタローはまた、より独立して活動するようになり、戦争の現実を自分の目で確かめようと固く決意していたと言われている。悲しいことに、1937年のある作戦の最中に彼女は戦車にひかれ、その後亡くなった。彼女は戦争の報道中に命を落とした最初の女性写真家だと言われている。彼女の死後まもなく、その作品はほとんど忘れ去られてしまった。より広く評価されるようになったのは、何十年も経ってからのことだった。"
         },
         {
           "id": "q16",
@@ -287,9 +287,9 @@
             { "label": "4", "text": "She preferred working with Capa to working alone." }
           ],
           "answer": "3",
-          "explanation": "第2段最終2文で「タローの死後、彼女の作品はほとんど忘れられていた。数十年後になってようやく広く評価されるようになった」と述べられていることから、正解は3「彼女の作品は彼女の死後、長い間ほとんど注目されなかった」である。1に関して、第1段最終文および第2段第1文より、自ら幅広く戦争の現実を記録する意欲があったことがわかるので、誤りである。2に関して、タローの写真技術については言及されていないので、誤りである。4について、タローの仕事上での好みについては述べられていないので、不適切である。",
-          "script": "On the Front Line\nIn 1936, photographers Gerda Taro and Robert Capa traveled to Spain to cover the civil war there. Taro became interested in photography after first meeting Capa, who would later become a famous war photographer. While Taro helped promote Capa's photos, Capa helped her learn photography, and she became an officially registered member of the press. While in Spain, the couple photographed not just frontline battles but also other aspects of war, including the suffering of civilians and refugees.\nTaro also began to work more independently, and it is said she was determined to experience the reality of war firsthand. Sadly, in one operation in 1937, she was struck by a tank and later died. She is said to be the first female photographer to have been killed reporting on war. Soon after her death, her work was largely forgotten. It was only many decades later that it became more widely appreciated.",
-          "scriptJa": "最前線で\n1936年、写真家のゲルダ・タローとロバート・キャパはスペインに向かい、内戦を取材した。タローは、後に有名な戦場カメラマンとなるキャパに初めて会ったことで写真に興味を持つようになった。タローはキャパの写真を広める手助けをする一方で、キャパは彼女が写真技術を学ぶのを手伝い、タローは正式に報道機関の登録記者となった。スペイン滞在中、この二人は最前線の戦闘だけでなく、民間人や難民の苦しみなど、戦争のさまざまな側面も撮影した。\nタローはさらに独立して活動するようになり、戦争の現実を直接体験しようと決意していたと言われている。悲しいことに、1937年のある活動中にタローは戦車に轢かれて、後に死亡した。彼女は、戦争取材中に命を落とした最初の女性写真家だと言われている。タローの死後、彼女の作品はほとんど忘れられていた。数十年後になってようやく広く評価されるようになった。"
+          "explanation": "第2段落の終わりで、タローの死後まもなく her work was largely forgotten となり、広く評価されたのは何十年も後だったと述べられている。これを「死後長年ほとんど注目されなかった」と表した3が正解。タローは戦争の現実を自分の目で確かめようと決意していたので1は誤り。より独立して活動するようになったとあり、キャパとの共同作業を好んだという話もないので4も誤り。",
+          "script": "On the Front Line\n\nIn 1936, photographers Gerda Taro and Robert Capa traveled to Spain to cover the civil war there. Taro became interested in photography after first meeting Capa, who would later become a famous war photographer. While Taro helped promote Capa's photos, Capa helped her learn photography, and she became an officially registered member of the press. While in Spain, the couple photographed not just frontline battles but also other aspects of war, including the suffering of civilians and refugees.\n\nTaro also began to work more independently, and it is said she was determined to experience the reality of war firsthand. Sadly, in one operation in 1937, she was struck by a tank and later died. She is said to be the first female photographer to have been killed reporting on war. Soon after her death, her work was largely forgotten. It was only many decades later that it became more widely appreciated.",
+          "scriptJa": "最前線で\n\n1936年、写真家のゲルダ・タローとロバート・キャパは、内戦を取材するためにスペインへ向かった。タローが写真に興味を持つようになったのは、後に有名な戦争写真家となるキャパと出会ってからのことだった。タローがキャパの写真を売り込む手伝いをする一方で、キャパはタローが写真を学ぶのを助け、やがて彼女は正式に登録された報道関係者となった。スペインにいる間、2人は最前線の戦闘だけでなく、民間人や難民の苦しみといった戦争のほかの側面も撮影した。\n\nタローはまた、より独立して活動するようになり、戦争の現実を自分の目で確かめようと固く決意していたと言われている。悲しいことに、1937年のある作戦の最中に彼女は戦車にひかれ、その後亡くなった。彼女は戦争の報道中に命を落とした最初の女性写真家だと言われている。彼女の死後まもなく、その作品はほとんど忘れ去られてしまった。より広く評価されるようになったのは、何十年も経ってからのことだった。"
         },
         {
           "id": "q17",
@@ -305,9 +305,9 @@
             { "label": "4", "text": "Spider webs can be damaged by sound waves." }
           ],
           "answer": "1",
-          "explanation": "第1段第3文で「この糸は人間の可聴範囲を超えた周波数も検知可能である」と述べられていることから、正解は1「クモの糸は人間が聞くことのできない音も捉えられる」である。2・3・4の内容を示唆することは述べられていないので、誤りである。",
-          "script": "Spider Sounds\nResearchers in the United States have discovered that spiders can detect sounds through their webs. They found that the silk used in spiderwebs could pick up air disturbances created by sound waves up to three meters away. The silk is also capable of detecting frequencies outside the range of human hearing. A mechanical engineer in the US believes this knowledge can be used to help make more powerful and more sensitive microphones.\nHuman hearing is controlled by air pressure. Pressure changes cause the eardrum to vibrate at different frequencies, and the brain processes the resulting vibrations as sounds. Currently, microphones are designed based on this principle, but one drawback is that making microphones bigger is the only way to make them more sensitive. However, the US researchers have demonstrated that microphones that respond to airflow in the way that spider silk does can be significantly smaller without losing sensitivity.",
-          "scriptJa": "クモの音の感知\nアメリカの研究者たちは、クモが巣を通して音を感知できることを発見した。クモの巣に使われる糸は、最大3メートル離れた音波による空気の乱れを捉えることができる。また、この糸は人間の可聴範囲を超えた周波数も検知可能である。アメリカの機械工学者は、この知識を使って、より高性能で感度の高いマイクを作ることができると考えている。\n人間の聴覚は空気圧によって左右される。圧力の変化により鼓膜が異なる周波数で振動し、脳はその結果生じる振動を音として処理する。現在では、マイクはこの原理に基づいて設計されているが、欠点として、感度を高めるにはマイクを大きくするしかない。しかし、アメリカの研究者たちは、クモの糸のように空気の流れに反応するマイクは感度を失わずにかなり小型化できることを示した。"
+          "explanation": "第1段落で、クモの糸は frequencies outside the range of human hearing、つまり人間には聞こえない周波数も感知できると述べられている。これを言い換えた1が正解。クモは巣を通して音を感知しているので2は誤り。音を出すのはクモではなく、クモの糸が音をとらえるという話なので3も誤り。音波で巣が傷むという話もないので4も誤り。",
+          "script": "Spider Sounds\n\nResearchers in the United States have discovered that spiders can detect sounds through their webs. They found that the silk used in spiderwebs could pick up air disturbances created by sound waves up to three meters away. The silk is also capable of detecting frequencies outside the range of human hearing. A mechanical engineer in the US believes this knowledge can be used to help make more powerful and more sensitive microphones.\n\nHuman hearing is controlled by air pressure. Pressure changes cause the eardrum to vibrate at different frequencies, and the brain processes the resulting vibrations as sounds. Currently, microphones are designed based on this principle, but one drawback is that making microphones bigger is the only way to make them more sensitive. However, the US researchers have demonstrated that microphones that respond to airflow in the way that spider silk does can be significantly smaller without losing sensitivity.",
+          "scriptJa": "クモと音\n\nアメリカの研究者たちは、クモが巣を通して音を感知できることを発見した。研究者たちによると、クモの巣に使われている糸は、最大3メートル離れたところの音波によって生じる空気の揺れをとらえることができた。この糸は、人間の可聴域を外れた周波数も感知できる。アメリカのある機械工学者は、この知見を利用すれば、より高性能で感度の高いマイクを作るのに役立つと考えている。\n\n人間の聴覚は空気の圧力によって制御されている。圧力が変化すると鼓膜がさまざまな周波数で振動し、その結果生じた振動を脳が音として処理する。現在のマイクはこの原理に基づいて設計されているが、欠点の1つは、マイクの感度を高めるには大きくするしかないという点だ。しかし、アメリカの研究者たちは、クモの糸と同じように空気の流れに反応するマイクであれば、感度を損なうことなく大幅に小型化できることを示した。"
         },
         {
           "id": "q18",
@@ -323,9 +323,9 @@
             { "label": "4", "text": "They make vibrations that the brain cannot process." }
           ],
           "answer": "2",
-          "explanation": "第2段第3文で「現在のマイクの欠点として、感度を高めるにはマイクを大きくするしかない」とあることから、マイクを小さくすれば感度が低くなると考えられるので、正解は2「それらは小さくなるほど性能が落ちる」である。1・3・4のマイクに関する記述はどれも述べられていないので、誤りである。",
-          "script": "Spider Sounds\nResearchers in the United States have discovered that spiders can detect sounds through their webs. They found that the silk used in spiderwebs could pick up air disturbances created by sound waves up to three meters away. The silk is also capable of detecting frequencies outside the range of human hearing. A mechanical engineer in the US believes this knowledge can be used to help make more powerful and more sensitive microphones.\nHuman hearing is controlled by air pressure. Pressure changes cause the eardrum to vibrate at different frequencies, and the brain processes the resulting vibrations as sounds. Currently, microphones are designed based on this principle, but one drawback is that making microphones bigger is the only way to make them more sensitive. However, the US researchers have demonstrated that microphones that respond to airflow in the way that spider silk does can be significantly smaller without losing sensitivity.",
-          "scriptJa": "クモの音の感知\nアメリカの研究者たちは、クモが巣を通して音を感知できることを発見した。クモの巣に使われる糸は、最大3メートル離れた音波による空気の乱れを捉えることができる。また、この糸は人間の可聴範囲を超えた周波数も検知可能である。アメリカの機械工学者は、この知識を使って、より高性能で感度の高いマイクを作ることができると考えている。\n人間の聴覚は空気圧によって左右される。圧力の変化により鼓膜が異なる周波数で振動し、脳はその結果生じる振動を音として処理する。現在では、マイクはこの原理に基づいて設計されているが、欠点として、感度を高めるにはマイクを大きくするしかない。しかし、アメリカの研究者たちは、クモの糸のように空気の流れに反応するマイクは感度を失わずにかなり小型化できることを示した。"
+          "explanation": "第2段落で、現在のマイクの欠点として making microphones bigger is the only way to make them more sensitive と述べられている。大きくしなければ感度が上がらないということは、小さくすると性能が落ちるということなので2が正解。マイクが人間の聴覚に悪影響を与えるという話はないので1は誤り。人間の可聴域外の周波数を感知できるのはクモの糸についての話で、マイクが人の出す周波数を拾えないとは言っていないので3も誤り。",
+          "script": "Spider Sounds\n\nResearchers in the United States have discovered that spiders can detect sounds through their webs. They found that the silk used in spiderwebs could pick up air disturbances created by sound waves up to three meters away. The silk is also capable of detecting frequencies outside the range of human hearing. A mechanical engineer in the US believes this knowledge can be used to help make more powerful and more sensitive microphones.\n\nHuman hearing is controlled by air pressure. Pressure changes cause the eardrum to vibrate at different frequencies, and the brain processes the resulting vibrations as sounds. Currently, microphones are designed based on this principle, but one drawback is that making microphones bigger is the only way to make them more sensitive. However, the US researchers have demonstrated that microphones that respond to airflow in the way that spider silk does can be significantly smaller without losing sensitivity.",
+          "scriptJa": "クモと音\n\nアメリカの研究者たちは、クモが巣を通して音を感知できることを発見した。研究者たちによると、クモの巣に使われている糸は、最大3メートル離れたところの音波によって生じる空気の揺れをとらえることができた。この糸は、人間の可聴域を外れた周波数も感知できる。アメリカのある機械工学者は、この知見を利用すれば、より高性能で感度の高いマイクを作るのに役立つと考えている。\n\n人間の聴覚は空気の圧力によって制御されている。圧力が変化すると鼓膜がさまざまな周波数で振動し、その結果生じた振動を脳が音として処理する。現在のマイクはこの原理に基づいて設計されているが、欠点の1つは、マイクの感度を高めるには大きくするしかないという点だ。しかし、アメリカの研究者たちは、クモの糸と同じように空気の流れに反応するマイクであれば、感度を損なうことなく大幅に小型化できることを示した。"
         },
         {
           "id": "q19",
@@ -341,9 +341,9 @@
             { "label": "4", "text": "Their farming methods were very advanced." }
           ],
           "answer": "2",
-          "explanation": "第1段第1文より、2「彼らの農業はナイル川に依存していた」が正解である。was heavily dependent on が選択肢では relied on に言い換えられている。1・3・4の内容を示唆することは述べられていないので、不適切である。",
-          "script": "Nilometers\nAncient Egypt was heavily dependent on the Nile River. Each year, the river flooded the surrounding plains, leaving fertile soil behind when the water level dropped. This allowed the ancient Egyptians to grow crops, so the size of the flood had a major impact on the annual harvest. If the flood was too small, only a limited area would be covered with the soil, leading to a poor harvest. If the flood was too big, the crops could be destroyed.\nTo predict the size of the annual flood, the ancient Egyptians built large stone structures called nilometers, which measured the river's water level. In fact, historians now believe these structures had an additional purpose. The ancient Egyptian government placed a tax on goods, and the rate of this tax was decided each year. If nilometer measurements suggested there would be a good harvest, the tax was set at a higher rate.",
-          "scriptJa": "ナイロメーター\n古代エジプトはナイル川に大きく依存していた。毎年、川があふれて周囲の平野を水浸しにし、水が引いたあとには、肥沃な土壌が残った。これにより古代エジプト人は作物を育てることができたので、洪水の規模はその年の収穫に大きな影響を与えた。洪水が小さすぎれば、土で覆われる範囲が限られ、収穫は少なくなった。逆に洪水が大きすぎれば、作物が全滅する可能性もあった。\n毎年の洪水の規模を予測するために、古代エジプト人はナイロメーターと呼ばれる大きな石の構造物を建て、川の水位を測定した。実際には、これらの構造物には別の目的もあったと歴史家たちは今では考えている。古代エジプト政府は物品に課税しており、その税率は毎年決められていた。もしナイロメーターの測定が豊作を示していれば、税率は高めに設定されたのである。"
+          "explanation": "第1段落の冒頭で Ancient Egypt was heavily dependent on the Nile River と述べられ、洪水が残す肥沃な土のおかげで作物を育てられたと説明されている。農業がナイル川に頼っていたことを表す2が正解。農業が川を汚染したという話はないので1は誤り。作物が地域に合っていなかった、農法が非常に進んでいたという話もないので3と4も誤り。",
+          "script": "Nilometers\n\nAncient Egypt was heavily dependent on the Nile River. Each year, the river flooded the surrounding plains, leaving fertile soil behind when the water level dropped. This allowed the ancient Egyptians to grow crops, so the size of the flood had a major impact on the annual harvest. If the flood was too small, only a limited area would be covered with the soil, leading to a poor harvest. If the flood was too big, the crops could be destroyed.\n\nTo predict the size of the annual flood, the ancient Egyptians built large stone structures called nilometers, which measured the river's water level. In fact, historians now believe these structures had an additional purpose. The ancient Egyptian government placed a tax on goods, and the rate of this tax was decided each year. If nilometer measurements suggested there would be a good harvest, the tax was set at a higher rate.",
+          "scriptJa": "ナイロメーター\n\n古代エジプトはナイル川に大きく依存していた。毎年、川が氾濫して周囲の平野が水に浸かり、水位が下がると肥沃な土が残された。これによって古代エジプト人は作物を育てることができたため、洪水の規模がその年の収穫を大きく左右した。洪水が小さすぎると、土に覆われる範囲が限られ、不作につながった。洪水が大きすぎると、作物が台無しになるおそれがあった。\n\n毎年の洪水の規模を予測するため、古代エジプト人はナイロメーターと呼ばれる大きな石造りの建造物を建て、川の水位を測った。実は現在、歴史家たちはこれらの建造物には別の目的もあったと考えている。古代エジプトの政府は物品に税を課しており、その税率は毎年決められていた。ナイロメーターの測定結果から豊作が見込まれる場合には、税率が高めに設定されたのだ。"
         },
         {
           "id": "q20",
@@ -359,9 +359,9 @@
             { "label": "4", "text": "They were paid for using taxpayers' money." }
           ],
           "answer": "3",
-          "explanation": "第2段第2文に「実際には、これらの構造物には別の目的もあったと歴史家たちは今では考えている」とあり、この前後の文より、ナイロメーターは水位を測るだけでなく、税率決定というもうひとつの役割を持っていたことがわかるので、3「歴史家たちはそれらに複数の役割があったと考えている」が正解である。2については、第2段第1文より、毎年の洪水の規模を予測するためにナイロメーターが建てられたことがわかるので、誤りである。1のナイロメーターの精度の話や、4のナイロメーターの建築費用については言及されていないので、誤りである。",
-          "script": "Nilometers\nAncient Egypt was heavily dependent on the Nile River. Each year, the river flooded the surrounding plains, leaving fertile soil behind when the water level dropped. This allowed the ancient Egyptians to grow crops, so the size of the flood had a major impact on the annual harvest. If the flood was too small, only a limited area would be covered with the soil, leading to a poor harvest. If the flood was too big, the crops could be destroyed.\nTo predict the size of the annual flood, the ancient Egyptians built large stone structures called nilometers, which measured the river's water level. In fact, historians now believe these structures had an additional purpose. The ancient Egyptian government placed a tax on goods, and the rate of this tax was decided each year. If nilometer measurements suggested there would be a good harvest, the tax was set at a higher rate.",
-          "scriptJa": "ナイロメーター\n古代エジプトはナイル川に大きく依存していた。毎年、川があふれて周囲の平野を水浸しにし、水が引いたあとには、肥沃な土壌が残った。これにより古代エジプト人は作物を育てることができたので、洪水の規模はその年の収穫に大きな影響を与えた。洪水が小さすぎれば、土で覆われる範囲が限られ、収穫は少なくなった。逆に洪水が大きすぎれば、作物が全滅する可能性もあった。\n毎年の洪水の規模を予測するために、古代エジプト人はナイロメーターと呼ばれる大きな石の構造物を建て、川の水位を測定した。実際には、これらの構造物には別の目的もあったと歴史家たちは今では考えている。古代エジプト政府は物品に課税しており、その税率は毎年決められていた。もしナイロメーターの測定が豊作を示していれば、税率は高めに設定されたのである。"
+          "explanation": "第2段落で、ナイロメーターは水位を測って洪水の規模を予測するためのものだったが、historians now believe these structures had an additional purpose と述べられ、税率を決めるのにも使われていたと説明されている。複数の役割があったとする3が正解。建てられた目的は説明されているので2は誤り。税は物品に課されたもので、建設費が税金でまかなわれたという話ではないので4も誤り。",
+          "script": "Nilometers\n\nAncient Egypt was heavily dependent on the Nile River. Each year, the river flooded the surrounding plains, leaving fertile soil behind when the water level dropped. This allowed the ancient Egyptians to grow crops, so the size of the flood had a major impact on the annual harvest. If the flood was too small, only a limited area would be covered with the soil, leading to a poor harvest. If the flood was too big, the crops could be destroyed.\n\nTo predict the size of the annual flood, the ancient Egyptians built large stone structures called nilometers, which measured the river's water level. In fact, historians now believe these structures had an additional purpose. The ancient Egyptian government placed a tax on goods, and the rate of this tax was decided each year. If nilometer measurements suggested there would be a good harvest, the tax was set at a higher rate.",
+          "scriptJa": "ナイロメーター\n\n古代エジプトはナイル川に大きく依存していた。毎年、川が氾濫して周囲の平野が水に浸かり、水位が下がると肥沃な土が残された。これによって古代エジプト人は作物を育てることができたため、洪水の規模がその年の収穫を大きく左右した。洪水が小さすぎると、土に覆われる範囲が限られ、不作につながった。洪水が大きすぎると、作物が台無しになるおそれがあった。\n\n毎年の洪水の規模を予測するため、古代エジプト人はナイロメーターと呼ばれる大きな石造りの建造物を建て、川の水位を測った。実は現在、歴史家たちはこれらの建造物には別の目的もあったと考えている。古代エジプトの政府は物品に税を課しており、その税率は毎年決められていた。ナイロメーターの測定結果から豊作が見込まれる場合には、税率が高めに設定されたのだ。"
         },
         {
           "id": "q21",
@@ -377,9 +377,9 @@
             { "label": "4", "text": "Past research on brain conditions was incorrect." }
           ],
           "answer": "3",
-          "explanation": "第1段最終文で「脳に病気があると、…高温の影響を受けやすくなる」と述べられているので、3「脳に病気があると、高温に敏感になる」が正解である。放送の vulnerable が選択肢では sensitive に言い換えられている。1・2・4については言及されていないので、誤りである。",
-          "script": "Climate and the Brain\nScientists have long known that climatic conditions affect physical health, but a UK study suggests they also influence the brain. By analyzing past research, the study's authors found that heat waves caused a rise in hospital visits due to brain conditions. According to the study's leader, the brain only functions properly within a certain temperature range, so it usually regulates its own temperature. However, brain conditions can prevent this from happening, making sufferers of such conditions more vulnerable to the effects of high temperatures.\nIn fact, the study showed that healthy people were also affected by climatic conditions. Extreme weather events such as storms disrupt people's lives and create stress, which can have a negative effect on brain function over time. One of the study's authors warned that this meant the number of people suffering from brain conditions would likely increase because global warming is making extreme weather events more common.",
-          "scriptJa": "気候と脳\n科学者たちは、気候条件が身体の健康に影響を与えることを長い間知っていたが、イギリスの研究は、脳にも影響を与える可能性があることを示唆している。過去の研究を分析したところ、研究の著者たちは、熱波によって脳の病気で病院を訪れる人が増加することを発見した。研究の責任者によれば、脳は一定の温度の範囲内でのみ正常に機能するため、通常は自らの温度を調節する。しかし、脳に病気があると、この調節が妨げられ、そのような症状を持つ人は高温の影響を受けやすくなる。\n実際、研究では健康な人も気候条件の影響を受けることが示された。嵐のような極端な天候は人々の生活を乱し、ストレスを生み、それが長期的に脳機能に悪影響を及ぼす可能性がある。研究の著者の一人は、地球温暖化によって異常気象が増えているため、脳の病気で苦しむ人の数は今後増加する可能性があると警告している。"
+          "explanation": "第1段落で、脳の疾患があると脳が自ら温度を調節できなくなり、making sufferers of such conditions more vulnerable to the effects of high temperatures と述べられている。これを「暑さに敏感になる」と言い換えた3が正解。過去の研究は分析の材料として使われただけで、誤りだったとはされていないので4は誤り。病院の専門知識の不足や治療の難しさについても述べられていないので1と2も誤り。",
+          "script": "Climate and the Brain\n\nScientists have long known that climatic conditions affect physical health, but a UK study suggests they also influence the brain. By analyzing past research, the study's authors found that heat waves caused a rise in hospital visits due to brain conditions. According to the study's leader, the brain only functions properly within a certain temperature range, so it usually regulates its own temperature. However, brain conditions can prevent this from happening, making sufferers of such conditions more vulnerable to the effects of high temperatures.\n\nIn fact, the study showed that healthy people were also affected by climatic conditions. Extreme weather events such as storms disrupt people's lives and create stress, which can have a negative effect on brain function over time. One of the study's authors warned that this meant the number of people suffering from brain conditions would likely increase because global warming is making extreme weather events more common.",
+          "scriptJa": "気候と脳\n\n気候条件が体の健康に影響することは以前から科学者に知られていたが、イギリスのある研究によると、気候は脳にも影響を及ぼすという。研究の著者たちは過去の研究を分析し、熱波によって脳の疾患による病院の受診が増えていたことを明らかにした。研究のリーダーによれば、脳は一定の温度の範囲内でしか正常に機能しないため、通常は自ら温度を調節している。しかし、脳の疾患があるとこの働きが妨げられることがあり、そうした疾患を抱える人は高温の影響を受けやすくなる。\n\n実際、この研究では、健康な人も気候条件の影響を受けていることが示された。嵐のような異常気象は人々の生活を混乱させてストレスを生み、それが時間とともに脳の機能に悪影響を及ぼすことがある。研究の著者の1人は、地球温暖化によって異常気象が起こりやすくなっているため、脳の疾患に苦しむ人の数は今後増える可能性が高いと警告した。"
         },
         {
           "id": "q22",
@@ -395,9 +395,9 @@
             { "label": "4", "text": "More people will suffer from brain conditions." }
           ],
           "answer": "4",
-          "explanation": "第2段最終文で「脳の病気で苦しむ人の数は今後増加する可能性がある」と述べられているので、4「脳の病気で苦しむ人が増えるだろう」が正解である。1の地球温暖化に関しては、第2段最終文に地球温暖化によって異常気象が増えていると述べられていることから、その影響が軽減されるとは考えられないので誤りである。2に関して、脳の病気の種類については言及されていないので、誤りである。3については、第2段第2文より、嵐のような異常気象が人々の生活を乱し、健康に悪影響を与えることがわかるので、誤りである。",
-          "script": "Climate and the Brain\nScientists have long known that climatic conditions affect physical health, but a UK study suggests they also influence the brain. By analyzing past research, the study's authors found that heat waves caused a rise in hospital visits due to brain conditions. According to the study's leader, the brain only functions properly within a certain temperature range, so it usually regulates its own temperature. However, brain conditions can prevent this from happening, making sufferers of such conditions more vulnerable to the effects of high temperatures.\nIn fact, the study showed that healthy people were also affected by climatic conditions. Extreme weather events such as storms disrupt people's lives and create stress, which can have a negative effect on brain function over time. One of the study's authors warned that this meant the number of people suffering from brain conditions would likely increase because global warming is making extreme weather events more common.",
-          "scriptJa": "気候と脳\n科学者たちは、気候条件が身体の健康に影響を与えることを長い間知っていたが、イギリスの研究は、脳にも影響を与える可能性があることを示唆している。過去の研究を分析したところ、研究の著者たちは、熱波によって脳の病気で病院を訪れる人が増加することを発見した。研究の責任者によれば、脳は一定の温度の範囲内でのみ正常に機能するため、通常は自らの温度を調節する。しかし、脳に病気があると、この調節が妨げられ、そのような症状を持つ人は高温の影響を受けやすくなる。\n実際、研究では健康な人も気候条件の影響を受けることが示された。嵐のような極端な天候は人々の生活を乱し、ストレスを生み、それが長期的に脳機能に悪影響を及ぼす可能性がある。研究の著者の一人は、地球温暖化によって異常気象が増えているため、脳の病気で苦しむ人の数は今後増加する可能性があると警告している。"
+          "explanation": "第2段落の最後で、研究の著者の1人が、地球温暖化で異常気象が増えているため the number of people suffering from brain conditions would likely increase と警告している。これを言い換えた4が正解。温暖化の影響が弱まるとは言っておらず、むしろ異常気象が増えているとされているので1は誤り。新しい種類の疾患が現れる、人々が異常気象に適応するという話もないので2と3も誤り。",
+          "script": "Climate and the Brain\n\nScientists have long known that climatic conditions affect physical health, but a UK study suggests they also influence the brain. By analyzing past research, the study's authors found that heat waves caused a rise in hospital visits due to brain conditions. According to the study's leader, the brain only functions properly within a certain temperature range, so it usually regulates its own temperature. However, brain conditions can prevent this from happening, making sufferers of such conditions more vulnerable to the effects of high temperatures.\n\nIn fact, the study showed that healthy people were also affected by climatic conditions. Extreme weather events such as storms disrupt people's lives and create stress, which can have a negative effect on brain function over time. One of the study's authors warned that this meant the number of people suffering from brain conditions would likely increase because global warming is making extreme weather events more common.",
+          "scriptJa": "気候と脳\n\n気候条件が体の健康に影響することは以前から科学者に知られていたが、イギリスのある研究によると、気候は脳にも影響を及ぼすという。研究の著者たちは過去の研究を分析し、熱波によって脳の疾患による病院の受診が増えていたことを明らかにした。研究のリーダーによれば、脳は一定の温度の範囲内でしか正常に機能しないため、通常は自ら温度を調節している。しかし、脳の疾患があるとこの働きが妨げられることがあり、そうした疾患を抱える人は高温の影響を受けやすくなる。\n\n実際、この研究では、健康な人も気候条件の影響を受けていることが示された。嵐のような異常気象は人々の生活を混乱させてストレスを生み、それが時間とともに脳の機能に悪影響を及ぼすことがある。研究の著者の1人は、地球温暖化によって異常気象が起こりやすくなっているため、脳の疾患に苦しむ人の数は今後増える可能性が高いと警告した。"
         },
         {
           "id": "q23",
@@ -413,9 +413,9 @@
             { "label": "4", "text": "They can make work-life balance harder to achieve." }
           ],
           "answer": "2",
-          "explanation": "第1段最終文で「入るのに費用が妨げにならないこと」と述べられているので、正解は2「費用を気にせず入れる」である。放送の be a barrier to が選択肢では prevent に言い換えられている。1について、第1段第1文の後半でサードプレイスについて「自宅や職場とは別の空間のこと」と定義されているので、誤りである。3に関して、第2段第1文で、サードプレイスが恩恵をもたらすのはとりわけ職場のリーダーだと述べられているので誤りである。4について、第1段第2文より、サードプレイスによって健全なワークライフバランスを得ることができるとわかるので、不適切である。",
-          "script": "Third Places and Leadership\nIn the late twentieth century, the sociologist Ray Oldenburg proposed the idea of the \"third place\"—a space separate from home and the workplace, such as a park or café, where people can relax and socialize. These spaces can help individuals release stress, stimulate creativity, and achieve a healthier work-life balance. While third places can vary widely, Oldenburg noted some essential characteristics. For example, cost should not be a barrier to entering, and people should be free to come and go as they wish.\nThird places can be especially beneficial for workplace leaders. For such people, balancing life and work can be particularly challenging, especially since remote working has blurred the lines between work and homelife. Socializing in third places can help leaders gain new perspectives and bring renewed energy to work. This can enhance leadership effectiveness and also help create a workplace culture that benefits employees' well-being.",
-          "scriptJa": "サードプレイスとリーダーシップ\n20世紀後半に社会学者レイ・オルデンバーグは「サードプレイス」という考えを提唱した。これは自宅や職場とは別の空間のことで、公園やカフェのように、人々がくつろいだり交流したりできる場所を指す。こうした空間は、人々がストレスを解消し、創造性を刺激し、より健全なワークライフバランスを達成するのに役立つ可能性がある。サードプレイスには多様な形があり得るが、オルデンバーグはいくつかの重要な特徴を挙げている。例えば、入るのに費用が妨げにならないこと、そして人々が自由に出入りできることである。\nサードプレイスは、職場のリーダーにとって、とりわけ有益になり得る。そのような人にとって、仕事と生活の両立は特に困難であるが、それはとりわけ在宅勤務によって仕事と家庭生活の境界があいまいになっているためである。サードプレイスでの交流は、リーダーに新たな視点をもたらし、仕事に新しい活力を注ぐ助けとなり得る。これによりリーダーシップの効果が高まり、従業員の幸福に資する職場文化をつくることもできる。"
+          "explanation": "第1段落の最後で、サードプレイスに欠かせない特徴の1つとして cost should not be a barrier to entering と述べられている。費用が利用の妨げにならないとする2が正解。サードプレイスは家庭とも職場とも別の場所なので1は誤り。より健全なワークライフバランスの実現に役立つとされているので4も誤り。",
+          "script": "Third Places and Leadership\n\nIn the late twentieth century, the sociologist Ray Oldenburg proposed the idea of the \"third place\"—a space separate from home and the workplace, such as a park or café, where people can relax and socialize. These spaces can help individuals release stress, stimulate creativity, and achieve a healthier work-life balance. While third places can vary widely, Oldenburg noted some essential characteristics. For example, cost should not be a barrier to entering, and people should be free to come and go as they wish.\n\nThird places can be especially beneficial for workplace leaders. For such people, balancing life and work can be particularly challenging, especially since remote working has blurred the lines between work and homelife. Socializing in third places can help leaders gain new perspectives and bring renewed energy to work. This can enhance leadership effectiveness and also help create a workplace culture that benefits employees' well-being.",
+          "scriptJa": "サードプレイスとリーダーシップ\n\n20世紀後半、社会学者のレイ・オルデンバーグは「サードプレイス」という考え方を提唱した。これは公園やカフェのように、家庭とも職場とも別の、人々がくつろいだり交流したりできる場所のことである。こうした場所は、人々がストレスを解消し、創造性を刺激し、より健全なワークライフバランスを実現するのに役立つ。サードプレイスの形はさまざまだが、オルデンバーグはいくつかの欠かせない特徴を挙げた。例えば、費用が利用の妨げになってはならず、人々が好きなときに自由に出入りできなければならない。\n\nサードプレイスは、職場のリーダーにとって特に有益になりうる。そうした人々にとって、生活と仕事の両立はとりわけ難しいことがある。リモートワークによって仕事と家庭生活の境界があいまいになってからは、なおさらである。サードプレイスで人と交流することで、リーダーは新たな視点を得たり、活力を取り戻して仕事に臨んだりできる。それによってリーダーシップの効果が高まり、従業員の幸福につながる職場文化を作ることにも役立つ。"
         },
         {
           "id": "q24",
@@ -431,9 +431,9 @@
             { "label": "4", "text": "They could benefit from increased formal training." }
           ],
           "answer": "3",
-          "explanation": "第2段最終文で、サードプレイスでの交流によって「リーダーシップの効果が高まり、従業員の幸福に資する職場文化をつくることもできる」と述べられているので、3「職場環境がより健全になるだろう」が正解である。1・2・4を示唆する内容は述べられていないので、不適切である。",
-          "script": "Third Places and Leadership\nIn the late twentieth century, the sociologist Ray Oldenburg proposed the idea of the \"third place\"—a space separate from home and the workplace, such as a park or café, where people can relax and socialize. These spaces can help individuals release stress, stimulate creativity, and achieve a healthier work-life balance. While third places can vary widely, Oldenburg noted some essential characteristics. For example, cost should not be a barrier to entering, and people should be free to come and go as they wish.\nThird places can be especially beneficial for workplace leaders. For such people, balancing life and work can be particularly challenging, especially since remote working has blurred the lines between work and homelife. Socializing in third places can help leaders gain new perspectives and bring renewed energy to work. This can enhance leadership effectiveness and also help create a workplace culture that benefits employees' well-being.",
-          "scriptJa": "サードプレイスとリーダーシップ\n20世紀後半に社会学者レイ・オルデンバーグは「サードプレイス」という考えを提唱した。これは自宅や職場とは別の空間のことで、公園やカフェのように、人々がくつろいだり交流したりできる場所を指す。こうした空間は、人々がストレスを解消し、創造性を刺激し、より健全なワークライフバランスを達成するのに役立つ可能性がある。サードプレイスには多様な形があり得るが、オルデンバーグはいくつかの重要な特徴を挙げている。例えば、入るのに費用が妨げにならないこと、そして人々が自由に出入りできることである。\nサードプレイスは、職場のリーダーにとって、とりわけ有益になり得る。そのような人にとって、仕事と生活の両立は特に困難であるが、それはとりわけ在宅勤務によって仕事と家庭生活の境界があいまいになっているためである。サードプレイスでの交流は、リーダーに新たな視点をもたらし、仕事に新しい活力を注ぐ助けとなり得る。これによりリーダーシップの効果が高まり、従業員の幸福に資する職場文化をつくることもできる。"
+          "explanation": "第2段落の最後で、サードプレイスでの交流はリーダーシップの効果を高め、create a workplace culture that benefits employees' well-being ことにも役立つと述べられている。従業員の幸福につながる職場文化を「職場環境がより健全になる」と言い換えた3が正解。リモートワークは仕事と家庭の境界をあいまいにした要因として触れられているだけなので2は誤り。転職や正式な研修の話は出てこないので1と4も誤り。",
+          "script": "Third Places and Leadership\n\nIn the late twentieth century, the sociologist Ray Oldenburg proposed the idea of the \"third place\"—a space separate from home and the workplace, such as a park or café, where people can relax and socialize. These spaces can help individuals release stress, stimulate creativity, and achieve a healthier work-life balance. While third places can vary widely, Oldenburg noted some essential characteristics. For example, cost should not be a barrier to entering, and people should be free to come and go as they wish.\n\nThird places can be especially beneficial for workplace leaders. For such people, balancing life and work can be particularly challenging, especially since remote working has blurred the lines between work and homelife. Socializing in third places can help leaders gain new perspectives and bring renewed energy to work. This can enhance leadership effectiveness and also help create a workplace culture that benefits employees' well-being.",
+          "scriptJa": "サードプレイスとリーダーシップ\n\n20世紀後半、社会学者のレイ・オルデンバーグは「サードプレイス」という考え方を提唱した。これは公園やカフェのように、家庭とも職場とも別の、人々がくつろいだり交流したりできる場所のことである。こうした場所は、人々がストレスを解消し、創造性を刺激し、より健全なワークライフバランスを実現するのに役立つ。サードプレイスの形はさまざまだが、オルデンバーグはいくつかの欠かせない特徴を挙げた。例えば、費用が利用の妨げになってはならず、人々が好きなときに自由に出入りできなければならない。\n\nサードプレイスは、職場のリーダーにとって特に有益になりうる。そうした人々にとって、生活と仕事の両立はとりわけ難しいことがある。リモートワークによって仕事と家庭生活の境界があいまいになってからは、なおさらである。サードプレイスで人と交流することで、リーダーは新たな視点を得たり、活力を取り戻して仕事に臨んだりできる。それによってリーダーシップの効果が高まり、従業員の幸福につながる職場文化を作ることにも役立つ。"
         }
       ]
     },
@@ -452,7 +452,7 @@
           "prompt": "Which room should you rent?",
           "promptJa": "どの部屋を借りるべきか？",
           "situation": "You are planning a painting workshop for twenty people. You call an arts center to ask about renting a room and are told the following.",
-          "situationJa": "あなたは20人のための絵画ワークショップを計画している。部屋をレンタルするためにアートセンターに電話をかけ、以下の案内を受けた。",
+          "situationJa": "あなたは20人が参加する絵画のワークショップを計画している。部屋を借りることについて尋ねるためにアートセンターに電話したところ、次のように説明された。",
           "choices": [
             { "label": "1", "text": "The Rose Gallery." },
             { "label": "2", "text": "The Sun Gallery." },
@@ -460,9 +460,9 @@
             { "label": "4", "text": "The Sky Studio." }
           ],
           "answer": "3",
-          "explanation": "ローズ・ギャラリーとサン・ギャラリーについては、第3文に「それらの部屋は美術品の展示専用」とあるので、1・2は不適切。第5文でインクや絵の具を使う場合は、筆やその他の道具を洗うための流し台があるブルー・ルームの方がスカイ・スタジオより適していると述べられているので、ブルー・ルームが条件に合うとわかる。よって正解は3「ブルー・ルーム」である。",
+          "explanation": "ワークショップに使えるのはブルー・ルームとスカイ・スタジオで、どちらも30人まで入れるので20人なら問題ない。さらに、絵の具を使う場合は筆などを洗う sink があるブルー・ルームのほうが適しているとされているので3が正解。ローズ・ギャラリーとサン・ギャラリーは展示専用なので1と2は誤り。4のスカイ・スタジオも人数は足りるが、絵の具を使うならブルー・ルームが勧められている。",
           "script": "If you're holding an exhibition, we have the Rose Gallery and the Sun Gallery. The Sun Gallery can hold up to fifty people, while the Rose Gallery can hold around ninety. However, those rooms are only for displaying art, so if you're planning a workshop or class, we have the Blue Room or the Sky Studio. They can each accommodate up to thirty people. If you're using ink or paints, the Blue Room is more suitable because it has a sink for washing brushes and other equipment. All rooms can be rented by the day or by the hour.",
-          "scriptJa": "もし展示会を開く場合は、ローズ・ギャラリーとサン・ギャラリーをご利用いただけます。サン・ギャラリーは最大50人まで収容でき、ローズ・ギャラリーはおよそ90人収容可能です。しかし、それらの部屋は美術品の展示専用なので、ワークショップや講座を予定されている場合は、ブルー・ルームまたはスカイ・スタジオをご利用いただけます。それぞれ最大30人まで収容可能です。もしインクや絵の具を使う場合は、ブルー・ルームには筆やその他の道具を洗うための流し台があるので、そちらの方が適しています。すべての部屋は、1日単位、または1時間単位でレンタル可能です。"
+          "scriptJa": "展覧会を開かれる場合は、ローズ・ギャラリーとサン・ギャラリーがございます。サン・ギャラリーは最大50人、ローズ・ギャラリーは約90人を収容できます。ただし、これらの部屋は作品の展示専用ですので、ワークショップや教室を予定されている場合は、ブルー・ルームかスカイ・スタジオをご利用いただけます。どちらも最大30人まで収容可能です。インクや絵の具を使われる場合は、筆などの道具を洗うための流しがあるブルー・ルームのほうが適しています。どの部屋も1日単位または1時間単位でお借りいただけます。"
         },
         {
           "id": "q26",
@@ -470,9 +470,9 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "Where should you go?",
-          "promptJa": "あなたはどこに行くべきか？",
+          "promptJa": "どこへ行くべきか？",
           "situation": "You are a tenth-grade high school student. You are in the art classroom at school when you hear the following announcement.",
-          "situationJa": "あなたは高校1年生だ。あなたは学校の美術室にいて、次の放送を耳にする。",
+          "situationJa": "あなたは高校10年生である。学校の美術室にいるとき、次の校内放送が聞こえてくる。",
           "choices": [
             { "label": "1", "text": "To the main sports field." },
             { "label": "2", "text": "To the staff parking lot." },
@@ -480,9 +480,9 @@
             { "label": "4", "text": "To the small auditorium." }
           ],
           "answer": "4",
-          "explanation": "第3文より、運動場に行くのは中学3年生なので1は誤り。第4文より、体育館は保守点検中だとわかるので、3は不適切。第5文で「高校1年生は職員用駐車場へ向かってください」と述べられるので、いったん2が正解の候補となるが、第7文で「美術室および音楽室にいる生徒と職員も、学年に関係なく小講堂へ移動してください」と述べられているので、4「小講堂へ」が正解となる。",
+          "explanation": "10年生は教職員用駐車場へ向かうよう指示されているが、その後で美術室と音楽室にいる人は regardless of class year、つまり学年に関係なく小講堂へ移動するよう言われている。あなたは今美術室にいるので4が正解。2は10年生の通常の集合場所だが、美術室にいる場合は当てはまらない。1は9年生の集合場所で、3の体育館は保守作業のため通り抜けできないと言われているだけである。",
           "script": "Attention students and staff. The fire drill will begin in ten minutes. Ninth-grade classes should proceed to the main sports field behind the gym. Please note that due to maintenance work, you cannot walk through the gym to reach the field. Tenth-grade classes should head to the staff parking lot. Eleventh- and twelfth-grade classes are to assemble in the small auditorium. Students and staff currently in the art and music rooms should also proceed to this location, regardless of class year. Remember, this is a drill designed for your safety, so please follow instructions carefully. Thank you for your cooperation.",
-          "scriptJa": "生徒および職員の皆さんにお知らせします。火災訓練は10分後に始まります。中学3年生は、体育館の裏にある運動場へ移動してください。なお、保守点検作業のため、体育館の中を通って運動場に行くことはできません。高校1年生は職員用駐車場へ向かってください。高校2年生と高校3年生は小講堂に集合してください。現在、美術室および音楽室にいる生徒と職員も、学年に関係なく小講堂へ移動してください。これは皆さんの安全のために行われる訓練ですので、指示をよく守ってください。ご協力ありがとうございます。"
+          "scriptJa": "生徒と教職員の皆さんにお知らせします。避難訓練は10分後に始まります。9年生のクラスは、体育館の裏にあるメイン運動場へ移動してください。なお、保守作業のため、体育館を通り抜けて運動場へ行くことはできませんので注意してください。10年生のクラスは教職員用駐車場へ向かってください。11年生と12年生のクラスは小講堂に集合してください。現在、美術室と音楽室にいる生徒と教職員も、学年に関係なくこの場所へ移動してください。これは皆さんの安全のための訓練ですので、指示をよく守ってください。ご協力ありがとうございます。"
         },
         {
           "id": "q27",
@@ -490,9 +490,9 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "What should you do next?",
-          "promptJa": "次にあなたがすべきことは何か？",
+          "promptJa": "次に何をすべきか？",
           "situation": "You have a tree in your yard that has a disease. It is sixty centimeters in diameter. A tree specialist is giving you advice.",
-          "situationJa": "あなたの庭に病気の木がある。その直径は60センチである。樹木の専門家があなたに助言をしている。",
+          "situationJa": "あなたの家の庭に病気にかかった木が1本ある。その木の直径は60センチである。樹木の専門家があなたに助言をしている。",
           "choices": [
             { "label": "1", "text": "Purchase more of the chemical." },
             { "label": "2", "text": "Continue to check the tree's condition." },
@@ -500,9 +500,9 @@
             { "label": "4", "text": "Book a date with the tree specialist." }
           ],
           "answer": "3",
-          "explanation": "第4文で「もしその木の直径が50センチを超える場合、撤去には市役所の許可が必要です」と述べられているので、3「市役所に連絡する」が正解である。1の「薬剤の購入」や2の「木を観察し続ける」といった内容は述べられていないので誤りである。第4文と最終文より、直径50センチを超える木を伐採する場合は、市役所の許可を取ることが最優先なので、4は不正解である。",
+          "explanation": "直径が50センチを超える木を撤去するには city hall の許可が必要で、専門家は代わりに申請できないと言っている。あなたの木は直径60センチなので、まず自分で市役所に連絡する必要があり、3が正解。伐採日の予約は許可が取れた後なので、4は次にすべきことではない。木はもう救えないので、薬剤を買い足す1や様子を見続ける2も誤り。",
           "script": "As I warned you last year, the chemical treatment we applied is not always effective. The disease has progressed, and it's no longer possible to save the tree. It's a shame, but due to its condition, your only option is to have it removed. If the tree is more than fifty centimeters in diameter, you'll need a permit from city hall for the removal. I'm afraid I can't apply on your behalf. Once that's taken care of, you can book a date to have the tree taken down.",
-          "scriptJa": "昨年もお伝えしたとおり、私たちが行った薬剤処理は必ずしも効果があるわけではありません。病気は進行しており、もはやこの木を救うことはできません。残念ですが、この状態から考えて、唯一の選択肢は木を撤去することです。もしその木の直径が50センチを超える場合、撤去には市役所の許可が必要です。申し訳ありませんが、代理申請はできません。それが済みましたら、伐採の日程を予約することができます。"
+          "scriptJa": "昨年お伝えしたとおり、私たちが行った薬剤による処置は必ずしも効果があるとは限りません。病気が進行してしまい、もうこの木を救うことはできません。残念ですが、この状態では木を撤去してもらうしか方法がありません。直径が50センチを超える木の場合、撤去には市役所の許可が必要です。申し訳ありませんが、私が代わりに申請することはできません。それが済んだら、木を伐採してもらう日を予約できます。"
         },
         {
           "id": "q28",
@@ -510,9 +510,9 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "Which tour should you take?",
-          "promptJa": "どのツアーに参加するべきか？",
+          "promptJa": "どのツアーに参加すべきか？",
           "situation": "You are on vacation with your husband. You are both interested in history and physical activities. A staff member at the tourist office gives you some tour options.",
-          "situationJa": "あなたは夫と一緒に休暇中である。二人とも歴史と体を動かす活動に興味がある。観光案内所のスタッフがいくつかのツアーを紹介する。",
+          "situationJa": "あなたは夫と休暇で旅行中である。2人とも歴史と体を動かすことに興味がある。観光案内所の職員がいくつかのツアーを紹介してくれる。",
           "choices": [
             { "label": "1", "text": "The evening city tour." },
             { "label": "2", "text": "The daytime bus tour." },
@@ -520,9 +520,9 @@
             { "label": "4", "text": "The river tour." }
           ],
           "answer": "1",
-          "explanation": "夕方の市内ツアーについて、第2文で「丘の上の城、古い大聖堂、市内から数キロ離れたローマ橋を徒歩で巡る」と説明されている。歴史的な場所を徒歩で巡るため体力も必要なので、1「夕方の市内ツアー」が正解である。2については、第3文で徒歩ツアーに比べて体の負担は少ないと述べられているので誤り。3に関しては、第4文より、このツアーには歴史に関わる見どころが含まれていないので、不適切である。4については最終文より、体を動かす活動が含まれていないので、誤りである。",
+          "explanation": "夜の市内ツアーは城や大聖堂、ローマ時代の橋といった歴史的な場所を数キロ歩いて巡るので、歴史と体を動かすことの両方に合う1が正解。2のバスツアーは同じ史跡を巡るが less physically demanding とされている。3のサイクリングは体を動かせるが自然スポットが中心で、4の川のツアーは歴史の解説はあるが船でくつろぐだけなので、どちらも条件を満たさない。",
           "script": "First up is the evening city tour. You'll walk to the hilltop castle, the old cathedral, and the Roman bridge a few kilometers out of town. We also have a daytime bus tour that includes those sites, so that's less physically demanding than the walking tour. A daytime tour requiring fitness is the cycling tour, which takes you beyond the city to explore local nature spots, including the stunning lake. Finally, we have a two-hour tour along the city's river. Just relax on a riverboat, enjoy lunch, and listen as the guide gives you the lowdown on local history.",
-          "scriptJa": "最初のおすすめは夕方の市内観光ツアーです。丘の上の城、古い大聖堂、市内から数キロ離れたローマ橋を徒歩で巡ります。また、これらの場所を含む日中のバスツアーもあり、徒歩ツアーに比べて体の負担は少ないです。体力が必要な日中のツアーとしては、サイクリングツアーがあり、これは市街地を越えて、美しい湖などの地元の自然の名所を訪れるものです。最後に、市内の川をめぐる2時間ツアーもあります。川船にゆったり乗りながらランチを楽しみ、ガイドから地元の詳しい歴史をお聞きください。"
+          "scriptJa": "まずは夜の市内ツアーです。丘の上の城、古い大聖堂、そして町から数キロ離れたローマ時代の橋まで歩いて回ります。同じ場所を巡る日中のバスツアーもあり、こちらは徒歩のツアーよりも体力的に楽です。日中で体力が必要なツアーとしてはサイクリングツアーがあり、市外へ出て、見事な湖をはじめとする地元の自然スポットを巡ります。最後に、市内の川沿いを巡る2時間のツアーがあります。遊覧船でくつろいで昼食を楽しみながら、ガイドによる地元の歴史の解説を聞くことができます。"
         },
         {
           "id": "q29",
@@ -530,9 +530,9 @@
           "audio": "audio/eiken/eiken-pre1-2025-1/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "Who should you ask to work tomorrow?",
-          "promptJa": "明日の勤務を頼むべき人物は誰か？",
+          "promptJa": "明日の勤務を誰に頼むべきか？",
           "situation": "You are the manager of a store. Part-time employees can work a maximum of thirty hours per week. You receive the following voicemail from a coworker.",
-          "situationJa": "あなたは店のマネージャーである。アルバイトは1週間に最大30時間まで働ける。あなたは同僚から以下の留守番電話を受け取る。",
+          "situationJa": "あなたは店の店長である。パートタイムの従業員は週に最大30時間まで働くことができる。同僚から次のような留守番電話のメッセージが届いている。",
           "choices": [
             { "label": "1", "text": "Miranda." },
             { "label": "2", "text": "Jack." },
@@ -540,9 +540,9 @@
             { "label": "4", "text": "Rakesh." }
           ],
           "answer": "3",
-          "explanation": "第3文の後半で「ミランダは今週すでに30時間働いている」と述べられているので、1は誤りである。第5文で、ジャックは「エイミーの仕事に必要なトレーニングを受けていない」と説明されていることから、2は不適切である。最終文で、ラケシュはすでに明日の通常シフトに入っていると述べられているので、4は誤りである。よってダナ以外の3人は不適切であり、さらに第6文で「ダナは、他にシフトに入れる人がいない場合でなければ、引き受けたくない」と述べられていることにも合致するため、3「ダナ」が正解となる。",
+          "explanation": "ミランダはすでに上限の30時間働いており、ジャックはエイミーの仕事の研修を受けていない。ラケシュは明日すでに通常のシフトに入っているので頼めない。デイナは unless there's no one else who can come in、つまりほかに来られる人がいない場合しか引き受けたくないと言っているが、まさにその状況なので3が正解。デイナは15時間に6時間を足しても上限の30時間以内に収まる。",
           "script": "This is Jamal. I'm afraid Amy can't work tomorrow, so we need to find a replacement to work her six-hour shift. Miranda should be willing—oh, she's already worked thirty hours this week. Jack and Dana have worked just fifteen hours, so they'd be below the limit. Jack isn't trained for Amy's job, though. And Dana doesn't want to do it unless there's no one else who can come in. Hmm. Rakesh has worked twenty hours, so he might be your best bet. Oh, wait, he's already doing his regular shift for tomorrow, so he's unavailable.",
-          "scriptJa": "こちらはジャマールです。エイミーは明日出勤できないようなので、彼女の6時間のシフトに代わりに入ってくれる人を探さなければなりません。ミランダなら引き受けてくれるはず――あ、彼女は今週すでに30時間働いています。ジャックとダナはまだ15時間しか働いていないので、制限内です。ただし、ジャックはエイミーの仕事に必要なトレーニングを受けていません。ダナは、他にシフトに入れる人がいない場合でなければ、引き受けたくないそうです。うーん。ラケシュは20時間働いているので、最も適任かもしれません。あ、でも彼はすでに明日の通常シフトに入っているので無理です。"
+          "scriptJa": "ジャマルです。あいにくエイミーが明日出勤できなくなったので、彼女の6時間のシフトに入ってくれる代わりの人を見つけないといけません。ミランダなら引き受けてくれるはず…あ、彼女は今週もう30時間働いていますね。ジャックとデイナはまだ15時間しか働いていないので、上限には届きません。ただ、ジャックはエイミーの仕事の研修を受けていません。それにデイナは、ほかに来られる人がいない場合でなければやりたくないそうです。うーん。ラケシュは20時間働いているので、彼が一番いいかもしれません。あ、待ってください。彼は明日すでに通常のシフトに入っているので、無理ですね。"
         }
       ]
     }

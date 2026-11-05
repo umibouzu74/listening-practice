@@ -27,12 +27,12 @@
             { "label": "1", "text": "Visit her brother in the hospital." },
             { "label": "2", "text": "Submit her assignment." },
             { "label": "3", "text": "Ask her brother for help." },
-            { "label": "4", "text": "Choose a new topic for her assignment." }
+            { "label": "4", "text": "Choose a new assignment topic." }
           ],
           "answer": "2",
-          "explanation": "男性が最後の発言で「明日それを提出するのを認める」と述べ、女性は「すばらしい」と答えている。it は女性の発言中の assignment「課題」を指しているので、2「課題を提出する」が正解。「提出する」という表現が、放送文では turn it in で、選択肢では submit に言い換えられている。1は、女性が「弟は家にいる」と述べているから不適切。",
+          "explanation": "教授（男性）の3番目の発言で、課題を明日提出してよいと言われ、女性も「Great」と受け入れている。よって明日課題を提出すると考えられるので2が正解。兄はすでに退院して家にいるので1は誤りで、課題のテーマを変える話は出てこないので4も誤り。",
           "script": "W: Hi, Professor. Can I talk to you about my assignment?\nM: Sure. I was surprised when you didn't turn it in at the start of class. That's never happened before.\nW: My brother was in an accident, and I was at the hospital with him.\nM: I'm sorry to hear that. Is he OK?\nW: Yes, he's home now, but I didn't have time to get my assignment done.\nM: Well, I can let you turn it in tomorrow. How would that be?\nW: Great. Thank you!",
-          "scriptJa": "W: こんにちは、教授。課題のことでお話しできますか？\nM: もちろん。授業の始めに君が課題を提出しなかったので驚いた。そんなことは今まで一度もなかったからね。\nW: 弟が事故にあって、病院で付き添っていたんです。\nM: それはお気の毒に。弟さんは大丈夫？\nW: はい、今は家にいます。ただ、課題を終わらせる時間がなかったんです。\nM: そうか、明日それを提出するのを認めよう。それでどうかな？\nW: すばらしい。ありがとうございます！"
+          "scriptJa": "W: こんにちは、先生。課題のことでご相談してもいいですか？\nM: いいよ。授業の始めに提出しなかったので驚いたよ。今までそんなことは一度もなかったからね。\nW: 兄が事故にあって、病院で付き添っていたんです。\nM: それは大変だったね。お兄さんは大丈夫なの？\nW: はい、もう家に戻っています。でも、課題を仕上げる時間がなくて。\nM: そうか、それなら明日提出してもいいよ。それでどうかな？\nW: 助かります。ありがとうございます！"
         },
         {
           "id": "q2",
@@ -40,15 +40,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/03_No2.mp3",
           "prompt": "What do these people think?",
           "choices": [
-            { "label": "1", "text": "Too much money is being spent on education." },
-            { "label": "2", "text": "The budget is likely to be reduced soon." },
+            { "label": "1", "text": "Too much money is spent on education." },
+            { "label": "2", "text": "The budget is likely to be decreased soon." },
             { "label": "3", "text": "The government is wasting money." },
             { "label": "4", "text": "The media is unfair to the government." }
           ],
           "answer": "3",
-          "explanation": "2人の会話は政府の税金の引き上げから始まり、女性は予算を削減できる分野があると述べて道路を例に挙げている。男性は多額の金をかけて作った道路が使われていないという報道を読んだと言っているので、3「政府は金の無駄遣いをしている」が適切。",
+          "explanation": "女性は2番目の発言で高速道路などの予算は削れるはずだと言い、男性も何十億ドルもかけた新しい高速道路がほとんど使われていないという報道を挙げて同意している。2人とも政府がお金を無駄に使っていると考えているので3が正解。教育計画は増税の理由として出てくるだけで、教育費が多すぎるとは言っていないので1は誤り。予算がもうすぐ削減されるという話もないので2も誤り。",
           "script": "W: I can't believe the government wants to raise taxes again.\nM: They say it's necessary to pay for the new education plan.\nW: Well, it seems like there are a lot of areas in the budget that could be reduced instead. Spending on highways, for one.\nM: That's for sure. I read a news report just yesterday saying that few drivers are using the new highways, even though they cost billions.\nW: Right. I'd write a letter to the government if I thought it'd do any good.",
-          "scriptJa": "W: 政府がまた税金を引き上げたいなんて信じられない。\nM: 新しい教育計画の財源として必要だと言っている。\nW: なるほど、それよりも、予算を削ることができそうな分野がたくさんあるように思えるけど。例えば、道路への支出とか。\nM: 確かに。何十億もかけて作ったのに、新しい道路を使っているドライバーがほとんどいないというニュース報道を昨日読んだばかりだ。\nW: そのとおり。それが役に立つなら、政府に手紙を書くところよ。"
+          "scriptJa": "W: 政府がまた増税しようとしているなんて信じられない。\nM: 新しい教育計画の財源として必要なんだってさ。\nW: でも、代わりに削れそうな予算の分野がたくさんあると思うけど。たとえば高速道路への支出とか。\nM: 本当にそうだね。ちょうど昨日読んだニュースでは、何十億ドルもかけたのに新しい高速道路を使うドライバーはほとんどいないってさ。\nW: そうなのよ。役に立つと思えるなら、政府に手紙でも書きたいくらい。"
         },
         {
           "id": "q3",
@@ -56,15 +56,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/04_No3.mp3",
           "prompt": "What is one thing we learn from the conversation?",
           "choices": [
-            { "label": "1", "text": "The man will be much busier." },
+            { "label": "1", "text": "The man will become much busier." },
             { "label": "2", "text": "The woman will need to attend more meetings." },
             { "label": "3", "text": "The woman dislikes the people on the fourth floor." },
             { "label": "4", "text": "The man did not want his new position." }
           ],
           "answer": "1",
-          "explanation": "女性が「もっと頻繁に机で食事をすることになるだろう」と述べると、男性はそれを認めて「仕事量はかなり多くなると思う」と述べている。したがって、1「男性はずっと忙しくなるだろう」が適切。",
+          "explanation": "女性は3番目の発言で、男性はこれから自分の机で昼食をとることが増えるだろうと言い、男性も「my workload is going to be pretty heavy」と認めている。昇進によって仕事が増えて忙しくなるということなので1が正解。会議に出るのは今後も一緒だと言っているだけで、女性の会議が増えるわけではないので2は誤り。4階の人々への感情や、男性が昇進を望んでいなかったという話は出てこないので3と4も誤り。",
           "script": "M: Thanks for inviting me to lunch.\nW: Sure. I wanted to celebrate your promotion. It's too bad I won't see you as often, though, since you'll be moving to the fourth floor.\nM: Well, we'll still have meetings together. And maybe we could have a weekly lunch or something.\nW: Great idea. But you'll probably be eating at your desk a lot more often.\nM: That's true. I guess my workload is going to be pretty heavy.\nW: Yes, at least until you get used to your new position.",
-          "scriptJa": "M: 昼ご飯に誘ってくれてありがとう。\nW: どういたしまして。昇進のお祝いをしたかったの。4階へ移動してしまうと、頻繁に会えなくなるのは残念だけど。\nM: まあ、一緒の会議はまだある。それに、週1度の昼ご飯くらいなら行けるかもしれない。\nW: すごくいい考え。でも、おそらくあなたは、自分の机で食事をすることが増えるでしょうね。\nM: そのとおり。仕事量はかなり多くなると思う。\nW: ええ、少なくとも新しい地位に慣れるまでは。"
+          "scriptJa": "M: ランチに誘ってくれてありがとう。\nW: どういたしまして。昇進のお祝いをしたかったの。でも、あなたが4階に移ったら、あまり会えなくなるのが残念だわ。\nM: まあ、会議ではこれからも一緒だよ。それに、週に1回ランチをするとかしてもいいし。\nW: いい考えね。でも、たぶんこれからは自分の机で食べることがずっと多くなるわよ。\nM: 確かに。仕事量はかなり増えそうだからね。\nW: ええ、少なくとも新しい役職に慣れるまではね。"
         },
         {
           "id": "q4",
@@ -73,14 +73,14 @@
           "prompt": "Why is the woman visiting her neighbor?",
           "choices": [
             { "label": "1", "text": "To give her a massage." },
-            { "label": "2", "text": "To receive some food." },
+            { "label": "2", "text": "To pick up some food." },
             { "label": "3", "text": "To give her a gift certificate." },
             { "label": "4", "text": "To do some housework." }
           ],
           "answer": "4",
-          "explanation": "女性の2番目の発言で「少し掃除をして、温めるだけで食べられる物を用意してくるつもりだ」と述べていることから、4「家事をするため」が正解。1・2・3で用いられている単語が会話中で使われているが、女性が訪ねる理由とは関係ない。",
+          "explanation": "女性は2番目の発言で、今日は掃除をして、温めるだけで食べられる料理を用意するつもりだと話している。これを「家事をする」とまとめた4が正解。料理は女性が作ってあげるもので、受け取りに行くわけではないので2は誤り。ギフト券は以前キャロルが女性に贈ったものなので3も誤り。",
           "script": "W: I'm going next door to see Carol. I'll be back in an hour.\nM: Sure. By the way, how is she doing after her surgery?\nW: She's doing much better, but she still has trouble moving around. Today, I'm going to do a little cleaning and prepare some food for her that she can just heat up.\nM: I'm sure she appreciates your help.\nW: I think she does. The other day, she got me a gift certificate to a spa so I can get a massage.",
-          "scriptJa": "W: キャロルに会いにお隣へ行ってくる。1時間で戻ります。\nM: わかった。ところで、手術後、彼女の様子はどうなの？\nW: ずいぶんよくなってはいるけれど、まだ動き回るのは大変なの。今日は、少し掃除をして、温めるだけで食べられる物を用意してくるつもり。\nM: 彼女は君の助けをきっと感謝しているだろうね。\nW: そう思う。この前、私がマッサージを受けられるようにと、スパのギフト券をくれたもの。"
+          "scriptJa": "W: 隣のキャロルの様子を見てくるね。1時間で戻るわ。\nM: わかった。ところで、手術のあと彼女の具合はどう？\nW: ずいぶん良くなったけど、まだ動き回るのは大変みたい。今日はちょっと掃除をして、温めるだけで食べられる料理を作ってあげるつもりなの。\nM: きっと君の手助けをありがたく思っているよ。\nW: そうだと思う。この前、マッサージを受けられるようにって、スパのギフト券をくれたもの。"
         },
         {
           "id": "q5",
@@ -88,15 +88,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/06_No5.mp3",
           "prompt": "What will the man probably do first?",
           "choices": [
-            { "label": "1", "text": "Ask the store to replace the printer." },
-            { "label": "2", "text": "Have the old printer repaired." },
-            { "label": "3", "text": "Try to get money back from the store." },
-            { "label": "4", "text": "Visit the store to look at other models." }
+            { "label": "1", "text": "Ask the shop to replace the printer." },
+            { "label": "2", "text": "Get the old printer fixed." },
+            { "label": "3", "text": "Try to get money back from the shop." },
+            { "label": "4", "text": "Visit the shop to check other models." }
           ],
           "answer": "3",
-          "explanation": "男性は「取り替えてもらうように頼む」と言っているが、女性が「払い戻してもらうべきだ」と言い、このブランドは修理が必要だという評判を述べると、男性はその意見に同意している。よって、3「店から返金してもらうようにする」が正解。「払い戻しを受ける」が放送文では get a refund で、選択肢では get money back に言い換えられている。",
+          "explanation": "男性は最初、店に交換を頼むつもりだったが、女性が「try to get a refund instead」と提案し、男性も「OK, I'll look into it」と応じている。したがって、男性はまず店から返金を受けようとすると考えられるので3が正解。交換の案は女性の提案によって取り下げられたので1は誤り。古いプリンターは修理するのではなく、新しい機種を決めるまで使うだけなので2も誤り。",
           "script": "W: Alan, the printer is giving me that error message again.\nM: Are you sure the paper is the right size?\nW: Of course. I've checked it several times.\nM: This is ridiculous. We just bought that printer two weeks ago. I'll call the computer shop and ask them to replace it.\nW: I think we should try to get a refund instead. I've seen reviews saying this brand's printers frequently need to be repaired.\nM: OK, I'll look into it. We can use our old one until we decide which model we want to buy.",
-          "scriptJa": "W: アラン、プリンターにあのエラーメッセージがまた出ているんだけど。\nM: 間違いなく用紙は正しいサイズになっている？\nW: もちろん。何度か確認したもの。\nM: とんでもない話だ。2週間前にあのプリンターを買ったばかりなのに。コンピュータショップに電話をして、取り替えてもらうように頼もう。\nW: それよりも、払い戻してもらうべきだと思うんだけど。このブランドのプリンターは頻繁に修理が必要だと書いてあるレビューを見たの。\nM: わかった、調べてみるよ。どのモデルを買うか決めるまでは、古いものが使える。"
+          "scriptJa": "W: アラン、プリンターがまたあのエラーメッセージを出しているわ。\nM: 用紙のサイズは合ってるの？\nW: もちろん。何度も確認したわよ。\nM: ひどいな。あのプリンターは2週間前に買ったばかりなのに。パソコンショップに電話して、交換してもらうよ。\nW: それより返金してもらうほうがいいと思う。このメーカーのプリンターはしょっちゅう修理が必要になるっていうレビューを見たことがあるの。\nM: わかった、調べてみるよ。どの機種を買うか決めるまでは、古いのを使えばいいね。"
         },
         {
           "id": "q6",
@@ -104,15 +104,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/07_No6.mp3",
           "prompt": "What was one problem the man had during his trip?",
           "choices": [
-            { "label": "1", "text": "The client canceled the deal." },
-            { "label": "2", "text": "The contract had to be revised." },
+            { "label": "1", "text": "His client canceled the deal." },
+            { "label": "2", "text": "The contract needed to be revised." },
             { "label": "3", "text": "The lawyer made a serious mistake." },
-            { "label": "4", "text": "He was late for an important meeting." }
+            { "label": "4", "text": "He arrived late for an important meeting." }
           ],
           "answer": "2",
-          "explanation": "男性が「弁護士が契約書の言葉遣いに異議を唱えて、文章の修正をしている間に大きな遅れが出た」と述べていることから、2「契約書の修正が必要だった」が正解。「修正する」という表現が、放送文では modify で、選択肢では revise に言い換えられている。1については、女性が「顧客が取引を破棄したのか」と尋ねたのに対して、男性は否定している。",
+          "explanation": "男性の2番目の発言で、先方の弁護士が契約書の文言に異議を唱え、文面を修正するのに大幅な遅れが出たと述べている。これを「契約書を修正する必要があった」と言い換えた2が正解。取引先が手を引いたのかという女性の問いに男性は「No」と答えているので1は誤り。弁護士はミスをしたのではなく異議を唱えただけなので3も誤り。",
           "script": "W: How was your business trip to Tokyo last week?\nM: It was a disaster.\nW: What happened? Did the client back out of the deal?\nM: No, but their lawyer objected to the wording of the contract, and there was a big delay while we modified the text. Then, before we could finalize the deal, we had an emergency at headquarters, and I had to return immediately.\nW: That's awful.\nM: Yes. I'm going to have to go back to Tokyo in a couple of weeks.",
-          "scriptJa": "W: 先週の東京出張はどうだった？\nM: さんざんだった。\nW: 何があったの？　顧客が取引を破棄したの？\nM: いや、だが先方の弁護士が契約書の言葉遣いに異議を唱えて、文章の修正をしている間に大きな遅れが出た。その後、取引をまとめる前に、本社で緊急事態が発生してね、すぐに戻らなければならなくなったのさ。\nW: それはひどい。\nM: ああ。数週間後にはまた東京に行かなければならないだろう。"
+          "scriptJa": "W: 先週の東京出張はどうだった？\nM: さんざんだったよ。\nW: 何があったの？取引先が契約から手を引いたとか？\nM: いや、そうじゃないんだけど、先方の弁護士が契約書の文言に異議を唱えて、文面を修正する間ずいぶん待たされてね。そのうえ、契約をまとめる前に本社で緊急事態が起きて、すぐに戻らなきゃならなかったんだ。\nW: それはひどいわね。\nM: うん。2、3週間後にまた東京に行かなきゃならないんだ。"
         },
         {
           "id": "q7",
@@ -121,14 +121,14 @@
           "prompt": "What does the man say about his new job?",
           "choices": [
             { "label": "1", "text": "His boss does not trust him." },
-            { "label": "2", "text": "He is under very tight deadlines." },
-            { "label": "3", "text": "He lacks the skills that are required." },
+            { "label": "2", "text": "He has very tight deadlines." },
+            { "label": "3", "text": "He lacks the skills required." },
             { "label": "4", "text": "His boss is not well organized." }
           ],
           "answer": "4",
-          "explanation": "男性が自分の上司について「いつも、やるつもりだと言っては忘れている。しょっちゅう締切りを思い出させなければいけない」と述べていることから、4「彼の上司は仕事を手際よく処理できない」が適切。選択肢中の organized には「几帳面な、きちんと仕事をこなせる」の意味がある。",
+          "explanation": "男性の3番目の発言で、上司はやると言ったことを忘れてしまい、締め切りも自分が何度も思い出させなければならないと述べている。これは上司の仕事の段取りが悪いということなので4が正解。締め切りを忘れるのは上司のほうで、男性の締め切りが厳しいという話ではないので2は誤り。上司は男性の仕事に口出ししてこないと言っており、男性を信頼していないとは言えないので1も誤り。",
           "script": "W: Hi, Nick. How's your new job going?\nM: Well, it's taking me a while to adjust.\nW: Are your responsibilities very different from your last job?\nM: No, but my boss is. She always says she's going to do things but then forgets about them! I'm constantly having to remind her about deadlines.\nW: That sounds frustrating.\nM: It sure is. Still, at least she isn't bothering me about my work.\nW: I guess things could be worse.",
-          "scriptJa": "W: こんにちは、ニック。新しい仕事はどう？\nM: そうだね、慣れるのに時間がかかっている。\nW: あなたの責任は前の仕事とはだいぶ違うの？\nM: いや、でも上司がね。彼女はいつも、やるつもりだと言っては忘れている！　僕はしょっちゅう彼女に締切りを思い出させなければいけないんだ。\nW: それはイライラするでしょうね。\nM: そのとおり。でも、少なくとも彼女は僕の仕事のことに口出しはしない。\nW: それならまだいいわね。"
+          "scriptJa": "W: こんにちは、ニック。新しい仕事はどう？\nM: うーん、慣れるまでに少し時間がかかってるよ。\nW: 前の仕事とは担当業務がかなり違うの？\nM: いや、でも上司が違うんだ。いつも何かをやると言っては、そのことを忘れちゃうんだよ！締め切りについても、しょっちゅう僕が念を押さなきゃならないんだ。\nW: それはいらいらしそうね。\nM: 本当にね。それでも、少なくとも僕の仕事にあれこれ口出ししてこないのは助かるけど。\nW: もっとひどい状況だってありうるものね。"
         },
         {
           "id": "q8",
@@ -136,15 +136,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/09_No8.mp3",
           "prompt": "What will the couple probably do?",
           "choices": [
-            { "label": "1", "text": "Buy a new sofa right away." },
+            { "label": "1", "text": "Get a new sofa right away." },
             { "label": "2", "text": "Buy a sofa online." },
             { "label": "3", "text": "Look for a sofa on sale." },
-            { "label": "4", "text": "Have their current sofa repaired." }
+            { "label": "4", "text": "Repair their current sofa." }
           ],
           "answer": "3",
-          "explanation": "男性が「その店が値引きするのを待つ必要がある」と述べたのに対し、女性は「他の店でもお買い得品があるかもしれないから見て回ろう」と述べているので、3「セールでソファを探す」が正解。",
+          "explanation": "男性は3番目の発言で、予算が少ないので店が値引きをするまで購入を先延ばしにすると言い、女性もほかの店でお得なセールをしていないか見て回ろうと提案している。したがって、2人はセール中のソファを探すと考えられるので3が正解。すぐには買わないので1は誤り。ネットで買う案は、実物を試したいという女性の意見を受けて男性が取り下げたので2も誤り。",
           "script": "M: I'm thinking we should replace the sofa soon. It's getting pretty worn out.\nW: Do you want to check out that new furniture store down the road?\nM: Nah, I was thinking of just getting one online. That's usually much cheaper.\nW: Really? I'd rather we try a sofa out before actually buying it.\nM: I suppose you're right. Our budget isn't very large, though, so we'll probably have to put off the purchase until the store offers some discounts.\nW: Let's look around some other stores, too. They might have some good deals on.",
-          "scriptJa": "M: そろそろソファを取り替えた方がいいと思っている。かなりすり切れてきたね。\nW: 道の先の新しい家具店を見に行きたいの？\nM: いいや、オンラインで買おうかと思っていた。たいていその方が安いからね。\nW: 本当？　実際に買う前にソファの座り心地を試せたらいいと思うけど。\nM: まあ、そのとおりだろうね。でも、予算があまりないから、その店が値引きをするまでは買うのを遅らせなければならないだろう。\nW: 他のお店も見て回りましょう。お買い得品があるかもしれない。"
+          "scriptJa": "M: そろそろソファを買い替えたほうがいいと思うんだ。だいぶくたびれてきたし。\nW: この先にできた新しい家具店をのぞいてみる？\nM: いや、ネットで買おうかと思ってたんだ。そのほうがたいていずっと安いから。\nW: 本当に？実際に買う前に、座って試してみたいけど。\nM: それもそうだね。でも予算があまりないから、たぶんその店が値引きをするまで買うのは先延ばしにしないといけないね。\nW: ほかの店も見て回りましょう。お得なセールをやっているかもしれないし。"
         },
         {
           "id": "q9",
@@ -152,15 +152,15 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/10_No9.mp3",
           "prompt": "What does the man suggest?",
           "choices": [
-            { "label": "1", "text": "Checking the weather forecast." },
-            { "label": "2", "text": "Going to the cabin this weekend." },
-            { "label": "3", "text": "Preparing food for an emergency." },
-            { "label": "4", "text": "Going out for some ice cream." }
+            { "label": "1", "text": "Checking the weather news." },
+            { "label": "2", "text": "Taking a trip to their cabin this weekend." },
+            { "label": "3", "text": "Preparing emergency supplies." },
+            { "label": "4", "text": "Going out for ice cream." }
           ],
           "answer": "3",
-          "explanation": "男性は「今週末は大吹雪かもしれない」と述べ、「食料や水を確認して、必要があれば買いに行くべきだ」と述べている。よって、3「非常用の食料を準備すること」が正解。",
+          "explanation": "男性は2番目の発言で、週末の吹雪に備えて食料と水の量を確かめ、必要なら買い出しに行こうと提案している。これを「非常用の備えをする」と言い換えた3が正解。天気予報は男性がすでに確認しているので1は誤り。山小屋は去年の出来事として、アイスクリームは女性の思いつきとして出てくるだけなので2と4も誤り。",
           "script": "W: It's so warm today! Hard to believe it's February. I could even go for some ice cream.\nM: Today is lovely, but the weather report says we may get a big snowstorm this weekend.\nW: Are you kidding? That would be a temperature drop of nearly 20 degrees.\nM: We'd better check how much food and water we have and go to the grocery store if necessary.\nW: Good idea. After getting snowed in at our cabin last year, I want to make sure we're stocked up just in case.",
-          "scriptJa": "W: 今日はとても暖かい！　2月なんて信じられない。アイスクリームが食べたいくらい。\nM: 今日はいい天気だが、天気予報によると、今週末は大吹雪かもしれないそうだ。\nW: 冗談でしょ？　それじゃ、気温が20度近く下がることになるわ。\nM: 食料や水がどのくらいあるか確認して、必要ならば食料品店へ行った方がいいだろう。\nW: いい考えね。昨年雪で山小屋に閉じ込められてから、万が一に備えて、確実に十分な蓄えをしておきたいと思っているの。"
+          "scriptJa": "W: 今日はすごく暖かいわね！2月だなんて信じられない。アイスクリームでも食べたいくらい。\nM: 今日はいい天気だけど、天気予報だと今週末は大きな吹雪が来るかもしれないって。\nW: 冗談でしょう？それだと気温が20度近くも下がることになるわよ。\nM: 食料と水がどれくらいあるか確認して、必要ならスーパーに行ったほうがいいね。\nW: そうね。去年は山小屋で雪に閉じ込められたから、念のため十分に備えておきたいわ。"
         },
         {
           "id": "q10",
@@ -169,14 +169,14 @@
           "prompt": "What does the woman imply about Irene?",
           "choices": [
             { "label": "1", "text": "She lacks enthusiasm for her job." },
-            { "label": "2", "text": "She is going to be fired." },
-            { "label": "3", "text": "She has a bad reputation with clients." },
+            { "label": "2", "text": "She is going to be dismissed." },
+            { "label": "3", "text": "She is unpopular with the clients." },
             { "label": "4", "text": "She needs to improve her computer skills." }
           ],
           "answer": "1",
-          "explanation": "女性は「彼女のやる気が心配だ」と述べている。よって、1「彼女は仕事に対する熱意を欠いている」が適切。「やる気」という表現が、放送文では motivation で、選択肢では enthusiasm に言い換えられている。",
+          "explanation": "女性は2番目の発言で、アイリーンの技術や顧客の評価は高いとしながらも「I am concerned about her motivation」と述べ、退職を考えている可能性にも触れている。つまり仕事への意欲が欠けていることをほのめかしているので1が正解。顧客は彼女に満足しているので3は誤りで、コンピューターの扱いは上手だと言っているので4も誤り。解雇の話も出ていないので2も当てはまらない。",
           "script": "M: Good morning, Ms. Redfield. I just got a call from Irene. She says she needs to take a half day off this morning.\nW: Again? That's the second time this week.\nM: Yes. I'm a bit worried. She's also been late quite a few times in the last couple of months.\nW: She's quite skilled with computers, though, and the clients seem very satisfied with her. I am concerned about her motivation, however. It might be best to have a talk with her, in case she's considering leaving the company.\nM: I'll set up a meeting.",
-          "scriptJa": "M: おはようございます、レッドフィールドさん。たった今アイリーンから電話がありました。今日の午前中、半日休暇を取る必要があると言っています。\nW: また？　今週は2回目ね。\nM: はい。少し心配ですね。それに彼女はここ数カ月で何回も遅刻しています。\nW: でも、彼女はコンピュータの技術はかなり優れているし、顧客は彼女にとても満足しているようね。それでも、私は彼女のやる気が心配です。会社を辞めようとしているといけないから、彼女と話し合いをした方がいいわね。\nM: 面談の準備をします。"
+          "scriptJa": "M: おはようございます、レッドフィールドさん。今アイリーンから電話がありました。今日は午前中、半休を取りたいそうです。\nW: また？今週2回目よ。\nM: はい。少し心配です。ここ2、3か月はかなりの回数、遅刻もしていますし。\nW: でも、彼女はコンピューターの扱いがかなり上手だし、顧客もとても満足しているようね。ただ、やる気の面は気がかりだわ。会社を辞めようと考えているかもしれないから、一度彼女と話をしたほうがいいかもしれない。\nM: 面談の場を設けます。"
         },
         {
           "id": "q11",
@@ -185,14 +185,14 @@
           "prompt": "What does the woman say about the paintings?",
           "choices": [
             { "label": "1", "text": "The man should try to sell them for a profit." },
-            { "label": "2", "text": "They should be displayed in a gallery." },
-            { "label": "3", "text": "The man should find out how much they are worth." },
+            { "label": "2", "text": "They should be hung in an art gallery." },
+            { "label": "3", "text": "The man should find out what they are worth." },
             { "label": "4", "text": "They should be displayed properly." }
           ],
           "answer": "4",
-          "explanation": "女性は「壁に掛ける前にもっといい額を買うべき」と述べ、「絵にはこの安い額以上の価値があると思う」と重ねて述べている。女性が言いたいのは「絵にふさわしい額に入れて壁に掛けるべきだ」ということだから、4「それらは適切に飾られるべきだ」が正解。",
+          "explanation": "女性は3番目の発言で壁に飾る前にもっと良い額縁を用意すべきだと言い、最後の発言でも安っぽい額縁では絵にふさわしくないと繰り返している。つまり絵をきちんとした形で飾るべきだと言っているので4が正解。画廊は絵をどこで手に入れたのか尋ねる場面で出てくるだけなので2は誤り。絵を売ることや絵の価値を調べることは話題になっていないので1と3も誤り。",
           "script": "W: Hey, Jack! How was your trip to the Yucatán?\nM: Great. Check out these paintings I picked up.\nW: Wow! They're gorgeous! Did you find them at a local gallery?\nM: No, I got them from artists at local markets, and they were unbelievably cheap.\nW: Well, you should get better frames for them before you put them on the wall.\nM: Actually, I looked into that today. They cost 10 times what the paintings did, so I'm hesitant.\nW: I really think they deserve better than these cheap frames, don't you?",
-          "scriptJa": "W: こんにちは、ジャック！　ユカタン半島の旅はどうだった？\nM: すばらしかった。買ってきた絵を見てよ。\nW: わあ！　とてもきれい！　現地の画廊で見つけたの？\nM: いや、現地のマーケットで画家から買ったから、信じられないくらい安かった。\nW: そうね、壁に掛ける前にもっといい額を買うべきよ。\nM: 実は、今日、それを調べたんだけどね。絵の値段の10倍もするから、躊躇しているところさ。\nW: 本当に、絵にはこの安い額以上の価値があると思うけど、あなたはそう思わないの？"
+          "scriptJa": "W: ねえ、ジャック！ユカタン旅行はどうだった？\nM: 最高だったよ。買ってきたこの絵を見てよ。\nW: わあ！すごくきれい！地元の画廊で見つけたの？\nM: いや、地元の市場で画家たちから直接買ったんだ。信じられないくらい安かったよ。\nW: それなら、壁に飾る前にもっといい額縁を用意したほうがいいわね。\nM: 実は今日それを調べてみたんだ。額縁は絵の10倍もするから、迷ってるんだよ。\nW: こんな安っぽい額縁じゃ、絵がかわいそうだと思うけど。そう思わない？"
         },
         {
           "id": "q12",
@@ -201,14 +201,14 @@
           "prompt": "Why does the man apologize to the woman?",
           "choices": [
             { "label": "1", "text": "He forgot to fill the water bottles." },
-            { "label": "2", "text": "He did not tell her the water would be shut off." },
-            { "label": "3", "text": "He lost the notice about the pipe inspection." },
+            { "label": "2", "text": "He did not tell her the water would be turned off." },
+            { "label": "3", "text": "He lost the notices about the water pipe inspection." },
             { "label": "4", "text": "He damaged the water pipes." }
           ],
           "answer": "2",
-          "explanation": "男性は「すまない、君に言うのを忘れていた」と謝罪している。男性が女性に伝えるべきだったのは「水道管の点検がある（ので断水する）こと」だから、2「彼は水道が止まることを彼女に言わなかった」が正解。",
+          "explanation": "男性は2番目の発言で「I forgot to tell you」と謝り、夜7時まで断水することを女性に伝えていなかったと認めている。これを言い換えた2が正解。水のボトルは用意してあると言っているので1は誤り。お知らせは受け取っていたが、なくしたという話ではないので3も誤り。",
           "script": "W: Hey, Joseph? There's no water coming from the faucet.\nM: Oh, right, they're inspecting the pipes down the street.\nW: What? That's news to me.\nM: Sorry, I forgot to tell you. There won't be any water until 7 p.m. We got a couple of notices about it while you were out of town.\nW: Why didn't you tell me earlier? I wanted to wash some clothes tonight for work tomorrow.\nM: I'm sorry. I did prepare some bottles of water, so we have enough for cooking and drinking.\nW: That's something, at least.",
-          "scriptJa": "W: ちょっと、ジョゼフ？　蛇口から水が出ないのよ。\nM: ああ、そうだ、この先の道路で管の点検をしているんだ。\nW: 何ですって？　それは初耳よ。\nM: すまない、君に言うのを忘れてた。午後7時まで水は出ない。君が町を離れていた時にそれについていくつか知らせがあったんだ。\nW: どうしてもっと早く言ってくれなかったの？　明日の仕事用に今晩洗濯をしたかったのに。\nM: ごめん。水を何本か用意しておいたから、料理や飲むためには十分だ。\nW: 少なくとも、そうしてくれてよかった。"
+          "scriptJa": "W: ねえ、ジョセフ？蛇口から水が出ないんだけど。\nM: ああ、そうだった。この先の通りで水道管の点検をしているんだよ。\nW: え？そんなの初めて聞いたわ。\nM: ごめん、言うのを忘れてた。夜7時まで水は出ないんだ。君が留守にしている間に、お知らせが何回か届いていたんだよ。\nW: どうしてもっと早く言ってくれなかったの？明日の仕事のために、今夜洗濯したかったのに。\nM: 本当にごめん。ボトルに水を何本か用意しておいたから、料理と飲む分は足りるよ。\nW: まあ、それだけでもましね。"
         }
       ]
     },
@@ -227,15 +227,15 @@
           "passageLabel": "Passage A",
           "prompt": "What is one thing that we learn about growing the Three Sisters?",
           "choices": [
-            { "label": "1", "text": "When to plant each crop is important." },
-            { "label": "2", "text": "They only grow in a small area of North America." },
+            { "label": "1", "text": "When each of the crops is planted is important." },
+            { "label": "2", "text": "They only grow in a small region of North America." },
             { "label": "3", "text": "They have difficulty competing with weeds." },
-            { "label": "4", "text": "Spacing the plants apart is necessary." }
+            { "label": "4", "text": "There needs to be space between the plants." }
           ],
           "answer": "1",
-          "explanation": "第1段最終文で「それぞれの作物を、他の作物に最も役立つ時期に植えることが必要不可欠である」と述べられていることから、1「それぞれの作物をいつ植えるかが重要である」が正解。2については、all over North America「北アメリカ一帯の」とあるので不適切。3については「カボチャは雑草を生えないようにする」という内容に合致しない。",
+          "explanation": "第1段落の最後で、この組み合わせをうまく機能させるには、各作物をほかの作物の役に最も立つ時期に植えることが欠かせないと述べている。これを「それぞれの作物を植える時期が重要だ」と言い換えた1が正解。北米各地で栽培されていたと述べられているので2は誤りで、カボチャが雑草を防ぐとあるので3も誤り。",
           "script": "The Three Sisters\n\nFor centuries, Native Americans all over North America grew corn, beans, and squash, which were often called the Three Sisters. The Three Sisters were planted together because of the strong benefits that the combination brings. When beans are grown with corn, the corn provides support for the beans as they climb up to get more sunlight. Additionally, squash keeps weeds away, and beans increase the amount of the beneficial chemical nitrogen in the soil. To make the combination work, however, planting each crop at the time when it will most help the others is essential.\n\nIn the distant past, Native American farmers were even able to grow the Three Sisters in the desert areas of the American southwest, but, unfortunately, most of this knowledge has been lost. Some Native Americans are currently working to rediscover the techniques that would allow them to grow the vegetables in very dry conditions.",
-          "scriptJa": "スリー・シスターズ\n\n数百年間、北アメリカ一帯のアメリカ先住民はトウモロコシ、豆、カボチャを育てたが、それらはしばしばスリー・シスターズと呼ばれていた。スリー・シスターズは、その組み合わせによって強力な利点がもたらされたので、一緒に植えられていた。豆はトウモロコシと一緒に育てられると、より多くの日光を得ようとして豆が伸びる時にトウモロコシはその支えになる。加えて、カボチャは雑草が生えないようにし、豆は土壌中で有益な化学物質である窒素の量を増加させる。しかし、この組み合わせを機能させるには、それぞれの作物を、他の作物に最も役立つ時期に植えることが必要不可欠である。\n\nはるか昔、アメリカ先住民の農耕民はアメリカ南西部の砂漠地帯でもスリー・シスターズを栽培することができたが、残念なことに、この知識の大部分は失われてしまった。現在、アメリカ先住民の中には、非常に乾燥した気候でそれらの野菜を育てることを可能にする技術の再発見に取り組んでいる人たちもいる。"
+          "scriptJa": "スリー・シスターズ\n\n何世紀にもわたり、北米各地のネイティブ・アメリカンはトウモロコシ、豆、カボチャを栽培してきた。これらはしばしば「スリー・シスターズ（三姉妹）」と呼ばれた。この3つが一緒に植えられたのは、組み合わせることで大きな利点が生まれるからである。豆をトウモロコシと一緒に育てると、豆がより多くの日光を求めてつるを伸ばす際に、トウモロコシが支えの役割を果たす。さらに、カボチャは雑草を寄せつけず、豆は土の中の有益な化学物質である窒素を増やす。ただし、この組み合わせをうまく機能させるには、それぞれの作物を、ほかの作物の役に最も立つ時期に植えることが欠かせない。\n\n遠い昔、ネイティブ・アメリカンの農民たちはアメリカ南西部の砂漠地帯でさえスリー・シスターズを育てることができたが、残念ながら、その知識の大部分は失われてしまった。現在、一部のネイティブ・アメリカンが、非常に乾燥した環境でこれらの野菜を育てることを可能にする技術を再発見しようと取り組んでいる。"
         },
         {
           "id": "q14",
@@ -245,15 +245,15 @@
           "passageLabel": "Passage A",
           "prompt": "What are some Native Americans trying to do now?",
           "choices": [
-            { "label": "1", "text": "Use more modern growing techniques." },
-            { "label": "2", "text": "Find new plants that can be grown in deserts." },
+            { "label": "1", "text": "Use more-modern growing techniques." },
+            { "label": "2", "text": "Find new plants that can be grown in the desert." },
             { "label": "3", "text": "Teach others how to grow the Three Sisters." },
-            { "label": "4", "text": "Rediscover forgotten farming methods." }
+            { "label": "4", "text": "Recover forgotten growing methods." }
           ],
           "answer": "4",
-          "explanation": "第2段で「アメリカ先住民の中には、非常に乾燥した気候でそれらの野菜を育てることを可能にする技術を再発見しようとしている人たちがいる」と述べている。したがって、4「忘れられた栽培方法を再発見する」が正解。",
+          "explanation": "第2段落で、砂漠でスリー・シスターズを育てる知識の大部分は失われたが、現在一部のネイティブ・アメリカンがその技術を「rediscover」しようとしていると述べている。失われた栽培方法を取り戻そうとしているということなので4が正解。新しい技術や、砂漠で育つ新しい植物を求めているわけではないので1と2は誤り。",
           "script": "The Three Sisters\n\nFor centuries, Native Americans all over North America grew corn, beans, and squash, which were often called the Three Sisters. The Three Sisters were planted together because of the strong benefits that the combination brings. When beans are grown with corn, the corn provides support for the beans as they climb up to get more sunlight. Additionally, squash keeps weeds away, and beans increase the amount of the beneficial chemical nitrogen in the soil. To make the combination work, however, planting each crop at the time when it will most help the others is essential.\n\nIn the distant past, Native American farmers were even able to grow the Three Sisters in the desert areas of the American southwest, but, unfortunately, most of this knowledge has been lost. Some Native Americans are currently working to rediscover the techniques that would allow them to grow the vegetables in very dry conditions.",
-          "scriptJa": "スリー・シスターズ\n\n数百年間、北アメリカ一帯のアメリカ先住民はトウモロコシ、豆、カボチャを育てたが、それらはしばしばスリー・シスターズと呼ばれていた。スリー・シスターズは、その組み合わせによって強力な利点がもたらされたので、一緒に植えられていた。豆はトウモロコシと一緒に育てられると、より多くの日光を得ようとして豆が伸びる時にトウモロコシはその支えになる。加えて、カボチャは雑草が生えないようにし、豆は土壌中で有益な化学物質である窒素の量を増加させる。しかし、この組み合わせを機能させるには、それぞれの作物を、他の作物に最も役立つ時期に植えることが必要不可欠である。\n\nはるか昔、アメリカ先住民の農耕民はアメリカ南西部の砂漠地帯でもスリー・シスターズを栽培することができたが、残念なことに、この知識の大部分は失われてしまった。現在、アメリカ先住民の中には、非常に乾燥した気候でそれらの野菜を育てることを可能にする技術の再発見に取り組んでいる人たちもいる。"
+          "scriptJa": "スリー・シスターズ\n\n何世紀にもわたり、北米各地のネイティブ・アメリカンはトウモロコシ、豆、カボチャを栽培してきた。これらはしばしば「スリー・シスターズ（三姉妹）」と呼ばれた。この3つが一緒に植えられたのは、組み合わせることで大きな利点が生まれるからである。豆をトウモロコシと一緒に育てると、豆がより多くの日光を求めてつるを伸ばす際に、トウモロコシが支えの役割を果たす。さらに、カボチャは雑草を寄せつけず、豆は土の中の有益な化学物質である窒素を増やす。ただし、この組み合わせをうまく機能させるには、それぞれの作物を、ほかの作物の役に最も立つ時期に植えることが欠かせない。\n\n遠い昔、ネイティブ・アメリカンの農民たちはアメリカ南西部の砂漠地帯でさえスリー・シスターズを育てることができたが、残念ながら、その知識の大部分は失われてしまった。現在、一部のネイティブ・アメリカンが、非常に乾燥した環境でこれらの野菜を育てることを可能にする技術を再発見しようと取り組んでいる。"
         },
         {
           "id": "q15",
@@ -263,15 +263,15 @@
           "passageLabel": "Passage B",
           "prompt": "What does Tim Gill imply about modern parents?",
           "choices": [
-            { "label": "1", "text": "They do not think enough about their children's safety." },
+            { "label": "1", "text": "They do not give enough thought to their children's safety." },
             { "label": "2", "text": "They are often forced to set strict rules for their children." },
             { "label": "3", "text": "They should spend more time with their children." },
-            { "label": "4", "text": "They give their children a variety of experiences." }
+            { "label": "4", "text": "They are giving their children a variety of experiences." }
           ],
           "answer": "2",
-          "explanation": "第1段最終文で「彼は親が子どものために厳しい規則を設けずにいるのは難しいと認めている」とある。よって、2「彼らは子どもたちのために厳格な規則を設けざるを得ないことが多い」が正解。放送文では it is difficult for parents to avoid setting …が、選択肢では They are often forced to set …に言い換えられている。",
+          "explanation": "第1段落の最後で、ギルは現代の都市がますます危険になっているため、親が子どもに厳しいルールを設けずにいるのは難しいと認めている。これを「厳しいルールを設けざるを得ないことが多い」と言い換えた2が正解。親は子どもの安全を気にして禁止事項を設けているのであり、安全への配慮が足りないわけではないので1は誤り。子どもと過ごす時間や多様な経験については触れられていないので3と4も誤り。",
           "script": "Children in Cities\n\nIn previous generations, children generally had more freedom to explore their surroundings. These days, parents commonly prohibit children from taking walks, crossing streets, or even playing at playgrounds unsupervised. Author Tim Gill argues children today would benefit from being allowed to do things on their own. However, he acknowledges that since modern cities have become increasingly dangerous places, it is difficult for parents to avoid setting strict rules for children.\n\nGill believes design is the key to making cities child friendly. Cities are currently designed to allow people to travel easily by car, but cars are one of the greatest threats to children's safety. Rather than simply building more playground spaces, Gill wants to make cities safer for children to move through. While completely rebuilding cities is not realistic in the short term, Gill suggests that easier measures such as turning streets into car-free zones for a short time each week could have immediate benefits.",
-          "scriptJa": "都市の子どもたち\n\nこれまでの世代では、子どもたちは普通、もっと自由に自分たちの周囲を探索することができた。最近の親たちは一般に、子どもが見守りなしで散歩したり、道路を渡ったり、遊び場で遊んだりすることすら禁じている。作家のティム・ギルは、一人で何かすることを許すことは現代の子どものためになると主張している。しかし一方で、彼は、現代の都市はますます危険な場所になっているので、親が子どものために厳しい規則を設けずにいるのは難しいと認めている。\n\nギルは、デザインが子どもに優しい都市を作るカギだと考えている。都市は現在、人々が車で簡単に移動できるようにデザインされているが、車は子どもの安全にとって最も大きな脅威の1つである。より多くの遊び場をただ作るのではなく、都市を子どもが移動するのにもっと安全なものにしようとギルは考えている。都市をすっかり改造するのは短期的には現実的ではないが、毎週短時間、道路を自動車通行禁止区域にするなどのもっと簡単な手段であれば、すぐに効果が得られるだろうとギルは提案している。"
+          "scriptJa": "都市の子どもたち\n\nかつての世代では、子どもたちは一般に、身の回りを探検する自由が今よりもあった。今日では、親が子どもに対し、大人の付き添いなしで散歩したり、道路を渡ったり、さらには遊び場で遊んだりすることさえ禁じるのが普通になっている。作家のティム・ギルは、現代の子どもたちは自分だけで物事をすることを許されれば、そこから得るものがあると主張している。しかし彼は、現代の都市がますます危険な場所になっているため、親が子どもに厳しいルールを課さずにいるのは難しいことも認めている。\n\nギルは、都市を子どもにやさしいものにする鍵はデザインにあると考えている。現在の都市は人々が車で楽に移動できるように設計されているが、車は子どもの安全にとって最大の脅威の一つである。ギルは、単に遊び場を増やすのではなく、子どもたちがより安全に動き回れる都市にしたいと考えている。都市を完全に作り直すことは短期的には現実的ではないが、ギルは、毎週短い時間だけ通りを車の通行禁止区域にするといった、より手軽な対策ならすぐに効果が出るかもしれないと提案している。"
         },
         {
           "id": "q16",
@@ -281,15 +281,15 @@
           "passageLabel": "Passage B",
           "prompt": "What is one thing Gill suggests that cities do?",
           "choices": [
-            { "label": "1", "text": "Create times when streets are closed to cars." },
+            { "label": "1", "text": "Set times when streets are closed to cars." },
             { "label": "2", "text": "Remove parking lots from playgrounds." },
-            { "label": "3", "text": "Build new roads outside of city centers." },
+            { "label": "3", "text": "Build new roads outside the center of cities." },
             { "label": "4", "text": "Make cars safer by changing their design." }
           ],
           "answer": "1",
-          "explanation": "第2段最終文で「毎週短時間、道路を自動車通行禁止区域にするなどの手段であれば、すぐに効果が得られるとギルは提案している」とあるから、1「道路が自動車通行止めになる時間を設ける」が正解。放送文では turning streets into car-free zones で、選択肢では streets are closed to cars に言い換えられている。",
+          "explanation": "第2段落の最後で、ギルは毎週短い時間だけ通りを「car-free zones」にするという手軽な対策を提案している。これを「通りを車に対して閉鎖する時間を設ける」と言い換えた1が正解。ギルが重視するデザインとは都市の設計のことで、車そのものの設計ではないので4は誤り。駐車場の撤去や都心の外への道路建設についても述べられていないので2と3も誤り。",
           "script": "Children in Cities\n\nIn previous generations, children generally had more freedom to explore their surroundings. These days, parents commonly prohibit children from taking walks, crossing streets, or even playing at playgrounds unsupervised. Author Tim Gill argues children today would benefit from being allowed to do things on their own. However, he acknowledges that since modern cities have become increasingly dangerous places, it is difficult for parents to avoid setting strict rules for children.\n\nGill believes design is the key to making cities child friendly. Cities are currently designed to allow people to travel easily by car, but cars are one of the greatest threats to children's safety. Rather than simply building more playground spaces, Gill wants to make cities safer for children to move through. While completely rebuilding cities is not realistic in the short term, Gill suggests that easier measures such as turning streets into car-free zones for a short time each week could have immediate benefits.",
-          "scriptJa": "都市の子どもたち\n\nこれまでの世代では、子どもたちは普通、もっと自由に自分たちの周囲を探索することができた。最近の親たちは一般に、子どもが見守りなしで散歩したり、道路を渡ったり、遊び場で遊んだりすることすら禁じている。作家のティム・ギルは、一人で何かすることを許すことは現代の子どものためになると主張している。しかし一方で、彼は、現代の都市はますます危険な場所になっているので、親が子どものために厳しい規則を設けずにいるのは難しいと認めている。\n\nギルは、デザインが子どもに優しい都市を作るカギだと考えている。都市は現在、人々が車で簡単に移動できるようにデザインされているが、車は子どもの安全にとって最も大きな脅威の1つである。より多くの遊び場をただ作るのではなく、都市を子どもが移動するのにもっと安全なものにしようとギルは考えている。都市をすっかり改造するのは短期的には現実的ではないが、毎週短時間、道路を自動車通行禁止区域にするなどのもっと簡単な手段であれば、すぐに効果が得られるだろうとギルは提案している。"
+          "scriptJa": "都市の子どもたち\n\nかつての世代では、子どもたちは一般に、身の回りを探検する自由が今よりもあった。今日では、親が子どもに対し、大人の付き添いなしで散歩したり、道路を渡ったり、さらには遊び場で遊んだりすることさえ禁じるのが普通になっている。作家のティム・ギルは、現代の子どもたちは自分だけで物事をすることを許されれば、そこから得るものがあると主張している。しかし彼は、現代の都市がますます危険な場所になっているため、親が子どもに厳しいルールを課さずにいるのは難しいことも認めている。\n\nギルは、都市を子どもにやさしいものにする鍵はデザインにあると考えている。現在の都市は人々が車で楽に移動できるように設計されているが、車は子どもの安全にとって最大の脅威の一つである。ギルは、単に遊び場を増やすのではなく、子どもたちがより安全に動き回れる都市にしたいと考えている。都市を完全に作り直すことは短期的には現実的ではないが、ギルは、毎週短い時間だけ通りを車の通行禁止区域にするといった、より手軽な対策ならすぐに効果が出るかもしれないと提案している。"
         },
         {
           "id": "q17",
@@ -299,15 +299,15 @@
           "passageLabel": "Passage C",
           "prompt": "What does the team of researchers believe about the paintings?",
           "choices": [
-            { "label": "1", "text": "They explain how the rain forest was created." },
+            { "label": "1", "text": "They explain how the rain forest formed." },
             { "label": "2", "text": "They show what early humans looked like." },
             { "label": "3", "text": "They include creatures that have died out." },
             { "label": "4", "text": "They were used in religious ceremonies." }
           ],
           "answer": "3",
-          "explanation": "第1段第2文の後半で「研究者のチームは氷河時代が終わった後に消滅した絶滅生物の描写が含まれていると考えている」と述べられているので、3「それらは絶滅した生物を含んでいる」が正解。「絶滅した」が放送文では extinct で、選択肢では died out に言い換えられている。",
+          "explanation": "第1段落で、絵を発見した研究チームは、その中に氷河期が終わった後に姿を消した「extinct creatures」が描かれていると考えていると述べている。これを「絶滅した生き物が含まれている」と言い換えた3が正解。熱帯雨林は描き手がやって来た時期の説明として出てくるだけなので1は誤り。動物が崇拝されていた可能性には触れているが、絵そのものが宗教儀式に使われたとは述べていないので4も誤り。",
           "script": "Art in the Amazon\n\nAn enormous collection of primitive paintings discovered in the Amazon jungle is causing debate among scientists. Thousands of images have been discovered on rock walls, and the team of researchers who discovered them believe that they include representations of extinct creatures that disappeared after the Ice Age ended. If so, the artists may have been the first humans ever to reach the Amazon region, arriving before it was covered in rain forest. Many of the larger animals appear to be surrounded by men with their hands raised in the air, and it is suspected the animals were being worshipped.\n\nOther scientists, however, have expressed doubts regarding the age of the paintings. Since the images are extremely well-preserved, these critics believe it is likely they were painted centuries rather than millennia ago. Furthermore, since the images lack detail, the scientists argue that they might represent creatures brought to the Americas by Europeans.",
-          "scriptJa": "アマゾンの芸術\n\nアマゾンのジャングルで発見された膨大な数の原始的な絵画が、科学者の間で論争を引き起こしている。何千もの像が石の壁で発見され、それらを発見した研究者のチームは氷河時代が終わった後に消滅した絶滅生物の描写が含まれていると考えている。もしそうならば、描いた人たちは、アマゾン地域に最初に到達した人類で、そこが熱帯雨林で覆われる前に着いたのかもしれない。たくさんの大型動物が、両手を宙に上げた人間に囲まれているように見えるので、動物があがめられていたと考えられている。\n\nその一方で、他の科学者たちは絵画の年代について疑問を呈している。像の保存状態が極めてよいので、批判をしている人たちは、それらは数千年前ではなく、数百年前に描かれた可能性が高いと考えている。さらに、像には細部が欠けていることから、それらはヨーロッパの人たちによって南北アメリカに持ち込まれた生物を描いたものかもしれないと科学者たちは主張している。"
+          "scriptJa": "アマゾンの美術\n\nアマゾンのジャングルで発見された膨大な数の原始的な絵画が、科学者の間で議論を呼んでいる。岩壁で何千もの絵が見つかっており、それらを発見した研究チームは、その中に氷河期が終わった後に姿を消した絶滅動物を描いたものが含まれていると考えている。もしそうなら、描き手たちはアマゾン地域に初めて到達した人類であり、そこが熱帯雨林に覆われる前にやって来たのかもしれない。大型動物の多くは両手を上げた男たちに囲まれているように見え、それらの動物は崇拝の対象だったのではないかと考えられている。\n\nしかし、ほかの科学者たちは絵画の年代について疑問を呈している。絵が非常に良い状態で保存されていることから、これらの批判的な科学者たちは、数千年前ではなく数百年前に描かれた可能性が高いと考えている。さらに、絵には細部の描写が乏しいことから、ヨーロッパ人によってアメリカ大陸に持ち込まれた動物を描いたものかもしれないと彼らは主張している。"
         },
         {
           "id": "q18",
@@ -318,14 +318,14 @@
           "prompt": "What do some other scientists think about the paintings?",
           "choices": [
             { "label": "1", "text": "They do not need to be preserved." },
-            { "label": "2", "text": "They were probably created by Europeans." },
-            { "label": "3", "text": "They once had much more detail." },
+            { "label": "2", "text": "They were probably made by Europeans." },
+            { "label": "3", "text": "They used to be much more detailed." },
             { "label": "4", "text": "They are not thousands of years old." }
           ],
           "answer": "4",
-          "explanation": "第2段第2文で「批判をしている人たちは、それらは数千年前ではなく、数百年前に描かれた可能性が高いと考えている」と述べられている。したがって、4「それらは数千年前のものではない」が正解。2については、ヨーロッパ人が絵を描いたとは述べていない。",
+          "explanation": "第2段落で、ほかの科学者たちは絵の保存状態が非常に良いことから、数千年前ではなく数百年前に描かれた可能性が高いと考えている。これを「何千年も前のものではない」と言い換えた4が正解。ヨーロッパ人が持ち込んだのは描かれた動物のほうであり、絵をヨーロッパ人が描いたとは言っていないので2は誤り。細部の描写が乏しいことは指摘されているが、かつてはもっと細かかったとは述べていないので3も誤り。",
           "script": "Art in the Amazon\n\nAn enormous collection of primitive paintings discovered in the Amazon jungle is causing debate among scientists. Thousands of images have been discovered on rock walls, and the team of researchers who discovered them believe that they include representations of extinct creatures that disappeared after the Ice Age ended. If so, the artists may have been the first humans ever to reach the Amazon region, arriving before it was covered in rain forest. Many of the larger animals appear to be surrounded by men with their hands raised in the air, and it is suspected the animals were being worshipped.\n\nOther scientists, however, have expressed doubts regarding the age of the paintings. Since the images are extremely well-preserved, these critics believe it is likely they were painted centuries rather than millennia ago. Furthermore, since the images lack detail, the scientists argue that they might represent creatures brought to the Americas by Europeans.",
-          "scriptJa": "アマゾンの芸術\n\nアマゾンのジャングルで発見された膨大な数の原始的な絵画が、科学者の間で論争を引き起こしている。何千もの像が石の壁で発見され、それらを発見した研究者のチームは氷河時代が終わった後に消滅した絶滅生物の描写が含まれていると考えている。もしそうならば、描いた人たちは、アマゾン地域に最初に到達した人類で、そこが熱帯雨林で覆われる前に着いたのかもしれない。たくさんの大型動物が、両手を宙に上げた人間に囲まれているように見えるので、動物があがめられていたと考えられている。\n\nその一方で、他の科学者たちは絵画の年代について疑問を呈している。像の保存状態が極めてよいので、批判をしている人たちは、それらは数千年前ではなく、数百年前に描かれた可能性が高いと考えている。さらに、像には細部が欠けていることから、それらはヨーロッパの人たちによって南北アメリカに持ち込まれた生物を描いたものかもしれないと科学者たちは主張している。"
+          "scriptJa": "アマゾンの美術\n\nアマゾンのジャングルで発見された膨大な数の原始的な絵画が、科学者の間で議論を呼んでいる。岩壁で何千もの絵が見つかっており、それらを発見した研究チームは、その中に氷河期が終わった後に姿を消した絶滅動物を描いたものが含まれていると考えている。もしそうなら、描き手たちはアマゾン地域に初めて到達した人類であり、そこが熱帯雨林に覆われる前にやって来たのかもしれない。大型動物の多くは両手を上げた男たちに囲まれているように見え、それらの動物は崇拝の対象だったのではないかと考えられている。\n\nしかし、ほかの科学者たちは絵画の年代について疑問を呈している。絵が非常に良い状態で保存されていることから、これらの批判的な科学者たちは、数千年前ではなく数百年前に描かれた可能性が高いと考えている。さらに、絵には細部の描写が乏しいことから、ヨーロッパ人によってアメリカ大陸に持ち込まれた動物を描いたものかもしれないと彼らは主張している。"
         },
         {
           "id": "q19",
@@ -335,15 +335,15 @@
           "passageLabel": "Passage D",
           "prompt": "What is one thing that we learn about Milton Berle's TV show?",
           "choices": [
-            { "label": "1", "text": "It was based on a popular film." },
+            { "label": "1", "text": "It was based on a popular movie." },
             { "label": "2", "text": "It gave away many luxury items." },
-            { "label": "3", "text": "It had a weekly comedy competition." },
-            { "label": "4", "text": "It motivated many people to buy TVs." }
+            { "label": "3", "text": "It had weekly comedy competitions." },
+            { "label": "4", "text": "It led many people to buy TV sets." }
           ],
           "answer": "4",
-          "explanation": "第1段最終文の後半で「その番組が信じられないほど大成功し、テレビ所有者数を大幅に増加させる推進力になった」とある。テレビ所有者数の大幅な増加とは、たくさんの人がテレビを買ったことを意味しているので、4「多くの人々にテレビを買う気にさせた」が正解。",
+          "explanation": "第1段落の最後で、番組の大ヒットがテレビの所有台数が急増する大きな原動力になったと述べている。これを「多くの人がテレビを買うきっかけになった」と言い換えた4が正解。ぜいたく品という言葉は当時のテレビ自体を説明したもので、番組が高級品を配ったわけではないので2は誤り。番組はばかばかしい笑いと多彩なゲストで知られていたとあるだけで、毎週お笑いの競技会があったとは述べていないので3も誤り。",
           "script": "Milton Berle\n\nMilton Berle was one of America's most famous comedians. He was successful on stage and in films, and in the 1940s, he began hosting one of the world's first television programs. Berle's variety show was known for its silly comedy and wide range of guest performers. Televisions were rare luxury items when it began, but the program was such an incredible hit that it became a driving reason behind the huge increase in TV ownership.\n\nAs well as his pioneering work as an entertainer, Berle also fought for civil rights, famously helping to break down barriers against Black performers appearing on TV. When an advertiser tried to prevent a Black dance group from appearing on his show, Berle refused to perform until the advertiser gave in and the dancers were allowed on. Berle also set a record for appearing in more charity performances than any other performer.",
-          "scriptJa": "ミルトン・バール\n\nミルトン・バールはアメリカで最も有名なコメディアンの一人だった。彼は舞台や映画で成功し、1940年代には世界初のテレビ番組の1つで司会を始めた。バールのバラエティショーは、ばかばかしいコメディと幅広いゲスト出演者で知られていた。テレビはそれが始まった頃には珍しいぜいたく品だったが、その番組が信じられないほど大成功し、テレビ所有者数を大幅に増加させる推進力になった。\n\nエンターテイナーとしての先駆的な仕事に加えて、バールは公民権のためにも闘い、よく知られているように、黒人のテレビ出演に反対する壁を取り除くのを助けた。広告主が黒人のダンスグループが彼のショーに出るのを阻止しようとした時には、広告主が折れてダンサーたちの出演が許されるまで、バールは出演を拒否した。バールはまた、他のどの役者よりも多くの慈善興行に出演した記録も作った。"
+          "scriptJa": "ミルトン・バール\n\nミルトン・バールは、アメリカで最も有名なコメディアンの一人だった。彼は舞台でも映画でも成功を収め、1940年代には世界で最初期のテレビ番組の一つで司会を務め始めた。バールのバラエティー番組は、ばかばかしい笑いと幅広いゲスト出演者で知られていた。番組が始まった当時、テレビは珍しいぜいたく品だったが、番組が驚異的な大ヒットとなったため、テレビの所有台数が急増する大きな原動力となった。\n\nエンターテイナーとしての先駆的な活躍に加え、バールは公民権のためにも闘い、黒人の出演者がテレビに出る際の障壁を取り除く手助けをしたことでよく知られている。ある広告主が黒人のダンスグループを彼の番組に出演させまいとしたとき、バールは広告主が折れてダンサーたちの出演が認められるまで、自らの出演を拒んだ。また、バールはほかのどの芸能人よりも多くのチャリティー公演に出演したという記録も打ち立てた。"
         },
         {
           "id": "q20",
@@ -354,14 +354,14 @@
           "prompt": "What is one thing Berle was known for?",
           "choices": [
             { "label": "1", "text": "Starting a charity to support Black performers." },
-            { "label": "2", "text": "Fighting racial discrimination in the TV industry." },
-            { "label": "3", "text": "The unique advertisements he created." },
-            { "label": "4", "text": "His amazing dancing talent." }
+            { "label": "2", "text": "Fighting racism in the TV industry." },
+            { "label": "3", "text": "The unique advertisements he produced." },
+            { "label": "4", "text": "His amazing dancing ability." }
           ],
           "answer": "2",
-          "explanation": "第2段第1文で「バールはよく知られているように、黒人のテレビ出演に反対する壁を取り除くのを助けた」とあり、直後の文では黒人に差別的な広告主と闘ったことが述べられている。よって、2「テレビ業界における人種差別と闘ったこと」が正解。",
+          "explanation": "第2段落で、バールは公民権のために闘い、黒人の出演者がテレビに出る際の障壁を取り除く手助けをしたと述べている。これを「テレビ業界の人種差別と闘った」と言い換えた2が正解。チャリティー公演の出演回数の記録には触れているが、黒人の出演者を支援する慈善団体を作ったとは言っていないので1は誤り。広告主やダンスグループは逸話の一部として出てくるだけなので3と4も誤り。",
           "script": "Milton Berle\n\nMilton Berle was one of America's most famous comedians. He was successful on stage and in films, and in the 1940s, he began hosting one of the world's first television programs. Berle's variety show was known for its silly comedy and wide range of guest performers. Televisions were rare luxury items when it began, but the program was such an incredible hit that it became a driving reason behind the huge increase in TV ownership.\n\nAs well as his pioneering work as an entertainer, Berle also fought for civil rights, famously helping to break down barriers against Black performers appearing on TV. When an advertiser tried to prevent a Black dance group from appearing on his show, Berle refused to perform until the advertiser gave in and the dancers were allowed on. Berle also set a record for appearing in more charity performances than any other performer.",
-          "scriptJa": "ミルトン・バール\n\nミルトン・バールはアメリカで最も有名なコメディアンの一人だった。彼は舞台や映画で成功し、1940年代には世界初のテレビ番組の1つで司会を始めた。バールのバラエティショーは、ばかばかしいコメディと幅広いゲスト出演者で知られていた。テレビはそれが始まった頃には珍しいぜいたく品だったが、その番組が信じられないほど大成功し、テレビ所有者数を大幅に増加させる推進力になった。\n\nエンターテイナーとしての先駆的な仕事に加えて、バールは公民権のためにも闘い、よく知られているように、黒人のテレビ出演に反対する壁を取り除くのを助けた。広告主が黒人のダンスグループが彼のショーに出るのを阻止しようとした時には、広告主が折れてダンサーたちの出演が許されるまで、バールは出演を拒否した。バールはまた、他のどの役者よりも多くの慈善興行に出演した記録も作った。"
+          "scriptJa": "ミルトン・バール\n\nミルトン・バールは、アメリカで最も有名なコメディアンの一人だった。彼は舞台でも映画でも成功を収め、1940年代には世界で最初期のテレビ番組の一つで司会を務め始めた。バールのバラエティー番組は、ばかばかしい笑いと幅広いゲスト出演者で知られていた。番組が始まった当時、テレビは珍しいぜいたく品だったが、番組が驚異的な大ヒットとなったため、テレビの所有台数が急増する大きな原動力となった。\n\nエンターテイナーとしての先駆的な活躍に加え、バールは公民権のためにも闘い、黒人の出演者がテレビに出る際の障壁を取り除く手助けをしたことでよく知られている。ある広告主が黒人のダンスグループを彼の番組に出演させまいとしたとき、バールは広告主が折れてダンサーたちの出演が認められるまで、自らの出演を拒んだ。また、バールはほかのどの芸能人よりも多くのチャリティー公演に出演したという記録も打ち立てた。"
         },
         {
           "id": "q21",
@@ -371,15 +371,15 @@
           "passageLabel": "Passage E",
           "prompt": "What was one of Alan Brown's findings about déjà vu?",
           "choices": [
-            { "label": "1", "text": "It happens more frequently when people are young." },
-            { "label": "2", "text": "Past research on it had mostly involved male subjects." },
-            { "label": "3", "text": "It has become more common since the nineteenth century." },
+            { "label": "1", "text": "It occurs more often when people are younger." },
+            { "label": "2", "text": "Previous research on it had involved mainly male subjects." },
+            { "label": "3", "text": "It became more common after the nineteenth century." },
             { "label": "4", "text": "People often mistake it for other feelings." }
           ],
           "answer": "1",
-          "explanation": "第1段最終文に「人は年をとるにつれてそれを経験することが減る」とあり、この内容を言い換えた1「それは人々が若いときにより頻繁に起こる」が正解。",
+          "explanation": "第1段落の最後で、ブラウンは人は年を取るにつれてデジャヴを経験することが少なくなると明らかにしている。裏を返せば若いときほど起こりやすいということなので1が正解。19世紀は原因についての説が出始めた時期として出てくるだけで、その後デジャヴが増えたとは言っていないので3は誤り。被験者の性別や、ほかの感覚と取り違えることについては触れられていないので2と4も誤り。",
           "script": "Déjà Vu\n\nThe term \"déjà vu\" refers to a person's feeling that they have already experienced the situation they are currently in. While causes for déjà vu have been proposed since the nineteenth century, little research was done on it until the 2000s, when the scientist Alan Brown studied the phenomenon. He found that people experience it less as they age and that it is usually triggered by a location or setting.\n\nMore recently, researchers used virtual reality to study déjà vu. They had subjects enter virtual environments, such as bowling alleys or subway stations. Some of these spaces were laid out similarly—for example, pieces of furniture with similar shapes but different appearances were arranged in the same positions. The researchers found subjects were more likely to feel déjà vu when entering new spaces that were organized like spaces they had previously entered. Still, they say this is likely just one of many factors that cause déjà vu.",
-          "scriptJa": "デジャヴュ\n\n「デジャヴュ」という語は、現在置かれている状況をすでに経験したことがあるという感覚のことを指す。デジャヴュの原因は19世紀から提唱されてきたが、2000年代に科学者アラン・ブラウンがこの現象を研究するまでほとんど研究がなされていなかった。彼は、人は年をとるにつれてそれを経験することが減ること、たいていの場合、場所や環境によって引き起こされることを見つけた。\n\nさらに最近になって、研究者たちはデジャヴュを研究するためにバーチャルリアリティを使った。彼らは被験者に、ボウリング場や地下鉄駅などの仮想環境に入ってもらった。これらのうちのいくつかは似たようにレイアウトされていた——例えば、似たような形だが外観の異なる数点の家具が同じ場所に配置された。研究者たちは、前に入ったことがある空間と同じような構成の新しい空間に入ると、被験者がデジャヴュを感じる可能性が高いことを発見した。しかし、彼らは、おそらくこれはデジャヴュを引き起こす多くの要因のうちの1つにすぎないだろうと述べている。"
+          "scriptJa": "デジャヴ\n\n「デジャヴ」という言葉は、今まさに置かれている状況を以前にも経験したことがあるという感覚を指す。デジャヴの原因については19世紀からさまざまな説が唱えられてきたが、2000年代に科学者のアラン・ブラウンがこの現象を研究するまで、ほとんど研究は行われていなかった。彼は、人は年を取るにつれてデジャヴを経験することが少なくなること、そしてデジャヴはたいてい場所や周囲の状況がきっかけで起こることを明らかにした。\n\nさらに最近では、研究者たちが仮想現実を使ってデジャヴを研究した。彼らは被験者に、ボウリング場や地下鉄の駅などの仮想空間に入ってもらった。それらの空間の一部は、似たような配置になっていた。たとえば、形は似ているが見た目の異なる家具が、同じ位置に置かれていたのである。研究者たちは、被験者が以前に入った空間と同じような配置の新しい空間に入ったときに、デジャヴを感じやすいことを発見した。それでも彼らは、これはデジャヴを引き起こす多くの要因の一つにすぎないだろうと述べている。"
         },
         {
           "id": "q22",
@@ -389,15 +389,15 @@
           "passageLabel": "Passage E",
           "prompt": "In the virtual reality study, what led some subjects to experience déjà vu?",
           "choices": [
-            { "label": "1", "text": "Exploring large public spaces." },
-            { "label": "2", "text": "Seeing spaces with identical furniture." },
-            { "label": "3", "text": "Doing the same activities in different spaces." },
-            { "label": "4", "text": "Entering spaces with familiar layouts." }
+            { "label": "1", "text": "Exploring large public locations." },
+            { "label": "2", "text": "Viewing spaces that had exactly the same furniture." },
+            { "label": "3", "text": "Performing the same activity in different spaces." },
+            { "label": "4", "text": "Entering a space with a familiar layout." }
           ],
           "answer": "4",
-          "explanation": "第2段第4文で「前に入ったことがある空間と同じように構成されている新しい空間に入ると、被験者がデジャヴュを感じる可能性が高い」とある。これらの情報から、4「なじみのあるレイアウトの空間に入ること」が正解。2については、家具について述べた第3文の内容に合致しない。",
+          "explanation": "第2段落で、被験者は以前に入った空間と同じような配置の新しい空間に入ったときにデジャヴを感じやすかったと述べている。これを「なじみのある配置の空間に入ること」と言い換えた4が正解。家具は形が似ていただけで見た目は異なっていたので、「まったく同じ家具」とする2は誤り。空間の広さや、同じ活動をすることが要因だとは述べていないので1と3も誤り。",
           "script": "Déjà Vu\n\nThe term \"déjà vu\" refers to a person's feeling that they have already experienced the situation they are currently in. While causes for déjà vu have been proposed since the nineteenth century, little research was done on it until the 2000s, when the scientist Alan Brown studied the phenomenon. He found that people experience it less as they age and that it is usually triggered by a location or setting.\n\nMore recently, researchers used virtual reality to study déjà vu. They had subjects enter virtual environments, such as bowling alleys or subway stations. Some of these spaces were laid out similarly—for example, pieces of furniture with similar shapes but different appearances were arranged in the same positions. The researchers found subjects were more likely to feel déjà vu when entering new spaces that were organized like spaces they had previously entered. Still, they say this is likely just one of many factors that cause déjà vu.",
-          "scriptJa": "デジャヴュ\n\n「デジャヴュ」という語は、現在置かれている状況をすでに経験したことがあるという感覚のことを指す。デジャヴュの原因は19世紀から提唱されてきたが、2000年代に科学者アラン・ブラウンがこの現象を研究するまでほとんど研究がなされていなかった。彼は、人は年をとるにつれてそれを経験することが減ること、たいていの場合、場所や環境によって引き起こされることを見つけた。\n\nさらに最近になって、研究者たちはデジャヴュを研究するためにバーチャルリアリティを使った。彼らは被験者に、ボウリング場や地下鉄駅などの仮想環境に入ってもらった。これらのうちのいくつかは似たようにレイアウトされていた——例えば、似たような形だが外観の異なる数点の家具が同じ場所に配置された。研究者たちは、前に入ったことがある空間と同じような構成の新しい空間に入ると、被験者がデジャヴュを感じる可能性が高いことを発見した。しかし、彼らは、おそらくこれはデジャヴュを引き起こす多くの要因のうちの1つにすぎないだろうと述べている。"
+          "scriptJa": "デジャヴ\n\n「デジャヴ」という言葉は、今まさに置かれている状況を以前にも経験したことがあるという感覚を指す。デジャヴの原因については19世紀からさまざまな説が唱えられてきたが、2000年代に科学者のアラン・ブラウンがこの現象を研究するまで、ほとんど研究は行われていなかった。彼は、人は年を取るにつれてデジャヴを経験することが少なくなること、そしてデジャヴはたいてい場所や周囲の状況がきっかけで起こることを明らかにした。\n\nさらに最近では、研究者たちが仮想現実を使ってデジャヴを研究した。彼らは被験者に、ボウリング場や地下鉄の駅などの仮想空間に入ってもらった。それらの空間の一部は、似たような配置になっていた。たとえば、形は似ているが見た目の異なる家具が、同じ位置に置かれていたのである。研究者たちは、被験者が以前に入った空間と同じような配置の新しい空間に入ったときに、デジャヴを感じやすいことを発見した。それでも彼らは、これはデジャヴを引き起こす多くの要因の一つにすぎないだろうと述べている。"
         },
         {
           "id": "q23",
@@ -407,15 +407,15 @@
           "passageLabel": "Passage F",
           "prompt": "What is one thing that we learn about bodkin arrows?",
           "choices": [
-            { "label": "1", "text": "They flew faster than other arrows." },
+            { "label": "1", "text": "They traveled faster than other arrows." },
             { "label": "2", "text": "They were effective against armor." },
             { "label": "3", "text": "They were the longest type of arrow." },
-            { "label": "4", "text": "They were usually made of steel." }
+            { "label": "4", "text": "They were commonly made with steel." }
           ],
           "answer": "2",
-          "explanation": "第1段第4文の後半で「細長い先端はほとんどの種類の甲冑を貫通することができた」と述べられているから、2「甲冑に対して有効だった」が正解。放送文の pass through most kinds of armor は選択肢では effective against armor に言い換えられている。",
+          "explanation": "第1段落で、ボドキンの矢は最も一般的な矢で、その細い先端はほとんどの種類のよろいを貫くことができたと述べている。これを「よろいに対して効果的だった」と言い換えた2が正解。最も一般的だったとは言っているが、最も長かったとは述べていないので3は誤り。矢の速さや鋼鉄で作られていたかどうかについては触れられていないので1と4も誤り。",
           "script": "The English Longbow\n\nDuring medieval times, one of the deadliest weapons used by English armies was the longbow. About two meters in length, this powerful weapon allowed an archer to fire extremely rapidly, shooting up to six arrows per minute. A variety of arrows were used, such as the bodkin and the broadhead. The bodkin arrow was the most common, and its narrow tip could pass through most kinds of armor. The larger broadheads, on the other hand, caused more-devastating wounds to lightly armored enemies.\n\nThough highly effective, the longbow required years of practice to master. Since it was an essential tool for English armies, King Henry VIII even passed a law requiring that all healthy males train regularly in its use. Examinations of the skeletons of longbowmen have found that this training actually altered them physically. Bones in their arms became thickened, and their spines became twisted through constant use of the bow.",
-          "scriptJa": "イングランドのロングボウ\n\n中世において、イングランド軍が用いた最も殺傷能力の高い武器の1つはロングボウだった。長さ約2メートルのこの強力な武器を使うと射手は極めて速く発射することができ、1分間に6本の矢まで放つことが可能だった。ボドキンやブロードヘッドなどのさまざまな種類の矢が用いられた。ボドキン矢は最も一般的で、その細長い先端はほとんどの種類の甲冑を貫通することができた。一方、それより大きいブロードヘッドは軽装甲の敵により大きな傷を負わせた。\n\n極めて効果的だったが、ロングボウは習得するのに何年間も練習する必要があった。イングランド軍にとって必須の道具であったため、ヘンリー8世は健康な男性全員が定期的にその使い方を訓練することを求める法律を作った。ロングボウの射手の骸骨を調査した結果、実際にこの訓練によって肉体的な変化があったことがわかった。彼らの腕の骨は太くなり、その弓を使い続けたことで背骨は曲がってしまった。"
+          "scriptJa": "イングランドの長弓\n\n中世の時代、イングランド軍が用いた最も殺傷力の高い武器の一つが長弓だった。長さ約2メートルのこの強力な武器により、射手は非常に速いペースで矢を放つことができ、1分間に最大6本の矢を射ることができた。ボドキンやブロードヘッドなど、さまざまな矢が使われた。ボドキンの矢が最も一般的で、その細い先端はほとんどの種類のよろいを貫くことができた。一方、より大きなブロードヘッドは、軽装備の敵にいっそう深刻な傷を負わせた。\n\n長弓は非常に効果的ではあったが、使いこなすには何年もの練習が必要だった。長弓はイングランド軍にとって欠かせない道具だったため、国王ヘンリー8世は、健康な男性全員に長弓の訓練を定期的に行うよう義務づける法律まで制定した。長弓兵の骨格を調べた結果、この訓練によって実際に体が変化していたことがわかっている。弓を絶えず使っていたことで、腕の骨は太くなり、背骨はねじれていたのである。"
         },
         {
           "id": "q24",
@@ -425,15 +425,15 @@
           "passageLabel": "Passage F",
           "prompt": "What does the speaker say about King Henry VIII?",
           "choices": [
-            { "label": "1", "text": "He made men practice using longbows." },
-            { "label": "2", "text": "He was a master at firing the longbow." },
-            { "label": "3", "text": "He was seriously injured by a longbow attack." },
+            { "label": "1", "text": "He forced men to practice using longbows." },
+            { "label": "2", "text": "He was an expert at shooting a longbow." },
+            { "label": "3", "text": "He was badly injured in a longbow attack." },
             { "label": "4", "text": "He sold longbows to foreign armies." }
           ],
           "answer": "1",
-          "explanation": "第2段第2文で「ヘンリー8世は健康な男性全員が定期的にその使い方を訓練することを求める法律を作った」と述べられている。よって、1「彼は男性にロングボウを使う練習をさせた」が正解。「男性」が放送文では males で、選択肢では men に言い換えられている。",
+          "explanation": "第2段落で、ヘンリー8世は健康な男性全員に長弓の訓練を定期的に行うことを義務づける法律を制定したと述べている。これを「男性たちに長弓の練習を強制した」と言い換えた1が正解。王自身が長弓の名手だった、長弓の攻撃で負傷した、外国の軍隊に長弓を売ったといった話は出てこないので2、3、4は誤り。",
           "script": "The English Longbow\n\nDuring medieval times, one of the deadliest weapons used by English armies was the longbow. About two meters in length, this powerful weapon allowed an archer to fire extremely rapidly, shooting up to six arrows per minute. A variety of arrows were used, such as the bodkin and the broadhead. The bodkin arrow was the most common, and its narrow tip could pass through most kinds of armor. The larger broadheads, on the other hand, caused more-devastating wounds to lightly armored enemies.\n\nThough highly effective, the longbow required years of practice to master. Since it was an essential tool for English armies, King Henry VIII even passed a law requiring that all healthy males train regularly in its use. Examinations of the skeletons of longbowmen have found that this training actually altered them physically. Bones in their arms became thickened, and their spines became twisted through constant use of the bow.",
-          "scriptJa": "イングランドのロングボウ\n\n中世において、イングランド軍が用いた最も殺傷能力の高い武器の1つはロングボウだった。長さ約2メートルのこの強力な武器を使うと射手は極めて速く発射することができ、1分間に6本の矢まで放つことが可能だった。ボドキンやブロードヘッドなどのさまざまな種類の矢が用いられた。ボドキン矢は最も一般的で、その細長い先端はほとんどの種類の甲冑を貫通することができた。一方、それより大きいブロードヘッドは軽装甲の敵により大きな傷を負わせた。\n\n極めて効果的だったが、ロングボウは習得するのに何年間も練習する必要があった。イングランド軍にとって必須の道具であったため、ヘンリー8世は健康な男性全員が定期的にその使い方を訓練することを求める法律を作った。ロングボウの射手の骸骨を調査した結果、実際にこの訓練によって肉体的な変化があったことがわかった。彼らの腕の骨は太くなり、その弓を使い続けたことで背骨は曲がってしまった。"
+          "scriptJa": "イングランドの長弓\n\n中世の時代、イングランド軍が用いた最も殺傷力の高い武器の一つが長弓だった。長さ約2メートルのこの強力な武器により、射手は非常に速いペースで矢を放つことができ、1分間に最大6本の矢を射ることができた。ボドキンやブロードヘッドなど、さまざまな矢が使われた。ボドキンの矢が最も一般的で、その細い先端はほとんどの種類のよろいを貫くことができた。一方、より大きなブロードヘッドは、軽装備の敵にいっそう深刻な傷を負わせた。\n\n長弓は非常に効果的ではあったが、使いこなすには何年もの練習が必要だった。長弓はイングランド軍にとって欠かせない道具だったため、国王ヘンリー8世は、健康な男性全員に長弓の訓練を定期的に行うよう義務づける法律まで制定した。長弓兵の骨格を調べた結果、この訓練によって実際に体が変化していたことがわかっている。弓を絶えず使っていたことで、腕の骨は太くなり、背骨はねじれていたのである。"
         }
       ]
     },
@@ -450,7 +450,9 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "Which bag should you buy?",
-          "situationJa": "あなたは今度の出張で使うかばんを必要としている。休暇にはそのかばんを使ってハイキングへも行くつもりだ。店員はあなたに次のように言う。",
+          "promptJa": "あなたはどのかばんを買うべきか？",
+          "situation": "You need a bag to use during your upcoming business trip. You will also go hiking using the bag on your days off. A shop employee tells you the following.",
+          "situationJa": "あなたは近く予定している出張で使うかばんが必要だ。休日にはそのかばんを使ってハイキングにも行くつもりだ。店員があなたに次のように説明する。",
           "choices": [
             { "label": "1", "text": "The Western." },
             { "label": "2", "text": "The Dangerfield." },
@@ -458,9 +460,9 @@
             { "label": "4", "text": "The Winfield." }
           ],
           "answer": "2",
-          "explanation": "出張とハイキングの両方で使用できるかばんを聞き取る。デインジャーフィールドは「屋外の活動に最適」で「オフィスでも十分に通用する外観」と述べられるから、2「デインジャーフィールド」が適切。1は長時間歩くのに向かない。3は仕事に向かない。4はハイキングに向かない。",
+          "explanation": "条件は出張とハイキングの両方に使えることである。デンジャーフィールドは撥水性があってアウトドアに向き、オフィスにもふさわしい見た目だと説明されているので2が正解。1のウエスタンは重くて長く歩くのに向かず、3のスパルタンは仕事の場にはスポーティーすぎる。4のウィンフィールドはストラップが細く長時間持ち歩くのがつらいので、ハイキングには向かない。",
           "script": "OK, the Western is an all-leather backpack. It converts to a briefcase, so it's great for business environments. It's a bit heavy, though, so I wouldn't use it on long walks. The Dangerfield is a waxed canvas backpack that's water-resistant, so it's great for outdoor activities. It's also handsome enough for the office. The Spartan is also made of waxed canvas. It's very functional but a bit too sporty for professional contexts. The Winfield is a similar bag, but it's made of water-resistant leather. The thin strap can make it uncomfortable to carry for extended periods of time, though.",
-          "scriptJa": "さて、ウェスタンは総革製のバックパックです。それは書類かばんに形が変わりますので、ビジネスの環境に最適です。でも、少し重いので、長時間歩く時には使いませんね。デインジャーフィールドはワックス加工されたキャンバス生地でできた耐水性のあるバックパックですから、屋外の活動に最適です。それは、オフィスでも十分に通用する外観です。スパルタンもワックス加工されたキャンバス生地でできています。とても実用的ですが、仕事の場面では少しスポーティーすぎます。ウィンフィールドは似たようなかばんですが、耐水性のある革でできています。肩紐が細いので長時間背負うと不快に感じる可能性がありますが。"
+          "scriptJa": "ええと、ウエスタンは総革製のバックパックです。ブリーフケースとしても使えるので、ビジネスの場にぴったりです。ただ、少し重いので、長い距離を歩くときには私ならお勧めしませんね。デンジャーフィールドは撥水性のあるワックスキャンバス製のバックパックなので、アウトドアにぴったりです。見た目も上品なので、オフィスでも十分使えます。スパルタンも同じくワックスキャンバス製です。とても機能的ですが、仕事の場面には少しスポーティーすぎますね。ウィンフィールドも似たようなかばんですが、撥水加工の革でできています。ただ、ストラップが細いので、長時間持ち歩くと疲れてしまうかもしれません。"
         },
         {
           "id": "q26",
@@ -468,7 +470,9 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "Which parking lot should you use?",
-          "situationJa": "あなたは空港の近くで16日間駐車する必要がある。最適価格にしたいが、車が損傷を受けることを心配している。友人が選択できるものについてあなたに話す。",
+          "promptJa": "あなたはどの駐車場を利用すべきか？",
+          "situation": "You need to park your car near the airport for 16 days. You want the best price but are worried about your car being damaged. A friend tells you about options.",
+          "situationJa": "あなたは空港の近くに16日間車を駐車する必要がある。料金はできるだけ安くしたいが、車が傷つけられないか心配している。友人があなたに選択肢を教えてくれる。",
           "choices": [
             { "label": "1", "text": "SKM Budget Parking." },
             { "label": "2", "text": "The Vanier Plaza Hotel." },
@@ -476,9 +480,9 @@
             { "label": "4", "text": "The Econolodge." }
           ],
           "answer": "2",
-          "explanation": "「16日間」「最適価格」「車の損傷を避けたい」という条件で判断する。1は最長1週間までなので不適。3は巡回なしで安全面の条件に合わない。4は安全だが1日19ドルで空港から少し遠い。2は1日17ドルで空港に近く屋根付きで警備巡回もあるので、2「バニエ・プラザホテル」が適切。",
+          "explanation": "16日間停める必要があり、車の損傷も心配なので、長期間停められて安全な駐車場のうち最も安いものを選ぶ。1のSKMバジェット・パーキングは最長1週間までなので使えず、3のネルソン・ストリート・スカイパークは屋外で巡回もないので安全面で不安がある。残る2のヴァニエ・プラザ・ホテル（1日17ドル）と4のエコノロッジ（1日19ドル）では2のほうが安いので、2が正解。",
           "script": "Nearest to the airport are SKM Budget Parking and the Vanier Plaza Hotel. They both offer covered parking lots that feature security patrols. SKM Budget Parking is the better deal at $13 per day. It only offers short-term parking, though, for up to a week max. If your trip is longer than that, you could pay a $17 rate at the Vanier Plaza Hotel. If an open, non-patrolled parking lot is acceptable, then Nelson Street Skypark offers parking for $9 per day. Another option would be the Econolodge, which is $19 per day. It's indoors and quite safe, though it's a little far.",
-          "scriptJa": "空港に最も近いのは、SKM バジェットパーキングとバニエ・プラザホテルだね。両方とも屋根付きの駐車場があり、警備員の巡回を売りにしている。SKM バジェットパーキングの方がお得で1日13ドル。でも、短期間の駐車だけで、最長1週間までだ。もし旅行がそれより長ければ、バニエ・プラザホテルで17ドルの料金を支払うことになるね。もし、屋根がなく、巡回もない駐車場でもよければ、ネルソンストリートスカイパークが1日9ドルで駐車場を提供しているよ。別の選択肢はエコノロッジで、1日19ドル。少し遠いけど、屋内で、非常に安全だ。"
+          "scriptJa": "空港に一番近いのはSKMバジェット・パーキングとヴァニエ・プラザ・ホテルだね。どちらも屋根付きの駐車場で、警備員の巡回もあるよ。SKMバジェット・パーキングは1日13ドルで、こっちのほうがお得だね。でも短期駐車しかやっていなくて、最長でも1週間までなんだ。それより長い旅行なら、ヴァニエ・プラザ・ホテルで1日17ドル払えばいい。屋根がなくて巡回もない駐車場でかまわないなら、ネルソン・ストリート・スカイパークが1日9ドルで停められるよ。ほかにはエコノロッジという手もあって、そこは1日19ドル。屋内でかなり安全だけど、少し遠いんだ。"
         },
         {
           "id": "q27",
@@ -486,17 +490,19 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "What should you do first?",
-          "situationJa": "あなたのエアコンが突然止まり、青いランプが点滅している。あなたはカスタマーサポートに電話をし、次の録音されたメッセージを聞く。",
+          "promptJa": "あなたはまず何をすべきか？",
+          "situation": "Your air conditioner suddenly stopped working, and its blue light is flashing. You call customer support and hear the following recorded message.",
+          "situationJa": "エアコンが突然動かなくなり、青いランプが点滅している。あなたはカスタマーサポートに電話をかけ、次の録音メッセージを聞く。",
           "choices": [
-            { "label": "1", "text": "Remove the air conditioner's filter." },
-            { "label": "2", "text": "Open the air conditioner's panel." },
+            { "label": "1", "text": "Remove the air conditioner filter." },
+            { "label": "2", "text": "Open up the air conditioner panel." },
             { "label": "3", "text": "Disconnect the air conditioner." },
-            { "label": "4", "text": "Schedule a service appointment." }
+            { "label": "4", "text": "Arrange a service appointment." }
           ],
           "answer": "3",
-          "explanation": "「青いランプが点滅している」ことが条件。青いランプはオーバーヒートの可能性を示し、パネルを開けることで冷却速度を上げられるが、「装置に触れる前に、必ずエアコンのプラグを抜く」よう注意される。したがって、3「エアコンの電源を切る」が正解。「プラグを抜く」が放送文では unplug で、選択肢では disconnect に言い換えられている。",
+          "explanation": "青いランプの点滅は過熱の可能性を示し、その場合はパネルを開けておくよう案内されているが、続けて本体に触れる前に必ずプラグを抜くよう注意されている。したがって、最初にすべきことはエアコンの電源を切り離すことであり、3が正解。パネルを開けるのはプラグを抜いた後なので2は誤りで、フィルターの掃除は緑のランプが点滅している場合の対処なので1も誤り。修理の予約は問題が解決しなかったときの手段なので4も最初の行動ではない。",
           "script": "Please look at the display. If the green light is blinking, this means it needs to be cleaned. To do this, simply remove the filter and clean it carefully. You can find a tutorial video on our website. If the blue light is flashing, the air conditioner may be overheating. In such a case, you can speed up cooling by leaving the panel open. Be sure to unplug the air conditioner before touching the unit. If this does not solve the problem, and you would like to schedule a service call by a technician, press 1.",
-          "scriptJa": "表示部を見てください。緑色のランプが明滅しているならば、掃除が必要なことを意味しています。これには、フィルターを取り外して、それを丁寧に掃除していただくだけで結構です。ウェブサイトに説明動画があります。青いランプが点滅しているならば、エアコンがオーバーヒートしている可能性があります。その場合は、パネルを開けた状態にしておくことで、冷却速度を上げることができます。装置に触れる前に、必ずエアコンのプラグを抜いてください。これで問題が解決せず、技術者による修理サービスの予約をご希望であれば、1を押してください。"
+          "scriptJa": "表示部をご確認ください。緑のランプが点滅している場合は、清掃が必要です。その際は、フィルターを取り外して丁寧に掃除してください。手順を説明した動画を当社ウェブサイトでご覧いただけます。青いランプが点滅している場合は、エアコンが過熱している可能性があります。その場合は、パネルを開けたままにしておくと早く冷ますことができます。本体に触れる前に、必ずエアコンの電源プラグを抜いてください。それでも問題が解決せず、技術者による修理訪問の予約をご希望の場合は、1を押してください。"
         },
         {
           "id": "q28",
@@ -504,7 +510,9 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "Which issue should you order?",
-          "situationJa": "あなたは月刊科学雑誌の既刊号を注文したい。あなたは遺伝学に興味がある。あなたは雑誌の出版社に電話をし、次のように言われる。",
+          "promptJa": "あなたはどの号を注文すべきか？",
+          "situation": "You want to order a back issue of a monthly science magazine. You are interested in genetics. You call the magazine publisher and are told the following.",
+          "situationJa": "あなたは月刊の科学雑誌のバックナンバーを注文したい。あなたは遺伝学に興味がある。雑誌の出版社に電話すると、次のように説明される。",
           "choices": [
             { "label": "1", "text": "The July issue." },
             { "label": "2", "text": "The August issue." },
@@ -512,9 +520,9 @@
             { "label": "4", "text": "The November issue." }
           ],
           "answer": "3",
-          "explanation": "「遺伝学に興味がある」ということが条件。7月号は物理学の概説で不適。8月号は遺伝学だが絶版で不適。10月号も遺伝学の研究が中心と述べられるので、3「10月号」が正解。11月号は地質学の特集で不適。",
+          "explanation": "遺伝学を扱っているのは「The next issue」つまり7月号の次の8月号と、10月号の2つだが、8月号は品切れだと説明されている。もう一方の10月号も遺伝学の研究を中心に扱っているので3が正解。8月号は遺伝学の特集だが入手できないので2は誤り。7月号は物理学、11月号は地質学がテーマなので1と4も誤り。",
           "script": "I understand you've only read the September issue. I'll explain the others briefly. The July issue has an overview of the latest advancements in physics, centering on last year's breakthrough in the field of particle physics. The next issue focuses on recent genetic discoveries and various ongoing experiments with DNA and RNA, but unfortunately, this one is out of print. The October issue is also centered around research in genetics, especially its potential medical applications. Finally, if you'd like to deepen your understanding of modern geology, the November issue would be perfect. It thoroughly explains the current mainstream theories on volcano formation.",
-          "scriptJa": "9月号だけお読みになったのですね。他の号について簡単に説明します。7月号は物理学の最新の進歩の概説で、素粒子物理学の分野における昨年の飛躍的な前進が中心になっています。その次の号は、最近の遺伝学的発見とDNAとRNAを用いたさまざまな進行中の実験に焦点を当てていますが、残念ながら、この号は絶版です。10月号も遺伝学の研究が中心で、特に医学的応用の可能性について取り上げています。最後に、現代の地質学の理解を深めたいのでしたら、11月号が完璧でしょう。それは、火山形成に関する最新の主流派理論を余すところなく説明しています。"
+          "scriptJa": "9月号しかお読みになっていないとのことですね。ほかの号について簡単にご説明いたします。7月号では物理学の最新の進歩を概観しており、中心となっているのは昨年の素粒子物理学分野における画期的な発見です。その次の号は、遺伝学の最近の発見や、DNAやRNAを使って現在行われているさまざまな実験を特集していますが、あいにくこちらは品切れとなっております。10月号も遺伝学の研究、特にその医療への応用の可能性を中心に取り上げています。最後に、現代の地質学について理解を深めたいのでしたら、11月号がうってつけです。火山の形成について現在主流となっている理論を詳しく解説しています。"
         },
         {
           "id": "q29",
@@ -522,17 +530,19 @@
           "audio": "audio/eiken/eiken-pre1-2023-1/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
           "prompt": "What should you do?",
-          "situationJa": "あなたは、ベンサムフードのツナを5缶、スーパーマーケットで5月30日に買った。あなたはそのツナを1つも食べていない。あなたは次の放送をテレビで聞く。",
+          "promptJa": "あなたは何をすべきか？",
+          "situation": "You bought five cans of Bentham Foods tuna fish at the supermarket on May 30. You hear the following announcement on TV. You have not eaten any of the tuna.",
+          "situationJa": "あなたは5月30日にスーパーでベンサム・フーズのツナ缶を5缶買った。テレビで次のお知らせを聞く。あなたはまだそのツナを一切食べていない。",
           "choices": [
-            { "label": "1", "text": "Take the cans to the store where you bought them." },
-            { "label": "2", "text": "Call Bentham Foods' recall hotline." },
-            { "label": "3", "text": "Arrange for the cans to be picked up." },
-            { "label": "4", "text": "Visit Bentham Foods' website for instructions." }
+            { "label": "1", "text": "Take the cans to the store you bought them at." },
+            { "label": "2", "text": "Call the Bentham Foods recall hotline." },
+            { "label": "3", "text": "Arrange to have the cans picked up." },
+            { "label": "4", "text": "Visit the Bentham Foods website for instructions." }
           ],
           "answer": "1",
-          "explanation": "「ツナ5缶を5月30日に購入」「1つも食べていない」が条件。24缶入りの箱を1つ以上持っている場合の指示（ウェブサイト・集荷）には該当しない。1箱に満たない客は購入した店で交換または返品が可能とあるので、1「買った店へ缶詰を持って行く」が正解。2はツナを食べた客が対象なので不適。",
+          "explanation": "5月30日に購入した5缶は回収対象期間に含まれ、まだ食べておらず未開封である。放送では、1ケース（24缶）未満のお客様は購入した店舗で交換または返品できると案内しているので1が正解。ホットラインへの電話はすでに食べた人向けなので2は誤り。ウェブサイトで回収の手配をするのは1ケース以上持っている人向けなので3と4も誤り。",
           "script": "Bentham Foods is recalling all cans of its tuna sold from May 15 to July 1 because of suspected health risks. Customers who have consumed tuna from these cans are advised to call our recall hotline. For unopened cans, if you have one or more cases of 24 cans, please visit our website for instructions on how to arrange a pickup and a full refund. Customers with less than one case may exchange the cans or return them for a full refund at the store where they were purchased. The cans don't pose any risk while unopened, but please avoid consuming tuna from any cans bought during the affected dates.",
-          "scriptJa": "ベンサムフードは、健康上のリスクの疑いがあるために、5月15日から7月1日に販売されたすべてのツナ缶を回収しています。これらの缶詰からツナを食べたお客様は私たちのリコールホットラインに電話してください。開けていない缶については、24缶入りの箱を1つ以上持っている場合には、私たちのウェブサイトを訪れて、集荷と全額払い戻しの手配の仕方について指示をご覧ください。1箱に満たないお客様は、購入された店で缶を交換するか、返品して全額払い戻しを受けることができます。開けていない状態で缶詰がリスクを引き起こすことはありませんが、影響がある期間に購入した缶詰からツナを食べることは避けてください。"
+          "scriptJa": "ベンサム・フーズは、健康上のリスクが疑われるため、5月15日から7月1日までに販売された当社のツナ缶をすべて回収いたします。これらの缶のツナを召し上がったお客様は、回収専用ホットラインまでお電話ください。未開封の缶につきましては、24缶入りのケースを1ケース以上お持ちの場合、当社ウェブサイトで回収の手配方法と全額返金についてのご案内をご確認ください。1ケース未満のお客様は、ご購入いただいた店舗で缶を交換するか、返品して全額返金を受けることができます。未開封であれば缶に危険はありませんが、対象期間中に購入されたツナ缶は、どの缶であっても召し上がらないようお願いいたします。"
         }
       ]
     }

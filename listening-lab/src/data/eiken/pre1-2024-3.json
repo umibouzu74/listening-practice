@@ -30,9 +30,9 @@
             { "label": "4", "text": "The shirt she ordered has not arrived." }
           ],
           "answer": "3",
-          "explanation": "最初のやり取りで、女性が返品して返金を希望しているのに対して、店員はレシートの日付が5週間前であり、30日以内でなければ返金できないと伝えている。店員の2番目の発言で I'm afraid not と言っていることから、女性が要求している返金に店側が応じないことがわかり、これが女性のいら立ちの原因だと考えられる。よって、正解は3「店が返金に応じようとしない」。",
+          "explanation": "女性は購入から5週間たったシャツの返金を求めるが、男性の2番目の発言で「I'm afraid not」と断られ、店内クレジットか交換しか提示されない。返金してもらえないことに不満を感じているので3が正解。女性は値段や商品の傷については何も言っておらず、シャツは手元にあるので1、2、4は誤り。",
           "script": "W: I'd like to return this shirt and get my money back, please. Here's my receipt.\nM: I'm sorry, but our return policy states that we can only do that for items brought back within thirty days. This receipt is from five weeks ago.\nW: I don't see what difference a few days makes. Can't you overlook it this time?\nM: I'm afraid not, but we can offer you store credit or exchange the shirt for another item.\nW: Well, if that's the best you can do, I'll take the credit.",
-          "scriptJa": "W: このシャツを返品して返金してもらいたいのですが。これがレシートです。\nM: 申し訳ありませんが、私どもの返品規定では30日以内に持ち込まれた商品しか対応できません。このレシートは5週間前のものですので。\nW: 数日違うだけでどんな違いがあるのかわからないです。今回は見逃してもらえないのですか？\nM: 申し訳ありませんができません。ですが、ストアクレジットかそのシャツを他の商品に交換することは可能です。\nW: それが最善なら、ストアクレジットにするわ。"
+          "scriptJa": "W: このシャツを返品して、代金を返してもらいたいんですが。レシートはこちらです。\nM: 申し訳ございませんが、当店の返品規定では、返金はお買い上げから30日以内にお持ちいただいた商品に限られております。こちらのレシートは5週間前のものですね。\nW: 数日違うだけで何が変わるのか分かりません。今回だけ大目に見てもらえませんか？\nM: あいにくそれはいたしかねますが、店内でお使いいただけるクレジットをお出しするか、シャツを別の商品とお取り替えすることはできます。\nW: まあ、それが精いっぱいだというなら、クレジットにします。"
         },
         {
           "id": "q2",
@@ -46,9 +46,9 @@
             { "label": "4", "text": "Choose a neighborhood for the man." }
           ],
           "answer": "1",
-          "explanation": "男性の最初の発言第2文から、彼が新しいアパートを探していることがわかる。女性の2番目の発言で、女性の友だちのルームメイトが引っ越すから、紹介できると伝えているのが聞き取れれば、正解の1「男性を友人に紹介する」を選ぶことができる。",
+          "explanation": "女性の2番目の発言で、友人のルームメイトが学期末に出ていくことを伝え、「I can introduce you to each other」と申し出ている。男性もそれを喜んでいるので、男性を友人に紹介するという1が正解。女性が自分の部屋に住まわせたりお金を貸したりするわけではないので2、3は誤り。",
           "script": "M: Could I get some advice? I need to find a new apartment after I graduate, but I'm unsure which neighborhoods to look at.\nW: Why don't you just get an apartment near the university?\nM: I'm not sure I could afford the rent there.\nW: You know, I think one of my friend's roommates is moving out at the end of the semester. You would only pay one-third of the rent. I can introduce you to each other.\nM: That would be great. Thanks.",
-          "scriptJa": "M: アドバイスをくれないかな？ 卒業後に新しいアパートを探す必要があるんだけど、どの地域を考えたらいいのかわからないんだ。\nW: 大学の近くのアパートにすればいいだけじゃないの？\nM: そのあたりは家賃が払えるかどうかわからないんだよ。\nW: ねえ、友だちのルームメイトの一人が、今学期の終わりに出ていく予定だと思うわ。家賃は3分の1しか払わなくていいの。紹介してあげるわよ。\nM: それはありがたいな。ありがとう。"
+          "scriptJa": "M: ちょっと相談に乗ってもらえる？卒業したら新しいアパートを探さないといけないんだけど、どの辺りで探せばいいか迷っているんだ。\nW: 大学の近くで借りればいいんじゃない？\nM: あの辺りの家賃を払えるかどうか自信がないんだよ。\nW: そういえば、友達のルームメイトの一人が学期末に引っ越すらしいの。家賃は3分の1を払うだけで済むよ。2人を紹介してあげる。\nM: それは助かるよ。ありがとう。"
         },
         {
           "id": "q3",
@@ -62,9 +62,9 @@
             { "label": "4", "text": "It added too many characters." }
           ],
           "answer": "1",
-          "explanation": "女性の2番目の発言で、「映画監督は結末もかなり変更した」「物語の大事な部分を削除した」と述べている。この内容から、彼女は本と映画で内容が違っていたことを指摘していることがわかり、1「ストーリーが本と違っていた」が正解となる。",
+          "explanation": "女性の2番目の発言で、製作者が結末を「changed … quite a bit」し、物語の重要な部分も削ったと述べている。つまり映画の話が原作と違っていたということなので1が正解。重要な部分が削られたと不満を言っているので、もっと短くすべきだったという2は誤りで、登場人物を増やしたという話もないので4も誤り。",
           "script": "M: Did you like the movie?\nW: To be honest, I much preferred the book because it was so much clearer about what the characters were thinking.\nM: That's almost always true. An author can write many pages describing characters' thoughts, but audiences have to rely on actors' abilities to show feelings in a film.\nW: Exactly. The filmmakers also changed the ending quite a bit, and they cut out important sections of the story.\nM: I enjoyed the film, personally. I guess I'm lucky I didn't read the book.",
-          "scriptJa": "M: 映画は楽しかった？\nW: 正直言って、本の方がずっとよかったわ。登場人物が何を考えているかがずっとはっきり伝わったもの。\nM: まあほとんどいつもそうだよね。作家は何ページも使って登場人物の思考を書けるけど、映画だと観客は俳優の表現力頼みだからね。\nW: その通りなのよ。映画監督は結末もけっこう変更してたし、物語の大事な部分もカットしていたわ。\nM: 個人的には僕は楽しめたけどね。本を読んでなかったのがよかったのかもしれないな。"
+          "scriptJa": "M: 映画はよかった？\nW: 正直言うと、本の方がずっとよかった。登場人物が何を考えているのか、本の方がはるかに分かりやすかったから。\nM: それはたいていそうだよね。作家は登場人物の考えを何ページもかけて書けるけど、映画だと観客は感情を表現する俳優の力量に頼るしかないからね。\nW: そのとおり。それに、製作者たちは結末をかなり変えていたし、物語の大事な部分もカットしていたの。\nM: 僕は個人的には映画を楽しんだよ。本を読んでいなくてラッキーだったのかもね。"
         },
         {
           "id": "q4",
@@ -78,9 +78,9 @@
             { "label": "4", "text": "He prefers another hobby to gardening." }
           ],
           "answer": "4",
-          "explanation": "男性の最後の発言第2文に I'd much rather とあるのに注目。would rather は「むしろ～したい」の意なので、男性は庭で野菜を育てることよりもゴルフコースに出たいと思っていることがわかる。したがって、正解は4「彼はガーデニングより他の趣味が好きである」。1は男性の1番目の発言に「割に合わない」とあるので不適。2は男性の1番目と2番目の発言に合わないので不適。3は、男性の最後の発言第1文に「たしかに楽しいときはある」とあり、「楽しい活動ではない」は言い過ぎである。",
+          "explanation": "男性は最後の発言で「I'd much rather be out on the golf course」と言い、家庭菜園よりもゴルフをしていたいと述べている。これを別の趣味の方が好きだと言い換えた4が正解。男性は家庭菜園は費用と手間に見合わないと言っているので1は逆であり、「It does have its moments」と楽しい面も認めているので3も誤り。",
           "script": "W: It's nearly spring already. Have you ordered seeds for your vegetable garden?\nM: You know, between the cost of the seeds and supplies and the work I put in, I've decided it's not worth it.\nW: Really? But home-grown vegetables taste so much better than store-bought vegetables.\nM: I can get great produce at the farmers' market every week.\nW: But I always thought you enjoyed working in the garden.\nM: It does have its moments. To be honest, though, I'd much rather be out on the golf course.",
-          "scriptJa": "W: もうすぐ春ね。家庭菜園用の種は注文した？\nM: いやあ、種や道具の費用やらかける労力やらで、割に合わないってことになったんだ。\nW: 本当？ でも自家製の野菜って、お店で買った野菜よりずっとおいしいわよ。\nM: 農家の直売所でいい野菜が毎週買えるしね。\nW: でも、あなたは庭仕事が楽しいんだっていつも思ってたんだけど。\nM: たしかに楽しいときはあるよ。でも正直言って、ゴルフコースに出る方がずっといいんだよね。"
+          "scriptJa": "W: もうすぐ春だね。家庭菜園の種はもう注文した？\nM: それがね、種や道具にかかるお金と自分がかける手間を考えると、割に合わないと思ってやめることにしたんだ。\nW: 本当？でも、自分で育てた野菜はお店で買う野菜よりずっとおいしいじゃない。\nM: ファーマーズマーケットに行けば、毎週いい野菜が手に入るからね。\nW: でも、あなたは畑仕事を楽しんでいるんだとずっと思っていたけど。\nM: 楽しいときもあるよ。でも正直に言うと、ゴルフ場に出ている方がずっといいんだ。"
         },
         {
           "id": "q5",
@@ -94,9 +94,9 @@
             { "label": "4", "text": "He is worried about pain." }
           ],
           "answer": "1",
-          "explanation": "男性の1番目の発言から、彼は自分の歯医者から抜歯とインプラントを勧められていることがわかる。一方で、男性の2番目の発言に「予約はしなかった」「君の歯医者に診てもらうことを考えていた」とある。さらに男性の最後の発言に「できれば歯は抜きたくない」とあることから、最初に診てもらった歯医者の提案以外の方法を男性が期待していることがわかる。よって、1「別の意見を聞きたいから」が正解。3は男性の最後の発言に「費用についてはそれほど心配していない」とあるので不適。",
+          "explanation": "男性の2番目の発言の「Maybe she'd have another suggestion」と、最後の発言の「できれば歯を残したい」から、抜歯以外の意見を別の歯医者から聞きたいのだと分かる。これをセカンドオピニオンと表した1が正解。男性は「I'm not so worried about the cost」と言っているので3は誤りで、痛みの少なさを話題にしたのは女性なので4も誤り。",
           "script": "W: What did the dentist say about your tooth, honey?\nM: He recommends pulling it and putting in an implant.\nW: When's that going to happen?\nM: He's booked for a while, so I didn't make an appointment. Actually, I was thinking of having your dentist take a look at it. Maybe she'd have another suggestion.\nW: Oh, you should. She's great at keeping pain to a minimum, and the costs are reasonable.\nM: I'm not so worried about the cost, but I'd like to save the tooth if at all possible.",
-          "scriptJa": "W: 歯医者は歯のことをどう言ってたの、あなた？\nM: 抜いてインプラントにした方がいいって勧めてるね。\nW: それはいつする予定なの？\nM: しばらくは予約がいっぱいだったから、予約は取らなかったよ。実は君の歯医者に診てもらおうかと思ってたんだ。ひょっとしたら別の提案があるかもしれないし。\nW: そうね、ぜひそうするといいわ。彼女は痛みを最小限に抑えるのがとても上手だし、費用も妥当よ。\nM: 費用はそんなに気にしてないけど、できれば歯は抜かずに済ませたいんだ。"
+          "scriptJa": "W: あなた、歯医者さんは歯のことを何て言ってたの？\nM: 抜いてインプラントを入れることを勧められたよ。\nW: それはいつやるの？\nM: しばらく予約がいっぱいらしいから、予約は取らなかったんだ。実は、君の歯医者さんに診てもらおうかと思っていてね。別の提案をしてくれるかもしれないし。\nW: ええ、そうしなよ。彼女は痛みを最小限に抑えるのがとても上手だし、費用も手頃だよ。\nM: 費用はそれほど気にしていないんだけど、できることなら歯を残したいんだ。"
         },
         {
           "id": "q6",
@@ -110,9 +110,9 @@
             { "label": "4", "text": "Visit her professor." }
           ],
           "answer": "2",
-          "explanation": "女性が3番目の発言第2文で「部屋を探しても答案が見つからない」と言っているのに対して、男性は3番目の発言で「答えを見ずに試験について話すのは難しい」「もう一度探した方がいい」と言っている。それに対して女性は最後の発言で「わかりました」と言っているので、彼女が次にすることは試験の答案をもう一度探すことである。よって、2「部屋を探す」が正解。",
+          "explanation": "女性が答案が部屋で見つからなかったと言うと、教授は「Maybe you should take another look」ともう一度探すよう勧め、女性は了承している。したがって、女性は次に自分の部屋を探すと考えられるので2が正解。教授を訪ねるのは2時から4時の間で、その前に答案を見つける必要があるので4は次の行動としては適切でない。",
           "script": "W: Professor, are you free to talk about my midterm exam results?\nM: Of course. I have office hours today from two to four. You could stop by then.\nW: Thanks. Should I bring my notes or the textbook?\nM: Bring your exam and something to write with.\nW: I'm not sure if I have my exam. I couldn't find it in my room this morning.\nM: Well, it'll be tough to talk about the exam without seeing your answers. Maybe you should take another look.\nW: OK.",
-          "scriptJa": "W: 先生、中間試験の結果についてお話しする時間はありますか？\nM: もちろん。私は今日の2時から4時までがオフィスアワーです。その時間に寄ってくれればいいですよ。\nW: ありがとうございます。ノートか教科書を持っていった方がいいですか？\nM: 試験の答案と筆記用具を持ってきてください。\nW: 答案があるかどうかわからないんです。今朝部屋を探しても見つけられなかったので。\nM: うーん、答えを見ずに試験について話すのは難しいですね。多分もう一度探した方がいいですよ。\nW: わかりました。"
+          "scriptJa": "W: 先生、中間試験の結果についてお話しするお時間はありますか？\nM: もちろん。今日は2時から4時までオフィスアワーだから、その時間に寄ってくれればいいよ。\nW: ありがとうございます。ノートか教科書を持っていった方がいいですか？\nM: 試験の答案と、何か書くものを持ってきなさい。\nW: 答案が手元にあるかどうか分かりません。今朝、部屋で探したんですが見つからなかったんです。\nM: うーん、答えを見ないで試験の話をするのは難しいね。もう一度探してみたらどうかな。\nW: 分かりました。"
         },
         {
           "id": "q7",
@@ -126,9 +126,9 @@
             { "label": "4", "text": "His new job will start in March." }
           ],
           "answer": "1",
-          "explanation": "男性の最初の発言に contract「契約」とあることに注目する。男性の3番目の発言第2文で「他からも何件かオファーがあるが、ここでの将来が不確かだと断りたくない」と話している。したがって、男性が気にしているのは、今の会社で契約が更新されるかどうかであるとわかり、1「契約が更新されないかもしれない」が正解となる。2は his promotion「昇進」であり、「契約」ではないため不適。",
+          "explanation": "男性は4月1日に切れる契約について相談しており、更新されるかどうかが2月か3月まで確定しないと聞いて「That could be an issue」と述べている。契約が更新されないかもしれないことを心配しているので1が正解。昇進の話は出ておらず、上司の女性は「We'd hate to lose you」と男性を評価しているので2、3は誤り。",
           "script": "M: Alice, I wanted to talk to you about my contract. It expires on April 1st.\nW: I've already talked to personnel, and they're optimistic about having you continue.\nM: When will you know for certain?\nW: Not until February or March. They want to see what our needs will be first.\nM: That could be an issue. I've had a couple of other offers, and I'm reluctant to turn them down unless I'm certain of my future here.\nW: I understand. I'll try to hurry things up, then. We'd hate to lose you.",
-          "scriptJa": "M: アリス、契約のことで君と話したいんだ。4月1日で契約が切れるからね。\nW: 人事部とはもう話したけど、あなたを引き続き雇うことには前向きよ。\nM: はっきりわかるのはいつなのかな？\nW: 2月か3月までは無理ね。まずは人員の必要性を見たいのよ。\nM: それだと問題があるかもしれないな。他からも何件かオファーがあって、ここでの将来が確実じゃないなら断りたくなくてね。\nW: わかったわ。早めに進められるようにする。あなたを失いたくないもの。"
+          "scriptJa": "M: アリス、僕の契約について話したいんだ。4月1日で切れるんだよ。\nW: 人事部にはもう話してあって、あなたに続けてもらうことには前向きよ。\nM: はっきり分かるのはいつになる？\nW: 2月か3月までは分からないわ。まずはこちらでどれだけ人手が必要になるかを見極めたいそうなの。\nM: それは困るかもしれないな。ほかにもいくつか誘いを受けていて、ここでの先行きが確実でない限り、断るのは気が進まないんだ。\nW: 分かったわ。それなら、手続きを急いでもらうようにしてみる。あなたに辞められたら困るもの。"
         },
         {
           "id": "q8",
@@ -142,9 +142,9 @@
             { "label": "4", "text": "The man needs to clean the basement again." }
           ],
           "answer": "1",
-          "explanation": "女性の2番目の発言で「掃除機がゴミをいろいろなところにまき散らし始めた」とあり、次の女性の3番目の発言第1文で「こうなるのはバッグが満杯のときだ」と言っている。女性は最初に掃除機を使ったかどうかを男性に確認していることから、掃除機の異常の原因は男性がバッグの交換を怠ったことにあると考えていることがわかる。したがって、正解は1「男性はバッグを替えるべきだった」。",
+          "explanation": "女性の3番目の発言で、袋がいっぱいになりすぎるとこうなると指摘し、替えの袋の場所は知っているはずだと念を押している。つまり、男性は使った後に袋を交換しておくべきだったと遠回しに言っているので1が正解。掃除機が壊れたのではなく、袋を買い足す必要も述べていないので2、3は誤り。",
           "script": "W: Have you used the vacuum cleaner recently?\nM: Yeah, I cleaned the basement with it yesterday. Why?\nW: Well, I was just cleaning the living room, and it started shooting out dirt everywhere.\nM: I did clean up a lot of stuff off the floor, but nothing that might have broken the machine.\nW: You know this happens when the bag is too full. And you do know where the extra bags are, right?\nM: Yes, in the laundry room. Let me take care of it.",
-          "scriptJa": "W: 最近掃除機を使った？\nM: うん、昨日掃除機で地下室を掃除したよ。どうしてだい？\nW: それが、今リビングを掃除してたら、ゴミをいろんなところにまき散らし始めたのよ。\nM: たしかに床からゴミはたくさん吸ったけど、機械が壊れるようなものは吸いこまなかったよ。\nW: こうなるのって、バッグが満杯のときだって知ってるわよね。替えのバッグがどこにあるかも知ってるでしょ？\nM: うん、洗濯室にあるよ。僕がやっておくね。"
+          "scriptJa": "W: 最近、掃除機を使った？\nM: うん、昨日それで地下室を掃除したよ。どうして？\nW: それがね、今リビングを掃除していたら、そこらじゅうにゴミを噴き出し始めたのよ。\nM: 確かに床のゴミはたくさん吸い取ったけど、機械が壊れるようなものは何もなかったはずだよ。\nW: ほら、袋がいっぱいになりすぎるとこうなるでしょ。それに、替えの袋がどこにあるかは知ってるわよね？\nM: うん、洗濯室だね。僕が何とかするよ。"
         },
         {
           "id": "q9",
@@ -158,9 +158,9 @@
             { "label": "4", "text": "He has been damaging the garden's facilities." }
           ],
           "answer": "2",
-          "explanation": "男性の「コミュニティガーデンの区画を個人仕様にしたい」という発言に対して、女性の2番目の発言第2文に「デイビッドは保守的で、彼の承認がないと絶対に無理だ」とある。この発言から、デイビッドが新しいアイディアに対して否定的であることが読み取れる。したがって、正解は2「彼は新しいことを試すのが好きでない」。",
+          "explanation": "女性の2番目の発言の「You know how conservative David is」から、デイビッドは保守的で変化を好まない人物だと分かる。区画を自由に飾るという新しい案には賛成しそうにないと示唆しているので、新しいことを試すのが好きではないという2が正解。園芸の腕前や他の会員との関係、設備を傷めたことについては何も述べられていないので1、3、4は誤り。",
           "script": "M: You know, Margaret and I were talking, and we were thinking it would be nice if all the members were allowed to personalize their spaces in the community garden.\nW: You mean, like putting up decorations or fences or something?\nM: Exactly. I've been wanting to add some lighting myself.\nW: Hmm. You know how conservative David is, and without his approval, it'll never happen.\nM: You're right. Maybe we should talk with some other people and see if we can think of a way to convince him.",
-          "scriptJa": "M: ねえ、マーガレットと話してたんだけど、みんながコミュニティガーデンの区画を自分好みに変えられたらいいよね、って思ってたんだ。\nW: 飾りやフェンスとかを付ける、みたいなこと？\nM: そうそう。僕は照明を付けたいってずっと思ってるんだ。\nW: うーん。でもデイビッドって保守的でしょ。彼の承認なしじゃ絶対に無理よ。\nM: そうなんだよね。他の人にも相談して、彼を納得させる方法を考えた方がいいな。"
+          "scriptJa": "M: あのね、マーガレットと話していたんだけど、コミュニティガーデンで会員みんなが自分の区画を好きなようにアレンジできたらいいんじゃないかって考えていたんだ。\nW: 飾り付けをしたり、柵を立てたりとか、そういうこと？\nM: そのとおり。僕も前から照明を付けたいと思っていてね。\nW: うーん。デイビッドがどれだけ保守的か知ってるでしょ。彼の承認がなければ、絶対に実現しないわよ。\nM: そうだね。ほかの人たちとも話して、彼を説得する方法を考えられないか探ってみようか。"
         },
         {
           "id": "q10",
@@ -174,9 +174,9 @@
             { "label": "4", "text": "She wants the man to check the shipment." }
           ],
           "answer": "2",
-          "explanation": "女性の2番目の発言第2文で「手短に済ませられるか」と聞いていることから、彼女の要望が「何かを短くする」という内容につながる選択肢を選ぶ。2「彼女は会議を短くしてほしい」が正解。",
+          "explanation": "男性がチームで話し合うことを提案すると、女性は忙しいことを理由に「can we keep it brief?」と頼んでいる。会議を短くしてほしいということなので2が正解。メールを送ると申し出たのは男性自身で、女性が書くのを手伝ってほしいと頼んだわけではないので3は誤り。顧客への連絡や出荷の確認も頼んでいないので1、4も誤り。",
           "script": "W: Sergio? Parvati here. NTC Electronics is complaining about the last shipment of parts they received from us.\nM: I just heard. It sounds like we should get the team together to discuss this.\nW: OK. Things are pretty hectic, though, so can we keep it brief?\nM: Sure. I don't think this is anything major.\nW: That's a relief. I've been a bit worried about it.\nM: I'll send out an e-mail to everyone involved.\nW: Thanks.",
-          "scriptJa": "W: セルジオ？ パールヴァティよ。NTCエレクトロニクスが、うちから受け取った部品の前回の出荷分について苦情を言ってるの。\nM: 今聞いたところだ。チームを集めて話し合った方がよさそうだね。\nW: わかったわ。でも今すごく忙しいから、手短にできる？\nM: もちろん。大した問題じゃないと思うし。\nW: それを聞いて安心したわ。ちょっと心配だったのよ。\nM: 関係者全員にメールを送っておくよ。\nW: ありがとう。"
+          "scriptJa": "W: セルジオ？パールヴァティです。NTCエレクトロニクスが、うちから届いた前回の部品の出荷について苦情を言ってきているの。\nM: ちょうど聞いたところだよ。チームを集めて話し合った方がよさそうだね。\nW: そうね。でも、今かなり立て込んでいるから、手短に済ませられる？\nM: いいよ。大した問題ではないと思うし。\nW: それを聞いてほっとした。ちょっと心配していたの。\nM: 関係者全員にメールを送っておくよ。\nW: ありがとう。"
         },
         {
           "id": "q11",
@@ -190,9 +190,9 @@
             { "label": "4", "text": "It gets boring after a few plays." }
           ],
           "answer": "3",
-          "explanation": "女性の1番目の発言では「すごく複雑で、覚えるのにとても時間がかかった」と言っている。したがって、正解は3「遊び方を覚えるのに時間がかかる」。2はストラテジースフィアに対する男性の感想なので不適。",
+          "explanation": "女性の最初の発言で、キングスクエアは「really complex」で、遊び方が分かるまでに「took us forever」と述べている。遊び方を覚えるのに時間がかかるということなので3が正解。凝ったボードとカードはストラテジー・スフィアの特徴で、キングスクエアは「a lot plainer」なので2は誤り。「just as enjoyable」と言っているので1も誤り。",
           "script": "M: Have you been playing that Kingsquare game you got for Christmas much?\nW: Yeah. It's really complex, and it took us forever to figure out. But it was well worth it.\nM: I'm thinking about giving it a try, too.\nW: Do you like Strategy Sphere? It's pretty similar.\nM: Oh, my wife and I played that a lot last year. I loved the fancy artwork on the board and the cards.\nW: Well, Kingsquare is a lot plainer, but it's just as enjoyable.",
-          "scriptJa": "M: クリスマスにもらったキングスクエアのゲーム、けっこうやってる？\nW: ええ。すごく複雑で覚えるのにとても時間がかかったけど、やる価値はあったわ。\nM: 僕もやってみようかなと思ってるんだ。\nW: ストラテジースフィアは好き？ それとかなり似てるわよ。\nM: ああ、それは去年妻とよくやってたよ。ボードやカードの絵が豪華で好きだったな。\nW: キングスクエアはもっと地味だけど、同じくらい楽しいわよ。"
+          "scriptJa": "M: クリスマスにもらったキングスクエアっていうゲーム、よくやってる？\nW: うん。すごく複雑で、遊び方が分かるまでものすごく時間がかかったの。でも、それだけの価値は十分あったよ。\nM: 僕もやってみようかと思っているんだ。\nW: ストラテジー・スフィアは好き？かなり似てるよ。\nM: ああ、去年妻とよく遊んだよ。ボードとカードの凝ったイラストが大好きだったな。\nW: そうね、キングスクエアはずっと地味だけど、同じくらい楽しいよ。"
         },
         {
           "id": "q12",
@@ -206,9 +206,9 @@
             { "label": "4", "text": "To talk about the tutoring programs' success." }
           ],
           "answer": "4",
-          "explanation": "男性の発言で女性に伝えているアドバイスは大きく2つある。1つ目は、最初の発言の「学習支援プログラムが子どもたちの成績向上にいかに役立ったかを強調してほしい」という点。2つ目は、2番目の発言の「ジェファーソン氏の辞職の話題は避ける」という点である。よって、4「学習支援プログラムの成果を話すこと」が正解となる。",
+          "explanation": "男性の最初の発言で、個別指導プログラムが子どもの学業成績の向上に役立ったことを強調するよう頼んでいる。これをプログラムの成果について話すと言い換えた4が正解。男性はジェファーソン氏の辞任の話題は避けた方がよいと助言しているので、後任の採用について説明する1や、彼に感謝する2は誤り。",
           "script": "M: Amanda, when you make your speech at the community center, I'd like you to emphasize how the tutoring programs have helped improve the children's academic results.\nW: Sure, I was definitely planning to do that.\nM: And it's probably better to avoid the subject of Mr. Jefferson resigning last June.\nW: Yes, I know some people were upset about how the hiring of his replacement was handled.\nM: OK, well, good luck with your speech. I'm looking forward to hearing it tomorrow night.",
-          "scriptJa": "M: アマンダ、コミュニティセンターでスピーチするときは、学習支援プログラムが子どもたちの成績向上にいかに役立ったかを強調してほしいんだ。\nW: もちろん、必ずそうするように計画していたわよ。\nM: それと、ジェファーソン氏が去年の6月に辞職した件にはおそらく触れない方がいいね。\nW: ええ、彼の後任者の選考方法に不満を持っている人もいたのは知ってるわ。\nM: よし、じゃあ、スピーチ頑張って。明日の夜それを聞くのを楽しみにしてるよ。"
+          "scriptJa": "M: アマンダ、コミュニティセンターでスピーチをするときは、個別指導プログラムが子どもたちの学業成績を上げるのにどれだけ役立ってきたかを強調してほしいんだ。\nW: ええ、もちろんそうするつもりでした。\nM: それから、去年の6月にジェファーソンさんが辞めた件には触れない方がいいだろうね。\nW: はい、彼の後任の採用の進め方に不満を持った人たちがいたことは知っています。\nM: よし、じゃあスピーチ頑張って。明日の夜、聞くのを楽しみにしているよ。"
         }
       ]
     },
@@ -233,9 +233,9 @@
             { "label": "4", "text": "Seeking advice from people outside their company." }
           ],
           "answer": "1",
-          "explanation": "第1段第3文に「自分の間違いを認め、仲間を褒めることで、謙虚な人々は自分を信頼し尊敬してくれる同僚のネットワークを築く」とあり、続く第4文に「このことが彼らに職場でのより高い地位を与える」とある。この内容をまとめたものとして最も適切なのは、1「同僚と協力関係を築くこと」である。",
+          "explanation": "第1段落で、謙虚な人は自分の誤りを認め同僚を褒めることで、自分を「trust and respect」してくれる同僚のネットワークを築き、それが昇進につながると述べられている。これを同僚と支え合う関係を築くと言い換えた1が正解。昇進したいと公言することや上司の誤りを指摘すること、社外の人に助言を求めることは述べられていないので2、3、4は誤り。",
           "script": "Getting Ahead at Work\n\nIt is commonly believed that being aggressive and bossy helps workers get promoted to top positions. According to a survey of 610 business leaders and their coworkers, however, there is another way to achieve such success in the workplace: being humble. By admitting their own mistakes and praising fellow workers, humble people develop a network of coworkers who trust and respect them. This gives them a higher status in the office, which their superiors recognize and reward with promotion.\n\nThe researchers say that when dominant leaders make mistakes, they aren't forgiven as easily as humble leaders are. Therefore, they could be at greater risk of being removed from their positions. The researchers suggest that companies take steps to encourage leaders to be humble. For example, humble behavior can be rewarded through performance evaluations. Additionally, human resources teams can organize leadership training programs that encourage people to maintain a humble attitude.",
-          "scriptJa": "仕事で成功すること\n\n積極的で横柄であることは、労働者がトップの地位へ昇進する助けになると一般的に信じられている。しかし、610人のビジネスリーダーとその同僚を対象とした調査によると、職場でそのような成功を収めるもう一つの方法がある――すなわち謙虚であることである。自分自身の間違いを認め、仲間を褒めることによって、謙虚な人々は自分を信頼し尊敬してくれる同僚のネットワークを築く。これによって彼らは職場でより高い地位を得て、そのことを上司が認め、昇進で報いてくれるのである。\n\n支配的なリーダーが間違いを犯すと、謙虚なリーダーほど容易には許されないと研究者たちは言う。したがって、彼らはその地位から外される危険がより大きい可能性がある。企業はリーダーが謙虚であるように促すための措置を取るべきであると、研究者たちは提案している。たとえば、謙虚な行動は業績評価を通じて報われることができる。さらに、人事部は人々が謙虚な態度を維持するよう促す、リーダーシップ研修プログラムを企画することができる。"
+          "scriptJa": "職場で出世するには\n\n攻撃的で威張った態度をとることが、最高の地位に昇進する助けになると一般には信じられている。しかし、610人の企業リーダーとその同僚を対象にした調査によると、職場でそうした成功を収める別の方法がある。それは謙虚であることだ。自分の誤りを認め、同僚を褒めることによって、謙虚な人は自分を信頼し尊敬してくれる同僚のネットワークを築く。これによって職場での地位が高まり、上司がそれを認めて昇進という形で報いるのである。\n\n研究者たちによると、支配的なリーダーは誤りを犯したとき、謙虚なリーダーほど簡単には許してもらえない。そのため、支配的なリーダーは地位を追われる危険性がより高い可能性がある。研究者たちは、企業がリーダーに謙虚さを促すための措置をとるよう提案している。例えば、人事評価を通じて謙虚な振る舞いに報いることができる。さらに、人事部が、謙虚な態度を保つよう促すリーダーシップ研修プログラムを企画することもできる。"
         },
         {
           "id": "q14",
@@ -251,9 +251,9 @@
             { "label": "4", "text": "Their mistakes are often ignored by others." }
           ],
           "answer": "2",
-          "explanation": "第2段第1文に「支配的なリーダーが間違いを犯すと、謙虚なリーダーほど容易には許されない」とある。続く第2文で「彼らはその地位から外される危険がより大きい」と言っていることから、正解は2「彼らの地位はより不安定である可能性がある」となる。",
+          "explanation": "第2段落で、支配的なリーダーは誤りを謙虚なリーダーほど許してもらえず、「could be at greater risk of being removed from their positions」と述べられている。地位を失う危険が高い、つまり立場が不安定になり得るということなので2が正解。誤りが許されにくいとは言っているが、誤りを犯しやすいとは言っていないので3は誤りで、誤りが見過ごされるという4は内容と逆である。",
           "script": "Getting Ahead at Work\n\nIt is commonly believed that being aggressive and bossy helps workers get promoted to top positions. According to a survey of 610 business leaders and their coworkers, however, there is another way to achieve such success in the workplace: being humble. By admitting their own mistakes and praising fellow workers, humble people develop a network of coworkers who trust and respect them. This gives them a higher status in the office, which their superiors recognize and reward with promotion.\n\nThe researchers say that when dominant leaders make mistakes, they aren't forgiven as easily as humble leaders are. Therefore, they could be at greater risk of being removed from their positions. The researchers suggest that companies take steps to encourage leaders to be humble. For example, humble behavior can be rewarded through performance evaluations. Additionally, human resources teams can organize leadership training programs that encourage people to maintain a humble attitude.",
-          "scriptJa": "仕事で成功すること\n\n積極的で横柄であることは、労働者がトップの地位へ昇進する助けになると一般的に信じられている。しかし、610人のビジネスリーダーとその同僚を対象とした調査によると、職場でそのような成功を収めるもう一つの方法がある――すなわち謙虚であることである。自分自身の間違いを認め、仲間を褒めることによって、謙虚な人々は自分を信頼し尊敬してくれる同僚のネットワークを築く。これによって彼らは職場でより高い地位を得て、そのことを上司が認め、昇進で報いてくれるのである。\n\n支配的なリーダーが間違いを犯すと、謙虚なリーダーほど容易には許されないと研究者たちは言う。したがって、彼らはその地位から外される危険がより大きい可能性がある。企業はリーダーが謙虚であるように促すための措置を取るべきであると、研究者たちは提案している。たとえば、謙虚な行動は業績評価を通じて報われることができる。さらに、人事部は人々が謙虚な態度を維持するよう促す、リーダーシップ研修プログラムを企画することができる。"
+          "scriptJa": "職場で出世するには\n\n攻撃的で威張った態度をとることが、最高の地位に昇進する助けになると一般には信じられている。しかし、610人の企業リーダーとその同僚を対象にした調査によると、職場でそうした成功を収める別の方法がある。それは謙虚であることだ。自分の誤りを認め、同僚を褒めることによって、謙虚な人は自分を信頼し尊敬してくれる同僚のネットワークを築く。これによって職場での地位が高まり、上司がそれを認めて昇進という形で報いるのである。\n\n研究者たちによると、支配的なリーダーは誤りを犯したとき、謙虚なリーダーほど簡単には許してもらえない。そのため、支配的なリーダーは地位を追われる危険性がより高い可能性がある。研究者たちは、企業がリーダーに謙虚さを促すための措置をとるよう提案している。例えば、人事評価を通じて謙虚な振る舞いに報いることができる。さらに、人事部が、謙虚な態度を保つよう促すリーダーシップ研修プログラムを企画することもできる。"
         },
         {
           "id": "q15",
@@ -269,9 +269,9 @@
             { "label": "4", "text": "The Valkyries lived for many centuries." }
           ],
           "answer": "1",
-          "explanation": "第1段最終文に「ワルキューレが戦いの結果に影響を与え、彼女たちの好意を得た戦士の命を守ってくれるとも思っていた」とある。これとほぼ同じ意味になるのが、1「ワルキューレは彼らを戦いの中で安全にしておくことができた」である。",
+          "explanation": "第1段落の最後で、バイキングの戦士たちは、ワルキューレが戦いの勝敗を左右し、気に入った戦士の命を「protect」できると考えていたと述べられている。これを戦いで身を守ってくれると言い換えた1が正解。ワルキューレはオーディンに仕える存在とされており、オーディンより強いとは言われていないので2は誤りで、ヴァルハラを造ったという話もないので3も誤り。",
           "script": "Valkyries\n\nNumerous Viking legends feature female figures called Valkyries. They were often described as being fierce women armed with spears who had magical powers. The Valkyries were believed to serve a powerful god named Odin and to escort warriors who lost their lives in battle to a magical place called Valhalla. Viking warriors also thought that the Valkyries could influence the outcome of a battle and protect the lives of warriors who earned their favor.\n\nExperts think that myths about the Valkyries evolved over the centuries. Evidence suggests that before the myths were written down, the Valkyries were likely seen as evil creatures who transported men killed in battle to the underworld. Other myths said they were daughters of Odin. Later written records describe them as human women who had been given magical powers.",
-          "scriptJa": "ワルキューレ\n\n多くのヴァイキングの伝説には、ワルキューレと呼ばれる女性の姿が登場する。彼女たちはしばしば、魔法の力を持ち槍で武装した気性が荒い女性として描かれた。ワルキューレはオーディンという強力な神に仕え、戦いで命を落とした戦士たちをヴァルハラと呼ばれる魔法の場所へ連れて行くと信じられていた。ヴァイキングの戦士たちは、ワルキューレが戦いの結果に影響を与え、彼女たちの好意を得た戦士の命を守ってくれるとも考えていた。\n\n専門家たちは、ワルキューレに関する神話は何世紀にもわたって進化したと考えている。その神話が書き記される前には、ワルキューレは戦いで殺された男たちを冥界に運ぶ邪悪な存在だと考えられていた可能性が高いことを示す証拠もある。別の神話では、彼女たちはオーディンの娘であるとされていた。後の記録では、彼女たちは魔法の力を与えられた人間の女性として描かれている。"
+          "scriptJa": "ワルキューレ\n\n数多くのバイキングの伝説に、ワルキューレと呼ばれる女性たちが登場する。彼女たちは、槍で武装し魔力を持つ勇猛な女性として描かれることが多かった。ワルキューレは、オーディンという強大な神に仕え、戦いで命を落とした戦士たちをヴァルハラという魔法の場所へと導くと信じられていた。バイキングの戦士たちはまた、ワルキューレには戦いの勝敗を左右したり、気に入った戦士の命を守ったりする力があると考えていた。\n\n専門家たちは、ワルキューレにまつわる神話は何世紀にもわたって変化してきたと考えている。証拠によれば、神話が文字に記される前、ワルキューレは戦死した男たちを冥界へ運ぶ邪悪な存在と見なされていた可能性が高い。また、彼女たちをオーディンの娘とする神話もあった。後の時代の文字記録では、魔力を授けられた人間の女性として描かれている。"
         },
         {
           "id": "q16",
@@ -287,9 +287,9 @@
             { "label": "4", "text": "They changed over time." }
           ],
           "answer": "4",
-          "explanation": "第2段第1文に「ワルキューレに関する神話は何世紀にもわたって進化した」とあることから、4「それらは時代とともに変化した」が正解。放送では evolved という動詞が使われているのに対して、正解の選択肢では changed と言い換えられている。",
+          "explanation": "第2段落の冒頭で、専門家は「myths about the Valkyries evolved over the centuries」と考えていると述べられ、その後、邪悪な存在からオーディンの娘、魔力を持つ人間の女性へと描かれ方が変わった例が続く。これを時とともに変化したと言い換えた4が正解。後の記録で人間の女性として描かれたとはあるが、実在の人物の人生に基づくとは言っていないので1は誤りで、伝説の長さや書き手についての言及もないので2、3も誤り。",
           "script": "Valkyries\n\nNumerous Viking legends feature female figures called Valkyries. They were often described as being fierce women armed with spears who had magical powers. The Valkyries were believed to serve a powerful god named Odin and to escort warriors who lost their lives in battle to a magical place called Valhalla. Viking warriors also thought that the Valkyries could influence the outcome of a battle and protect the lives of warriors who earned their favor.\n\nExperts think that myths about the Valkyries evolved over the centuries. Evidence suggests that before the myths were written down, the Valkyries were likely seen as evil creatures who transported men killed in battle to the underworld. Other myths said they were daughters of Odin. Later written records describe them as human women who had been given magical powers.",
-          "scriptJa": "ワルキューレ\n\n多くのヴァイキングの伝説には、ワルキューレと呼ばれる女性の姿が登場する。彼女たちはしばしば、魔法の力を持ち槍で武装した気性が荒い女性として描かれた。ワルキューレはオーディンという強力な神に仕え、戦いで命を落とした戦士たちをヴァルハラと呼ばれる魔法の場所へ連れて行くと信じられていた。ヴァイキングの戦士たちは、ワルキューレが戦いの結果に影響を与え、彼女たちの好意を得た戦士の命を守ってくれるとも考えていた。\n\n専門家たちは、ワルキューレに関する神話は何世紀にもわたって進化したと考えている。その神話が書き記される前には、ワルキューレは戦いで殺された男たちを冥界に運ぶ邪悪な存在だと考えられていた可能性が高いことを示す証拠もある。別の神話では、彼女たちはオーディンの娘であるとされていた。後の記録では、彼女たちは魔法の力を与えられた人間の女性として描かれている。"
+          "scriptJa": "ワルキューレ\n\n数多くのバイキングの伝説に、ワルキューレと呼ばれる女性たちが登場する。彼女たちは、槍で武装し魔力を持つ勇猛な女性として描かれることが多かった。ワルキューレは、オーディンという強大な神に仕え、戦いで命を落とした戦士たちをヴァルハラという魔法の場所へと導くと信じられていた。バイキングの戦士たちはまた、ワルキューレには戦いの勝敗を左右したり、気に入った戦士の命を守ったりする力があると考えていた。\n\n専門家たちは、ワルキューレにまつわる神話は何世紀にもわたって変化してきたと考えている。証拠によれば、神話が文字に記される前、ワルキューレは戦死した男たちを冥界へ運ぶ邪悪な存在と見なされていた可能性が高い。また、彼女たちをオーディンの娘とする神話もあった。後の時代の文字記録では、魔力を授けられた人間の女性として描かれている。"
         },
         {
           "id": "q17",
@@ -305,9 +305,9 @@
             { "label": "4", "text": "He learned about golf while working as a caddie." }
           ],
           "answer": "4",
-          "explanation": "第1段第3文の後半に「彼は高校を中退してゴルフのキャディーとして働いた」とあり、続く第4文に「彼はゴルフについてより多くを学んだ」とあることから、4「彼はキャディーとして働きながらゴルフを学んだ」が正解となる。3「彼はインストラクターなしで学ぶことを好んだ」は、第1段最終文に「あるインストラクターが彼が腕を上げるのを助けた」とあり、不適。",
+          "explanation": "第1段落で、エルダーは高校を中退してゴルフのキャディーとして働き、「During this time, he learned more about golf」と述べられている。キャディーとして働く中でゴルフを学んだということなので4が正解。黒人選手向けの大会で「won many」とあるので1は誤りで、インストラクターの助けで上達したとあるので3も誤り。キャディーの給料で学費を払ったという話もなく、彼は高校を中退しているので2も誤り。",
           "script": "Lee Elder\n\nIn 1975, Lee Elder made golfing history at the Masters Tournament in the United States. Elder did not win but became the first African American to play in the world-famous event. Elder's parents died when he was young, and he dropped out of high school and worked as a golf caddie, carrying other players' clubs. During this time, he learned more about golf. After an instructor helped him improve his game, he entered tournaments open to Black players and won many.\n\nUntil 1961, Black golfers were banned from the biggest tournaments, which were run by an organization called the PGA. After the ban was lifted, Elder played in PGA tournaments. His first victory qualified him to appear at the 1975 Masters Tournament, one of the biggest competitions in the world. After his long career, Elder continued to push for equality by supporting various educational programs. A short time before his death, a golf scholarship for young people was also founded in his name.",
-          "scriptJa": "リー・エルダー\n\n1975年、リー・エルダーはアメリカ合衆国のマスターズ・トーナメントでゴルフの歴史を作った。エルダーは優勝しなかったが、この世界的に有名なイベントに出場した最初のアフリカ系アメリカ人となったのだ。エルダーの両親は彼が若いころに亡くなったので、彼は高校を中退してゴルフのキャディーとして働き、他の選手のクラブを運んだ。その間に彼はゴルフについてより多くを学んだ。あるインストラクターの助けで腕を上げた後、彼は黒人選手に開かれた大会に出場し、多くの勝利を収めた。\n\n1961年まで、黒人のゴルファーは最大規模の大会への出場を禁止されていた。それらの大会はPGAと呼ばれる団体によって運営されていた。その禁止が解除された後、エルダーはPGAの大会に出場した。最初の勝利によって、彼は1975年に世界最大級の大会の一つであるマスターズ・トーナメントに出場する資格を得た。長い選手生活の後、エルダーは様々な教育プログラムを支援することで平等を推進し続けた。彼が亡くなる少し前には、若者のためのゴルフ奨学金も彼の名のもとに設立されたのである。"
+          "scriptJa": "リー・エルダー\n\n1975年、リー・エルダーはアメリカのマスターズ・トーナメントでゴルフの歴史に名を刻んだ。エルダーは優勝こそしなかったが、この世界的に有名な大会でプレーした初のアフリカ系アメリカ人となったのである。エルダーは幼いころに両親を亡くし、高校を中退して、ほかの選手のクラブを運ぶゴルフのキャディーとして働いた。この間に、彼はゴルフについての知識を深めた。あるインストラクターの助けで腕を上げた後、黒人選手が参加できる大会に出場し、数多くの優勝を果たした。\n\n1961年まで、黒人ゴルファーは、PGAという団体が運営する最大級の大会への出場を禁じられていた。この禁止が解かれた後、エルダーはPGAの大会に出場した。そこでの初優勝によって、世界最大級の大会の一つである1975年のマスターズ・トーナメントへの出場資格を得た。長い選手生活を終えた後も、エルダーはさまざまな教育プログラムを支援することで、平等を求める活動を続けた。亡くなる少し前には、彼の名を冠した若者向けのゴルフ奨学金も設立された。"
         },
         {
           "id": "q18",
@@ -323,9 +323,9 @@
             { "label": "4", "text": "He bought a golf course for young golfers to practice on." }
           ],
           "answer": "2",
-          "explanation": "第2段第4文に「エルダーは様々な教育プログラムを支援することで平等を推進し続けた」とある。また、同段最終文に「若者のためのゴルフ奨学金も彼の名のもとに設立された」とある。これらの内容に最も近いのは、2「彼は他者に教育の機会を与える援助をした」である。",
+          "explanation": "第2段落で、長い選手生活の後、エルダーは「supporting various educational programs」によって平等を求め続けたと述べられている。これを他の人に教育の機会を提供する手助けをしたと言い換えた2が正解。彼の名を冠した奨学金は設立されたが、自分のゴルフ学校を開いたりゴルフ場を買ったりしたとは言っていないので1、4は誤り。",
           "script": "Lee Elder\n\nIn 1975, Lee Elder made golfing history at the Masters Tournament in the United States. Elder did not win but became the first African American to play in the world-famous event. Elder's parents died when he was young, and he dropped out of high school and worked as a golf caddie, carrying other players' clubs. During this time, he learned more about golf. After an instructor helped him improve his game, he entered tournaments open to Black players and won many.\n\nUntil 1961, Black golfers were banned from the biggest tournaments, which were run by an organization called the PGA. After the ban was lifted, Elder played in PGA tournaments. His first victory qualified him to appear at the 1975 Masters Tournament, one of the biggest competitions in the world. After his long career, Elder continued to push for equality by supporting various educational programs. A short time before his death, a golf scholarship for young people was also founded in his name.",
-          "scriptJa": "リー・エルダー\n\n1975年、リー・エルダーはアメリカ合衆国のマスターズ・トーナメントでゴルフの歴史を作った。エルダーは優勝しなかったが、この世界的に有名なイベントに出場した最初のアフリカ系アメリカ人となったのだ。エルダーの両親は彼が若いころに亡くなったので、彼は高校を中退してゴルフのキャディーとして働き、他の選手のクラブを運んだ。その間に彼はゴルフについてより多くを学んだ。あるインストラクターの助けで腕を上げた後、彼は黒人選手に開かれた大会に出場し、多くの勝利を収めた。\n\n1961年まで、黒人のゴルファーは最大規模の大会への出場を禁止されていた。それらの大会はPGAと呼ばれる団体によって運営されていた。その禁止が解除された後、エルダーはPGAの大会に出場した。最初の勝利によって、彼は1975年に世界最大級の大会の一つであるマスターズ・トーナメントに出場する資格を得た。長い選手生活の後、エルダーは様々な教育プログラムを支援することで平等を推進し続けた。彼が亡くなる少し前には、若者のためのゴルフ奨学金も彼の名のもとに設立されたのである。"
+          "scriptJa": "リー・エルダー\n\n1975年、リー・エルダーはアメリカのマスターズ・トーナメントでゴルフの歴史に名を刻んだ。エルダーは優勝こそしなかったが、この世界的に有名な大会でプレーした初のアフリカ系アメリカ人となったのである。エルダーは幼いころに両親を亡くし、高校を中退して、ほかの選手のクラブを運ぶゴルフのキャディーとして働いた。この間に、彼はゴルフについての知識を深めた。あるインストラクターの助けで腕を上げた後、黒人選手が参加できる大会に出場し、数多くの優勝を果たした。\n\n1961年まで、黒人ゴルファーは、PGAという団体が運営する最大級の大会への出場を禁じられていた。この禁止が解かれた後、エルダーはPGAの大会に出場した。そこでの初優勝によって、世界最大級の大会の一つである1975年のマスターズ・トーナメントへの出場資格を得た。長い選手生活を終えた後も、エルダーはさまざまな教育プログラムを支援することで、平等を求める活動を続けた。亡くなる少し前には、彼の名を冠した若者向けのゴルフ奨学金も設立された。"
         },
         {
           "id": "q19",
@@ -341,9 +341,9 @@
             { "label": "4", "text": "They disagree with a widely accepted theory." }
           ],
           "answer": "4",
-          "explanation": "第1段第2文に「心理学において一般に受け入れられている理論」とあり、その中身は「怒りを外に対して表現することで対処する」ということである。一方、However から始まる第3文では「そのような行動が実際には怒りの感情をより強める可能性がある」とあり、これは第2文の内容と反対である。したがって、正解は4「それらは広く受け入れられている理論と一致しない」。",
+          "explanation": "第1段落で、心理学で一般に受け入れられている理論は怒りを外に表すよう勧めているが、2024年の研究はそうした行動が怒りを「more intense」にし得ることを見いだしたと述べられている。研究結果が定説と食い違っているので4が正解。ジョギングは怒りを強めかねない行動の例として挙げられているので2は誤りで、怒りの良い効果についても述べられていないので3も誤り。",
           "script": "A New Look at Anger\n\nAnger is an emotion that affects most people throughout their lives. One commonly accepted theory in psychology encourages people to deal with anger by outwardly expressing it—for example, by shouting into a pillow or clenching their fists. However, a 2024 study that examined past research found such behavior could actually make feelings of anger more intense. Surprisingly, this includes seemingly healthier tactics, such as hitting a punching bag at the gym or even going jogging.\n\nThe researchers found the best way to relieve anger was to engage in activities that have a calming effect—essentially, those that reduce heart rate and blood pressure. These include many of the same activities often recommended for stress management, such as meditation and controlled breathing. One exception, however, seemed to be playing ball sports. The researchers believe such sports may relieve anger by encouraging positive emotions through playful group interactions.",
-          "scriptJa": "怒りへの新しい考察\n\n怒りは、人生を通じて大多数の人に影響を与える感情である。心理学において一般に受け入れられている理論の一つは、それを外に向かって表現することによって怒りに対処するよう人々に勧めている――たとえば、枕に向かって叫んだり、拳を握りしめたりすることである。しかし、過去の調査について調べた2024年の研究は、そのような行動が実際には怒りの感情をより強める可能性があることを発見した。驚くべきことに、これにはジムでサンドバッグを叩いたりジョギングに行ったりすることのような、一見より健康的に見える方法さえ含まれているのである。\n\n研究者たちは、怒りを和らげる最良の方法は、つまるところ心拍数や血圧を下げるような、心を落ち着かせる効果のある活動に取り組むことであることを発見した。これには、ストレス管理のためによく推奨されるのと同じような活動、たとえば瞑想や呼吸のコントロールといったものの多くが含まれる。しかし、一つの例外は球技をすることのようである。研究者たちは、そのようなスポーツが遊び心のある集団的な交流を通じて肯定的な感情を促すことで、怒りを和らげるかもしれないと考えている。"
+          "scriptJa": "怒りについての新たな見方\n\n怒りは、ほとんどの人が生涯を通じて抱く感情である。心理学で一般に受け入れられているある理論は、怒りに対処するには、例えば枕に向かって叫んだり、こぶしを握り締めたりして、それを外に表すよう勧めている。しかし、過去の研究を検証した2024年の研究によって、そうした行動は実際には怒りの感情をかえって強める可能性があることが分かった。驚くべきことに、これには、ジムでサンドバッグをたたいたり、ジョギングに出かけたりするといった、一見より健全に思える方法も含まれる。\n\n研究者たちは、怒りを和らげる最善の方法は、気持ちを落ち着かせる効果のある活動、つまり本質的には心拍数や血圧を下げる活動を行うことだと突き止めた。こうした活動には、瞑想や呼吸を意識的に整えることなど、ストレス管理のためによく勧められる活動の多くが含まれる。しかし、一つの例外と思われたのが球技である。研究者たちは、そうしたスポーツは、遊び心のある集団でのやり取りを通じて前向きな感情を生み出すことで、怒りを和らげるのではないかと考えている。"
         },
         {
           "id": "q20",
@@ -359,9 +359,9 @@
             { "label": "4", "text": "Its effects on health are greatest among athletes." }
           ],
           "answer": "1",
-          "explanation": "第2段第3文で however が聞こえてくるのをしっかり聞き取りたい。その直後に「球技をすること」とあり、続く最終文に「そのようなスポーツが怒りを和らげる可能性がある」とある。したがって、正解は1「それは特定のスポーツをすることで和らげられる可能性がある」である。",
+          "explanation": "第2段落の後半で、球技は例外であり、遊び心のある集団でのやり取りを通じて前向きな感情を生み、怒りを和らげるのではないかと研究者は考えている。これを特定のスポーツで怒りが和らぐと言い換えた1が正解。瞑想は怒りを和らげる活動として挙げられているので2は誤りで、アスリートへの影響についての言及もないので4も誤り。",
           "script": "A New Look at Anger\n\nAnger is an emotion that affects most people throughout their lives. One commonly accepted theory in psychology encourages people to deal with anger by outwardly expressing it—for example, by shouting into a pillow or clenching their fists. However, a 2024 study that examined past research found such behavior could actually make feelings of anger more intense. Surprisingly, this includes seemingly healthier tactics, such as hitting a punching bag at the gym or even going jogging.\n\nThe researchers found the best way to relieve anger was to engage in activities that have a calming effect—essentially, those that reduce heart rate and blood pressure. These include many of the same activities often recommended for stress management, such as meditation and controlled breathing. One exception, however, seemed to be playing ball sports. The researchers believe such sports may relieve anger by encouraging positive emotions through playful group interactions.",
-          "scriptJa": "怒りへの新しい考察\n\n怒りは、人生を通じて大多数の人に影響を与える感情である。心理学において一般に受け入れられている理論の一つは、それを外に向かって表現することによって怒りに対処するよう人々に勧めている――たとえば、枕に向かって叫んだり、拳を握りしめたりすることである。しかし、過去の調査について調べた2024年の研究は、そのような行動が実際には怒りの感情をより強める可能性があることを発見した。驚くべきことに、これにはジムでサンドバッグを叩いたりジョギングに行ったりすることのような、一見より健康的に見える方法さえ含まれているのである。\n\n研究者たちは、怒りを和らげる最良の方法は、つまるところ心拍数や血圧を下げるような、心を落ち着かせる効果のある活動に取り組むことであることを発見した。これには、ストレス管理のためによく推奨されるのと同じような活動、たとえば瞑想や呼吸のコントロールといったものの多くが含まれる。しかし、一つの例外は球技をすることのようである。研究者たちは、そのようなスポーツが遊び心のある集団的な交流を通じて肯定的な感情を促すことで、怒りを和らげるかもしれないと考えている。"
+          "scriptJa": "怒りについての新たな見方\n\n怒りは、ほとんどの人が生涯を通じて抱く感情である。心理学で一般に受け入れられているある理論は、怒りに対処するには、例えば枕に向かって叫んだり、こぶしを握り締めたりして、それを外に表すよう勧めている。しかし、過去の研究を検証した2024年の研究によって、そうした行動は実際には怒りの感情をかえって強める可能性があることが分かった。驚くべきことに、これには、ジムでサンドバッグをたたいたり、ジョギングに出かけたりするといった、一見より健全に思える方法も含まれる。\n\n研究者たちは、怒りを和らげる最善の方法は、気持ちを落ち着かせる効果のある活動、つまり本質的には心拍数や血圧を下げる活動を行うことだと突き止めた。こうした活動には、瞑想や呼吸を意識的に整えることなど、ストレス管理のためによく勧められる活動の多くが含まれる。しかし、一つの例外と思われたのが球技である。研究者たちは、そうしたスポーツは、遊び心のある集団でのやり取りを通じて前向きな感情を生み出すことで、怒りを和らげるのではないかと考えている。"
         },
         {
           "id": "q21",
@@ -377,9 +377,9 @@
             { "label": "4", "text": "Sir Walter Scott copied ideas from their books." }
           ],
           "answer": "4",
-          "explanation": "第1段最終文の後半部分に「スコットが、その姉妹が数年前に出版した小説からとった筋書きや執筆方法を使っていた」とある。したがって、正解は4「ウォルター・スコット卿が彼女たちの本から着想を模倣した」である。放送の used plots and writing methods が、選択肢では copied ideas と簡単に言い換えられている。",
+          "explanation": "第1段落の最後で、ポーター姉妹の手紙から、スコットが姉妹が何年も前に出版した小説の筋書きや書き方を使っていたことが明らかになったと述べられている。これをスコットが姉妹の本から着想をまねたと言い換えた4が正解。姉妹は「two English authors」でありスコットランド出身ではないので1は誤りで、エディンバラの像はスコットをたたえるものなので2も誤り。",
           "script": "Pioneers of Historical Romance\n\nThe Scottish poet and author Sir Walter Scott is considered by many to be the pioneer of historical romance novels. He published many successful books during the 1800s, and a statue in Edinburgh honors his contribution to literature. However, the discovery of the private letters of two English authors, Jane and Anna Maria Porter, revealed that Scott used plots and writing methods that were taken from novels the sisters had published years before.\n\nIn fact, imitating the work of other writers was not unusual at the time, and it was generally accepted as long as authors acknowledged where their ideas came from. Scott never did this, which angered Jane so much that she publicly challenged him about it. However, the literary world took Scott's side, and Jane's accusation was dismissed. This damaged the sisters' reputations, and as Scott's novels became more popular, theirs were largely forgotten.",
-          "scriptJa": "歴史ロマンスの先駆者たち\n\nスコットランドの詩人であり作家であったウォルター・スコット卿は、歴史ロマンス小説の先駆者である、と多くの人が考えている。彼は1800年代に多くの成功した本を出版し、エディンバラには文学に対する彼の貢献を称える像がある。しかし、2人のイングランド人作家、ジェーン・ポーターとアンナ・マリア・ポーターの私的な手紙の発見により、スコットはその姉妹が数年前に出版した小説からとった筋書きや執筆方法を使っていたことが明らかになった。\n\n実際、当時は他の作家の作品を模倣することは珍しいことではなく、作者たちが自分の着想がどこから来たのかを認める限り、それは一般的に受け入れられていた。スコットはそれを一度も行わず、このことがジェーンを非常に怒らせたため、彼女は彼に対して公に異議を唱えた。しかし、文学界はスコットの味方をし、ジェーンの告発は退けられた。このことは姉妹の評判を傷つけ、スコットの小説がより人気を得るにつれて、彼女たちの作品はほとんど忘れ去られていったのである。"
+          "scriptJa": "歴史ロマンス小説の先駆者たち\n\nスコットランドの詩人であり作家でもあるサー・ウォルター・スコットは、多くの人から歴史ロマンス小説の先駆者と見なされている。彼は1800年代に数多くの人気作を出版し、エディンバラには文学への彼の貢献をたたえる像が立っている。しかし、イングランドの2人の作家、ジェーン・ポーターとアンナ・マリア・ポーターの私的な手紙が見つかったことで、スコットが、この姉妹が何年も前に出版していた小説から取った筋書きや書き方を用いていたことが明らかになった。\n\n実のところ、当時はほかの作家の作品をまねることは珍しくなく、作家が着想の出どころを明らかにしている限り、一般に容認されていた。スコットは一度もそうしなかったため、ジェーンはひどく憤慨し、公の場で彼に異議を申し立てた。しかし、文学界はスコットの側につき、ジェーンの訴えは退けられた。これによって姉妹の評判は傷つき、スコットの小説が人気を高めるにつれて、彼女たちの作品はほとんど忘れ去られてしまった。"
         },
         {
           "id": "q22",
@@ -395,9 +395,9 @@
             { "label": "4", "text": "It attempted to prevent imitation." }
           ],
           "answer": "3",
-          "explanation": "第2段第3文で「文学界はスコットの味方をし、ジェーンの告発は退けられた」とある。したがって、3「ジェーン・ポーターの主張を退けた」が正解。dismissed が聞き取れれば、その言い換えである rejected から容易に選べる。",
+          "explanation": "第2段落で、ジェーンはスコットに公然と異議を唱えたが、「the literary world took Scott's side, and Jane's accusation was dismissed」と述べられている。文学界がジェーンの主張を退けたので3が正解。文学界はスコットの側についたので、姉妹の作品をたたえたという1やスコットの作品を禁じたという2は誤り。当時は出どころを示せば模倣は容認されていたので4も誤り。",
           "script": "Pioneers of Historical Romance\n\nThe Scottish poet and author Sir Walter Scott is considered by many to be the pioneer of historical romance novels. He published many successful books during the 1800s, and a statue in Edinburgh honors his contribution to literature. However, the discovery of the private letters of two English authors, Jane and Anna Maria Porter, revealed that Scott used plots and writing methods that were taken from novels the sisters had published years before.\n\nIn fact, imitating the work of other writers was not unusual at the time, and it was generally accepted as long as authors acknowledged where their ideas came from. Scott never did this, which angered Jane so much that she publicly challenged him about it. However, the literary world took Scott's side, and Jane's accusation was dismissed. This damaged the sisters' reputations, and as Scott's novels became more popular, theirs were largely forgotten.",
-          "scriptJa": "歴史ロマンスの先駆者たち\n\nスコットランドの詩人であり作家であったウォルター・スコット卿は、歴史ロマンス小説の先駆者である、と多くの人が考えている。彼は1800年代に多くの成功した本を出版し、エディンバラには文学に対する彼の貢献を称える像がある。しかし、2人のイングランド人作家、ジェーン・ポーターとアンナ・マリア・ポーターの私的な手紙の発見により、スコットはその姉妹が数年前に出版した小説からとった筋書きや執筆方法を使っていたことが明らかになった。\n\n実際、当時は他の作家の作品を模倣することは珍しいことではなく、作者たちが自分の着想がどこから来たのかを認める限り、それは一般的に受け入れられていた。スコットはそれを一度も行わず、このことがジェーンを非常に怒らせたため、彼女は彼に対して公に異議を唱えた。しかし、文学界はスコットの味方をし、ジェーンの告発は退けられた。このことは姉妹の評判を傷つけ、スコットの小説がより人気を得るにつれて、彼女たちの作品はほとんど忘れ去られていったのである。"
+          "scriptJa": "歴史ロマンス小説の先駆者たち\n\nスコットランドの詩人であり作家でもあるサー・ウォルター・スコットは、多くの人から歴史ロマンス小説の先駆者と見なされている。彼は1800年代に数多くの人気作を出版し、エディンバラには文学への彼の貢献をたたえる像が立っている。しかし、イングランドの2人の作家、ジェーン・ポーターとアンナ・マリア・ポーターの私的な手紙が見つかったことで、スコットが、この姉妹が何年も前に出版していた小説から取った筋書きや書き方を用いていたことが明らかになった。\n\n実のところ、当時はほかの作家の作品をまねることは珍しくなく、作家が着想の出どころを明らかにしている限り、一般に容認されていた。スコットは一度もそうしなかったため、ジェーンはひどく憤慨し、公の場で彼に異議を申し立てた。しかし、文学界はスコットの側につき、ジェーンの訴えは退けられた。これによって姉妹の評判は傷つき、スコットの小説が人気を高めるにつれて、彼女たちの作品はほとんど忘れ去られてしまった。"
         },
         {
           "id": "q23",
@@ -413,9 +413,9 @@
             { "label": "4", "text": "Water levels in lakes have been decreasing." }
           ],
           "answer": "2",
-          "explanation": "第1段第2文に「水の透明度の低下」とあり、その直後に「アビにとって魚を見たり捕まえたりすることを難しくしている」とある。したがって、「水の透明度の低下」を water conditions と抽象的に言い換えている2「水の状態が狩りをより困難にしたため」が正解となる。",
+          "explanation": "第1段落で、アビの減少は水の透明度の低下と関係しており、そのせいでアビが「see and catch fish」するのが難しくなったと述べられている。水の状態のせいで獲物を捕るのが難しくなったということなので2が正解。水に流れ込んでいるのは有機物で、有毒な物質とは言っていないので1は誤りで、降雨量はむしろ増えているので湖の水位が下がっているという4も誤り。",
           "script": "Trouble for Loons\n\nIn recent decades, researchers have noticed a decline in populations of water birds called loons in lakes in the US state of Wisconsin. A recent study found this was linked to a decrease in water clarity, which has made it harder for the loons to see and catch fish below the surface. The researchers say climate change has caused increased rainfall, which has likely resulted in organic matter flowing into the water from shorelines and decreasing visibility.\n\nThe researchers also noted the body mass of loon chicks had decreased. They believe this is because rainfall increased in July, the month when loon chicks need to undergo the most growth. The researchers note that since loons' hunting behavior is consistent worldwide, the same problem is likely to occur anywhere rainfall amounts are expected to increase. The study highlights the need for further research on how climate change might impact wildlife.",
-          "scriptJa": "水鳥アビにとっての災難\n\nこの数十年で、研究者たちはアメリカ合衆国ウィスコンシン州の湖に生息するアビと呼ばれる水鳥の個体数が減少していることに気づいた。最近の研究で、この減少は水の透明度の低下と関連しており、それがアビにとって水面下で魚を見つけて捕まえることを難しくしていることがわかった。研究者たちは、気候変動によって降雨量が増加し、その結果、岸辺から有機物が水中に流れ込み、視界を悪化させている可能性が高いと述べている。\n\n研究者たちはまた、アビのひなの体重が減少していることにも注目した。彼らは、これはひなが最も成長しなければならない7月に降雨量が増加したためだと考えている。研究者たちは、アビの狩猟行動は世界中で一貫しているため、降雨量が増加すると予想される地域ではどこでも、同じ問題が起こる可能性が高いと指摘する。この研究は、気候変動が野生生物にどのように影響するかについて、さらなる研究の必要性を際立たせている。"
+          "scriptJa": "アビの苦境\n\nここ数十年で、研究者たちは、アメリカのウィスコンシン州の湖で、アビと呼ばれる水鳥の個体数が減少していることに気付いた。最近の研究で、これは水の透明度の低下と関連していることが分かった。透明度が下がったことで、アビは水面下の魚を見つけて捕まえるのが難しくなったのである。研究者たちによれば、気候変動によって降雨量が増え、その結果、岸から有機物が水中に流れ込んで見通しが悪くなった可能性が高いという。\n\n研究者たちはまた、アビのひなの体重が減っていることにも注目した。その原因は、アビのひなが最も大きく成長する必要がある7月に降雨量が増えたことにあると彼らは考えている。研究者たちは、アビの狩りの仕方は世界中で共通しているため、降雨量の増加が予想される場所ならどこでも同じ問題が起こる可能性が高いと指摘している。この研究は、気候変動が野生生物にどのような影響を及ぼし得るかについて、さらなる研究が必要であることを浮き彫りにしている。"
         },
         {
           "id": "q24",
@@ -431,9 +431,9 @@
             { "label": "4", "text": "The decrease in body mass could be unrelated to it." }
           ],
           "answer": "1",
-          "explanation": "第2段第3文に「アビの狩猟行動は世界中で一貫しており」「降雨量が増加すると予想される地域ではどこでも同じ問題が起こる可能性が高い」とある。したがって、ウィスコンシン州だけでなく他の地域でも同様の問題が起こる可能性を研究者は指摘していることがわかる。よって、正解は1「それはおそらく一地域に限られない」になる。",
+          "explanation": "第2段落で、アビの狩りの仕方は世界中で共通しているため、降雨量の増加が予想される場所なら「anywhere」で同じ問題が起こる可能性が高いと研究者が指摘している。問題がウィスコンシン州だけに限られないということなので1が正解。体重の減少が見られたのはひななので2は誤りで、体重の減少も7月の降雨量の増加と関連づけられているので4も誤り。",
           "script": "Trouble for Loons\n\nIn recent decades, researchers have noticed a decline in populations of water birds called loons in lakes in the US state of Wisconsin. A recent study found this was linked to a decrease in water clarity, which has made it harder for the loons to see and catch fish below the surface. The researchers say climate change has caused increased rainfall, which has likely resulted in organic matter flowing into the water from shorelines and decreasing visibility.\n\nThe researchers also noted the body mass of loon chicks had decreased. They believe this is because rainfall increased in July, the month when loon chicks need to undergo the most growth. The researchers note that since loons' hunting behavior is consistent worldwide, the same problem is likely to occur anywhere rainfall amounts are expected to increase. The study highlights the need for further research on how climate change might impact wildlife.",
-          "scriptJa": "水鳥アビにとっての災難\n\nこの数十年で、研究者たちはアメリカ合衆国ウィスコンシン州の湖に生息するアビと呼ばれる水鳥の個体数が減少していることに気づいた。最近の研究で、この減少は水の透明度の低下と関連しており、それがアビにとって水面下で魚を見つけて捕まえることを難しくしていることがわかった。研究者たちは、気候変動によって降雨量が増加し、その結果、岸辺から有機物が水中に流れ込み、視界を悪化させている可能性が高いと述べている。\n\n研究者たちはまた、アビのひなの体重が減少していることにも注目した。彼らは、これはひなが最も成長しなければならない7月に降雨量が増加したためだと考えている。研究者たちは、アビの狩猟行動は世界中で一貫しているため、降雨量が増加すると予想される地域ではどこでも、同じ問題が起こる可能性が高いと指摘する。この研究は、気候変動が野生生物にどのように影響するかについて、さらなる研究の必要性を際立たせている。"
+          "scriptJa": "アビの苦境\n\nここ数十年で、研究者たちは、アメリカのウィスコンシン州の湖で、アビと呼ばれる水鳥の個体数が減少していることに気付いた。最近の研究で、これは水の透明度の低下と関連していることが分かった。透明度が下がったことで、アビは水面下の魚を見つけて捕まえるのが難しくなったのである。研究者たちによれば、気候変動によって降雨量が増え、その結果、岸から有機物が水中に流れ込んで見通しが悪くなった可能性が高いという。\n\n研究者たちはまた、アビのひなの体重が減っていることにも注目した。その原因は、アビのひなが最も大きく成長する必要がある7月に降雨量が増えたことにあると彼らは考えている。研究者たちは、アビの狩りの仕方は世界中で共通しているため、降雨量の増加が予想される場所ならどこでも同じ問題が起こる可能性が高いと指摘している。この研究は、気候変動が野生生物にどのような影響を及ぼし得るかについて、さらなる研究が必要であることを浮き彫りにしている。"
         }
       ]
     },
@@ -450,9 +450,9 @@
           "audio": "audio/eiken/eiken-pre1-2024-3/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
           "prompt": "Where should you go?",
-          "promptJa": "あなたはどこに行くべきか？",
+          "promptJa": "あなたはどこへ行くべきか？",
           "situation": "You have just arrived at a natural history museum. You bought tickets online for both general admission and the special exhibit on Saturn. An employee makes the following announcement.",
-          "situationJa": "あなたは自然史博物館に到着したところである。あなたはオンラインで一般入場と土星の特別展示の両方のチケットを購入した。博物館の職員が次のアナウンスをしている。",
+          "situationJa": "あなたは自然史博物館に着いたところだ。一般入場券と土星の特別展の入場券の両方をオンラインで購入してある。職員が次のようなアナウンスをする。",
           "choices": [
             { "label": "1", "text": "Entrance A." },
             { "label": "2", "text": "Entrance B." },
@@ -460,9 +460,9 @@
             { "label": "4", "text": "The second floor." }
           ],
           "answer": "3",
-          "explanation": "状況から「一般入場と土星の特別展示の両方のチケットを購入した」ことがわかる。放送の第4文に「土星展示が中止になった」とあり、続く第5文に「すでにこの展示のチケットを購入された方は、受付窓口のスタッフにお申し出ください」とあることから、3「受付窓口」が正解。",
+          "explanation": "あなたは一般入場券と土星の特別展の入場券の両方を持っているので、本来なら入口Bへ向かうことになる。しかし、その後で土星展が中止になったと告げられ、この展示の入場券をすでに買った人は「speak to the staff at the reception window」と案内されているので3が正解。両方の入場券を持っていることだけで判断して2を選ばないよう注意が必要である。",
           "script": "Attention visitors! If you already have your general admission ticket and will not see a special exhibit, proceed to Entrance A. If you have both a general admission ticket and a special exhibit ticket, proceed to Entrance B at the far end of the reception hall. Please note the Saturn exhibit has been canceled due to technical problems; we apologize for the inconvenience. If you have already purchased a ticket for this exhibit, speak to the staff at the reception window. If you are here to see a special exhibit only, proceed to the second floor. Thank you for cooperating.",
-          "scriptJa": "ご来館の皆さま！ すでに一般入場券をお持ちで特別展示をご覧にならない方は、入口Aへお進みください。一般入場券と特別展示券の両方をお持ちの方は、受付ホール奥にある入口Bへお進みください。土星展示は技術的な問題により中止となりましたことにご注意ください。ご不便をおかけして申し訳ございません。すでにこの展示のチケットを購入された方は、受付窓口のスタッフにお申し出ください。特別展示のみをご覧にいらっしゃった方は、2階へお進みください。ご協力ありがとうございます。"
+          "scriptJa": "ご来館の皆さまにお知らせいたします。すでに一般入場券をお持ちで、特別展をご覧にならない方は、入口Aへお進みください。一般入場券と特別展の入場券の両方をお持ちの方は、受付ホールの一番奥にある入口Bへお進みください。なお、土星展は技術的な問題のため中止となりました。ご迷惑をおかけして申し訳ございません。すでにこの展示の入場券をお買い求めの方は、受付窓口のスタッフにお声がけください。特別展のみをご覧になる方は、2階へお進みください。ご協力ありがとうございます。"
         },
         {
           "id": "q26",
@@ -470,9 +470,9 @@
           "audio": "audio/eiken/eiken-pre1-2024-3/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
           "prompt": "Which restaurant should you go to?",
-          "promptJa": "あなたはどのレストランに行くべきか？",
+          "promptJa": "あなたはどのレストランへ行くべきか？",
           "situation": "You are at the information desk at your hotel. You want to eat at a Mexican restaurant. You would like to try real Mexican food, and you want good service. The concierge tells you the following.",
-          "situationJa": "あなたはホテルの案内デスクにいる。メキシコ料理のレストランで食事をしたい。あなたは本物のメキシコ料理を食べてみたいが、良いサービスも求めている。コンシェルジュが次のように説明する。",
+          "situationJa": "あなたはホテルの案内所にいる。メキシコ料理店で食事をしたいと思っている。本場のメキシコ料理を味わいたく、サービスも良い店がいい。コンシェルジュが次のように話す。",
           "choices": [
             { "label": "1", "text": "La Fiesta." },
             { "label": "2", "text": "El Amigo." },
@@ -480,9 +480,9 @@
             { "label": "4", "text": "El Mariachi." }
           ],
           "answer": "3",
-          "explanation": "状況から読み取れる条件は「本物のメキシコ料理」と「良いサービス」である。ラ・ルナは「完全に本格的で、サービスは最高」とあるので、この2つの条件を満たす。したがって、正解は3「ラ・ルナ」。",
+          "explanation": "条件は、本場のメキシコ料理であることとサービスが良いことの2つである。ラ・ルナについて「It's completely authentic, and the service is superb」と述べられており、内装が見栄えしないこと以外は条件を満たすので3が正解。ラ・フィエスタは店員が無愛想で、エル・アミーゴは料理を地元向けに変えており、エル・マリアッチは最近サービスが落ちているので、1、2、4は条件に合わない。",
           "script": "First, there's La Fiesta. It's great if you're on a budget, and the food is quite authentic. I did find the servers rather impolite, though. Next is El Amigo. The owners are from Mexico, but they've altered a lot of the dishes to suit local tastes. Fortunately, the food is fabulous. If you don't mind a place with unattractive decor, head to La Luna. It's completely authentic, and the service is superb. Finally, there's El Mariachi. It serves traditional Mexican food, and at one time, the service was fantastic. Unfortunately, the quality of the service has declined a lot recently.",
-          "scriptJa": "まずラ・フィエスタがあります。予算を抑えたい方にはおすすめで、料理もかなり本格的です。ただ、店員がかなり失礼だと感じました。次にエル・アミーゴです。オーナーはメキシコ出身ですが、料理の多くを地元の味に合わせて変えています。幸い味はすばらしいです。内装が良くないのを気にしないのであれば、ラ・ルナに行ってください。ここは完全に本格的で、サービスは最高です。最後にエル・マリアッチです。ここは伝統的なメキシコ料理を出していて、かつてはサービスもすばらしかったです。残念なことに、最近はサービスの質がかなり落ちていますね。"
+          "scriptJa": "まずはラ・フィエスタです。予算を抑えたいならとてもいいお店で、料理もかなり本格的です。ただ、店員はかなり無愛想だと私は感じました。次はエル・アミーゴです。オーナーはメキシコ出身ですが、多くの料理を地元の人の好みに合わせてアレンジしています。幸い、料理はとてもおいしいです。内装が見栄えしなくても構わなければ、ラ・ルナへどうぞ。完全に本場の味で、サービスも最高です。最後はエル・マリアッチです。伝統的なメキシコ料理を出していて、かつてはサービスもすばらしいものでした。残念ながら、最近はサービスの質がかなり落ちています。"
         },
         {
           "id": "q27",
@@ -490,9 +490,9 @@
           "audio": "audio/eiken/eiken-pre1-2024-3/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
           "prompt": "What should you do to get the best prices?",
-          "promptJa": "最もお得な価格で買うためには、あなたは何をすべきか？",
+          "promptJa": "最も安く買うためにはどうすべきか？",
           "situation": "You visit a local drugstore and want to stock up on bathroom cleaning goods. You have the store's app on your phone. You hear the following announcement.",
-          "situationJa": "あなたは地元のドラッグストアを訪れ、バスルームの掃除用品をまとめ買いしたいと思っている。あなたのスマートフォンにはこの店のアプリが入っている。店内で次のアナウンスを聞く。",
+          "situationJa": "あなたは地元のドラッグストアを訪れ、浴室用の掃除用品をまとめ買いしたいと思っている。スマートフォンにはその店のアプリが入っている。次のようなアナウンスが聞こえる。",
           "choices": [
             { "label": "1", "text": "Use the coupon on the app." },
             { "label": "2", "text": "Get a friend to download the JD app." },
@@ -500,9 +500,9 @@
             { "label": "4", "text": "Come back tomorrow." }
           ],
           "answer": "1",
-          "explanation": "状況から「バスルームの掃除用品をまとめ買いしたい」ことがわかる。バスルーム製品は2階にあり、「アプリを開いてクーポンをクリックすれば、購入が20％割引になる」とあることから、1「アプリのクーポンを使う」が正解。",
+          "explanation": "あなたが買いたいのは浴室用の掃除用品で、アナウンスではそれらが2階でお買い得になっていると述べられている。続けて「Access your app, click on the coupon」で20パーセント引きになると案内されているので、アプリのクーポンを使うという1が正解。友人にアプリをダウンロードしてもらう割引は1階の電気製品が対象で、明日から3階で始まるのはキッチン用品のセールなので、2、3、4は誤り。",
           "script": "Welcome to JD Drugs. Today, we have some fantastic New Year deals. On the first floor, explore our range of electric toothbrushes, hair dryers, and razors—all 10 percent off. You can get another 5 percent off just by getting a friend to download the JD app! Next, we have bargains on body soaps, shampoos, and bathroom cleaning products on the second floor. Access your app, click on the coupon, and you'll get 20 percent off your purchase. Finally, our kitchen goods sale starts tomorrow on the third floor. Use your JD app to get some incredible two-for-one deals!",
-          "scriptJa": "JDドラッグへようこそ。本日はすばらしい新春セールを開催しています。1階では電動歯ブラシ、ヘアドライヤー、シェーバーの品ぞろえをご覧ください。全品10％割引でご用意しております。さらに、お友達にJDアプリをダウンロードしてもらうだけで、追加で5％割引になります！ 次に、2階ではボディソープ、シャンプー、バスルームの掃除用品がお買い得です。アプリを開いてクーポンをクリックすれば、購入が20％割引になります。最後に、3階のキッチン用品セールは明日から始まります。JDアプリを使って、一つ買うと一つ無料のすばらしいお買い得品をお求めください！"
+          "scriptJa": "JDドラッグへようこそ。本日は、すばらしい新年のお買い得品をご用意しております。1階では、電動歯ブラシ、ヘアドライヤー、かみそりの品ぞろえをぜひご覧ください。すべて10パーセント引きです。お友達にJDアプリをダウンロードしてもらうだけで、さらに5パーセント引きになります！次に、2階では、ボディーソープ、シャンプー、浴室用の掃除用品がお買い得です。アプリを開いてクーポンをクリックすれば、お買い上げ品が20パーセント引きになります。最後に、3階では明日からキッチン用品のセールが始まります。JDアプリを使えば、1つ分の値段で2つ買える驚きのお得なセールをご利用いただけます！"
         },
         {
           "id": "q28",
@@ -510,9 +510,9 @@
           "audio": "audio/eiken/eiken-pre1-2024-3/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
           "prompt": "What should you do?",
-          "promptJa": "あなたは何をすべきか？",
+          "promptJa": "あなたはどうすべきか？",
           "situation": "You would like to do volunteer work in your neighborhood. You are good with computers and are only free on weekends. You attend a community meeting and hear the following announcement.",
-          "situationJa": "あなたは近所でボランティア活動をしたいと思っている。あなたはコンピュータが得意だが、週末しか時間が空いていない。あなたは地域の集会に参加し、次のアナウンスを聞く。",
+          "situationJa": "あなたは近所でボランティア活動をしたいと思っている。コンピューターが得意で、時間が空いているのは週末だけだ。地域の会合に出席し、次のようなアナウンスを聞く。",
           "choices": [
             { "label": "1", "text": "Talk to Kathy." },
             { "label": "2", "text": "Check the high school's website." },
@@ -520,9 +520,9 @@
             { "label": "4", "text": "Talk to John." }
           ],
           "answer": "3",
-          "explanation": "状況から「コンピュータが得意」で「週末しか時間がない」ことがわかる。図書館の仕事は土曜日で「データベースの利用を利用者に教えるためにコンピュータ技術のある人」という条件も合致する。「図書館に直接申し込む」ようにとあるので、3「図書館を訪れる」が正解。",
+          "explanation": "条件は、コンピューターの技能を生かせることと週末に活動できることである。図書館は土曜日にデータベースの利用を手伝う「people with computer skills」を求めており、開館時間中に直接申し込むよう案内されているので3が正解。食堂の手伝い（キャシー）と高校のコーチの補助は平日で、病院の事務作業（ジョン）は月曜日の夜なので、1、2、4は条件に合わない。",
           "script": "First, I have an announcement about volunteer opportunities. The school cafeterias need help preparing meals on weekdays. Talk to Kathy after the meeting if you're interested; she'll be standing by the exit. The high school also needs volunteers to assist the basketball coach with after-school training during the week. Check the school's website for details. The library needs people with computer skills to help patrons use the database on Saturdays. Please apply in person during library business hours. Finally, Whitehall Hospital needs help with clerical work on Monday nights. Speak to John for more information; he'll be near the stage after the meeting.",
-          "scriptJa": "まず、ボランティア活動についてのお知らせです。学校のカフェテリアでは平日に食事の準備を手伝ってくれる方を募集しています。興味がある方は、集会の後にキャシーに声をかけてください。出口のそばにいます。高校では、平日の放課後にバスケットボールのコーチを手伝ってくれるボランティアも募集しています。詳しくは学校のウェブサイトを確認してください。図書館では、土曜日にデータベースの利用を利用者に教えるためにコンピュータ技術のある人を必要としています。図書館の開館時間内に直接申し込みをしてください。最後に、ホワイトホール病院では月曜の夜に事務作業を手伝ってくれる人を募集しています。詳しい情報はジョンに聞いてください。彼は集会の後、ステージの近くにいます。"
+          "scriptJa": "まず、ボランティアの募集についてお知らせがあります。学校の食堂では、平日に食事の準備を手伝ってくれる人を必要としています。興味のある方は、会合の後でキャシーに声をかけてください。出口のそばに立っています。また、高校では、平日の放課後にバスケットボールのコーチの練習指導を手伝うボランティアを募集しています。詳しくは学校のウェブサイトをご確認ください。図書館では、土曜日に利用者がデータベースを使うのを手助けしてくれる、コンピューターの技能を持った人を求めています。図書館の開館時間中に、直接出向いてお申し込みください。最後に、ホワイトホール病院では、月曜日の夜に事務作業を手伝ってくれる人を必要としています。詳しくはジョンにお尋ねください。会合の後、ステージの近くにいます。"
         },
         {
           "id": "q29",
@@ -532,7 +532,7 @@
           "prompt": "Where should you sit?",
           "promptJa": "あなたはどこに座るべきか？",
           "situation": "You are attending your university graduation ceremony, and you hear the following announcement. You are in the Biology Department.",
-          "situationJa": "あなたは大学の卒業式に参加しており、会場で次のアナウンスを聞く。あなたは生物学部に所属している。",
+          "situationJa": "あなたは大学の卒業式に出席していて、次のようなアナウンスが聞こえる。あなたは生物学科の学生である。",
           "choices": [
             { "label": "1", "text": "In Section A." },
             { "label": "2", "text": "In Section B." },
@@ -540,9 +540,9 @@
             { "label": "4", "text": "In Section D." }
           ],
           "answer": "3",
-          "explanation": "状況から生物学部の学生がどこに座るべきかを聞き取る。放送には Biology Department という語は出てこないが、「C 区域はすべての理系学部生用」とあり、この the science departments に the Biology Department が含まれるとわかる。よって、正解は3「C 区域」。",
+          "explanation": "あなたは生物学科の学生である。アナウンスでは生物学科という名前は出てこないが、「Section C is for students in any of the science departments」と述べられており、生物学は理系の学科に含まれるので3が正解。セクションAは芸術系、Bは経済・経営系、Dは語学系の学科のための席なので、1、2、4は誤り。",
           "script": "Graduating students should sit in the designated areas at the front of the hall. If you're in the Fine Arts Department or Performing Arts Department, please sit in Section A, and if you're in the Economics Department or Business Studies Department, go to Section B. Section C is for students in any of the science departments, and Section D is for students in any of the language departments. Parents and family members can sit anywhere other than the designated areas.",
-          "scriptJa": "卒業生はホール前方の指定された区域に座ってください。美術学部または舞台芸術学部の学生はA区域に座ってください。経済学部または経営学部の学生はB区域に行ってください。C区域はすべての理系学部生用で、D区域はすべての語学系学部生用です。保護者や家族は、指定区域以外ならどこに座っていただいてもかまいません。"
+          "scriptJa": "卒業生の皆さんは、ホール前方の指定された場所にお座りください。美術学科または舞台芸術学科の方はセクションAに、経済学科または経営学科の方はセクションBにお座りください。セクションCは理系のいずれかの学科の学生用、セクションDは語学系のいずれかの学科の学生用です。保護者やご家族の方は、指定された場所以外でしたらどこにお座りいただいても構いません。"
         }
       ]
     }

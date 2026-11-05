@@ -1,0 +1,550 @@
+{
+  "examType": "eiken",
+  "id": "eiken-pre1-2021-2",
+  "meta": {
+    "title": "英検準1級",
+    "subtitle": "2021年度 第2回",
+    "year": 2021,
+    "grade": "pre1",
+    "session": "2021-2",
+    "icon": "🏅",
+    "totalTime": 29
+  },
+  "sections": [
+    {
+      "id": "part1",
+      "title": "Part 1",
+      "description": "会話の内容一致選択 — 会話を聞き、その質問に対して最も適切なものを選びなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2021-2/01_Part1_explanation.mp3",
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "audio": "audio/eiken/eiken-pre1-2021-2/02_No1.mp3",
+          "prompt": "What does the woman tell Yusuke?",
+          "choices": [
+            { "label": "1", "text": "She will find it hard to get the money." },
+            { "label": "2", "text": "She barely knows the bride." },
+            { "label": "3", "text": "She can no longer attend the wedding." },
+            { "label": "4", "text": "She already bought a gift." }
+          ],
+          "answer": "1",
+          "explanation": "正解は1。女性の最後の発言で、3万円と聞いて「That much!?」と驚き、それを払うために今月の出費を大幅に切り詰めなければならないと言っている。これを「お金を用意するのが大変だ」と言い換えた1が正解。花嫁は日本でいちばんの親友なので2は誤りで、出席を取りやめるとも、贈り物をすでに買ったとも言っていないので3、4も誤り。",
+          "script": "W: Yusuke, I'm going to a Japanese-style wedding next month. What kind of present should I buy?\nM: It's pretty easy here in Japan. We just give cash wrapped in a special envelope.\nW: Really? Is that all?\nM: Yeah, it's the custom here. How close are you to the couple?\nW: The bride is my best friend in Japan.\nM: Ah. In that case, you're looking at around 30,000 yen.\nW: That much!? I'll have to cut way back on expenses this month so I can cover that.\nM: Well, good luck.",
+          "scriptJa": "W: ユウスケ、来月、日本式の結婚式に行くの。どんなプレゼントを買えばいいかな？\nM: 日本ではわりと簡単だよ。特別な封筒に包んだ現金を渡すだけなんだ。\nW: 本当？それだけ？\nM: うん、ここではそれが習わしなんだ。新郎新婦とはどのくらい親しいの？\nW: 花嫁は日本でいちばんの親友なの。\nM: ああ、それなら3万円くらいかな。\nW: そんなに！？それを出せるように、今月はかなり出費を切り詰めないと。\nM: まあ、頑張って。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "audio": "audio/eiken/eiken-pre1-2021-2/03_No2.mp3",
+          "prompt": "What does the man agree to do?",
+          "choices": [
+            { "label": "1", "text": "Take the 6:30 flight." },
+            { "label": "2", "text": "Change his flight." },
+            { "label": "3", "text": "Pay extra for an upgrade." },
+            { "label": "4", "text": "Give up his window seat." }
+          ],
+          "answer": "2",
+          "explanation": "正解は2。女性の3番目の発言で、9時30分の便に変更すれば100ドルの旅行券を渡すと提案され、男性は「That would be fine.」と応じている。つまり便の変更に同意したので2が正解。もともと予約していた6時30分の便には乗らないことになるので1は誤り。男性が希望したのは通路側の席で、追加料金や窓側の席の話は出ていないので3、4も誤り。",
+          "script": "W: Good evening, sir. May I see your ticket, please?\nM: Here you are. I'm taking the 6:30 flight to Boston. I'd like an aisle seat, if possible.\nW: Ah, that flight is overbooked.\nM: Do you mean I can't get a seat?\nW: No, your seat is confirmed. But we are asking all passengers whether they can help us out this evening. If you agree to take the 9:30 flight, we will give you a complimentary $100 travel voucher.\nM: That would be fine.\nW: Thank you very much, sir.",
+          "scriptJa": "W: こんばんは、お客様。航空券を拝見できますか？\nM: どうぞ。ボストン行きの6時30分の便に乗ります。できれば通路側の席をお願いしたいのですが。\nW: ああ、その便は予約が定員を超えております。\nM: 席が取れないということですか？\nW: いいえ、お客様のお席は確保されております。ただ、今晩はご協力いただけないか、すべてのお客様にお尋ねしているところです。9時30分の便に変更していただけましたら、100ドル分の旅行券を無料で差し上げます。\nM: それで構いません。\nW: ありがとうございます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "audio": "audio/eiken/eiken-pre1-2021-2/04_No3.mp3",
+          "prompt": "What is the woman's problem?",
+          "choices": [
+            { "label": "1", "text": "She has a high fever." },
+            { "label": "2", "text": "She requested a different room." },
+            { "label": "3", "text": "The air conditioner is not working properly." },
+            { "label": "4", "text": "Room service has not arrived yet." }
+          ],
+          "answer": "3",
+          "explanation": "正解は3。女性は1番目の発言で部屋が暑くて息苦しいと訴え、2番目の発言で温度を最低に設定しても効果がないと説明している。つまり空調がきちんと機能していないということなので3が正解。「hot」「boiling」は部屋の暑さを表しており、熱があるわけではないので1は誤り。部屋の変更やルームサービスの話は出ていないので2、4も誤り。",
+          "script": "M: Hello, front desk. Can I help you?\nW: Yes, I'm in room 302. It's so hot in here I can hardly breathe.\nM: I assume you've tried adjusting the temperature already.\nW: Several times. It's at the lowest possible setting, but it doesn't seem to be having any effect. I'm boiling up here.\nM: That's very strange. I sincerely apologize. I'll have someone from our maintenance staff go up and look at it right away.\nW: Thanks. I'd appreciate that.",
+          "scriptJa": "M: はい、フロントです。ご用件を承ります。\nW: ええ、302号室の者です。部屋がものすごく暑くて、息が詰まりそうなんです。\nM: 温度の調節はもうお試しになったかと存じますが。\nW: 何度もやりました。いちばん低い設定にしているのに、全然効いていないみたいなんです。こっちは蒸し風呂状態ですよ。\nM: それはおかしいですね。誠に申し訳ございません。すぐに保守係の者を伺わせて、点検いたします。\nW: ありがとう。助かります。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "audio": "audio/eiken/eiken-pre1-2021-2/05_No4.mp3",
+          "prompt": "What does the woman suggest to the man?",
+          "choices": [
+            { "label": "1", "text": "Sharing the responsibilities." },
+            { "label": "2", "text": "Shortening Patty's visit." },
+            { "label": "3", "text": "Making the decision later." },
+            { "label": "4", "text": "Postponing the visit." }
+          ],
+          "answer": "2",
+          "explanation": "正解は2。女性は2番目の発言で「a whole summer?」と、夏の間ずっと滞在することに難色を示し、料理の負担が増えると訴えている。これは滞在期間を短くしてほしいという意味であり、男性が7月の2週間を提案すると女性も受け入れているので2が正解。訪問そのものを先に延ばすわけではないので4は誤りで、家事の分担を持ちかけてもいないので1も誤り。",
+          "script": "M: Honey, I'm going to invite my sister to stay with us this summer.\nW: Don't I have a say in this matter?\nM: Uh, sure you do, but I thought you liked Patty.\nW: Of course, but a whole summer? I'm the one who has to cook for an extra person.\nM: I get the point. How about a couple of weeks in July, then?\nW: Well, that might be better.",
+          "scriptJa": "M: ねえ、この夏、妹をうちに泊まりに来るよう誘おうと思うんだ。\nW: 私には意見を言う権利はないの？\nM: え、もちろんあるよ。でも、君はパティのことが好きだと思ってたから。\nW: もちろん好きよ。でも、夏の間ずっと？もう1人分の料理を作らなきゃいけないのは私なのよ。\nM: 言いたいことはわかった。じゃあ、7月に2週間くらいならどう？\nW: まあ、それならまだいいかもね。"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "audio": "audio/eiken/eiken-pre1-2021-2/06_No5.mp3",
+          "prompt": "Why are these students complaining?",
+          "choices": [
+            { "label": "1", "text": "The class is not challenging enough." },
+            { "label": "2", "text": "The professor is too busy to help them." },
+            { "label": "3", "text": "The study guide is not helpful." },
+            { "label": "4", "text": "The book is difficult to understand." }
+          ],
+          "answer": "4",
+          "explanation": "正解は4。女性は1番目の発言で教授が指定した本に不満を示し、男性も序文を理解するのに長い時間がかかり、1章読むのが精いっぱいだと言っている。本がわかりにくいことを嘆いているので4が正解。授業についていくのに苦労しているのだから、簡単すぎるとする1は逆である。学習ガイドはこれから探そうとしているだけなので3も誤り。",
+          "script": "M: Hey, Abigail. Are you having as much trouble as I am with our sociology class?\nW: Big trouble! What's with the book the professor assigned?\nM: I spent ages just trying to understand the introduction. It's all I can do to get through a single chapter!\nW: Yeah, the author just seems to go around in circles.\nM: I agree. He never seems to make a point.\nW: Hey, maybe there's a study guide on the Internet...\nM: That's an idea.",
+          "scriptJa": "M: やあ、アビゲイル。社会学の授業、君も僕と同じくらい苦労してる？\nW: すごく苦労してる！教授が指定したあの本、いったい何なの？\nM: 序文を理解しようとするだけで、ものすごく時間がかかったよ。1章読み通すのが精いっぱいだ！\nW: そうね、著者が同じところをぐるぐる回っているだけみたい。\nM: 同感。結局何が言いたいのか、さっぱりわからないんだ。\nW: ねえ、もしかしたらネットに学習ガイドがあるかも……\nM: それはいい考えだね。"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "audio": "audio/eiken/eiken-pre1-2021-2/07_No6.mp3",
+          "prompt": "What do we learn from the conversation?",
+          "choices": [
+            { "label": "1", "text": "Susan invited her coworkers to lunch." },
+            { "label": "2", "text": "Susan's farewell party is tomorrow." },
+            { "label": "3", "text": "The man does not know Susan's e-mail address." },
+            { "label": "4", "text": "The man could not organize a farewell party." }
+          ],
+          "answer": "4",
+          "explanation": "正解は4。男性は2番目の発言で、スーザンの送別会を企画しようとしたが、全員が合意できる日時が見つからずにあきらめたと言っている。これを「送別会を開くことができなかった」と表した4が正解。ランチを提案したのはスーザンではなく男性なので1は誤りで、明日はスーザンの最後の出勤日であって送別会の日ではないので2も誤り。男性は彼女にメールを送っているので3も誤り。",
+          "script": "M: I get the feeling Susan's upset with me.\nW: What happened?\nM: I was trying to organize a farewell party for her, but I had to give up. We just couldn't find a date or time that everyone could agree to.\nW: She doesn't blame you for that, does she? I mean, with how busy she is, her schedule is probably the hardest to work around.\nM: Exactly, but when I suggested calling it off, she seemed hurt. I e-mailed her a couple of days ago and said maybe we could all have lunch instead, but I haven't heard from her since.\nW: Well, she's very busy, so maybe she just hasn't gotten around to answering you yet.\nM: Maybe, but her last day is tomorrow!",
+          "scriptJa": "M: スーザンが僕に腹を立ててる気がするんだ。\nW: 何があったの？\nM: 彼女の送別会を企画しようとしてたんだけど、あきらめるしかなくてね。全員の都合が合う日時がどうしても見つからなかったんだ。\nW: そのことで、彼女があなたを責めたりはしてないでしょう？だって、あれだけ忙しい人なんだから、いちばん予定を合わせにくいのはたぶん彼女よ。\nM: そうなんだよ。でも、中止にしようって言ったら、傷ついたみたいだった。2、3日前に、代わりにみんなでランチでもどうかってメールしたんだけど、それ以来返事がないんだ。\nW: まあ、すごく忙しい人だから、まだ返事をする暇がないだけかもしれないわよ。\nM: そうかもしれないけど、彼女の最後の出勤日は明日なんだよ！"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "audio": "audio/eiken/eiken-pre1-2021-2/08_No7.mp3",
+          "prompt": "What do we learn about the woman?",
+          "choices": [
+            { "label": "1", "text": "She is not used to being married yet." },
+            { "label": "2", "text": "She does not like being busy at work." },
+            { "label": "3", "text": "She needs to adjust to her new job." },
+            { "label": "4", "text": "She is ready for another vacation." }
+          ],
+          "answer": "1",
+          "explanation": "正解は1。女性は2番目の発言で、新婚旅行は最高だったが、今は他人と一緒に暮らすことに順応している最中だと述べており、男性も慣れるには時間がかかると応じている。まだ結婚生活に慣れていないということなので1が正解。「adjusting」は新しい仕事ではなく共同生活についての言葉なので3は誤り。忙しいと言ったのは男性の職場についてであり、2、4のような発言もない。",
+          "script": "M: Hi, Samantha, welcome back.\nW: Hi, Jack. Thanks. How's work been?\nM: Pretty busy, as always. So tell me, how's married life?\nW: Well, the honeymoon was great. But now I'm adjusting to living with another person. Plus, we moved into a new house. The whole situation is quite a change.\nM: I remember going through a similar thing. It takes a while to get used to it.\nW: Well, I hope things settle down soon.",
+          "scriptJa": "M: やあ、サマンサ、おかえり。\nW: こんにちは、ジャック。ありがとう。仕事はどうだった？\nM: 相変わらずかなり忙しいよ。それで、結婚生活はどう？\nW: そうね、新婚旅行は最高だった。でも今は、ほかの人と一緒に暮らすことに慣れようとしているところ。それに、新しい家にも引っ越したしね。何もかもがすっかり変わったわ。\nM: 僕も似たような経験をしたのを覚えてるよ。慣れるまでしばらくかかるよね。\nW: まあ、早く落ち着くといいんだけど。"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "audio": "audio/eiken/eiken-pre1-2021-2/09_No8.mp3",
+          "prompt": "What does Mr. Hendricks say he will do?",
+          "choices": [
+            { "label": "1", "text": "Reschedule the appointment." },
+            { "label": "2", "text": "Come back tomorrow." },
+            { "label": "3", "text": "Speak with his secretary." },
+            { "label": "4", "text": "Call Mr. Phelps another time." }
+          ],
+          "answer": "4",
+          "explanation": "正解は4。男性は3番目の発言の最後で「I'll call him later in the week」と、週の後半にフェルプス氏に電話すると言っている。これを「別の機会に電話する」と言い換えた4が正解。約束は明日に入っているが、男性は明日また来るとも予約を変更するとも言っていないので1、2は誤り。秘書と話をするとも言っていないので3も誤り。",
+          "script": "M: Good morning. My name is Tom Hendricks. I'm here to see Mr. Phelps.\nW: I'm sorry, Mr. Hendricks. Mr. Phelps is out of town today. Did you have an appointment to see him?\nM: Well, I thought so. I had my secretary schedule it last week.\nW: Let me check.... Oh, it seems he's scheduled to meet you tomorrow at this time.\nM: Really? I guess I must have written it down wrong. Well, could you please see that he gets these brochures? I'll call him later in the week to discuss them.\nW: I'll see that he gets them.",
+          "scriptJa": "M: おはようございます。トム・ヘンドリクスと申します。フェルプスさんにお会いしに参りました。\nW: 申し訳ございません、ヘンドリクス様。フェルプスは本日、出張で不在にしております。お約束はございましたか？\nM: ええ、そのつもりでした。先週、秘書に予約を入れさせたんですが。\nW: 確認いたします……あ、お約束は明日の同じ時刻になっているようです。\nM: 本当ですか？私が書き間違えたようですね。では、このパンフレットを彼に渡していただけますか？内容については、今週の後半に私から電話してご相談します。\nW: 必ずお渡しいたします。"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "audio": "audio/eiken/eiken-pre1-2021-2/10_No9.mp3",
+          "prompt": "What does the woman imply?",
+          "choices": [
+            { "label": "1", "text": "The man should not complain about the noise." },
+            { "label": "2", "text": "The man should not have taken the train." },
+            { "label": "3", "text": "The other passengers should be more polite." },
+            { "label": "4", "text": "The baby's parents should be more careful." }
+          ],
+          "answer": "1",
+          "explanation": "正解は1。女性は、自分たちの子どもも電車で座るとすぐに泣き出していたが、ほかの乗客は苦情を言わず「more polite than that」だったと指摘している。つまり、男性も赤ちゃんの泣き声に文句を言うべきではないとほのめかしているので1が正解。女性はほかの乗客の礼儀正しさを引き合いに出しているので3は逆であり、赤ちゃんの親を批判してもいないので4も誤り。",
+          "script": "M: That baby behind us has been crying the whole trip. The noise is driving me crazy!\nW: Don't you remember what our kids were like when we traveled on trains with them?\nM: I thought they were fairly quiet and well behaved, weren't they?\nW: You're kidding, right? They used to start up as soon as we sat down.\nM: Really? I don't remember that at all. Did other passengers complain?\nW: No. They were more polite than that.\nM: OK. I get your point.",
+          "scriptJa": "M: 後ろの赤ちゃん、ずっと泣きっぱなしだよ。うるさくて頭がおかしくなりそうだ！\nW: うちの子たちを連れて電車で旅行したとき、どんなだったか覚えてないの？\nM: わりと静かで、お行儀もよかったと思うけど、違った？\nW: 冗談でしょう？座ったとたんに泣き出したものよ。\nM: 本当？全然覚えてないな。ほかの乗客から苦情は出た？\nW: いいえ。みんな、そんなことをするほど失礼じゃなかったわ。\nM: わかったよ。言いたいことはわかった。"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "audio": "audio/eiken/eiken-pre1-2021-2/11_No10.mp3",
+          "prompt": "What is the man's concern?",
+          "choices": [
+            { "label": "1", "text": "The school he graduated from is not well known." },
+            { "label": "2", "text": "He has never cooked French food before." },
+            { "label": "3", "text": "He did not have a job over the summer." },
+            { "label": "4", "text": "His résumé contained too many mistakes." }
+          ],
+          "answer": "3",
+          "explanation": "正解は3。男性は2番目の発言で、夏の間に働かなかったのは失敗だった、ビーチで過ごさずにアルバイトをすればよかったと悔やんでいる。夏に仕事をしていなかったことを気にしているので3が正解。男性は有名な学校を卒業し、フランス料理店で修業もしているので1、2は誤り。履歴書の間違いの話は出ていないので4も誤り。",
+          "script": "W: How was your job interview at the restaurant?\nM: Pretty good, I think. But they have a lot of other chefs to interview.\nW: Well, you graduated from a famous school, and you trained at that French restaurant while you were studying.\nM: But I made a mistake by not working over the summer. The interviewers asked me what I did. I wish I'd gotten a part-time job instead of spending my time on the beach.\nW: Yeah, it would've made your résumé look better.",
+          "scriptJa": "W: レストランの就職面接はどうだった？\nM: かなりよかったと思う。でも、ほかにも面接を受けるシェフがたくさんいるんだ。\nW: でも、あなたは有名な学校を出ているし、在学中にあのフランス料理店で修業もしたじゃない。\nM: でも、夏の間に働かなかったのが失敗だった。面接官に、何をしていたのか聞かれたんだ。ビーチで時間を過ごしたりしないで、アルバイトでもしておけばよかったよ。\nW: そうね、そうすれば履歴書の見栄えももっとよくなったでしょうね。"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "audio": "audio/eiken/eiken-pre1-2021-2/12_No11.mp3",
+          "prompt": "What does the man imply?",
+          "choices": [
+            { "label": "1", "text": "The woman should prepare more for the audition." },
+            { "label": "2", "text": "The woman's career plan is unrealistic." },
+            { "label": "3", "text": "He chose the wrong major in college." },
+            { "label": "4", "text": "He should have pursued a career in music." }
+          ],
+          "answer": "2",
+          "explanation": "正解は2。大学を中退してもすぐに役がもらえるはずだと言う女性に対し、男性は「I don't think that's a good idea.」と反対し、自分も最終的には学位があるほうが安定した生活につながると気づいたと話している。女性の将来の計画は現実的ではないとほのめかしているので2が正解。オーディションの準備不足には触れていないので1は誤り。男性は音楽の道を選ばなかったことを後悔しているわけではないので4も誤り。",
+          "script": "M: How are things, Felicity?\nW: Great! I just got invited to audition for another movie.\nM: That's exciting. But what about college?\nW: I'm thinking about dropping out. These days, I have so many auditions that I'm sure to get a part soon.\nM: I don't think that's a good idea.\nW: You should understand. You lived for playing music when you were in high school.\nM: Yeah, but I eventually realized a college degree would give me a better chance to make a steady living.\nW: That's true enough. But I just don't want to have regrets later.",
+          "scriptJa": "M: 調子はどう、フェリシティ？\nW: 最高よ！また映画のオーディションに呼ばれたの。\nM: それはすごいね。でも、大学はどうするの？\nW: 中退しようかと思ってる。最近はオーディションがすごく多いから、きっともうすぐ役がもらえるはずよ。\nM: それはいい考えだとは思わないな。\nW: あなたならわかってくれるでしょう。高校のときは音楽にすべてを懸けていたじゃない。\nM: うん、でも結局、大学の学位があるほうが安定した生活を送れる見込みが高いって気づいたんだ。\nW: それはそのとおりね。でも、後になって後悔したくないの。"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "audio": "audio/eiken/eiken-pre1-2021-2/13_No12.mp3",
+          "prompt": "What does the couple decide to do first?",
+          "choices": [
+            { "label": "1", "text": "Purchase more blankets." },
+            { "label": "2", "text": "Replace their heating unit." },
+            { "label": "3", "text": "Call the electric company." },
+            { "label": "4", "text": "Use the heating less at night." }
+          ],
+          "answer": "4",
+          "explanation": "正解は4。男性は3番目の発言で、夜は暖房の温度を下げ、予備の毛布で暖を取ることを提案し、女性も「start with that」と、まずそれを試すことに同意している。夜間の暖房の使用を減らすということなので4が正解。毛布はすでに家にあるので1は誤り。女性は電力会社に電話することを考えたが、男性の意見を受けて先に節約を試すことにしたので3も誤り。",
+          "script": "M: You're looking very serious. What's the matter?\nW: It's our electric bill. It was over $250 last month.\nM: Well, it was the coldest month this winter.\nW: Yes, but that still seems high. Maybe I'll call the electric company.\nM: I'm sure the bill's correct. I think we should start turning down the temperature at night. We have extra blankets we can use to keep warm.\nW: I guess we can start with that and see if it helps.",
+          "scriptJa": "M: ずいぶん深刻な顔をしているね。どうしたの？\nW: 電気代のことよ。先月は250ドルを超えていたの。\nM: まあ、この冬でいちばん寒い月だったからね。\nW: そうだけど、それにしても高すぎる気がする。電力会社に電話してみようかな。\nM: 請求額はきっと正しいよ。夜は暖房の温度を下げるようにしたほうがいいと思う。暖かくするのに使える予備の毛布もあるし。\nW: じゃあ、まずはそれから始めて、効果があるか様子を見ましょうか。"
+        }
+      ]
+    },
+    {
+      "id": "part2",
+      "title": "Part 2",
+      "description": "文の内容一致選択 — 英文を聞き、その質問に対して最も適切なものを選びなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2021-2/14_Part2_explanation.mp3",
+      "questions": [
+        {
+          "id": "q13",
+          "number": 13,
+          "passageLabel": "Passage A",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/16_No13.mp3",
+          "prompt": "What did the researchers confirm about Polynesians and Native Americans?",
+          "choices": [
+            { "label": "1", "text": "They do not share genetic similarities." },
+            { "label": "2", "text": "They met and had children centuries ago." },
+            { "label": "3", "text": "They shared knowledge about building rafts." },
+            { "label": "4", "text": "They had little experience as sailors." }
+          ],
+          "answer": "2",
+          "explanation": "正解は2。第1段落の最後で、両者がおよそ800年前に出会い、ともに子どもをもうけたことを示す遺伝的な証拠が見つかったと述べられている。「met and produced children together」をそのまま言い換えた2が正解。遺伝的な証拠が見つかったのだから1は逆であり、いかだの作り方を伝え合ったという話もないので3も誤り。",
+          "script": "Pacific Links\n\nResearchers have long considered the possibility of ancient contact between Polynesian people of the South Pacific and Native Americans of South America. A recent study strongly supports such a theory. The study's researchers analyzed DNA samples from hundreds of Polynesians and Native Americans. They found genetic evidence that these peoples met and produced children together around 800 years ago.\n\nWhat remains unclear is which group crossed the thousands of kilometers of ocean to make such contact possible. Polynesians were known for their canoes. They made long sea voyages and settled on many islands in the Pacific Ocean. However, in 1947, an explorer showed it was possible to cross the Pacific Ocean from South America on a raft. Native Americans, who used rafts, may therefore also have made great voyages.",
+          "scriptJa": "太平洋のつながり\n\n研究者たちは以前から、南太平洋のポリネシア人と南アメリカの先住民との間に、古代に接触があった可能性を検討してきた。最近のある研究は、そうした説を強く裏付けている。この研究を行った研究者たちは、数百人のポリネシア人と南アメリカの先住民のDNAサンプルを分析した。その結果、両者がおよそ800年前に出会い、ともに子どもをもうけていたことを示す遺伝的な証拠が見つかった。\n\n依然としてはっきりしないのは、どちらの集団が数千キロに及ぶ海を渡り、そうした接触を可能にしたのかという点である。ポリネシア人はカヌーで知られていた。彼らは長い航海を行い、太平洋の多くの島々に移り住んだ。しかし1947年、ある探検家が、南アメリカからいかだで太平洋を横断できることを示した。したがって、いかだを使っていた南アメリカの先住民もまた、大航海を成し遂げていたのかもしれない。"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "passageLabel": "Passage A",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/17_No14.mp3",
+          "prompt": "What did an explorer demonstrate in 1947?",
+          "choices": [
+            { "label": "1", "text": "A raft could be used to cross the Pacific Ocean." },
+            { "label": "2", "text": "It is unlikely Native Americans crossed the Pacific Ocean." },
+            { "label": "3", "text": "Polynesians' rafts were superior to their canoes." },
+            { "label": "4", "text": "Some Pacific islands could not be reached by boat." }
+          ],
+          "answer": "1",
+          "explanation": "正解は1。第2段落で、1947年にある探検家が南アメリカからいかだで太平洋を横断できることを示したと述べられているので1が正解。この事実は南アメリカの先住民も大航海をした可能性を示すものなので、2は逆である。ポリネシア人はカヌーで知られていたと述べられているだけで、彼らのいかだがカヌーより優れていたという話はないので3も誤り。",
+          "script": "Pacific Links\n\nResearchers have long considered the possibility of ancient contact between Polynesian people of the South Pacific and Native Americans of South America. A recent study strongly supports such a theory. The study's researchers analyzed DNA samples from hundreds of Polynesians and Native Americans. They found genetic evidence that these peoples met and produced children together around 800 years ago.\n\nWhat remains unclear is which group crossed the thousands of kilometers of ocean to make such contact possible. Polynesians were known for their canoes. They made long sea voyages and settled on many islands in the Pacific Ocean. However, in 1947, an explorer showed it was possible to cross the Pacific Ocean from South America on a raft. Native Americans, who used rafts, may therefore also have made great voyages.",
+          "scriptJa": "太平洋のつながり\n\n研究者たちは以前から、南太平洋のポリネシア人と南アメリカの先住民との間に、古代に接触があった可能性を検討してきた。最近のある研究は、そうした説を強く裏付けている。この研究を行った研究者たちは、数百人のポリネシア人と南アメリカの先住民のDNAサンプルを分析した。その結果、両者がおよそ800年前に出会い、ともに子どもをもうけていたことを示す遺伝的な証拠が見つかった。\n\n依然としてはっきりしないのは、どちらの集団が数千キロに及ぶ海を渡り、そうした接触を可能にしたのかという点である。ポリネシア人はカヌーで知られていた。彼らは長い航海を行い、太平洋の多くの島々に移り住んだ。しかし1947年、ある探検家が、南アメリカからいかだで太平洋を横断できることを示した。したがって、いかだを使っていた南アメリカの先住民もまた、大航海を成し遂げていたのかもしれない。"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "passageLabel": "Passage B",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/19_No15.mp3",
+          "prompt": "What is one thing recent research has revealed about listening to music?",
+          "choices": [
+            { "label": "1", "text": "It has little effect on people's productivity." },
+            { "label": "2", "text": "It helps students perform better on tests." },
+            { "label": "3", "text": "It might make certain tasks more difficult to do." },
+            { "label": "4", "text": "It improves people's mental health." }
+          ],
+          "answer": "3",
+          "explanation": "正解は3。第1段落で、より創造的な仕事や強い集中を要する仕事では、音楽を聴くことが「harmful」になるかもしれないと述べられている。これを「特定の作業をより難しくするかもしれない」と言い換えた3が正解。繰り返し作業では生産性が上がる可能性があるとされ、影響がないわけではないので1は誤り。音楽を聴きながら読解した学生は点数が低かったので2は逆である。",
+          "script": "Music and Work\n\nIt has often been claimed that listening to music during work can improve focus and productivity. Recent research, however, suggests this may only be true of people performing highly repetitive tasks. For more-creative jobs, or those requiring intense concentration, listening to music might be harmful. In addition, other studies have found that the test scores of students who listen to music while completing reading tasks are lower than the test scores of students who read without music.\n\nAccording to neuroscientist Daniel Levitin, many people are unaware that music might be causing them to get less done. Although listening to music while working may be enjoyable, Levitin says popular music with lyrics is especially bad for concentration. However, he believes that listening to music helps workers relax during rest periods between tasks, so it can improve their overall ability to concentrate.",
+          "scriptJa": "音楽と仕事\n\n仕事中に音楽を聴くと集中力や生産性が高まると、しばしば言われてきた。しかし最近の研究によると、これは非常に単調な繰り返し作業をしている人にしか当てはまらないかもしれない。より創造的な仕事や、高い集中力を必要とする仕事では、音楽を聴くことはむしろ害になる可能性がある。さらに別の研究では、音楽を聴きながら読解課題に取り組んだ学生のテストの点数は、音楽なしで読んだ学生の点数よりも低いことがわかっている。\n\n神経科学者のダニエル・レヴィティンによると、多くの人は、音楽のせいで仕事がはかどっていないかもしれないことに気づいていない。仕事をしながら音楽を聴くのは楽しいかもしれないが、歌詞のあるポピュラー音楽は特に集中の妨げになるとレヴィティンは言う。しかし彼は、作業の合間の休憩時間に音楽を聴けば働く人がリラックスできるので、全体的な集中力を高めることができると考えている。"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "passageLabel": "Passage B",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/20_No16.mp3",
+          "prompt": "What does Daniel Levitin believe about listening to music?",
+          "choices": [
+            { "label": "1", "text": "It can be effective during breaks." },
+            { "label": "2", "text": "It can actually make work less enjoyable." },
+            { "label": "3", "text": "It improves communication between workers." },
+            { "label": "4", "text": "It only has a small effect on concentration." }
+          ],
+          "answer": "1",
+          "explanation": "正解は1。第2段落の最後で、レヴィティンは作業の合間の休憩時間に音楽を聴くとリラックスでき、全体的な集中力が高まると考えていると述べられている。「rest periods between tasks」を「breaks」と言い換えた1が正解。仕事中に音楽を聴くのは楽しいかもしれないと認めているので2は誤り。歌詞のあるポピュラー音楽は特に集中を妨げると言っているので、影響が小さいとする4も誤り。",
+          "script": "Music and Work\n\nIt has often been claimed that listening to music during work can improve focus and productivity. Recent research, however, suggests this may only be true of people performing highly repetitive tasks. For more-creative jobs, or those requiring intense concentration, listening to music might be harmful. In addition, other studies have found that the test scores of students who listen to music while completing reading tasks are lower than the test scores of students who read without music.\n\nAccording to neuroscientist Daniel Levitin, many people are unaware that music might be causing them to get less done. Although listening to music while working may be enjoyable, Levitin says popular music with lyrics is especially bad for concentration. However, he believes that listening to music helps workers relax during rest periods between tasks, so it can improve their overall ability to concentrate.",
+          "scriptJa": "音楽と仕事\n\n仕事中に音楽を聴くと集中力や生産性が高まると、しばしば言われてきた。しかし最近の研究によると、これは非常に単調な繰り返し作業をしている人にしか当てはまらないかもしれない。より創造的な仕事や、高い集中力を必要とする仕事では、音楽を聴くことはむしろ害になる可能性がある。さらに別の研究では、音楽を聴きながら読解課題に取り組んだ学生のテストの点数は、音楽なしで読んだ学生の点数よりも低いことがわかっている。\n\n神経科学者のダニエル・レヴィティンによると、多くの人は、音楽のせいで仕事がはかどっていないかもしれないことに気づいていない。仕事をしながら音楽を聴くのは楽しいかもしれないが、歌詞のあるポピュラー音楽は特に集中の妨げになるとレヴィティンは言う。しかし彼は、作業の合間の休憩時間に音楽を聴けば働く人がリラックスできるので、全体的な集中力を高めることができると考えている。"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "passageLabel": "Passage C",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/22_No17.mp3",
+          "prompt": "What did the study of Egyptian fruit bats suggest?",
+          "choices": [
+            { "label": "1", "text": "They make more sounds than dolphins." },
+            { "label": "2", "text": "The sounds they make have meaning." },
+            { "label": "3", "text": "Their sounds are not very complex." },
+            { "label": "4", "text": "Their communication system has changed." }
+          ],
+          "answer": "2",
+          "explanation": "正解は2。第1段落で、コウモリの音はでたらめだと長く信じられてきたが、この研究はそのコミュニケーションの仕組みがかなり複雑であることを示唆していると述べられている。第2段落でも、音が状況ごとに分類できたと説明されており、音に意味があることがうかがえるので2が正解。複雑だとわかったのだから3は逆であり、イルカより多くの音を出すという比較もないので1も誤り。",
+          "script": "The Language of Bats\n\nSome animals, such as dolphins, are thought to communicate using sounds that can express specific meanings. However, it was long believed that the sounds made by some other animals, such as bats, were random. A study of Egyptian fruit bats suggests that their communication system is actually quite complex.\n\nThe bats were kept in captivity, and the scientists conducting the study used a computer program to analyze the sounds that the bats made. The sounds were grouped into categories based on context. For example, certain sounds tended to be produced in the presence of food. Other sounds occurred during what appeared to be arguments between bats over where the bats would sleep. In the future, the scientists hope to monitor bats in their natural habitat to see whether the sounds they make change.",
+          "scriptJa": "コウモリの言語\n\nイルカなど一部の動物は、特定の意味を表すことのできる音を使ってコミュニケーションをとると考えられている。しかし、コウモリなど他の一部の動物が出す音は、でたらめなものだと長い間信じられてきた。エジプトルーセットオオコウモリを対象にしたある研究は、彼らのコミュニケーションの仕組みが実はかなり複雑であることを示唆している。\n\nコウモリは飼育下に置かれ、研究を行った科学者たちはコンピュータープログラムを使って、コウモリが出す音を分析した。音は、それが出された状況に基づいていくつかの種類に分類された。例えば、ある種の音は、食べ物があるときに出される傾向があった。また別の音は、どこで眠るかをめぐってコウモリ同士が言い争っているように見える場面で出されていた。今後、科学者たちは自然の生息地でコウモリを観察し、彼らの出す音が変化するかどうかを調べたいと考えている。"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "passageLabel": "Passage C",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/23_No18.mp3",
+          "prompt": "How did the scientists conduct their analysis?",
+          "choices": [
+            { "label": "1", "text": "They recorded the sounds that sleeping bats made." },
+            { "label": "2", "text": "They matched bat sounds to those of other animals." },
+            { "label": "3", "text": "They monitored bats in their natural environment." },
+            { "label": "4", "text": "They used a computer program to categorize bat sounds." }
+          ],
+          "answer": "4",
+          "explanation": "正解は4。第2段落の冒頭で、科学者たちはコンピュータープログラムを使ってコウモリの音を分析し、状況に基づいて分類したと述べられているので4が正解。自然の生息地での観察は今後の計画にすぎないので3は誤り。眠る場所をめぐって争っているときの音は出てくるが、眠っているコウモリの音を録音したわけではないので1も誤り。",
+          "script": "The Language of Bats\n\nSome animals, such as dolphins, are thought to communicate using sounds that can express specific meanings. However, it was long believed that the sounds made by some other animals, such as bats, were random. A study of Egyptian fruit bats suggests that their communication system is actually quite complex.\n\nThe bats were kept in captivity, and the scientists conducting the study used a computer program to analyze the sounds that the bats made. The sounds were grouped into categories based on context. For example, certain sounds tended to be produced in the presence of food. Other sounds occurred during what appeared to be arguments between bats over where the bats would sleep. In the future, the scientists hope to monitor bats in their natural habitat to see whether the sounds they make change.",
+          "scriptJa": "コウモリの言語\n\nイルカなど一部の動物は、特定の意味を表すことのできる音を使ってコミュニケーションをとると考えられている。しかし、コウモリなど他の一部の動物が出す音は、でたらめなものだと長い間信じられてきた。エジプトルーセットオオコウモリを対象にしたある研究は、彼らのコミュニケーションの仕組みが実はかなり複雑であることを示唆している。\n\nコウモリは飼育下に置かれ、研究を行った科学者たちはコンピュータープログラムを使って、コウモリが出す音を分析した。音は、それが出された状況に基づいていくつかの種類に分類された。例えば、ある種の音は、食べ物があるときに出される傾向があった。また別の音は、どこで眠るかをめぐってコウモリ同士が言い争っているように見える場面で出されていた。今後、科学者たちは自然の生息地でコウモリを観察し、彼らの出す音が変化するかどうかを調べたいと考えている。"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "passageLabel": "Passage D",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/25_No19.mp3",
+          "prompt": "What is true about the area described by the speaker?",
+          "choices": [
+            { "label": "1", "text": "The rivers and lakes there are polluted." },
+            { "label": "2", "text": "It is home to a number of rare species." },
+            { "label": "3", "text": "Important products are developed there." },
+            { "label": "4", "text": "It is no longer open to tourists." }
+          ],
+          "answer": "2",
+          "explanation": "正解は2。第1段落で、この地域は絶滅の危機にある動植物にとって重要な生息地になっていると述べられている。「endangered plants and animals」を「希少な種」と言い換えた2が正解。採掘によって水路が汚染されることは懸念されているにすぎず、現在汚染されているわけではないので1は誤り。地下の金属は製品の材料になり得るというだけで、そこで製品が開発されているわけではないので3も誤り。",
+          "script": "Wilderness Protection\n\nThe Boundary Waters Canoe Area Wilderness, located in a US national forest, contains over a thousand lakes and rivers. It offers visitors the chance to experience nature in an undisturbed state and provides an important habitat for endangered plants and animals. The area also contains large amounts of valuable metals underground. Such metals could be mined and used to make products ranging from electronics to aircraft engines. However, conservationists worry that mining would release harmful substances into nearby waterways.\n\nLocal residents are split over whether to allow mining in the area. Some say it could improve the economy by creating jobs, while others believe protecting nature should be the priority. According to a study by an economist, mining may indeed bring short-term economic benefits. However, the study found that such benefits would be smaller than the long-term negative impact mining would have on the tourist industry.",
+          "scriptJa": "原生地域の保護\n\nアメリカの国有林の中にあるバウンダリー・ウォーターズ・カヌー・エリア原生地域には、1,000を超える湖と川がある。ここでは訪れる人が手つかずの自然を体験でき、また絶滅の危機にある動植物にとって重要な生息地にもなっている。この地域の地下には、貴重な金属も大量に眠っている。こうした金属を採掘すれば、電子機器から航空機のエンジンまで、さまざまな製品の製造に利用できる。しかし自然保護活動家たちは、採掘によって有害物質が近くの水路に流れ出すことを懸念している。\n\nこの地域での採掘を認めるかどうかをめぐって、地元住民の意見は分かれている。採掘は雇用を生み出して経済を活性化させると言う人がいる一方で、自然保護を優先すべきだと考える人もいる。ある経済学者の研究によれば、採掘は確かに短期的な経済効果をもたらすかもしれない。しかしこの研究では、そうした利益は、採掘が観光業に及ぼす長期的な悪影響よりも小さいという結果が出た。"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "passageLabel": "Passage D",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/26_No20.mp3",
+          "prompt": "What did the study suggest about allowing mining in the area?",
+          "choices": [
+            { "label": "1", "text": "It would not affect local residents." },
+            { "label": "2", "text": "It could bring long-term benefits." },
+            { "label": "3", "text": "It would boost the tourist industry." },
+            { "label": "4", "text": "It could do more harm than good." }
+          ],
+          "answer": "4",
+          "explanation": "正解は4。第2段落の最後で、経済学者の研究により、採掘による短期的な経済効果は観光業への長期的な悪影響よりも小さいことがわかったと述べられている。つまり利益よりも害のほうが大きいということなので4が正解。長期的には悪影響があるとされているので2は誤りで、観光業にも打撃を与えるとされているので3は逆である。",
+          "script": "Wilderness Protection\n\nThe Boundary Waters Canoe Area Wilderness, located in a US national forest, contains over a thousand lakes and rivers. It offers visitors the chance to experience nature in an undisturbed state and provides an important habitat for endangered plants and animals. The area also contains large amounts of valuable metals underground. Such metals could be mined and used to make products ranging from electronics to aircraft engines. However, conservationists worry that mining would release harmful substances into nearby waterways.\n\nLocal residents are split over whether to allow mining in the area. Some say it could improve the economy by creating jobs, while others believe protecting nature should be the priority. According to a study by an economist, mining may indeed bring short-term economic benefits. However, the study found that such benefits would be smaller than the long-term negative impact mining would have on the tourist industry.",
+          "scriptJa": "原生地域の保護\n\nアメリカの国有林の中にあるバウンダリー・ウォーターズ・カヌー・エリア原生地域には、1,000を超える湖と川がある。ここでは訪れる人が手つかずの自然を体験でき、また絶滅の危機にある動植物にとって重要な生息地にもなっている。この地域の地下には、貴重な金属も大量に眠っている。こうした金属を採掘すれば、電子機器から航空機のエンジンまで、さまざまな製品の製造に利用できる。しかし自然保護活動家たちは、採掘によって有害物質が近くの水路に流れ出すことを懸念している。\n\nこの地域での採掘を認めるかどうかをめぐって、地元住民の意見は分かれている。採掘は雇用を生み出して経済を活性化させると言う人がいる一方で、自然保護を優先すべきだと考える人もいる。ある経済学者の研究によれば、採掘は確かに短期的な経済効果をもたらすかもしれない。しかしこの研究では、そうした利益は、採掘が観光業に及ぼす長期的な悪影響よりも小さいという結果が出た。"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "passageLabel": "Passage E",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/28_No21.mp3",
+          "prompt": "What is one thing the speaker says about the tomb of Hetepheres?",
+          "choices": [
+            { "label": "1", "text": "It was discovered by chance." },
+            { "label": "2", "text": "It was smaller than archaeologists expected." },
+            { "label": "3", "text": "It is the oldest tomb in Egypt." },
+            { "label": "4", "text": "It has never been photographed." }
+          ],
+          "answer": "1",
+          "explanation": "正解は1。第1段落で、墓は写真家がカメラを設置している際に、台の下に変わったものがあることにたまたま気づいて発見されたと述べられ、第2段落でも「unexpected discovery」と表現されている。偶然に発見されたということなので1が正解。写真家が発見者として登場するだけで、墓が撮影されたことがないという話はないので4は誤り。墓の大きさや古さについても述べられていないので2、3も誤り。",
+          "script": "A Discovery in Egypt\n\nHetepheres was an important Egyptian queen who lived more than 4,000 years ago. However, the location of her burial place was long a mystery. It was finally discovered in the 1920s by a photographer who, when setting up his camera, noticed something unusual under his camera stand. Upon investigation, he discovered it was a covering over some steps that led down to the tomb of Hetepheres.\n\nThanks to the photographer's unexpected discovery, archaeologists found items of ancient furniture and jewelry, some of which had writings on them. The archaeologists also found evidence that the tomb had been broken into after Hetepheres was buried there. Many items appeared to have been stolen. In fact, even the body of Hetepheres was missing. Although the archaeologists were disappointed by this, the writings and remaining objects in the tomb have helped to expand our knowledge of ancient Egypt.",
+          "scriptJa": "エジプトでの発見\n\nヘテプヘレスは4,000年以上前に生きた、エジプトの重要な王妃である。しかし、彼女の埋葬場所は長い間謎だった。それがついに発見されたのは1920年代で、見つけたのはある写真家だった。彼はカメラを設置していたとき、カメラの台の下に何か変わったものがあることに気づいたのだ。調べてみると、それはヘテプヘレスの墓へと下りていく階段を覆うふたであることがわかった。\n\nこの写真家の思いがけない発見のおかげで、考古学者たちは古代の家具や宝飾品を見つけた。その中には文字が書かれているものもあった。考古学者たちはまた、ヘテプヘレスが埋葬された後に墓が荒らされていた証拠も発見した。多くの品物が盗まれていたようだった。実際、ヘテプヘレスの遺体さえもなくなっていた。考古学者たちはこのことに落胆したが、墓に残された文字や遺物は、古代エジプトについての知識を広げるのに役立っている。"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "passageLabel": "Passage E",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/29_No22.mp3",
+          "prompt": "What is one reason the archaeologists were disappointed?",
+          "choices": [
+            { "label": "1", "text": "The writings in the tomb could not be translated." },
+            { "label": "2", "text": "The body of Hetepheres was not in the tomb." },
+            { "label": "3", "text": "All of the tomb's treasures had disappeared." },
+            { "label": "4", "text": "They were not allowed to study the jewelry." }
+          ],
+          "answer": "2",
+          "explanation": "正解は2。第2段落で、ヘテプヘレスの遺体さえなくなっていたと述べた直後に、考古学者たちは「this」に落胆したと続いているので2が正解。家具や宝飾品は見つかっており、残された遺物が古代エジプトの理解に役立っているので、宝物がすべて消えていたとする3は誤り。文字が翻訳できなかったという話もないので1も誤り。",
+          "script": "A Discovery in Egypt\n\nHetepheres was an important Egyptian queen who lived more than 4,000 years ago. However, the location of her burial place was long a mystery. It was finally discovered in the 1920s by a photographer who, when setting up his camera, noticed something unusual under his camera stand. Upon investigation, he discovered it was a covering over some steps that led down to the tomb of Hetepheres.\n\nThanks to the photographer's unexpected discovery, archaeologists found items of ancient furniture and jewelry, some of which had writings on them. The archaeologists also found evidence that the tomb had been broken into after Hetepheres was buried there. Many items appeared to have been stolen. In fact, even the body of Hetepheres was missing. Although the archaeologists were disappointed by this, the writings and remaining objects in the tomb have helped to expand our knowledge of ancient Egypt.",
+          "scriptJa": "エジプトでの発見\n\nヘテプヘレスは4,000年以上前に生きた、エジプトの重要な王妃である。しかし、彼女の埋葬場所は長い間謎だった。それがついに発見されたのは1920年代で、見つけたのはある写真家だった。彼はカメラを設置していたとき、カメラの台の下に何か変わったものがあることに気づいたのだ。調べてみると、それはヘテプヘレスの墓へと下りていく階段を覆うふたであることがわかった。\n\nこの写真家の思いがけない発見のおかげで、考古学者たちは古代の家具や宝飾品を見つけた。その中には文字が書かれているものもあった。考古学者たちはまた、ヘテプヘレスが埋葬された後に墓が荒らされていた証拠も発見した。多くの品物が盗まれていたようだった。実際、ヘテプヘレスの遺体さえもなくなっていた。考古学者たちはこのことに落胆したが、墓に残された文字や遺物は、古代エジプトについての知識を広げるのに役立っている。"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "passageLabel": "Passage F",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/31_No23.mp3",
+          "prompt": "What have some studies in the UK shown about moving?",
+          "choices": [
+            { "label": "1", "text": "It causes more problems for wealthy families." },
+            { "label": "2", "text": "It has been occurring less frequently." },
+            { "label": "3", "text": "It may especially affect teenagers." },
+            { "label": "4", "text": "It has a significant impact on adults' health." }
+          ],
+          "answer": "3",
+          "explanation": "正解は3。第1段落の最後で、一部の研究によれば10代の若者が引っ越しによる最も深刻な悪影響を受ける可能性があると述べられているので3が正解。引っ越しの影響は家庭が裕福か貧しいかにかかわらず同じだとされているので1は誤り。研究が扱っているのは子どもへの影響であり、大人の健康については触れていないので4も誤り。",
+          "script": "Moving during Childhood\n\nMoving to a new home can be difficult for children. Researchers are learning more about the problems it causes and which children are most at risk. Studies in the UK have shown that children forced to move more than once in a single year are especially affected. The impact of moving is the same whether children come from wealthy or poor backgrounds. However, some of the studies have also shown that teenagers may experience the most serious negative effects of moving.\n\nThe findings of a study using data from Denmark showed that moving more than once can increase a child's risk of criminal activity later in life. Moving to a new area and having to form social relationships at a new school can be difficult and stressful for children. More research is needed to determine how to prevent these negative effects.",
+          "scriptJa": "子ども時代の引っ越し\n\n新しい家への引っ越しは、子どもにとってつらいものになり得る。研究者たちは、引っ越しが引き起こす問題や、どのような子どもが最も影響を受けやすいかについて、理解を深めつつある。イギリスでの研究によると、1年のうちに2回以上の引っ越しを余儀なくされた子どもは、特に大きな影響を受ける。引っ越しの影響は、子どもが裕福な家庭の出身か貧しい家庭の出身かにかかわらず同じである。しかし一部の研究では、10代の若者が引っ越しによる最も深刻な悪影響を受ける可能性があることも示されている。\n\nデンマークのデータを用いた研究では、2回以上引っ越すと、その子どもが後の人生で犯罪に関わるリスクが高まる可能性があるという結果が出た。新しい地域に移り、新しい学校で人間関係を築かなければならないことは、子どもにとって難しく、ストレスの多いものになり得る。こうした悪影響を防ぐ方法を明らかにするには、さらなる研究が必要である。"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "passageLabel": "Passage F",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-2/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-2/32_No24.mp3",
+          "prompt": "What was learned from the data from Denmark?",
+          "choices": [
+            { "label": "1", "text": "Moving increases the rate of divorce." },
+            { "label": "2", "text": "Moving helps solve problems at school." },
+            { "label": "3", "text": "Moving can damage parent-child relationships." },
+            { "label": "4", "text": "Moving can lead to behavior problems." }
+          ],
+          "answer": "4",
+          "explanation": "正解は4。第2段落の冒頭で、デンマークのデータを使った研究により、複数回の引っ越しが後の人生で犯罪に関わるリスクを高め得ることが示されたと述べられている。「criminal activity」を「behavior problems」と言い換えた4が正解。新しい学校での人間関係づくりはむしろストレスの原因とされているので2は誤りで、離婚や親子関係については述べられていないので1、3も誤り。",
+          "script": "Moving during Childhood\n\nMoving to a new home can be difficult for children. Researchers are learning more about the problems it causes and which children are most at risk. Studies in the UK have shown that children forced to move more than once in a single year are especially affected. The impact of moving is the same whether children come from wealthy or poor backgrounds. However, some of the studies have also shown that teenagers may experience the most serious negative effects of moving.\n\nThe findings of a study using data from Denmark showed that moving more than once can increase a child's risk of criminal activity later in life. Moving to a new area and having to form social relationships at a new school can be difficult and stressful for children. More research is needed to determine how to prevent these negative effects.",
+          "scriptJa": "子ども時代の引っ越し\n\n新しい家への引っ越しは、子どもにとってつらいものになり得る。研究者たちは、引っ越しが引き起こす問題や、どのような子どもが最も影響を受けやすいかについて、理解を深めつつある。イギリスでの研究によると、1年のうちに2回以上の引っ越しを余儀なくされた子どもは、特に大きな影響を受ける。引っ越しの影響は、子どもが裕福な家庭の出身か貧しい家庭の出身かにかかわらず同じである。しかし一部の研究では、10代の若者が引っ越しによる最も深刻な悪影響を受ける可能性があることも示されている。\n\nデンマークのデータを用いた研究では、2回以上引っ越すと、その子どもが後の人生で犯罪に関わるリスクが高まる可能性があるという結果が出た。新しい地域に移り、新しい学校で人間関係を築かなければならないことは、子どもにとって難しく、ストレスの多いものになり得る。こうした悪影響を防ぐ方法を明らかにするには、さらなる研究が必要である。"
+        }
+      ]
+    },
+    {
+      "id": "part3",
+      "title": "Part 3",
+      "description": "Real-Life形式の内容一致選択 — 実生活で遭遇する場面での英文を聞き、質問に答えなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2021-2/33_Part3_explanation.mp3",
+      "questions": [
+        {
+          "id": "q25",
+          "number": 25,
+          "audio": "audio/eiken/eiken-pre1-2021-2/34_question_G_No25.mp3",
+          "passageLabel": "Situation G",
+          "prompt": "What should you do first?",
+          "promptJa": "あなたはまず何をすべきか？",
+          "situation": "You are an international student at a US university. You want to apply for a graduate program but are worried about funding. An academic adviser tells you the following.",
+          "situationJa": "あなたはアメリカの大学に通う留学生である。大学院のプログラムに出願したいが、資金面が心配だ。学業アドバイザーがあなたに次のように話す。",
+          "choices": [
+            { "label": "1", "text": "Apply for a scholarship." },
+            { "label": "2", "text": "Renew your visa." },
+            { "label": "3", "text": "Apply for financial aid." },
+            { "label": "4", "text": "Choose a supervisor." }
+          ],
+          "answer": "3",
+          "explanation": "正解は3。奨学金はプログラムに合格してからでないと申し込めないが、学生ローンなどほかの経済的支援には「right away」申し込めると説明されている。資金面が心配なあなたがまずすべきなのは経済的支援への申し込みなので3が正解。奨学金の申し込みは合格後なので1は最初にすることではなく、ビザは問題にならず、指導教員は割り当てられるので2、4も不要である。",
+          "script": "Well, your grades are good enough to qualify, and you might even be entitled to a scholarship based on your academic record so far. You can apply for one, but you'll need to be accepted into the program first. In the meantime, if you're concerned about the cost of the program, you can apply for other forms of financial aid, like a student loan. That can be done right away, and the approval process is quick. Your visa shouldn't be an issue, and as for your supervisor, one will be appointed for you depending on your course of study.",
+          "scriptJa": "そうですね、あなたの成績なら出願の条件は十分に満たしていますし、これまでの学業成績からすると、奨学金を受けられる可能性もあります。奨学金に申し込むことはできますが、まずプログラムに合格する必要があります。それまでの間、プログラムの費用が心配なら、学生ローンなど、ほかの形の経済的支援に申し込むことができます。こちらはすぐに手続きができますし、審査もすぐに終わります。ビザは問題にならないはずですし、指導教員については、専攻する分野に応じて割り当てられます。"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "audio": "audio/eiken/eiken-pre1-2021-2/35_question_H_No26.mp3",
+          "passageLabel": "Situation H",
+          "prompt": "What should you do?",
+          "promptJa": "あなたはどうすべきか？",
+          "situation": "You are at an airport. Your flight to London has been canceled, but you need to get there as soon as possible. You hear the following announcement.",
+          "situationJa": "あなたは空港にいる。ロンドン行きの便が欠航になったが、できるだけ早く現地に着く必要がある。次のアナウンスが聞こえてくる。",
+          "choices": [
+            { "label": "1", "text": "Take the charter flight." },
+            { "label": "2", "text": "Pay for a seat upgrade." },
+            { "label": "3", "text": "Go to the airport hotel." },
+            { "label": "4", "text": "Take the flight to Amsterdam." }
+          ],
+          "answer": "1",
+          "explanation": "正解は1。本日中に出発する方法は2つあり、チャーター便は1時間後に出発して今晩ロンドンに着くのに対し、アムステルダム経由では到着が明日の早朝になる。できるだけ早くロンドンに着きたいのだから、チャーター便に乗る1が正解。空港ホテルに泊まると明日の便になるので3は誤りで、どちらの選択肢も今の航空券で利用でき、座席のアップグレードに料金を払う話もないので2も当てはまらない。",
+          "script": "We apologize for the cancellation of the flight to London. All passengers can take the same flight tomorrow, and free accommodation will be provided at an airport hotel for tonight. Passengers wishing to leave today have two options. First, a charter flight will leave in one hour and arrive in London this evening. This flight has economy-class seats only. Second, there are first-class and business-class seats available on a flight to Amsterdam. A connecting flight to London will arrive in the early hours of tomorrow morning. You can use your existing ticket for both of these options.",
+          "scriptJa": "ロンドン行きの便が欠航となりましたことをお詫び申し上げます。お客様は全員、明日の同じ便にご搭乗いただけます。また、今夜は空港ホテルの宿泊を無料でご用意いたします。本日中のご出発をご希望のお客様には、2つの選択肢がございます。1つ目は、1時間後に出発し、今晩ロンドンに到着するチャーター便です。この便はエコノミークラスの座席のみとなります。2つ目は、アムステルダム行きの便にファーストクラスとビジネスクラスの空席がございます。ロンドンへの乗り継ぎ便は、明日の早朝に到着いたします。どちらの選択肢も、現在お持ちの航空券をそのままご利用いただけます。"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "audio": "audio/eiken/eiken-pre1-2021-2/36_question_I_No27.mp3",
+          "passageLabel": "Situation I",
+          "prompt": "Which room should you go to?",
+          "promptJa": "あなたはどの部屋に行くべきか？",
+          "situation": "You are attending an academic conference on teaching English to university students. Your main interest is student motivation. You hear the following announcement.",
+          "situationJa": "あなたは大学生への英語教育に関する学会に参加している。あなたの主な関心は学生の動機づけである。次のアナウンスが聞こえてくる。",
+          "choices": [
+            { "label": "1", "text": "Room 210." },
+            { "label": "2", "text": "Room 212." },
+            { "label": "3", "text": "Room 214." },
+            { "label": "4", "text": "Room 216." }
+          ],
+          "answer": "3",
+          "explanation": "正解は3。214号室では、学生が英語を使いたくなる現実的な場面を使って「motivating lessons」を作る方法を学べると説明されている。学生の動機づけに関心があるあなたにはこれが最も合うので3が正解。210号室は発音、212号室は初心者への文法指導、216号室はクラス分けのテストがテーマなので、1、2、4は関心に合わない。",
+          "script": "That concludes this morning's opening session. The next session will begin at 1 p.m., following the lunch break. There are four excellent options to choose from, each focusing on a different theme. The first seminar will focus on factors that affect English pronunciation and will be held in room 210. The second will focus on teaching grammar to beginners and will be held in room 212. In room 214, participants will learn how to create motivating lessons using realistic situations that inspire students to use English. Finally, in room 216, there'll be a discussion on testing in relation to class placement.",
+          "scriptJa": "以上で、午前の開会セッションを終了いたします。次のセッションは昼食休憩の後、午後1時から始まります。それぞれ異なるテーマを扱う、4つの充実したセッションの中からお選びいただけます。1つ目のセミナーは英語の発音に影響を与える要因を取り上げるもので、210号室で行われます。2つ目は初心者への文法指導をテーマとし、212号室で行われます。214号室では、学生が英語を使いたくなるような現実的な場面を活用して、意欲を引き出す授業を作る方法を学びます。最後に、216号室では、クラス分けに関わるテストについての討論が行われます。"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "audio": "audio/eiken/eiken-pre1-2021-2/37_question_J_No28.mp3",
+          "passageLabel": "Situation J",
+          "prompt": "When should you meet with your colleague?",
+          "promptJa": "あなたはいつ同僚と会うべきか？",
+          "situation": "You are a teacher. You teach classes every weekday and supervise basketball practice after school on Tuesdays. You receive the following voice mail from a colleague on Monday morning.",
+          "situationJa": "あなたは教師である。平日は毎日授業を担当し、火曜日の放課後にはバスケットボールの練習を指導している。月曜日の朝、同僚から次のような留守番電話のメッセージが届く。",
+          "choices": [
+            { "label": "1", "text": "During lunchtime on Tuesday." },
+            { "label": "2", "text": "On Wednesday evening." },
+            { "label": "3", "text": "On Thursday evening." },
+            { "label": "4", "text": "Next Monday." }
+          ],
+          "answer": "3",
+          "explanation": "正解は3。ランスは明日、つまり火曜日の放課後を第1候補に挙げているが、あなたは火曜日の放課後にバスケットボールの練習を指導しなければならない。水曜日の夜はランスに別の打ち合わせがあり、木曜日の夜なら大丈夫だと言っているので3が正解。昼食時は今週毎日ランスに当番があるので1は無理で、来週の月曜日までに校長に確認する必要があるので4も誤り。",
+          "script": "Hi, Lance here. I know we'd planned our meeting about the new curriculum for this evening, but something's come up. I've had to book an after-school meeting with a parent, so I need to reschedule. Unfortunately, I have lunchroom duty every day this week, so that time slot is out. I know you're really busy, but could we meet tomorrow after school? I have another evening meeting on Wednesday, but Thursday evening would also work. We can't leave it until next week because I need to confirm the curriculum with the principal by next Monday.",
+          "scriptJa": "もしもし、ランスです。新しいカリキュラムについての打ち合わせを今晩に予定していましたが、ちょっと用事ができてしまいました。放課後に保護者との面談を入れなければならなくなったので、日程を変更させてください。あいにく今週は毎日昼食時の当番があるので、その時間帯は無理です。とても忙しいのはわかっているのですが、明日の放課後に会えませんか？水曜日の夜は別の打ち合わせがありますが、木曜日の夜でも大丈夫です。来週の月曜日までに校長にカリキュラムを確認してもらう必要があるので、来週まで延ばすことはできません。"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "audio": "audio/eiken/eiken-pre1-2021-2/38_question_K_No29.mp3",
+          "passageLabel": "Situation K",
+          "prompt": "Which option should you choose?",
+          "promptJa": "あなたはどの選択肢を選ぶべきか？",
+          "situation": "You want to become a volunteer language interpreter. You do not have experience volunteering. The director of a local volunteer center tells you the following.",
+          "situationJa": "あなたはボランティアの通訳になりたいと思っている。ボランティアの経験はない。地域のボランティアセンターの所長があなたに次のように話す。",
+          "choices": [
+            { "label": "1", "text": "Helping at hospitals." },
+            { "label": "2", "text": "The school program." },
+            { "label": "3", "text": "Helping at police stations." },
+            { "label": "4", "text": "The youth mentorship program." }
+          ],
+          "answer": "2",
+          "explanation": "正解は2。ボランティア活動が初めての人向けに、さまざまな言語的背景を持つ子どもたちを支援する学校でのプログラムがあると説明されている。経験のないあなたが参加できるのはこれなので2が正解。病院は1年以上、警察署は2年以上の経験が必要で、青少年の指導プログラムも同様のプログラムへの参加経験が条件なので、1、3、4は選べない。",
+          "script": "Thank you for applying to be a volunteer. There are a number of options that might interest you. Mainly, we need people who can work at hospitals to assist new immigrants with paperwork, which requires at least a year of experience. For people new to volunteer work, there's a program in schools to help children with different language backgrounds. We also need people to help out at police stations, which requires at least two years of experience. There's also the youth mentorship program, which is open to people with experience participating in similar programs.",
+          "scriptJa": "ボランティアにご応募いただき、ありがとうございます。あなたが興味を持ちそうな選択肢がいくつかあります。主に必要としているのは、病院で新しく来た移民の書類手続きを手伝ってくれる人ですが、これには少なくとも1年の経験が必要です。ボランティア活動が初めての方には、さまざまな言語的背景を持つ子どもたちを支援する、学校でのプログラムがあります。警察署で手伝ってくれる人も必要ですが、こちらは少なくとも2年の経験が必要です。また、青少年の指導プログラムもありますが、これは同様のプログラムに参加した経験のある人が対象です。"
+        }
+      ]
+    }
+  ]
+}

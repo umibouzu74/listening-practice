@@ -7,7 +7,6 @@
     "year": 2022,
     "grade": "pre1",
     "session": "2022-1",
-    "status": "draft",
     "icon": "🏅",
     "totalTime": 29
   },
@@ -23,169 +22,193 @@
           "id": "q1",
           "number": 1,
           "audio": "audio/eiken/eiken-pre1-2022-1/02_No1.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What do we learn about Vince?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He no longer drives to work." },
+            { "label": "2", "text": "His car is being repaired." },
+            { "label": "3", "text": "He cannot afford to buy gas." },
+            { "label": "4", "text": "His new bicycle was stolen." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "車で通勤していると思っていたと言う女性に対し、男性は2番目の発言で車の故障を否定し、体重が増えてきたので歩いていると答えている。今は車で通勤していないということなので1が正解。車は故障していないので2は誤り。自転車は浮いたガソリン代でこれから買う予定であり、盗まれたわけではないので4も誤り。",
+          "script": "W: Hi, Vince. Nice day for a walk, huh?\nM: Yeah, it is. Actually, I'm on my way to work.\nW: I thought you drove to work. Is something wrong with your car?\nM: No, I've just been putting on a bit of weight recently.\nW: I guess you have to get up pretty early now, though.\nM: I don't mind that. And I feel a lot healthier.\nW: Great! And I bet walking is easier on your wallet, too.\nM: Definitely! I'm planning to use the gas savings to buy a new bike.",
+          "scriptJa": "W: こんにちは、ヴィンス。散歩にはいい日ね。\nM: うん、本当に。実は今、仕事に行く途中なんだ。\nW: 車で通勤してると思ってた。車の調子でも悪いの？\nM: いや、最近ちょっと太ってきちゃってね。\nW: でも、それだと朝はかなり早く起きなきゃいけないでしょう。\nM: それは平気だよ。それに、体の調子がずっといいんだ。\nW: よかったじゃない！それに、歩きならお財布にも優しいでしょうね。\nM: そのとおり！浮いたガソリン代で新しい自転車を買うつもりなんだ。"
         },
         {
           "id": "q2",
           "number": 2,
           "audio": "audio/eiken/eiken-pre1-2022-1/03_No2.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does Fernando suggest about his roommate?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "He wants to move out." },
+            { "label": "2", "text": "He likes to have parties." },
+            { "label": "3", "text": "He is not very open." },
+            { "label": "4", "text": "He is very messy." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "フェルナンドは最初の発言で、ルームメイトは not very communicative で、何を考えているのかわからないと述べている。これを「あまり心を開かない」と言い換えた3が正解。pretty tidy と言っているので4は逆の内容であり、少し騒がしいのは同じ階の別の学生たちなので2も当てはまらない。",
+          "script": "W: Fernando, how are you getting along with your dorm roommate?\nM: Oh, he's all right, Mom, I guess. He's pretty tidy, but he's not very communicative. I never know what's on his mind.\nW: Do you ever do things together?\nM: Almost never. I spend more time with the other guys on my floor. They're a little crazy, but they're fun.\nW: Well, I'm glad you're enjoying yourself, but don't forget to spend enough time on your studies.",
+          "scriptJa": "W: フェルナンド、寮のルームメイトとはうまくやってるの？\nM: ああ、まあ悪くないと思うよ、母さん。かなりきれい好きなんだけど、あんまりしゃべらないんだ。何を考えてるのか全然わからないよ。\nW: 一緒に何かすることはあるの？\nM: ほとんどないね。同じ階のほかの連中といるほうが多いよ。ちょっとめちゃくちゃなやつらだけど、楽しいんだ。\nW: まあ、楽しくやってるならよかったわ。でも、勉強にも十分時間を使うのを忘れないでね。"
         },
         {
           "id": "q3",
           "number": 3,
           "audio": "audio/eiken/eiken-pre1-2022-1/04_No3.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why did Matt not get the job?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The other candidates were more qualified." },
+            { "label": "2", "text": "He forgot to call the manager yesterday." },
+            { "label": "3", "text": "The manager did not like him." },
+            { "label": "4", "text": "He missed the interview." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "マットは最初の発言で、事故で電車が止まって面接に行けなかったと話しており、その後、再度の面接も断られている。面接を受けられなかったことが不採用の理由なので4が正解。マネージャーには帰宅後すぐに電話しているので2は誤り。最後の発言の「優秀な候補者が多い」はマットの推測にすぎず、他の候補者と比べて劣ると判断されたわけではないので1も不適切。",
+          "script": "W: How are things going, Matt?\nM: Not so good. I was supposed to have a job interview yesterday, but all the trains were stopped due to an accident, so I couldn't make it.\nW: But they'll give you another chance, won't they?\nM: No. I called the manager as soon as I got home. He said they'd already seen enough people. Looks like I'm out of luck.\nW: That's awful.\nM: Yeah, well, I guess they have a lot of good candidates to choose from.",
+          "scriptJa": "W: 調子はどう、マット？\nM: あまりよくないんだ。昨日、就職の面接があるはずだったんだけど、事故で電車が全部止まって、行けなかったんだよ。\nW: でも、もう一度チャンスをくれるんでしょう？\nM: いや。家に着いてすぐ担当のマネージャーに電話したんだけど、もう十分な人数に会ったって言われたよ。運がなかったみたいだ。\nW: それはひどいね。\nM: うん、まあ、優秀な候補者がたくさんいて、選び放題なんだろうね。"
         },
         {
           "id": "q4",
           "number": 4,
           "audio": "audio/eiken/eiken-pre1-2022-1/05_No4.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man imply about the writing course?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The woman needs to pass it to graduate." },
+            { "label": "2", "text": "It does not match the woman's goals." },
+            { "label": "3", "text": "It is too advanced for the woman." },
+            { "label": "4", "text": "Passing it could help the woman find a job." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "教授は2番目の発言で、必修ではないが合格すれば future employers would be impressed だと述べている。就職の際に有利になることを示唆しているので4が正解。It's not a mandatory course と言っているので1は誤り。また、you certainly have the ability とも言っているので、講座のレベルが高すぎるとする3も合わない。",
+          "script": "W: Professor Cranfield, can I ask you something?\nM: Sure, Lucinda.\nW: It's about your intensive Spanish writing course. I feel like I'm already busy with my other classes. Doing the writing course might be too much.\nM: I understand. I think you certainly have the ability, but I don't want to push you. It's not a mandatory course, but future employers would be impressed if you passed it.\nW: Thanks for your advice. I'll think it over a little more.",
+          "scriptJa": "W: クランフィールド先生、ちょっとご相談してもいいですか？\nM: もちろんだよ、ルシンダ。\nW: 先生のスペイン語ライティング集中講座のことなんです。ほかの授業だけでもう手いっぱいな気がしていて。ライティング講座まで取ると、負担が大きすぎるかもしれません。\nM: わかるよ。君には十分な力があると思うけど、無理強いはしたくない。必修の講座ではないけれど、合格すれば将来の雇い主にいい印象を与えられるだろうね。\nW: アドバイスありがとうございます。もう少しよく考えてみます。"
         },
         {
           "id": "q5",
           "number": 5,
           "audio": "audio/eiken/eiken-pre1-2022-1/06_No5.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man imply?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The woman should take a break from school." },
+            { "label": "2", "text": "Working as a server is physically demanding." },
+            { "label": "3", "text": "Restaurant workers do not make much money." },
+            { "label": "4", "text": "Students should not get part-time jobs." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "男性は2番目の発言で、長時間立っているのが好きならいいけど、と遠回しに言い、さらに3番目の発言で履き心地のいい靴を買うよう勧めている。どちらも接客の仕事が体力的にきついことをほのめかしているので2が正解。男性はアルバイトをすること自体には反対していないので4は誤りで、給料の少なさにも触れていないので3も合わない。",
+          "script": "M: Amy, I heard you're looking for a part-time job.\nW: I'm thinking about working at a restaurant as a server. I could use the money to help pay for school fees.\nM: Well, I hope you like standing for long periods of time.\nW: I would get breaks, you know. I doubt it would be that bad.\nM: Well, I think you should buy some comfortable shoes, just in case.\nW: I need to get the job first.",
+          "scriptJa": "M: エイミー、アルバイトを探してるんだって？\nW: レストランで接客の仕事をしようと思ってるの。そのお金を学費の足しにできるし。\nM: うーん、長時間立ちっぱなしでも平気だといいけどね。\nW: 休憩だってもらえるのよ。そんなに大変じゃないと思うけど。\nM: まあ、念のために履き心地のいい靴を買っておいたほうがいいと思うよ。\nW: まずは採用されないとね。"
         },
         {
           "id": "q6",
           "number": 6,
           "audio": "audio/eiken/eiken-pre1-2022-1/07_No6.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What will these people probably do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Buy a gift from the list." },
+            { "label": "2", "text": "Decline the wedding invitation." },
+            { "label": "3", "text": "Speak to Carla and Antonio." },
+            { "label": "4", "text": "Return the silver dining set." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "リストにない安い品を贈ろうかという男性の提案に対し、女性は最後の発言で No と答え、相手が欲しがらないかもしれない物は贈りたくないと述べている。高価でもリストに載っている品を買うことになると考えられるので1が正解。結婚式への出席を断る話は出ていないので2は誤り。銀の食器セットはまだ買っていないので、それを返品するという4も成り立たない。",
+          "script": "W: We still need to buy a present for Carla and Antonio's wedding. Have you checked out the gift registry yet?\nM: Yes, but the only things left on the list are really expensive items, like the silver dining set.\nW: I warned you that if we didn't choose something quickly, the affordable stuff would all be gone.\nM: Sorry. You were right. What should we do? Get them something cheaper that's not on the list?\nW: No. I'd rather not take any chances. We don't want to give them something they might not want.",
+          "scriptJa": "W: カーラとアントニオの結婚祝い、まだ買わなきゃいけないわよね。ギフトリストはもう見てくれた？\nM: うん、でもリストに残ってるのは、銀の食器セットみたいなすごく高い品物ばかりなんだ。\nW: 早く選ばないと手頃なものはなくなっちゃうって言ったじゃない。\nM: ごめん。君の言うとおりだったよ。どうしようか？リストにない、もっと安いものを贈る？\nW: だめよ。危ない橋は渡りたくないわ。欲しくないかもしれないものを贈るわけにはいかないでしょう。"
         },
         {
           "id": "q7",
           "number": 7,
           "audio": "audio/eiken/eiken-pre1-2022-1/08_No7.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What is one reason the woman suggests the Korean restaurant?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It has large portions." },
+            { "label": "2", "text": "It is a short drive from home." },
+            { "label": "3", "text": "It is cheaper than other places." },
+            { "label": "4", "text": "It has a good reputation." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "女性は3番目の発言で the servings are huge と言い、明日の昼食の分まであると述べている。量が多いことを理由に挙げているので1が正解。男性が帰り道から外れていて少し値段が高いと指摘しているので、2と3はむしろ逆の内容である。",
+          "script": "W: Would you mind picking up some takeout on your way home?\nM: No problem. How about burgers?\nW: Too greasy. I was thinking about that Korean restaurant we went to last week.\nM: That's not exactly on my way home, and it's a little pricey.\nW: I know, but the servings are huge. We'd have enough for lunch tomorrow, too. Korean food is just as good the next day.\nM: All right. They're usually pretty quick with orders, so I should be home by around six.",
+          "scriptJa": "W: 帰りに何か持ち帰りの料理を買ってきてくれない？\nM: いいよ。ハンバーガーはどう？\nW: 脂っこすぎるわ。先週行ったあの韓国料理のお店がいいなと思ってたの。\nM: あそこは帰り道からちょっと外れるし、少し値段が高いよ。\nW: わかってる。でも量がすごく多いじゃない。明日のお昼の分まであるわよ。韓国料理は次の日に食べても同じくらいおいしいし。\nM: わかった。あの店はたいてい注文が出てくるのが早いから、6時ごろには帰れるはずだよ。"
         },
         {
           "id": "q8",
           "number": 8,
           "audio": "audio/eiken/eiken-pre1-2022-1/09_No8.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What are these people going to do for their vacation?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Spend time hiking." },
+            { "label": "2", "text": "Go fishing at a lake." },
+            { "label": "3", "text": "Take a ski trip." },
+            { "label": "4", "text": "Go sightseeing." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "女性はスキーに行きたいと言い、男性は最後の発言で今回は女性の希望どおりにし、山に行くと子どもたちに伝えると述べている。スキー旅行に行くとわかるので3が正解。湖での釣りは前回のキャンプの話なので2は誤り。街の観光は前回女性がしたかったことで、今回の希望はスキーなので4も誤り。",
+          "script": "W: We should start planning our vacation for this year.\nM: How about escaping the cold weather and going somewhere tropical with a nice beach?\nW: I was hoping we could go skiing.\nM: Well, what did we do on our last vacation?\nW: We went camping. You caught that giant fish at the lake, remember?\nM: Oh, right. And you wanted to go sightseeing in town, but the kids and I outvoted you.\nW: That's right.\nM: OK. Let's do what you want this time. I'll tell the kids we're headed for the mountains.",
+          "scriptJa": "W: 今年の休暇の計画を立て始めないとね。\nM: 寒さから逃げて、きれいなビーチのある南の島にでも行くのはどう？\nW: 私はスキーに行けたらいいなと思ってたの。\nM: ええと、前回の休暇は何をしたっけ？\nW: キャンプに行ったじゃない。湖であなたがすごく大きな魚を釣ったでしょう、覚えてる？\nM: ああ、そうだった。それに君は街の観光に行きたがってたのに、僕と子どもたちの多数決で負けたんだよね。\nW: そうよ。\nM: よし。今回は君の希望どおりにしよう。子どもたちには山に行くって伝えておくよ。"
         },
         {
           "id": "q9",
           "number": 9,
           "audio": "audio/eiken/eiken-pre1-2022-1/10_No9.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the woman say about the company's blog?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Some customers complained about it." },
+            { "label": "2", "text": "One of the posts needs to be revised." },
+            { "label": "3", "text": "Kenneth should not edit the latest post." },
+            { "label": "4", "text": "It should be updated more frequently." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "女性は最初の発言で最新記事の発売日が間違っていると指摘し、2番目の発言ですぐに対処するよう求めている。記事を修正する必要があるということなので2が正解。客から苦情が来たわけではなく、客に誤解を与える前に直そうとしているので1は誤り。ジェイソンが休みのため、ケネスが代わりに修正することになったので3も合わない。",
+          "script": "W: Hey, Kenneth. I was looking at the latest post on our company's blog. The one about the release of our new earphones. The release date is wrong. It should be May 15th, not the 5th as stated in the post.\nM: Really? That post was added by Jason last night.\nW: Well, we need to take care of it immediately so we don't mislead our customers. Ask Jason to do that right away.\nM: I'm afraid he has the day off today. I'll handle it instead.\nW: Thanks.",
+          "scriptJa": "W: ねえ、ケネス。会社のブログの最新記事を見ていたんだけど。新しいイヤホンの発売についての記事よ。発売日が間違ってるの。記事には5日とあるけど、正しくは5月15日よ。\nM: 本当ですか？あの記事は昨夜ジェイソンが投稿したものです。\nW: とにかく、お客様に誤解を与えないよう、すぐに対処しないと。ジェイソンにすぐ直すよう頼んでくれる？\nM: あいにく彼は今日休みなんです。代わりに私が対応します。\nW: ありがとう。"
         },
         {
           "id": "q10",
           "number": 10,
           "audio": "audio/eiken/eiken-pre1-2022-1/11_No10.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "Why is the woman upset?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Her wallet is missing." },
+            { "label": "2", "text": "Her train pass expired." },
+            { "label": "3", "text": "She missed her train." },
+            { "label": "4", "text": "She wasted her money." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "女性は3番目の発言で、50ドルをチャージしたばかりのカードをなくしてしまい、それが全部無駄になったことに苛立っていると述べている。これを「お金を無駄にした」と言い換えた4が正解。なくしたのはカードで、財布ではないので1は誤り。カードの期限切れや電車への乗り遅れの話は出てこないので2と3も当てはまらない。",
+          "script": "W: Excuse me, sir. Has anyone turned in a train pass today?\nM: I'm afraid not. Have you lost yours?\nW: Yeah. When I used mine this morning, I was certain I put it back in my wallet, but I guess I didn't.\nM: I can give you the form to purchase another one.\nW: Looks like I have no choice. It makes me so frustrated, though. I had just put $50 on it. Now, I've lost it all.\nM: I'm sorry. Here's the form. It should only take a couple of minutes to fill out.\nW: Thanks. I'll do that now.",
+          "scriptJa": "W: すみません。今日、乗車カードの落とし物は届いていませんか？\nM: あいにく届いていませんね。なくされたんですか？\nW: ええ。今朝使ったとき、確かに財布に戻したと思ったんですけど、戻してなかったみたいで。\nM: 新しいカードを購入するための用紙をお渡しできますよ。\nW: そうするしかなさそうですね。でも、本当に悔しいです。50ドルチャージしたばかりだったのに。それが全部なくなっちゃいました。\nM: お気の毒です。こちらが用紙です。記入は数分で済むはずですよ。\nW: ありがとうございます。今書きます。"
         },
         {
           "id": "q11",
           "number": 11,
           "audio": "audio/eiken/eiken-pre1-2022-1/12_No11.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What was the woman's problem?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "She did not like the pianist's playing." },
+            { "label": "2", "text": "She arrived at the concert late." },
+            { "label": "3", "text": "She could not focus on the concert." },
+            { "label": "4", "text": "She was unable to find her ticket." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "女性は最後の発言で、ほかの観客がひそひそ話やスマートフォンの操作を続けていたため It was hard to concentrate と述べている。コンサートに集中できなかったので3が正解。ピアニストについては superb とほめているので1は誤り。チケットについては男性の分をジャスミンに売ったという話で、自分のチケットが見つからなかったわけではないので4も誤り。",
+          "script": "M: Michelle, I'm sorry I couldn't make it to the piano concert last Sunday.\nW: No problem. I sold your ticket to Jasmine, so it wasn't wasted.\nM: I'm relieved to hear that. Did you enjoy the concert?\nW: Well, the pianist was superb. Unfortunately, we were bothered by another audience member, though.\nM: What happened?\nW: He was continuously whispering to the person next to him and playing with his smartphone. It was hard to concentrate.\nM: Oh, that's a shame.",
+          "scriptJa": "M: ミシェル、この前の日曜日のピアノコンサート、行けなくてごめんね。\nW: 気にしないで。あなたのチケットはジャスミンに売ったから、無駄にはならなかったわ。\nM: それを聞いてほっとしたよ。コンサートは楽しめた？\nW: そうね、ピアニストは素晴らしかったわ。でも残念なことに、ほかのお客さんに邪魔されちゃって。\nM: 何があったの？\nW: その人、隣の人にずっとひそひそ話しかけたり、スマートフォンをいじったりしてたの。集中するのが大変だったわ。\nM: ああ、それは残念だったね。"
         },
         {
           "id": "q12",
           "number": 12,
           "audio": "audio/eiken/eiken-pre1-2022-1/13_No12.mp3",
-          "prompt": "Choose the best response to complete the conversation.",
+          "prompt": "What does the man ask the woman to do?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Call him back in the evening." },
+            { "label": "2", "text": "Give him new delivery instructions." },
+            { "label": "3", "text": "Change her delivery option online." },
+            { "label": "4", "text": "Tell him what time she will be home." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "配達員の男性は3番目の発言で、荷物が宅配ボックスに入らないと伝え、別の場所に置いてもよいかと尋ねている。新しい置き場所の指示を求めているので2が正解。オンラインで配達方法を変更するよう頼んではいないので3は誤り。帰宅時刻は女性が自分から伝えただけで、男性が尋ねたわけではないので4も誤り。",
+          "script": "W: Hello, Jenny Williams speaking.\nM: Hello. I'm calling about a package I'm supposed to deliver to your house.\nW: Oh, I see. Is there something wrong?\nM: When you selected your delivery option online, you asked us to use the delivery box.\nW: Yes, I won't be home until seven tonight.\nM: Unfortunately, the package won't fit in the box. Could I leave it in another location instead?\nW: Sure. If you can take it around to the side of the house, there's a bicycle shelter. You can leave it there.",
+          "scriptJa": "W: もしもし、ジェニー・ウィリアムズです。\nM: もしもし。お宅にお届けする予定のお荷物の件でお電話しました。\nW: ああ、そうですか。何か問題でも？\nM: オンラインで配達方法を選択された際、宅配ボックスへの配達をご希望されていましたよね。\nW: ええ、今夜は7時まで家に帰らないので。\nM: あいにく、お荷物がボックスに入らないんです。代わりに別の場所に置かせていただけますか？\nW: いいですよ。家の横に回っていただくと自転車置き場があるので、そこに置いてください。"
         }
       ]
     },
@@ -199,206 +222,218 @@
         {
           "id": "q13",
           "number": 13,
-          "audio": "audio/eiken/eiken-pre1-2022-1/16_No13.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/16_No13.mp3",
+          "prompt": "What is one thing the speaker says about rivers?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Water levels have decreased in many of them." },
+            { "label": "2", "text": "Laws to protect them need to be stricter." },
+            { "label": "3", "text": "Countries sharing them usually have the same usage rights." },
+            { "label": "4", "text": "They often make it difficult to protect borders." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段落で、一般に河川が流れているすべての国はその河川を利用する equal rights を持つと説明されている。これを「通常は同じ利用権を持つ」と言い換えた3が正解。水量の減少は、他国への流量を減らす行為が禁じられているという話やエジプトの懸念として出てくるだけで、多くの河川で実際に水位が下がっているとは述べられていないので1は誤り。法律をより厳しくすべきだという主張もないので2も誤り。",
+          "script": "International Rivers\n\nMany of the world's rivers are not contained within the borders of a single country. Because of the importance of water, international laws about how neighboring countries share these rivers are essential. Typically, all countries have equal rights to use a river that flows through their lands. Also, all countries are legally forbidden from doing anything to a river that would considerably decrease its flow of water into other countries.\n\nHowever, sharing a river is not always simple. For example, the Nile River runs through a number of countries, including Ethiopia and Egypt. Ethiopia has requested international loans to build a dam on its section of the river to generate electricity. However, Egypt has used its political influence to block the loans, complaining that a dam would reduce the Nile's water flow into Egypt. At the same time, Ethiopia points out that Egypt currently uses the river for power generation, so it is unfair if Ethiopia cannot.",
+          "scriptJa": "国際河川\n\n世界の河川の多くは、1つの国の国境の中に収まっていない。水は非常に重要であるため、隣り合う国々がそうした河川をどのように共有するかを定めた国際法が欠かせない。一般に、河川が自国の領土を流れるすべての国は、その河川を利用する平等な権利を持つ。また、他国へ流れ込む水量を大幅に減らすような行為を河川に対して行うことは、どの国にも法律で禁じられている。\n\nしかし、河川の共有は必ずしも単純ではない。例えば、ナイル川はエチオピアやエジプトを含む複数の国を流れている。エチオピアは、自国内の流域に発電用のダムを建設するため、国際的な融資を求めてきた。しかしエジプトは、ダムができればエジプトに流れ込むナイル川の水量が減ってしまうと訴え、政治的な影響力を使ってその融資を阻止してきた。一方でエチオピアは、エジプトが現在この川を発電に利用していることを指摘し、エチオピアにそれができないのは不公平だと主張している。"
         },
         {
           "id": "q14",
           "number": 14,
-          "audio": "audio/eiken/eiken-pre1-2022-1/17_No14.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/15_question_A.mp3",
           "passageLabel": "Passage A",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/17_No14.mp3",
+          "prompt": "Why is the Nile River discussed?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To suggest a solution to a border problem." },
+            { "label": "2", "text": "To suggest that poor nations need rivers for electricity." },
+            { "label": "3", "text": "To show that dams are often too costly." },
+            { "label": "4", "text": "To show how river usage rights can be complicated." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第2段落は、河川の共有は必ずしも単純ではないという文で始まり、その例としてナイル川をめぐるエチオピアとエジプトの対立が紹介されている。河川の利用権が複雑になり得ることを示すための例なので4が正解。解決策は示されていないので1は誤りで、ダムの費用が高すぎるという話も出てこないので3も誤り。",
+          "script": "International Rivers\n\nMany of the world's rivers are not contained within the borders of a single country. Because of the importance of water, international laws about how neighboring countries share these rivers are essential. Typically, all countries have equal rights to use a river that flows through their lands. Also, all countries are legally forbidden from doing anything to a river that would considerably decrease its flow of water into other countries.\n\nHowever, sharing a river is not always simple. For example, the Nile River runs through a number of countries, including Ethiopia and Egypt. Ethiopia has requested international loans to build a dam on its section of the river to generate electricity. However, Egypt has used its political influence to block the loans, complaining that a dam would reduce the Nile's water flow into Egypt. At the same time, Ethiopia points out that Egypt currently uses the river for power generation, so it is unfair if Ethiopia cannot.",
+          "scriptJa": "国際河川\n\n世界の河川の多くは、1つの国の国境の中に収まっていない。水は非常に重要であるため、隣り合う国々がそうした河川をどのように共有するかを定めた国際法が欠かせない。一般に、河川が自国の領土を流れるすべての国は、その河川を利用する平等な権利を持つ。また、他国へ流れ込む水量を大幅に減らすような行為を河川に対して行うことは、どの国にも法律で禁じられている。\n\nしかし、河川の共有は必ずしも単純ではない。例えば、ナイル川はエチオピアやエジプトを含む複数の国を流れている。エチオピアは、自国内の流域に発電用のダムを建設するため、国際的な融資を求めてきた。しかしエジプトは、ダムができればエジプトに流れ込むナイル川の水量が減ってしまうと訴え、政治的な影響力を使ってその融資を阻止してきた。一方でエチオピアは、エジプトが現在この川を発電に利用していることを指摘し、エチオピアにそれができないのは不公平だと主張している。"
         },
         {
           "id": "q15",
           "number": 15,
-          "audio": "audio/eiken/eiken-pre1-2022-1/19_No15.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/19_No15.mp3",
+          "prompt": "What is one thing that we learn about theriac?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It could be used as a poison." },
+            { "label": "2", "text": "It was tested on snakes." },
+            { "label": "3", "text": "It was difficult to make." },
+            { "label": "4", "text": "It was the first medical drug." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第1段落の最後で、テリアカを作るには time and effort が必要で、100種類を超える材料を使うレシピもあったと述べられている。作るのが大変だったということなので3が正解。毒ヘビは材料の一部として出てくるだけで、ヘビで効果を試したわけではないので2は誤り。テリアカは毒から身を守るためのもので、毒として使われたとは述べられていないので1も誤り。",
+          "script": "Theriac\n\nFor thousands of years, people believed that a substance known as theriac was a wonder drug. According to legend, it was created by an ancient king who lived in fear of being poisoned. He was said to have taken theriac daily to protect himself from all forms of poison. The use of theriac gradually spread around the ancient world, and people began to believe that it was also effective against all kinds of illnesses. Making it, however, required time and effort, as some theriac recipes contained over a hundred ingredients, some of which came from poisonous snakes.\n\nBy the fifteenth century, there were regulations in many places about how theriac could be manufactured, and in some cities, such as Venice, it had to be made in a public ceremony. Though the scientific community now believes that theriac is ineffective, the regulations on the manufacture of theriac marked an important milestone in the development of modern medicine.",
+          "scriptJa": "テリアカ\n\n何千年もの間、テリアカと呼ばれる物質は万能薬だと信じられていた。伝説によると、テリアカは毒を盛られることを恐れて暮らしていた古代のある王によって作られたという。王はあらゆる種類の毒から身を守るため、毎日テリアカを飲んでいたと言われている。テリアカの使用は古代世界に少しずつ広まり、人々はそれがあらゆる病気にも効くと信じるようになった。しかし、テリアカを作るには時間と手間がかかった。100種類を超える材料を使うレシピもあり、その中には毒ヘビから採った材料も含まれていたからである。\n\n15世紀までには、多くの地域でテリアカの製造方法についての規制が設けられ、ヴェネツィアなど一部の都市では、公開の儀式の場で作らなければならなかった。現在、科学界ではテリアカには効果がないと考えられているが、テリアカの製造に関する規制は、近代医学の発展における重要な節目となった。"
         },
         {
           "id": "q16",
           "number": 16,
-          "audio": "audio/eiken/eiken-pre1-2022-1/20_No16.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/18_question_B.mp3",
           "passageLabel": "Passage B",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/20_No16.mp3",
+          "prompt": "What is one thing the speaker says about theriac in Venice?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It took many days to make." },
+            { "label": "2", "text": "Only small amounts could be made daily." },
+            { "label": "3", "text": "Production was very loosely regulated." },
+            { "label": "4", "text": "People there could watch it being made." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第2段落で、ヴェネツィアなどの都市ではテリアカを in a public ceremony で作らなければならなかったと述べられている。公開の場で作られていたので、人々は製造の様子を見ることができたと考えられ、4が正解。製造には規制が設けられていたので、規制が緩かったとする3は逆の内容である。製造にかかる日数や1日の製造量については触れられていないので、1と2も誤り。",
+          "script": "Theriac\n\nFor thousands of years, people believed that a substance known as theriac was a wonder drug. According to legend, it was created by an ancient king who lived in fear of being poisoned. He was said to have taken theriac daily to protect himself from all forms of poison. The use of theriac gradually spread around the ancient world, and people began to believe that it was also effective against all kinds of illnesses. Making it, however, required time and effort, as some theriac recipes contained over a hundred ingredients, some of which came from poisonous snakes.\n\nBy the fifteenth century, there were regulations in many places about how theriac could be manufactured, and in some cities, such as Venice, it had to be made in a public ceremony. Though the scientific community now believes that theriac is ineffective, the regulations on the manufacture of theriac marked an important milestone in the development of modern medicine.",
+          "scriptJa": "テリアカ\n\n何千年もの間、テリアカと呼ばれる物質は万能薬だと信じられていた。伝説によると、テリアカは毒を盛られることを恐れて暮らしていた古代のある王によって作られたという。王はあらゆる種類の毒から身を守るため、毎日テリアカを飲んでいたと言われている。テリアカの使用は古代世界に少しずつ広まり、人々はそれがあらゆる病気にも効くと信じるようになった。しかし、テリアカを作るには時間と手間がかかった。100種類を超える材料を使うレシピもあり、その中には毒ヘビから採った材料も含まれていたからである。\n\n15世紀までには、多くの地域でテリアカの製造方法についての規制が設けられ、ヴェネツィアなど一部の都市では、公開の儀式の場で作らなければならなかった。現在、科学界ではテリアカには効果がないと考えられているが、テリアカの製造に関する規制は、近代医学の発展における重要な節目となった。"
         },
         {
           "id": "q17",
           "number": 17,
-          "audio": "audio/eiken/eiken-pre1-2022-1/22_No17.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/22_No17.mp3",
+          "prompt": "What does the speaker say about native peoples?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They hunted only spirit bears with black fur." },
+            { "label": "2", "text": "They tried to keep spirit bears a secret." },
+            { "label": "3", "text": "They thought spirit bears were dangerous." },
+            { "label": "4", "text": "They believed spirit bears protected them." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段落で、先住民はこのクマの存在が外の世界に知られないよう努力してきたと述べられている。スピリットベアのことを秘密にしようとしたということなので2が正解。先住民が恐れていたのはクマがハンターや収集家に狙われることであり、クマが危険だと考えていたわけではないので3は誤り。先住民自身が狩りをしていた話や、クマに守られていると信じていた話は出てこないので1と4も誤り。",
+          "script": "Spirit Bears\n\nFound only in parts of Canada, spirit bears are black bears that are born with white fur due to a rare gene. Scientists estimate there may be as few as a hundred of these beautiful animals in the wild. For years, native peoples did their best to prevent the bears' existence from becoming known to the outside world. Because the bears' fur is so unusual, native peoples feared it would become a great prize for hunters and collectors.\n\nSpirit bears' bright fur also provides them with a unique advantage when hunting salmon. Unlike the fur of ordinary black bears, spirit bears' fur is difficult for fish to see, so the fish are less able to avoid the bears. Unfortunately, however, spirit bear numbers may decrease even further. Recent research has revealed the gene that results in spirit bears' white fur is rarer than once thought. Additionally, many spirit bears live outside the areas where they are protected.",
+          "scriptJa": "スピリットベア\n\nカナダの一部の地域にしか生息していないスピリットベアは、まれな遺伝子のために白い毛を持って生まれてくるクロクマである。科学者の推定では、野生のこの美しい動物はわずか100頭ほどしかいないかもしれない。長年にわたり、先住民はこのクマの存在が外の世界に知られないよう、できる限りの努力をしてきた。その毛があまりにも珍しいため、ハンターや収集家にとって格好の獲物になってしまうことを先住民は恐れていたのである。\n\nスピリットベアの明るい色の毛は、サケを捕る際にも独特の利点をもたらしている。普通のクロクマの毛とは違い、スピリットベアの毛は魚から見えにくいため、魚はクマから逃げにくくなるのだ。しかし残念なことに、スピリットベアの数はさらに減ってしまうかもしれない。最近の研究で、スピリットベアの白い毛を生み出す遺伝子は、以前考えられていたよりもさらにまれであることが明らかになった。加えて、多くのスピリットベアは保護区域の外で暮らしている。"
         },
         {
           "id": "q18",
           "number": 18,
-          "audio": "audio/eiken/eiken-pre1-2022-1/23_No18.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/21_question_C.mp3",
           "passageLabel": "Passage C",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/23_No18.mp3",
+          "prompt": "What advantage do spirit bears have over ordinary black bears?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "It is easier for them to catch food." },
+            { "label": "2", "text": "They are less sensitive to the sun." },
+            { "label": "3", "text": "It is harder for hunters to find them." },
+            { "label": "4", "text": "Their habitats are all well-protected." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第2段落で、スピリットベアの毛は魚から見えにくく、魚がクマから逃げにくいため、サケを捕るときに有利だと述べられている。餌を捕まえやすいということなので1が正解。多くのスピリットベアは保護区域の外で暮らしているとあるので4は誤り。ハンターに見つかりにくいという話はなく、むしろ珍しい毛のためにハンターに狙われる恐れがあるとされているので3も誤り。",
+          "script": "Spirit Bears\n\nFound only in parts of Canada, spirit bears are black bears that are born with white fur due to a rare gene. Scientists estimate there may be as few as a hundred of these beautiful animals in the wild. For years, native peoples did their best to prevent the bears' existence from becoming known to the outside world. Because the bears' fur is so unusual, native peoples feared it would become a great prize for hunters and collectors.\n\nSpirit bears' bright fur also provides them with a unique advantage when hunting salmon. Unlike the fur of ordinary black bears, spirit bears' fur is difficult for fish to see, so the fish are less able to avoid the bears. Unfortunately, however, spirit bear numbers may decrease even further. Recent research has revealed the gene that results in spirit bears' white fur is rarer than once thought. Additionally, many spirit bears live outside the areas where they are protected.",
+          "scriptJa": "スピリットベア\n\nカナダの一部の地域にしか生息していないスピリットベアは、まれな遺伝子のために白い毛を持って生まれてくるクロクマである。科学者の推定では、野生のこの美しい動物はわずか100頭ほどしかいないかもしれない。長年にわたり、先住民はこのクマの存在が外の世界に知られないよう、できる限りの努力をしてきた。その毛があまりにも珍しいため、ハンターや収集家にとって格好の獲物になってしまうことを先住民は恐れていたのである。\n\nスピリットベアの明るい色の毛は、サケを捕る際にも独特の利点をもたらしている。普通のクロクマの毛とは違い、スピリットベアの毛は魚から見えにくいため、魚はクマから逃げにくくなるのだ。しかし残念なことに、スピリットベアの数はさらに減ってしまうかもしれない。最近の研究で、スピリットベアの白い毛を生み出す遺伝子は、以前考えられていたよりもさらにまれであることが明らかになった。加えて、多くのスピリットベアは保護区域の外で暮らしている。"
         },
         {
           "id": "q19",
           "number": 19,
-          "audio": "audio/eiken/eiken-pre1-2022-1/25_No19.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/25_No19.mp3",
+          "prompt": "What is true about distributed-generation systems?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They generate power near where the power is used." },
+            { "label": "2", "text": "They are preferred by small businesses." },
+            { "label": "3", "text": "They do not use solar energy." },
+            { "label": "4", "text": "They are very expensive to maintain." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第1段落で、分散型発電は小規模なエネルギー源のネットワークで、電気が必要とされる場所の近くで発電すると説明されている。これを言い換えた1が正解。太陽光パネルはエネルギー源の例として挙げられているので3は誤り。分散型発電はむしろ費用対効果が高くなり得るとされており、維持費が非常に高いとする4も合わない。",
+          "script": "Distributed Generation\n\nIn many parts of the United States, the electric power industry has been shifting away from the traditional system of centralized generation to a newer system known as distributed generation. With centralized generation, electricity is generated in one central location and then delivered to homes and businesses. Distributed generation is a network of smaller energy sources, such as solar panels or wind turbines, that produce electricity close to where it is needed. This can make the distributed-generation system more cost-effective.\n\nDistributed generation has some disadvantages, however. The required infrastructure takes up space in communities, and residents generally consider it unattractive. In fact, homes close to large solar-energy facilities often sell for less than homes that are farther away. In addition, some distributed-generation systems require water to run, which is a limitation in areas that experience water shortages.",
+          "scriptJa": "分散型発電\n\nアメリカの多くの地域で、電力業界は従来の集中型発電の仕組みから、分散型発電と呼ばれる新しい仕組みへと移行しつつある。集中型発電では、電気は1か所の中心的な施設で作られ、そこから家庭や企業に届けられる。分散型発電は、太陽光パネルや風力タービンといった小規模なエネルギー源のネットワークであり、電気が必要とされる場所の近くで発電する。そのため、分散型発電の仕組みのほうが費用対効果が高くなり得る。\n\nしかし、分散型発電にはいくつか欠点もある。必要な設備が地域の土地を占め、住民は一般にそれを見た目がよくないと感じる。実際、大規模な太陽光発電施設の近くにある住宅は、離れた場所にある住宅よりも安い値段で売れることが多い。さらに、分散型発電システムの中には稼働に水を必要とするものもあり、水不足に見舞われる地域ではそれが制約となる。"
         },
         {
           "id": "q20",
           "number": 20,
-          "audio": "audio/eiken/eiken-pre1-2022-1/26_No20.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/24_question_D.mp3",
           "passageLabel": "Passage D",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/26_No20.mp3",
+          "prompt": "What is one downside of distributed generation?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Governments generally oppose its development." },
+            { "label": "2", "text": "Energy companies usually do not profit from it." },
+            { "label": "3", "text": "It can negatively affect property values." },
+            { "label": "4", "text": "It often pollutes community water sources." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "第2段落で欠点が挙げられ、大規模な太陽光発電施設の近くにある住宅は離れた住宅よりも安く売れることが多いと述べられている。不動産の価値を下げ得るということなので3が正解。水については、稼働に水が必要なシステムがあり水不足の地域では制約になると述べられているだけで、水源を汚染するとは言っていないので4は誤り。政府の反対や企業の利益については触れられていないので、1と2も誤り。",
+          "script": "Distributed Generation\n\nIn many parts of the United States, the electric power industry has been shifting away from the traditional system of centralized generation to a newer system known as distributed generation. With centralized generation, electricity is generated in one central location and then delivered to homes and businesses. Distributed generation is a network of smaller energy sources, such as solar panels or wind turbines, that produce electricity close to where it is needed. This can make the distributed-generation system more cost-effective.\n\nDistributed generation has some disadvantages, however. The required infrastructure takes up space in communities, and residents generally consider it unattractive. In fact, homes close to large solar-energy facilities often sell for less than homes that are farther away. In addition, some distributed-generation systems require water to run, which is a limitation in areas that experience water shortages.",
+          "scriptJa": "分散型発電\n\nアメリカの多くの地域で、電力業界は従来の集中型発電の仕組みから、分散型発電と呼ばれる新しい仕組みへと移行しつつある。集中型発電では、電気は1か所の中心的な施設で作られ、そこから家庭や企業に届けられる。分散型発電は、太陽光パネルや風力タービンといった小規模なエネルギー源のネットワークであり、電気が必要とされる場所の近くで発電する。そのため、分散型発電の仕組みのほうが費用対効果が高くなり得る。\n\nしかし、分散型発電にはいくつか欠点もある。必要な設備が地域の土地を占め、住民は一般にそれを見た目がよくないと感じる。実際、大規模な太陽光発電施設の近くにある住宅は、離れた場所にある住宅よりも安い値段で売れることが多い。さらに、分散型発電システムの中には稼働に水を必要とするものもあり、水不足に見舞われる地域ではそれが制約となる。"
         },
         {
           "id": "q21",
           "number": 21,
-          "audio": "audio/eiken/eiken-pre1-2022-1/28_No21.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/28_No21.mp3",
+          "prompt": "Why are zoos unable to breed some endangered animals?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Caring for them costs too much money." },
+            { "label": "2", "text": "They are too difficult to capture." },
+            { "label": "3", "text": "They suffer from serious diseases." },
+            { "label": "4", "text": "They rarely live long after being caught." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "第1段落で、メガネザルやホホジロザメは飼育下では生きられず、捕獲されるとたいていすぐに死んでしまうため繁殖させられないと述べられている。捕獲後に長く生きられないということなので4が正解。飼育の費用や病気については触れられていないので1と3は誤り。問題は捕まえにくさではなく捕まえた後に生きられないことなので、2も誤り。",
+          "script": "What Zoos Can't Do\n\nIn recent decades, zoos have been essential to efforts to save endangered animals. Several species of frogs, birds, and turtles have been saved from extinction by conservation programs that breed endangered animals in the safe environment of zoos. Unfortunately, certain species, such as tarsiers, which are animals that look like tiny monkeys, and great white sharks, cannot survive in captivity. These animals usually die quickly after being captured, making it impossible to breed them.\n\nFor this reason, the survival of tarsiers and great white sharks depends on the conservation of their natural environments. Though many of their habitats are already legally protected, the current laws are often ignored. Governments must try harder to stop the illegal destruction of the forests where tarsiers live and breed. They must also reduce illegal fishing activities that threaten great white sharks.",
+          "scriptJa": "動物園にできないこと\n\nここ数十年、動物園は絶滅危惧種を救う取り組みに欠かせない存在となってきた。カエルや鳥、カメのいくつかの種は、動物園の安全な環境で絶滅危惧種を繁殖させる保護プログラムによって、絶滅を免れてきた。しかし残念ながら、小さなサルのような姿をした動物であるメガネザルや、ホホジロザメといった一部の種は、飼育下では生きられない。こうした動物はたいてい捕獲されるとすぐに死んでしまうため、繁殖させることができないのである。\n\nそのため、メガネザルとホホジロザメが生き残れるかどうかは、自然環境の保全にかかっている。生息地の多くはすでに法律で保護されているが、現行の法律はしばしば無視されている。各国の政府は、メガネザルが暮らし繁殖する森林の違法な破壊を食い止めるため、もっと努力しなければならない。また、ホホジロザメを脅かしている違法な漁業活動も減らさなければならない。"
         },
         {
           "id": "q22",
           "number": 22,
-          "audio": "audio/eiken/eiken-pre1-2022-1/29_No22.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/27_question_E.mp3",
           "passageLabel": "Passage E",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/29_No22.mp3",
+          "prompt": "What does the speaker say about saving tarsiers and great white sharks?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Zoos need to learn how to breed them." },
+            { "label": "2", "text": "Governments must make sure laws are followed." },
+            { "label": "3", "text": "They must be moved to new habitats." },
+            { "label": "4", "text": "Protecting them in the wild is not possible." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第2段落で、生息地の多くは法律で保護されているものの the current laws are often ignored と指摘され、政府は違法な森林破壊や違法な漁業を食い止める努力をすべきだと述べられている。法律が守られるようにしなければならないということなので2が正解。これらの動物は動物園では繁殖できないとされているので1は誤り。生き残れるかどうかは自然環境の保全にかかっているとしているので、野生での保護は不可能だとする4も逆の内容である。",
+          "script": "What Zoos Can't Do\n\nIn recent decades, zoos have been essential to efforts to save endangered animals. Several species of frogs, birds, and turtles have been saved from extinction by conservation programs that breed endangered animals in the safe environment of zoos. Unfortunately, certain species, such as tarsiers, which are animals that look like tiny monkeys, and great white sharks, cannot survive in captivity. These animals usually die quickly after being captured, making it impossible to breed them.\n\nFor this reason, the survival of tarsiers and great white sharks depends on the conservation of their natural environments. Though many of their habitats are already legally protected, the current laws are often ignored. Governments must try harder to stop the illegal destruction of the forests where tarsiers live and breed. They must also reduce illegal fishing activities that threaten great white sharks.",
+          "scriptJa": "動物園にできないこと\n\nここ数十年、動物園は絶滅危惧種を救う取り組みに欠かせない存在となってきた。カエルや鳥、カメのいくつかの種は、動物園の安全な環境で絶滅危惧種を繁殖させる保護プログラムによって、絶滅を免れてきた。しかし残念ながら、小さなサルのような姿をした動物であるメガネザルや、ホホジロザメといった一部の種は、飼育下では生きられない。こうした動物はたいてい捕獲されるとすぐに死んでしまうため、繁殖させることができないのである。\n\nそのため、メガネザルとホホジロザメが生き残れるかどうかは、自然環境の保全にかかっている。生息地の多くはすでに法律で保護されているが、現行の法律はしばしば無視されている。各国の政府は、メガネザルが暮らし繁殖する森林の違法な破壊を食い止めるため、もっと努力しなければならない。また、ホホジロザメを脅かしている違法な漁業活動も減らさなければならない。"
         },
         {
           "id": "q23",
           "number": 23,
-          "audio": "audio/eiken/eiken-pre1-2022-1/31_No23.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/31_No23.mp3",
+          "prompt": "What is one thing we learn about the Castle Rock Pueblo petroglyphs?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "They are more numerous than is typical." },
+            { "label": "2", "text": "They are similar to those of a distant area." },
+            { "label": "3", "text": "They are the largest in the region." },
+            { "label": "4", "text": "They include images of Europeans." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "2",
+          "explanation": "第1段落で、キャッスルロック・プエブロのペトログリフは、その地域に典型的な様式ではなく、数百キロ離れた別の集落でよく見られた描き方で描かれていると述べられている。遠く離れた地域のものと似ているということなので2が正解。数の多さや大きさについては述べられていないので1と3は誤り。ヨーロッパ人は、その到来以前の先住民を知る手がかりという文脈で触れられているだけなので4も誤り。",
+          "script": "Written in Stone\n\nPetroglyphs are ancient drawings or carvings on rock surfaces. For researchers in the Americas, they are an important source of information about the Native Americans who lived there before the arrival of Europeans. Some of the most famous petroglyphs are those at Castle Rock Pueblo in Colorado. These images were not drawn in the style typical of the area, but in a way that was common in another settlement hundreds of kilometers away. There are also drawings of human conflict. This suggests that there may have been contact, and likely fighting, between these two communities.\n\nAnother interesting feature of the carvings is their use of light. On the longest and shortest days of the year, the carvings create specific patterns of light and shadow. This has led researchers to conclude that they were used as a type of solar calendar.",
+          "scriptJa": "石に刻まれたもの\n\nペトログリフとは、岩の表面に描かれたり刻まれたりした古代の絵のことである。南北アメリカ大陸の研究者にとって、ペトログリフは、ヨーロッパ人が到来する前にその地に住んでいたアメリカ先住民について知るための重要な情報源となっている。最も有名なペトログリフの1つが、コロラド州のキャッスルロック・プエブロにあるものだ。これらの絵は、その地域に典型的な様式ではなく、数百キロ離れた別の集落でよく見られた描き方で描かれている。また、人間同士の争いを描いた絵もある。このことから、この2つの共同体の間には接触があり、おそらく戦いもあったと考えられる。\n\nこれらの彫刻のもう1つの興味深い特徴は、光の利用である。1年で最も昼が長い日と最も短い日に、彫刻は特定の光と影の模様を作り出す。このことから研究者たちは、これらが一種の太陽暦として使われていたと結論づけている。"
         },
         {
           "id": "q24",
           "number": 24,
-          "audio": "audio/eiken/eiken-pre1-2022-1/32_No24.mp3",
-          "passageAudio": "audio/eiken/eiken-pre1-2022-1/30_question_F.mp3",
           "passageLabel": "Passage F",
-          "prompt": "Choose the best answer for the question.",
+          "passageAudio": "audio/eiken/eiken-pre1-2022-1/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2022-1/32_No24.mp3",
+          "prompt": "How do researchers think the Castle Rock Pueblo petroglyphs were used?",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To indicate certain times of the year." },
+            { "label": "2", "text": "To warn enemies to stay away." },
+            { "label": "3", "text": "To show the way to another settlement." },
+            { "label": "4", "text": "To provide a source of light." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "第2段落で、1年で最も昼が長い日と短い日に彫刻が特定の光と影の模様を作り出すことから、a type of solar calendar として使われていたと研究者が結論づけたと述べられている。1年の特定の時期を示すためのものだったということなので1が正解。光と影の模様は日光によって生まれるもので、彫刻自体が光源になるわけではないので4は誤り。別の集落との関係は描き方や争いの絵から推測されているだけで、道案内に使われたという話はないので3も誤り。",
+          "script": "Written in Stone\n\nPetroglyphs are ancient drawings or carvings on rock surfaces. For researchers in the Americas, they are an important source of information about the Native Americans who lived there before the arrival of Europeans. Some of the most famous petroglyphs are those at Castle Rock Pueblo in Colorado. These images were not drawn in the style typical of the area, but in a way that was common in another settlement hundreds of kilometers away. There are also drawings of human conflict. This suggests that there may have been contact, and likely fighting, between these two communities.\n\nAnother interesting feature of the carvings is their use of light. On the longest and shortest days of the year, the carvings create specific patterns of light and shadow. This has led researchers to conclude that they were used as a type of solar calendar.",
+          "scriptJa": "石に刻まれたもの\n\nペトログリフとは、岩の表面に描かれたり刻まれたりした古代の絵のことである。南北アメリカ大陸の研究者にとって、ペトログリフは、ヨーロッパ人が到来する前にその地に住んでいたアメリカ先住民について知るための重要な情報源となっている。最も有名なペトログリフの1つが、コロラド州のキャッスルロック・プエブロにあるものだ。これらの絵は、その地域に典型的な様式ではなく、数百キロ離れた別の集落でよく見られた描き方で描かれている。また、人間同士の争いを描いた絵もある。このことから、この2つの共同体の間には接触があり、おそらく戦いもあったと考えられる。\n\nこれらの彫刻のもう1つの興味深い特徴は、光の利用である。1年で最も昼が長い日と最も短い日に、彫刻は特定の光と影の模様を作り出す。このことから研究者たちは、これらが一種の太陽暦として使われていたと結論づけている。"
         }
       ]
     },
@@ -414,80 +449,100 @@
           "number": 25,
           "audio": "audio/eiken/eiken-pre1-2022-1/34_question_G_No25.mp3",
           "passageLabel": "Situation G",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Where should you go to find Toby's food?",
+          "promptJa": "トビーの餌を見つけるには、どこへ行けばよいか？",
+          "situation": "You want to feed your parrot, Toby, but cannot find his pet food. You check your cell phone and find a voice mail from your wife.",
+          "situationJa": "あなたは飼っているオウムのトビーに餌をあげたいが、餌が見つからない。携帯電話を確認すると、妻からの留守番電話のメッセージが入っている。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "To the kitchen." },
+            { "label": "2", "text": "To the living room." },
+            { "label": "3", "text": "To the front door." },
+            { "label": "4", "text": "To the garage." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "3",
+          "explanation": "妻はメッセージの中ほどで、トビーの新しい餌が今朝届き、いつもはキッチンの棚の近くの箱にしまうが、今回は I left it at the front door と述べ、まだそこにあるはずだと言っている。玄関に行けばよいので3が正解。キッチンは普段の保管場所にすぎないので1は誤り。リビングとガレージは、それぞれおもちゃの片付けと電球の交換を頼まれた場所なので、2と4も誤り。",
+          "script": "Hi, dear. I'm sorry, I was in a rush this morning and wasn't able to do a few things. Could you take care of them? The living room is a mess. Miranda's toys are all over the place, so could you put them away? Also, Toby's new bird food arrived this morning. I know we usually store it in that box near the kitchen shelves, but when the package was delivered, I left it at the front door. Sorry. It should still be sitting there. And can you change one of the light bulbs in the garage? When I got home last night, I saw that one was flickering.",
+          "scriptJa": "もしもし、あなた。ごめんなさい、今朝は急いでいて、いくつかやれなかったことがあるの。代わりにやってもらえる？リビングが散らかってるの。ミランダのおもちゃがあちこちに散らばっているから、片付けてもらえるかな？それから、トビーの新しい鳥の餌が今朝届いたの。いつもはキッチンの棚の近くにある箱にしまっているけど、荷物が届いたとき、玄関に置いたままにしちゃったの。ごめんね。まだそこにあるはずよ。あと、ガレージの電球を1つ取り替えてもらえる？昨日の夜帰ってきたとき、1つがチカチカしてたの。"
         },
         {
           "id": "q26",
           "number": 26,
           "audio": "audio/eiken/eiken-pre1-2022-1/35_question_H_No26.mp3",
           "passageLabel": "Situation H",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "Which book should you buy?",
+          "promptJa": "どの本を買うべきか？",
+          "situation": "You want to read a book written by the author Greta Bakken. You want to read her most popular book. A bookstore clerk tells you the following.",
+          "situationJa": "あなたは作家グレタ・バッケンが書いた本を読みたいと思っている。彼女の最も人気のある本を読みたい。書店員があなたに次のように話す。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "The Moon in Budapest." },
+            { "label": "2", "text": "Along That Tree-Lined Road." },
+            { "label": "3", "text": "Mixed Metaphors." },
+            { "label": "4", "text": "Trishaws." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "状況から、最も人気のある本を選べばよい。店員は最初に The Moon in Budapest を紹介し、it has the biggest fan base と述べているので、ファンが最も多いこの本を買うべきであり1が正解。4の Trishaws は最新作でSFファンの評判がよいとされているが、最も人気があるとは言われていないので誤り。",
+          "script": "Greta Bakken has written in various genres over her long career. I would recommend four books to a first-time reader. First, The Moon in Budapest is considered to be a masterpiece of romance, and it has the biggest fan base. Along That Tree-Lined Road is a beautifully crafted fantasy novel with a touch of mystery. If you're a travel fan, I recommend you try Mixed Metaphors. It's a travel journal documenting her trip to Siberia, with a number of stunning photographs she snapped along the way. Lastly, Trishaws is her latest book, and it has been getting great reviews from science fiction enthusiasts.",
+          "scriptJa": "グレタ・バッケンは長い作家生活の中で、さまざまなジャンルの作品を書いてきました。初めて読む方には4冊をおすすめしています。まず、『The Moon in Budapest』は恋愛小説の傑作とされていて、ファンの数も一番多い作品です。『Along That Tree-Lined Road』は、ほんのりミステリーの要素がある、見事に作り込まれたファンタジー小説です。旅行がお好きなら、『Mixed Metaphors』をぜひ読んでみてください。シベリアへの旅を記録した旅行記で、彼女が道中で撮影した素晴らしい写真がたくさん載っています。最後に、『Trishaws』は彼女の最新作で、SFファンから非常に高い評価を受けています。"
         },
         {
           "id": "q27",
           "number": 27,
           "audio": "audio/eiken/eiken-pre1-2022-1/36_question_I_No27.mp3",
           "passageLabel": "Situation I",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたはどうすべきか？",
+          "situation": "Your company's president is making an announcement about a change in office procedures. You want to take time off next week.",
+          "situationJa": "あなたの会社の社長が、社内の手続きの変更について発表をしている。あなたは来週休暇を取りたいと思っている。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Speak to your manager." },
+            { "label": "2", "text": "Submit a request on the new website." },
+            { "label": "3", "text": "E-mail the members of your department." },
+            { "label": "4", "text": "Contact ABC Resource Systems." }
           ],
           "answer": "1",
-          "explanation": "",
-          "script": ""
+          "explanation": "新しいウェブサイトでの申請や2週間前までの申請は来月末から適用されると述べられ、それまでは all personnel issues を各部署のマネージャーに伝えるよう指示されている。来週の休暇は変更が適用される前なので、マネージャーに相談すればよく1が正解。ウェブサイトはまだ使えないので2は誤り。ABCリソース・システムズ社は委託先として紹介されているだけで、直接連絡するよう言われてはいないので4も誤り。",
+          "script": "The company has decided to outsource the personnel department's services to ABC Resource Systems. There will be two main changes. First, we'll be using a new website to handle all scheduling, requests for time off, and complaints. More importantly, time-off requests will now need to be submitted two weeks in advance. These changes will apply at the end of next month, so please submit requests on the website at that time. Until then, please direct all personnel issues to the manager of your department. Thank you for your cooperation.",
+          "scriptJa": "当社は、人事部の業務をABCリソース・システムズ社に外部委託することを決定しました。主な変更点は2つあります。まず、スケジュール管理、休暇の申請、苦情の受け付けは、すべて新しいウェブサイトで行うことになります。さらに重要な点として、今後、休暇の申請は2週間前までに提出していただく必要があります。これらの変更は来月末から適用されますので、その時点からはウェブサイトで申請を提出してください。それまでは、人事に関する件はすべて各部署のマネージャーに申し出てください。ご協力をお願いします。"
         },
         {
           "id": "q28",
           "number": 28,
           "audio": "audio/eiken/eiken-pre1-2022-1/37_question_J_No28.mp3",
           "passageLabel": "Situation J",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたはどうすべきか？",
+          "situation": "Your professor is showing your class a course website. You want to get extra credit to improve your grade.",
+          "situationJa": "教授がクラスに授業のウェブサイトを見せている。あなたは成績を上げるため、追加点をもらいたいと思っている。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Submit an extra research paper through the website." },
+            { "label": "2", "text": "Complete additional reading assignments." },
+            { "label": "3", "text": "Create an online resource for the class." },
+            { "label": "4", "text": "Sign up for a lecture via the news section." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "教授は、ニュース欄に出席すれば additional credit がもらえるゲスト講演のお知らせを載せたと述べ、アイコンをクリックすると席を予約できると説明している。ニュース欄から講演に申し込めばよいので4が正解。読書課題や資料欄のリンクについても説明されているが、追加点とは結びつけられていないので2と3は誤り。研究課題は期末に取り組むもので、追加で提出するレポートの話は出てこないので1も誤り。",
+          "script": "The course website is now accessible. On the left side, you'll see the menu. At the top of the menu, there's a news section where I'll post event reminders and assignment due dates. I've already posted a notification about a guest lecture that you can attend for additional credit. You can click on the icon to reserve a seat. Below the news section, there's a link to a page where you can check on your weekly reading assignments. Finally, in the resources section, I put some links that might help you when working on your final research project.",
+          "scriptJa": "授業のウェブサイトが利用できるようになりました。左側にメニューがあります。メニューの一番上にはニュース欄があり、そこにイベントのお知らせや課題の締め切りを掲載していきます。すでに、出席すれば追加点がもらえるゲスト講演についてのお知らせを載せてあります。アイコンをクリックすれば席を予約できます。ニュース欄の下には、毎週の読書課題を確認できるページへのリンクがあります。最後に、資料欄には、期末の研究課題に取り組むときに役立ちそうなリンクをいくつか載せておきました。"
         },
         {
           "id": "q29",
           "number": 29,
           "audio": "audio/eiken/eiken-pre1-2022-1/38_question_K_No29.mp3",
           "passageLabel": "Situation K",
-          "prompt": "Choose the best answer for the question.",
+          "prompt": "What should you do?",
+          "promptJa": "あなたはどうすべきか？",
+          "situation": "You are a writer for a newspaper. You arrive home at 8:30 p.m. and hear the following voice mail from your editor. You need two more days to finish your column.",
+          "situationJa": "あなたは新聞のライターである。午後8時30分に帰宅し、編集者からの次の留守番電話のメッセージを聞く。あなたがコラムを仕上げるには、あと2日必要だ。",
           "choices": [
-            { "label": "1", "text": "(Listen to the audio)" },
-            { "label": "2", "text": "(Listen to the audio)" },
-            { "label": "3", "text": "(Listen to the audio)" },
-            { "label": "4", "text": "(Listen to the audio)" }
+            { "label": "1", "text": "Send the file to Bill." },
+            { "label": "2", "text": "Send the file to Paula." },
+            { "label": "3", "text": "Call Bill's office phone." },
+            { "label": "4", "text": "Call Bill on his smartphone." }
           ],
-          "answer": "1",
-          "explanation": "",
-          "script": ""
+          "answer": "4",
+          "explanation": "あなたはコラムを仕上げるのにあと2日必要なので、明日の朝までには間に合わない。その場合は今夜会社の電話に連絡するよう言われているが、ビルは8時までしか会社にいないと述べ、8時以降は smartphone で連絡がつくとしている。帰宅は午後8時30分なので、スマートフォンに電話すればよく4が正解。8時を過ぎると会社の電話はつながらないので3は誤り。ファイルの送付は、完成している場合や明日の朝までに仕上がる場合の指示なので、1と2も誤り。",
+          "script": "Hi, this is Bill. As you know, today's the deadline for your column. How is it coming along? If you've already finished it, please send the column directly to my office e-mail address. If you're likely to finish it by tomorrow morning, send the file to Paula. I'll be out all day tomorrow. However, if you're not likely to make it by tomorrow morning, could you call me on my office phone tonight? I'll be here until eight. Otherwise, you can reach me on my smartphone after eight. If necessary, I can give you another few days to finish it. Thanks.",
+          "scriptJa": "もしもし、ビルです。ご存じのとおり、今日があなたのコラムの締め切りです。進み具合はどうですか？もう書き上がっているなら、私の会社のメールアドレスに直接コラムを送ってください。明日の朝までに仕上がりそうなら、ファイルはポーラに送ってください。私は明日は1日中外出しているので。ただ、明日の朝までに間に合いそうにないなら、今夜、私の会社の電話に連絡してもらえますか？8時までは会社にいます。8時を過ぎたら、スマートフォンに連絡してもらえればつながります。必要なら、仕上げるのにあと数日猶予をあげることもできます。よろしく。"
         }
       ]
     }

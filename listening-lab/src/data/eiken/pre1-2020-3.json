@@ -1,0 +1,550 @@
+{
+  "examType": "eiken",
+  "id": "eiken-pre1-2020-3",
+  "meta": {
+    "title": "英検準1級",
+    "subtitle": "2020年度 第3回",
+    "year": 2020,
+    "grade": "pre1",
+    "session": "2020-3",
+    "icon": "🏅",
+    "totalTime": 29
+  },
+  "sections": [
+    {
+      "id": "part1",
+      "title": "Part 1",
+      "description": "会話の内容一致選択 — 会話を聞き、その質問に対して最も適切なものを選びなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2020-3/01_Part1_explanation.mp3",
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "audio": "audio/eiken/eiken-pre1-2020-3/02_No1.mp3",
+          "prompt": "What will the couple do next?",
+          "choices": [
+            { "label": "1", "text": "Phone for a taxi." },
+            { "label": "2", "text": "Walk to the restaurant." },
+            { "label": "3", "text": "Wait for the rain to stop." },
+            { "label": "4", "text": "Take the subway." }
+          ],
+          "answer": "1",
+          "explanation": "男性の2番目の発言で「Let's call a cab.」とタクシーを呼ぶことを提案し、女性も最後に「That's true.」と同意している。call a cab を Phone for a taxi と言い換えた1が正解。地下鉄の駅は近くにあるが、ずぶ濡れになるという理由で見送られているので4は誤り。待つことになるのは雨がやむのではなくタクシーの到着なので3も不適。",
+          "script": "W: That was a great movie, Joe. Thanks for bringing me.\nM: Glad you enjoyed it. Uh-oh, it's raining hard. You didn't bring an umbrella, did you?\nW: No. So much for walking to the restaurant! Isn't there a subway station two blocks away?\nM: Yes, but we'll get soaking wet in this rain. Let's call a cab.\nW: We may have to wait a while for them to send one in this weather.\nM: It's better than getting rained on.\nW: That's true.",
+          "scriptJa": "W: すごくいい映画だったわね、ジョー。連れてきてくれてありがとう。\nM: 楽しんでもらえてよかったよ。あれ、雨がひどく降ってる。傘は持ってきてないよね？\nW: ええ。これじゃレストランまで歩くのは無理ね！2ブロック先に地下鉄の駅がなかった？\nM: あるけど、この雨じゃびしょ濡れになっちゃうよ。タクシーを呼ぼう。\nW: この天気だと、配車してもらうまでしばらく待たされるかもしれないわよ。\nM: 雨に打たれるよりはましさ。\nW: それもそうね。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "audio": "audio/eiken/eiken-pre1-2020-3/03_No2.mp3",
+          "prompt": "What will the man probably do?",
+          "choices": [
+            { "label": "1", "text": "Cancel his meeting." },
+            { "label": "2", "text": "Take the afternoon off." },
+            { "label": "3", "text": "Wait to see if the pain decreases." },
+            { "label": "4", "text": "Go to the dentist this morning." }
+          ],
+          "answer": "4",
+          "explanation": "女性は、午前中に歯科で待つか午後に休みを取るかの2案を示す。男性は最後の発言で午後は大事な会議があるので休めないとし、「go to the office late this morning」と言っている。つまり午前中に歯科に行ってから出社するということなので4が正解。会議には出るつもりなので1は誤りで、午後の休みは本人が却下しているので2も不適。",
+          "script": "M: My tooth is killing me!\nW: When did you last see a dentist, honey?\nM: Maybe a few years ago. I never seem to have the time.\nW: And look where that's gotten you! Well, Dr. Prashad opens at 8:30, but she's always busy in the mornings, so you'd have to wait a while. Or you could take the afternoon off.\nM: I have an important meeting after lunch, so that's out. I'll just have to go to the office late this morning.",
+          "scriptJa": "M: 歯が痛くてたまらないよ！\nW: 最後に歯医者さんに行ったのはいつなの、あなた？\nM: 数年前かな。どうも時間が取れなくてね。\nW: その結果がこれでしょう！そうね、プラシャド先生のところは8時半に開くけど、午前中はいつも混んでいるから、しばらく待つことになるわね。それか、午後に休みを取るという手もあるわよ。\nM: 昼食の後に大事な会議があるから、それは無理だ。今朝は会社に遅れて行くしかないな。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "audio": "audio/eiken/eiken-pre1-2020-3/04_No3.mp3",
+          "prompt": "What does the woman think?",
+          "choices": [
+            { "label": "1", "text": "Scientists often make wrong predictions." },
+            { "label": "2", "text": "Pollution levels do not affect the weather." },
+            { "label": "3", "text": "The high temperatures are nothing to worry about." },
+            { "label": "4", "text": "The heat wave is related to global warming." }
+          ],
+          "answer": "4",
+          "explanation": "女性は最初の発言で「Global warming is really kicking in.」と言い、今回の猛暑を地球温暖化の表れと捉えている。さらに男性の周期説を「This is no cycle.」と否定しているので4が正解。科学者が間違っていると考えているのは男性の方なので1は誤り。女性は汚染が原因だと述べているので、汚染は天候に影響しないとする2は逆である。",
+          "script": "M: I can't believe this heat wave—over 35 degrees for 10 days straight.\nW: I think this must be a record. Global warming is really kicking in.\nM: I wouldn't go that far. The world's climate has always gone through cycles.\nW: This is no cycle. Scientists say it's pollution, and it's getting worse.\nM: They'll all be proven wrong in another 100 years.\nW: I hope you're right!",
+          "scriptJa": "M: この猛暑は信じられないよ。10日連続で35度を超えてる。\nW: きっと記録的よ。地球温暖化が本格的に影響し始めているのね。\nM: そこまでは言えないと思うな。世界の気候はいつだって周期的に変動してきたんだから。\nW: これは周期なんかじゃないわ。科学者たちは汚染が原因で、しかもどんどん悪化しているって言っているのよ。\nM: あと100年もすれば、みんな間違っていたってわかるさ。\nW: そうだといいけどね！"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "audio": "audio/eiken/eiken-pre1-2020-3/05_No4.mp3",
+          "prompt": "What does the woman ask the man to do?",
+          "choices": [
+            { "label": "1", "text": "Change the dates of his business trip." },
+            { "label": "2", "text": "Arrange a picnic for the playgroup." },
+            { "label": "3", "text": "Find a park with a jungle gym." },
+            { "label": "4", "text": "Give her directions to Fairfield Park." }
+          ],
+          "answer": "2",
+          "explanation": "女性の2番目の発言「we were wondering if you could organize it」で、ピクニックの取りまとめを男性に頼んでいる。organize を Arrange と言い換えた2が正解。男性は出張の予定に合わせて日にちを選んでいるだけで、出張日程の変更は頼まれていないので1は誤り。公園を提案したのは男性自身なので3、4も不適。",
+          "script": "W: Peter, some of the parents at the kids' playgroup are talking about having another picnic.\nM: Sounds like fun. Let me know when you've decided on a date.\nW: Actually, we were wondering if you could organize it.\nM: That depends on when you have in mind. I'm away on business for a week this month.\nW: Either Saturday the 14th or the 21st.\nM: Hmm... The 14th should be OK. How does Fairfield Park sound?\nW: Perfect. The kids love the jungle gym there.",
+          "scriptJa": "W: ピーター、子どもたちのプレイグループの親御さんたちが、またピクニックをしようって話しているの。\nM: 楽しそうだね。日にちが決まったら教えてよ。\nW: 実はね、あなたに取りまとめをお願いできないかと思っていたの。\nM: それはいつを考えているかによるな。今月は1週間出張で留守にするんだ。\nW: 14日か21日、どちらかの土曜日よ。\nM: うーん……14日なら大丈夫だと思う。フェアフィールド公園はどうかな？\nW: ばっちりね。子どもたちはあそこのジャングルジムが大好きだから。"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "audio": "audio/eiken/eiken-pre1-2020-3/06_No5.mp3",
+          "prompt": "What do we learn about the woman?",
+          "choices": [
+            { "label": "1", "text": "She does not want to give their things to charity." },
+            { "label": "2", "text": "She does not want to have another yard sale." },
+            { "label": "3", "text": "She wants to change the moving date." },
+            { "label": "4", "text": "She wants to advertise in the newspaper." }
+          ],
+          "answer": "2",
+          "explanation": "男性のヤードセールの提案に対し、女性は前回の儲けの少なさや広告費、手間の大きさを挙げ、「It's not worth it」と反対している。よって2が正解。最後に男性が慈善団体への寄付を提案しており、女性がそれを嫌がる様子はないので1は誤り。新聞広告については前回高くついたと不満を述べているだけなので4も不適。",
+          "script": "W: We have so many things to throw away before we move!\nM: Let's have another yard sale.\nW: We only made a little money with the last one. The newspaper ad was expensive, and the sale took up so much time.\nM: Well, even a little extra cash would help.\nW: It's not worth it, considering all the other stuff we need to do before we move.\nM: Yeah, I guess you're right. Let's just give what we don't need to charity.",
+          "scriptJa": "W: 引っ越しの前に捨てなきゃいけない物がこんなにたくさんあるなんて！\nM: またヤードセールをやろうよ。\nW: 前回はほんの少ししか儲からなかったじゃない。新聞広告は高かったし、セールにはすごく時間を取られたわ。\nM: でも、ちょっとした臨時収入でも助かるよ。\nW: 引っ越し前にやらなきゃいけない他のことを考えたら、割に合わないわよ。\nM: うん、君の言う通りだね。いらない物は慈善団体に寄付しちゃおう。"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "audio": "audio/eiken/eiken-pre1-2020-3/07_No6.mp3",
+          "prompt": "What does the man suggest to Peggy?",
+          "choices": [
+            { "label": "1", "text": "That she call his sister." },
+            { "label": "2", "text": "That she ask a friend for help." },
+            { "label": "3", "text": "That she start work later." },
+            { "label": "4", "text": "That she take care of Carol's kids." }
+          ],
+          "answer": "1",
+          "explanation": "男性の3番目の発言で、子どもの扱いが上手で仕事を探している妹のキャロルを紹介し、電話番号を教えようかと申し出ている（give you her number）。つまりキャロルに連絡してみるよう勧めているので1が正解。友達に赤ちゃんを預けたのはペギーがすでにしたことで、男性の提案ではないので2は誤り。キャロルはペギーの子の世話をする側なので4も不適。",
+          "script": "M: Hi, Peggy. What's the matter?\nW: I almost didn't make it to work today. My babysitter cancelled.\nM: Again? Gosh, she doesn't sound very reliable.\nW: She's not, but I haven't found a new sitter yet. I had to leave the baby with a friend.\nM: Hey, you know my sister Carol? She's great with kids, and she's looking for extra work. Shall I give you her number?\nW: Thanks. Let me just grab a pen and some paper.",
+          "scriptJa": "M: やあ、ペギー。どうかしたの？\nW: 今日はもう少しで仕事に遅れるところだったの。ベビーシッターにキャンセルされちゃって。\nM: また？いやあ、あまり当てにならない人みたいだね。\nW: そうなのよ。でも、まだ新しいシッターが見つかっていないの。赤ちゃんは友達に預けるしかなかったわ。\nM: そうだ、僕の妹のキャロルを知ってる？子どもの扱いがすごく上手で、ちょうど副業を探しているんだ。電話番号を教えようか？\nW: ありがとう。ちょっとペンと紙を取ってくるわね。"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "audio": "audio/eiken/eiken-pre1-2020-3/08_No7.mp3",
+          "prompt": "What is the status of the order?",
+          "choices": [
+            { "label": "1", "text": "It will arrive no later than Friday." },
+            { "label": "2", "text": "It is being looked into." },
+            { "label": "3", "text": "It was sent back to the manufacturer." },
+            { "label": "4", "text": "It has not yet been shipped." }
+          ],
+          "answer": "2",
+          "explanation": "女性の2番目の発言から、配送業者が「check their records and get back to us ASAP」と答えたことがわかる。つまり現在、注文品の行方を調べてもらっている最中なので2が正解。記録上は先週の金曜日に発送済みなので4は誤り。金曜日は発送された日であって到着の期限ではないので1も不適。",
+          "script": "M: Ms. Hattori, have those textbooks we ordered arrived yet?\nW: No, they haven't. I called Mr. Abe, their sales rep, yesterday and he says his records show that they were shipped last Friday.\nM: I see. Then could you please contact the delivery service and have them track the order?\nW: I did that right after I spoke with Mr. Abe. The delivery people said they'd check their records and get back to us ASAP.\nM: Alright. Keep me informed. I really need those books.",
+          "scriptJa": "M: 服部さん、注文していた教科書はもう届きましたか？\nW: いいえ、まだです。昨日、先方の営業担当の阿部さんに電話したところ、記録では先週の金曜日に発送済みになっているそうです。\nM: そうですか。では、配送業者に連絡して、荷物を追跡してもらえますか？\nW: 阿部さんと話した後、すぐに連絡しました。配送業者は記録を確認して、できるだけ早く折り返し連絡すると言っていました。\nM: わかりました。逐一知らせてください。あの本がどうしても必要なんです。"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "audio": "audio/eiken/eiken-pre1-2020-3/09_No8.mp3",
+          "prompt": "What happened to Ray?",
+          "choices": [
+            { "label": "1", "text": "He is now working as a teacher." },
+            { "label": "2", "text": "He quit his restaurant job." },
+            { "label": "3", "text": "He started a new career." },
+            { "label": "4", "text": "He went back to school." }
+          ],
+          "answer": "3",
+          "explanation": "男性の最初の発言「He quit his teaching job and opened up a restaurant」から、レイは教職を辞めてレストランを開いたとわかり、女性も「What a switch!」と驚いている。これを「新しい職業に就いた」とまとめた3が正解。辞めたのは教師の仕事なので1と2は事実と逆であり、学校に戻ったという話もないので4も誤り。",
+          "script": "W: What happened to Ray? I haven't seen him for a while.\nM: He quit his teaching job and opened up a restaurant in San Francisco.\nW: You're kidding! What a switch! He's always been into teaching.\nM: I know. It was all so sudden that I didn't even get the chance to say good-bye.",
+          "scriptJa": "W: レイはどうしたの？しばらく見かけないけど。\nM: 教師の仕事を辞めて、サンフランシスコでレストランを開いたんだよ。\nW: うそでしょう！すごい転身ね！ずっと教えることに打ち込んでいたのに。\nM: そうなんだよ。あまりに急だったから、お別れを言う機会さえなかったんだ。"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "audio": "audio/eiken/eiken-pre1-2020-3/10_No9.mp3",
+          "prompt": "What does the woman imply?",
+          "choices": [
+            { "label": "1", "text": "She will soon start work on a bigger project." },
+            { "label": "2", "text": "She prefers her new office space." },
+            { "label": "3", "text": "She wants her staff to hold fewer meetings." },
+            { "label": "4", "text": "She is looking for a new office." }
+          ],
+          "answer": "2",
+          "explanation": "男性がチームの移動を残念がるのに対し、女性は2番目の発言で「the new space is much bigger and brighter」と新しい場所の良さを挙げ、数フロアしか離れていないと言っている。新しいオフィスの方が気に入っていることがうかがえるので2が正解。打ち合わせを減らしたいとは言っていないので3は誤り。すでに新しいオフィスに移っているので4も不適。",
+          "script": "M: Hi, Charlene. How's life on the 10th floor? Have you settled into your new office yet?\nW: Getting there. I still have some boxes to unpack, though.\nM: Too bad they moved your project team. It was more convenient having you on the 6th floor with us.\nW: True, but the new space is much bigger and brighter. I know we have to meet with you guys regularly, but there are only a few floors between us.\nM: I guess it'll be good exercise if we use the stairs!",
+          "scriptJa": "M: やあ、シャーリーン。10階での暮らしはどう？新しいオフィスにはもう落ち着いた？\nW: だんだんね。まだ開けていない段ボール箱がいくつか残っているけど。\nM: 君のプロジェクトチームが移ってしまって残念だよ。僕らと同じ6階にいてくれた方が便利だったのに。\nW: そうね、でも新しい場所はずっと広くて明るいのよ。あなたたちと定期的に打ち合わせしなきゃいけないのはわかっているけど、ほんの数フロアしか離れていないじゃない。\nM: 階段を使えばいい運動になりそうだね！"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "audio": "audio/eiken/eiken-pre1-2020-3/11_No10.mp3",
+          "prompt": "What is one problem the man has?",
+          "choices": [
+            { "label": "1", "text": "The class instructor is likely to fail him." },
+            { "label": "2", "text": "He is concerned he will not meet the deadline." },
+            { "label": "3", "text": "The woman refused to practice with him." },
+            { "label": "4", "text": "He is not used to making presentations." }
+          ],
+          "answer": "4",
+          "explanation": "男性の3番目の発言「I don't have much experience giving presentations」から、発表をすることに慣れていないとわかるので4が正解。もう一つの悩みはテーマが退屈なことで、締め切りや単位を落とす心配は述べていないので1、2は誤り。女性は最後に手伝いを申し出ているので3は逆である。",
+          "script": "W: What's up, Rick? You look frustrated.\nM: I'm trying to put together my presentation for Friday's class.\nW: Right, you told me about that. Not going well?\nM: Not really. I don't have much experience giving presentations, and the topic the instructor assigned is pretty dull.\nW: He doesn't let you choose your own topic?\nM: After the first presentation, he does. I guess I'll just have to suffer through this one.\nW: Let me know if you want some help.",
+          "scriptJa": "W: どうしたの、リック？イライラしているみたいね。\nM: 金曜日の授業の発表をまとめようとしているんだ。\nW: ああ、その話は聞いたわね。うまくいっていないの？\nM: あまりね。発表の経験がほとんどないうえに、先生に割り当てられたテーマがかなり退屈なんだ。\nW: 自分でテーマを選ばせてくれないの？\nM: 最初の発表が終われば選ばせてくれるんだけどね。今回は我慢してやり切るしかなさそうだよ。\nW: 手伝いが必要なら言ってね。"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "audio": "audio/eiken/eiken-pre1-2020-3/12_No11.mp3",
+          "prompt": "What does the man imply?",
+          "choices": [
+            { "label": "1", "text": "The woman should hire more staff." },
+            { "label": "2", "text": "The new file clerk might be dismissed." },
+            { "label": "3", "text": "The procedure for hiring staff is outdated." },
+            { "label": "4", "text": "The woman is too concerned about Brent." }
+          ],
+          "answer": "4",
+          "explanation": "女性がブレントの前職での解雇を気にするのに対し、男性は2番目の発言で「let's leave well enough alone for now」と、仕事ぶりに問題がなければ今はそのままにしておこうと言っている。女性が気にしすぎだとほのめかしているので4が正解。男性はブレントを辞めさせることには消極的なので2は誤り。採用手続きは標準的なものだと述べているだけで、古いとは言っていないので3も不適。",
+          "script": "W: Romesh, I'd like a word with you about the new file clerk.\nM: You mean Brent? He seems to work hard, and he's friendly enough, isn't he?\nW: Well, that may be, but I heard he was fired from his last position. Were his references checked thoroughly?\nM: I assume so. It's standard procedure. Anyway, if his performance is adequate, let's leave well enough alone for now. We've got too much on our plates as is.\nW: I suppose you're right.",
+          "scriptJa": "W: ロメッシュ、新しい書類整理係のことでちょっと話があるの。\nM: ブレントのこと？よく働いているようだし、人当たりも悪くないじゃないか。\nW: そうかもしれないけど、前の職場をクビになったって聞いたのよ。照会先にはきちんと確認したのかしら？\nM: したと思うよ。それが標準的な手続きだからね。とにかく、仕事ぶりに問題がないなら、今はこのままにしておこう。ただでさえ手一杯なんだから。\nW: それもそうね。"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "audio": "audio/eiken/eiken-pre1-2020-3/13_No12.mp3",
+          "prompt": "What will the couple probably do?",
+          "choices": [
+            { "label": "1", "text": "Attempt to sell the car." },
+            { "label": "2", "text": "Stay with their current insurance company." },
+            { "label": "3", "text": "Report the man's accident." },
+            { "label": "4", "text": "Cancel their insurance policy." }
+          ],
+          "answer": "2",
+          "explanation": "女性が保険会社の乗り換えを提案するが、男性は最後の発言で「I doubt it's worth it」と言い、他社でも同じかそれ以上払うことになるだろうと述べている。したがって今の保険会社を続けると考えられるので2が正解。車は仕事に必要なので手放せず、1は誤り。保険を解約するという話も出ていないので4も不適。",
+          "script": "W: I got some bad news about our car insurance.\nM: Is the company raising the fee?\nW: Yeah, to $200 a month!\nM: Wow! I knew we'd be penalized after my accident, but that's pretty steep.\nW: Yeah. I guess it will go back down eventually, but maybe we should consider switching companies.\nM: I doubt it's worth it. We'd probably pay the same or even more. I'd get rid of the car if I didn't need it for work.",
+          "scriptJa": "W: 車の保険のことで悪い知らせがあるの。\nM: 保険会社が保険料を上げるのかい？\nW: そう、月200ドルに！\nM: うわあ！僕の事故の後だから割増になるのはわかっていたけど、それはかなり高いな。\nW: そうよね。いずれはまた下がるとは思うけど、保険会社を変えることを考えた方がいいかもしれないわ。\nM: それだけの価値はないと思うよ。たぶん同じか、もっと高くつくだろう。仕事で必要じゃなければ、車を手放すところなんだけどね。"
+        }
+      ]
+    },
+    {
+      "id": "part2",
+      "title": "Part 2",
+      "description": "文の内容一致選択 — 英文を聞き、その質問に対して最も適切なものを選びなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2020-3/14_Part2_explanation.mp3",
+      "questions": [
+        {
+          "id": "q13",
+          "number": 13,
+          "passageLabel": "Passage A",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/16_No13.mp3",
+          "prompt": "What is one thing we learn about the production of argan oil?",
+          "choices": [
+            { "label": "1", "text": "It causes the trees to die." },
+            { "label": "2", "text": "It is impossible in dry areas." },
+            { "label": "3", "text": "It requires considerable effort." },
+            { "label": "4", "text": "It can damage the local environment." }
+          ],
+          "answer": "3",
+          "explanation": "第1段落で、実の収穫とオイルの製造は「a long, labor-intensive process」だと述べられている。これを「かなりの労力を必要とする」と言い換えた3が正解。第2段落では、生産が増えれば木がたくさん植えられて環境に良いとされているので、1と4は誤り。アルガンの木はもともと乾燥した土地に育つので2も不適。",
+          "script": "Argan Oil\n\nArgan oil is often considered to be a wonder product, with cosmetics companies promoting its antiaging properties. It comes from the fruit of the argan tree, which grows in the dry landscape of Morocco, and is also used in food and medicine. Harvesting the fruit and producing the oil is a long, labor-intensive process that has traditionally been done by local women. However, trading the oil is often done by local men, with women earning little or no income.\n\nNGOs have therefore helped establish workers' cooperatives that educate the women and help them trade and sell the oil in local markets. The cooperatives also help them negotiate with international customers. It is hoped that expanding production of argan oil will lift local women out of poverty and benefit the environment as more trees will need to be planted to produce the oil.",
+          "scriptJa": "アルガンオイル\n\nアルガンオイルは奇跡の製品と見なされることが多く、化粧品会社はその老化防止効果を宣伝している。このオイルはモロッコの乾燥した土地に育つアルガンの木の実から採れ、食品や医薬品にも使われている。実を収穫してオイルを作るのは時間がかかり、多くの人手を要する工程で、昔から地元の女性たちが担ってきた。しかし、オイルの取引は地元の男性が行うことが多く、女性はほとんど、あるいは全く収入を得られていない。\n\nそこでNGOは労働者協同組合の設立を支援してきた。協同組合は女性たちに教育を行い、地元の市場でオイルを取引・販売できるよう手助けしている。また、海外の顧客との交渉も支援している。アルガンオイルの生産が拡大すれば、地元の女性たちが貧困から抜け出せるだけでなく、オイルを作るためにより多くの木を植える必要が出てくるので、環境にも良い効果があると期待されている。"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "passageLabel": "Passage A",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/17_No14.mp3",
+          "prompt": "What have NGOs done for local women?",
+          "choices": [
+            { "label": "1", "text": "Helped them gain business skills." },
+            { "label": "2", "text": "Found them jobs in cosmetics companies." },
+            { "label": "3", "text": "Located foreign producers for them." },
+            { "label": "4", "text": "Established schools for their children." }
+          ],
+          "answer": "1",
+          "explanation": "第2段落で、NGOが設立を支援した協同組合が女性たちに教育を行い、オイルの取引や販売、海外の顧客との交渉ができるよう手助けしていると述べられている。これを「ビジネスの技能を身につける手助けをした」とまとめた1が正解。海外の顧客との交渉は出てくるが、海外の生産者を探したわけではないので3は誤り。化粧品会社での仕事や子どもの学校の話は出てこないので2、4も不適。",
+          "script": "Argan Oil\n\nArgan oil is often considered to be a wonder product, with cosmetics companies promoting its antiaging properties. It comes from the fruit of the argan tree, which grows in the dry landscape of Morocco, and is also used in food and medicine. Harvesting the fruit and producing the oil is a long, labor-intensive process that has traditionally been done by local women. However, trading the oil is often done by local men, with women earning little or no income.\n\nNGOs have therefore helped establish workers' cooperatives that educate the women and help them trade and sell the oil in local markets. The cooperatives also help them negotiate with international customers. It is hoped that expanding production of argan oil will lift local women out of poverty and benefit the environment as more trees will need to be planted to produce the oil.",
+          "scriptJa": "アルガンオイル\n\nアルガンオイルは奇跡の製品と見なされることが多く、化粧品会社はその老化防止効果を宣伝している。このオイルはモロッコの乾燥した土地に育つアルガンの木の実から採れ、食品や医薬品にも使われている。実を収穫してオイルを作るのは時間がかかり、多くの人手を要する工程で、昔から地元の女性たちが担ってきた。しかし、オイルの取引は地元の男性が行うことが多く、女性はほとんど、あるいは全く収入を得られていない。\n\nそこでNGOは労働者協同組合の設立を支援してきた。協同組合は女性たちに教育を行い、地元の市場でオイルを取引・販売できるよう手助けしている。また、海外の顧客との交渉も支援している。アルガンオイルの生産が拡大すれば、地元の女性たちが貧困から抜け出せるだけでなく、オイルを作るためにより多くの木を植える必要が出てくるので、環境にも良い効果があると期待されている。"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "passageLabel": "Passage B",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/19_No15.mp3",
+          "prompt": "What made the Brooklyn Bridge such an achievement at the time?",
+          "choices": [
+            { "label": "1", "text": "It was the first bridge to connect two islands." },
+            { "label": "2", "text": "It was the longest bridge of its kind." },
+            { "label": "3", "text": "It was designed by a woman." },
+            { "label": "4", "text": "It was the first suspension bridge." }
+          ],
+          "answer": "2",
+          "explanation": "第1段落の最後で、最初の吊り橋ではなかったが「no other bridge of this kind had ever crossed such an enormous distance」と述べられている。つまり当時、この種の橋として最も長かったということなので2が正解。最初の吊り橋ではないと明言されているので4は誤り。設計したのはジョン・ローブリングなので3も不適。",
+          "script": "The Woman behind the Brooklyn Bridge\n\nThe Brooklyn Bridge in New York City is one of the great engineering achievements of the nineteenth century. It was designed by John Roebling, whose son Washington took over as the bridge's chief engineer after his father's death. It was built to connect the island of Manhattan with Brooklyn, nearly 2 kilometers away. While it was not the first suspension bridge, no other bridge of this kind had ever crossed such an enormous distance.\n\nMuch of the bridge's construction was supervised by a woman, Emily Roebling. This was at a time when women were not allowed to vote. Emily was married to Washington, who became critically ill shortly after construction began. Emily delivered his daily instructions to the construction site, and over the next decade or so became highly knowledgeable about bridge specifications and construction materials. She subsequently oversaw the successful completion of the project.",
+          "scriptJa": "ブルックリン橋を支えた女性\n\nニューヨーク市のブルックリン橋は、19世紀の工学における偉大な業績の一つである。設計したのはジョン・ローブリングで、彼の死後は息子のワシントンが橋の主任技師を引き継いだ。この橋は、マンハッタン島と2キロ近く離れたブルックリンを結ぶために建設された。最初の吊り橋ではなかったものの、この種の橋でこれほど長い距離をまたいだものはそれまでなかった。\n\n橋の建設の大部分を監督したのは、エミリー・ローブリングという女性だった。当時はまだ女性に選挙権が認められていない時代である。エミリーはワシントンの妻で、ワシントンは建設が始まって間もなく重い病に倒れた。エミリーは夫の毎日の指示を建設現場に伝え、その後の10年余りの間に、橋の仕様や建設資材について非常に詳しくなった。そして最終的に、このプロジェクトを見事に完成へと導いたのである。"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "passageLabel": "Passage B",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/20_No16.mp3",
+          "prompt": "Why did Emily Roebling become involved in the bridge's construction?",
+          "choices": [
+            { "label": "1", "text": "She was familiar with bridge construction." },
+            { "label": "2", "text": "She was best qualified for the job." },
+            { "label": "3", "text": "She was appointed by her father-in-law." },
+            { "label": "4", "text": "She was representing her husband." }
+          ],
+          "answer": "4",
+          "explanation": "第2段落で、夫のワシントンが建設開始直後に重い病気になり、エミリーが「delivered his daily instructions to the construction site」と述べられている。病気の夫の代理として現場に関わったのだから4が正解。橋の建設に詳しくなったのは関わり始めてからのことなので1は誤り。義父のジョンはすでに亡くなっており、彼女を任命したわけではないので3も不適。",
+          "script": "The Woman behind the Brooklyn Bridge\n\nThe Brooklyn Bridge in New York City is one of the great engineering achievements of the nineteenth century. It was designed by John Roebling, whose son Washington took over as the bridge's chief engineer after his father's death. It was built to connect the island of Manhattan with Brooklyn, nearly 2 kilometers away. While it was not the first suspension bridge, no other bridge of this kind had ever crossed such an enormous distance.\n\nMuch of the bridge's construction was supervised by a woman, Emily Roebling. This was at a time when women were not allowed to vote. Emily was married to Washington, who became critically ill shortly after construction began. Emily delivered his daily instructions to the construction site, and over the next decade or so became highly knowledgeable about bridge specifications and construction materials. She subsequently oversaw the successful completion of the project.",
+          "scriptJa": "ブルックリン橋を支えた女性\n\nニューヨーク市のブルックリン橋は、19世紀の工学における偉大な業績の一つである。設計したのはジョン・ローブリングで、彼の死後は息子のワシントンが橋の主任技師を引き継いだ。この橋は、マンハッタン島と2キロ近く離れたブルックリンを結ぶために建設された。最初の吊り橋ではなかったものの、この種の橋でこれほど長い距離をまたいだものはそれまでなかった。\n\n橋の建設の大部分を監督したのは、エミリー・ローブリングという女性だった。当時はまだ女性に選挙権が認められていない時代である。エミリーはワシントンの妻で、ワシントンは建設が始まって間もなく重い病に倒れた。エミリーは夫の毎日の指示を建設現場に伝え、その後の10年余りの間に、橋の仕様や建設資材について非常に詳しくなった。そして最終的に、このプロジェクトを見事に完成へと導いたのである。"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "passageLabel": "Passage C",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/22_No17.mp3",
+          "prompt": "What is one thing we learn about micrometeorites?",
+          "choices": [
+            { "label": "1", "text": "They are less common than originally thought." },
+            { "label": "2", "text": "They are only found in cold places." },
+            { "label": "3", "text": "They can be found anywhere on Earth." },
+            { "label": "4", "text": "They can be harder than rocks from Earth." }
+          ],
+          "answer": "3",
+          "explanation": "第1段落の最後で「micrometeorites can be found all over the planet」と述べられており、これを言い換えた3が正解。南極などの遠隔地で見つかることが多かったのはそれまでの話で、実際にはどこでも見つかるとわかったので2は誤り。微隕石は絶えず地球に降っているとされており、思ったより少ないとする1も不適。",
+          "script": "Space Rocks\n\nOne day, a Norwegian man called Jon Larsen noticed a tiny, shiny object on an outdoor table. Because it looked so unusual, he thought it might be a micrometeorite, a small piece of rock from space. After finding more, he asked scientists to analyze them. At the time, most micrometeorites had been found in remote areas such as Antarctica, so many scientists were doubtful about his discovery. One, however, took Larsen seriously. Together, they proved that these micrometeorites are always falling to Earth, and further research has shown that micrometeorites can be found all over the planet.\n\nLarsen's discovery is significant because micrometeorites can help us understand how our solar system was formed. Because of their great age, they provide hints about what materials were common when the sun was young. Larsen has shown that it is not always experts who help scientists learn new things about our universe.",
+          "scriptJa": "宇宙から来た石\n\nある日、ジョン・ラーセンというノルウェー人の男性が、屋外のテーブルの上に小さく光る物があるのに気づいた。とても変わった見た目だったので、彼はそれが宇宙から来た小さな岩のかけら、つまり微隕石ではないかと考えた。さらにいくつか見つけた後、彼は科学者たちにそれらの分析を依頼した。当時、微隕石のほとんどは南極のような人里離れた場所で見つかっていたため、多くの科学者は彼の発見に懐疑的だった。しかし、一人の科学者がラーセンの話を真剣に受け止めた。二人は協力して、こうした微隕石が絶えず地球に降り注いでいることを証明し、その後の研究によって、微隕石は地球上のどこででも見つかることが明らかになった。\n\nラーセンの発見が重要なのは、微隕石が太陽系の成り立ちを理解する手がかりになるからだ。微隕石は非常に古いため、太陽が若かった頃にどのような物質がありふれていたのかを知るヒントを与えてくれる。ラーセンは、科学者が宇宙について新しいことを知る手助けをするのは、必ずしも専門家ばかりではないことを示したのである。"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "passageLabel": "Passage C",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/23_No18.mp3",
+          "prompt": "Why is Jon Larsen's discovery important?",
+          "choices": [
+            { "label": "1", "text": "It provides useful information about our solar system." },
+            { "label": "2", "text": "It led to the discovery of a new material." },
+            { "label": "3", "text": "It shows that most micrometeorites are older than predicted." },
+            { "label": "4", "text": "It helped to prove the age of the sun." }
+          ],
+          "answer": "1",
+          "explanation": "第2段落の冒頭で、ラーセンの発見が重要なのは微隕石が「help us understand how our solar system was formed」からだと述べられている。太陽系について有益な情報をもたらすとした1が正解。微隕石は太陽が若かった頃の物質についてヒントを与えるとされているだけで、太陽の年齢を証明したわけではないので4は誤り。新しい物質の発見や、予想より古いという話もないので2、3も不適。",
+          "script": "Space Rocks\n\nOne day, a Norwegian man called Jon Larsen noticed a tiny, shiny object on an outdoor table. Because it looked so unusual, he thought it might be a micrometeorite, a small piece of rock from space. After finding more, he asked scientists to analyze them. At the time, most micrometeorites had been found in remote areas such as Antarctica, so many scientists were doubtful about his discovery. One, however, took Larsen seriously. Together, they proved that these micrometeorites are always falling to Earth, and further research has shown that micrometeorites can be found all over the planet.\n\nLarsen's discovery is significant because micrometeorites can help us understand how our solar system was formed. Because of their great age, they provide hints about what materials were common when the sun was young. Larsen has shown that it is not always experts who help scientists learn new things about our universe.",
+          "scriptJa": "宇宙から来た石\n\nある日、ジョン・ラーセンというノルウェー人の男性が、屋外のテーブルの上に小さく光る物があるのに気づいた。とても変わった見た目だったので、彼はそれが宇宙から来た小さな岩のかけら、つまり微隕石ではないかと考えた。さらにいくつか見つけた後、彼は科学者たちにそれらの分析を依頼した。当時、微隕石のほとんどは南極のような人里離れた場所で見つかっていたため、多くの科学者は彼の発見に懐疑的だった。しかし、一人の科学者がラーセンの話を真剣に受け止めた。二人は協力して、こうした微隕石が絶えず地球に降り注いでいることを証明し、その後の研究によって、微隕石は地球上のどこででも見つかることが明らかになった。\n\nラーセンの発見が重要なのは、微隕石が太陽系の成り立ちを理解する手がかりになるからだ。微隕石は非常に古いため、太陽が若かった頃にどのような物質がありふれていたのかを知るヒントを与えてくれる。ラーセンは、科学者が宇宙について新しいことを知る手助けをするのは、必ずしも専門家ばかりではないことを示したのである。"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "passageLabel": "Passage D",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/25_No19.mp3",
+          "prompt": "Why did Vincenzo Peruggia say he took the Mona Lisa?",
+          "choices": [
+            { "label": "1", "text": "He was hired to steal it by an art dealer." },
+            { "label": "2", "text": "He wanted to show that the museum had poor security." },
+            { "label": "3", "text": "He thought it should be returned to Italy." },
+            { "label": "4", "text": "He believed it was a forgery." }
+          ],
+          "answer": "3",
+          "explanation": "第1段落で、逮捕されたペルージャは「he wanted to return the painting to its native country」と主張したと述べられている。絵が生まれた国、つまりイタリアに返すべきだと考えていたということなので3が正解。美術商は彼を警察に通報した人物であり、盗みを依頼したわけではないので1は誤り。美術館の警備の甘さを示したかったという話や、偽物だと思ったという話もないので2、4も不適。",
+          "script": "Vincenzo Peruggia and the Mona Lisa\n\nOne day in 1911, an Italian man named Vincenzo Peruggia entered the Louvre Museum in Paris and stole the Mona Lisa, a painting by the Italian artist Leonardo da Vinci. Later, Peruggia tried to sell the painting to an art dealer in Italy, but the dealer reported him to the police. When Peruggia was arrested, he claimed he wanted to return the painting to its native country. Peruggia mistakenly believed the Mona Lisa had once been stolen from Italy.\n\nWhile police were searching for the Mona Lisa, newspapers around the world reported the incident. It was the first time an art piece had received such worldwide media attention. Although it was a well-known painting before being stolen, many people believe it would not be as famous today had it not been for Peruggia.",
+          "scriptJa": "ヴィンチェンツォ・ペルージャとモナ・リザ\n\n1911年のある日、ヴィンチェンツォ・ペルージャというイタリア人男性がパリのルーブル美術館に入り込み、イタリア人画家レオナルド・ダ・ヴィンチの絵画「モナ・リザ」を盗み出した。その後、ペルージャはイタリアの美術商にこの絵を売ろうとしたが、美術商は彼を警察に通報した。逮捕されたペルージャは、この絵を生まれた国に返したかったのだと主張した。彼は、モナ・リザがかつてイタリアから盗み出されたものだと思い込んでいたのである。\n\n警察がモナ・リザを捜している間、世界中の新聞がこの事件を報じた。一つの美術作品がこれほど世界的にメディアの注目を集めたのは初めてのことだった。モナ・リザは盗まれる前から有名な絵画ではあったが、ペルージャがいなければ今日これほど有名にはなっていなかっただろうと考える人は多い。"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "passageLabel": "Passage D",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/26_No20.mp3",
+          "prompt": "What do some people now believe about the theft?",
+          "choices": [
+            { "label": "1", "text": "It harmed Italy's reputation." },
+            { "label": "2", "text": "It increased the Mona Lisa's level of fame." },
+            { "label": "3", "text": "It lowered the value of the Mona Lisa." },
+            { "label": "4", "text": "It led to changes in Italian laws." }
+          ],
+          "answer": "2",
+          "explanation": "第2段落の最後で、多くの人が「it would not be as famous today had it not been for Peruggia」と考えていると述べられている。盗難事件がなければ今ほど有名ではなかった、つまり事件がモナ・リザの知名度を高めたということなので2が正解。絵の価値が下がったという話はないので3は誤り。イタリアの評判や法律の変化についても触れられていないので1、4も不適。",
+          "script": "Vincenzo Peruggia and the Mona Lisa\n\nOne day in 1911, an Italian man named Vincenzo Peruggia entered the Louvre Museum in Paris and stole the Mona Lisa, a painting by the Italian artist Leonardo da Vinci. Later, Peruggia tried to sell the painting to an art dealer in Italy, but the dealer reported him to the police. When Peruggia was arrested, he claimed he wanted to return the painting to its native country. Peruggia mistakenly believed the Mona Lisa had once been stolen from Italy.\n\nWhile police were searching for the Mona Lisa, newspapers around the world reported the incident. It was the first time an art piece had received such worldwide media attention. Although it was a well-known painting before being stolen, many people believe it would not be as famous today had it not been for Peruggia.",
+          "scriptJa": "ヴィンチェンツォ・ペルージャとモナ・リザ\n\n1911年のある日、ヴィンチェンツォ・ペルージャというイタリア人男性がパリのルーブル美術館に入り込み、イタリア人画家レオナルド・ダ・ヴィンチの絵画「モナ・リザ」を盗み出した。その後、ペルージャはイタリアの美術商にこの絵を売ろうとしたが、美術商は彼を警察に通報した。逮捕されたペルージャは、この絵を生まれた国に返したかったのだと主張した。彼は、モナ・リザがかつてイタリアから盗み出されたものだと思い込んでいたのである。\n\n警察がモナ・リザを捜している間、世界中の新聞がこの事件を報じた。一つの美術作品がこれほど世界的にメディアの注目を集めたのは初めてのことだった。モナ・リザは盗まれる前から有名な絵画ではあったが、ペルージャがいなければ今日これほど有名にはなっていなかっただろうと考える人は多い。"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "passageLabel": "Passage E",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/28_No21.mp3",
+          "prompt": "What is one thing the speaker says about farming?",
+          "choices": [
+            { "label": "1", "text": "It can be hard for farmers to take vacations." },
+            { "label": "2", "text": "Government funding is being reduced." },
+            { "label": "3", "text": "Crop farming is becoming less profitable." },
+            { "label": "4", "text": "Keeping animals is more difficult than growing crops." }
+          ],
+          "answer": "1",
+          "explanation": "第1段落で、長時間労働などの問題は農業に限らないものの「it can be more difficult for farmers to take time off」と述べられている。take time off を take vacations と言い換えた1が正解。政府の補助金や作物栽培の採算については触れられていないので2、3は誤り。家畜と作物はどちらも毎日の世話が必要だとされているだけで、難しさを比べてはいないので4も不適。",
+          "script": "Helping Farmers\n\nModern farmers struggle with long working hours and often live in isolated areas. Though these problems are not unique to farming, it can be more difficult for farmers to take time off. Livestock and crops require daily attention, and even simple things, like forgetting to close a gate, can quickly lead to expensive losses. With so many serious issues to consider, simply asking a friend or neighbor to take over for a week or two is not usually possible.\n\nThis is where professional farm-sitters can help. With extensive experience and knowledge, professional farm-sitters can look after an entire operation. They can also enjoy the farming experience without having to own a farm. One big challenge, though, is that every farm operates differently. There are also difficult circumstances, like poor weather or disease outbreaks, that can be hard to handle. That is why good, experienced farm-sitters are in high demand.",
+          "scriptJa": "農家を支える\n\n現代の農家は長時間労働に苦しみ、人里離れた地域に住んでいることも多い。こうした問題は農業に限ったものではないが、農家は休みを取るのがほかの職業より難しい場合がある。家畜や作物には毎日の世話が欠かせず、門を閉め忘れるといったささいなことでさえ、たちまち大きな損失につながりかねない。考えなければならない重大な問題がこれほど多いため、友人や隣人に1、2週間代わりを頼むというのは、たいてい無理な話である。\n\nそこで役に立つのが、プロのファームシッターだ。豊富な経験と知識を持つプロのファームシッターなら、農場の運営全体を任せることができる。また、彼らにとっても、自分で農場を所有せずに農業を楽しめるという利点がある。ただし大きな課題の一つは、農場ごとに運営のやり方が異なることだ。また、悪天候や病気の発生など、対処の難しい状況もある。だからこそ、経験を積んだ優秀なファームシッターは引く手あまたなのである。"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "passageLabel": "Passage E",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/29_No22.mp3",
+          "prompt": "What is one problem that farm-sitters face?",
+          "choices": [
+            { "label": "1", "text": "A lack of trust from farm owners." },
+            { "label": "2", "text": "Intense competition for jobs." },
+            { "label": "3", "text": "Convincing farmers to change their procedures." },
+            { "label": "4", "text": "Becoming familiar with operations on each farm." }
+          ],
+          "answer": "4",
+          "explanation": "第2段落で、ファームシッターにとっての大きな課題は「every farm operates differently」ことだと述べられている。農場ごとに異なるやり方に慣れなければならないということなので4が正解。農場主からの信頼や仕事の奪い合いについては述べられておらず、むしろ優秀なシッターは需要が高いとされているので1、2は誤り。農家にやり方を変えさせるという話もないので3も不適。",
+          "script": "Helping Farmers\n\nModern farmers struggle with long working hours and often live in isolated areas. Though these problems are not unique to farming, it can be more difficult for farmers to take time off. Livestock and crops require daily attention, and even simple things, like forgetting to close a gate, can quickly lead to expensive losses. With so many serious issues to consider, simply asking a friend or neighbor to take over for a week or two is not usually possible.\n\nThis is where professional farm-sitters can help. With extensive experience and knowledge, professional farm-sitters can look after an entire operation. They can also enjoy the farming experience without having to own a farm. One big challenge, though, is that every farm operates differently. There are also difficult circumstances, like poor weather or disease outbreaks, that can be hard to handle. That is why good, experienced farm-sitters are in high demand.",
+          "scriptJa": "農家を支える\n\n現代の農家は長時間労働に苦しみ、人里離れた地域に住んでいることも多い。こうした問題は農業に限ったものではないが、農家は休みを取るのがほかの職業より難しい場合がある。家畜や作物には毎日の世話が欠かせず、門を閉め忘れるといったささいなことでさえ、たちまち大きな損失につながりかねない。考えなければならない重大な問題がこれほど多いため、友人や隣人に1、2週間代わりを頼むというのは、たいてい無理な話である。\n\nそこで役に立つのが、プロのファームシッターだ。豊富な経験と知識を持つプロのファームシッターなら、農場の運営全体を任せることができる。また、彼らにとっても、自分で農場を所有せずに農業を楽しめるという利点がある。ただし大きな課題の一つは、農場ごとに運営のやり方が異なることだ。また、悪天候や病気の発生など、対処の難しい状況もある。だからこそ、経験を積んだ優秀なファームシッターは引く手あまたなのである。"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "passageLabel": "Passage F",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/31_No23.mp3",
+          "prompt": "What is one thing companies hope \"smart\" streetlights will do?",
+          "choices": [
+            { "label": "1", "text": "Improve air quality." },
+            { "label": "2", "text": "Reduce traffic accidents." },
+            { "label": "3", "text": "Help emergency services." },
+            { "label": "4", "text": "Increase security for pedestrians." }
+          ],
+          "answer": "3",
+          "explanation": "第1段落の最後で、企業は交通信号と通信して警察や消防、救急車が「reach their destinations faster」ようにする街灯を開発していると述べられている。これらを emergency services とまとめた3が正解。空気の質はデータとして集められ共有されるだけで、改善するとは言っていないので1は誤り。交通事故の減少や歩行者の安全向上についても述べられていないので2、4も不適。",
+          "script": "Smart Streetlights\n\nSeveral cities in the United States are installing \"smart\" streetlights equipped with sensors and cameras that collect data on pedestrian traffic, automobile traffic, and air quality. This information is shared with smartphone applications so that people can track parking availability, traffic conditions, and air pollution. Companies are also developing streetlights that will be able to communicate with traffic signals to help police, firefighters, and ambulances reach their destinations faster.\n\nCritics, however, worry that the gathering and sharing of all this data will put people's privacy at risk. They also argue that the costly technology is not a good use of limited city funds. In response, the developers say details like license plate numbers and people's faces will be deleted before the data is shared. They also say the streetlights will lower electricity use and, since they can be remotely controlled, will reduce maintenance costs as well.",
+          "scriptJa": "スマート街灯\n\nアメリカのいくつかの都市で、センサーとカメラを備え、歩行者の通行量や自動車の交通量、空気の質に関するデータを集める「スマート」街灯の設置が進んでいる。この情報はスマートフォンのアプリと共有され、人々は駐車場の空き状況や交通状況、大気汚染の状況を確認できる。また企業は、交通信号と通信して、警察や消防、救急車が目的地により早く到着できるようにする街灯の開発も進めている。\n\nしかし批判的な人々は、これだけのデータを集めて共有すれば、人々のプライバシーが危険にさらされると懸念している。また、費用のかかるこの技術は、限られた市の財源の使い道としてふさわしくないとも主張している。これに対して開発者側は、車のナンバーや人の顔といった情報はデータを共有する前に削除すると説明している。さらに、この街灯によって電力消費量が減るうえ、遠隔操作ができるので維持費も削減できるとしている。"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "passageLabel": "Passage F",
+          "passageAudio": "audio/eiken/eiken-pre1-2020-3/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2020-3/32_No24.mp3",
+          "prompt": "What is one concern that critics have?",
+          "choices": [
+            { "label": "1", "text": "The technology needed is not yet good enough." },
+            { "label": "2", "text": "The streetlights record people's private information." },
+            { "label": "3", "text": "The remote controls require too much electricity." },
+            { "label": "4", "text": "The streetlights are unsuitable for most cities." }
+          ],
+          "answer": "2",
+          "explanation": "第2段落の冒頭で、批判的な人々はデータの収集と共有が「put people's privacy at risk」と懸念していると述べられている。これを「個人の情報を記録してしまう」と表した2が正解。批判派のもう一つの主張は費用の問題であり、技術が未熟だという点ではないので1は誤り。開発者側は電力消費が減ると述べており、遠隔操作に電力がかかりすぎるという話ではないので3も不適。",
+          "script": "Smart Streetlights\n\nSeveral cities in the United States are installing \"smart\" streetlights equipped with sensors and cameras that collect data on pedestrian traffic, automobile traffic, and air quality. This information is shared with smartphone applications so that people can track parking availability, traffic conditions, and air pollution. Companies are also developing streetlights that will be able to communicate with traffic signals to help police, firefighters, and ambulances reach their destinations faster.\n\nCritics, however, worry that the gathering and sharing of all this data will put people's privacy at risk. They also argue that the costly technology is not a good use of limited city funds. In response, the developers say details like license plate numbers and people's faces will be deleted before the data is shared. They also say the streetlights will lower electricity use and, since they can be remotely controlled, will reduce maintenance costs as well.",
+          "scriptJa": "スマート街灯\n\nアメリカのいくつかの都市で、センサーとカメラを備え、歩行者の通行量や自動車の交通量、空気の質に関するデータを集める「スマート」街灯の設置が進んでいる。この情報はスマートフォンのアプリと共有され、人々は駐車場の空き状況や交通状況、大気汚染の状況を確認できる。また企業は、交通信号と通信して、警察や消防、救急車が目的地により早く到着できるようにする街灯の開発も進めている。\n\nしかし批判的な人々は、これだけのデータを集めて共有すれば、人々のプライバシーが危険にさらされると懸念している。また、費用のかかるこの技術は、限られた市の財源の使い道としてふさわしくないとも主張している。これに対して開発者側は、車のナンバーや人の顔といった情報はデータを共有する前に削除すると説明している。さらに、この街灯によって電力消費量が減るうえ、遠隔操作ができるので維持費も削減できるとしている。"
+        }
+      ]
+    },
+    {
+      "id": "part3",
+      "title": "Part 3",
+      "description": "Real-Life形式の内容一致選択 — 実生活で遭遇する場面での英文を聞き、質問に答えなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2020-3/33_Part3_explanation.mp3",
+      "questions": [
+        {
+          "id": "q25",
+          "number": 25,
+          "audio": "audio/eiken/eiken-pre1-2020-3/34_question_G_No25.mp3",
+          "passageLabel": "Situation G",
+          "prompt": "What should you do first?",
+          "promptJa": "あなたはまず何をすべきか？",
+          "situation": "You receive the following voice mail after your first interview for a university teaching position in Canada. You are a legal resident of Canada.",
+          "situationJa": "カナダの大学の教員職の1次面接を受けた後、あなたは次の留守番電話のメッセージを受け取る。あなたはカナダの正式な居住者である。",
+          "choices": [
+            { "label": "1", "text": "Send a copy of your passport." },
+            { "label": "2", "text": "Contact your previous employer." },
+            { "label": "3", "text": "Schedule your second interview." },
+            { "label": "4", "text": "Send copies of your recent publications." }
+          ],
+          "answer": "2",
+          "explanation": "大学側は前の勤務先からの推薦状を待っており、そのことについて「ask them about that」と頼んでいる。推薦状が届けば2次面接の日時を決められるという流れなので、まず以前の雇用主に連絡する2が正解。あなたはカナダの正式な居住者なのでパスポートのコピーは不要で、1は誤り。出版物はすでに大学に届いているので4も不適で、3の面接日程の調整は推薦状を送った後のことである。",
+          "script": "This is John Goddard from the Languages Department of Larkspur University. I'm calling about scheduling a second interview for the Japanese Language Instructor position. We have your résumé and recent publications on file, but we're still waiting for a letter of recommendation from your former employer. Could you ask them about that? When you get it, please e-mail it to us. Once we have that, we can set up a time for your second interview. If you're offered the position, and you don't have resident status in Canada, we'll need copies of your passport and your work permit, too.",
+          "scriptJa": "こちらはラークスパー大学語学部のジョン・ゴダードです。日本語講師職の2次面接の日程調整の件でお電話しました。履歴書と最近の出版物はこちらで受け取っていますが、前の勤務先からの推薦状がまだ届いていません。先方に問い合わせていただけますか？推薦状を受け取られたら、メールでこちらにお送りください。それが届き次第、2次面接の日時を決めることができます。採用が決まった場合、カナダの居住資格をお持ちでない方は、パスポートと就労許可証のコピーも必要になります。"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "audio": "audio/eiken/eiken-pre1-2020-3/35_question_H_No26.mp3",
+          "passageLabel": "Situation H",
+          "prompt": "What should you do?",
+          "promptJa": "あなたはどうすべきか？",
+          "situation": "You hear the following commercial from SuperBuzz electronics store. You need a new printer for your home office and want the best deal.",
+          "situationJa": "あなたは家電量販店スーパーバズの次のコマーシャルを聞いている。あなたは自宅の仕事部屋用に新しいプリンターが必要で、できるだけ安く買いたいと思っている。",
+          "choices": [
+            { "label": "1", "text": "Make your purchase on Thursday or Friday." },
+            { "label": "2", "text": "Wait until the weekend." },
+            { "label": "3", "text": "Download the store's smartphone app." },
+            { "label": "4", "text": "Bring in a coupon from a newspaper." }
+          ],
+          "answer": "1",
+          "explanation": "木曜日と金曜日には「special discounts on computer accessories like scanners and printers」があると述べられている。プリンターを最も安く買うには木曜日か金曜日に買えばよいので1が正解。週末に安くなるのはテレビなどの娯楽用家電なので2は誤り。新聞のクーポンは暖房器具やエアコンなど、アプリの割引はホームエンターテインメントシステムが対象なので3、4も不適。",
+          "script": "SuperBuzz guarantees our prices are the best, in-store and online! Shop from Monday to Wednesday for big discounts on all computers and software. On Thursday and Friday, we're offering special discounts on computer accessories like scanners and printers. Over the weekend, save big on entertainment electronics like surround-sound speakers and high-resolution TVs. Also, be sure to check our advertisements in your local newspaper or our website for coupons with discounts on heaters, air conditioners, and vacuum cleaners. You can also download our smartphone application for huge savings this week on home entertainment systems.",
+          "scriptJa": "スーパーバズは、店頭でもオンラインでも最安値を保証します！月曜日から水曜日は、パソコンとソフトウェアが全品大幅割引。木曜日と金曜日は、スキャナーやプリンターなどのパソコン周辺機器を特別価格でご提供します。週末は、サラウンドスピーカーや高解像度テレビなどのエンターテインメント家電が断然お得。さらに、地元の新聞の広告や当店のウェブサイトで、暖房器具、エアコン、掃除機の割引クーポンもぜひチェックしてください。スマートフォンアプリをダウンロードすれば、今週はホームエンターテインメントシステムが大幅にお得になります。"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "audio": "audio/eiken/eiken-pre1-2020-3/36_question_I_No27.mp3",
+          "passageLabel": "Situation I",
+          "prompt": "What should you do?",
+          "promptJa": "あなたはどうすべきか？",
+          "situation": "Today, you need to drive to a nearby city for a two-day conference. Your husband has left a voice mail on your cell phone. You must depart within two hours.",
+          "situationJa": "今日、あなたは2日間の会議に出るため、近くの都市まで車で行かなければならない。夫があなたの携帯電話に留守番電話のメッセージを残している。あなたは2時間以内に出発しなければならない。",
+          "choices": [
+            { "label": "1", "text": "Have the snow tires put on." },
+            { "label": "2", "text": "Borrow your husband's vehicle." },
+            { "label": "3", "text": "Purchase chains tonight." },
+            { "label": "4", "text": "Cancel your attendance." }
+          ],
+          "answer": "2",
+          "explanation": "夫は、あなたの車のタイヤは大雪に向かず、店でタイヤを替えてもらえるのは明日になると伝えたうえで、「please take my four-wheel drive」と言っている。2時間以内に出発しなければならないので、夫の車を借りる2が正解。スノータイヤの取り付けは明日になるので1は間に合わない。チェーンは eventually、つまりいずれ買えばよいとされ、会議を欠席することもできないので3、4も誤り。",
+          "script": "Hi, honey. I just heard the forecast. They're predicting heavy snow and wind tonight. Your car's tires aren't suitable for that kind of weather. We should've put snow tires on last weekend. I called our usual shop and they're busy but said they can put on new tires tomorrow. I know canceling the conference isn't an option since you're the main presenter, so please take my four-wheel drive. I can manage without it while you're away. We should also eventually buy chains, since winter will just get worse from here. Take care!",
+          "scriptJa": "やあ、僕だよ。今、天気予報を聞いたんだけど、今夜は大雪と強風になるらしい。君の車のタイヤはそういう天気には向いていないよね。先週末にスノータイヤに替えておけばよかったな。いつもの店に電話したら、今は混んでいるけど、明日なら新しいタイヤを付けられるって。君がメインの発表者だから会議を欠席できないのはわかってるし、僕の四輪駆動車に乗っていってよ。君が留守の間は、僕は車がなくても何とかなるから。冬はこれから厳しくなる一方だから、そのうちチェーンも買っておかないとね。気をつけて！"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "audio": "audio/eiken/eiken-pre1-2020-3/37_question_J_No28.mp3",
+          "passageLabel": "Situation J",
+          "prompt": "What should you do first?",
+          "promptJa": "あなたはまず何をすべきか？",
+          "situation": "You will head your company's new branch office in Japan. The company president tells you the following.",
+          "situationJa": "あなたは会社が日本に新しく開設する支社の責任者になる予定である。社長があなたに次のように話す。",
+          "choices": [
+            { "label": "1", "text": "Ask coworkers to take over your work now." },
+            { "label": "2", "text": "Begin searching for new clients in Japan." },
+            { "label": "3", "text": "Let your clients know you are leaving." },
+            { "label": "4", "text": "Identify a suitable person for your position." }
+          ],
+          "answer": "4",
+          "explanation": "社長は、顧客を同僚に引き継ぐとこちらに君の代わりがいなくなると指摘したうえで、「your priority right now should be selecting and training your replacement」と述べている。まず後任にふさわしい人を選ぶことが求められているので4が正解。顧客の引き継ぎや日本での人脈作りは後任を決めた後の段取りなので1、2は誤り。顧客へのあいさつも後任と一緒に行うものなので3も最初にすべきことではない。",
+          "script": "I've been working on the timeline for establishing the Japan branch office. It needs to be up and running by April. It's October now, so moving there by the start of the year would be best, which means passing your current clients to coworkers so you can start building connections in Japan. However, that would leave us with nobody in your position here. That being the case, your priority right now should be selecting and training your replacement. Client introductions with your replacement will help ease him or her into taking over.",
+          "scriptJa": "日本支社の設立スケジュールを練っているところだ。4月までには稼働させる必要がある。今は10月だから、年明けまでに向こうへ移るのが一番いい。そのためには、君が日本で人脈作りを始められるよう、今の顧客を同僚に引き継いでもらうことになる。ただ、そうするとこちらには君のポジションを担う人がいなくなってしまう。だから、今の君の最優先事項は、後任を選んで育てることだ。後任と一緒に顧客へあいさつに行けば、その人もスムーズに仕事を引き継げるだろう。"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "audio": "audio/eiken/eiken-pre1-2020-3/38_question_K_No29.mp3",
+          "passageLabel": "Situation K",
+          "prompt": "What should you do first?",
+          "promptJa": "あなたはまず何をすべきか？",
+          "situation": "It is your first day at a new job. You have questions about the tax forms you need to complete. The office manager tells you the following.",
+          "situationJa": "今日は新しい職場での初日である。あなたは記入しなければならない税金関係の書類について質問がある。オフィスマネージャーがあなたに次のように話す。",
+          "choices": [
+            { "label": "1", "text": "Contact Ms. Rodriguez." },
+            { "label": "2", "text": "Ask the office manager for an ID." },
+            { "label": "3", "text": "Speak with Stephanie." },
+            { "label": "4", "text": "Meet Julia about getting an office." }
+          ],
+          "answer": "3",
+          "explanation": "あなたの質問は税金の書類についてであり、オフィスマネージャーは給与や税金の控除に関することは経理部のステファニーに聞くよう伝え（ask Stephanie in Accounting）、書類の提出を今日中に済ませるよう優先を求めている。したがって、まずステファニーに相談する3が正解。ロドリゲスさんは明日まで不在なので1は誤り。IDバッジはすでに受け取っているので2も不適で、オフィスについてジュリアに聞くのは書類の後なので4も誤り。",
+          "script": "Good morning. Here's your ID badge and parking permit. Your boss, Ms. Rodriguez, is away on business and won't be available until tomorrow. So, you can give me the paperwork we asked you to fill out last week. If you have any questions about those forms, I can help with anything regarding your contract or health insurance. You can ask Stephanie in Accounting about anything related to pay, tax deductions, and so on. I need everything before you leave today, so prioritize that. After that, Julia can answer any questions about your office, but it should be ready for you.",
+          "scriptJa": "おはようございます。こちらがあなたのIDバッジと駐車許可証です。上司のロドリゲスさんは出張中で、明日まで対応できません。ですので、先週記入をお願いした書類は私に提出してください。書類について質問があれば、契約や健康保険に関することなら何でも私がお手伝いします。給与や税金の控除などに関することは、経理部のステファニーに聞いてください。今日お帰りになる前に全部そろえていただく必要があるので、それを優先してください。その後、オフィスについての質問はジュリアが答えてくれますが、オフィスはもう準備できているはずです。"
+        }
+      ]
+    }
+  ]
+}

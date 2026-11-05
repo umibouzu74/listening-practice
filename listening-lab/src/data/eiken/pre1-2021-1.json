@@ -1,0 +1,550 @@
+{
+  "examType": "eiken",
+  "id": "eiken-pre1-2021-1",
+  "meta": {
+    "title": "英検準1級",
+    "subtitle": "2021年度 第1回",
+    "year": 2021,
+    "grade": "pre1",
+    "session": "2021-1",
+    "icon": "🏅",
+    "totalTime": 29
+  },
+  "sections": [
+    {
+      "id": "part1",
+      "title": "Part 1",
+      "description": "会話の内容一致選択 — 会話を聞き、その質問に対して最も適切なものを選びなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2021-1/01_Part1_explanation.mp3",
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "audio": "audio/eiken/eiken-pre1-2021-1/02_No1.mp3",
+          "prompt": "What does the woman imply?",
+          "choices": [
+            { "label": "1", "text": "The man should be more apologetic." },
+            { "label": "2", "text": "The man should have bought a present." },
+            { "label": "3", "text": "The man worries too much." },
+            { "label": "4", "text": "The man is not very reliable." }
+          ],
+          "answer": "4",
+          "explanation": "女性の最後の発言「It happens almost every time I ask you to do something.」から、男性は頼まれたことをいつも後回しにしたり忘れたりする人だとわかる。これを「あまり当てにならない」と言い換えた4が正解。男性はすでに謝っているので1は合わず、プレゼントは買い忘れたのではなく郵送し忘れたのが問題なので2も誤り。",
+          "script": "W: Hey, honey, did you mail my mom's present like I asked you to?\nM: Uh, I'll do it tomorrow on my way to work.\nW: I can't believe it. This is the third time I've reminded you.\nM: I know. I know. I just got busy and it slipped my mind. Sorry. It won't happen again.\nW: It happens almost every time I ask you to do something.",
+          "scriptJa": "W: ねえ、あなた、頼んでおいた母へのプレゼント、郵送してくれた？\nM: ああ、明日、仕事に行く途中で出すよ。\nW: 信じられない。言うのはこれで3回目よ。\nM: わかってる、わかってるよ。ちょっと忙しくて、うっかり忘れてたんだ。ごめん。もう二度とこんなことはしないから。\nW: 私が何か頼むと、ほとんど毎回こうなるじゃない。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "audio": "audio/eiken/eiken-pre1-2021-1/03_No2.mp3",
+          "prompt": "How does the woman feel about her new business project?",
+          "choices": [
+            { "label": "1", "text": "She is confident." },
+            { "label": "2", "text": "She is cautious." },
+            { "label": "3", "text": "She is worried." },
+            { "label": "4", "text": "She is disappointed." }
+          ],
+          "answer": "1",
+          "explanation": "女性の3番目の発言「I just figure I can't lose.」から、彼女は新しい事業の成功を確信していることがわかるので1が正解。流行には用心すべきだと慎重な姿勢を示しているのは男性のほうであり、2の「慎重」や3の「心配」は女性の気持ちには当てはまらない。",
+          "script": "W: I finally found the ideal spot for my new hair salon. I just signed the lease today.\nM: You're opening another shop? The first one must be doing quite well.\nW: Business is great. My new salon will have a special focus, though. We'll offer haircuts exclusively for children.\nM: I didn't know there was a demand for that.\nW: The children's beauty market is so hot now. I just figure I can't lose.\nM: I'd be wary of trends. They often don't last long. Anyway, how does one make the haircutting experience different for children?\nW: We make the environment fun. The salon chairs will be in the shape of animals, and kids can choose from various scented shampoos.\nM: Well, I wish you luck!",
+          "scriptJa": "W: 新しいヘアサロンにぴったりの場所がやっと見つかったの。今日、賃貸契約にサインしてきたところよ。\nM: もう1店舗出すのかい？最初の店がよほど繁盛しているんだね。\nW: 商売は順調よ。でも新しいサロンは特色を出すつもりなの。子ども専門のヘアカットの店にするのよ。\nM: そんな需要があるなんて知らなかったな。\nW: 今は子ども向けの美容市場がすごく盛り上がっているの。失敗するはずがないと思ってるわ。\nM: 流行には用心したほうがいいよ。長続きしないことが多いからね。ところで、子ども向けのヘアカットって、どうやって特別なものにするの？\nW: 楽しい雰囲気にするのよ。サロンの椅子は動物の形にして、子どもたちはいろいろな香りのシャンプーから選べるようにするの。\nM: そうか、うまくいくといいね！"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "audio": "audio/eiken/eiken-pre1-2021-1/04_No3.mp3",
+          "prompt": "What do we learn about Stacey?",
+          "choices": [
+            { "label": "1", "text": "She is looking for a new job." },
+            { "label": "2", "text": "She is keeping her current job." },
+            { "label": "3", "text": "She failed her job interview." },
+            { "label": "4", "text": "She started a new job." }
+          ],
+          "answer": "2",
+          "explanation": "男性の2番目の発言で、ステイシーは面接後に考え直し「she's better off where she is now」と判断したと述べられている。つまり今の仕事を続けるということなので2が正解。会社からは採用の申し出があったので3は誤りで、その申し出を断っているので4も合わない。",
+          "script": "W: Hey, John. Did you hear whether Stacey got the job or not? I haven't seen her for a while.\nM: I had lunch with her yesterday. Apparently, the company offered her the job, but she turned them down.\nW: You're kidding! She seemed really interested when I last spoke to her.\nM: I know, but after the interview, she reconsidered and decided she's better off where she is now.\nW: Well, I did wonder why she wanted to change jobs in the first place.",
+          "scriptJa": "W: ねえ、ジョン。ステイシーが採用されたかどうか聞いた？しばらく彼女に会っていないのよ。\nM: 昨日、彼女とお昼を食べたよ。どうやら会社から採用の申し出があったのに、断ったらしい。\nW: うそでしょ！前に話したときは、すごく乗り気だったのに。\nM: そうなんだよ。でも面接のあとで考え直して、今の職場にいるほうがいいと決めたんだって。\nW: まあ、そもそもどうして転職したがっていたのか不思議には思っていたけどね。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "audio": "audio/eiken/eiken-pre1-2021-1/05_No4.mp3",
+          "prompt": "What is the man's complaint?",
+          "choices": [
+            { "label": "1", "text": "The noise is disturbing his work." },
+            { "label": "2", "text": "The air conditioner is broken." },
+            { "label": "3", "text": "The heat is making him uncomfortable." },
+            { "label": "4", "text": "The window cannot be opened." }
+          ],
+          "answer": "3",
+          "explanation": "男性は冒頭で「Is it boiling in here」と言い、さらに「It feels like an oven in here. I can't concentrate.」と暑さのせいで集中できないと訴えているので3が正解。騒音は窓を開けた場合の心配にすぎないので1は誤り。エアコンは壊れているのではなく、会社の方針で28度になるまで作動しないだけなので2も誤り。",
+          "script": "M: Is it boiling in here or is it just me?\nW: I'm all right, but we can open a window if you want.\nM: No, it'll be too noisy. Why don't we just turn on the air conditioner?\nW: Company policy. The air conditioner is set to come on automatically at 28 degrees.\nM: Really? It feels like an oven in here. I can't concentrate.\nW: Tell you what. I'll turn on the fan.\nM: OK. At least it'll move the air around.",
+          "scriptJa": "M: ここ、すごく暑くない？それとも僕だけかな？\nW: 私は平気だけど、よければ窓を開けましょうか。\nM: いや、それだとうるさすぎるよ。エアコンをつければいいんじゃない？\nW: 会社の方針なのよ。エアコンは28度になると自動でつくように設定されているの。\nM: 本当に？ここはオーブンの中みたいだよ。集中できない。\nW: じゃあこうしましょう。扇風機をつけるわ。\nM: わかった。少なくとも空気は動くからね。"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "audio": "audio/eiken/eiken-pre1-2021-1/06_No5.mp3",
+          "prompt": "What will Frank do tonight?",
+          "choices": [
+            { "label": "1", "text": "Purchase a new computer." },
+            { "label": "2", "text": "Renew their security program." },
+            { "label": "3", "text": "Help the woman with her report." },
+            { "label": "4", "text": "Take the computer in for repairs." }
+          ],
+          "answer": "2",
+          "explanation": "男性（フランク）の最初の発言でセキュリティソフトの期限切れが話題になり、女性がすぐ更新すべきだと言うと、男性は最後に「I'll do it when I get home this evening.」と答えている。この it はソフトの更新を指すので2が正解。報告書を書いているのは女性であり、男性が手伝うとは言っていないので3は誤り。パソコンの買い替えや修理の話も出ていないので1や4も合わない。",
+          "script": "W: Hi, Frank. I'm sorry to bother you at work. Did you do something to our home computer? I'm trying to get a report done, and the whole system is really slow.\nM: The security software expired a few days ago, and I haven't had a chance to renew it yet. We may have picked up a virus or something.\nW: We'd better renew it right away. I'd do it, but I don't really know how.\nM: I'll do it when I get home this evening.",
+          "scriptJa": "W: もしもし、フランク。仕事中にごめんなさい。家のパソコンに何かした？報告書を仕上げようとしているんだけど、システム全体がすごく遅いの。\nM: セキュリティソフトの期限が数日前に切れて、まだ更新する暇がなかったんだ。ウイルスか何かに感染したのかもしれない。\nW: すぐに更新したほうがいいわね。私がやってもいいんだけど、やり方がよくわからないの。\nM: 今晩、家に帰ったら僕がやるよ。"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "audio": "audio/eiken/eiken-pre1-2021-1/07_No6.mp3",
+          "prompt": "What does the woman advise Vince to do?",
+          "choices": [
+            { "label": "1", "text": "Take out a loan for university expenses." },
+            { "label": "2", "text": "Attend a community college." },
+            { "label": "3", "text": "Work full time for two years." },
+            { "label": "4", "text": "Go to a university out of town." }
+          ],
+          "answer": "2",
+          "explanation": "女性の2番目の発言で「Instead of taking out a big loan, you might want to consider a community college」と勧めているので2が正解。ローンを組むことはむしろ避けるよう提案しているので1は誤り。また、自宅から通い続けられることを利点に挙げているので、町の外の大学に行くという4も合わない。",
+          "script": "W: Hi, Vince. Come in and have a seat. I heard you're concerned about your future university expenses.\nM: That's right, Ms. Merkley. My parents can't really afford to help me much.\nW: I see. Instead of taking out a big loan, you might want to consider a community college for your first two years. The tuition is very reasonable, and you could continue to live at home.\nM: I've thought about that. It's not my first choice, but that's probably what I'll end up doing.",
+          "scriptJa": "W: こんにちは、ヴィンス。入って座ってちょうだい。大学の学費のことで悩んでいると聞いたけど。\nM: そうなんです、マークリー先生。両親はあまり援助してくれる余裕がないんです。\nW: なるほどね。多額のローンを組む代わりに、最初の2年間はコミュニティカレッジに通うことを考えてみてもいいかもしれないわ。学費はとても手頃だし、自宅から通い続けることもできるわよ。\nM: それは考えたことがあります。第一志望ではないですが、たぶん結局そうすることになると思います。"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "audio": "audio/eiken/eiken-pre1-2021-1/08_No7.mp3",
+          "prompt": "What is the man considering doing?",
+          "choices": [
+            { "label": "1", "text": "Getting a new prescription from his doctor." },
+            { "label": "2", "text": "Starting to eat more healthily." },
+            { "label": "3", "text": "Going to see the woman's doctor." },
+            { "label": "4", "text": "Stopping his prescription medicine." }
+          ],
+          "answer": "3",
+          "explanation": "女性がアレルギーを治してくれた自然療法医のゲイジ先生の話をしたのを受けて、男性は最後に「Maybe I should schedule a consultation.」と言っている。これは女性がかかった医者に診てもらうことを考えているということなので3が正解。新しい処方薬をもらう話や、薬の服用をやめる話は出てこないので1や4は誤り。",
+          "script": "W: Are you OK, Matt? You keep sneezing and coughing.\nM: I think my allergies are acting up.\nW: I used to have bad allergies, too. Every spring.\nM: Did you have to take a lot of prescription medicine?\nW: Yes, several different types. Then I tried Dr. Gage, my naturopathic doctor.\nM: And it was Dr. Gage who cured you?\nW: After using her herbal remedies for a few years, my symptoms gradually decreased, then disappeared.\nM: That's amazing. Maybe I should schedule a consultation.",
+          "scriptJa": "W: マット、大丈夫？くしゃみと咳が止まらないみたいだけど。\nM: アレルギーが出てきたんだと思う。\nW: 私も前はひどいアレルギーがあったのよ。毎年春になると。\nM: 処方薬をたくさん飲まなきゃいけなかった？\nW: ええ、何種類もね。それから、自然療法医のゲイジ先生のところに行ってみたの。\nM: それで、治してくれたのはゲイジ先生だったの？\nW: 先生のハーブ療法を何年か続けたら、症状がだんだん軽くなって、そのうち消えたのよ。\nM: それはすごいね。僕も診察の予約を取ったほうがいいかもしれないな。"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "audio": "audio/eiken/eiken-pre1-2021-1/09_No8.mp3",
+          "prompt": "What will the man do on the 17th?",
+          "choices": [
+            { "label": "1", "text": "Go fishing with Ronan." },
+            { "label": "2", "text": "Attend a teaching conference." },
+            { "label": "3", "text": "Take his wife to a movie." },
+            { "label": "4", "text": "Look after the children." }
+          ],
+          "answer": "4",
+          "explanation": "17日（土曜日）について、女性は2番目の発言で研究会に出たいので「I was hoping you could watch the kids」と頼み、男性は「OK.」と引き受けているので4が正解。釣りは日曜日に回すよう頼まれているので1は誤りで、研究会に出るのは女性なので2も誤り。男性が映画に連れて行くのは子どもたちであり、妻ではないので3も合わない。",
+          "script": "W: Honey, what are you doing on the 17th?\nM: This Saturday? Uh, I was thinking about going fishing with Ronan.\nW: Could you go on Sunday? There's an all-day teachers conference that I'd like to attend. I was hoping you could watch the kids.\nM: OK. Maybe I'll take them to a movie, and then grab some dinner on our way home.\nW: I appreciate it, honey.",
+          "scriptJa": "W: ねえ、あなた、17日は何をする予定？\nM: 今度の土曜日？ええと、ローナンと釣りに行こうかと思ってたんだけど。\nW: 日曜日に行けない？一日がかりの教員向けの研究会があって、参加したいのよ。子どもたちの面倒を見てもらえないかと思って。\nM: いいよ。子どもたちを映画に連れて行って、帰りに夕飯でも食べてこようかな。\nW: 助かるわ、ありがとう。"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "audio": "audio/eiken/eiken-pre1-2021-1/10_No9.mp3",
+          "prompt": "What is the man considering doing?",
+          "choices": [
+            { "label": "1", "text": "Paying to have the driveway cleared." },
+            { "label": "2", "text": "Looking for a new snow shovel." },
+            { "label": "3", "text": "Starting to exercise more regularly." },
+            { "label": "4", "text": "Having his back checked by a doctor." }
+          ],
+          "answer": "1",
+          "explanation": "女性が除雪サービスを頼むよう勧め、男性は最後に「I'll call them for an estimate.」と答えている。them は除雪サービスを指すので、お金を払って車寄せの雪を除いてもらうことを検討しているとわかり、1が正解。腰を痛めないかと心配しているのは女性であり、医者に診てもらう話は出ていないので4は誤り。運動については雪かきの利点として触れているだけなので3も合わない。",
+          "script": "M: It looks like more snow is forecast, Nadia. I guess I'll be clearing the driveway again.\nW: Maybe you should finally give in and hire that snow removal service we saw advertised.\nM: I know, but I hate to spend the money. And shoveling isn't bad exercise.\nW: True, but you're not getting any younger. You don't want to strain your back again.\nM: You've got a point. I'll call them for an estimate.",
+          "scriptJa": "M: また雪の予報みたいだね、ナディア。また車寄せの雪かきをすることになりそうだ。\nW: いい加減に観念して、広告で見たあの除雪サービスを頼んだらどう？\nM: そうなんだけど、お金を使うのは嫌なんだよ。それに雪かきはけっこういい運動になるし。\nW: そうね、でもあなたも若くはないんだから。また腰を痛めたくはないでしょう。\nM: それもそうだな。見積もりを出してもらえるよう電話してみるよ。"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "audio": "audio/eiken/eiken-pre1-2021-1/11_No10.mp3",
+          "prompt": "What does the couple decide to do?",
+          "choices": [
+            { "label": "1", "text": "Increase the number of channels." },
+            { "label": "2", "text": "Stop paying for the movie channels." },
+            { "label": "3", "text": "Keep their current cable plan." },
+            { "label": "4", "text": "Let their children watch only educational TV." }
+          ],
+          "answer": "1",
+          "explanation": "男性がチャンネル数を増やせるキャンペーンを提案し、女性は最初は渋るものの「OK, you win.」と同意しているので1が正解。映画チャンネルはむしろ増える側の話なので2は誤り。今のプランを続けるわけではないので3も誤りで、視聴時間を制限する話は出ても、子どもに教育番組だけを見せるとは言っていないので4も合わない。",
+          "script": "M: Did you see this promotion for cable TV? We can get 100 channels for the same price we're paying for 30 channels now.\nW: Don't you think we already spend enough time watching TV?\nM: But we'd get more educational programs for the kids. And you'd like to have more movie channels, wouldn't you?\nW: OK, you win. But let's agree to at least talk about limiting how much we watch.\nM: Fair enough.",
+          "scriptJa": "M: このケーブルテレビのキャンペーン、見た？今30チャンネルに払っているのと同じ料金で、100チャンネル見られるんだって。\nW: もう十分すぎるくらいテレビを見てると思わない？\nM: でも子ども向けの教育番組が増えるよ。それに、君も映画チャンネルがもっとあったらうれしいだろう？\nW: わかった、あなたの勝ちね。でも、せめて見る時間を制限することについては話し合うって約束してね。\nM: いいよ。"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "audio": "audio/eiken/eiken-pre1-2021-1/12_No11.mp3",
+          "prompt": "Why was the man disappointed?",
+          "choices": [
+            { "label": "1", "text": "The band did not play many hits." },
+            { "label": "2", "text": "The band's performance lacked energy." },
+            { "label": "3", "text": "The band's tour schedule changed." },
+            { "label": "4", "text": "The band was rude to the audience." }
+          ],
+          "answer": "2",
+          "explanation": "男性の2番目の発言で、音楽自体は素晴らしかったが、ツアーの終盤だったため「They looked exhausted.」と述べている。バンドに疲れが見えて演奏に勢いがなかったということなので2が正解。ヒット曲は十分に演奏されていたので1は誤り。ツアー日程を短くすべきだったというのは女性の感想にすぎず、日程が変更されたわけではないので3も誤り。",
+          "script": "W: How was the concert last night, Pierre?\nM: Well, the band usually puts on a good performance, but I felt like they let down the audience a bit.\nW: How so? Didn't they play enough of their hit songs?\nM: The music itself was fantastic. There was a good mix of hits from their old stuff and songs from their new album. It's just that our city was one of the last stops on the tour. They looked exhausted.\nW: I can imagine. Maybe they should've shortened their tour schedule.",
+          "scriptJa": "W: 昨日の夜のコンサートはどうだった、ピエール？\nM: うーん、あのバンドはいつもいい演奏をするんだけど、今回はちょっと観客の期待を裏切った感じがしたな。\nW: どうして？ヒット曲をあまりやらなかったの？\nM: 音楽自体は最高だったよ。昔のヒット曲と新しいアルバムの曲がうまく組み合わされていてね。ただ、うちの街がツアーの最後のほうの公演地だったんだ。メンバーはみんなくたくたに見えたよ。\nW: 想像がつくわ。ツアーの日程を短くすればよかったのにね。"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "audio": "audio/eiken/eiken-pre1-2021-1/13_No12.mp3",
+          "prompt": "What does the man imply?",
+          "choices": [
+            { "label": "1", "text": "The woman should train her dog." },
+            { "label": "2", "text": "The woman should buy a dog-training book." },
+            { "label": "3", "text": "The woman's dog may have a medical problem." },
+            { "label": "4", "text": "The woman's dog is too old to train." }
+          ],
+          "answer": "1",
+          "explanation": "男性は2番目の発言でしつけ教室を勧め、さらに年を取った犬のしつけに役立つ本を貸すと申し出ている。つまり犬をしつけるべきだと言っているので1が正解。本は貸すと言っているので、購入を勧める2は誤り。年を取りすぎてしつけられないと言っているのは女性で、男性は「I wouldn't be so sure.」と否定しているので4も誤り。",
+          "script": "W: I don't know what's wrong with my dog these days. His behavior is getting worse.\nM: What do you mean?\nW: Well, he barks for no reason, and he even ran out into the street yesterday. He's never done that before!\nM: Why not take him to obedience classes?\nW: He's probably too old to learn anything now.\nM: I wouldn't be so sure. I have a great book I used with my dog. It has tips for dealing with older dogs. I can lend it to you if you'd like.\nW: I suppose it couldn't hurt.",
+          "scriptJa": "W: 最近うちの犬、どうしちゃったのかしら。行儀がどんどん悪くなっているの。\nM: どういうこと？\nW: それがね、理由もないのに吠えるし、昨日なんか道路に飛び出したのよ。そんなこと今までなかったのに！\nM: しつけ教室に連れて行ったらどう？\nW: もう年だから、今さら何も覚えないと思うわ。\nM: そうとも限らないよ。僕が自分の犬に使ったすごくいい本があるんだ。年を取った犬への対処法が載ってるよ。よかったら貸してあげる。\nW: 試してみても損はなさそうね。"
+        }
+      ]
+    },
+    {
+      "id": "part2",
+      "title": "Part 2",
+      "description": "文の内容一致選択 — 英文を聞き、その質問に対して最も適切なものを選びなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2021-1/14_Part2_explanation.mp3",
+      "questions": [
+        {
+          "id": "q13",
+          "number": 13,
+          "passageLabel": "Passage A",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/16_No13.mp3",
+          "prompt": "What is one thing we learn about carminic acid?",
+          "choices": [
+            { "label": "1", "text": "It gives food a bitter taste." },
+            { "label": "2", "text": "It is produced by drying plants." },
+            { "label": "3", "text": "It gives some plants their color." },
+            { "label": "4", "text": "It is found in a type of insect." }
+          ],
+          "answer": "4",
+          "explanation": "第1段落で、コチニールと呼ばれる昆虫が「produce a substance known as carminic acid」と述べられているので、カルミン酸はある種の昆虫に含まれる物質だといえ、4が正解。乾燥させるのは植物ではなく虫なので2は誤りで、サボテンは虫を採取する場所にすぎないので3も誤り。苦味についての言及はないので1も合わない。",
+          "script": "Cochineals\n\nThe idea of eating bugs is not socially accepted in many countries. It can therefore shock people to learn that some food products in their supermarkets contain a coloring made from insects. The insects, called cochineals, produce a substance known as carminic acid. To make the color, the insects are first harvested from cactus plants. The insects are then dried and processed to turn the carminic acid into carmine, a red dye that can be used as a food coloring.\n\nBecause of the quality dye that can be produced from cochineals, they were highly valued by ancient civilizations in the Americas. These societies used the dye to color clothing, food, and body paint. Today, it is used in some cosmetics as well as food. Some people, such as vegans and vegetarians, think that dyes made from plant sources like strawberries and beets should be used instead.",
+          "scriptJa": "コチニール\n\n虫を食べるという考えは、多くの国で社会的に受け入れられていない。そのため、スーパーマーケットに並ぶ食品の中に昆虫から作られた着色料を含むものがあると知ると、人々は驚くことがある。コチニールと呼ばれるその昆虫は、カルミン酸という物質を作り出す。色素を作るには、まずサボテンからこの虫を採取する。その後、虫を乾燥させて加工し、カルミン酸をカルミンに変える。カルミンは赤い染料で、食品の着色料として使うことができる。\n\nコチニールからは良質な染料が作れるため、南北アメリカの古代文明ではコチニールが非常に珍重された。これらの社会では、衣服や食べ物、ボディペイントに色をつけるのにこの染料が使われた。今日では、食品だけでなく一部の化粧品にも使われている。ヴィーガンや菜食主義者などの中には、代わりにイチゴやビーツといった植物由来の染料を使うべきだと考える人もいる。"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "passageLabel": "Passage A",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/15_question_A.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/17_No14.mp3",
+          "prompt": "What do some people think about the dye made from cochineals?",
+          "choices": [
+            { "label": "1", "text": "It should be replaced with other options." },
+            { "label": "2", "text": "It can be harmful to plants." },
+            { "label": "3", "text": "It should be used as a medicine." },
+            { "label": "4", "text": "It is too valuable to use in cosmetics." }
+          ],
+          "answer": "1",
+          "explanation": "第2段落の最後で、ヴィーガンや菜食主義者などが「dyes made from plant sources ... should be used instead」と考えていると述べられている。これを「他の選択肢に置き換えるべきだ」と言い換えた1が正解。染料が植物に害を与えるという話はないので2は誤りで、化粧品にも使われているという事実が述べられているだけなので4も誤り。",
+          "script": "Cochineals\n\nThe idea of eating bugs is not socially accepted in many countries. It can therefore shock people to learn that some food products in their supermarkets contain a coloring made from insects. The insects, called cochineals, produce a substance known as carminic acid. To make the color, the insects are first harvested from cactus plants. The insects are then dried and processed to turn the carminic acid into carmine, a red dye that can be used as a food coloring.\n\nBecause of the quality dye that can be produced from cochineals, they were highly valued by ancient civilizations in the Americas. These societies used the dye to color clothing, food, and body paint. Today, it is used in some cosmetics as well as food. Some people, such as vegans and vegetarians, think that dyes made from plant sources like strawberries and beets should be used instead.",
+          "scriptJa": "コチニール\n\n虫を食べるという考えは、多くの国で社会的に受け入れられていない。そのため、スーパーマーケットに並ぶ食品の中に昆虫から作られた着色料を含むものがあると知ると、人々は驚くことがある。コチニールと呼ばれるその昆虫は、カルミン酸という物質を作り出す。色素を作るには、まずサボテンからこの虫を採取する。その後、虫を乾燥させて加工し、カルミン酸をカルミンに変える。カルミンは赤い染料で、食品の着色料として使うことができる。\n\nコチニールからは良質な染料が作れるため、南北アメリカの古代文明ではコチニールが非常に珍重された。これらの社会では、衣服や食べ物、ボディペイントに色をつけるのにこの染料が使われた。今日では、食品だけでなく一部の化粧品にも使われている。ヴィーガンや菜食主義者などの中には、代わりにイチゴやビーツといった植物由来の染料を使うべきだと考える人もいる。"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "passageLabel": "Passage B",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/19_No15.mp3",
+          "prompt": "What was one reason Icelandic people built turf houses?",
+          "choices": [
+            { "label": "1", "text": "They lasted longer than wooden houses." },
+            { "label": "2", "text": "They were easier to rebuild than stone houses." },
+            { "label": "3", "text": "They were well suited to the environment." },
+            { "label": "4", "text": "They could be constructed very quickly." }
+          ],
+          "answer": "3",
+          "explanation": "第1段落で、芝土は「could withstand the harsh climate and help keep people warm」とあり、断熱性や自然災害から身を守る点も挙げられている。つまりアイスランドの環境に適していたということなので3が正解。木材は不足していて替えがきかなかったと述べられているだけで、木造の家より長持ちしたとは言っていないので1は誤り。石も使われた素材の一つであり、石造りの家と比べた話はないので2も誤り。",
+          "script": "Icelandic Turf Houses\n\nFor centuries, people in Iceland used turf—clumps of grass and dirt—to construct their houses. Turf was a durable material that could withstand the harsh climate and help keep people warm. Wood was in short supply and often needed to be imported, so it could not be replaced easily. For this reason, more-available materials such as turf and stones were used whenever possible. Turf not only provided insulation, it also protected Icelandic people from some natural disasters.\n\nTurf houses were usually dug into the side of a hill. While they looked like individual buildings from the front, they were often joined together by a corridor at the back. This unusual feature allowed people to move from building to building without being exposed to the cold. Though almost no one lives in turf houses in Iceland today, many have been converted into museums and have become popular tourist attractions.",
+          "scriptJa": "アイスランドの芝土の家\n\n何世紀にもわたり、アイスランドの人々は芝土、つまり草と土の塊を使って家を建てていた。芝土は丈夫な素材で、厳しい気候に耐え、人々を暖かく保つのに役立った。木材は不足しており、輸入しなければならないことも多かったため、簡単には取り替えられなかった。そのため、芝土や石など、より手に入りやすい素材ができる限り使われた。芝土は断熱材になるだけでなく、ある種の自然災害からアイスランドの人々を守る役目も果たした。\n\n芝土の家は、たいてい丘の斜面を掘り込んで造られた。正面からは別々の建物のように見えたが、裏側では廊下でつながっていることが多かった。この珍しい特徴のおかげで、人々は寒さにさらされることなく建物から建物へ移動できた。今日のアイスランドでは芝土の家に住む人はほとんどいないが、その多くは博物館に改装され、人気の観光名所となっている。"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "passageLabel": "Passage B",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/18_question_B.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/20_No16.mp3",
+          "prompt": "What does the speaker say about turf houses?",
+          "choices": [
+            { "label": "1", "text": "They no longer exist today." },
+            { "label": "2", "text": "They were often connected to each other." },
+            { "label": "3", "text": "They could only be built on hilltops." },
+            { "label": "4", "text": "They were also popular in other countries." }
+          ],
+          "answer": "2",
+          "explanation": "第2段落で、芝土の家は正面からは別々の建物に見えても「they were often joined together by a corridor at the back」と述べられているので2が正解。現在も博物館や観光名所として残っているので1は誤り。丘の斜面を掘り込んで造ったのであって、丘の頂上に限られていたわけではないので3も誤り。",
+          "script": "Icelandic Turf Houses\n\nFor centuries, people in Iceland used turf—clumps of grass and dirt—to construct their houses. Turf was a durable material that could withstand the harsh climate and help keep people warm. Wood was in short supply and often needed to be imported, so it could not be replaced easily. For this reason, more-available materials such as turf and stones were used whenever possible. Turf not only provided insulation, it also protected Icelandic people from some natural disasters.\n\nTurf houses were usually dug into the side of a hill. While they looked like individual buildings from the front, they were often joined together by a corridor at the back. This unusual feature allowed people to move from building to building without being exposed to the cold. Though almost no one lives in turf houses in Iceland today, many have been converted into museums and have become popular tourist attractions.",
+          "scriptJa": "アイスランドの芝土の家\n\n何世紀にもわたり、アイスランドの人々は芝土、つまり草と土の塊を使って家を建てていた。芝土は丈夫な素材で、厳しい気候に耐え、人々を暖かく保つのに役立った。木材は不足しており、輸入しなければならないことも多かったため、簡単には取り替えられなかった。そのため、芝土や石など、より手に入りやすい素材ができる限り使われた。芝土は断熱材になるだけでなく、ある種の自然災害からアイスランドの人々を守る役目も果たした。\n\n芝土の家は、たいてい丘の斜面を掘り込んで造られた。正面からは別々の建物のように見えたが、裏側では廊下でつながっていることが多かった。この珍しい特徴のおかげで、人々は寒さにさらされることなく建物から建物へ移動できた。今日のアイスランドでは芝土の家に住む人はほとんどいないが、その多くは博物館に改装され、人気の観光名所となっている。"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "passageLabel": "Passage C",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/22_No17.mp3",
+          "prompt": "What is one problem caused by wet wipes?",
+          "choices": [
+            { "label": "1", "text": "They combine with grease to block sewer tunnels." },
+            { "label": "2", "text": "They endanger people working in sewer tunnels." },
+            { "label": "3", "text": "They block household pipes when flushed." },
+            { "label": "4", "text": "They cannot be recycled cheaply." }
+          ],
+          "answer": "1",
+          "explanation": "第1段落で、ウェットティッシュは家庭の配管は通り抜けるが「they mix with grease in sewer tunnels to create serious blockages」と述べられており、これを言い換えた1が正解。家庭の配管は問題なく通ると言っているので3は誤り。作業員が脂肪の塊を除去した話は出てくるが、作業員が危険にさらされるとは述べられていないので2も誤り。",
+          "script": "The Breakdown of Wet Wipes\n\nWet wipes are causing problems in sewer tunnels around the world. In 2015, for example, workers in London had to clear an enormous 10-ton lump of fat from one sewer tunnel. Experts blame wet wipes that are being flushed down toilets for causing such problems. Although the wipes can pass through pipes in homes without any issues, they mix with grease in sewer tunnels to create serious blockages. Cleaning up these obstructions has been estimated to cost billions of dollars worldwide.\n\nAs a result, new industry standards were set for labeling a product \"flushable\" based on how quickly it breaks down. Environmental groups, however, claim these standards are not useful because flushable wipes do not break down in sewer tunnels the way they do in laboratory tests. The environmental groups therefore created guidelines telling consumers which products do not create blockages.",
+          "scriptJa": "ウェットティッシュの分解\n\nウェットティッシュが世界中の下水道で問題を引き起こしている。例えば2015年には、ロンドンの作業員がある下水道から10トンもの巨大な脂肪の塊を取り除かなければならなかった。専門家は、トイレに流されるウェットティッシュがこうした問題の原因だと指摘している。ウェットティッシュは家庭の配管なら問題なく通り抜けられるが、下水道で油脂と混ざり合い、深刻な詰まりを引き起こすのだ。こうした詰まりの除去には、世界全体で数十億ドルの費用がかかると推定されている。\n\nその結果、製品が分解される速さに基づいて「トイレに流せる」と表示するための新たな業界基準が設けられた。しかし環境保護団体は、流せるタイプのウェットティッシュは実験室での試験と同じようには下水道で分解されないため、この基準は役に立たないと主張している。そこで環境保護団体は、どの製品なら詰まりを起こさないかを消費者に伝える指針を作成した。"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "passageLabel": "Passage C",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/21_question_C.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/23_No18.mp3",
+          "prompt": "Why do environmental groups criticize the new industry standards?",
+          "choices": [
+            { "label": "1", "text": "They were not created using laboratory tests." },
+            { "label": "2", "text": "They are not based on actual sewer-tunnel conditions." },
+            { "label": "3", "text": "The damage to sewer tunnels was not addressed." },
+            { "label": "4", "text": "The blockage issue cannot be solved with guidelines." }
+          ],
+          "answer": "2",
+          "explanation": "第2段落で、環境保護団体は流せるウェットティッシュが「do not break down in sewer tunnels the way they do in laboratory tests」として新しい基準を批判している。つまり基準が実際の下水道の状況を反映していないということなので2が正解。基準はむしろ実験室での試験に基づいていると考えられるので1は誤り。指針を作ったのは環境保護団体自身であり、指針では解決できないと言っているわけではないので4も合わない。",
+          "script": "The Breakdown of Wet Wipes\n\nWet wipes are causing problems in sewer tunnels around the world. In 2015, for example, workers in London had to clear an enormous 10-ton lump of fat from one sewer tunnel. Experts blame wet wipes that are being flushed down toilets for causing such problems. Although the wipes can pass through pipes in homes without any issues, they mix with grease in sewer tunnels to create serious blockages. Cleaning up these obstructions has been estimated to cost billions of dollars worldwide.\n\nAs a result, new industry standards were set for labeling a product \"flushable\" based on how quickly it breaks down. Environmental groups, however, claim these standards are not useful because flushable wipes do not break down in sewer tunnels the way they do in laboratory tests. The environmental groups therefore created guidelines telling consumers which products do not create blockages.",
+          "scriptJa": "ウェットティッシュの分解\n\nウェットティッシュが世界中の下水道で問題を引き起こしている。例えば2015年には、ロンドンの作業員がある下水道から10トンもの巨大な脂肪の塊を取り除かなければならなかった。専門家は、トイレに流されるウェットティッシュがこうした問題の原因だと指摘している。ウェットティッシュは家庭の配管なら問題なく通り抜けられるが、下水道で油脂と混ざり合い、深刻な詰まりを引き起こすのだ。こうした詰まりの除去には、世界全体で数十億ドルの費用がかかると推定されている。\n\nその結果、製品が分解される速さに基づいて「トイレに流せる」と表示するための新たな業界基準が設けられた。しかし環境保護団体は、流せるタイプのウェットティッシュは実験室での試験と同じようには下水道で分解されないため、この基準は役に立たないと主張している。そこで環境保護団体は、どの製品なら詰まりを起こさないかを消費者に伝える指針を作成した。"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "passageLabel": "Passage D",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/25_No19.mp3",
+          "prompt": "What is one thing the speaker says about Angora rabbits?",
+          "choices": [
+            { "label": "1", "text": "Farmers are more interested in larger ones." },
+            { "label": "2", "text": "Caring for their wool requires much effort." },
+            { "label": "3", "text": "Raising them is no longer profitable." },
+            { "label": "4", "text": "The quality of their wool can vary." }
+          ],
+          "answer": "2",
+          "explanation": "第1段落で「the need to constantly care for their coats」と述べられ、絶えず毛の手入れが必要なので小規模で飼育するのが適しているとある。これを「毛の手入れに多くの手間がかかる」と言い換えた2が正解。小規模農家の関心が高まっているのは毛が羊毛より利益になるからなので3は誤りで、大きなウサギのほうが好まれるという話もないので1も誤り。",
+          "script": "Raising Angora Rabbits\n\nAngora rabbits are raised around the world for their wool because it is softer and much warmer than sheep wool. Due to the animals' small size and the need to constantly care for their coats, raising Angora rabbits for wool is best done on a small scale. More owners of small farms are becoming interested in raising the animals, as their wool is more profitable than sheep wool.\n\nRemoving the wool of some breeds of Angora rabbit requires cutting the wool once every few months. With other breeds, the wool can be easily removed by hand. The wool needs to be removed often because Angora rabbits clean themselves using their tongues, like cats. If they are not brushed regularly, they will swallow too much of their wool, which can cause death. Luckily, Angora rabbits can be easily trained to sit calmly while being brushed or having their wool cut.",
+          "scriptJa": "アンゴラウサギの飼育\n\nアンゴラウサギは、その毛が羊毛よりも柔らかく、はるかに暖かいため、毛を採る目的で世界中で飼育されている。体が小さく、絶えず毛の手入れをする必要があるため、毛を採るためのアンゴラウサギの飼育は小規模で行うのが最も適している。その毛は羊毛よりも利益になることから、この動物の飼育に関心を持つ小規模農家の経営者が増えている。\n\nアンゴラウサギの品種によっては、数か月に1度毛を刈る必要がある。別の品種では、手で簡単に毛を取り除くことができる。毛を頻繁に取り除く必要があるのは、アンゴラウサギが猫のように舌を使って体をきれいにするからだ。定期的にブラッシングをしないと、毛を飲み込みすぎてしまい、死に至ることもある。幸い、アンゴラウサギは、ブラッシングされたり毛を刈られたりする間おとなしく座っているよう、簡単にしつけることができる。"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "passageLabel": "Passage D",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/24_question_D.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/26_No20.mp3",
+          "prompt": "What is one problem with wool from Angora rabbits?",
+          "choices": [
+            { "label": "1", "text": "The rabbits often spoil it by chewing it." },
+            { "label": "2", "text": "It has to be cut at least once a month." },
+            { "label": "3", "text": "It can cause harm to the rabbits." },
+            { "label": "4", "text": "The rabbits do not like having it removed." }
+          ],
+          "answer": "3",
+          "explanation": "第2段落で、ブラッシングを怠るとウサギが毛を飲み込みすぎてしまい「which can cause death」と述べられているので、毛がウサギに害を及ぼしうるという3が正解。毛を刈るのは数か月に1度なので2は誤り。ウサギはブラッシングや毛刈りの間おとなしく座るよう簡単にしつけられるとあるので4も誤り。",
+          "script": "Raising Angora Rabbits\n\nAngora rabbits are raised around the world for their wool because it is softer and much warmer than sheep wool. Due to the animals' small size and the need to constantly care for their coats, raising Angora rabbits for wool is best done on a small scale. More owners of small farms are becoming interested in raising the animals, as their wool is more profitable than sheep wool.\n\nRemoving the wool of some breeds of Angora rabbit requires cutting the wool once every few months. With other breeds, the wool can be easily removed by hand. The wool needs to be removed often because Angora rabbits clean themselves using their tongues, like cats. If they are not brushed regularly, they will swallow too much of their wool, which can cause death. Luckily, Angora rabbits can be easily trained to sit calmly while being brushed or having their wool cut.",
+          "scriptJa": "アンゴラウサギの飼育\n\nアンゴラウサギは、その毛が羊毛よりも柔らかく、はるかに暖かいため、毛を採る目的で世界中で飼育されている。体が小さく、絶えず毛の手入れをする必要があるため、毛を採るためのアンゴラウサギの飼育は小規模で行うのが最も適している。その毛は羊毛よりも利益になることから、この動物の飼育に関心を持つ小規模農家の経営者が増えている。\n\nアンゴラウサギの品種によっては、数か月に1度毛を刈る必要がある。別の品種では、手で簡単に毛を取り除くことができる。毛を頻繁に取り除く必要があるのは、アンゴラウサギが猫のように舌を使って体をきれいにするからだ。定期的にブラッシングをしないと、毛を飲み込みすぎてしまい、死に至ることもある。幸い、アンゴラウサギは、ブラッシングされたり毛を刈られたりする間おとなしく座っているよう、簡単にしつけることができる。"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "passageLabel": "Passage E",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/28_No21.mp3",
+          "prompt": "Why did Franklin D. Roosevelt decide to make radio broadcasts?",
+          "choices": [
+            { "label": "1", "text": "To raise money to help hungry people." },
+            { "label": "2", "text": "To share his concerns about the government." },
+            { "label": "3", "text": "To encourage citizens to work harder." },
+            { "label": "4", "text": "To address public worries about the economy." }
+          ],
+          "answer": "4",
+          "explanation": "第1段落で、ルーズベルトはパニックを静めるためにラジオ放送を使うことにし、政府が国民の「concerns」に対処していると直接伝えたかったと述べられている。経済危機の中で国民の不安に応えるためだったので4が正解。人々が飢えていたことは述べられているが、募金のために放送したわけではないので1は誤り。政府への信頼を失っていたのは国民の側であり、ルーズベルトが政府への懸念を語ったわけではないので2も誤り。",
+          "script": "Fireside Chats\n\nWhen Franklin D. Roosevelt became president of the United States in 1933, the country was suffering from an economic crisis. A quarter of the population was unemployed, people were hungry, and trust in the government was rapidly declining. Roosevelt decided to use a radio broadcast to help calm the growing feeling of panic. He wanted to talk directly to the American people and tell them that the government was addressing their concerns.\n\nThe speech was an immediate success. Roosevelt made similar broadcasts, known as fireside chats, throughout his presidency. The talks often mentioned respected figures like Abraham Lincoln and ended with the national anthem. However, it was Roosevelt's conversational, informal style that set his fireside chats apart from usual political speeches. People felt as if the president was in their homes, giving them updates on everything from World War II to farming.",
+          "scriptJa": "炉辺談話\n\n1933年にフランクリン・D・ルーズベルトがアメリカ大統領に就任したとき、国は経済危機に苦しんでいた。国民の4分の1が失業し、人々は飢え、政府への信頼は急速に失われつつあった。ルーズベルトは、高まりつつあるパニックの感情を静めるため、ラジオ放送を利用することにした。彼はアメリカ国民に直接語りかけ、政府が国民の不安に対処していることを伝えたいと考えたのだ。\n\nその演説はたちまち成功を収めた。ルーズベルトは大統領在任中を通じて、「炉辺談話」として知られる同様の放送を行った。その談話では、エイブラハム・リンカーンのような尊敬される人物にたびたび言及し、最後は国歌で締めくくられた。しかし、炉辺談話を通常の政治演説とは一線を画すものにしたのは、ルーズベルトの会話のようなくだけた語り口だった。人々は、まるで大統領が自分の家にいて、第二次世界大戦から農業に至るまで、あらゆることについて最新の状況を伝えてくれているかのように感じたのである。"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "passageLabel": "Passage E",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/27_question_E.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/29_No22.mp3",
+          "prompt": "How were the fireside chats different from regular political speeches?",
+          "choices": [
+            { "label": "1", "text": "Roosevelt used casual language." },
+            { "label": "2", "text": "Roosevelt interviewed famous people." },
+            { "label": "3", "text": "Roosevelt performed patriotic music." },
+            { "label": "4", "text": "Roosevelt visited people's homes." }
+          ],
+          "answer": "1",
+          "explanation": "第2段落で、炉辺談話を通常の政治演説と区別したのは「Roosevelt's conversational, informal style」だったと述べられているので、これをくだけた言葉づかいと言い換えた1が正解。談話は国歌で締めくくられたとあるが、ルーズベルト自身が演奏したわけではないので3は誤り。人々は大統領が家にいるかのように感じただけで、実際に家を訪問したわけではないので4も誤り。",
+          "script": "Fireside Chats\n\nWhen Franklin D. Roosevelt became president of the United States in 1933, the country was suffering from an economic crisis. A quarter of the population was unemployed, people were hungry, and trust in the government was rapidly declining. Roosevelt decided to use a radio broadcast to help calm the growing feeling of panic. He wanted to talk directly to the American people and tell them that the government was addressing their concerns.\n\nThe speech was an immediate success. Roosevelt made similar broadcasts, known as fireside chats, throughout his presidency. The talks often mentioned respected figures like Abraham Lincoln and ended with the national anthem. However, it was Roosevelt's conversational, informal style that set his fireside chats apart from usual political speeches. People felt as if the president was in their homes, giving them updates on everything from World War II to farming.",
+          "scriptJa": "炉辺談話\n\n1933年にフランクリン・D・ルーズベルトがアメリカ大統領に就任したとき、国は経済危機に苦しんでいた。国民の4分の1が失業し、人々は飢え、政府への信頼は急速に失われつつあった。ルーズベルトは、高まりつつあるパニックの感情を静めるため、ラジオ放送を利用することにした。彼はアメリカ国民に直接語りかけ、政府が国民の不安に対処していることを伝えたいと考えたのだ。\n\nその演説はたちまち成功を収めた。ルーズベルトは大統領在任中を通じて、「炉辺談話」として知られる同様の放送を行った。その談話では、エイブラハム・リンカーンのような尊敬される人物にたびたび言及し、最後は国歌で締めくくられた。しかし、炉辺談話を通常の政治演説とは一線を画すものにしたのは、ルーズベルトの会話のようなくだけた語り口だった。人々は、まるで大統領が自分の家にいて、第二次世界大戦から農業に至るまで、あらゆることについて最新の状況を伝えてくれているかのように感じたのである。"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "passageLabel": "Passage F",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/31_No23.mp3",
+          "prompt": "What did researchers discover about the Bajau people?",
+          "choices": [
+            { "label": "1", "text": "They no longer use traditional fishing equipment." },
+            { "label": "2", "text": "They often have their spleens removed." },
+            { "label": "3", "text": "They have a physical advantage when under the water." },
+            { "label": "4", "text": "They practice holding their breath on land." }
+          ],
+          "answer": "3",
+          "explanation": "第1段落で、バジャウ族は平均より大きな脾臓を持ち、脾臓は息を止めたときに血液に酸素を供給するので「a larger spleen likely benefits the divers」と述べられている。水中で身体的に有利だということなので3が正解。脾臓が大きいと述べられているだけで摘出の話はないので2は誤り。スキューバ用具なしで潜るという話はあるが、伝統的な漁具を使わなくなったとは言っていないので1も誤り。",
+          "script": "Bajau Divers\n\nThe Bajau people live on boats in the waters around Malaysia, Indonesia, and the Philippines, and spend most of their lives at sea. Some Bajau divers can fish beneath the ocean surface for up to 13 minutes without scuba equipment. Researchers found that Bajau people have larger-than-average spleens. The spleen is an organ that provides oxygen to the blood when the breath is held, so a larger spleen likely benefits the divers.\n\nBajau people with no diving experience also have larger spleens, so the researchers suspect the divers' abilities are partly genetic. In addition, DNA samples from Bajau people showed they commonly have genes that help more oxygen get to organs like the heart and lungs. The researchers want to learn more about how Bajau people have adapted to their environment. They hope that such knowledge will lead to better treatments for conditions such as heart disease.",
+          "scriptJa": "バジャウ族のダイバー\n\nバジャウ族はマレーシア、インドネシア、フィリピン周辺の海域で船の上に暮らし、人生の大半を海で過ごす。バジャウ族のダイバーの中には、スキューバ用具を使わずに最長13分間、海面下で魚を捕ることができる人もいる。研究者たちは、バジャウ族の脾臓が平均より大きいことを発見した。脾臓は息を止めたときに血液へ酸素を供給する臓器であるため、脾臓が大きいことはダイバーにとって有利に働いていると考えられる。\n\n潜水の経験がないバジャウ族の人々も脾臓が大きいことから、研究者たちは、ダイバーの能力の一部は遺伝によるものではないかと考えている。さらに、バジャウ族の人々のDNAサンプルから、心臓や肺などの臓器により多くの酸素を届ける働きをする遺伝子を彼らが一般的に持っていることがわかった。研究者たちは、バジャウ族がどのように環境に適応してきたのかをさらに詳しく知りたいと考えている。そうした知見が、心臓病などの病気のより良い治療法につながることを期待しているのだ。"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "passageLabel": "Passage F",
+          "passageAudio": "audio/eiken/eiken-pre1-2021-1/30_question_F.mp3",
+          "audio": "audio/eiken/eiken-pre1-2021-1/32_No24.mp3",
+          "prompt": "What is one thing the researchers want to do?",
+          "choices": [
+            { "label": "1", "text": "Help Bajau people adapt to new lifestyles." },
+            { "label": "2", "text": "Study Bajau people in more detail." },
+            { "label": "3", "text": "Help protect the local environment." },
+            { "label": "4", "text": "Study divers from around the world." }
+          ],
+          "answer": "2",
+          "explanation": "第2段落で、研究者たちは「want to learn more about how Bajau people have adapted to their environment」と述べられているので、バジャウ族をより詳しく研究したいという2が正解。彼らがどう環境に適応してきたかを調べるのであって、新しい生活様式への適応を手助けするわけではないので1は誤り。世界中のダイバーを調べるとは言っていないので4も誤り。",
+          "script": "Bajau Divers\n\nThe Bajau people live on boats in the waters around Malaysia, Indonesia, and the Philippines, and spend most of their lives at sea. Some Bajau divers can fish beneath the ocean surface for up to 13 minutes without scuba equipment. Researchers found that Bajau people have larger-than-average spleens. The spleen is an organ that provides oxygen to the blood when the breath is held, so a larger spleen likely benefits the divers.\n\nBajau people with no diving experience also have larger spleens, so the researchers suspect the divers' abilities are partly genetic. In addition, DNA samples from Bajau people showed they commonly have genes that help more oxygen get to organs like the heart and lungs. The researchers want to learn more about how Bajau people have adapted to their environment. They hope that such knowledge will lead to better treatments for conditions such as heart disease.",
+          "scriptJa": "バジャウ族のダイバー\n\nバジャウ族はマレーシア、インドネシア、フィリピン周辺の海域で船の上に暮らし、人生の大半を海で過ごす。バジャウ族のダイバーの中には、スキューバ用具を使わずに最長13分間、海面下で魚を捕ることができる人もいる。研究者たちは、バジャウ族の脾臓が平均より大きいことを発見した。脾臓は息を止めたときに血液へ酸素を供給する臓器であるため、脾臓が大きいことはダイバーにとって有利に働いていると考えられる。\n\n潜水の経験がないバジャウ族の人々も脾臓が大きいことから、研究者たちは、ダイバーの能力の一部は遺伝によるものではないかと考えている。さらに、バジャウ族の人々のDNAサンプルから、心臓や肺などの臓器により多くの酸素を届ける働きをする遺伝子を彼らが一般的に持っていることがわかった。研究者たちは、バジャウ族がどのように環境に適応してきたのかをさらに詳しく知りたいと考えている。そうした知見が、心臓病などの病気のより良い治療法につながることを期待しているのだ。"
+        }
+      ]
+    },
+    {
+      "id": "part3",
+      "title": "Part 3",
+      "description": "Real-Life形式の内容一致選択 — 実生活で遭遇する場面での英文を聞き、質問に答えなさい。",
+      "playCount": "1回読み",
+      "instructionAudio": "audio/eiken/eiken-pre1-2021-1/33_Part3_explanation.mp3",
+      "questions": [
+        {
+          "id": "q25",
+          "number": 25,
+          "audio": "audio/eiken/eiken-pre1-2021-1/34_question_G_No25.mp3",
+          "passageLabel": "Situation G",
+          "prompt": "Which apartment should you look at?",
+          "promptJa": "あなたはどのアパートを見に行くべきか？",
+          "situation": "You want an apartment that is just a short walk from a train station. You need at least two bedrooms. A real estate agent tells you the following.",
+          "situationJa": "あなたは駅から歩いてすぐのアパートを探している。寝室は少なくとも2部屋必要だ。不動産業者があなたに次のように言う。",
+          "choices": [
+            { "label": "1", "text": "The one in Wilson Heights." },
+            { "label": "2", "text": "The one in Downtown Hills." },
+            { "label": "3", "text": "The one in Bronte Towers." },
+            { "label": "4", "text": "The one in Norton Villas." }
+          ],
+          "answer": "2",
+          "explanation": "ウィルソン・ハイツは駅から徒歩数分だがワンルームなので、寝室が2つ以上という条件を満たさない。そのすぐ隣のダウンタウン・ヒルズには寝室が2つある物件があり、駅から歩いてすぐという条件も満たすので2が正解。ブロンテ・タワーズとノートン・ヴィラズは、駅までバスで25分かかるバス停の近くにあるので、どちらも条件に合わない。",
+          "script": "We have a few apartments. There's one in Wilson Heights, just a few minutes from the train station on foot. It's a studio apartment, so everything is in one room, but it's quite spacious. Right next door to that, in Downtown Hills, there's an older two-bedroom apartment available. Bronte Towers has a three-bedroom apartment available. It's right beside a bus stop, and a 25-minute ride to the station. Lastly, and just a short walk from the same bus stop, there's a spacious two-bedroom apartment for rent in Norton Villas.",
+          "scriptJa": "いくつか物件がございます。ウィルソン・ハイツに1件あり、駅から歩いてわずか数分です。ワンルームなので、すべてが1部屋にまとまっていますが、かなり広々としています。そのすぐ隣のダウンタウン・ヒルズには、寝室が2つある少し古めの物件が空いています。ブロンテ・タワーズには寝室が3つある物件が空いています。バス停のすぐそばで、駅まではバスで25分です。最後に、同じバス停から歩いてすぐのところにあるノートン・ヴィラズで、寝室が2つある広々とした物件を賃貸に出しています。"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "audio": "audio/eiken/eiken-pre1-2021-1/35_question_H_No26.mp3",
+          "passageLabel": "Situation H",
+          "prompt": "What should you do first?",
+          "promptJa": "あなたはまず何をすべきか？",
+          "situation": "You have had stomach pain for a few days. You are busy for the next two days. You call your doctor, and he tells you the following.",
+          "situationJa": "あなたは数日前から腹痛がある。これから2日間は忙しい。かかりつけの医師に電話すると、医師は次のように言う。",
+          "choices": [
+            { "label": "1", "text": "Get some additional pain medication." },
+            { "label": "2", "text": "Take the medicine you received earlier." },
+            { "label": "3", "text": "Call your doctor again at a later date." },
+            { "label": "4", "text": "Book an appointment with a specialist." }
+          ],
+          "answer": "2",
+          "explanation": "医師は明日の朝の診察を勧めた上で「If you can't come tomorrow, take one of the pills I gave you last time right away.」と言っている。あなたはこれから2日間忙しく明日は行けないので、前回もらった薬をすぐに飲むという2が正解。新たに鎮痛薬を手に入れるようには言われていないので1は誤りで、専門医の予約の話も出てこないので4も誤り。",
+          "script": "Well, from what you've told me, it sounds like it could be another kidney stone. You can't be too careful with this kind of thing. Ideally, I'd like you to come in for an examination first thing in the morning. If you can't come tomorrow, take one of the pills I gave you last time right away. If it is a kidney stone, that will help your body deal with it. If not, at least it will help relieve the pain until I can examine you.",
+          "scriptJa": "そうですね、お話をうかがった限りでは、また腎臓結石かもしれません。こういうことには用心するに越したことはありません。理想を言えば、明日の朝一番に診察に来ていただきたいところです。明日来られないのであれば、前回お渡しした錠剤をすぐに1錠飲んでください。もし腎臓結石なら、それで体が結石に対処しやすくなります。そうでなくても、私が診察するまでの間、少なくとも痛みを和らげてくれるでしょう。"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "audio": "audio/eiken/eiken-pre1-2021-1/36_question_I_No27.mp3",
+          "passageLabel": "Situation I",
+          "prompt": "What should you do first?",
+          "promptJa": "あなたはまず何をすべきか？",
+          "situation": "You are checking in at a resort hotel. You made a reservation online through ExTravel because they offered a 20 percent discount on a spa treatment. A receptionist tells you the following.",
+          "situationJa": "あなたはリゾートホテルでチェックインをしている。ExTravelがスパのトリートメントを20パーセント割引にしていたので、同社を通じてオンラインで予約をした。受付係があなたに次のように言う。",
+          "choices": [
+            { "label": "1", "text": "Make a reservation at the spa." },
+            { "label": "2", "text": "Contact ExTravel for confirmation." },
+            { "label": "3", "text": "Ask the manager for a room upgrade." },
+            { "label": "4", "text": "Print the e-mail containing the offer." }
+          ],
+          "answer": "4",
+          "explanation": "受付係は特典の確認のためにExTravelからのメールのコピーが必要だと言い、「please use the printer in our Business Center」と頼んでいる。スパの予約ができるのは「After that」、つまり印刷したあとなので、まずメールを印刷するという4が正解。スパの予約はその次の段階なので1は誤りで、ExTravelとの行き違いにはホテル側が対応すると言っているので2も誤り。部屋のアップグレードは受付係のほうから手配すると申し出ているので3も不要である。",
+          "script": "I'm sorry, ExTravel hasn't notified us about the spa treatment offer. I'm sure your information is accurate, but we first need confirmation of the offer. The easiest solution would be for us to have a copy of your e-mail from ExTravel. We'll need a paper copy for our records, so please use the printer in our Business Center. After that, you'll be able to book your treatment, and we can follow up on the miscommunication between us and ExTravel. As you're a regular customer, I'll also try to get a room upgrade for you.",
+          "scriptJa": "申し訳ございませんが、スパのトリートメントの特典について、ExTravelから当ホテルに連絡が来ておりません。お客様の情報に間違いはないと存じますが、まずはこの特典の確認が必要です。いちばん簡単なのは、ExTravelからお客様に届いたメールのコピーを当ホテルでお預かりすることです。記録用に紙のコピーが必要ですので、ビジネスセンターのプリンターをご利用ください。そのあとでトリートメントのご予約ができますし、当ホテルとExTravelとの間の行き違いについてはこちらで対応いたします。また、お客様は常連様ですので、お部屋のアップグレードもできるよう手配してみます。"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "audio": "audio/eiken/eiken-pre1-2021-1/37_question_J_No28.mp3",
+          "passageLabel": "Situation J",
+          "prompt": "What should you do?",
+          "promptJa": "あなたは何をすべきか？",
+          "situation": "You are enrolling your daughter in a new school. She is allergic to dairy products. The school principal tells you the following.",
+          "situationJa": "あなたは娘を新しい学校に入学させる手続きをしている。娘は乳製品にアレルギーがある。校長があなたに次のように言う。",
+          "choices": [
+            { "label": "1", "text": "Get a letter from a doctor." },
+            { "label": "2", "text": "List your daughter's requirements." },
+            { "label": "3", "text": "Pay for school lunch." },
+            { "label": "4", "text": "Sign up for special meals." }
+          ],
+          "answer": "1",
+          "explanation": "娘は乳製品にアレルギーがあるが、校長によれば給食にはすべてチーズが含まれ、個別の要望には応じられない。給食を辞退するには「A doctor's letter is required」と述べられているので、医師の診断書をもらうという1が正解。特別食は用意されないので4は誤りで、給食を辞退すれば給食費はかからないので3も誤り。",
+          "script": "I'd like to cover a few points about food and drink. We do many outdoor activities, so students should bring a water bottle, as drinking water isn't available outside. Also, we prepare lunch on the premises and expect all children to eat school lunch unless they have special dietary requirements. We have many students, so we can't cover everyone's needs. All meals include meat, eggs, and cheese. A doctor's letter is required to opt out of school lunch, in which case you won't be charged for it. In such cases, students are required to bring a home-prepared lunch.",
+          "scriptJa": "食べ物と飲み物について、いくつかお話ししておきたいことがあります。本校では屋外活動が多く、屋外では飲み水が手に入らないため、生徒は水筒を持参してください。また、昼食は校内で調理しており、特別な食事制限がない限り、すべての子どもに給食を食べてもらうことになっています。生徒数が多いため、一人ひとりの要望に応えることはできません。どの食事にも肉、卵、チーズが含まれています。給食を辞退するには医師の診断書が必要で、その場合、給食費は請求されません。そのような場合、生徒は家で用意した弁当を持参しなければなりません。"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "audio": "audio/eiken/eiken-pre1-2021-1/38_question_K_No29.mp3",
+          "passageLabel": "Situation K",
+          "prompt": "What should you do?",
+          "promptJa": "あなたは何をすべきか？",
+          "situation": "It is winter, and you want to visit Alexandra Park by car this weekend. You do not own tires that can be used in the snow. You call Park Information and hear the following.",
+          "situationJa": "今は冬で、あなたは今週末、車でアレクサンドラ公園を訪れたいと思っている。あなたは雪道で使えるタイヤを持っていない。公園の案内所に電話すると、次のような案内が流れる。",
+          "choices": [
+            { "label": "1", "text": "Purchase snow chains for your tires." },
+            { "label": "2", "text": "Take Grand Point Road." },
+            { "label": "3", "text": "Change your tires to studded tires." },
+            { "label": "4", "text": "Rent chains in Alexandra Park." }
+          ],
+          "answer": "1",
+          "explanation": "通行できるのはブライアント・パス・ロードだけで、そこではすべての車両に「snow chains are required」とされている。チェーンはキャンプトン・シティで購入でき、園内での貸し出しはないので、チェーンを購入するという1が正解。グランド・ポイント・ロードは閉鎖中なので2は誤り、スパイクタイヤは園内で使用できないので3も誤り、園内にレンタルはないので4も誤り。",
+          "script": "Thank you for calling Alexandra Park. Due to winter weather conditions, not all roads in the park are open. Taylor Road and Grand Point Road are closed due to heavy snowfall and will remain closed for at least two weeks. Bryant Pass Road is open, although snow chains are required on all vehicles due to its high elevation. Chains can be purchased at the Valley Garage in Campton City. There are no rental chains available within the park. Please be aware that studded tires are not allowed to be used in the park.",
+          "scriptJa": "アレクサンドラ公園にお電話いただき、ありがとうございます。冬季の気象条件により、園内の道路は一部が通行止めとなっております。テイラー・ロードとグランド・ポイント・ロードは大雪のため閉鎖されており、少なくとも2週間は閉鎖が続く見込みです。ブライアント・パス・ロードは通行可能ですが、標高が高いため、すべての車両にタイヤチェーンの装着が義務づけられています。チェーンはキャンプトン・シティのバレー・ガレージで購入できます。園内ではチェーンの貸し出しは行っておりません。なお、園内ではスパイクタイヤを使用できませんのでご注意ください。"
+        }
+      ]
+    }
+  ]
+}
