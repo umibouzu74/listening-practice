@@ -134,7 +134,7 @@ export default function PracticePage({ examSet }) {
   const [showRestoredNotice, setShowRestoredNotice] = useState(Boolean(restored));
   const [focus, setFocus] = useState(null); // { questions, initialIndex } | null
   const [showOnlyWrong, setShowOnlyWrong] = useState(false);
-  const [hidePrompt, setHidePrompt] = usePreference('hidePrompt', false);
+  const [hidePrompt, setHidePrompt] = usePreference('hidePrompt', true);
   const questionRefs = useRef({});
   const savedRef = useRef(false);
 
