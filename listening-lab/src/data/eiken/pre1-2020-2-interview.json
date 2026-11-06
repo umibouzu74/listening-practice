@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2020-2-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2020年度 第2回",
+    "year": 2020,
+    "grade": "pre1",
+    "session": "2020-2"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2020-2-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a man who liked trying new technology.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a man visited a technology exhibition."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a man visited a technology exhibition. At one of the booths, he found a display for the ABC Smart Life App. A sign said that people could control their lives from their phones, and he looked very interested. The next day, he was sitting in a chair and setting up the app on his phone. He added his ABC card, his train pass, and even his house key to it. A few weeks later, he was outside with two people who seemed to be his coworkers. He held up his phone and proudly told them that everything was in there. They looked impressed. Later that day, however, the man looked very worried as he checked his pockets, because he realized that he did not have his phone. He imagined that without it, he would not be able to open the door of his house, pay at a shop, or get through a ticket gate at a station.",
+          "modelAnswerJa": "ある日、ある男性がテクノロジーの展示会を訪れた。あるブースで、彼は ABC Smart Life App の展示を見つけた。看板には、スマートフォンから自分の生活を管理できると書かれており、彼はとても興味を持った様子だった。翌日、彼は椅子に座り、スマートフォンにそのアプリを設定していた。彼は ABC カードや電車の定期券、さらには家の鍵までアプリに登録した。数週間後、彼は同僚らしき 2 人と一緒に外にいた。彼はスマートフォンを掲げ、すべてこの中に入っていると得意げに 2 人に話した。2 人は感心した様子だった。ところがその日のうちに、彼はとても心配そうな様子でポケットを確かめていた。スマートフォンを持っていないことに気づいたからだ。彼は、それがなければ家のドアを開けることも、店で支払いをすることも、駅の改札を通ることもできないだろうと思い浮かべた。",
+          "explanation": "1 コマ目の看板 Control your life from your phone! は命令文なので、A sign said that people could control their lives from their phones のように平叙文に直します（your → their）。2 コマ目のスマートフォンから出ている 3 つの円は、ABC CARD・PASS・家と鍵の絵です。これらをアプリに入れたことを、added his ABC card, his train pass, and even his house key to it のように 1 文にまとめます。3 コマ目の Everything is in here. は told them that everything was in there と間接話法にします（is → was、here → there）。4 コマ目は、考えの吹き出しの × 印のスマートフォンから「手元にスマートフォンがない」ことを読み取り、× 印のついた 3 つの場面（家のドア・店の支払い・駅の改札）を would not be able to ... でまとめて描写します。Later that day, however, で始めると、便利さが一転して困ったことになるという結末がはっきりします。",
+          "checkpoints": [
+            "1コマ目: 展示会でアプリの看板（スマートフォンで生活を管理できる）を見て、興味を持ったことを描写できた",
+            "2コマ目: カード・定期券・家の鍵をスマートフォンのアプリに登録したことを言えた",
+            "3コマ目: スマートフォンを見せ、「すべてこの中にある」と話したことを間接話法で言えた",
+            "4コマ目: スマートフォンが手元になく、家に入る・支払う・改札を通ることができないと気づいたことを伝えられた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the man, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"It was a big mistake to depend on my phone for everything. Without it, I can't even get into my own house. First, I'll go back the way I came and look for it. From now on, I'll also carry some cash and a spare key, just in case.\"",
+          "modelAnswerJa": "「何もかもスマートフォンに頼っていたのは大きな間違いだった。これがなければ、自分の家にさえ入れない。まずは来た道を戻って探そう。これからは、念のため現金と合鍵も持ち歩くようにしよう」と考えていると思います。",
+          "explanation": "4 コマ目の男性は、スマートフォンがないと何もできないことに気づいた場面です。まず It was a big mistake to ... で反省を述べ、次に First, ... で今すぐすること、From now on, ... でこれからのことを続けると、順序のはっきりした答えになります。just in case（念のため）は、備えについて話すときに使いやすい表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Should people stop using paper in order to protect the environment?",
+          "promptJa": "人々は環境を守るために紙を使うのをやめるべきでしょうか。",
+          "modelAnswer": "No, I don't think they should. Paper can be recycled, and the trees used to make it can be replanted. Digital devices are not perfect either, because making and using them takes a lot of energy and resources. Also, some people, such as the elderly, find paper much easier to use. I think it is more realistic to use less paper and recycle it properly.",
+          "modelAnswerJa": "いいえ、やめるべきだとは思いません。紙はリサイクルできますし、原料の木は植え直すことができます。デジタル機器も完璧ではなく、製造や使用に多くのエネルギーや資源が必要です。また、お年寄りなど、紙のほうがずっと使いやすいと感じる人もいます。紙の使用を減らし、きちんとリサイクルするほうが現実的だと思います。",
+          "explanation": "質問の stop using paper（紙の使用をやめる）は極端な提案なので、No で答えて「紙は再利用できる」「デジタル機器にも環境への負担がある」「紙が必要な人もいる」と理由を重ね、最後に現実的な代案を示しています。X are not perfect either（X も完璧ではない）は、比べる相手にも欠点があることを指摘するときに便利です。Yes の立場なら「森林伐採を減らせるし、今は多くの書類を電子化できる」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Is new technology having a negative effect on people's lives?",
+          "promptJa": "新しい技術は人々の生活に悪い影響を与えているでしょうか。",
+          "modelAnswer": "Yes, I think so. Many people spend so much time looking at their smartphones that they have less time for sleep, exercise, and face-to-face conversations. People have also become too dependent on technology, so they are often in trouble when it stops working. Technology is certainly convenient, but it can also harm our health and our relationships.",
+          "modelAnswerJa": "はい、そう思います。スマートフォンを見るのに多くの時間を費やし、睡眠や運動、直接の会話の時間が減っている人がたくさんいます。また、人々は技術に頼りすぎるようになっており、それが動かなくなると困ってしまうことがよくあります。技術は確かに便利ですが、健康や人間関係に害を及ぼすこともあります。",
+          "explanation": "スマートフォンという身近な例で「時間が奪われる」ことを示し、次にカードの話にもつながる「技術への依存」を挙げています。最後の certainly ..., but ... は、相手の反論（便利さ）を認めたうえで自分の意見に戻す形で、スピーキングでも使いやすい表現です。No の立場なら「医療や通信の進歩で、生活はずっと便利で安全になった」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should the government be allowed to access people's private data?",
+          "promptJa": "政府が人々の個人データにアクセスすることは許されるべきでしょうか。",
+          "modelAnswer": "No, I don't think so. Private data such as messages, medical records, and bank details can reveal a lot about a person's life. If the government could see this information freely, people might be afraid to express their opinions, and the data could also be leaked. Access should be allowed only in special cases, such as serious crimes, and with a court's permission.",
+          "modelAnswerJa": "いいえ、そうは思いません。メッセージや医療記録、銀行口座の情報などの個人データからは、その人の生活について多くのことが分かってしまいます。政府がこうした情報を自由に見られるとしたら、人々は意見を言うのを恐れるようになるかもしれませんし、データが漏えいするおそれもあります。アクセスを認めるのは、重大な犯罪などの特別な場合に、裁判所の許可を得たときだけにすべきです。",
+          "explanation": "private data の具体例を挙げてから、If the government could ... という仮定法で「自由に見られるようになった場合の問題点」を述べています。最後に only in special cases と例外を認めると、極端でないバランスの取れた答えになります。Yes の立場なら「犯罪やテロの防止、災害時の救助に役立つ」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2020-2-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a man who owned a shop on a busy road.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a shop owner was talking to a staff member outside his shop."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a shop owner was talking to a staff member outside his shop. Many bicycles were parked in front of his ice cream shop, and a woman with a stroller and a boy on a bicycle were having trouble getting past them. The owner told the staff member that they should do something for their customers. At a shop-owners meeting, he pointed to a board with two ideas on it: a bicycle-free weekend and building a new parking lot. The bicycle-free weekend was circled, and the other owners nodded in agreement. A few months later, a sign with a crossed-out bicycle showed that bicycles were not allowed all day. People could walk freely along the street, and a girl was buying ice cream from the staff member. The owner seemed satisfied. Later that day, however, a man with a child on the back of his bicycle told the owner that they had no place to park. The owner looked troubled.",
+          "modelAnswerJa": "ある日、ある店主が自分の店の外で従業員と話をしていた。彼のアイスクリーム店の前には多くの自転車が止められていて、ベビーカーを押す女性と自転車に乗った男の子が、そのそばを通り抜けるのに苦労していた。店主は従業員に、お客さんのために何かすべきだと言った。店主たちの会合で、彼は 2 つの案が書かれたボードを指し示した。自転車のない週末と、新しい駐車場を作るという案だ。自転車のない週末には丸がつけられ、ほかの店主たちは賛成してうなずいた。数か月後、自転車に × 印がついた看板が、終日自転車は入れないことを示していた。人々は通りを自由に歩くことができ、女の子が従業員からアイスクリームを買っていた。店主は満足している様子だった。ところがその日のうちに、自転車の後ろに子どもを乗せた男性が、止める場所がないと店主に言った。店主は困った様子だった。",
+          "explanation": "1 コマ目は、店の前をふさぐ自転車の様子（ベビーカーの女性と自転車の男の子が通りにくい）を先に描写すると、We should do something for our customers. と言った理由が伝わります。この吹き出しは told the staff member that they should do something for their customers のように、we → they、our → their と変えます（should はそのまま）。2 コマ目のボードは Ideas の 2 項目を読み取り、丸のついた Bicycle-free weekend が選ばれたことを言います。3 コマ目の看板は絵なので、a sign with a crossed-out bicycle showed that bicycles were not allowed all day のように文で説明します。4 コマ目の We have no place to park. は told the owner that they had no place to park（have → had）です。お客さんのための決まりが別の人を困らせるという結末なので、however を入れて対比を示しましょう。",
+          "checkpoints": [
+            "1コマ目: 店の前の自転車で人が通りにくいことと、「お客さんのために何かすべきだ」を間接話法で言えた",
+            "2コマ目: 店主たちの会合でボードの2案を示し、自転車のない週末が選ばれたことを言えた",
+            "3コマ目: 自転車禁止（All day）の看板と、歩きやすくなった通りの様子を描写できた",
+            "4コマ目: 子どもを乗せた自転車の男性が「止める場所がない」と言ったことを、however などで展開の変化を示して言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the shop owner, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの店主だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking that I hadn't considered people who really need their bicycles, such as parents with small children, and that this rule might be too strict. I'd also be thinking that I should talk to the other owners again about the idea of building a parking lot.",
+          "modelAnswerJa": "自転車がどうしても必要な人、たとえば小さな子どものいる親のことを考えていなかった、この決まりは厳しすぎるのかもしれない、と考えていると思います。また、駐車場を作る案についてほかの店主たちともう一度話し合うべきだ、とも考えていると思います。",
+          "explanation": "4 コマ目の店主は、通りを歩きやすくした一方で、自転車で来た人を困らせてしまった場面です。I'd be thinking that I hadn't considered ...（〜のことを考えていなかった）で見落としに気づいたことを、might be ...（〜かもしれない）で迷いを表しています。2 コマ目で選ばなかった案（parking lot）に戻って解決策を出すと、絵の流れを踏まえた答えになります。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Should more cycle lanes be built in cities?",
+          "promptJa": "都市にもっと自転車専用レーンを作るべきでしょうか。",
+          "modelAnswer": "No, I don't think so. Roads in many cities, especially in Japan, are already narrow and crowded, so adding cycle lanes would leave less room for cars and could make traffic worse. Building them also costs a lot of money. It would be better to spend that money on improving public transportation and providing more places to park bicycles.",
+          "modelAnswerJa": "いいえ、そうは思いません。多くの都市、特に日本の道路はすでに狭くて混雑しているので、自転車専用レーンを増やすと車の通るスペースが減り、渋滞が悪化するかもしれません。建設には多額の費用もかかります。そのお金は、公共交通機関の改善や自転車を止める場所を増やすことに使うほうがよいでしょう。",
+          "explanation": "「道路が狭い」という日本の実情から始め、費用の問題を加え、最後に It would be better to ... で代案を出しています。反対するだけで終わらず代案を示すと、建設的な答えになります。Yes の立場なら「車と自転車を分ければ事故が減り、自転車の利用が増えれば排気ガスも減る」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Will the online shopping business become larger in the future?",
+          "promptJa": "ネットショッピング事業は今後さらに大きくなるでしょうか。",
+          "modelAnswer": "Yes, I think it will. Online shopping is very convenient because people can buy things at any time and have them delivered to their homes. This is especially helpful for busy workers and for elderly people who cannot go out easily. As delivery services and smartphones continue to improve, even more people will probably start shopping this way.",
+          "modelAnswerJa": "はい、大きくなると思います。ネットショッピングは、いつでも買い物ができて自宅まで届けてもらえるので、とても便利です。これは特に、忙しく働く人や簡単には外出できないお年寄りにとって助かります。配送サービスやスマートフォンがさらに進歩するにつれて、このように買い物をする人はおそらくもっと増えるでしょう。",
+          "explanation": "Will ...? の質問なので Yes, I think it will. と未来形で受け、「便利さ」→「特に助かる人」→「今後の変化（As ... continue to improve）」の順に述べています。未来の予測には probably を添えると、言い切りすぎない自然な言い方になります。No の立場なら「実物を見て買いたい人は多く、配送の人手不足も問題になっている」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Are urban areas becoming overpopulated today?",
+          "promptJa": "今日、都市部は人口過密になってきているでしょうか。",
+          "modelAnswer": "Yes, I think so. Many young people move to big cities like Tokyo because that is where most jobs and universities are. As a result, trains are extremely crowded, housing is expensive, and people often have long commutes. At the same time, rural areas are losing their populations, so the real problem is that people are not spread evenly across the country.",
+          "modelAnswerJa": "はい、そう思います。仕事や大学の多くが集まっているので、多くの若者が東京のような大都市に移り住みます。その結果、電車はひどく混雑し、住宅は高く、通勤に長い時間がかかる人も多くなっています。同時に地方では人口が減っているので、本当の問題は、人々が国全体に均等に分散していないことです。",
+          "explanation": "「なぜ集まるのか（仕事・大学）」→「その結果（As a result, 混雑・住宅費・通勤）」→「地方の人口減少」と、原因と結果を順に述べています。東京という具体名を出すと、話が分かりやすくなります。No の立場なら「日本全体の人口は減っており、テレワークの普及で都市を離れる人もいる」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}

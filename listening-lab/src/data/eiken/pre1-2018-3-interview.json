@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2018-3-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2018年度 第3回",
+    "year": 2018,
+    "grade": "pre1",
+    "session": "2018-3"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2018-3-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a woman who worked in the tourism department of her local government office.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a woman was at a meeting with other staff members in her department."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a woman was at a meeting with other staff members in her department. A graph on the screen showed that the number of tourists was going down. The woman raised her hand and suggested promoting the waterfall near the town. The others nodded and seemed to like her idea. A week later, she and a coworker went to the waterfall, which was called Silver Falls. He was taking pictures of it, and she suggested that they post those photos on the town's website. The following month, her plan seemed to be working. Many tourists with backpacks were walking past a sign that said, \"To Silver Falls,\" and the woman seemed happy as she watched them. A few days later, however, the woman and her coworker were back at the falls, and the ground was covered with trash, such as cans and pieces of paper. He was picking it up and putting it into a large bag. He told her that the tourists had left all of it behind. The woman looked at the mess and seemed upset.",
+          "modelAnswerJa": "ある日、ある女性が部署のほかのスタッフと会議に出ていた。スクリーンのグラフは、観光客の数が減っていることを示していた。女性は手を挙げて、町の近くの滝を宣伝してはどうかと提案した。ほかの人たちはうなずき、彼女の考えを気に入った様子だった。1 週間後、彼女は同僚と一緒に Silver Falls という名前のその滝へ行った。同僚は滝の写真を撮っていて、彼女はその写真を町のウェブサイトに載せようと提案した。翌月、彼女の計画はうまくいっているようだった。リュックサックを背負った大勢の観光客が To Silver Falls と書かれた標識の前を歩いていて、女性はそれを見てうれしそうだった。ところが数日後、女性と同僚が滝に戻ると、地面は缶や紙くずなどのごみで覆われていた。同僚はそれを拾って大きな袋に入れていた。彼は、観光客がそれを全部残していったのだと彼女に言った。女性はその散らかった様子を見て、動揺している様子だった。",
+          "explanation": "1 コマ目はグラフの Number of tourists が右下がりであることから話を始めると、提案の理由が伝わります。How about promoting the waterfall near the town? は suggested promoting the waterfall near the town と言えます。2 コマ目の Let's post these photos on the town's website! は suggested that they post those photos on the town's website（let's → suggested that they、these → those）で、話し手は手前の女性です。3 コマ目は To Silver Falls の標識と観光客の列で、計画の成功を描きます。4 コマ目の The tourists left this. は told her that the tourists had left all of it behind（left → had left、this → it）で、話し手はごみを拾っている男性です。this が指すもの（地面のごみ）も文で説明しましょう。成功の直後にごみの問題が出る結末なので、however でつなぎます。",
+          "checkpoints": [
+            "1コマ目: 観光客数の減少を示すグラフに触れ、町の近くの滝の宣伝を提案したことを言えた",
+            "2コマ目: Silver Falls で同僚が写真を撮り、町のウェブサイトへの掲載を提案したことを言えた",
+            "3コマ目: To Silver Falls の標識の前を大勢の観光客が歩いていることを描写できた",
+            "4コマ目: 同僚がごみを拾いながら「観光客が残していった」と言ったことを、however などで展開の変化を示して言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"More tourists have come, just as I hoped, but I didn't expect this much trash. We must protect this beautiful place. Let's put up signs asking visitors to take their garbage home, and maybe we could organize a cleanup day with local volunteers.\"",
+          "modelAnswerJa": "「望みどおり観光客は増えたけれど、こんなにごみが出るとは思わなかった。この美しい場所を守らなければ。ごみを持ち帰るよう観光客に呼びかける看板を立てて、地元のボランティアと一緒に清掃の日を作るのもいいかもしれない」と考えていると思います。",
+          "explanation": "4 コマ目の女性は、自分の企画が成功した一方で、ごみの問題が起きていると気づいた場面です。but I didn't expect ... で「予想外の結果」を述べ、Let's ... で観光の部署の職員らしい具体策を続けています。put up signs asking visitors to ...（〜するよう訪問者に求める看板を立てる）は、マナーの話題で応用できる表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think that Japan will continue to be a popular tourist destination in the future?",
+          "promptJa": "日本は将来も人気のある旅行先であり続けると思いますか。",
+          "modelAnswer": "Yes, I think so. Japan has many attractions, such as historic temples, beautiful scenery in each season, and delicious food. It is also known as a safe and clean country with excellent public transportation, which makes traveling easy. Because Japanese culture, including anime, is popular around the world, I think many people will still want to visit.",
+          "modelAnswerJa": "はい、そう思います。日本には、歴史ある寺院、四季折々の美しい景色、おいしい食べ物など、魅力がたくさんあります。また、安全で清潔な国として知られ、公共交通機関もすばらしいので、旅行がしやすいです。アニメを含む日本の文化は世界中で人気があるので、これからも多くの人が訪れたいと思うでしょう。",
+          "explanation": "「観光資源」「安全・清潔・交通の便」「文化の人気」と、日本の強みを 3 つの面から挙げています。such as ... で例を並べると、話しやすく内容も具体的になります。No の立場なら「観光客が集中すると混雑や環境の問題が起こり、円相場や国際情勢によって人気が下がることもある」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do you think that using social media is an effective way of promoting a business?",
+          "promptJa": "ソーシャルメディアを使うことは、事業を宣伝する効果的な方法だと思いますか。",
+          "modelAnswer": "Yes, I think so. It costs much less than TV or newspaper advertising, so even small shops can use it. When customers like a post, they often share it with their friends, and information can spread quickly. Businesses can also get direct feedback from customers through comments. However, they need to be careful because bad reviews can spread just as quickly.",
+          "modelAnswerJa": "はい、そう思います。テレビや新聞の広告よりずっと費用が安いので、小さな店でも利用できます。客が投稿を気に入ると友人と共有することが多く、情報はすぐに広がります。また、コメントを通して客から直接意見をもらうこともできます。ただし、悪い評判も同じくらい速く広がるので、注意が必要です。",
+          "explanation": "「費用の安さ」「情報の広がりやすさ」「客の反応が分かること」の 3 点を挙げ、最後に However, ... で注意点も加えています。質問の effective way を受けて、他の広告手段と比べると効果を説明しやすくなります。No の立場なら「投稿があふれているので目立つのが難しく、更新に手間がかかる割に売上につながらないこともある」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Are governments doing enough to preserve areas of natural beauty?",
+          "promptJa": "政府は、自然の美しい地域を守るために十分なことをしているでしょうか。",
+          "modelAnswer": "No, I don't think so. Although many countries have national parks, forests and coral reefs are still being damaged by development, tourism, and climate change. Governments often put economic growth first, so nature protection can get pushed aside. They should set stricter rules on development and spend more money on protecting these areas.",
+          "modelAnswerJa": "いいえ、そうは思いません。多くの国に国立公園はありますが、森林やサンゴ礁は今も開発や観光、気候変動によって被害を受けています。政府は経済成長を優先することが多く、自然保護が後回しにされることがあります。政府は開発に対してより厳しい規則を定め、こうした地域を守るためにもっとお金を使うべきです。",
+          "explanation": "Are governments ...? の問いに No, I don't think so. と答えています。Although ... で「国立公園はある」と現状を認めてから、森林やサンゴ礁の被害という具体例を挙げて「不十分だ」と主張し、最後に should で改善策を述べています。Yes の立場なら「多くの国が国立公園や世界遺産の登録で自然を守っており、開発の規制も進んでいる」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2018-3-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a man who was not satisfied with his salary.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a man living in a small town saw a job advertisement for a company in a big city."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a man living in a small town saw a job advertisement for a company in a big city. The screen of his laptop said that ABC Company was now hiring. He told his wife that it paid more than his current job, and she smiled. Two weeks later, the man was at ABC Company, where he could see tall buildings through the window. The manager shook his hand and told him that he had gotten the job. The next day, the man and his wife were having a meal at home. He looked excited and suggested that they look for an apartment near his new office. His wife seemed to be imagining the two of them relaxing in a stylish apartment with a view of the city. That weekend, they went to City Real Estate, and an agent showed them the floor plan and the price of a one-bedroom apartment. His wife said that the rents were very high, and the man looked shocked. Living near his new office seemed much more expensive than he had expected.",
+          "modelAnswerJa": "ある日、小さな町に住むある男性が、大都市の会社の求人広告を見た。ノートパソコンの画面には、ABC 社が現在人を募集していると書かれていた。彼は、今の仕事より給料がいいと妻に言い、妻はほほえんだ。2 週間後、男性は ABC 社にいて、窓越しに高いビルが見えていた。マネージャーは彼と握手をして、採用だと告げた。翌日、男性と妻は家で食事をしていた。彼はわくわくした様子で、新しい職場の近くでアパートを探そうと提案した。妻は、街が見渡せるおしゃれな部屋で 2 人がくつろいでいる様子を思い描いているようだった。その週末、2 人は City Real Estate に行き、担当者が寝室 1 つのアパートの間取りと価格を見せてくれた。妻は家賃がとても高いと言い、男性はショックを受けた様子だった。新しい職場の近くに住むには、彼が思っていたよりずっとお金がかかるようだった。",
+          "explanation": "1 コマ目の画面の ABC Company Now Hiring を the screen of his laptop said that ABC Company was now hiring と文に入れます。It pays more than my current job. は told his wife that it paid more than his current job（pays → paid、my → his）です。2 コマ目の話し手は Manager の札がある男性で、You've got the job. は told him that he had gotten the job（you → he、have got → had gotten）となります。3 コマ目の Let's look for an apartment near my new office. は suggested that they look for an apartment near his new office（my → his）で、suggest のあとの動詞は原形です。思考の吹き出しは女性のほうから出ているので、His wife seemed to be imagining ... と描写します。4 コマ目の The rents are so high. の話し手は女性で、said that the rents were very high（are → were。間接話法では so を very にすると自然です）とします。給料のよさにひかれたのに家賃が高いという皮肉な結末を、男性の反応で伝えましょう。",
+          "checkpoints": [
+            "1コマ目: 画面の求人（ABC Company Now Hiring）と「今の仕事より給料がいい」という発言を間接話法で言えた",
+            "2コマ目: 2週間後、マネージャーが握手をしながら採用を告げたことを言えた",
+            "3コマ目: 新しい職場の近くでアパートを探そうと提案し、妻がおしゃれな部屋を思い描いていることを描写できた",
+            "4コマ目: City Real Estate で間取りと価格を見て、妻が「家賃がとても高い」と言い、男性がショックを受けたことを言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the man, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I took this job to earn more, but with rents like these, we might end up with less money than before. Maybe we should look for a cheaper place farther from the office, even if I have a longer commute, or ask the company if it offers a housing allowance.\"",
+          "modelAnswerJa": "「もっと稼ぐためにこの仕事を選んだのに、こんな家賃では前より手元に残るお金が少なくなるかもしれない。通勤時間が長くなっても、職場から離れた安い部屋を探すか、住宅手当があるかどうか会社に聞いてみたほうがいいかもしれない」と考えていると思います。",
+          "explanation": "4 コマ目の男性は、収入を増やそうと新しい仕事を選んだのに、高い家賃を知って驚いている場面です。I took this job to ..., but ... で「目的」と「現実」の食い違いを述べ、Maybe we should ... で現実的な対策を 2 つ挙げています。end up with ...（結局〜になる）と housing allowance（住宅手当）は、この話題で役立つ表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Should the government do more to encourage young people to live and work in the countryside?",
+          "promptJa": "政府は、若者が地方に住んで働くよう促すために、もっと取り組むべきでしょうか。",
+          "modelAnswer": "Yes, I think it should. Many rural areas are losing young people, and local businesses and schools are closing as a result. The government could offer financial support to people who move there or start a business. Now that many people can work online, living in the countryside is more realistic than before. This would also reduce overcrowding in big cities.",
+          "modelAnswerJa": "はい、そうすべきだと思います。多くの地方では若者が減っていて、その結果、地元の商店や学校がなくなってきています。政府は、地方に移り住む人や事業を始める人に経済的な支援をすることができます。今では多くの人がオンラインで働けるので、地方での暮らしは以前より現実的になっています。これは大都市の過密を和らげることにもなるでしょう。",
+          "explanation": "「地方の問題」→「政府ができること（経済的支援）」→「オンライン勤務で現実的になった」→「都市にとっての利点」と、話を順に広げています。Now that ...（今では〜なので）は、社会の変化を理由にするときに便利な表現です。No の立場なら「どこに住むかは個人の自由であり、地方に仕事や便利な暮らしがないまま支援しても若者は定着しない」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do parents have a harder time raising their children these days than in the past?",
+          "promptJa": "親にとって、今は昔よりも子育てが大変でしょうか。",
+          "modelAnswer": "Yes, I think so. In the past, grandparents and neighbors often helped to look after children, but today many parents raise their children on their own. In addition, in many families both parents work, so they have less time at home. They also have to worry about new problems like smartphone use and online bullying.",
+          "modelAnswerJa": "はい、そう思います。昔は祖父母や近所の人が子どもの世話を手伝うことが多かったですが、今は自分たちだけで子育てをする親が多いです。さらに、共働きの親が多く、家にいる時間が少なくなっています。また、スマートフォンの使い方やネットいじめといった新しい問題についても心配しなければなりません。",
+          "explanation": "質問が than in the past と過去との比較なので、In the past, ..., but today ... と昔と今を対比させています。「周囲の助けの減少」「共働き」「新しい問題」と 3 つの理由を挙げました。No の立場なら「昔より家電や保育サービス、育児の情報が充実しており、育児休暇などの制度も整ってきた」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Does a university education prepare people for the working world?",
+          "promptJa": "大学教育は、人々が社会に出て働くための準備になっているでしょうか。",
+          "modelAnswer": "No, I don't think so, at least not fully. University classes tend to focus on theory and academic knowledge, which may not be directly useful at work. Many companies in Japan actually train new employees after hiring them. Practical skills such as dealing with customers and working in a team are often learned on the job or through internships rather than in lectures.",
+          "modelAnswerJa": "いいえ、少なくとも十分にはなっていないと思います。大学の授業は理論や学問的な知識に重点を置きがちで、それらは仕事に直接役立つとは限りません。実際、日本の多くの企業は新入社員を採用後に研修しています。顧客への対応やチームでの作業といった実践的な技能は、講義よりも仕事の現場やインターンシップを通して学ぶことが多いものです。",
+          "explanation": "Does ...? の質問に No, I don't think so, at least not fully. と、完全には否定しない形で答えています。theory（理論）と practical skills（実践的な技能）を対比すると、理由が明確になります。on the job（仕事をしながら）も覚えておきたい表現です。Yes の立場なら「大学では考える力や調べる力、文章力が身につき、どんな仕事にも役立つ」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}

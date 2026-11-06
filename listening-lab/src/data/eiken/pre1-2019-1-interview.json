@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2019-1-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2019年度 第1回",
+    "year": 2019,
+    "grade": "pre1",
+    "session": "2019-1"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2019-1-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a university student who lived with his family in a small house.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a university student was at home."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a university student was at home. He was trying to study at his desk, but his younger brother was listening to loud music in the same room. Looking annoyed, the student said that he couldn't study there. Their mother, who was standing at the door, looked concerned. A few days later, the student and his mother were in front of ABC Real Estate. A sign there advertised apartments for rent that were good for students. The student pointed at one of the floor plans in the window and said that the apartment was near the university. Two months later, movers were carrying furniture from a truck into his new apartment. As he watched them, he imagined himself studying quietly at his desk. The next day, however, at ten past ten at night, he was sitting at his desk when loud music and other noises came through the wall. He looked very disappointed because he still couldn't concentrate on his studies.",
+          "modelAnswerJa": "ある日、ある大学生が家にいた。彼は机に向かって勉強しようとしていたが、弟が同じ部屋で大きな音で音楽を聞いていた。大学生はいらだった様子で、ここでは勉強できないと言った。ドアのところに立っていた母親は、心配そうな様子だった。数日後、大学生と母親は ABC 不動産の前にいた。そこの掲示には、学生向けの賃貸アパートと書かれていた。大学生は窓に貼られた間取り図の 1 つを指さし、そのアパートは大学に近いと言った。2 か月後、引っ越し業者がトラックから彼の新しいアパートへ家具を運び込んでいた。彼はその様子を見ながら、自分が机で静かに勉強している姿を思い描いた。ところが翌日、夜 10 時 10 分に彼が机に向かっていると、壁の向こうから大きな音楽やほかの騒音が聞こえてきた。まだ勉強に集中できないので、彼はとてもがっかりした様子だった。",
+          "explanation": "1 コマ目の I can't study here. は said that he couldn't study there（can't → couldn't、here → there）と間接話法にします。その前に、弟の周りの音符を使って「音楽がうるさい」という理由を入れると、発言の意味がはっきりします。2 コマ目は ABC Real Estate の看板と Apartments for rent / Good for students の掲示を文に入れ、This one is near the university. は指している物件に置き換えて said that the apartment was near the university とします。3 コマ目の丸い吹き出しは彼の想像なので、imagined himself studying quietly のように「思い描いた」と表現します。4 コマ目は時計の 22:10 を at ten past ten at night と言い、however を入れて、3 コマ目の想像とは違う現実（壁越しの騒音）を示しましょう。「静かな環境を求めて引っ越したのに、また勉強できない」という皮肉が伝わると、話の結末がはっきりします。",
+          "checkpoints": [
+            "1コマ目: 弟の音楽がうるさいことと、「ここでは勉強できない」を間接話法で言えた",
+            "2コマ目: ABC Real Estate で母親と学生向けの物件を見て、「大学に近い」と言ったことを描写できた",
+            "3コマ目: 引っ越し作業の様子と、静かに勉強する自分を想像していることを描写できた",
+            "4コマ目: 夜10時10分に壁越しの騒音で勉強できないことを、however などで展開の変化を示して言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the university student, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの大学生だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I moved out to get away from the noise, but it's just as bad here! I'll politely ask my neighbors to turn down their music. If that doesn't work, I'll do my studying at the university library instead.\"",
+          "modelAnswerJa": "「騒音から逃れるために引っ越したのに、ここも同じくらいひどい。隣の人に、音楽の音量を下げてくれるよう丁寧に頼んでみよう。それでもだめなら、代わりに大学の図書館で勉強することにしよう」と考えていると思います。",
+          "explanation": "4 コマ目は、静かな環境を求めて引っ越したのに、また騒音に悩まされる場面です。I moved out to get away from ..., but ... で皮肉な状況をまとめ、次に I'll ... で具体的な対策を 2 段階（隣人に頼む → 図書館で勉強する）で述べています。just as bad here（ここも同じくらいひどい）は、前の状況と比べるときに便利な言い方です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think that children are becoming less interested in playing outside?",
+          "promptJa": "子どもたちは外で遊ぶことにあまり興味を持たなくなってきていると思いますか。",
+          "modelAnswer": "Yes, I think so. These days, children have many ways to enjoy themselves indoors, such as video games and online videos, so staying at home often seems more attractive. In addition, many of them are busy with cram school and other lessons after school. Because they have fewer chances to play outside with friends, they may never learn how fun it can be.",
+          "modelAnswerJa": "はい、そう思います。最近の子どもたちには、テレビゲームやネット動画など、室内で楽しむ方法がたくさんあるので、家にいるほうが魅力的に思えることが多いのです。さらに、多くの子どもが放課後は塾や他の習い事で忙しくしています。友達と外で遊ぶ機会が少ないので、外遊びの楽しさを知らないままになるのかもしれません。",
+          "explanation": "「室内の娯楽が増えた」「放課後が忙しい」という 2 つの理由を In addition でつなぎ、最後に「機会が減るとどうなるか」まで述べています。such as video games and online videos のように具体例を入れると、these days の変化がわかりやすくなります。No の立場なら「子どもは今でも外遊びやスポーツが好きで、足りないのは興味ではなく遊べる場所だ」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do you think that everyone should get a university degree?",
+          "promptJa": "すべての人が大学の学位を取るべきだと思いますか。",
+          "modelAnswer": "No, I don't think so. Many jobs, such as those of chefs, carpenters, and hairstylists, require practical skills rather than a degree, and people can learn these skills at vocational schools or on the job. Besides, university is expensive, and some students have to take out large loans. People should choose the path that suits their own goals.",
+          "modelAnswerJa": "いいえ、そうは思いません。料理人や大工、美容師のように、学位よりも実践的な技能が求められる仕事はたくさんあり、そうした技能は専門学校や仕事の現場で身につけることができます。それに、大学は費用がかかり、多額のローンを組まなければならない学生もいます。人は自分の目標に合った道を選ぶべきです。",
+          "explanation": "質問の everyone に注目し、「全員に必要なわけではない」という点から答えています。職業の具体例（chefs, carpenters, hairstylists）を挙げ、Besides で費用の問題を加える構成です。practical skills rather than a degree（学位よりも実践的な技能）は対比に便利な形です。Yes の立場なら「大学で幅広い知識や考える力を身につけることは、どんな仕事にも役立つ」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should the government do more to reduce the amount of garbage produced?",
+          "promptJa": "政府は、出されるごみの量を減らすためにもっと取り組むべきでしょうか。",
+          "modelAnswer": "Yes, I think it should. Individuals can sort their trash and bring their own bags, but there is a limit to what they can do alone. The government can make rules that affect the whole country. For example, after Japan started requiring shops to charge for plastic bags, many more people began bringing their own. Similar rules could make companies use less packaging.",
+          "modelAnswerJa": "はい、取り組むべきだと思います。個人でもごみを分別したりマイバッグを持参したりできますが、一人でできることには限界があります。政府は国全体に影響するルールを作ることができます。たとえば、日本で店にレジ袋の有料化が義務づけられると、マイバッグを持参する人がずっと増えました。同じようなルールがあれば、企業に包装を減らさせることもできるでしょう。",
+          "explanation": "「個人の努力には限界がある」→「政府ならルールで全体を変えられる」→「実例（レジ袋の有料化）」の順に述べています。Should the government ...? の質問では、政府だからこそできること（法律やルール）に触れると答えが的確になります。No の立場なら「ごみを減らすのは消費者や企業の責任で、規制を増やすより意識を変えることが大切だ」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2019-1-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a couple who wanted to get their daughter a pet.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a couple was at home with their daughter."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a couple was at home with their daughter. They were watching TV, and a presenter said that pets teach children responsibility. The mother imagined her daughter taking care of a dog. A few days later, the family went to ABC Pet Store. The daughter was holding a puppy and looked delighted. A clerk told her that she needed to walk him twice a day, and her parents stood nearby listening. The next morning, at 6:45, the daughter was leaving home in her school uniform to walk the dog. She looked cheerful and waved to her parents, who smiled and waved back. A month later, however, things had changed. At 7:45, the daughter was in a great hurry. She said that she would be late for school and held out the dog's leash to her father, who was dressed for work. He looked surprised and troubled, and the mother just stood there watching them.",
+          "modelAnswerJa": "ある日、ある夫婦が娘と一緒に家にいた。テレビを見ていると、司会者が、ペットは子どもに責任感を教えてくれると言った。母親は、娘が犬の世話をしている姿を思い描いた。数日後、家族は ABC ペットショップへ行った。娘は子犬を抱いて、とてもうれしそうだった。店員は娘に、この犬を 1 日に 2 回散歩させる必要があると伝え、両親はそばに立って聞いていた。翌朝の 6 時 45 分、娘は犬を散歩させるために制服姿で家を出ようとしていた。彼女は元気な様子で両親に手を振り、両親もほほえんで手を振り返した。ところが 1 か月後、状況は変わっていた。7 時 45 分、娘はとても急いでいた。彼女は学校に遅れてしまうと言って、仕事に行く格好をした父親に犬のリードを差し出した。父親は驚いて困った様子で、母親はただ立ってその様子を見ていた。",
+          "explanation": "1 コマ目はテレビの吹き出しと、母親の想像の 2 つを入れます。Pets teach children responsibility. は一般的な内容なので said that pets teach children responsibility と現在形のままでかまいません（taught としても正解です）。想像の吹き出しの丸は母親の頭につながっているので、主語は The mother にします。2 コマ目の You need to walk him twice a day. は told her that she needed to walk him twice a day（you → she、need → needed）です。3 コマ目と 4 コマ目は時計（6:45 と 7:45）と娘の様子を対比させ、最初は喜んで散歩していたのに、1 か月後には世話を人任せにしていることを however で示します。4 コマ目の I'll be late for school. は said that she would be late for school（will → would）とし、父親にリードを差し出す動作まで描写すると、話の結末が伝わります。",
+          "checkpoints": [
+            "1コマ目: テレビの「ペットは子どもに責任感を教える」と、母親が娘と犬の姿を想像していることを言えた",
+            "2コマ目: ABC Pet Store で店員が「1日2回の散歩が必要」と伝えたことを間接話法で言えた",
+            "3コマ目: 朝6時45分に娘が喜んで犬の散歩に出かけ、両親が見送っていることを描写できた",
+            "4コマ目: 7時45分に「学校に遅れる」と言って父親にリードを差し出したことを、展開の変化を示して言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the mother, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの母親だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking that we got this dog to teach our daughter responsibility, but she's already leaving him to her father. I'd want to sit down with her tonight and make a plan, such as getting up earlier, so that she can keep walking him herself.",
+          "modelAnswerJa": "責任感を教えるためにこの犬を飼ったのに、娘はもう世話を父親に任せようとしていると考えていると思います。今夜娘とじっくり話し、もっと早く起きるといった計画を立てて、自分で散歩を続けられるようにしたいところです。",
+          "explanation": "4 コマ目の母親は、娘が父親にリードを渡そうとする様子を見ています。1 コマ目のテレビの話（責任感）とつなげて we got this dog to teach ... と言うと、話全体を踏まえた答えになります。後半は I'd want to ... で「これからどうするか」を述べ、such as getting up earlier と具体策を加えています。so that she can ...（〜できるように）は、目的を説明するときに使いやすい形です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Are people's public manners getting worse in society today?",
+          "promptJa": "今日の社会では、人々の公共の場でのマナーは悪くなってきているでしょうか。",
+          "modelAnswer": "Yes, I think they are. Because of smartphones, many people pay less attention to those around them. For example, it is common to see people looking at their phones while walking on busy streets, which can be dangerous. Some people also talk loudly or block the way on crowded trains. I think people should be more aware that their actions affect others.",
+          "modelAnswerJa": "はい、悪くなっていると思います。スマートフォンのせいで、周りの人にあまり注意を払わない人が多くなっています。たとえば、人通りの多い道でスマートフォンを見ながら歩いている人をよく見かけますが、これは危険なことがあります。また、混雑した電車で大声で話したり通路をふさいだりする人もいます。自分の行動が他人に影響することを、もっと意識すべきだと思います。",
+          "explanation": "Are ... getting worse? という質問なので、Yes, I think they are. と are で受けています。「原因（スマートフォン）」→「具体例（歩きスマホ、電車内の行動）」→「どうすべきか」の順に述べると、短くてもまとまります。pay less attention to those around them（周りの人に注意を払わない）は、マナーの話題で使いやすい表現です。No の立場なら「日本では今も列に並ぶ人がほとんどで、悪い例が SNS などで目立つようになっただけだ」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do you think that young people value their family less these days?",
+          "promptJa": "最近の若者は、家族をあまり大切にしなくなっていると思いますか。",
+          "modelAnswer": "No, I don't think so. Young people may spend a lot of time with friends or on their phones, but that doesn't mean they care less about their families. Thanks to messaging apps, many of them stay in touch with their parents even after leaving home. Also, many young people today want a good balance between work and family life, rather than just focusing on their careers.",
+          "modelAnswerJa": "いいえ、そうは思いません。若者は友達と過ごしたりスマートフォンを使ったりする時間が長いかもしれませんが、だからといって家族を大切に思っていないわけではありません。メッセージアプリのおかげで、親元を離れたあとも親と連絡を取り合っている人はたくさんいます。また、今の若者の多くは、仕事だけに集中するのではなく、仕事と家庭生活のバランスを取りたいと考えています。",
+          "explanation": "まず「友達やスマートフォンに時間を使う」という反対側の見方を認め、but that doesn't mean ... で否定する形にしています。相手の考えを受け止めてから反論すると、説得力が増します。理由はメッセージアプリでの連絡と、仕事と家庭のバランスの 2 つです。Yes の立場なら「一人暮らしが増え、親や祖父母と直接会って話す機会が減っている」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Is the government doing enough to solve the problem of Japan's aging society?",
+          "promptJa": "政府は、日本の高齢化社会の問題を解決するために十分なことをしているでしょうか。",
+          "modelAnswer": "No, I don't think it is. The government has taken some steps, such as encouraging older people to keep working and supporting families with children. However, the birthrate keeps falling, and there is still a serious shortage of nursing care workers. It needs to do more, for example, by raising care workers' pay and making it easier for parents to raise children.",
+          "modelAnswerJa": "いいえ、十分ではないと思います。政府は、高齢者が働き続けることを後押ししたり、子どものいる家庭を支援したりするなど、いくつかの対策を取ってきました。しかし、出生率は下がり続けており、介護職員の深刻な不足も続いています。介護職員の給料を上げたり、親が子育てをしやすくしたりするなど、もっと取り組む必要があります。",
+          "explanation": "Is the government ...? の質問なので、No, I don't think it is. と答えています。これまでの対策を認めたうえで、However で残っている問題（出生率の低下、介護職員の不足）を挙げ、最後に It needs to do more, for example, by ... と具体案で締めています。Yes の立場なら「年金や介護保険の制度が整っており、定年の延長も進んでいる」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}

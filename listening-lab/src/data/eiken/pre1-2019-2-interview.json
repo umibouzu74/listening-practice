@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2019-2-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2019年度 第2回",
+    "year": 2019,
+    "grade": "pre1",
+    "session": "2019-2"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2019-2-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a teacher who wanted to try new teaching techniques.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, an elementary school teacher went to a teaching seminar."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, an elementary school teacher went to a teaching seminar. The speaker was talking about learning by doing, and the screen next to him showed children looking at the stars through a telescope. The teacher nodded as she listened. The next week, there was a teachers' meeting to discuss ideas for a school trip. Two ideas, a science museum and a nature park, were written on the whiteboard. The teacher pointed at the science museum, which was circled, and the other teachers nodded in agreement. The following month, she took her students to the museum, where they tried an activity called Dinosaur Dig. The children were digging in the sand, and one of them happily held up a bone. The teacher smiled as she watched them. Thirty minutes later, however, a staff member told her that her students were behaving badly. Two of them had gone up to the fence around a dinosaur skeleton, and one was reaching for it, even though a sign showed that touching was not allowed. The teacher looked shocked.",
+          "modelAnswerJa": "ある日、ある小学校の先生が教育セミナーに参加した。講演者は「体験による学習」について話しており、その横のスクリーンには、子どもたちが望遠鏡で星を見ている様子が映っていた。先生はうなずきながら話を聞いていた。翌週、校外学習の案を話し合う教員会議が開かれた。ホワイトボードには、科学博物館と自然公園という 2 つの案が書かれていた。先生は丸で囲まれた科学博物館を指さし、ほかの先生たちは賛成してうなずいた。翌月、彼女は生徒たちを博物館に連れて行き、生徒たちは「恐竜の発掘」という体験活動に参加した。子どもたちは砂を掘っていて、そのうちの 1 人はうれしそうに骨を掲げていた。先生はほほえみながらその様子を見ていた。ところが 30 分後、スタッフが、あなたの生徒たちの行儀が悪いと彼女に告げた。掲示で触ってはいけないと示されていたにもかかわらず、生徒のうちの 2 人は恐竜の骨格のまわりの柵のところまで行き、1 人は骨格に手を伸ばしていた。先生はショックを受けた様子だった。",
+          "explanation": "1 コマ目は、スクリーンの Learning by Doing と望遠鏡の絵を使ってセミナーの内容を説明します。2 コマ目のホワイトボードは見出しの Ideas for school trip と丸で囲まれた Science museum が手がかりで、先生が指さしていることから、科学博物館が選ばれた流れが伝わります。3 コマ目は Dinosaur Dig の札を使い、1 コマ目の learning by doing が実現している場面として描写すると、話がつながります。吹き出しがあるのは 4 コマ目だけで、Your students are behaving badly. は told her that her students were behaving badly（your → her、are → were）です。しっぽは STAFF の札を付けた男性に向かっているので、話し手を取り違えないようにしましょう。柵の「手に × 印」の札は「触ってはいけない」という意味なので、a sign showed that touching was not allowed のように文にすると、生徒が何をしたのかがはっきりします。",
+          "checkpoints": [
+            "1コマ目: セミナーで講演者が Learning by Doing について話し、先生がうなずいて聞いていることを描写できた",
+            "2コマ目: 教員会議で校外学習の案を話し合い、先生が科学博物館を指さしていることを描写できた",
+            "3コマ目: Dinosaur Dig で生徒が楽しそうに発掘し、先生がそれを見ていることを描写できた",
+            "4コマ目: スタッフの「生徒の行儀が悪い」を間接話法で言い、触ってはいけない骨格に手を伸ばす生徒を描写できた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the teacher, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの先生だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I was so excited about letting the children learn by doing that I forgot to go over the museum rules with them. First, I'll apologize to this staff member and get the students back together. Next time, I'll explain the rules clearly before we arrive.\"",
+          "modelAnswerJa": "「体験を通して学ばせることに夢中になって、博物館のルールを子どもたちに確認するのを忘れてしまった。まずこのスタッフの方に謝って、生徒たちを集めよう。次回は、到着する前にルールをはっきり説明することにしよう」と考えていると思います。",
+          "explanation": "4 コマ目の先生は、生徒の行動についてスタッフから注意を受けた場面です。so ... that ...（とても〜なので…）で反省の理由を述べ、First, ... Next time, ... と順序を示して「今すること」と「次回すること」を分けています。1 コマ目のテーマ（learn by doing）に触れると、話全体を踏まえた答えになります。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Should teachers make more use of the Internet in the classroom?",
+          "promptJa": "教師は授業でインターネットをもっと活用すべきでしょうか。",
+          "modelAnswer": "Yes, I think they should. The Internet lets students see up-to-date information and videos that textbooks cannot offer. For example, they can watch live images from a foreign city or talk online with students in another country. Also, learning how to search for information and check whether it is reliable is an important skill for their future.",
+          "modelAnswerJa": "はい、活用すべきだと思います。インターネットを使えば、生徒は教科書では得られない最新の情報や動画を見ることができます。たとえば、外国の都市のライブ映像を見たり、他の国の生徒とオンラインで話したりできます。また、情報を検索してそれが信頼できるかどうかを確かめる方法を学ぶことは、将来のために大切な技能です。",
+          "explanation": "「教科書にはない利点」→「授業での具体例」→「将来に役立つ技能」の順に理由を並べています。質問の make more use of に対して、実際に何ができるのかを For example で示すと説得力が増します。No の立場なら「ネットに頼ると自分で考えなくなったり、誤った情報をうのみにしたりするおそれがある」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do you think that universities do enough to prepare students for careers?",
+          "promptJa": "大学は学生に職業への準備を十分にさせていると思いますか。",
+          "modelAnswer": "No, I don't think so. Many university classes focus on academic theory, so students often graduate with little practical experience. Many of them also have to prepare for job hunting on their own. Universities should offer more internships and courses in practical skills, such as giving presentations and working in teams, so that students feel ready to start working.",
+          "modelAnswerJa": "いいえ、そうは思いません。大学の授業の多くは学問的な理論に重点を置いているので、学生は実践的な経験をあまり積まないまま卒業することがよくあります。また、就職活動の準備を自分だけでしなければならない学生も多くいます。大学は、学生が働き始める準備ができたと感じられるように、インターンシップや、プレゼンテーションやチームでの仕事といった実践的な技能の授業をもっと提供すべきです。",
+          "explanation": "質問の do enough に対して、足りない点（実践経験が少ない）を述べ、Universities should offer ... で改善案を示しています。such as giving presentations and working in teams のように具体的な技能を挙げると、答えがぼんやりしません。Yes の立場なら「多くの大学に就職支援の部署やキャリアの授業があり、インターンシップも紹介している」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should the government increase financial support for public museums?",
+          "promptJa": "政府は公立の博物館や美術館への財政支援を増やすべきでしょうか。",
+          "modelAnswer": "Yes, I think it should. Public museums preserve a country's art and history for future generations, and this work does not always make a profit. They also give children and adults a valuable place to learn outside of school. With more funding, museums could keep their admission fees low and hold more interesting exhibitions.",
+          "modelAnswerJa": "はい、増やすべきだと思います。公立の博物館や美術館は、国の芸術や歴史を将来の世代のために保存していますが、この仕事は必ずしも利益を生むわけではありません。また、子どもにも大人にも、学校の外で学べる貴重な場所を提供しています。資金が増えれば、入館料を低く抑えたり、もっとおもしろい展示を開いたりできるでしょう。",
+          "explanation": "「博物館の役割（文化の保存、学びの場）」→「予算が増えた場合の効果（入館料を抑える、展示を充実させる）」の順に述べています。this work does not always make a profit と述べることで、なぜ政府の支援が必要なのかがはっきりします。With more funding, museums could ...（資金が増えれば〜できる）は、効果を述べるときに便利な形です。No の立場なら「限られた税金は医療や福祉を優先すべきで、博物館は入館料や寄付で運営を工夫すべきだ」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2019-2-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a college student who wanted to become a fashion designer.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a college student was at home with her father."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a college student was at home with her father. She was looking at the website of a company called ABC Fashions on her computer. It said that an internship was available and that she could get fashion design experience. She looked excited, and her father, who was standing next to her, nodded. A month later, she went to ABC Fashions for an interview. The president looked at her résumé and told her that she could start the following week. She looked very happy and nodded. The next week, she started working at the company. However, while designers were working on dresses in the background, she was carrying a tray of coffee cups. The manager was talking to her across the desk, and it seemed that she also had to make copies of documents. A week later, she was talking with her father at home. She told him that she wasn't doing anything related to fashion design. Her father looked concerned as he listened with a cup in his hand.",
+          "modelAnswerJa": "ある日、ある大学生が父親と一緒に家にいた。彼女はコンピューターで、ABC ファッションズという会社のウェブサイトを見ていた。そこには、インターンシップの募集があり、ファッションデザインの経験が積めると書かれていた。彼女はわくわくした様子で、隣に立っていた父親はうなずいた。1 か月後、彼女は面接のために ABC ファッションズへ行った。社長は彼女の履歴書を見て、翌週から働き始めてよいと告げた。彼女はとてもうれしそうにうなずいた。翌週、彼女はその会社で働き始めた。ところが、奥ではデザイナーたちがドレスの作業をしている一方で、彼女はコーヒーカップの載ったトレーを運んでいた。マネージャーが机越しに彼女に話しかけており、書類のコピーも取らなければならないようだった。1 週間後、彼女は家で父親と話していた。彼女は父親に、ファッションデザインに関係することは何もしていないと伝えた。父親はカップを手に、心配そうな様子で話を聞いていた。",
+          "explanation": "1 コマ目の画面は ABC Fashions / Internship Available / Get fashion design experience を読み取り、It said that ... で文にします。2 コマ目の You can start next week. は told her that she could start the following week（can → could、next week → the following week）で、話し手は President の札がある男性です。3 コマ目には言葉の吹き出しがないので、奥のデザイナーたちと、トレーを運ぶ学生を while で対比させ、丸の中のコピー機の絵も it seemed that she also had to make copies のように入れます。4 コマ目の I'm not doing anything related to fashion design. は told him that she wasn't doing anything related to fashion design（am not → wasn't）です。3 コマ目の対比を入れておくと、4 コマ目の不満の理由が自然に伝わります。",
+          "checkpoints": [
+            "1コマ目: 画面の ABC Fashions のインターンシップ募集を読み取り、父親と見ていることを描写できた",
+            "2コマ目: 社長が履歴書を見て「来週から働ける」と告げたことを、the following week を使って言えた",
+            "3コマ目: デザイナーの仕事と対比させ、コーヒー運びやコピー取りをしていることを描写できた",
+            "4コマ目: 「ファッションデザインに関係することを何もしていない」を間接話法で言い、父親の心配そうな様子を描写できた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the father, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの父親だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking that she must be very disappointed because she had hoped to gain design experience. Still, most new workers have to start with simple tasks, so I'd encourage her to be patient for a while. I'd also suggest that she ask the manager if she could watch the designers at work.",
+          "modelAnswerJa": "デザインの経験を積みたいと思っていたのだから、娘はとてもがっかりしているに違いないと考えていると思います。それでも、新人の多くは簡単な仕事から始めるものなので、しばらくは辛抱するよう励ますでしょう。また、デザイナーの仕事を見学させてもらえないかマネージャーに聞いてみるよう勧めると思います。",
+          "explanation": "4 コマ目の父親は、娘の不満を聞いている場面です。must be very disappointed で娘の気持ちを推し量り、Still, ... で親としての助言につなげています。suggest that she ask ... のように、suggest のあとの that 節では動詞を原形にする点にも注意しましょう。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do people these days spend too much money on brand-name goods?",
+          "promptJa": "最近の人々は、ブランド品にお金を使いすぎているでしょうか。",
+          "modelAnswer": "No, I don't think so. Many people these days care more about value than brand names. Low-cost clothing stores sell stylish items, and it is easy to buy used goods through apps. Also, a lot of young people prefer to spend their money on experiences, such as travel, rather than on expensive bags or watches.",
+          "modelAnswerJa": "いいえ、そうは思いません。最近は、ブランド名よりも価値を重視する人が多くなっています。低価格の衣料品店でおしゃれな商品が売られていますし、アプリを使えば中古品も簡単に買えます。また、高価なバッグや時計よりも、旅行などの経験にお金を使いたいと考える若者もたくさんいます。",
+          "explanation": "「価値を重視する人が増えた」という主張のあと、安い衣料品店や中古品アプリといった身近な例を挙げています。prefer to spend their money on A rather than on B（B より A にお金を使いたがる）は、お金の使い方を述べるときに便利な形です。Yes の立場なら「SNS で見せるために、収入に合わない高級品を買う人もいる」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do you think that first impressions are important in human relationships?",
+          "promptJa": "第一印象は人間関係において大切だと思いますか。",
+          "modelAnswer": "Yes, I think so. People often form an opinion of someone soon after meeting them, and that image can be hard to change. For example, in a job interview, someone who is polite and neatly dressed is more likely to be trusted. A good first impression also makes it easier to start a conversation and build a relationship.",
+          "modelAnswerJa": "はい、そう思います。人は相手に会ってすぐにその人についての印象を持つことが多く、その印象は変えにくいものです。たとえば、就職の面接では、礼儀正しく身なりのきちんとした人のほうが信頼されやすくなります。また、第一印象がよいと、会話を始めたり関係を築いたりしやすくなります。",
+          "explanation": "Yes, I think so. のあと、「印象はすぐに決まり、変えにくい」という一般論を述べ、For example で就職の面接という身近な場面を挙げています。form an opinion of someone（人についての印象を持つ）は、この話題で使いやすい表現です。No の立場なら「本当の人柄は長く付き合わないとわからず、第一印象はあてにならない」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should companies make more effort to hire elderly workers?",
+          "promptJa": "企業は高齢の労働者を雇うことにもっと努力すべきでしょうか。",
+          "modelAnswer": "Yes, I think they should. Japan's working-age population is shrinking, so many companies are short of staff. Elderly workers have a lot of experience and knowledge that they can pass on to younger employees. Working can also help them stay active and healthy. Companies could make this easier by offering shorter hours or more flexible schedules.",
+          "modelAnswerJa": "はい、努力すべきだと思います。日本の生産年齢人口は減少しており、多くの企業で人手が足りません。高齢の労働者は豊富な経験と知識を持っていて、それを若い社員に伝えることができます。また、働くことは、高齢者が活動的で健康でいることにも役立ちます。企業は、短時間勤務やもっと柔軟な勤務時間を用意することで、これをしやすくできるでしょう。",
+          "explanation": "「人手不足」という社会の事情、「経験を伝えられる」という会社の利点、「健康でいられる」という本人の利点と、異なる立場から理由を挙げています。最後の Companies could ... で、短時間勤務などの具体策まで述べると、make more effort という質問に的確に答えられます。No の立場なら「高齢者の雇用が増えると、若い人の採用や昇進の機会が減るおそれがある」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2018-2-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2018年度 第2回",
+    "year": 2018,
+    "grade": "pre1",
+    "session": "2018-2"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2018-2-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a woman who wanted her son to be successful in the future.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a woman was at a café with her mother and son."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a woman was at a café with her mother and son. While the boy was eating, the woman's mother showed her a book saying that early learning brings career success. The woman seemed interested. A few weeks later, the woman showed her husband a list with English, computers, and swimming on it. She told him that those would all be good for their son. Her husband folded his arms and nodded with a smile, while their son sat in front of the TV. One month later, the boy came running out of ABC English School with his bag on his back. The woman was waiting outside with their bicycles, and she told him that they were late for his swimming lesson. On the way to the pool, the two of them were riding their bicycles toward XYZ Swimming School. The woman looked back at her son, but he was looking at some children who were playing with a ball in a park. It seemed that he wished he could play with them instead.",
+          "modelAnswerJa": "ある日、ある女性が母親と息子と一緒にカフェにいた。男の子が食べている間に、女性の母親は、早期学習がキャリアの成功をもたらすと書かれた本を女性に見せた。女性は興味を持った様子だった。数週間後、女性は英語、コンピューター、水泳と書かれたリストを夫に見せた。彼女は、これらはすべて息子のためになるだろうと夫に言った。夫は腕を組み、ほほえんでうなずいていて、息子はテレビの前に座っていた。1 か月後、男の子はかばんを背負って ABC English School から走って出てきた。女性は自転車を用意して外で待っていて、水泳のレッスンに遅れていると息子に言った。プールに向かう途中、2 人は自転車で XYZ Swimming School を目指していた。女性は息子を振り返ったが、彼は公園でボール遊びをしている子どもたちを見ていた。彼は、代わりにあの子たちと遊べたらいいのにと思っているようだった。",
+          "explanation": "1 コマ目には吹き出しがないので、本の Early learning brings career success を showed her a book saying that ... と文に入れます。本を見せているのは主人公ではなく、眼鏡をかけた女性の母親である点に注意しましょう。2 コマ目の These will all be good for our son. は told him that those would all be good for their son（these → those、will → would、our → their）と 3 か所を変えます。リストの 3 つ（English, computers, swimming）も読み上げましょう。3 コマ目の We're late for your swimming lesson. は told him that they were late for his swimming lesson（we → they、are → were、your → his）です。ABC English School の看板にも触れると、習い事から習い事へと急ぐ様子が伝わります。4 コマ目は吹き出しがありません。公園で遊ぶ子どもたちを見ている息子の様子が話の結末なので、but でつないで、遊びたそうな気持ちを It seemed that ... と述べましょう。",
+          "checkpoints": [
+            "1コマ目: 女性の母親が「早期学習がキャリアの成功につながる」という本を見せたことを言えた",
+            "2コマ目: 英語・コンピューター・水泳のリストを見せ、「全部息子のためになる」と夫に言ったことを間接話法で言えた",
+            "3コマ目: ABC English School から走り出る息子に、水泳のレッスンに遅れると伝えたことを言えた",
+            "4コマ目: プールへ向かう途中、息子が遊んでいる子どもたちをうらやましそうに見ていることを描写できた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"My son looks so envious of those children. Maybe I've been filling his schedule with too many lessons, and he has no time left to just play. I should ask him what he really wants to do and perhaps cut down on his lessons.\"",
+          "modelAnswerJa": "「息子はあの子たちをとてもうらやましそうに見ている。習い事で予定を詰め込みすぎて、ただ遊ぶ時間がなくなっているのかもしれない。息子が本当にやりたいことを聞いて、習い事を減らすことも考えるべきだろう」と考えていると思います。",
+          "explanation": "4 コマ目の女性は、振り返って、息子が遊んでいる子どもたちを見ていることに気づいた場面です。Maybe I've been ...（〜していたのかもしれない）で自分のやり方を見直し、I should ... で次の行動を続けています。fill his schedule with ...（予定を〜で埋める）と cut down on ...（〜を減らす）は、この場面にぴったりの表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Should subjects like art and music be cut to make more time for other types of classes?",
+          "promptJa": "ほかの種類の授業の時間を増やすために、美術や音楽のような教科を削るべきでしょうか。",
+          "modelAnswer": "No, I don't think so. Art and music give children a chance to express themselves and develop their creativity. These subjects can also be a nice break from studying for tests, and some children discover their talents or interests in them. Academic subjects are important, but schools should help children develop in a balanced way.",
+          "modelAnswerJa": "いいえ、そうは思いません。美術や音楽は、子どもたちが自分を表現し、創造力を伸ばす機会になります。これらの教科はテスト勉強のよい息抜きにもなりますし、その中で自分の才能や興味を見つける子どももいます。主要教科も大切ですが、学校は子どもたちがバランスよく成長できるようにすべきです。",
+          "explanation": "「自己表現・創造力」「息抜き」「才能の発見」と、美術や音楽ならではの価値を挙げて、削るべきでない理由を示しています。最後に「他の教科も大切だが」と認めて in a balanced way（バランスよく）でまとめています。Yes の立場なら「プログラミングや英語など、将来の仕事に直接役立つ授業に時間を回すほうがよい」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do you think the facilities at public parks should be improved?",
+          "promptJa": "公園の設備は改善されるべきだと思いますか。",
+          "modelAnswer": "Yes, I think so. In many parks, the playground equipment and benches are old, and some of them may even be dangerous for children. Cleaner restrooms and more shaded places to rest would also encourage elderly people and families to use parks more often. Parks are free places where anyone can relax and exercise, so they are worth investing in.",
+          "modelAnswerJa": "はい、そう思います。多くの公園では遊具やベンチが古くなっていて、中には子どもにとって危険なものさえあるかもしれません。トイレがもっときれいになり、日陰の休憩場所が増えれば、お年寄りや家族連れも公園をもっと頻繁に利用するようになるでしょう。公園は誰でも無料でくつろいだり運動したりできる場所なので、お金をかける価値があります。",
+          "explanation": "playground equipment / benches / restrooms のように設備の名前を具体的に挙げ、子ども・お年寄り・家族連れという利用者に結びつけています。worth investing in（お金をかける価値がある）は、公共施設の話題で使える表現です。No の立場なら「多くの公園は今のままで十分使えるので、限られた税金はもっと優先度の高いことに使うべきだ」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should parents try to get their children interested in politics?",
+          "promptJa": "親は、子どもが政治に関心を持つように働きかけるべきでしょうか。",
+          "modelAnswer": "Yes, I think they should. Politics affects everyone's daily life, including education and taxes, and young people will soon have the right to vote. If parents talk about the news at home, children can learn to form their own opinions. However, parents shouldn't force their own views on their children.",
+          "modelAnswerJa": "はい、そうすべきだと思います。政治は教育や税金など、誰の日常生活にも影響を与えますし、若者はやがて選挙権を持つようになります。親が家庭でニュースについて話せば、子どもは自分の意見を持てるようになるでしょう。ただし、親は自分の考えを子どもに押しつけるべきではありません。",
+          "explanation": "「政治は日常生活に関わる」という理由のあと、家庭でできること（ニュースについて話す）を具体的に述べています。最後の However, ... で「考えを押しつけないこと」と付け加えると、バランスの取れた答えになります。No の立場なら「子どもは成長すれば自然に関心を持つようになり、親が誘導すると考えが偏るおそれがある」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2018-2-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a couple that was interested in starting a new business.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a couple was having coffee at home."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a couple was having coffee at home. The woman was reading a newspaper, and she showed her husband an article saying that the popularity of food trucks was increasing. She told him that a food truck would be a great business. He nodded and seemed to agree. Two weeks later, the couple went to look at a truck, and a salesman was showing it to them. The woman seemed to be imagining herself standing next to a shiny truck of their own. On the opening day, they started selling food from their truck, ABC Sandwiches. They were both working hard, and a long line of customers was waiting in front of the truck. It looked as if their business would be a big success. One year later, however, things had changed. The couple stood behind a counter with many boxes of food that no one had bought. Farther down the street, long lines of people were waiting at other trucks. The man told his wife that the new trucks had taken their customers. They both looked very disappointed.",
+          "modelAnswerJa": "ある日、ある夫婦が家でコーヒーを飲んでいた。女性は新聞を読んでいて、フードトラックの人気が高まっているという記事を夫に見せた。彼女は、フードトラックはすばらしい商売になるだろうと夫に言った。夫はうなずき、賛成している様子だった。2 週間後、夫婦はトラックを見に行き、販売員がそれを 2 人に見せていた。女性は、自分たちのぴかぴかのトラックの横に立つ自分の姿を思い描いているようだった。開業の日、2 人は自分たちのトラック、ABC Sandwiches で食べ物を売り始めた。2 人とも懸命に働いていて、トラックの前には客の長い列ができていた。商売は大成功しそうに見えた。しかし 1 年後、状況は変わっていた。夫婦は、誰も買わなかった食べ物の箱がたくさん並ぶカウンターの後ろに立っていた。通りの先では、ほかのトラックに人々が長い列を作っていた。男性は、新しいトラックに客を取られてしまったと妻に言った。2 人ともとてもがっかりした様子だった。",
+          "explanation": "1 コマ目の新聞の見出し Popularity of food trucks increasing は、動詞を補って the popularity of food trucks was increasing という文にします。This would be a great business. はもともと would を使っているので would はそのままで、this は指すものを具体的にして told him that a food truck would be a great business（this → a food truck）とします。2 コマ目は吹き出しがなく、思考の吹き出しに描かれたぴかぴかのトラックと女性を imagining herself ... と描写するのがポイントです。3 コマ目は On the opening day をそのまま使い、ABC Sandwiches の看板と客の行列を述べます。4 コマ目の The new trucks took our customers. は told his wife that the new trucks had taken their customers（took → had taken、our → their）です。遠くの行列と、手元に積まれた売れ残りの箱を対比すると、however 以降の展開の変化がはっきりします。",
+          "checkpoints": [
+            "1コマ目: 新聞の見出し（フードトラックの人気上昇）と「すばらしい商売になる」という発言を言えた",
+            "2コマ目: 販売員にトラックを見せてもらい、女性が自分たちのトラックを思い描いていることを描写できた",
+            "3コマ目: 開業の日、ABC Sandwiches に客の長い列ができている様子を描写できた",
+            "4コマ目: 1年後、売れ残りの箱とほかのトラックの行列を対比し、「新しいトラックに客を取られた」と言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"Those new trucks must be offering something that customers like more than our sandwiches. We shouldn't just give up, though. We should go and see what they're selling, and then try adding some new items to our menu or moving to a different location.\"",
+          "modelAnswerJa": "「あの新しいトラックは、うちのサンドイッチよりもお客さんに好かれる何かを出しているに違いない。でも、ただあきらめるわけにはいかない。何を売っているのか見に行って、メニューに新しい品を加えてみるか、別の場所に移ってみよう」と考えていると思います。",
+          "explanation": "4 コマ目の女性は、客が新しいトラックに流れ、手元に売れ残りが積まれている場面です。must be ...（〜に違いない）で原因を推測し、We shouldn't just give up のあとに具体的な対策を 2 つ続けています。店の競争の話なので、メニューや場所といった商売に関わる言葉を入れると場面に合います。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think a system of giving tips for good service should be introduced in restaurants in Japan?",
+          "promptJa": "よいサービスに対してチップを渡す制度を、日本の飲食店に導入すべきだと思いますか。",
+          "modelAnswer": "No, I don't think so. Japanese restaurants are already known for their excellent service, even without tips, so there is no real need for this system. Tipping would also be confusing and stressful for customers, because they would have to decide how much to pay each time. It is simpler to include the cost of service in the prices.",
+          "modelAnswerJa": "いいえ、そうは思いません。日本の飲食店はチップがなくてもすでにすばらしいサービスで知られているので、この制度が本当に必要だとは言えません。また、客は毎回いくら払うかを決めなければならないので、チップは客にとって分かりにくく、負担にもなるでしょう。サービスの費用は料金に含めるほうが簡単です。",
+          "explanation": "「チップがなくてもサービスがよい」という現状と、「客にとって分かりにくい」という問題点の 2 つを理由にしています。be known for ...（〜で知られている）は日本の特徴を説明するときに便利です。Yes の立場なら「よい接客をした店員の収入が増え、働く意欲が高まる」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Should people consider environmental friendliness when buying a car?",
+          "promptJa": "人々は車を買うときに、環境へのやさしさを考慮すべきでしょうか。",
+          "modelAnswer": "Yes, I think they should. Cars produce a lot of carbon dioxide, which is one of the main causes of global warming. If more people choose hybrid or electric cars, we can reduce the impact on the environment. These cars can also save money on fuel in the long run, so they are good for drivers, too.",
+          "modelAnswerJa": "はい、考慮すべきだと思います。車は大量の二酸化炭素を排出し、それは地球温暖化の主な原因の 1 つです。ハイブリッド車や電気自動車を選ぶ人が増えれば、環境への影響を減らすことができます。こうした車は長い目で見れば燃料費の節約にもなるので、運転する人にとってもよいことです。",
+          "explanation": "環境面の理由（二酸化炭素の削減）に加えて、in the long run（長い目で見れば）で運転者自身の利点（燃料費の節約）にも触れています。相手の得になる点を加えると説得力が増します。No の立場なら「環境にやさしい車はまだ価格が高いことが多く、予算や使いやすさを優先せざるを得ない人もいる」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should companies make more effort to contribute to society?",
+          "promptJa": "企業は、社会に貢献するためにもっと努力すべきでしょうか。",
+          "modelAnswer": "Yes, I think so. Companies make profits thanks to their customers and local communities, so they should give something back. They can do this by reducing waste, supporting local events, or donating to people in need. This also improves a company's public image, so it can attract more customers and talented employees.",
+          "modelAnswerJa": "はい、そう思います。企業は顧客や地域社会のおかげで利益を上げているので、何らかの形で還元すべきです。ごみを減らしたり、地域の行事を支援したり、困っている人々に寄付をしたりすることでそれができます。また、これによって企業の社会的なイメージがよくなり、より多くの顧客や有能な社員を引きつけることができます。",
+          "explanation": "「利益を上げられるのは社会のおかげ」という理由のあと、by -ing の形で具体的な方法を 3 つ並べ、最後に「企業にとっての利点」も述べています。give something back（還元する）は社会貢献の話題で使いやすい表現です。No の立場なら「企業の第一の役割はよい商品を作り、雇用を守り、税金を納めることであり、それ自体が社会への貢献だ」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}

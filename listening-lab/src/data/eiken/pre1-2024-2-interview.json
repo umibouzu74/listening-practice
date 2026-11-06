@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2024-2-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2024年度 第2回",
+    "year": 2024,
+    "grade": "pre1",
+    "session": "2024-2"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2024-2-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a man who was interested in cooking.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a man was listening to his coworker at lunchtime."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a man was listening to his coworker at lunchtime. It was a little after twelve o'clock. His coworker's laptop screen said \"How to make a lunch,\" and there was a lunch box on his desk. The coworker said that he had learned to make his own lunch. The man looked very interested. That weekend, the man went to a supermarket with a woman who seemed to be his wife. He was imagining a wonderful lunch box, and their shopping cart was full of food. On Monday, the man brought a lunch box to the office. When he opened it, his coworkers gathered around him and looked very impressed. He seemed proud of himself. A few days later, however, the woman was standing at home in front of the refrigerator, which was packed with food. She was holding a container of food in one hand and gesturing toward the refrigerator with the other. She told the man that they wasted too much food. He looked embarrassed.",
+          "modelAnswerJa": "ある日、ある男性が昼食の時間に同僚の話を聞いていた。時刻は 12 時を少し過ぎたところだった。同僚のノートパソコンの画面には「お弁当の作り方」と表示されていて、机の上には弁当箱があった。同僚は、自分で昼食を作れるようになったと言った。男性はとても興味を持った様子だった。その週末、男性は妻と思われる女性と一緒にスーパーへ行った。彼はすばらしい弁当を思い描いていて、ショッピングカートは食べ物でいっぱいだった。月曜日、男性は弁当箱を会社に持ってきた。彼がそれを開けると、同僚たちが周りに集まり、とても感心した様子だった。彼は得意げな様子だった。ところが数日後、女性は家で冷蔵庫の前に立っており、冷蔵庫は食べ物でぎっしりだった。彼女は片手に食べ物の入った容器を持ち、もう一方の手で冷蔵庫を示していた。彼女は、自分たちは食べ物を無駄にしすぎていると男性に言った。彼はきまりが悪そうだった。",
+          "explanation": "1 コマ目の I learned to make my own lunch. は元の文が過去形なので、said that he had learned to make his own lunch と過去完了にします（learned → had learned、I / my → he / his）。パソコンの画面（How to make a lunch）と時計（12 時過ぎ）も文に入れると、最初の一文の at lunchtime とつながります。2 コマ目は思考の吹き出しなので、was imagining a wonderful lunch box のように「頭の中の様子」として描写し、カートが食べ物でいっぱいなことも必ず言いましょう（4 コマ目の結末につながる伏線です）。3 コマ目は同僚たちの表情から looked very impressed と述べ、男性の得意げな様子を添えます。4 コマ目の We waste too much food. は told the man that they wasted too much food です（we → they、waste → wasted）。however を入れて、称賛された 3 コマ目からの展開の変化を示しましょう。女性と男性の関係は絵からは断定できないので、a woman who seemed to be his wife のように言うと安全です。",
+          "checkpoints": [
+            "1コマ目: 同僚が「自分で弁当を作れるようになった」と言ったことを、had learned の形で言えた",
+            "2コマ目: 週末のスーパーで、豪華な弁当を思い描いていることと、カートが食べ物でいっぱいなことを描写できた",
+            "3コマ目: 月曜日に弁当箱を開けると、同僚たちが感心して集まってきた様子を描写できた",
+            "4コマ目: 冷蔵庫が食べ物でいっぱいで、「食べ物を無駄にしすぎだ」と女性に言われたことを間接話法で言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the man, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"She's right. I got so excited about making fancy lunches that I bought far more than I could use. Next time, I'll plan my meals before I go shopping, and I'll use up what's in the refrigerator first.\"",
+          "modelAnswerJa": "「彼女の言うとおりだ。豪華な弁当を作ることに夢中になって、使い切れないほど買ってしまった。次からは買い物に行く前に献立を考えて、まず冷蔵庫の中のものを使い切るようにしよう」と考えていると思います。",
+          "explanation": "4 コマ目の男性は、冷蔵庫いっぱいの食べ物を前に注意を受けている場面です。She's right. と相手の指摘を認めたうえで、so ... that ...（あまりに〜なので…）で原因を振り返り、Next time, I'll ... で具体的な改善策を述べています。use up（使い切る）は、食品ロスの話題で使える表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think that learning how to cook is essential for everyone?",
+          "promptJa": "料理のしかたを学ぶことは、すべての人にとって不可欠だと思いますか。",
+          "modelAnswer": "Yes, I think so. Cooking for yourself is usually cheaper and healthier than eating out or buying ready-made meals, because you can choose what goes into your food. It is also a basic skill for living independently. For example, students who can cook when they start living alone find it easier to save money and stay healthy.",
+          "modelAnswerJa": "はい、そう思います。自分で料理をするほうが、外食や出来合いの食事を買うよりたいてい安く健康的です。食べ物に何を入れるか自分で選べるからです。また、料理は自立して生活するための基本的な技能でもあります。たとえば、一人暮らしを始めるときに料理ができる学生は、お金を節約しやすく、健康も保ちやすいです。",
+          "explanation": "費用と健康という 2 つの利点を cheaper and healthier で短くまとめ、because で理由を加えています。さらに For example で一人暮らしの学生という身近な例を挙げると、essential for everyone（誰にとっても不可欠）という質問に答えやすくなります。No の立場なら「総菜や宅配サービスが充実しているので、料理ができなくても困らず、その時間を他のことに使える」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Should junior high schools allow students to use their smartphones during break time?",
+          "promptJa": "中学校は、休み時間に生徒がスマートフォンを使うことを認めるべきでしょうか。",
+          "modelAnswer": "No, I don't think so. If students can use their phones during breaks, they will spend their free time looking at screens instead of talking with their classmates or getting some exercise. It might also lead to problems such as online bullying or students taking pictures of others without permission. School should be a place where they focus on real-life relationships.",
+          "modelAnswerJa": "いいえ、そうは思いません。休み時間にスマートフォンを使えるようになると、生徒はクラスメートと話したり体を動かしたりする代わりに、自由時間を画面を見て過ごすようになるでしょう。また、ネットいじめや、許可なく他人の写真を撮るといった問題につながるかもしれません。学校は、現実の人間関係を大切にする場所であるべきです。",
+          "explanation": "「友達との交流や運動の時間が減る」という学校生活への影響と、「ネットいじめや無断撮影」というトラブルの 2 点を理由にしています。instead of ...ing で「本来すべきこと」と比べると、主張がはっきりします。Yes の立場なら「休み時間なら授業の妨げにならず、スマートフォンの正しい使い方を学ぶよい機会になる」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "In today's world, business trips are common in many companies. Will advances in technology make business trips unnecessary in the future?",
+          "promptJa": "今日の世界では、出張は多くの企業で一般的です。技術の進歩によって、将来、出張は不要になるでしょうか。",
+          "modelAnswer": "No, I don't think so. Online meetings are certainly convenient, and they have already replaced some trips. However, it is hard to build trust with a new client through a screen. Also, some jobs, such as inspecting a factory, require people to actually go there. So business trips may become less common, but they will not disappear.",
+          "modelAnswerJa": "いいえ、そうは思いません。オンライン会議は確かに便利で、すでに一部の出張に取って代わっています。しかし、新しい取引先と画面越しに信頼関係を築くのは難しいです。また、工場の検査のように、実際に現地へ行かなければならない仕事もあります。ですから、出張は減るかもしれませんが、なくなることはないでしょう。",
+          "explanation": "certainly ..., However ... の形で、技術の利点をいったん認めてから反論しています。最後の may become less common, but they will not disappear は、「不要になるか」という質問に対して「減るがなくならない」と程度を分けて答える言い方です。Yes の立場なら「オンライン会議や VR の技術が進めば、移動の時間と費用を節約できるので、ほとんどの出張はなくせる」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2024-2-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a kindergarten principal who was concerned about safety.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a kindergarten principal was in her office."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a kindergarten principal was in her office. She was reading a newspaper article saying that accidents involving playground equipment were increasing. Outside the window, children were playing on a slide and other equipment, and she looked worried about their safety. The next day, she held a meeting with the teachers. On a board, she showed them a plan to get rid of the slide and the climbing equipment and replace them with a natural space with trees and plants. The teachers listened carefully. A few days later, workers wearing helmets were removing the equipment from the playground. They carried away the slide and a round climbing frame while the principal watched with a satisfied smile. The next week, the new playground was ready. However, when a teacher stood at the door and pointed outside, the children stayed inside, playing with their toys. One of them said that the playground was boring. The principal looked very disappointed to hear that.",
+          "modelAnswerJa": "ある日、ある幼稚園の園長が自分の部屋にいた。彼女は、遊具の事故が増えているという新聞記事を読んでいた。窓の外では子どもたちが滑り台などの遊具で遊んでおり、彼女は子どもたちの安全を心配している様子だった。翌日、彼女は先生たちと会議を開いた。ボードを使って、滑り台や登って遊ぶ遊具をなくし、木や植物のある自然の空間に変えるという計画を示した。先生たちは熱心に聞いていた。数日後、ヘルメットをかぶった作業員たちが園庭から遊具を撤去していた。彼らが滑り台や球形のジャングルジムを運び出すのを、園長は満足そうにほほえみながら見ていた。翌週、新しい園庭が完成した。ところが、先生がドアのところに立って外を指さしても、子どもたちは中に残っておもちゃで遊んでいた。そのうちの 1 人は、園庭はつまらないと言った。園長はそれを聞いてとてもがっかりした様子だった。",
+          "explanation": "1 コマ目の見出し Playground Equipment Accidents Increasing は、そのまま読まずに an article saying that accidents involving playground equipment were increasing のように文にします。窓の外で遊ぶ子どもたちも描写すると、園長が心配している理由が伝わります。2 コマ目のボードは、× のついた遊具と矢印の先の図を、get rid of ... and replace them with ...（〜をなくして…に置き換える）でつなげて説明しましょう。3 コマ目は文字がないので、作業員が滑り台や球形の遊具を運び出していることと、園長の満足そうな表情を述べます。4 コマ目の The playground is boring. は子どもの発言で、said that the playground was boring とします（is → was）。先生が外を指さしているのに子どもたちが室内で遊んでいることを However で示すと、安全のための工事が裏目に出たという結末がはっきりします。",
+          "checkpoints": [
+            "1コマ目: 新聞の見出し（遊具の事故が増えている）を文にして、園長が子どもたちの安全を心配する様子を言えた",
+            "2コマ目: 遊具に×がついた図を使い、木や植物のある空間に変える案を先生たちに示したことを言えた",
+            "3コマ目: 作業員が滑り台などの遊具を撤去し、園長が満足そうに見ていることを描写できた",
+            "4コマ目: 子どもが「園庭はつまらない」と言って室内で遊び、園長ががっかりしていることを間接話法で言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the kindergarten principal, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの幼稚園の園長だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I was so focused on safety that I forgot children need exciting places to play. Maybe I went too far by removing everything. I should ask the children and teachers what they would like, and then add some low, safe equipment, such as a small slide.\"",
+          "modelAnswerJa": "「安全のことばかり考えて、子どもたちにはわくわくする遊び場が必要だということを忘れていた。全部なくしたのはやりすぎだったかもしれない。子どもたちや先生たちの希望を聞いて、小さな滑り台のような、低くて安全な遊具を入れることにしよう」と考えていると思います。",
+          "explanation": "4 コマ目は、安全のために遊具を撤去した結果、子どもに「つまらない」と言われた場面です。I was so focused on ... that I forgot ... で自分の判断を振り返り、Maybe I went too far（やりすぎだったかもしれない）と認めてから、I should ... で具体策を述べています。安全と楽しさの両方を考えた対策を挙げると、園長の立場に合った答えになります。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think that parents today are too protective of their children?",
+          "promptJa": "今日の親は子どもに対して過保護だと思いますか。",
+          "modelAnswer": "Yes, I think so. Many parents today try to remove every risk from their children's lives, and some even deal with problems at school for them. Because of this, children have fewer chances to make mistakes and learn from them. To become independent, children need to try things for themselves, even if they sometimes fail.",
+          "modelAnswerJa": "はい、そう思います。今の親の多くは、子どもの生活からあらゆる危険を取り除こうとし、中には学校での問題を子どもの代わりに解決しようとする親もいます。そのため、子どもが失敗してそこから学ぶ機会が少なくなっています。自立するためには、ときには失敗しても、自分でいろいろ試してみることが必要です。",
+          "explanation": "「親の行動（危険を取り除く・代わりに問題を解決する）」→「その結果（失敗から学ぶ機会が減る）」→「子どもに必要なこと（自分で試す）」という流れで答えています。Because of this, ... は前の文の内容を受けて結果を述べるのに便利です。No の立場なら「交通事故やインターネット上のトラブルなど危険が多いので、親が注意するのは当然だ」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Should companies have to provide childcare facilities for their employees?",
+          "promptJa": "企業は従業員のために保育施設を提供することを義務づけられるべきでしょうか。",
+          "modelAnswer": "No, I don't think they should have to. Building and running a childcare facility costs a lot of money, so it would be a heavy burden, especially for small companies. Also, many parents would rather use a daycare center near their homes. It would be better for the government to increase the number of public childcare centers.",
+          "modelAnswerJa": "いいえ、義務づけるべきではないと思います。保育施設を建てて運営するには多くの費用がかかるので、特に中小企業には重い負担になるでしょう。また、自宅の近くの保育所を利用したいと考える親も多いです。政府が公的な保育所の数を増やすほうがよいと思います。",
+          "explanation": "have to（義務）を問う質問なので、「義務にすると困る会社がある」という費用の面を中心に答え、最後に It would be better for the government to ... と別の解決策を示しています。Yes の立場なら「職場に保育施設があれば親が安心して働き続けられ、企業も人材を失わずに済む」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Today, more than half of the world's population lives in cities. Has urban life made people lose touch with nature?",
+          "promptJa": "今日、世界の人口の半分以上が都市に住んでいます。都市での生活によって、人々は自然との触れ合いを失ってしまったでしょうか。",
+          "modelAnswer": "Yes, I think it has. People in cities spend most of their time inside buildings, and they rarely see forests or farmland in their daily lives. Many children grow up with few chances to catch insects or climb trees. As a result, people may care less about environmental problems because nature seems to have little to do with their lives.",
+          "modelAnswerJa": "はい、そう思います。都市の人々はほとんどの時間を建物の中で過ごし、日常生活で森や農地を目にすることはめったにありません。虫を捕まえたり木に登ったりする機会がほとんどないまま育つ子どもも多くいます。その結果、自然は自分の生活とあまり関係がないように思えて、環境問題への関心が薄れてしまうかもしれません。",
+          "explanation": "Has urban life made ...? という現在完了の質問なので、Yes, I think it has. と同じ形で答えています。大人の日常 → 子どもの経験 → 環境問題への関心と、話を広げていく構成です。have little to do with（〜とほとんど関係がない）も覚えておくと便利です。No の立場なら「都市にも公園や街路樹があり、週末にキャンプやハイキングに出かける人も多い」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}

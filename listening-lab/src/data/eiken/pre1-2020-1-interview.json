@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2020-1-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2020年度 第1回",
+    "year": 2020,
+    "grade": "pre1",
+    "session": "2020-1"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2020-1-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a couple who lived in an expensive city.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a couple was at home talking."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a couple was at home talking. There were some bills and a calculator on the table. Holding one of the bills, the wife told her husband that it was difficult to pay them. He sat with his arms crossed and looked very worried. That weekend, the husband was reading a newspaper, and the headline said that living abroad was much cheaper. He looked excited as he showed it to his wife, and she smiled and nodded. A year later, the couple had moved abroad. They arrived at a village with their suitcases, and a sign there said, \"Welcome to the Village.\" The local people gave them a warm welcome, and a chef was serving food in the background. Everyone looked happy. A few months later, however, the couple was sitting at a table with drinks. The wife was looking sadly at a photo of some people. She told her husband that she wished they could meet their friends more often. He looked thoughtful as he listened.",
+          "modelAnswerJa": "ある日、ある夫婦が家で話をしていた。テーブルの上には請求書が何枚かと電卓があった。妻は請求書の 1 枚を手に、支払うのが難しいと夫に伝えた。夫は腕を組んで座り、とても心配そうな様子だった。その週末、夫は新聞を読んでいて、その見出しには、海外で暮らすほうがずっと安いと書かれていた。夫はうれしそうにそれを妻に見せ、妻はほほえんでうなずいた。1 年後、夫婦は海外に移り住んでいた。二人がスーツケースを持って村に着くと、そこには「村へようこそ」という看板があった。地元の人々は二人を温かく迎え、奥では料理人が料理を振る舞っていた。みんな楽しそうだった。ところが数か月後、夫婦は飲み物を前にテーブルについていた。妻は何人かの人が写った写真を悲しそうに見ていた。彼女は夫に、友達にもっと頻繁に会えればいいのにと言った。夫は考え込むような様子で聞いていた。",
+          "explanation": "1 コマ目は Bill と書かれた紙と電卓を使って状況を説明し、It's difficult to pay them. は told her husband that it was difficult to pay them（is → was）とします。them が請求書を指すことがわかるように、先に bills を出しておくことがポイントです。2 コマ目の新聞の見出し Living abroad much cheaper は、見出し特有の省略を補って living abroad was much cheaper と文にします。3 コマ目は Welcome to the Village の看板とスーツケースから、実際に海外へ移ったことを A year later, the couple had moved abroad で示します。4 コマ目の I wish we could meet our friends more often. は told her husband that she wished they could meet their friends more often（wish → wished、we → they、our → their）で、could は変わりません。however を入れ、「生活費の心配は減ったかもしれないが、友達に会えなくて寂しい」という変化を伝えましょう。",
+          "checkpoints": [
+            "1コマ目: 請求書と電卓を描写し、「支払うのが難しい」を間接話法で言えた",
+            "2コマ目: 新聞の見出し（海外で暮らすほうがずっと安い）を読み取り、妻が賛成している様子を描写できた",
+            "3コマ目: 1年後に海外の村へ移り、地元の人々に温かく迎えられたことを描写できた",
+            "4コマ目: 写真を見ながら「友達にもっと会えたら」と言ったことを、wished they could を使って言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the man, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"Life here is cheap and relaxing, but I didn't realize how much she missed our friends. We could start having video calls with them every week, and maybe we could save up to go back for a visit once a year. It would also be good to make new friends in this village.\"",
+          "modelAnswerJa": "「ここの生活は安くてのんびりしているけれど、妻がこんなに友達を恋しく思っているとは気づかなかった。毎週友達とビデオ通話を始めてもいいし、年に 1 回帰って会えるようにお金を貯めてもいいかもしれない。この村で新しい友達を作るのもいいだろう」と考えていると思います。",
+          "explanation": "4 コマ目の男性は、海外生活の中で、妻の寂しさを聞かされた場面です。but I didn't realize how much ...（どれほど〜か気づかなかった）で、相手の気持ちに気づいたことを表しています。そのあと We could ... を重ねて、できそうな対策を具体的に挙げています。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think it is a good idea to live in a big city despite the high cost?",
+          "promptJa": "費用が高くても大都市に住むのはよい考えだと思いますか。",
+          "modelAnswer": "Yes, I think so. Big cities offer many more job opportunities and often higher salaries, which can make up for the high cost of living. Public transportation is also so convenient that many people do not need a car. In addition, people can easily enjoy things such as concerts, museums, and a wide variety of restaurants.",
+          "modelAnswerJa": "はい、そう思います。大都市には仕事の機会がずっと多く、給料も高いことが多いので、高い生活費を埋め合わせることができます。また、公共交通機関がとても便利なので、車がなくても困らない人がたくさんいます。さらに、コンサートや美術館、さまざまなレストランなどを気軽に楽しむことができます。",
+          "explanation": "質問の despite the high cost に答えるために、which can make up for the high cost of living（高い生活費を埋め合わせられる）と、費用の面にも直接触れています。そのうえで、交通の便や娯楽といった都市ならではの利点を加えています。No の立場なら「地方は家賃が安く自然も豊かで、今はリモートワークでも働ける」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do you think cultural differences are becoming less important in the modern world?",
+          "promptJa": "現代の世界では、文化の違いはあまり重要ではなくなってきていると思いますか。",
+          "modelAnswer": "No, I don't think so. It's true that people around the world now watch the same movies and use the same apps. However, people still have different values, customs, and religions, and these can cause misunderstandings in business and daily life. As more people work and travel internationally, understanding those differences is actually becoming more important.",
+          "modelAnswerJa": "いいえ、そうは思いません。確かに、今では世界中の人が同じ映画を見て、同じアプリを使っています。しかし、人々の価値観や習慣、宗教は今も異なっており、それが仕事や日常生活での誤解の原因になることがあります。国際的に働いたり旅行したりする人が増えるにつれて、そうした違いを理解することは、むしろより重要になっています。",
+          "explanation": "It's true that ... で「同じ映画やアプリを使う」という反対側の見方を認め、However で価値観や習慣の違いは残ると述べています。最後に「むしろ重要になっている」と質問とは逆の方向を示すと、立場がはっきりします。It's true that ... However ... は、反論するときに便利な型です。Yes の立場なら「インターネットや英語の広がりで、世界中の人の考え方や生活様式が近づいている」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should the government try to attract more foreign workers?",
+          "promptJa": "政府はもっと多くの外国人労働者を呼び込むよう努めるべきでしょうか。",
+          "modelAnswer": "Yes, I think it should. Japan's population is shrinking, and industries such as nursing care, construction, and farming are seriously short of workers. Foreign workers can help fill these gaps. However, the government also needs to support them by offering Japanese lessons and making sure that they receive fair pay, so that they will want to stay.",
+          "modelAnswerJa": "はい、努めるべきだと思います。日本の人口は減少しており、介護、建設、農業などの産業では働き手が深刻に不足しています。外国人労働者は、こうした不足を埋める助けになります。ただし、政府は、日本語の授業を提供したり、公正な賃金が支払われるようにしたりして、彼らが日本にとどまりたいと思うように支援する必要もあります。",
+          "explanation": "「人手不足」という理由を、nursing care, construction, and farming と具体的な業種を挙げて説明しています。fill these gaps（不足を埋める）は便利な表現です。Yes の立場でも However で課題（日本語教育、公正な賃金）に触れると、バランスの取れた答えになります。No の立場なら「まず女性や高齢者が働きやすい環境を整えるべきで、急に受け入れると言葉や習慣の違いから問題が起こりかねない」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2020-1-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a man whose wife had been hurt in an accident.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a man was visiting his wife at the hospital."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a man was visiting his wife at the hospital. She was lying in bed, and the doctor told him that she would need help getting around. The man listened carefully. Back at home, his wife looked worried and showed him an advertisement for ABC Service. It offered healthcare in people's homes. However, the man crossed his arms and shook his head. He seemed sure that he could take care of her by himself. A month later, he was having a hard time. He was sweating as he tried to help his wife get up from the bed, and there was a wheelchair nearby. The room was a mess, with laundry and dishes all over the floor. The next week, the man was pushing his wife's wheelchair outside. However, he was bent over, holding his lower back, and he looked like he was in a lot of pain. His wife turned to him and told him that he was overdoing it.",
+          "modelAnswerJa": "ある日、ある男性が入院中の妻を見舞っていた。妻はベッドに横になっており、医師は彼に、奥さんは移動するのに助けが必要になると告げた。男性は注意深く話を聞いていた。家に戻ると、妻は心配そうな様子で、ABC サービスの広告を彼に見せた。それは自宅で医療や介護を受けられるサービスだった。しかし、男性は腕を組み、首を横に振った。彼は自分 1 人で妻の世話ができると確信しているようだった。1 か月後、彼は大変な思いをしていた。汗をかきながら妻がベッドから起き上がるのを助けようとしていて、そばには車いすがあった。部屋は散らかっていて、洗濯物や食器が床のあちこちにあった。翌週、男性は屋外で妻の車いすを押していた。しかし、彼は体を曲げて腰を押さえており、とても痛そうだった。妻は彼のほうを向き、無理をしすぎだと彼に言った。",
+          "explanation": "1 コマ目の She'll need help getting around. は told him that she would need help getting around（will → would）で、話し手は医師です。2 コマ目は Healthcare in Your Home と ABC Service の広告を読み取り、妻がこのサービスを見せていること、男性が腕を組んで首を振っていることから「自分でやる」と断った流れを伝えます。頭の両側の線は首を振っているしるしなので、shook his head と描写しましょう。3 コマ目には言葉がないので、汗のしるしと散らかった部屋（洗濯物・食器）から、世話と家事で手一杯な様子を説明します。4 コマ目の腰のあたりのギザギザは痛みを表しています。You're overdoing it. は told him that he was overdoing it（you're → he was）で、しっぽから話し手は車いすの妻だとわかります。2 コマ目の断る場面と 4 コマ目の結果をつなげると、話の結末がはっきりします。",
+          "checkpoints": [
+            "1コマ目: 病院で医師が「移動に助けが必要になる」と告げたことを間接話法で言えた",
+            "2コマ目: 妻が ABC Service の広告を見せたが、男性が腕を組んで首を振ったことを描写できた",
+            "3コマ目: 汗をかきながら妻を助け起こし、部屋が散らかっている様子を描写できた",
+            "4コマ目: 腰を痛めた様子と、妻の「無理をしすぎだ」を間接話法で言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the man, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"She's right. I tried to do everything on my own, and now I've hurt my back. If this gets any worse, I won't be able to take care of her at all. I should swallow my pride and call ABC Service for help.\"",
+          "modelAnswerJa": "「妻の言うとおりだ。何もかも 1 人でやろうとして、とうとう腰を痛めてしまった。これ以上悪くなったら、妻の世話がまったくできなくなってしまう。意地を張らずに、ABC サービスに電話して助けを頼もう」と考えていると思います。",
+          "explanation": "4 コマ目の男性は、無理をして腰を痛め、妻に注意された場面です。2 コマ目で断った ABC Service に触れると、話全体を踏まえた答えになります。If this gets any worse, ... で放っておくとどうなるかを述べ、最後に I should ... で次の行動を示しています。swallow my pride（意地を張るのをやめる）は、自分の考えを改める場面で使える表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think that people should participate more in volunteer activities?",
+          "promptJa": "人々はボランティア活動にもっと参加すべきだと思いますか。",
+          "modelAnswer": "Yes, I think so. Communities have many needs that the government cannot meet alone, such as helping elderly people or cleaning up after natural disasters. Volunteering also benefits the volunteers themselves, because they can meet new people and learn new skills. Even a few hours a month can make a real difference.",
+          "modelAnswerJa": "はい、そう思います。地域社会には、高齢者の手助けや自然災害のあとの片付けなど、政府だけでは応えられないニーズがたくさんあります。ボランティアは、新しい人と出会い新しい技能を身につけられるので、参加する本人のためにもなります。月に数時間でも、本当に大きな違いを生むことができます。",
+          "explanation": "「社会にとっての利点」と「ボランティア本人にとっての利点」の 2 つの面から答えています。such as helping elderly people or cleaning up after natural disasters のように具体例を入れると、活動の内容が伝わります。最後の Even a few hours a month ...（月に数時間でも）は、参加しやすさを示す言い方です。No の立場なら「仕事や家事で忙しい人も多く、本来は政府が担うべき仕事もある」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do hospitals provide sufficient care to elderly people these days?",
+          "promptJa": "最近の病院は、高齢者に十分なケアを提供しているでしょうか。",
+          "modelAnswer": "Yes, I think they do. In Japan, everyone is covered by public health insurance, so elderly people can see a doctor at a fairly low cost. Hospitals also have specialists, such as nurses and physical therapists, who help older patients recover after an illness or injury. Japan's high life expectancy suggests that its medical care is quite good.",
+          "modelAnswerJa": "はい、提供していると思います。日本ではすべての人が公的医療保険に入っているので、高齢者は比較的安い費用で医師にかかることができます。また、病院には看護師や理学療法士などの専門家がいて、病気やけがのあとの高齢の患者の回復を助けています。日本の平均寿命が長いことは、医療の質がかなり高いことを示していると言えるでしょう。",
+          "explanation": "Do hospitals ...? の質問なので、Yes, I think they do. と do で受けています。「費用の面（公的医療保険）」と「人の面（看護師や理学療法士）」の 2 つの理由を挙げ、最後に平均寿命の長さにも触れています。No の立場なら「医師や看護師が不足しており、特に地方では待ち時間が長く、高齢者に十分な時間をかけられない」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Does Japan have enough facilities for disabled people who use public transportation?",
+          "promptJa": "日本には、公共交通機関を利用する障害のある人のための設備が十分にあるでしょうか。",
+          "modelAnswer": "No, I don't think so. Many large stations now have elevators and tactile paving for blind people, but small stations in rural areas often do not. There can also be wide gaps between trains and platforms, which are difficult for wheelchair users. Japan has made progress, but more needs to be done, especially outside big cities.",
+          "modelAnswerJa": "いいえ、そうは思いません。今では多くの大きな駅にエレベーターや視覚障害者のための点字ブロックがありますが、地方の小さな駅にはないことがよくあります。また、電車とホームの間に広いすき間があることもあり、車いすを使う人には大変です。日本は進歩してきましたが、特に大都市以外では、さらに取り組む必要があります。",
+          "explanation": "「大きな駅は整っているが、地方の小さな駅は遅れている」と but で比較することで、日本全体についての質問に的確に答えています。tactile paving（点字ブロック）は、知っておくと便利な語句です。Japan has made progress, but ... のように進歩を認めてから課題を述べると、公平な答えになります。Yes の立場なら「都市部の駅や新しいバスではバリアフリー化がかなり進み、駅員の手助けも受けられる」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}
