@@ -41,7 +41,7 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこのホテルのオーナーだったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"It's nice that guests love these towels, but we can't keep buying new ones. Why don't we sell them at the front desk? Then guests who want one could take it home, and the towels might even help more people remember our hotel.\"",
           "modelAnswerJa": "「お客さんがこのタオルを気に入ってくれているのはうれしいが、新しいものを買い続けることはできない。フロントで販売してはどうだろう。そうすれば、欲しいお客さんは持ち帰れるし、タオルのおかげでうちのホテルを覚えてくれる人も増えるかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目のオーナーは、せっかく導入したタオルが持ち帰られていると聞いた場面です。It's nice that ..., but ... で、よい面と困った面の両方を認めてから、Why don't we ...? で解決策を出しています。問題をチャンスに変える案を述べると前向きな印象になり、「ホテルの人気を上げたい」というカードの設定にもつながります。"
+          "explanation": "4 コマ目は、オーナーが、せっかく導入したタオルが持ち帰られていると聞いた場面です。It's nice that ..., but ... で、よい面と困った面の両方を認めてから、Why don't we ...? で解決策を出しています。問題をチャンスに変える案を述べると前向きな印象になり、「ホテルの人気を上げたい」というカードの設定にもつながります。"
         },
         {
           "id": "q2",
@@ -87,11 +87,11 @@
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a man was arriving home after work. He looked exhausted as he sat down with his briefcase and loosened his tie. He seemed to be thinking about his busy office, where he was the manager, with a pile of documents on his desk and many people around him. His wife looked worried about him. That night, the couple was watching a TV program about ways to relax, which listed yoga, cooking, and running. His wife told him that he should try cooking, and he nodded. That weekend, he made dinner for her. Wearing an apron and smiling, he brought a large dish to the table, which already had several other dishes and glasses of wine on it. His wife clapped her hands happily. Later that evening, however, the man was relaxing on the sofa and looked satisfied. Meanwhile, his wife was in the kitchen in front of a big pile of dirty dishes and pans. She had to clean up by herself, and she looked tired and unhappy.",
-          "modelAnswerJa": "ある日、ある男性が仕事を終えて帰宅したところだった。彼は疲れ切った様子でかばんを持って腰を下ろし、ネクタイをゆるめた。彼は自分の忙しい職場のことを考えているようだった。そこで彼はマネージャーをしており、机には書類の山があり、周りには大勢の人がいた。妻は彼のことを心配そうに見ていた。その夜、夫婦はリラックスする方法についてのテレビ番組を見ていて、そこではヨガ、料理、ランニングが挙げられていた。妻は彼に、料理をやってみたらいいと言い、彼はうなずいた。その週末、彼は妻のために夕食を作った。エプロン姿でほほえみながら、彼は大皿をテーブルへ運んだ。テーブルにはすでにいくつかの料理とワインのグラスが並んでいた。妻はうれしそうに手をたたいた。ところがその晩遅く、男性はソファでくつろぎ、満足そうな様子だった。その一方で、妻は台所で汚れた食器や鍋の山を前にしていた。彼女は 1 人で片付けなければならず、疲れて不満そうな様子だった。",
+          "modelAnswer": "One day, a man was arriving home after work. He looked exhausted as he sat down with his briefcase and loosened his tie. He seemed to be telling his wife about his busy office, where he was the manager, with a pile of documents on his desk and many people around him. His wife looked worried about him. That night, the couple was watching a TV program about ways to relax, which listed yoga, cooking, and running. His wife told him that he should try cooking, and he nodded. That weekend, he made dinner for her. Wearing an apron and smiling, he brought a large dish to the table, which already had several other dishes and glasses of wine on it. His wife clapped her hands happily. Later that evening, however, the man sat back on the sofa with a satisfied look on his face. Meanwhile, a big pile of dirty dishes and pans was waiting for his wife in the kitchen. She had to clean up by herself, and she looked tired and unhappy.",
+          "modelAnswerJa": "ある日、ある男性が仕事を終えて帰宅したところだった。彼は疲れ切った様子でかばんを持って腰を下ろし、ネクタイをゆるめた。彼は自分の忙しい職場のことを妻に話しているようだった。そこで彼はマネージャーをしており、机には書類の山があり、周りには大勢の人がいた。妻は彼のことを心配そうに見ていた。その夜、夫婦はリラックスする方法についてのテレビ番組を見ていて、そこではヨガ、料理、ランニングが挙げられていた。妻は彼に、料理をやってみたらいいと言い、彼はうなずいた。その週末、彼は妻のために夕食を作った。エプロン姿でほほえみながら、彼は大皿をテーブルへ運んだ。テーブルにはすでにいくつかの料理とワインのグラスが並んでいた。妻はうれしそうに手をたたいた。ところがその晩遅く、男性はソファにゆったりと腰かけ、満足そうな表情を浮かべていた。その一方で、台所では汚れた食器や鍋の山が妻を待ち受けていた。彼女は 1 人で片付けなければならず、疲れて不満そうな様子だった。",
           "explanation": "1 コマ目は男性の疲れた様子に加えて、丸い吹き出しの中の Manager の札と書類の山を使い、仕事が忙しいことを説明します。2 コマ目は画面の Ways to Relax（Yoga / Cooking / Running）を入れ、You should try cooking. は told him that he should try cooking とします（should はそのままです）。しっぽは妻に向かっているので、話し手を間違えないようにしましょう。3 コマ目と 4 コマ目には言葉がないので、動作と表情がすべてです。3 コマ目のエプロン姿の男性と喜ぶ妻を描写したあと、4 コマ目は however と Meanwhile を使って、ソファでくつろぐ夫と汚れた食器の山を前にした妻を対比させます。「夫のストレス解消が妻の負担になった」という結末を、妻の表情まで含めて伝えることが大切です。",
           "checkpoints": [
-            "1コマ目: 疲れて帰宅した様子と、書類の山や人に囲まれた職場のことを考えていることを描写できた",
+            "1コマ目: 疲れて帰宅した様子と、書類の山や人に囲まれた職場のことを妻に話していることを描写できた",
             "2コマ目: テレビの Ways to Relax の内容と、妻の「料理をやってみたら」を間接話法で言えた",
             "3コマ目: エプロン姿の男性が料理を運び、妻が喜んでいることを描写できた",
             "4コマ目: くつろぐ夫と汚れた食器の山を前にした妻を、Meanwhile などで対比させて言えた"
@@ -106,7 +106,7 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"I'm glad he's found a way to relax, and the dinner was delicious. But it isn't fair that I have to clean up this huge mess by myself. Next time, I'll tell him that cleaning up is part of cooking, and we can do the dishes together.\"",
           "modelAnswerJa": "「彼がリラックスする方法を見つけたのはよかったし、夕食もおいしかった。でも、このひどい散らかりを私 1 人で片付けなければならないのは不公平だ。次は、片付けも料理のうちだと伝えて、一緒に皿洗いをすることにしよう」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、夫がくつろぐ一方で、汚れた食器の山を前にしている場面です。I'm glad ... で夫の変化を喜びつつ、But it isn't fair that ... で不満を述べると、女性の複雑な気持ちが伝わります。Next time, I'll ... で具体的な提案につなげています。cleaning up is part of cooking（片付けも料理のうち）は、この場面にぴったりの言い方です。"
+          "explanation": "4 コマ目は、夫がくつろぐ一方で、女性が汚れた食器の山を前にしている場面です。I'm glad ... で夫の変化を喜びつつ、But it isn't fair that ... で不満を述べると、女性の複雑な気持ちが伝わります。Next time, I'll ... で具体的な提案につなげています。cleaning up is part of cooking（片付けも料理のうち）は、この場面にぴったりの言い方です。"
         },
         {
           "id": "q2",

@@ -28,8 +28,8 @@
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a woman was talking with her husband. They were sitting at a table with some bills and a calculator, and she said that living in the city was very expensive. Her husband looked worried as their two children played behind them. That night, he was looking at a website on the computer. It invited people to come to ABC Village and said that housing there was cheap. His wife looked excited when she saw it. A few months later, the family had moved to the countryside. They were carrying boxes to their new house, and some elderly people were working in the fields nearby. A few weeks later, however, the children told their parents that they missed their friends in the city. The parents looked troubled. They might have been saving money, but it seemed that their children were not happy in the village.",
-          "modelAnswerJa": "ある日、ある女性が夫と話をしていた。2 人は請求書と電卓が置かれたテーブルについており、彼女は都会での生活はとてもお金がかかると言った。後ろで 2 人の子どもが遊ぶ中、夫は困った様子だった。その夜、夫はパソコンでウェブサイトを見ていた。そこには ABC 村に来ませんかとあり、そこでは住宅が安いと書かれていた。妻はそれを見てとてもわくわくした様子だった。数か月後、一家は田舎に引っ越していた。彼らは新しい家に箱を運んでおり、近くの畑ではお年寄りたちが働いていた。ところが数週間後、子どもたちは両親に、都会の友達が恋しいと言った。両親は困った様子だった。お金は節約できていたのかもしれないが、子どもたちは村での生活に満足していないようだった。",
+          "modelAnswer": "One day, a woman was talking with her husband. They were sitting at a table with some bills and a calculator, and she said that living in the city was very expensive. Her husband looked worried as their two children watched TV behind them. That night, he was looking at a website on the computer. It invited people to come to ABC Village and said that housing there was cheap. His wife looked excited when she saw it. A few months later, the family had moved to the countryside. They were carrying boxes to their new house, and some elderly people were working in the fields nearby. A few weeks later, however, the children told their parents that they missed their friends in the city. The parents looked troubled. They might have been saving money, but it seemed that their children were not happy in the village.",
+          "modelAnswerJa": "ある日、ある女性が夫と話をしていた。2 人は請求書と電卓が置かれたテーブルについており、彼女は都会での生活はとてもお金がかかると言った。後ろで 2 人の子どもがテレビを見る中、夫は困った様子だった。その夜、夫はパソコンでウェブサイトを見ていた。そこには ABC 村に来ませんかとあり、そこでは住宅が安いと書かれていた。妻はそれを見てとてもわくわくした様子だった。数か月後、一家は田舎に引っ越していた。彼らは新しい家に箱を運んでおり、近くの畑ではお年寄りたちが働いていた。ところが数週間後、子どもたちは両親に、都会の友達が恋しいと言った。両親は困った様子だった。お金は節約できていたのかもしれないが、子どもたちは村での生活に満足していないようだった。",
           "explanation": "1 コマ目の吹き出しの話し手は女性で、Living in the city is very expensive. は she said that living in the city was very expensive（is → was）とします。テーブルの Bill と書かれた紙と電卓はお金に困っている様子を伝える手がかりなので、文に入れましょう。2 コマ目の画面の Come to ABC Village / Cheap Housing は、It invited people to come to ABC Village and said that housing there was cheap のように文にします。3 コマ目は had moved と過去完了を使うと「すでに引っ越した」ことが伝わり、箱を運ぶ様子とうまくつながります。4 コマ目の We miss our friends in the city. の話し手は子どもたちで、told their parents that they missed their friends in the city（we → they、miss → missed、our → their）となります。however で話の変化を示し、最後に「節約はできても子どもは満足していない」と一言添えると、結末がはっきりします。",
           "checkpoints": [
             "1コマ目: 請求書と電卓の前で、女性が「都会の生活はとてもお金がかかる」と言ったことを間接話法で言えた",
@@ -48,7 +48,7 @@
           "audio": "audio/eiken/eiken-pre1-2022-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"Moving here has helped us save money, but I didn't think enough about how hard it would be for the children. I should help them make new friends here, and maybe we can invite their old friends to visit during summer vacation.\"",
           "modelAnswerJa": "「ここに引っ越してお金は節約できているけれど、子どもたちにとってどれほど大変かを十分に考えていなかった。ここで新しい友達を作れるように手伝ってあげて、夏休みには以前の友達を招いてもいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、子どもたちが都会の友達を恋しがっている場面です。..., but I didn't think enough about ... で「よかった点」と「反省」を述べ、I should ... と maybe we can ... で子どものためにできることを 2 つ挙げています。how hard it would be for the children（子どもたちにとってどれほど大変か）のように子どもの気持ちを考える内容にすると、この場面に合った答えになります。"
+          "explanation": "4 コマ目は、女性の子どもたちが都会の友達を恋しがっている場面です。..., but I didn't think enough about ... で「よかった点」と「反省」を述べ、I should ... と maybe we can ... で子どものためにできることを 2 つ挙げています。how hard it would be for the children（子どもたちにとってどれほど大変か）のように子どもの気持ちを考える内容にすると、この場面に合った答えになります。"
         },
         {
           "id": "q2",
@@ -122,8 +122,8 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの夫だったら、何を考えているでしょうか。",
           "audio": "audio/eiken/eiken-pre1-2022-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking that we were right to protect the ocean, but that I feel sorry for the people who may have lost their jobs. I'd also hope that they can find new work soon, and I'd want to talk more with the people affected the next time we hold a protest.",
-          "modelAnswerJa": "海を守ったのは正しかったけれど、仕事を失ったかもしれない人たちには申し訳ないと考えていると思います。また、その人たちがすぐに新しい仕事を見つけられるように願い、次に抗議活動をするときには、影響を受ける人たちともっと話し合いたいと思うでしょう。",
-          "explanation": "4 コマ目の夫は、反対した空港の建設会社が倒産したと知った場面です。we were right to ... で自分たちの行動を認めつつ、but で会社の人たちへの気持ちを述べると、複雑な心境を表せます。倒産の本当の理由は分からないので、may have lost のように断定を避けています。I'd be thinking that ... の形は、引用符を使う答え方とは違う言い方として使えます。"
+          "modelAnswerJa": "海を守ったのは正しかったけれど、仕事を失ったかもしれない人たちは気の毒だと考えていると思います。また、その人たちがすぐに新しい仕事を見つけられるように願い、次に抗議活動をするときには、影響を受ける人たちともっと話し合いたいと思うでしょう。",
+          "explanation": "4 コマ目は、夫が、反対した空港の建設会社が倒産したと知った場面です。we were right to ... で自分たちの行動を認めつつ、but で会社の人たちへの気持ちを述べると、複雑な心境を表せます。その人たちが実際に仕事を失ったかどうかは絵からは分からないので、may have lost のように断定を避けています。I'd be thinking that ... の形は、引用符を使う答え方とは違う言い方として使えます。"
         },
         {
           "id": "q2",

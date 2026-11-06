@@ -29,7 +29,7 @@
           "id": "narration",
           "type": "narration",
           "modelAnswer": "One day, a CEO was at her office. Looking at her computer, she noticed that the company's electricity bills had gone up sharply since the summer began. Her employees were all working in suits, and the air conditioner was running at full power. That afternoon, the CEO gathered her staff and explained two new rules. From then on, the air conditioner would be kept at 28 degrees, and they would be allowed to come to work in casual clothes such as polo shirts. The staff looked delighted with the change. A few weeks later, the CEO reminded her casually dressed employees that some clients would be visiting the office the following day. The thermostat on the wall still read 28 degrees. The next day, the CEO and her guests, who were all in suits and ties, were waiting in the meeting room. Then one of her employees walked in wearing a short-sleeved casual shirt. He looked shocked to realize that he was the only person who was not dressed formally.",
-          "modelAnswerJa": "ある日、ある CEO が自分のオフィスにいた。パソコンを見て、夏に入ってから会社の電気代が急に上がっていることに気づいた。社員はみなスーツ姿で働いていて、エアコンはフル稼働していた。その日の午後、CEO は社員を集めて 2 つの新しいルールを説明した。今後はエアコンを 28 度に設定し、ポロシャツなどの楽な服装で出勤してよいというものだった。社員たちはこの変更をとても喜んでいる様子だった。数週間後、CEO はカジュアルな服装の社員たちに、翌日に取引先が会社に来ることを念押しした。壁の温度計は相変わらず 28 度を示していた。翌日、CEO とスーツにネクタイ姿の来客たちが会議室で待っていた。そこへ社員の 1 人が半袖のカジュアルなシャツ姿で入ってきた。彼は、きちんとした服装をしていないのが自分だけだと気づき、ぼうぜんとしていた。",
+          "modelAnswerJa": "ある日、ある CEO が自分のオフィスにいた。パソコンを見て、夏に入ってから会社の電気代が急に上がっていることに気づいた。社員はみなスーツ姿で働いていて、エアコンはフル稼働していた。その日の午後、CEO は社員を集めて 2 つの新しいルールを説明した。今後はエアコンを 28 度に設定し、ポロシャツなどの楽な服装で出勤してよいというものだった。社員たちはこの変更をとても喜んでいる様子だった。数週間後、CEO はカジュアルな服装の社員たちに、翌日に取引先が会社に来ることを念押しした。壁のサーモスタット（温度調節器）は相変わらず 28 度を示していた。翌日、CEO と来客たちは全員スーツにネクタイ姿で、会議室で待っていた。そこへ社員の 1 人が半袖のカジュアルなシャツ姿で入ってきた。彼は、きちんとした服装をしていないのが自分だけだと気づき、ぼうぜんとしていた。",
           "explanation": "コマごとに「何が起きたか」を 2 文前後で描写し、全体を過去形でまとめます。2〜4 コマ目の左上にある時間表現（That afternoon / A few weeks later / The next day）は、そのままコマの最初に使うと流れがはっきりします。2 コマ目の掲示（Air conditioner → 28°C / Dress Code → Casual）は、explained that ... would be kept at 28 degrees のように「CEO が伝えた内容」として文にします。3 コマ目の吹き出しは reminded them that some clients would be visiting the following day のように間接話法に直し、時制（will → would）と時の表現（tomorrow → the following day）をずらすのがポイントです。4 コマ目は絵から読み取れる状況（来客はスーツ、社員はカジュアル）を対比させ、人物の気持ちを looked shocked などで添えると、話の結末が伝わります。",
           "checkpoints": [
             "1コマ目: 電気代が上がっていること（グラフ）とエアコンの状況を描写できた",
@@ -48,7 +48,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I should have told everyone to wear a suit today. Saving energy is important, but we can't look unprofessional in front of our clients. From now on, I'll make a clear rule about what to wear on days when visitors come.\"",
           "modelAnswerJa": "「今日はスーツを着るよう全員に伝えておくべきだった。省エネは大切だが、取引先の前でだらしなく見えてはいけない。これからは、来客がある日の服装についてはっきりしたルールを作ろう」と考えていると思います。",
-          "explanation": "No.1 は I'd be thinking, \"...\" か I'd be thinking that ... で始め、絵の人物の立場から考えを述べます。引用符を使う形なら、中身は現在形・I を主語にして自然に話せます。「反省（should have + 過去分詞）」と「今後どうするか（From now on, I'll ...）」の 2 文構成にすると、短くてもまとまった答えになります。"
+          "explanation": "No.1 は I'd be thinking, \"...\" か I'd be thinking that ... で始め、絵の人物の立場から考えを述べます。引用符を使う形なら、中身は現在形・I を主語にして自然に話せます。「反省（should have + 過去分詞）」→「その理由」→「今後どうするか（From now on, I'll ...）」の順に組み立てると、短くてもまとまった答えになります。"
         },
         {
           "id": "q2",
@@ -103,12 +103,12 @@
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a CEO was making an announcement to his staff. He said that the company was going to offer online English lessons, and that employees could take them during working hours. The staff clapped their hands, looking excited about the opportunity. A few days later, one of the employees was sitting at her desk with a headset on, studying English on her computer. She seemed to be enjoying the lesson. Several months later, the same woman was giving a presentation in English to a group of foreign businesspeople. One of her colleagues was impressed and commented that her English had really improved. A month later, however, she came to the CEO's office with a letter of resignation in her hand. She told him that she had found a job abroad. The CEO looked very surprised to hear that.",
-          "modelAnswerJa": "ある日、ある CEO が社員に向けて発表をしていた。会社がオンラインの英語レッスンを提供すること、そして社員は勤務時間中にそれを受講できることを伝えた。社員たちはこの機会に心を躍らせた様子で拍手をした。数日後、社員の 1 人がヘッドセットをつけて自分の席に座り、パソコンで英語を勉強していた。彼女はレッスンを楽しんでいるようだった。数か月後、その同じ女性が外国人のビジネス客たちに英語でプレゼンテーションをしていた。同僚の 1 人は感心し、彼女の英語は本当に上達したと口にした。ところが 1 か月後、彼女は辞表を手に CEO の部屋へやって来た。海外で仕事が見つかったと彼に告げたのだ。CEO はそれを聞いてとても驚いた様子だった。",
-          "explanation": "同じ女性が 2〜4 コマ目に続けて登場するので、one of the employees → the same woman → she と指し方を変えて「同じ人物の話」だとわかるようにします。1 コマ目と 3・4 コマ目の吹き出しは、said that ... / commented that ... / told him that she had found ... のように間接話法に直します（found は過去完了の had found に）。4 コマ目は 3 コマ目までの流れと逆の結末なので、however を入れると話の展開がはっきりします。",
+          "modelAnswer": "One day, a CEO was making an announcement to his staff. He introduced a new program of online English lessons, adding that employees could take them during working hours. The staff burst into applause, clearly excited by the idea. A few days later, one of the employees was sitting at her desk with a headset on, studying English on her computer. She seemed to be enjoying the lesson, and the CEO, standing behind her, smiled with satisfaction. Several months later, a group of foreign businesspeople sat listening as the same woman presented in English. Looking impressed, one of her colleagues turned to the CEO and remarked on how much her English had improved. A month later, however, there was an unexpected twist. Standing at the CEO's desk, she held out a letter of resignation and told him that she had found a job abroad. The CEO looked very surprised to hear that.",
+          "modelAnswerJa": "ある日、ある CEO が社員に向けて発表をしていた。彼はオンライン英語レッスンという新しい制度を紹介し、社員は勤務時間中に受講できると付け加えた。社員たちはこの案に心を躍らせた様子で、一斉に拍手をした。数日後、社員の 1 人がヘッドセットをつけて自分の席に座り、パソコンで英語を勉強していた。彼女はレッスンを楽しんでいるようで、後ろに立っていた CEO は満足そうにほほえんでいた。数か月後、外国人のビジネス客たちが座って耳を傾ける中、その同じ女性が英語でプレゼンテーションをしていた。同僚の 1 人は感心した様子で CEO のほうを向き、彼女の英語はずいぶん上達したと口にした。ところが 1 か月後、思わぬ展開が待っていた。彼女は CEO の机の前に立って辞表を差し出し、海外で仕事が見つかったと彼に告げたのだ。CEO はそれを聞いてとても驚いた様子だった。",
+          "explanation": "1 コマ目はボードの English Language Online Lessons と吹き出しの You can take them during working hours. を組み合わせます。them が何を指すかがわかるように a new program of online English lessons を先に言い、adding that employees could take them during working hours と続けます（you → employees、can → could）。拍手している社員たちの様子も添えましょう。2 コマ目には吹き出しがないので、画面の English Lesson とヘッドセットから女性社員がレッスンを受けていることを読み取り、後ろで満足そうにしている CEO も描写します。同じ女性が 2〜4 コマ目に続けて登場するので、one of the employees → the same woman → she と指し方を変えて「同じ人物の話」だとわかるようにします。3 コマ目は、英語でプレゼンをしている場面を述べてから、Her English has improved so much. を remarked on how much her English had improved とします（has improved → had improved）。4 コマ目は 3 コマ目までの流れと逆の結末なので、however を入れると話の展開がはっきりします。Resignation の紙を差し出す動作を述べ、I found a job overseas! は told him that she had found a job abroad とします（found → had found）。英語が上達した社員が会社を去ってしまう、という皮肉な結末が伝わります。",
           "checkpoints": [
             "1コマ目: オンライン英語レッスンを勤務時間中に受けられることを伝えられた",
-            "2コマ目: 女性社員がパソコンで英語を学んでいる様子を描写できた",
+            "2コマ目: 女性社員がパソコンで英語を学んでいる様子と、それを見て満足そうな CEO を描写できた",
             "3コマ目: 英語でのプレゼンと同僚の発言（間接話法）を描写できた",
             "4コマ目: 辞表と「海外で仕事が見つかった」を伝え、however などで展開の変化を示せた"
           ]
@@ -121,9 +121,9 @@
           "prompt": "Please look at the fourth picture. If you were the CEO, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの CEO だったら、何を考えているでしょうか。",
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q1.mp3",
-          "modelAnswer": "I'd be thinking, \"I'm disappointed that she's leaving, but I'm proud that our program helped her grow so much. Next time, I should give our staff more chances to use their English inside the company so that talented people want to stay.\"",
-          "modelAnswerJa": "「彼女が辞めてしまうのは残念だが、うちのプログラムで彼女がこんなに成長したことは誇らしい。次は、優秀な人材が残りたいと思うように、社内で英語を使う機会をもっと社員に与えるべきだ」と考えていると思います。",
-          "explanation": "残念な気持ちだけで終わらせず、「よかった点」と「次にどうするか」まで言うと、前向きでまとまった答えになります。I'm disappointed that ..., but I'm proud that ... のように、but で 2 つの気持ちを対比させる形は No.1 で使いやすい型です。"
+          "modelAnswer": "I'd be thinking, \"I'm disappointed that she's leaving, but I'm proud that our program helped her grow so much. Before she goes, I'll ask her what would have made her want to stay. After that, I should give our staff more chances to use their English inside the company so that talented people won't need to look elsewhere.\"",
+          "modelAnswerJa": "「彼女が辞めてしまうのは残念だが、うちのプログラムで彼女がこんなに成長したことは誇らしい。辞める前に、どうすれば残りたいと思えたのかを彼女に聞いてみよう。そのうえで、優秀な人材がよそを探さなくて済むように、社内で英語を使う機会をもっと社員に与えるべきだ」と考えていると思います。",
+          "explanation": "4 コマ目は、英語研修で力をつけた社員から、海外で仕事が見つかったと辞表を渡された場面です。残念な気持ちだけで終わらせず、「よかった点」と「次にどうするか」まで言うと、前向きでまとまった答えになります。I'm disappointed that ..., but I'm proud that ... のように、but で 2 つの気持ちを対比させる形は No.1 で使いやすい型です。続けて Before she goes, ... で本人に聞くことを挙げ、I should ... で会社としての対策を述べると、CEO の立場に合った答えになります。"
         },
         {
           "id": "q2",
@@ -132,9 +132,9 @@
           "prompt": "Do you think that a university education is necessary for everyone?",
           "promptJa": "大学教育はすべての人に必要だと思いますか。",
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q2.mp3",
-          "modelAnswer": "No, I don't think so. Some people want to work in jobs that need practical skills, such as cooking or building houses. For them, going to a vocational school or learning on the job can be more useful than spending four years at a university.",
-          "modelAnswerJa": "いいえ、そうは思いません。料理や家を建てる仕事のように、実践的な技能が必要な仕事に就きたい人もいます。そうした人にとっては、大学で 4 年間過ごすより、専門学校に行ったり働きながら学んだりするほうが役に立つこともあります。",
-          "explanation": "質問に everyone が入っているので、「全員に必要か」という点で No の立場は取りやすくなります。理由では、大学以外の学び方（vocational school / learning on the job）を具体的に示しています。Yes の立場なら「幅広い教養や考える力は、どの仕事にも役立つ」などが考えられます。"
+          "modelAnswer": "No, I don't think so. Some people want to work in jobs that need practical skills, such as cooking or building houses. For them, going to a vocational school or learning on the job can be more useful than spending four years at a university. Of course, some careers, such as medicine, do require a degree, but it shouldn't be seen as the only path to success.",
+          "modelAnswerJa": "いいえ、そうは思いません。料理や家を建てる仕事のように、実践的な技能が必要な仕事に就きたい人もいます。そうした人にとっては、大学で 4 年間過ごすより、専門学校に行ったり働きながら学んだりするほうが役に立つこともあります。もちろん、医療のように学位が欠かせない職業もありますが、それが成功への唯一の道だと考えるべきではありません。",
+          "explanation": "質問に everyone が入っているので、「全員に必要か」という点で No の立場は取りやすくなります。理由では、大学以外の学び方（vocational school / learning on the job）を具体的に示しています。最後に Of course, ..., but ... と例外を認めると、極端でない意見になります。Yes の立場なら「幅広い教養や考える力は、どの仕事にも役立つ」などが考えられます。"
         },
         {
           "id": "q3",
@@ -143,9 +143,9 @@
           "prompt": "Do you think that robots will take over all human jobs in the future?",
           "promptJa": "将来、ロボットが人間の仕事をすべて奪うと思いますか。",
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q3.mp3",
-          "modelAnswer": "No, I don't think so. As robots become more common, new kinds of jobs will appear, such as designing, managing, and repairing them. In addition, in fields like nursing and counseling, people will still want to be supported by other humans.",
-          "modelAnswerJa": "いいえ、そうは思いません。ロボットが普及するにつれて、ロボットの設計や管理、修理といった新しい種類の仕事が生まれるでしょう。さらに、介護やカウンセリングのような分野では、人々はやはり人間に支えてもらいたいと思うはずです。",
-          "explanation": "all human jobs という強い言い方に対しては、No の立場で「例外」を示すと答えやすくなります。ここでは「ロボットに関わる新しい仕事が生まれる」「人の支えが求められる分野は残る」という 2 つの観点を In addition でつないでいます。"
+          "modelAnswer": "No, I don't think so. As robots become more common, new kinds of jobs will appear, such as designing, managing, and repairing them. In addition, in fields like nursing and counseling, people will still want to be supported by other humans. So I think robots will change the way we work rather than replace us completely.",
+          "modelAnswerJa": "いいえ、そうは思いません。ロボットが普及するにつれて、ロボットの設計や管理、修理といった新しい種類の仕事が生まれるでしょう。さらに、介護やカウンセリングのような分野では、人々はやはり人間に支えてもらいたいと思うはずです。ですから、ロボットは人間に完全に取って代わるのではなく、働き方を変えていくのだと思います。",
+          "explanation": "all human jobs という強い言い方に対しては、No の立場で「例外」を示すと答えやすくなります。ここでは「ロボットに関わる新しい仕事が生まれる」「人の支えが求められる分野は残る」という 2 つの観点を In addition でつないでいます。最後の So I think ... rather than ... は、「奪う」のではなく「変える」のだと自分の考えをまとめる形です。Yes の立場なら「AI の進歩で、知識を使う仕事まで機械が担えるようになってきている」などが考えられます。"
         },
         {
           "id": "q4",
@@ -156,7 +156,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think they do. Some companies have introduced remote work, but many employees still work long hours of overtime. Also, in many workplaces, it is hard to take paid holidays because people worry about causing trouble for their coworkers. Employers should create an atmosphere where workers can rest without feeling guilty.",
           "modelAnswerJa": "いいえ、十分ではないと思います。在宅勤務を導入した会社もありますが、多くの社員は今も長時間の残業をしています。また、多くの職場では、同僚に迷惑をかけるのではと心配して有給休暇を取りにくくなっています。雇用主は、社員が後ろめたさを感じずに休める雰囲気をつくるべきです。",
-          "explanation": "「改善している点もあるが（Some companies have ..., but ...）、まだ不十分」という譲歩を入れると、一方的でないバランスのよい意見になります。最後に Employers should ... と具体的な提案で締めると、No の理由がよりはっきり伝わります。"
+          "explanation": "「改善している点もあるが（Some companies have ..., but ...）、まだ不十分」という譲歩を入れると、一方的でないバランスのよい意見になります。最後に Employers should ... と具体的な提案で締めると、No の理由がよりはっきり伝わります。Yes の立場なら「残業時間を減らしたり、育児休暇を取りやすくしたりする会社が増えている」などが考えられます。"
         }
       ]
     }

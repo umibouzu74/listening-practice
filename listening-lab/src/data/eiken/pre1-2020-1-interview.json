@@ -41,7 +41,7 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"Life here is cheap and relaxing, but I didn't realize how much she missed our friends. We could start having video calls with them every week, and maybe we could save up to go back for a visit once a year. It would also be good to make new friends in this village.\"",
           "modelAnswerJa": "「ここの生活は安くてのんびりしているけれど、妻がこんなに友達を恋しく思っているとは気づかなかった。毎週友達とビデオ通話を始めてもいいし、年に 1 回帰って会えるようにお金を貯めてもいいかもしれない。この村で新しい友達を作るのもいいだろう」と考えていると思います。",
-          "explanation": "4 コマ目の男性は、海外生活の中で、妻の寂しさを聞かされた場面です。but I didn't realize how much ...（どれほど〜か気づかなかった）で、相手の気持ちに気づいたことを表しています。そのあと We could ... を重ねて、できそうな対策を具体的に挙げています。"
+          "explanation": "4 コマ目は、男性が海外生活の中で妻の寂しさを聞かされた場面です。but I didn't realize how much ...（どれほど〜か気づかなかった）で、相手の気持ちに気づいたことを表しています。そのあと We could ... を重ねて、できそうな対策を具体的に挙げています。"
         },
         {
           "id": "q2",
@@ -87,8 +87,8 @@
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a man was visiting his wife at the hospital. She was lying in bed, and the doctor told him that she would need help getting around. The man listened carefully. Back at home, his wife looked worried and showed him an advertisement for ABC Service. It offered healthcare in people's homes. However, the man crossed his arms and shook his head. He seemed sure that he could take care of her by himself. A month later, he was having a hard time. He was sweating as he tried to help his wife get up from the bed, and there was a wheelchair nearby. The room was a mess, with laundry and dishes all over the floor. The next week, the man was pushing his wife's wheelchair outside. However, he was bent over, holding his lower back, and he looked like he was in a lot of pain. His wife turned to him and told him that he was overdoing it.",
-          "modelAnswerJa": "ある日、ある男性が入院中の妻を見舞っていた。妻はベッドに横になっており、医師は彼に、奥さんは移動するのに助けが必要になると告げた。男性は注意深く話を聞いていた。家に戻ると、妻は心配そうな様子で、ABC サービスの広告を彼に見せた。それは自宅で医療や介護を受けられるサービスだった。しかし、男性は腕を組み、首を横に振った。彼は自分 1 人で妻の世話ができると確信しているようだった。1 か月後、彼は大変な思いをしていた。汗をかきながら妻がベッドから起き上がるのを助けようとしていて、そばには車いすがあった。部屋は散らかっていて、洗濯物や食器が床のあちこちにあった。翌週、男性は屋外で妻の車いすを押していた。しかし、彼は体を曲げて腰を押さえており、とても痛そうだった。妻は彼のほうを向き、無理をしすぎだと彼に言った。",
+          "modelAnswer": "One day, a man was visiting his wife at the hospital. She was lying in bed, and the doctor told him that she would need help getting around. The man listened carefully. Back at home, his wife looked worried and showed him an advertisement for ABC Service. It offered healthcare in people's homes. However, the man crossed his arms and shook his head. He seemed sure that he could take care of her by himself. A month later, he was having a hard time. He was sweating as he tried to help his wife get up from the bed, and there was a wheelchair nearby. The room was a mess, with laundry and dishes all over the floor. The next week, the two of them were outside, and he was pushing her wheelchair. However, he was bent over, holding his lower back, and he looked like he was in a lot of pain. His wife turned to him and told him that he was overdoing it.",
+          "modelAnswerJa": "ある日、ある男性が入院中の妻を見舞っていた。妻はベッドに横になっており、医師は彼に、奥さんは移動するのに助けが必要になると告げた。男性は注意深く話を聞いていた。家に戻ると、妻は心配そうな様子で、ABC サービスの広告を彼に見せた。それは自宅で医療や介護を受けられるサービスだった。しかし、男性は腕を組み、首を横に振った。彼は自分 1 人で妻の世話ができると確信しているようだった。1 か月後、彼は大変な思いをしていた。汗をかきながら妻がベッドから起き上がるのを助けようとしていて、そばには車いすがあった。部屋は散らかっていて、洗濯物や食器が床のあちこちにあった。翌週、二人は外に出ていて、彼が妻の車いすを押していた。しかし、彼は体を曲げて腰を押さえており、とても痛そうだった。妻は彼のほうを向き、無理をしすぎだと彼に言った。",
           "explanation": "1 コマ目の She'll need help getting around. は told him that she would need help getting around（will → would）で、話し手は医師です。2 コマ目は Healthcare in Your Home と ABC Service の広告を読み取り、妻がこのサービスを見せていること、男性が腕を組んで首を振っていることから「自分でやる」と断った流れを伝えます。頭の両側の線は首を振っているしるしなので、shook his head と描写しましょう。3 コマ目には言葉がないので、汗のしるしと散らかった部屋（洗濯物・食器）から、世話と家事で手一杯な様子を説明します。4 コマ目の腰のあたりのギザギザは痛みを表しています。You're overdoing it. は told him that he was overdoing it（you're → he was）で、しっぽから話し手は車いすの妻だとわかります。2 コマ目の断る場面と 4 コマ目の結果をつなげると、話の結末がはっきりします。",
           "checkpoints": [
             "1コマ目: 病院で医師が「移動に助けが必要になる」と告げたことを間接話法で言えた",
@@ -106,7 +106,7 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"She's right. I tried to do everything on my own, and now I've hurt my back. If this gets any worse, I won't be able to take care of her at all. I should swallow my pride and call ABC Service for help.\"",
           "modelAnswerJa": "「妻の言うとおりだ。何もかも 1 人でやろうとして、とうとう腰を痛めてしまった。これ以上悪くなったら、妻の世話がまったくできなくなってしまう。意地を張らずに、ABC サービスに電話して助けを頼もう」と考えていると思います。",
-          "explanation": "4 コマ目の男性は、無理をして腰を痛め、妻に注意された場面です。2 コマ目で断った ABC Service に触れると、話全体を踏まえた答えになります。If this gets any worse, ... で放っておくとどうなるかを述べ、最後に I should ... で次の行動を示しています。swallow my pride（意地を張るのをやめる）は、自分の考えを改める場面で使える表現です。"
+          "explanation": "4 コマ目は、男性が無理をして腰を痛め、妻に注意された場面です。2 コマ目で断った ABC Service に触れると、話全体を踏まえた答えになります。If this gets any worse, ... で放っておくとどうなるかを述べ、最後に I should ... で次の行動を示しています。swallow my pride（意地を張るのをやめる）は、自分の考えを改める場面で使える表現です。"
         },
         {
           "id": "q2",

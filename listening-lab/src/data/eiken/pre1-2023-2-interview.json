@@ -28,14 +28,14 @@
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a couple was talking at a café. The man looked excited as he told the woman that their summer vacation would be from the third to the ninth, and she smiled happily as she listened. That weekend, the woman was looking at a brochure for guided group tours. However, the man held up his hand and told her that he would plan their trip. He looked very confident. A few weeks later, the couple was sightseeing at a historic building, and the place was crowded with tourists. The man looked at his smartphone, which showed a three-star restaurant, and he suggested that they go there next. One hour later, they arrived at the restaurant, but a long line of people had already formed outside. A staff member told them that the restaurant was fully booked. The man looked shocked, and the woman seemed disappointed. His plan had not gone as smoothly as he had expected.",
-          "modelAnswerJa": "ある日、あるカップルがカフェで話をしていた。男性は夏休みは 3 日から 9 日までだと女性にうれしそうに伝え、女性は楽しそうにほほえみながら聞いていた。その週末、女性はガイド付きの団体ツアーのパンフレットを見ていた。しかし男性は手を挙げて、自分が旅行を計画すると彼女に言った。彼は自信たっぷりの様子だった。数週間後、2 人は歴史的な建物を観光していて、そこは観光客で混雑していた。男性はスマートフォンで三つ星のレストランを見て、次はそこに行こうと提案した。1 時間後、2 人はレストランに着いたが、外にはすでに長い行列ができていた。店員は、レストランは予約でいっぱいだと 2 人に告げた。男性はショックを受けた様子で、女性はがっかりしているようだった。彼の計画は、思っていたほどうまくはいかなかった。",
+          "modelAnswer": "One day, a couple was talking at a café. The man looked excited as he told the woman that their summer vacation would be from the third to the ninth, and she smiled happily as she listened. That weekend, the woman was looking at a brochure for guided group tours. However, the man held up his hand and told her that he would plan their trip. He looked very confident. A few weeks later, the couple was sightseeing at a historic building, and the place was crowded with tourists. The man looked at his smartphone, which showed a three-star restaurant, and he suggested that they go there next. One hour later, they arrived at the restaurant, but a guide holding up a flag was already leading a large group of tourists inside. A staff member told them that the restaurant was fully booked. The man looked shocked, and the woman seemed disappointed. His plan had not gone as smoothly as he had expected.",
+          "modelAnswerJa": "ある日、あるカップルがカフェで話をしていた。男性は夏休みは 3 日から 9 日までだと女性にうれしそうに伝え、女性は楽しそうにほほえみながら聞いていた。その週末、女性はガイド付きの団体ツアーのパンフレットを見ていた。しかし男性は手を挙げて、自分が旅行を計画すると彼女に言った。彼は自信たっぷりの様子だった。数週間後、2 人は歴史的な建物を観光していて、そこは観光客で混雑していた。男性はスマートフォンで三つ星のレストランを見て、次はそこに行こうと提案した。1 時間後、2 人はレストランに着いたが、旗を掲げたガイドがすでに大勢の団体客を店内へ案内していた。店員は、レストランは予約でいっぱいだと 2 人に告げた。男性はショックを受けた様子で、女性はがっかりしているようだった。彼の計画は、思っていたほどうまくはいかなかった。",
           "explanation": "1 コマ目の吹き出しには文がなく、Summer Vacation の文字とカレンダー（3 日から 9 日に丸）だけなので、their summer vacation would be from the third to the ninth のように自分で文にします。2 コマ目は女性の持つ Guided Group Tours のパンフレットと、手を挙げて話す男性を結びつけ、However でつなぐと、男性が自分で計画したがっていることが伝わります。I'll plan our trip. は told her that he would plan their trip（will → would、I → he、our → their）です。3 コマ目の Let's go here next. は提案なので suggested that they go there next（here → there）とし、スマートフォンの★★★ Restaurant は a three-star restaurant と言い換えます。4 コマ目の We're fully booked. は店員の発言で、told them that the restaurant was fully booked（we are → the restaurant was）とすると、they が誰を指すかで迷いません。最後に「計画がうまくいかなかった」と一言添えると、2 コマ目との対比で話の結末がはっきりします。",
           "checkpoints": [
             "1コマ目: カフェで夏休みの日程（3日から9日）を話している様子を描写できた",
             "2コマ目: 女性が団体ツアーのパンフレットを見ていることと、男性の「自分が旅行を計画する」を間接話法で言えた",
             "3コマ目: 混雑した観光地で、スマートフォンの三つ星レストランに「次はそこに行こう」と提案したことを言えた",
-            "4コマ目: 店の前の行列と、店員の「予約でいっぱいだ」を伝え、計画がうまくいかなかったことを示せた"
+            "4コマ目: ガイドに続いて店に入っていく団体客と、店員の「予約でいっぱいだ」を伝え、計画がうまくいかなかったことを示せた"
           ]
         },
         {
@@ -48,7 +48,7 @@
           "audio": "audio/eiken/eiken-pre1-2023-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"This wouldn't have happened if we had joined a guided group tour, because the tour company would have booked a restaurant for us. We'll have to find somewhere else to eat today, but on our next trip, let's make reservations before we leave home.\"",
           "modelAnswerJa": "「ガイド付きの団体ツアーに参加していれば、ツアー会社がレストランを予約してくれたはずだから、こんなことにはならなかったのに。今日はほかに食べるところを探すしかないけれど、次の旅行では家を出る前に予約をしておこう」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、2 コマ目で見ていた団体ツアーを思い出していそうな場面です。This wouldn't have happened if ... という仮定法過去完了で「ツアーならよかったのに」という反省を述べ、次に「今日どうするか」と「次の旅行でどうするか」を続けています。2 コマ目の内容を答えに取り入れると、話の流れをよく理解していることが伝わります。"
+          "explanation": "4 コマ目は、女性が 2 コマ目で見ていた団体ツアーを思い出していそうな場面です。This wouldn't have happened if ... という仮定法過去完了で「ツアーならよかったのに」という反省を述べ、次に「今日どうするか」と「次の旅行でどうするか」を続けています。2 コマ目の内容を答えに取り入れると、話の流れをよく理解していることが伝わります。"
         },
         {
           "id": "q2",
@@ -103,8 +103,8 @@
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a family was at home. The father was standing at the door when the mother pointed at a soccer ball and a broken vase on the floor. She told him that their son's behavior was terrible. The boy was rubbing his eyes and crying. That weekend, the couple was walking past ABC Culture Center, where there was a sign for a soccer school for kids. When the father saw it, he got an idea. He seemed to think that the school would be a good place for their son, who liked sports. A few months later, the boy proudly showed his parents a certificate saying that he was the best player, and there was a soccer trophy on the table. His parents looked delighted. At a parent-teacher meeting, however, the teacher showed the father a sheet of the boy's grades and said that the boy only did well in P.E. The boy looked down, and the father seemed concerned.",
-          "modelAnswerJa": "ある日、ある家族が家にいた。父親がドアのところに立っていると、母親は床の上のサッカーボールと割れた花びんを指さした。彼女は夫に、息子の行動はひどいと言った。男の子は目をこすりながら泣いていた。その週末、夫婦は ABC カルチャーセンターの前を歩いていて、そこには子ども向けのサッカースクールの看板があった。それを見た父親は、あることを思いついた。彼は、スポーツが好きな息子にはこのスクールがよい場所だと考えたようだった。数か月後、男の子は自分が最優秀選手であることを示す賞状を誇らしげに両親に見せ、テーブルの上にはサッカーのトロフィーがあった。両親はとても喜んでいる様子だった。ところが保護者面談で、先生は男の子の成績表を父親に見せ、男の子は体育でしかよくできていないと言った。男の子はうつむき、父親は心配している様子だった。",
+          "modelAnswer": "One day, a family was at home. The father was standing at the door when the mother pointed at a soccer ball and a broken vase on the floor. She told him that their son's behavior was terrible. The boy was rubbing his eyes and crying. That weekend, the couple was walking past ABC Culture Center, where there was a sign for a soccer school for kids. When the father saw it, he got an idea. He seemed to think that the school would be a good place for their son, who liked sports. A few months later, a soccer trophy stood on the table, and the boy proudly held up a certificate saying that he was the best player. Seeing this, his parents were all smiles. At a parent-teacher meeting, however, the boy's grades told a different story. Holding out a grade sheet, the teacher said that the boy only did well in P.E. The father listened with a worried expression while the boy looked down.",
+          "modelAnswerJa": "ある日、ある家族が家にいた。父親がドアのところに立っていると、母親は床の上のサッカーボールと割れた花びんを指さした。彼女は夫に、息子の行動はひどいと言った。男の子は目をこすりながら泣いていた。その週末、夫婦は ABC カルチャーセンターの前を歩いていて、そこには子ども向けのサッカースクールの看板があった。それを見た父親は、あることを思いついた。彼は、スポーツが好きな息子にはこのスクールがよい場所だと考えたようだった。数か月後、テーブルの上にはサッカーのトロフィーが置かれ、男の子は自分が最優秀選手であることを示す賞状を誇らしげに掲げていた。それを見て、両親は満面の笑みを浮かべていた。ところが保護者面談では、成績を見ると話はまったく違っていた。先生は成績表を差し出しながら、男の子は体育でしかよくできていないと言った。男の子がうつむく中、父親は心配そうな表情で聞いていた。",
           "explanation": "1 コマ目の His behavior is terrible. は母親の発言で、told him that their son's behavior was terrible（is → was）とします。His をそのまま言うと誰のことかわかりにくいので、their son's に置き換えましょう。床のサッカーボールと割れた花びんに触れると、なぜ母親が怒っているのかが伝わります。2 コマ目は ABC Culture Center の看板（Soccer School for Kids）と、父親の頭に浮かんだ電球の絵を組み合わせて「思いついた」ことを言います。3 コマ目の BEST PLAYER は賞状の内容なので、a certificate saying that he was the best player のように文に入れます。4 コマ目の He only does well in P.E. は said that the boy only did well in P.E.（does → did）で、only を落とさないことが大切です。however を入れて、スポーツでの成功と勉強の問題を対比させましょう。",
           "checkpoints": [
             "1コマ目: 割れた花びんとサッカーボールを示し、母親の「息子の行動はひどい」を間接話法で言えた",
@@ -123,7 +123,7 @@
           "audio": "audio/eiken/eiken-pre1-2023-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I was so happy about his success in soccer that I didn't pay enough attention to his schoolwork. Soccer has done him a lot of good, but he needs to study, too. I'll talk to him and make a rule that he has to finish his homework before he goes to practice.\"",
           "modelAnswerJa": "「息子のサッカーでの活躍がうれしくて、勉強に十分目を向けていなかった。サッカーはあの子にとても役立ったけれど、勉強もしなければならない。息子と話をして、練習に行く前に宿題を終わらせるというルールを作ろう」と考えていると思います。",
-          "explanation": "4 コマ目の父親は、3 コマ目までの喜びから一転して、息子の成績を心配する場面です。so happy ... that I didn't ... の形で「喜びすぎて見落としていた」という反省を述べ、I'll ... で具体的なルールの話につなげています。サッカーをやめさせるのではなく両立させる案にすると、話の流れに合った前向きな答えになります。"
+          "explanation": "4 コマ目は、父親が 3 コマ目までの喜びから一転して、息子の成績を心配する場面です。so happy ... that I didn't ... の形で「喜びすぎて見落としていた」という反省を述べ、I'll ... で具体的なルールの話につなげています。サッカーをやめさせるのではなく両立させる案にすると、話の流れに合った前向きな答えになります。"
         },
         {
           "id": "q2",

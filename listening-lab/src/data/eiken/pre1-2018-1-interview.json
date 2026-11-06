@@ -41,7 +41,7 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"I worked so hard for this party because I believed in its policies, but I was wrong to trust its promises so easily. From now on, I'll check what politicians actually do after an election. I might also write to my local representative about this.\"",
           "modelAnswerJa": "「政策を信じてこの党のために一生懸命活動したのに、公約をあんなに簡単に信じたのは間違いだった。これからは、政治家が選挙のあとに実際に何をするのかを確かめるようにしよう。このことについて地元の議員に手紙を書いてもいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、自分が応援した党が公約を破っていると知った場面です。I worked so hard ..., but ... で「努力」と「裏切られた気持ち」を対比し、From now on, I'll ... で今後の行動を続けています。check what politicians actually do（政治家が実際に何をするかを確かめる）のように、言葉と行動を区別する言い方を使うと内容に合います。"
+          "explanation": "4 コマ目は、女性が、自分の応援した党が公約を破っていると知った場面です。I worked so hard ..., but ... で「努力」と「裏切られた気持ち」を対比し、From now on, I'll ... で今後の行動を続けています。check what politicians actually do（政治家が実際に何をするかを確かめる）のように、言葉と行動を区別する言い方を使うと内容に合います。"
         },
         {
           "id": "q2",
@@ -106,7 +106,7 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたが市長だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"The monorail was perfect during the Expo, but I didn't plan for what would happen after it ended. We need to give people a reason to travel to that area, so maybe we should attract companies or build a shopping mall and a park along the line.\"",
           "modelAnswerJa": "「モノレールは万博の間は申し分なかったが、終わったあとのことまで考えていなかった。その地域へ出かける理由を人々に与える必要があるから、沿線に企業を誘致したり、ショッピングモールや公園を造ったりしたほうがいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目の市長は、万博が終わって乗客が減っていることを知った場面です。The monorail was perfect during ..., but ... で、成功と見落としを対比しています。そのあと maybe we should ... で沿線の活性化という具体策を続けると、市長の立場らしい答えになります。along the line（沿線に）は覚えておきたい表現です。"
+          "explanation": "4 コマ目は、市長が、万博が終わって乗客が減っていることを知った場面です。The monorail was perfect during ..., but ... で、成功と見落としを対比しています。そのあと maybe we should ... で沿線の活性化という具体策を続けると、市長の立場らしい答えになります。along the line（沿線に）は覚えておきたい表現です。"
         },
         {
           "id": "q2",

@@ -48,7 +48,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-1-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I was so happy when I was offered this job, but I never imagined I'd have to work this late. I can't finish all of this tonight by myself, so I'll explain the situation to him and ask if someone can help me.\"",
           "modelAnswerJa": "「この仕事の話をもらったときはとてもうれしかったけれど、こんなに遅くまで働くことになるとは思ってもいなかった。これを全部今夜ひとりで終わらせるのは無理だから、事情を説明して、誰かに手伝ってもらえないか聞いてみよう」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、夜 9 時を過ぎてから大量の仕事を渡された場面です。I was so happy when ..., but I never imagined ... で「入社前の期待と現実の違い」を振り返り、so I'll ... で「これからどうするか」につなげています。I can't finish all of this tonight のように、吹き出しの finish this tonight を受けて答えると、絵に沿った内容になります。"
+          "explanation": "4 コマ目は、女性が夜 9 時を過ぎてから大量の仕事を渡された場面です。I was so happy when ..., but I never imagined ... で「入社前の期待と現実の違い」を振り返り、so I'll ... で「これからどうするか」につなげています。I can't finish all of this tonight のように、吹き出しの finish this tonight を受けて答えると、絵に沿った内容になります。"
         },
         {
           "id": "q2",
@@ -103,13 +103,13 @@
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a woman was working with her husband at their restaurant. The restaurant was full of customers. While she was writing down one customer's order, another customer raised his hand to call her, and she looked overwhelmed. Her husband, who was the chef, was in the kitchen and looked busy, too. That night, after the restaurant had closed, her husband was carrying away the dirty dishes. The woman was sitting at a table looking exhausted, and she told him that she needed some help. A few days later, she went to a store that sold tablets. A salesperson pointed to one of them and explained that they could use tablets showing the menu instead of writing down orders on paper. She looked interested in the idea. A few months later, customers at the restaurant were ordering with tablets. One man seemed to enjoy using his, but two older customers looked confused, and one of them said that they didn't understand it. The woman was watching them, and she seemed concerned.",
-          "modelAnswerJa": "ある日、ある女性が夫と一緒に自分たちのレストランで働いていた。店は客でいっぱいだった。ある客の注文を書き留めていると、別の客が手を挙げて彼女を呼び、彼女は手が回らない様子だった。シェフである夫も厨房で忙しそうだった。その夜、閉店後に夫は汚れた食器を運んでいた。女性はくたくたに疲れた様子でテーブルに座っており、手助けが必要だと夫に伝えた。数日後、彼女はタブレットを売っている店に行った。店員がその 1 台を指さし、紙に注文を書き留める代わりに、メニューを表示するタブレットを使うことができると説明した。彼女はその考えに興味を持った様子だった。数か月後、店の客たちはタブレットで注文をしていた。1 人の男性は楽しそうに使っていたが、年配の客 2 人は困った様子で、そのうちの 1 人が、これはわからないと言った。女性は彼らを見ていて、心配そうな様子だった。",
+          "modelAnswer": "One day, a woman was working with her husband at their restaurant. The restaurant was full of customers. While she was writing down one customer's order, another customer raised his hand to call her, and she looked overwhelmed. Her husband, who was the chef, was in the kitchen and looked busy, too. That night, after the restaurant had closed, her husband was carrying away the dirty dishes. The woman was sitting at a table looking exhausted, and she told him that she needed some help. A few days later, she and her husband went to a store that sold tablets. He pointed to one of them and explained that they could use tablets showing the menu instead of writing down orders on paper. She looked interested in the idea. A few months later, customers at the restaurant were ordering with tablets. One man seemed to enjoy using his, but two older customers looked confused, and one of them said that they didn't understand it. The woman was watching them, and she seemed concerned.",
+          "modelAnswerJa": "ある日、ある女性が夫と一緒に自分たちのレストランで働いていた。店は客でいっぱいだった。ある客の注文を書き留めていると、別の客が手を挙げて彼女を呼び、彼女は手が回らない様子だった。シェフである夫も厨房で忙しそうだった。その夜、閉店後に夫は汚れた食器を運んでいた。女性はくたくたに疲れた様子でテーブルに座っており、手助けが必要だと夫に伝えた。数日後、彼女は夫と一緒に、タブレットを売っている店に行った。夫がその 1 台を指さし、紙に注文を書き留める代わりに、メニューを表示するタブレットを使うことができると説明した。彼女はその考えに興味を持った様子だった。数か月後、店の客たちはタブレットで注文をしていた。1 人の男性は楽しそうに使っていたが、年配の客 2 人は困った様子で、そのうちの 1 人が、これはわからないと言った。女性は彼らを見ていて、心配そうな様子だった。",
           "explanation": "1 コマ目には吹き出しも文字もないので、満席の店内、注文を書き留める女性、手を挙げて呼ぶ客を描写して、手が回らない忙しさを伝えます。2 コマ目は CLOSED の札から閉店後とわかるので、after the restaurant had closed と過去完了で表せます。I need some help. は疲れて座っている女性の発言で、told him that she needed some help とします（need → needed）。3 コマ目の吹き出しは文字ではなく絵なので、メモ帳からタブレットへの矢印の意味を explained that they could use tablets ... instead of writing down orders on paper と言葉で説明しましょう。4 コマ目の I don't understand this. は one of them said that they didn't understand it です（don't → didn't、this → it）。話している人の性別を決めなくてよいように they を使っています。忙しさを解決するはずのタブレットが、年配の客には使いにくかったという結末まで伝えましょう。",
           "checkpoints": [
             "1コマ目: 満席の店内で、注文を書き留める女性と手を挙げて呼ぶ客を描写し、忙しさを伝えられた",
             "2コマ目: 閉店後（CLOSED の札）に、女性が疲れた様子で「手助けが必要だ」と夫に伝えたことを間接話法で言えた",
-            "3コマ目: 吹き出しの絵を読み取り、紙の注文票の代わりにタブレットを使う案を店員が説明したことを言えた",
+            "3コマ目: 吹き出しの絵を読み取り、紙の注文票の代わりにタブレットを使う案を夫が説明したことを言えた",
             "4コマ目: タブレットを導入したものの、年配の客が「わからない」と困っていることを描写できた"
           ]
         },
@@ -123,7 +123,7 @@
           "audio": "audio/eiken/eiken-pre1-2024-1-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"The tablets have made things easier for us, but not for everyone. I should go over and show those customers how it works. Maybe we should also keep some paper menus so that people who aren't used to tablets can still order the old way.\"",
           "modelAnswerJa": "「タブレットのおかげで私たちは楽になったけれど、誰にとってもそうというわけではないのね。あのお客さんたちのところへ行って、使い方を教えてあげないと。タブレットに慣れていない人が今までどおり注文できるように、紙のメニューも残しておいたほうがいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、店で導入したタブレットに年配の客が困っているのを見ている場面です。まず but not for everyone で問題点を認め、I should ...（今すぐすること）と Maybe we should ...（今後の対策）の 2 段階で続けています。people who aren't used to ...（〜に慣れていない人）は、新しい技術の話題で幅広く使える表現です。"
+          "explanation": "4 コマ目は、女性が、店で導入したタブレットに年配の客が困っているのを見ている場面です。まず but not for everyone で問題点を認め、I should ...（今すぐすること）と Maybe we should ...（今後の対策）の 2 段階で続けています。people who aren't used to ...（〜に慣れていない人）は、新しい技術の話題で幅広く使える表現です。"
         },
         {
           "id": "q2",
