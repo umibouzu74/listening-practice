@@ -18,13 +18,19 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a mayor who wanted to help her town.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a mayor was having a meeting."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2022-1-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2022-1-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2022-1-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2022-1-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a mayor was having a meeting. She showed everyone a graph of the number of tourists, and it was clearly going down. She asked the people at the meeting if they had any ideas. That weekend, she was at home having a hot drink and watching TV. A program said that camping was popular at that time, and this gave the mayor an idea. Six months later, ABC Town Campsite had opened. Families were enjoying themselves among the tents, and the mayor was there, talking with a man as they looked around. A few months later, however, the mayor and the man were watching the news on TV. A reporter was at ABC Town Campsite, and the screen showed two bears right next to a tent. The mayor looked very worried, because bears could be dangerous for campers, and people might stop coming to the campsite.",
-          "modelAnswerJa": "ある日、ある町長が会議を開いていた。彼女は観光客数のグラフをみんなに見せたが、その数は明らかに減っていた。彼女は会議の出席者に、何かアイデアはないかと尋ねた。その週末、彼女は家で温かい飲み物を飲みながらテレビを見ていた。番組では今キャンプが人気だと伝えており、これを見て町長はあることを思いついた。6 か月後、ABC タウンキャンプ場がオープンしていた。家族連れがテントの間で楽しんでおり、町長もそこにいて、ある男性と話しながら見て回っていた。ところが数か月後、町長とその男性はテレビのニュースを見ていた。リポーターが ABC タウンキャンプ場に来ており、画面にはテントのすぐそばにいる 2 頭のクマが映っていた。クマはキャンプ客にとって危険であり、人々がキャンプ場に来なくなるかもしれないので、町長はとても心配そうな様子だった。",
-          "explanation": "1 コマ目はネームプレートの ABC Town Mayor とボードの Number of tourists のグラフを使い、「観光客が減っている」ことをはっきり伝えます。吹き出しの Any ideas? は疑問文なので、asked the people at the meeting if they had any ideas と if を使った間接話法にします。2 コマ目のテレビの Camping is popular now は、now を at that time に変えて camping was popular at that time とします。電球の絵は「思いついた」ことを表すので this gave the mayor an idea でつなぐと、3 コマ目のキャンプ場（ABC Town Campsite）の話に自然に進みます。4 コマ目はテレビ画面の中身が最大のポイントで、キャンプ場の看板のそばにリポーターがいて、2 頭のクマが映っていることを描写します。however で展開の変化を示し、because 以下でクマが問題になる理由を述べると、結末がはっきりします。",
+          "modelAnswer": "One day, a mayor was having a meeting. She showed everyone a graph of the number of tourists, and it was clearly going down. She asked the people at the meeting if they had any ideas. That weekend, she was relaxing at home with a hot drink when a TV program caught her attention. Hearing that camping was popular at that time, the mayor suddenly had an idea. Six months later, ABC Town Campsite had opened. Families were enjoying themselves among the tents, and the mayor was there, talking with a man as they looked around. A few months later, however, the mayor and the man were watching the news on TV. A reporter was at ABC Town Campsite, and the screen showed a bear right next to a tent. The mayor looked very worried, because bears could be dangerous for campers, and people might stop coming to the campsite.",
+          "modelAnswerJa": "ある日、ある町長が会議を開いていた。彼女は観光客数のグラフをみんなに見せたが、その数は明らかに減っていた。彼女は会議の出席者に、何かアイデアはないかと尋ねた。その週末、彼女が家で温かい飲み物を飲みながらくつろいでいると、あるテレビ番組が目にとまった。今キャンプが人気だと聞いて、町長はふとあることを思いついた。6 か月後、ABC タウンキャンプ場がオープンしていた。家族連れがテントの間で楽しんでおり、町長もそこにいて、ある男性と話しながら見て回っていた。ところが数か月後、町長とその男性はテレビのニュースを見ていた。リポーターが ABC タウンキャンプ場に来ており、画面にはテントのすぐそばにいるクマが映っていた。クマはキャンプ客にとって危険であり、人々がキャンプ場に来なくなるかもしれないので、町長はとても心配そうな様子だった。",
+          "explanation": "1 コマ目はネームプレートの ABC Town Mayor とボードの Number of tourists のグラフを使い、「観光客が減っている」ことをはっきり伝えます。吹き出しの Any ideas? は疑問文なので、asked the people at the meeting if they had any ideas と if を使った間接話法にします。2 コマ目のテレビの Camping is popular now は、now を at that time に変えて camping was popular at that time とします。電球の絵は「思いついた」ことを表すので the mayor suddenly had an idea で締めくくると、3 コマ目のキャンプ場（ABC Town Campsite）の話に自然に進みます。4 コマ目はテレビ画面の中身が最大のポイントで、キャンプ場の看板のそばにリポーターがいて、テントのそばにクマが映っていることを描写します。however で展開の変化を示し、because 以下でクマが問題になる理由を述べると、結末がはっきりします。",
           "checkpoints": [
             "1コマ目: 観光客数が減っているグラフを見せ、「何かアイデアはないか」と尋ねたことを間接話法で言えた",
             "2コマ目: 家のテレビでキャンプが人気だと知り、アイデアを思いついたことを言えた",
@@ -39,9 +45,10 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the mayor, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの町長だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"People won't come to the campsite if they think bears might appear there. We need to put up strong fences right away and warn campers not to leave food outside. Safety has to come first, or all our work will be wasted.\"",
           "modelAnswerJa": "「クマが出るかもしれないと思ったら、人々はキャンプ場に来なくなってしまう。すぐに頑丈な柵を設置して、キャンプ客に食べ物を外に置かないよう注意を呼びかけなければならない。安全を最優先にしないと、これまでの努力がすべて無駄になってしまう」と考えていると思います。",
-          "explanation": "4 コマ目の町長は、せっかく作ったキャンプ場にクマが現れたことを知った場面です。まず People won't come ... if ... で「何が心配か」を述べ、次に We need to ... で「柵を作る」「注意を呼びかける」という具体的な対策を挙げています。町長という立場なので、個人の感想だけでなく町として何をするかまで言うと、この人物らしい答えになります。come first（最優先である）は使いやすい表現です。"
+          "explanation": "4 コマ目は、町長が、せっかく作ったキャンプ場にクマが現れたことを知った場面です。まず People won't come ... if ... で「何が心配か」を述べ、次に We need to ... で「柵を作る」「注意を呼びかける」という具体的な対策を挙げています。町長という立場なので、個人の感想だけでなく町として何をするかまで言うと、この人物らしい答えになります。come first（最優先である）は使いやすい表現です。"
         },
         {
           "id": "q2",
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think people should spend more time outdoors to learn about nature?",
           "promptJa": "人々は自然について学ぶために、もっと屋外で時間を過ごすべきだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q2.mp3",
           "modelAnswer": "Yes, I think so. These days, many people, especially children, spend most of their free time indoors looking at screens. By hiking or camping, they can experience plants and animals directly instead of just reading about them. This can also make people more interested in protecting the environment, and being outdoors is good for both body and mind.",
           "modelAnswerJa": "はい、そう思います。最近は多くの人、特に子どもが、自由な時間のほとんどを屋内で画面を見て過ごしています。ハイキングやキャンプをすれば、本などで読むだけでなく、植物や動物に直接触れることができます。これによって環境保護への関心も高まるでしょうし、屋外で過ごすことは心身の健康にもよいです。",
           "explanation": "「屋内で画面ばかり見ている」という現状を述べてから、直接体験の価値と環境保護への関心につなげています。instead of just reading about them と対比させると、屋外で学ぶことの意味がはっきりします。No の立場なら「忙しい人や都市に住む人には難しく、本や映像、博物館などでも自然について十分に学べる」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Should companies provide workers with more vacation days?",
           "promptJa": "企業は従業員により多くの休暇を与えるべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q3.mp3",
           "modelAnswer": "No, I don't think so. In Japan, many workers do not use all of the paid vacation they already have because they feel guilty or are too busy. Instead of adding more days, companies should create an atmosphere where people feel comfortable taking time off. For example, managers could take vacations themselves to set an example.",
           "modelAnswerJa": "いいえ、そうは思いません。日本では、多くの社員が後ろめたさや忙しさから、すでにある有給休暇を使い切っていません。休暇の日数を増やすよりも、会社は社員が気兼ねなく休みを取れる雰囲気を作るべきです。たとえば、管理職が自ら休暇を取って手本を示すことができるでしょう。",
           "explanation": "「日数を増やすより、今ある休暇を取りやすくすることが先だ」という、少しひねった No の答えです。Instead of adding more days と対案を示し、For example で具体策を加えると説得力が出ます。paid vacation（有給休暇）、take time off（休みを取る）は仕事の話題でよく使います。Yes の立場なら「十分に休むと疲れが取れて生産性が上がり、家族と過ごす時間も増える」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Should the government do more to protect endangered animals?",
           "promptJa": "政府は絶滅の危機にある動物を保護するためにもっと努力すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q4.mp3",
           "modelAnswer": "Yes, it should. Many animals are in danger because of human activities such as building on their habitats and illegal hunting. Individuals and small groups cannot solve these problems alone, but governments can make strict laws and protect large natural areas. Once a species disappears, it can never come back, and its loss can also harm the entire ecosystem.",
           "modelAnswerJa": "はい、努力すべきです。多くの動物は、生息地の開発や密猟といった人間の活動によって危機にさらされています。個人や小さな団体だけではこうした問題を解決できませんが、政府なら厳しい法律を作り、広い自然地域を保護することができます。ある種が一度絶滅すると二度と戻らず、その損失は生態系全体にも害を及ぼしかねません。",
           "explanation": "「原因は人間の活動」→「政府にしかできないこと（法律・自然地域の保護）」→「絶滅すると取り返しがつかない」という順に、なぜ政府なのかを説明しています。habitat（生息地）、illegal hunting（密猟）、ecosystem（生態系）は環境問題で頻出の語です。No の立場なら「政府の予算には限りがあり、福祉や教育など人々の生活に直結する分野を優先すべきだ」などが考えられます。"
@@ -83,12 +93,18 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a woman who wanted to advance her career.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a woman was talking with her company's CEO in the office."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2022-1-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2022-1-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2022-1-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2022-1-interview/d-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a woman was talking with her company's CEO in the office. He told her that she was promoted to manager, and she looked delighted. That evening, she showed a document about her promotion to her husband at home, with their baby in a baby seat between them. Her husband said that he could pick up their baby instead. A month later, she was sitting at her desk as a manager. It was seven o'clock, but she and the other employees were still working hard. Meanwhile, her husband was smiling as he picked up their baby at a day care center. A few days later, however, at seven o'clock again, she was busy with a project called ABC Project when her husband called her from his office. He looked upset and told her that he couldn't pick the baby up that day. She looked troubled because it seemed that neither of them could leave work.",
-          "modelAnswerJa": "ある日、ある女性がオフィスで会社の CEO と話をしていた。CEO は彼女にマネージャーに昇進したと告げ、彼女はとても喜んだ様子だった。その日の夕方、彼女は家で夫に昇進に関する書類を見せた。2 人の間には赤ちゃんがベビーシートに座っていた。夫は、代わりに自分が赤ちゃんを迎えに行けると言った。1 か月後、彼女はマネージャーとして自分の机に向かっていた。時刻は 7 時だったが、彼女も他の社員たちもまだ懸命に働いていた。その頃、夫は笑顔で保育所に赤ちゃんを迎えに行っていた。ところが数日後、また 7 時に、彼女が ABC プロジェクトという仕事で忙しくしていると、夫が職場から電話をかけてきた。夫は動揺した様子で、その日は赤ちゃんを迎えに行けないと彼女に告げた。どちらも仕事を抜けられそうになかったので、彼女は困った様子だった。",
+          "modelAnswer": "One day, a woman was talking with her company's CEO in the office. He told her that she was promoted to manager. The news clearly delighted her. That evening, she showed a document about her promotion to her husband at home, with their baby in a baby seat between them. Her husband said that he could pick up their baby instead. A month later, she was sitting at her desk as a manager. It was seven o'clock, but she and the other employees were still working hard. Meanwhile, her husband was smiling as he picked up their baby at a day care center. A few days later, however, she was once again at her desk at seven o'clock, busy with a project called ABC Project. Just then, her phone rang. Her husband, calling from his office and looking upset, told her that he couldn't pick the baby up that day. She looked troubled because it seemed that neither of them could leave work.",
+          "modelAnswerJa": "ある日、ある女性がオフィスで会社の CEO と話をしていた。CEO は彼女にマネージャーに昇進したと告げた。その知らせに、彼女は見るからに喜んでいた。その日の夕方、彼女は家で夫に昇進に関する書類を見せた。2 人の間には赤ちゃんがベビーシートに座っていた。夫は、代わりに自分が赤ちゃんを迎えに行けると言った。1 か月後、彼女はマネージャーとして自分の机に向かっていた。時刻は 7 時だったが、彼女も他の社員たちもまだ懸命に働いていた。その頃、夫は笑顔で保育所に赤ちゃんを迎えに行っていた。ところが数日後、彼女はまた 7 時になっても自分の机に向かい、ABC プロジェクトという仕事で忙しくしていた。ちょうどそのとき、彼女の電話が鳴った。職場からかけてきた夫は動揺した様子で、その日は赤ちゃんの迎えに行けないと彼女に告げた。どちらも仕事を抜けられそうになかったので、彼女は困った様子だった。",
           "explanation": "1 コマ目の You're promoted to manager. は told her that she was promoted to manager（are → was）とし、CEO のネームプレートと女性の喜んだ表情を合わせて描写します。2 コマ目の I can pick up our baby instead. は said that he could pick up their baby instead（can → could、our → their）です。3 コマ目は手前の女性と左上の保育所（Day Care）の夫が同時の場面なので、Meanwhile でつなぐと 2 つの場面を整理できます。4 コマ目の吹き出しの話し手は左側の夫で、I can't pick her up today. は told her that he couldn't pick the baby up that day（can't → couldn't、today → that day）と変え、her は the baby と言い換えると分かりやすくなります。3 コマ目と 4 コマ目の時計（7 時）や ABC PROJECT の書類を使うと、妻もすぐには仕事を抜けられないことが伝わり、話の結末がはっきりします。",
           "checkpoints": [
             "1コマ目: CEOから「マネージャーに昇進した」と告げられたことを間接話法で言えた",
@@ -104,9 +120,10 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I can't leave the office now because of this project, but someone has to pick up our baby. I'll call the day care center and ask if they can keep her a little longer, and then my husband and I should find someone who can help us in emergencies.\"",
           "modelAnswerJa": "「このプロジェクトがあるので今は職場を離れられないけれど、誰かが赤ちゃんを迎えに行かなければならない。保育所に電話して、もう少し預かってもらえないか聞いてみよう。そのあとで、緊急のときに助けてくれる人を夫と一緒に探すべきだ」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、仕事を抜けられないのに夫も迎えに行けなくなった場面です。まず目の前の問題（今日の迎え）への対処を I'll call ... で述べ、次に and then ... should で今後の備えを述べると、短くても順序立った答えになります。ask if they can ...（〜してもらえるか尋ねる）は、頼みごとの場面で便利な言い方です。"
+          "explanation": "4 コマ目は、女性が仕事を抜けられないのに、夫も迎えに行けなくなった場面です。まず目の前の問題（今日の迎え）への対処を I'll call ... で述べ、次に and then ... should で今後の備えを述べると、短くても順序立った答えになります。ask if they can ...（〜してもらえるか尋ねる）は、頼みごとの場面で便利な言い方です。"
         },
         {
           "id": "q2",
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Are parents too protective of their children these days?",
           "promptJa": "最近の親は子どもに対して過保護すぎるでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. Many parents try to solve every problem for their children, so children miss the chance to learn from their own mistakes. Some parents even contact teachers about small problems between classmates. Of course, parents should keep their children safe, but young people need to experience some difficulties in order to become independent.",
           "modelAnswerJa": "はい、そう思います。多くの親が子どもの問題をすべて解決してあげようとするので、子どもは自分の失敗から学ぶ機会を失っています。同級生との小さな問題について先生に連絡する親さえいます。もちろん親は子どもの安全を守るべきですが、若い人が自立するには、ある程度の困難を経験することが必要です。",
           "explanation": "「親がすべて解決する → 子どもが失敗から学べない」という因果関係を述べ、身近な例を 1 つ加えています。Of course, ... but ... で反対の考えにも配慮すると、バランスのよい答えになります。become independent（自立する）は子育ての話題で使いやすい表現です。No の立場なら「事故や犯罪、SNS のトラブルなど危険が多い時代なので、親が気を配るのは当然だ」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Does the fast pace of modern life have a negative effect on people?",
           "promptJa": "現代生活の速いペースは人々に悪い影響を与えていますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q3.mp3",
           "modelAnswer": "Yes, it does. Because of smartphones, people are expected to reply to messages and finish their work quickly, so it is difficult for them to truly relax. Many people feel stressed and do not get enough sleep. Also, they have less time to spend with family and friends, which can make them feel lonely even when they are busy.",
           "modelAnswerJa": "はい、与えています。スマートフォンがあるために、人々はメッセージにすぐ返信し、仕事を早く終えることを求められるので、心からくつろぐのが難しくなっています。ストレスを感じ、十分な睡眠が取れていない人も多くいます。また、家族や友人と過ごす時間が減り、忙しいのに孤独を感じることもあります。",
           "explanation": "質問の fast pace を、スマートフォンですぐ返信を求められるという身近な例で具体的に説明しています。そのうえで「ストレス・睡眠不足」「人とのつながりの減少」という 2 つの悪影響を述べています。Does で聞かれているので Yes, it does. と does で答えます。No の立場なら「技術のおかげで便利になり、時間を節約できるので、かえって自由な時間を楽しめるようになった」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Do you think the birth rate in Japan will stop decreasing in the future?",
           "promptJa": "日本の出生率は将来、低下が止まると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think it will. Raising children is expensive in Japan, and many young people are worried about their income and job security. More people are also choosing to marry later or not to marry at all. The government has introduced some support for families, but these social changes are too big to be reversed easily.",
           "modelAnswerJa": "いいえ、止まらないと思います。日本では子育てにお金がかかり、多くの若者は収入や雇用の安定を不安に思っています。また、結婚する年齢が遅くなったり、結婚しないことを選んだりする人も増えています。政府は家族への支援をいくつか導入していますが、こうした社会の変化は大きく、簡単には元に戻せません。",
           "explanation": "未来を予想する質問なので、No, I don't think it will. と will を使って答えます。「経済的な不安」「晩婚化・未婚化」という原因を挙げ、政府の支援にも触れたうえで「それでも難しい」と結論づけています。job security（雇用の安定）は覚えておきたい表現です。Yes の立場なら「保育所の充実や男性の育児休業の普及が進めば、子どもを持ちたいと思う人が増える」などが考えられます。"

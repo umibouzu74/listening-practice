@@ -41,7 +41,7 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"My son looks so envious of those children. Maybe I've been filling his schedule with too many lessons, and he has no time left to just play. I should ask him what he really wants to do and perhaps cut down on his lessons.\"",
           "modelAnswerJa": "「息子はあの子たちをとてもうらやましそうに見ている。習い事で予定を詰め込みすぎて、ただ遊ぶ時間がなくなっているのかもしれない。息子が本当にやりたいことを聞いて、習い事を減らすことも考えるべきだろう」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、振り返って、息子が遊んでいる子どもたちを見ていることに気づいた場面です。Maybe I've been ...（〜していたのかもしれない）で自分のやり方を見直し、I should ... で次の行動を続けています。fill his schedule with ...（予定を〜で埋める）と cut down on ...（〜を減らす）は、この場面にぴったりの表現です。"
+          "explanation": "4 コマ目は、女性が振り返って、息子が遊んでいる子どもたちを見ていることに気づいた場面です。Maybe I've been ...（〜していたのかもしれない）で自分のやり方を見直し、I should ... で次の行動を続けています。fill his schedule with ...（予定を〜で埋める）と cut down on ...（〜を減らす）は、この場面にぴったりの表現です。"
         },
         {
           "id": "q2",
@@ -87,12 +87,12 @@
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a couple was having coffee at home. The woman was reading a newspaper, and she showed her husband an article saying that the popularity of food trucks was increasing. She told him that a food truck would be a great business. He nodded and seemed to agree. Two weeks later, the couple went to look at a truck, and a salesman was showing it to them. The woman seemed to be imagining herself standing next to a shiny truck of their own. On the opening day, they started selling food from their truck, ABC Sandwiches. They were both working hard, and a long line of customers was waiting in front of the truck. It looked as if their business would be a big success. One year later, however, things had changed. The couple stood behind a counter with many boxes of food that no one had bought. Farther down the street, long lines of people were waiting at other trucks. The man told his wife that the new trucks had taken their customers. They both looked very disappointed.",
-          "modelAnswerJa": "ある日、ある夫婦が家でコーヒーを飲んでいた。女性は新聞を読んでいて、フードトラックの人気が高まっているという記事を夫に見せた。彼女は、フードトラックはすばらしい商売になるだろうと夫に言った。夫はうなずき、賛成している様子だった。2 週間後、夫婦はトラックを見に行き、販売員がそれを 2 人に見せていた。女性は、自分たちのぴかぴかのトラックの横に立つ自分の姿を思い描いているようだった。開業の日、2 人は自分たちのトラック、ABC Sandwiches で食べ物を売り始めた。2 人とも懸命に働いていて、トラックの前には客の長い列ができていた。商売は大成功しそうに見えた。しかし 1 年後、状況は変わっていた。夫婦は、誰も買わなかった食べ物の箱がたくさん並ぶカウンターの後ろに立っていた。通りの先では、ほかのトラックに人々が長い列を作っていた。男性は、新しいトラックに客を取られてしまったと妻に言った。2 人ともとてもがっかりした様子だった。",
-          "explanation": "1 コマ目の新聞の見出し Popularity of food trucks increasing は、動詞を補って the popularity of food trucks was increasing という文にします。This would be a great business. はもともと would を使っているので would はそのままで、this は指すものを具体的にして told him that a food truck would be a great business（this → a food truck）とします。2 コマ目は吹き出しがなく、思考の吹き出しに描かれたぴかぴかのトラックと女性を imagining herself ... と描写するのがポイントです。3 コマ目は On the opening day をそのまま使い、ABC Sandwiches の看板と客の行列を述べます。4 コマ目の The new trucks took our customers. は told his wife that the new trucks had taken their customers（took → had taken、our → their）です。遠くの行列と、手元に積まれた売れ残りの箱を対比すると、however 以降の展開の変化がはっきりします。",
+          "modelAnswer": "One day, a couple was having coffee at home. The woman was reading a newspaper, and she showed her husband an article saying that the popularity of food trucks was increasing. She told him that a food truck would be a great business. He nodded and seemed to agree. Two weeks later, the couple went to look at a truck, and a salesman was showing it to them. The woman seemed to be imagining herself polishing it with a cloth until it shone. On the opening day, they started selling food from their truck, ABC Sandwiches. They were both working hard, and a long line of customers was waiting in front of the truck. It looked as if their business would be a big success. One year later, however, things had changed. The couple stood behind a counter with many boxes of food that no one had bought. Farther down the street, long lines of people were waiting at other trucks. The man told his wife that the new trucks had taken their customers. They both looked very disappointed.",
+          "modelAnswerJa": "ある日、ある夫婦が家でコーヒーを飲んでいた。女性は新聞を読んでいて、フードトラックの人気が高まっているという記事を夫に見せた。彼女は、フードトラックはすばらしい商売になるだろうと夫に言った。夫はうなずき、賛成している様子だった。2 週間後、夫婦はトラックを見に行き、販売員がそれを 2 人に見せていた。女性は、自分が布でそのトラックを磨いてぴかぴかにするところを思い描いているようだった。開業の日、2 人は自分たちのトラック、ABC Sandwiches で食べ物を売り始めた。2 人とも懸命に働いていて、トラックの前には客の長い列ができていた。商売は大成功しそうに見えた。しかし 1 年後、状況は変わっていた。夫婦は、誰も買わなかった食べ物の箱がたくさん並ぶカウンターの後ろに立っていた。通りの先では、ほかのトラックに人々が長い列を作っていた。男性は、新しいトラックに客を取られてしまったと妻に言った。2 人ともとてもがっかりした様子だった。",
+          "explanation": "1 コマ目の新聞の見出し Popularity of food trucks increasing は、動詞を補って the popularity of food trucks was increasing という文にします。This would be a great business. はもともと would を使っているので would はそのままで、this は指すものを具体的にして told him that a food truck would be a great business（this → a food truck）とします。2 コマ目は言葉の吹き出しがなく、思考の吹き出しで女性が布を手にトラックを磨いている様子を imagining herself ... と描写するのがポイントです。3 コマ目は On the opening day をそのまま使い、ABC Sandwiches の看板と客の行列を述べます。4 コマ目の The new trucks took our customers. は told his wife that the new trucks had taken their customers（took → had taken、our → their）です。遠くの行列と、手元に積まれた売れ残りの箱を対比すると、however 以降の展開の変化がはっきりします。",
           "checkpoints": [
             "1コマ目: 新聞の見出し（フードトラックの人気上昇）と「すばらしい商売になる」という発言を言えた",
-            "2コマ目: 販売員にトラックを見せてもらい、女性が自分たちのトラックを思い描いていることを描写できた",
+            "2コマ目: 販売員にトラックを見せてもらい、女性がそのトラックを磨いてきれいにするところを想像していることを描写できた",
             "3コマ目: 開業の日、ABC Sandwiches に客の長い列ができている様子を描写できた",
             "4コマ目: 1年後、売れ残りの箱とほかのトラックの行列を対比し、「新しいトラックに客を取られた」と言えた"
           ]
@@ -106,7 +106,7 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"Those new trucks must be offering something that customers like more than our sandwiches. We shouldn't just give up, though. We should go and see what they're selling, and then try adding some new items to our menu or moving to a different location.\"",
           "modelAnswerJa": "「あの新しいトラックは、うちのサンドイッチよりもお客さんに好かれる何かを出しているに違いない。でも、ただあきらめるわけにはいかない。何を売っているのか見に行って、メニューに新しい品を加えてみるか、別の場所に移ってみよう」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、客が新しいトラックに流れ、手元に売れ残りが積まれている場面です。must be ...（〜に違いない）で原因を推測し、We shouldn't just give up のあとに具体的な対策を 2 つ続けています。店の競争の話なので、メニューや場所といった商売に関わる言葉を入れると場面に合います。"
+          "explanation": "4 コマ目は、客が新しいトラックに流れ、女性の手元に売れ残りが積まれている場面です。must be ...（〜に違いない）で原因を推測し、We shouldn't just give up のあとに具体的な対策を 2 つ続けています。店の競争の話なので、メニューや場所といった商売に関わる言葉を入れると場面に合います。"
         },
         {
           "id": "q2",

@@ -18,13 +18,19 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a CEO who wanted to improve her company's work environment.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a CEO was reading a newspaper article at her desk."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2025-1-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2025-1-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2025-1-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2025-1-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a CEO was reading a newspaper article at her desk. The article was about the benefits of a four-day workweek. It said that a four-day workweek could improve people's quality of life and boost productivity. She seemed interested in the idea. The following week, she held a meeting with her employees. She pointed to a board and announced that the company would try a four-day workweek for one month. The employees looked delighted, and one of them clapped his hands. After the meeting, the employees were already talking about their days off. One woman said that she wanted Tuesdays off, and a man said that he would be off on Thursdays. The CEO watched them with her arms folded, smiling. Three weeks later, however, an employee came to her desk and told her that it had become difficult to schedule meetings. It seemed that people's different days off were causing problems. The CEO looked very worried when she heard this.",
-          "modelAnswerJa": "ある日、ある CEO が自分の机で新聞記事を読んでいた。記事は週 4 日勤務の利点についてのものだった。週 4 日勤務によって人々の生活の質が向上し、生産性が高まる可能性があると書かれていた。彼女はその考えに興味を持った様子だった。翌週、彼女は社員たちと会議を開いた。彼女はボードを指し示し、会社で 1 か月間、週 4 日勤務を試すと発表した。社員たちは大喜びの様子で、そのうちの 1 人は拍手をしていた。会議のあと、社員たちはさっそく自分の休みの日について話していた。ある女性は火曜日を休みにしたいと言い、ある男性は木曜日に休むつもりだと言った。CEO は腕を組み、ほほえみながらその様子を見ていた。ところが 3 週間後、ある社員が彼女の机のところへ来て、会議の予定を組むのが難しくなったと告げた。人によって休みの日が違うことが問題を起こしているようだった。CEO はそれを聞いてとても困った様子だった。",
-          "explanation": "1 コマ目の記事は、見出し（Benefits of a Four-Day Workweek）と箇条書きの 2 点（Improve quality of life / Boost productivity）を、It said that ... could improve ... and boost ... のように文にまとめます。2 コマ目のボードの Four-Day Workweek Trial for One Month は、announced that the company would try a four-day workweek for one month と文にします。3 コマ目は吹き出しが 2 つあるので、話している人を分けて言います。I want Tuesdays off. は said that she wanted Tuesdays off、I'll be off on Thursdays. は said that he would be off on Thursdays です（want → wanted、will → would）。4 コマ目の It's difficult to schedule meetings now. は、now をそのまま残さず、told her that it had become difficult to schedule meetings とすると「以前と変わった」という意味を保てます。3 コマ目で社員が別々の曜日を休みにしていることと結びつけ、however で展開の変化を示しましょう。",
+          "modelAnswer": "One day, a CEO was reading a newspaper article at her desk. The writer pointed out two benefits of cutting the workweek to four days. A shorter week could improve quality of life and also boost productivity. The idea seemed to catch her attention. The following week, she called her employees together for a meeting. Pointing to a board, she told them that the company was going to test a four-day workweek for one month. The employees looked delighted, and one of them clapped his hands. After the meeting, the employees were already talking about their days off. One woman said that she wanted Tuesdays off, and a man said that he would be off on Thursdays. The CEO watched them with her arms folded, smiling. Three weeks later, however, an employee came to her desk and told her that it had become difficult to schedule meetings. It seemed that people's different days off were causing problems. The CEO looked very worried when she heard this.",
+          "modelAnswerJa": "ある日、ある CEO が自分の机で新聞記事を読んでいた。筆者は、勤務を週 4 日に減らすことの利点を 2 つ挙げていた。週の勤務日数が減れば、生活の質が向上し、生産性も高まる可能性があるという。この考えは彼女の関心を引いたようだった。翌週、彼女は会議のために社員たちを集めた。彼女はボードを指し示しながら、会社で 1 か月間、週 4 日勤務を試すことになると社員たちに伝えた。社員たちは大喜びの様子で、そのうちの 1 人は拍手をしていた。会議のあと、社員たちはさっそく自分の休みの日について話していた。ある女性は火曜日を休みにしたいと言い、ある男性は木曜日に休むつもりだと言った。CEO は腕を組み、ほほえみながらその様子を見ていた。ところが 3 週間後、ある社員が彼女の机のところへ来て、会議の予定を組むのが難しくなったと告げた。人によって休みの日が違うことが問題を起こしているようだった。CEO はそれを聞いてとても困った様子だった。",
+          "explanation": "1 コマ目の記事は、見出し（Benefits of a Four-Day Workweek）と箇条書きの 2 点（Improve quality of life / Boost productivity）を、The writer pointed out two benefits ... と A shorter week could improve ... and also boost ... のように文にまとめます。2 コマ目のボードの Four-Day Workweek Trial for One Month は、told them that the company was going to test a four-day workweek for one month と文にします。3 コマ目は吹き出しが 2 つあるので、話している人を分けて言います。I want Tuesdays off. は said that she wanted Tuesdays off、I'll be off on Thursdays. は said that he would be off on Thursdays です（want → wanted、will → would）。4 コマ目の It's difficult to schedule meetings now. は、now をそのまま残さず、told her that it had become difficult to schedule meetings とすると「以前と変わった」という意味を保てます。3 コマ目で社員が別々の曜日を休みにしていることと結びつけ、however で展開の変化を示しましょう。",
           "checkpoints": [
             "1コマ目: 新聞記事の内容（週4日勤務の利点: 生活の質の向上と生産性の向上）を文にして言えた",
             "2コマ目: 週4日勤務を1か月試すと発表し、社員たちが喜んだことを言えた",
@@ -39,9 +45,10 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the CEO, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの CEO だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2025-1-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I didn't expect this problem. The four-day workweek has made my employees happy, so I don't want to give it up yet. Maybe we could choose one day a week when everyone has to be in the office, and hold all our meetings on that day.\"",
           "modelAnswerJa": "「この問題は予想していなかった。週 4 日勤務で社員は喜んでいるから、まだやめたくはない。全員が出社する日を週に 1 日決めて、会議はすべてその日に開くようにすればいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目の CEO は、1 か月の試行の途中で、会議の問題を知らされた場面です。I didn't expect ... で驚きを述べ、... so I don't want to give it up yet で制度を続けたい気持ちを示してから、Maybe we could ... で解決策を提案しています。吹き出しの schedule meetings という問題に直接答える対策を挙げることが大切です。"
+          "explanation": "4 コマ目は、CEO が 1 か月の試行の途中で会議の問題を知らされた場面です。I didn't expect ... で驚きを述べ、... so I don't want to give it up yet で制度を続けたい気持ちを示してから、Maybe we could ... で解決策を提案しています。吹き出しの schedule meetings という問題に直接答える対策を挙げることが大切です。"
         },
         {
           "id": "q2",
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think that people these days care enough about physical fitness?",
           "promptJa": "最近の人々は体力づくりに十分気を配っていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2025-1-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. Many people say that health is important, but they spend long hours sitting at their desks or looking at their smartphones. Also, when people are busy with work, exercise is often the first thing they give up. As a result, problems such as obesity and lifestyle-related diseases are still common in many countries.",
           "modelAnswerJa": "いいえ、そうは思いません。健康は大切だと言う人は多いですが、長い時間机に向かって座っていたり、スマートフォンを見ていたりします。また、仕事が忙しいと、運動はまっさきにやめてしまうものです。その結果、肥満や生活習慣病といった問題は多くの国でいまだによく見られます。",
           "explanation": "care enough（十分に気にかけている）を問う質問なので、「言うこと」と「実際の行動」のずれを挙げて No と答えています。the first thing they give up（まっさきにやめてしまうもの）は、忙しい人々の様子を説明しやすい言い方です。Yes の立場なら「ジムに通う人や、アプリで歩数を記録する人が増え、健康への関心は高まっている」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Should academic qualifications be the most important factor when companies decide who to hire?",
           "promptJa": "企業が誰を採用するかを決めるとき、学歴は最も重要な要素であるべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2025-1-interview/a-q3.mp3",
           "modelAnswer": "No, I don't think so. Academic qualifications show that a person studied hard, but they do not show whether that person can work well with others or solve problems in a real workplace. Communication skills, work experience, and motivation are often more useful. If companies only look at degrees, they may miss talented people who could not go to university.",
           "modelAnswerJa": "いいえ、そうは思いません。学歴はその人が一生懸命勉強したことを示しますが、他の人とうまく働けるかどうかや、実際の職場で問題を解決できるかどうかは示しません。コミュニケーション能力、実務経験、意欲のほうが役に立つことも多いです。企業が学位だけを見ていると、大学に行けなかった有能な人を見逃してしまうかもしれません。",
           "explanation": "質問は the most important factor（最も重要な要素）かどうかなので、学歴の価値を認めつつ「それだけではわからないこと」を挙げて No としています。学歴以外の要素を Communication skills, work experience, and motivation と具体的に並べると、説得力が増します。Yes の立場なら「学歴は努力と基礎学力を客観的に示すので、多くの応募者を比較しやすい」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Companies must decide how to market their products. Should Japanese companies do more to promote their products overseas?",
           "promptJa": "企業は自社の製品をどのように売り込むかを決めなければなりません。日本企業は海外で自社製品を宣伝するためにもっと努力すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2025-1-interview/a-q4.mp3",
           "modelAnswer": "Yes, they should. Japan's population is shrinking, so the domestic market is unlikely to grow much in the future. Foreign markets offer many more potential customers. Japanese products, such as food and electronics, are already known for their high quality, so better advertising could increase sales abroad and help the Japanese economy.",
           "modelAnswerJa": "はい、そうすべきです。日本の人口は減少しているので、国内市場は今後あまり成長しそうにありません。海外の市場には、はるかに多くの潜在的な顧客がいます。食品や電子機器などの日本製品はすでに品質の高さで知られているので、宣伝を工夫すれば海外での売り上げを伸ばし、日本経済の助けにもなるでしょう。",
           "explanation": "「国内市場は伸びにくい」→「海外には顧客が多い」→「日本製品には強みがある」と、企業の立場から順序立てて理由を述べています。the domestic market（国内市場）と potential customers（潜在的な顧客）は、ビジネスの話題で役立つ表現です。No の立場なら「海外での宣伝には費用がかかり、言語や文化の違いによるリスクもあるので、まず国内の顧客を大切にすべきだ」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2025-1-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a woman who only used cash.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a woman was shopping for food in a supermarket."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2025-1-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2025-1-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2025-1-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2025-1-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2025-1-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I shouldn't have stopped carrying cash completely. Not every shop accepts smartphone payments, especially small stands like this one. From now on, I'll always keep a little cash in my bag, just in case. For now, we'll have to find an ATM nearby.\"",
           "modelAnswerJa": "「現金を持ち歩くのをすっかりやめるべきではなかった。すべての店でスマートフォン決済が使えるわけではなくて、こういう小さな屋台では特にそうだ。これからは万一に備えて、かばんに少し現金を入れておこう。今は近くの ATM を探さないと」と考えていると思います。",
           "explanation": "4 コマ目は、現金を持っていないために CASH ONLY の屋台で買い物ができない場面です。I shouldn't have stopped ... で反省を述べ、From now on, I'll ...（今後のこと）と For now, ...（今すぐすること）に分けて続けると、整理された答えになります。Not every shop ...（すべての店が〜とは限らない）は部分否定の言い方で、一般論を述べるときに便利です。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Do you think that it is good for different generations to live together?",
           "promptJa": "異なる世代が一緒に暮らすのはよいことだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2025-1-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. Grandparents can help take care of their grandchildren, which is a great support for working parents. At the same time, younger family members can help older people with things like shopping, and older people are less likely to feel lonely. Children can also learn a lot from the experience of older generations.",
           "modelAnswerJa": "はい、そう思います。祖父母が孫の世話を手伝えるので、働く親にとって大きな支えになります。同時に、若い家族が買い物などで高齢者を手助けでき、高齢者は寂しさを感じにくくなります。子どもも、上の世代の経験から多くを学ぶことができます。",
           "explanation": "祖父母・親・子どものそれぞれにとっての利点を挙げ、特定の世代だけでなく全員にメリットがあることを示しています。At the same time は、別の立場の利点を加えるときに使いやすいつなぎの言葉です。No の立場なら「生活習慣や価値観の違いがストレスになり、プライバシーも保ちにくい」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Should more supermarkets have an online store?",
           "promptJa": "もっと多くのスーパーマーケットがオンラインストアを持つべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2025-1-interview/d-q3.mp3",
           "modelAnswer": "No, I don't think so. Running an online store costs a lot, because supermarkets need extra staff to pack orders and drivers to deliver them. This would be especially hard for small local supermarkets. Also, many customers prefer to see fresh food, such as meat and vegetables, with their own eyes before buying it. Supermarkets should focus on improving their physical stores instead.",
           "modelAnswerJa": "いいえ、そうは思いません。オンラインストアの運営には多くの費用がかかります。注文の品を詰める追加の店員や、配達する運転手が必要だからです。これは特に地域の小さなスーパーにとっては大変でしょう。また、肉や野菜などの生鮮食品は自分の目で見てから買いたいという客も多いです。スーパーは、むしろ実店舗をよくすることに力を入れるべきです。",
           "explanation": "運営側の費用と、客の買い方の好みという 2 つの面から No の理由を述べています。physical stores（実店舗）は、online stores と対比して使える表現です。Yes の立場なら「高齢者や子育て中の人、忙しい人にとって便利で、店にとっても新しい客を増やせる」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Today, using digital tools safely is an important skill. Do you think that the Japanese population's digital literacy has been increasing?",
           "promptJa": "今日、デジタル機器を安全に使うことは重要な技能です。日本の人々のデジタルリテラシーは高まってきていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2025-1-interview/d-q4.mp3",
           "modelAnswer": "Yes, I think so. Nowadays, people of all ages use smartphones for things like cashless payments and online shopping, so they have become more familiar with digital tools. Many schools now give each student a tablet or computer and teach them how to use the Internet safely. Older people may still need some support, but the overall level is rising.",
           "modelAnswerJa": "はい、そう思います。最近は、あらゆる年代の人がキャッシュレス決済やネットショッピングなどにスマートフォンを使っており、デジタル機器に慣れてきています。今では多くの学校が生徒 1 人ひとりにタブレットやパソコンを配り、インターネットを安全に使う方法を教えています。高齢者にはまだ手助けが必要かもしれませんが、全体の水準は上がっています。",
           "explanation": "日常生活（キャッシュレス決済）と学校教育（1 人 1 台の端末）の 2 つの面から、digital literacy が高まっている根拠を挙げています。Older people may still need ..., but ... と課題にも触れると、一方的でない答えになります。No の立場なら「ネット詐欺にだまされる人は今も多く、機器を使えることと安全に使えることは別だ」などが考えられます。"

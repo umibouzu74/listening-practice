@@ -18,6 +18,12 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a couple who owned a flower farm.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a couple was working on their flower farm."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2020-3-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2020-3-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2020-3-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2020-3-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
@@ -39,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2020-3-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I'm afraid our bug spray may be one of the chemicals in the rivers. We only thought about saving our flowers and never checked how the spray could affect the environment. We should stop using it for now and look for a safer way to protect our plants, even if it costs more.\"",
           "modelAnswerJa": "「私たちの殺虫スプレーも、川に入っている化学物質の 1 つかもしれない。花を守ることばかり考えて、スプレーが環境にどう影響するのか調べようともしなかった。今はひとまず使うのをやめて、費用がもっとかかるとしても、より安全に植物を守る方法を探すべきだ」と考えていると思います。",
           "explanation": "4 コマ目の新聞記事を、自分たちのこととして受け止める場面です。I'm afraid ... で心配を、We only thought about ... で反省を、We should ... で次の行動を述べる 3 段階の構成にしています。even if it costs more（費用がもっとかかるとしても）と添えると、農園を営む人としての責任感が伝わります。"
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think people are too concerned about the amount of chemicals used in food?",
           "promptJa": "人々は食品に使われている化学物質の量を気にしすぎていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2020-3-interview/a-q2.mp3",
           "modelAnswer": "Yes, I think so. In countries like Japan, the chemicals used in food are strictly controlled, and the amounts are kept within safe limits. Some of them, such as preservatives, actually help prevent food poisoning and food waste. Many people worry without knowing the facts, so they would be better off learning more about food safety.",
           "modelAnswerJa": "はい、そう思います。日本のような国では、食品に使われる化学物質は厳しく管理されており、その量も安全な範囲に抑えられています。保存料のように、食中毒や食品ロスを防ぐのに実際に役立っているものもあります。多くの人は事実を知らないまま心配しているので、食の安全についてもっと学ぶほうがよいでしょう。",
           "explanation": "「規制されている」→「役に立つ面もある」→「知らずに心配している」と順に述べ、too concerned（気にしすぎ）という質問の言葉に答えています。be better off -ing（〜するほうがよい）は覚えておくと便利な表現です。No の立場なら「長期的な影響が分かっていない物質もあり、毎日口にするものだから気にするのは当然だ」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Is it a good idea to use agricultural land for city developments?",
           "promptJa": "農地を都市開発に利用するのはよい考えでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2020-3-interview/a-q3.mp3",
           "modelAnswer": "No, I don't think it is. Japan already imports a large part of its food, so losing more farmland would make the country even more dependent on other countries. Also, once farmland is covered with buildings, it is very hard to use it for growing crops again. Cities should make better use of empty buildings and unused land instead.",
           "modelAnswerJa": "いいえ、よいとは思いません。日本はすでに食料の大部分を輸入しているので、農地がさらに減れば、他国への依存がますます強くなります。また、いったん農地が建物で覆われてしまうと、再び作物を育てるのに使うのはとても困難です。都市は、代わりに空き家や使われていない土地をもっと活用すべきです。",
           "explanation": "「食料の輸入依存」と「元に戻せない」という 2 つの理由を挙げ、instead で代案（空き家や未利用地の活用）を示しています。once ...（いったん〜すると）は、後戻りできないことを説明するときに便利です。Yes の立場なら「農業の担い手が減って使われない農地が増えており、住宅や商業施設に活用すれば地域が活性化する」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Should companies be required to show how their products are made?",
           "promptJa": "企業は製品の作り方を公開することを義務づけられるべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2020-3-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think they should. Consumers have the right to know where their products come from and how they are made. If companies had to share this information, it would be harder for them to hide problems such as unsafe materials, pollution, or poor working conditions. It would also help shoppers to choose products from responsible companies.",
           "modelAnswerJa": "はい、義務づけられるべきだと思います。消費者には、製品がどこから来て、どのように作られているのかを知る権利があります。企業がこうした情報を公開しなければならなくなれば、危険な材料や汚染、劣悪な労働環境などの問題を隠しにくくなります。また、買い物をする人が、責任ある企業の製品を選ぶのにも役立つでしょう。",
           "explanation": "「消費者の権利」から始め、If companies had to ... という仮定法で「義務化した場合の効果」を企業側と消費者側の両方から述べています。unsafe materials, pollution, or poor working conditions のように問題の具体例を並べると、中身のある答えになります。No の立場なら「製法は企業の大切な秘密であり、公開すると競争力を失う」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2020-3-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about an elderly couple who owned a café.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a couple was at their café."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2020-3-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2020-3-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2020-3-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2020-3-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2020-3-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"People must think that they can leave their unwanted animals here because we run an animal café. We can't look after all of them. Today, I'll call an animal shelter for help, and then we should put up a sign saying that we don't accept animals.\"",
           "modelAnswerJa": "「動物カフェをやっているから、いらなくなった動物をここに置いていってもいいと思われているに違いない。全部の世話はできない。今日は動物保護施設に電話して助けを求め、そのあとで動物は引き取らないという張り紙を出したほうがいい」と考えていると思います。",
           "explanation": "4 コマ目は、動物カフェの成功が思わぬ問題を招いた場面です。People must think that ... で「なぜこうなったのか」を推測し、Today, I'll ... で具体的な行動を続けています。animal shelter（動物保護施設）や a sign saying that ...（〜と書いた張り紙）は、そのまま使える表現です。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Do you think that people understand the responsibilities of owning a pet?",
           "promptJa": "人々はペットを飼うことの責任を理解していると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2020-3-interview/d-q2.mp3",
           "modelAnswer": "No, I don't think so. Many people get a pet because it is cute, without thinking about what it will need in the future. Pets can live for many years, and they need daily care and sometimes expensive medical treatment. That is why some owners give up when their pets get old or sick, and these animals end up being abandoned.",
           "modelAnswerJa": "いいえ、そうは思いません。かわいいからという理由で、将来何が必要になるかを考えずにペットを飼う人がたくさんいます。ペットは何年も生きますし、毎日の世話や、ときには高額な治療も必要です。そのため、ペットが年をとったり病気になったりすると手放してしまう飼い主もいて、そうした動物は結局捨てられてしまいます。",
           "explanation": "「かわいいから飼う」→「実際に必要なこと」→「その結果（捨てられる）」と、飼う前と飼ったあとの流れで説明しています。That is why ...（そういうわけで〜）を使うと、理由と結果がきれいにつながります。Yes の立場なら「最近はペットも家族の一員と考えられ、健康管理やしつけに気を配る飼い主が増えている」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Does society put too much pressure on people to have children?",
           "promptJa": "社会は人々に子どもを持つよう過度に圧力をかけているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2020-3-interview/d-q3.mp3",
           "modelAnswer": "Yes, I think it does. In Japan, the low birthrate is often discussed as a serious national problem, so people may feel they have a duty to have children. Married couples are also often asked by relatives when they will have a baby. However, some people cannot have children, and others choose not to, so this should be a personal decision.",
           "modelAnswerJa": "はい、かけていると思います。日本では少子化が国の深刻な問題としてよく議論されるので、子どもを持つ義務があると感じる人もいるかもしれません。結婚した夫婦は、親戚からいつ赤ちゃんを持つのかとよく聞かれたりもします。しかし、子どもを持てない人もいれば、持たないことを選ぶ人もいるので、これは個人が決めるべきことです。",
           "explanation": "質問は Does society ...? なので、Yes, I think it does. と does で受けています。「国の問題として語られる」という社会全体の話と、「親戚に聞かれる」という身近な話を組み合わせると具体的になります。No の立場なら「昔に比べて結婚や出産の考え方は多様になり、子どもを持たない生き方も受け入れられている」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Is hunting animals acceptable in today's society?",
           "promptJa": "今日の社会で、動物を狩ることは許されることでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2020-3-interview/d-q4.mp3",
           "modelAnswer": "Yes, I think it is, as long as it is properly controlled. In parts of Japan, animals such as deer and wild boars damage crops and can even hurt people, so hunters play an important role in keeping their numbers down. The meat can also be used as food. However, I don't think that hunting only for fun is acceptable.",
           "modelAnswerJa": "はい、適切に管理されている限り、許されると思います。日本の一部の地域では、シカやイノシシなどの動物が農作物を荒らし、人に危害を加えることさえあるので、数を抑えるうえで猟師は重要な役割を果たしています。その肉を食料として利用することもできます。ただし、楽しみのためだけの狩猟は許されないと思います。",
           "explanation": "as long as ...（〜である限り）で条件をつけ、シカやイノシシの被害という具体例で理由を示しています。最後に However, ... で「楽しみのための狩猟は別」と線を引くと、一方的でない答えになります。No の立場なら「動物の命を奪うのは残酷であり、柵や保護区など別の方法で被害を防ぐべきだ」などが考えられます。"

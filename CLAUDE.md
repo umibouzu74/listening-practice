@@ -6,7 +6,7 @@ React + Vite で構築し、GitHub Pages にデプロイする。
 
 ## Tech Stack
 - React 19 / Vite 7（アプリ本体は listening-lab/ 配下）
-- React Router v7 (HashRouter)
+- React Router v7（createHashRouter。離脱の確認に useBlocker を使う）
 - HTML5 Audio API
 - CSS Modules（Tailwind不使用）
 - localStorage（学習履歴）/ sessionStorage（解答途中の状態）
@@ -26,6 +26,7 @@ React + Vite で構築し、GitHub Pages にデプロイする。
 - 英検二次試験（面接）は新しい examType を作らず、英検データのルートに "format": "interview" を付ける
   - Section = 問題カード1枚（card.image / instruction / firstSentence）、Question = ナレーション（type "narration"）と No.1〜4（type "qa"）
   - カード画像: public/images/{examType}/{examId}/（PDF から切り出す場合は JPEG で1枚数百KB以内。元の PDF はコミットしない）
+  - 面接官の音声: section.cues（決まり文句）と q.audio（質問）。public/audio/{examType}/{examId}/ に scripts/extract-interview-audio.js で切り出して置く。ない回は読み上げで流れる。市販の模範ナレーションの音声は入れない
   - 模範解答・和訳・解説は独自に作成し、公式・市販の解答例を写さない
   - 形式の詳細は listening-lab/README.md の「面接形式（英検二次試験）」
 
@@ -39,8 +40,8 @@ React + Vite で構築し、GitHub Pages にデプロイする。
   - 練習形式 pages/InterviewPracticePage.jsx、本番形式 pages/InterviewExamPage.jsx（PracticeRoute が format で振り分ける）
   - 録音は hooks/useRecorder.js（MediaRecorder）に集約。録音はメモリ上の blob: URL だけで扱い、送信・保存しない
   - 英文の読み上げは utils/speech.js（speechSynthesis）。音声プレイヤーと同じく claimPlayback に参加させる
-  - 面接官の発話（音声ファイル or 読み上げ）は hooks/useQuestionAudio.js + utils/interview.js の runCue を使う
-  - 時間の目安・決まり文句・共通の採点観点は examConfig.js の INTERVIEW_CONFIG
+  - 面接官の発話（音声ファイル or 読み上げ）は hooks/useQuestionAudio.js + utils/interview.js の runCue を使う。audio 要素を1つ使い回すので、開始ボタンのクリック処理で unlock() を呼ぶ（iPhone 対策）。速度設定は受け継がず常に等倍
+  - 時間の目安・決まり文句（読み上げ用）・共通の採点観点は examConfig.js の INTERVIEW_CONFIG
   - 自己採点・練習回数は utils/interviewHistory.js（localStorage の別キー）。リスニングの history.js とは混ぜない
 - コミット前に `npm run lint` と `npm run build` が通ることを確認する
 - ルーティング: #/:examType/:examId/:sectionId（sectionId=all で全問通し、?mode=wrong で前回間違えた問題のみ、?mode=exam で本番モード）

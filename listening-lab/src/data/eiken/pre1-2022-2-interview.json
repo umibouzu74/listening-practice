@@ -18,12 +18,18 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a couple that wanted to save money.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a woman was talking with her husband."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2022-2-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2022-2-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2022-2-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2022-2-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a woman was talking with her husband. They were sitting at a table with some bills and a calculator, and she said that living in the city was very expensive. Her husband looked worried as their two children played behind them. That night, he was looking at a website on the computer. It invited people to come to ABC Village and said that housing there was cheap. His wife looked excited when she saw it. A few months later, the family had moved to the countryside. They were carrying boxes to their new house, and some elderly people were working in the fields nearby. A few weeks later, however, the children told their parents that they missed their friends in the city. The parents looked troubled. They might have been saving money, but it seemed that their children were not happy in the village.",
-          "modelAnswerJa": "ある日、ある女性が夫と話をしていた。2 人は請求書と電卓が置かれたテーブルについており、彼女は都会での生活はとてもお金がかかると言った。後ろで 2 人の子どもが遊ぶ中、夫は困った様子だった。その夜、夫はパソコンでウェブサイトを見ていた。そこには ABC 村に来ませんかとあり、そこでは住宅が安いと書かれていた。妻はそれを見てとてもわくわくした様子だった。数か月後、一家は田舎に引っ越していた。彼らは新しい家に箱を運んでおり、近くの畑ではお年寄りたちが働いていた。ところが数週間後、子どもたちは両親に、都会の友達が恋しいと言った。両親は困った様子だった。お金は節約できていたのかもしれないが、子どもたちは村での生活に満足していないようだった。",
+          "modelAnswer": "One day, a woman was talking with her husband. They were sitting at a table with some bills and a calculator, and she said that living in the city was very expensive. Her husband looked worried as their two children watched TV behind them. That night, he was looking at a website on the computer. It invited people to come to ABC Village and said that housing there was cheap. His wife looked excited when she saw it. A few months later, the family had moved to the countryside. They were carrying boxes to their new house, and some elderly people were working in the fields nearby. A few weeks later, however, the children told their parents that they missed their friends in the city. The parents looked troubled. They might have been saving money, but it seemed that their children were not happy in the village.",
+          "modelAnswerJa": "ある日、ある女性が夫と話をしていた。2 人は請求書と電卓が置かれたテーブルについており、彼女は都会での生活はとてもお金がかかると言った。後ろで 2 人の子どもがテレビを見る中、夫は困った様子だった。その夜、夫はパソコンでウェブサイトを見ていた。そこには ABC 村に来ませんかとあり、そこでは住宅が安いと書かれていた。妻はそれを見てとてもわくわくした様子だった。数か月後、一家は田舎に引っ越していた。彼らは新しい家に箱を運んでおり、近くの畑ではお年寄りたちが働いていた。ところが数週間後、子どもたちは両親に、都会の友達が恋しいと言った。両親は困った様子だった。お金は節約できていたのかもしれないが、子どもたちは村での生活に満足していないようだった。",
           "explanation": "1 コマ目の吹き出しの話し手は女性で、Living in the city is very expensive. は she said that living in the city was very expensive（is → was）とします。テーブルの Bill と書かれた紙と電卓はお金に困っている様子を伝える手がかりなので、文に入れましょう。2 コマ目の画面の Come to ABC Village / Cheap Housing は、It invited people to come to ABC Village and said that housing there was cheap のように文にします。3 コマ目は had moved と過去完了を使うと「すでに引っ越した」ことが伝わり、箱を運ぶ様子とうまくつながります。4 コマ目の We miss our friends in the city. の話し手は子どもたちで、told their parents that they missed their friends in the city（we → they、miss → missed、our → their）となります。however で話の変化を示し、最後に「節約はできても子どもは満足していない」と一言添えると、結末がはっきりします。",
           "checkpoints": [
             "1コマ目: 請求書と電卓の前で、女性が「都会の生活はとてもお金がかかる」と言ったことを間接話法で言えた",
@@ -39,9 +45,10 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"Moving here has helped us save money, but I didn't think enough about how hard it would be for the children. I should help them make new friends here, and maybe we can invite their old friends to visit during summer vacation.\"",
           "modelAnswerJa": "「ここに引っ越してお金は節約できているけれど、子どもたちにとってどれほど大変かを十分に考えていなかった。ここで新しい友達を作れるように手伝ってあげて、夏休みには以前の友達を招いてもいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、子どもたちが都会の友達を恋しがっている場面です。..., but I didn't think enough about ... で「よかった点」と「反省」を述べ、I should ... と maybe we can ... で子どものためにできることを 2 つ挙げています。how hard it would be for the children（子どもたちにとってどれほど大変か）のように子どもの気持ちを考える内容にすると、この場面に合った答えになります。"
+          "explanation": "4 コマ目は、女性の子どもたちが都会の友達を恋しがっている場面です。..., but I didn't think enough about ... で「よかった点」と「反省」を述べ、I should ... と maybe we can ... で子どものためにできることを 2 つ挙げています。how hard it would be for the children（子どもたちにとってどれほど大変か）のように子どもの気持ちを考える内容にすると、この場面に合った答えになります。"
         },
         {
           "id": "q2",
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think it is better to buy a home than to rent a place to live?",
           "promptJa": "住む場所を借りるよりも家を買うほうがよいと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-2-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. Renting gives people more freedom, because they can move easily if they change jobs or if their family grows. Buying a home usually means having a large loan for many years, and homeowners must also pay for repairs. In addition, the value of a house can fall, especially in areas where the population is declining.",
           "modelAnswerJa": "いいえ、そうは思いません。賃貸のほうが自由度が高く、転職したり家族が増えたりしたときに簡単に引っ越せます。家を買うと、たいていは長年にわたって多額のローンを抱えることになり、修理代も自分で払わなければなりません。さらに、特に人口が減っている地域では、家の価値が下がることもあります。",
           "explanation": "「賃貸の利点（自由に引っ越せる）」と「購入の欠点（ローン・修理代・価値の下落）」の両面から答えています。better を問う質問なので、2 つを比べる形にするとまとまりやすくなります。a large loan や the value of a house can fall は、お金の話題で使える表現です。Yes の立場なら「家賃を払い続けても何も残らないが、買えば老後も住む場所が自分の資産として残る」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Should Japan increase the amount of green space in its cities?",
           "promptJa": "日本は都市の緑地を増やすべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-2-interview/a-q3.mp3",
           "modelAnswer": "Yes, it should. Trees and parks help to lower temperatures in cities, which are becoming extremely hot in summer. Green spaces also give people a place to relax, exercise, and spend time with their children, and this is good for their mental and physical health. In addition, parks can be used as safe places for people to gather during an earthquake.",
           "modelAnswerJa": "はい、増やすべきです。木々や公園は、夏に猛烈な暑さになりつつある都市の気温を下げるのに役立ちます。また、緑地はくつろいだり運動したり、子どもと過ごしたりする場所にもなり、心身の健康によい影響を与えます。さらに、公園は地震のときに人々が集まる安全な場所としても利用できます。",
           "explanation": "「気温を下げる」「健康によい」「災害時の避難場所になる」と、環境・生活・防災の 3 つの観点から理由を挙げています。地震の多い日本ならではの視点を入れると、質問の Japan にしっかり答えられます。No の立場なら「都市の土地は限られて高価なので、住宅や交通のために使うほうが優先される」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Do people these days maintain a good balance between their private lives and their careers?",
           "promptJa": "最近の人々は、私生活と仕事のバランスをうまく保っているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-2-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think more people do now than in the past. Many young workers value their free time and choose companies that offer remote work or shorter hours. In Japan, companies also have to limit overtime more strictly than before because of new laws. However, a good balance is still difficult for people in busy jobs such as teaching and nursing.",
           "modelAnswerJa": "はい、以前よりはうまく保てている人が増えていると思います。自由な時間を大切にし、在宅勤務や短い勤務時間を認める会社を選ぶ若い働き手は多くいます。日本では、新しい法律によって、会社は以前よりも厳しく残業を制限しなければならなくなりました。ただし、教師や看護師のような忙しい仕事の人にとって、よいバランスを保つことはまだ難しいです。",
           "explanation": "Yes, I think more people do now than in the past. のように「以前と比べて」と答えると、言い切りすぎない無理のない立場になります。「若い人の価値観」「法律による残業の制限」という 2 つの変化を理由にし、However で例外にも触れています。No の立場なら「スマートフォンで仕事の連絡が家まで届くので、仕事と私生活の区別がつきにくくなっている」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2022-2-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a couple who lived near the ocean.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a couple was taking a walk by the beach."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2022-2-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2022-2-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2022-2-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2022-2-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,9 +120,10 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the husband, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの夫だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking that we were right to protect the ocean, but that I feel sorry for the people who may have lost their jobs. I'd also hope that they can find new work soon, and I'd want to talk more with the people affected the next time we hold a protest.",
-          "modelAnswerJa": "海を守ったのは正しかったけれど、仕事を失ったかもしれない人たちには申し訳ないと考えていると思います。また、その人たちがすぐに新しい仕事を見つけられるように願い、次に抗議活動をするときには、影響を受ける人たちともっと話し合いたいと思うでしょう。",
-          "explanation": "4 コマ目の夫は、反対した空港の建設会社が倒産したと知った場面です。we were right to ... で自分たちの行動を認めつつ、but で会社の人たちへの気持ちを述べると、複雑な心境を表せます。倒産の本当の理由は分からないので、may have lost のように断定を避けています。I'd be thinking that ... の形は、引用符を使う答え方とは違う言い方として使えます。"
+          "modelAnswerJa": "海を守ったのは正しかったけれど、仕事を失ったかもしれない人たちは気の毒だと考えていると思います。また、その人たちがすぐに新しい仕事を見つけられるように願い、次に抗議活動をするときには、影響を受ける人たちともっと話し合いたいと思うでしょう。",
+          "explanation": "4 コマ目は、夫が、反対した空港の建設会社が倒産したと知った場面です。we were right to ... で自分たちの行動を認めつつ、but で会社の人たちへの気持ちを述べると、複雑な心境を表せます。その人たちが実際に仕事を失ったかどうかは絵からは分からないので、may have lost のように断定を避けています。I'd be thinking that ... の形は、引用符を使う答え方とは違う言い方として使えます。"
         },
         {
           "id": "q2",
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Do you think Japanese people should express their political opinions more?",
           "promptJa": "日本人は政治的な意見をもっと表明すべきだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-2-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. In Japan, many people avoid talking about politics because they don't want to cause arguments. However, if citizens don't share their opinions, politicians won't understand what people really need. Discussing these issues also encourages young people to vote, and this is important because voter turnout among young people is low.",
           "modelAnswerJa": "はい、そう思います。日本では、言い争いを避けたいという理由で、政治の話をしない人が多くいます。しかし、市民が意見を伝えなければ、政治家は人々が本当に必要としていることを理解できません。こうした問題について話し合うことは若者の投票を促すことにもなり、若者の投票率は低いので、これは重要です。",
           "explanation": "「なぜ話さないのか（言い争いを避けたい）」という現状を述べたうえで、However で「意見を言わないと何が困るか」に進めています。voter turnout（投票率）は政治の話題で役立つ語です。No の立場なら「選挙で投票することが最も大切で、意見を公の場で言うと職場や友人との関係が気まずくなることもある」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Do you think companies should do more to help society?",
           "promptJa": "企業は社会に貢献するためにもっと努力すべきだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-2-interview/d-q3.mp3",
           "modelAnswer": "No, I don't think they need to do more. Companies already help society by creating jobs, paying taxes, and providing useful products and services. Their main responsibility is to run their business well and treat their employees fairly. If they are forced to spend too much on social projects, their profits may fall, and they may have to cut jobs or raise prices.",
           "modelAnswerJa": "いいえ、これ以上の努力は必要ないと思います。企業はすでに、雇用を生み、税金を納め、役に立つ商品やサービスを提供することで社会に貢献しています。企業の主な責任は、事業をしっかり運営し、社員を公正に扱うことです。社会事業にお金をかけることを強いられすぎると、利益が減り、人員削減や値上げをせざるを得なくなるかもしれません。",
           "explanation": "「本業そのものが社会貢献である」という視点から No と答えています。creating jobs, paying taxes, and providing ... のように 3 つ並べると、短くても具体的になります。最後の If they are forced to ... で、やりすぎた場合の悪影響を示しています。Yes の立場なら「大企業は資金力や影響力が大きいので、環境問題や地域の支援にもっと責任を持つべきだ」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Is it possible for the actions of individuals to help reduce global warming?",
           "promptJa": "個人の行動が地球温暖化を抑える助けになることはあり得るでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-2-interview/d-q4.mp3",
           "modelAnswer": "Yes, it is. One person's actions may seem small, but if millions of people use public transportation, save electricity, and waste less food, the total effect can be large. Consumers also influence companies, because businesses will make more eco-friendly products if people choose to buy them. Of course, governments and industries must also act.",
           "modelAnswerJa": "はい、あり得ます。1 人の行動は小さく見えるかもしれませんが、何百万もの人が公共交通機関を使い、電気を節約し、食品の無駄を減らせば、全体の効果は大きくなります。また、消費者は企業にも影響を与えます。人々が環境に優しい商品を選んで買えば、企業はそうした商品をより多く作るようになるからです。もちろん、政府や産業界も行動しなければなりません。",
           "explanation": "Is it possible ...? と聞かれているので Yes, it is. と答えます。「1 人では小さくても大勢なら大きい」という考え方に加え、「消費者の選択が企業を動かす」という理由を挙げると、個人の行動の意味がはっきりします。eco-friendly products（環境に優しい商品）は環境問題でよく使う表現です。No の立場なら「排出量の多くは産業や発電によるものなので、個人の努力だけでは大きな効果は望めない」などが考えられます。"

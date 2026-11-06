@@ -18,12 +18,18 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a couple who owned a small restaurant.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a couple was working at their restaurant."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2023-3-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2023-3-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2023-3-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2023-3-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a couple was working at their restaurant. Outside the window, a new zoo called ABC Zoo was being built. A customer sitting by the window told them that the zoo was a business opportunity for them, and the couple smiled as they listened. A few months later, the zoo had opened, and many families were walking past the restaurant. The husband was proudly showing off a sign for their new menu, with pictures of dishes that seemed to be shaped like animals. His wife clapped her hands in delight. That weekend, the restaurant was packed with customers. The husband was rushing to cook in the kitchen, and his wife was hurrying around serving food. A few days later, it was nighttime, and there was a CLOSED sign by the door. The wife was sitting at a table, looking exhausted, and she told her husband that she was too tired. He was clearing away the plates, and he looked worn out as well. The new menu was a success, but the work had become too hard for them.",
-          "modelAnswerJa": "ある日、ある夫婦が自分たちのレストランで働いていた。窓の外では、ABC 動物園という新しい動物園が建設されていた。窓際に座っていた客は、動物園は夫婦にとってビジネスチャンスだと伝え、夫婦はほほえみながら聞いていた。数か月後、動物園は開園していて、多くの家族連れがレストランの前を歩いていた。夫は新しいメニューの看板を誇らしげに見せていて、そこには動物の形をしているらしい料理の絵が描かれていた。妻は喜んで手をたたいた。その週末、レストランは客でいっぱいだった。夫は厨房で大急ぎで料理を作り、妻は料理を運んで忙しく動き回っていた。数日後、夜になり、入口のそばには CLOSED の札が出ていた。妻はテーブルに座っていて、疲れ切った様子で、自分は疲れすぎていると夫に言った。夫は皿を片付けていて、彼もまた疲れ切っている様子だった。新しいメニューは成功したが、仕事は 2 人にとってきつくなりすぎていた。",
+          "modelAnswer": "One day, a couple was working at their restaurant. Outside the window, a new zoo called ABC Zoo was being built. A customer sitting by the window told them that the zoo was a business opportunity for them, and the couple smiled as they listened. A few months later, the zoo was open to the public, and many families were walking past the restaurant. The husband was proudly showing off a sign for their new menu, with pictures of dishes that seemed to be shaped like animals. His wife clapped her hands in delight. That weekend, every table in the restaurant was taken. The husband was rushing to cook in the kitchen, and his wife was hurrying around serving food. A few days later, it was nighttime, and there was a CLOSED sign by the door. The wife was sitting at a table, looking exhausted, and she told her husband that she was too tired. He was clearing away the plates, and he looked worn out as well. The new menu was a success, but the work had become too hard for them.",
+          "modelAnswerJa": "ある日、ある夫婦が自分たちのレストランで働いていた。窓の外では、ABC 動物園という新しい動物園が建設されていた。窓際に座っていた客は、動物園は夫婦にとってビジネスチャンスだと伝え、夫婦はほほえみながら聞いていた。数か月後、動物園は開園していて、多くの家族連れがレストランの前を歩いていた。夫は新しいメニューの看板を誇らしげに見せていて、そこには動物の形をしているらしい料理の絵が描かれていた。妻は喜んで手をたたいた。その週末、レストランのテーブルはすべて埋まっていた。夫は厨房で大急ぎで料理を作り、妻は料理を運んで忙しく動き回っていた。数日後、夜になり、入口のそばには CLOSED の札が出ていた。妻はテーブルに座っていて、疲れ切った様子で、自分は疲れすぎていると夫に言った。夫は皿を片付けていて、彼もまた疲れ切っている様子だった。新しいメニューは成功したが、仕事は 2 人にとってきつくなりすぎていた。",
           "explanation": "1 コマ目は窓の外の ABC ZOO の看板と工事の機械から、動物園が建設中であることを読み取ります。吹き出しのしっぽは窓際の客に向いているので、It's a business opportunity for you. は客の発言で、told them that the zoo was a business opportunity for them（it is → the zoo was、you → them）とします。2 コマ目は NEW MENU の看板に動物のような形の料理が描かれていて、背景には開園した動物園と家族連れがいるので、動物園の客を呼び込もうとしていることが伝わるように描写しましょう。3 コマ目は「満席の店内」を述べてから、夫と妻それぞれの忙しさを and で並べて描写します。4 コマ目の I'm too tired. は told her husband that she was too tired（I am → she was）です。月と CLOSED の札は「閉店後の夜」を示す手がかりです。最後に The new menu was a success, but ... とまとめると、成功が負担になったという結末がはっきりします。",
           "checkpoints": [
             "1コマ目: 建設中の ABC Zoo と、客の「ビジネスチャンスだ」を間接話法で言えた",
@@ -39,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the husband, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの夫だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-3-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"We have lots of customers now, but we can't go on working like this. My wife's health is more important than making extra money. We should hire some part-time workers or close one day a week so that we can both get some rest.\"",
           "modelAnswerJa": "「今はお客さんがたくさん来てくれるけれど、このまま働き続けることはできない。もうけよりも妻の健康のほうが大切だ。アルバイトを雇うか週に 1 日店を休むかして、2 人とも休めるようにしよう」と考えていると思います。",
           "explanation": "4 コマ目は、店が繁盛した一方で、夫婦が疲れ切っている場面です。まず「このままでは続けられない」と現状を認め、妻の健康を優先する気持ちを述べてから、We should ... or ... で具体的な解決策を 2 つ挙げています。can't go on working like this（このまま働き続けられない）は、無理が続く場面で使いやすい表現です。"
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think that young people today are paying enough attention to their eating habits?",
           "promptJa": "今の若者は自分の食習慣に十分な注意を払っていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2023-3-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. Many young people are busy with school or work, so they often eat fast food or convenience store meals. Some also skip breakfast or go on extreme diets to look thin. Although they can easily find health information online, not many of them actually put it into practice.",
           "modelAnswerJa": "いいえ、そうは思いません。多くの若者は学校や仕事で忙しく、ファストフードやコンビニの食事をとることがよくあります。朝食を抜いたり、やせて見せるために極端なダイエットをしたりする人もいます。健康に関する情報はネットで簡単に見つけられますが、実際にそれを実践している人は多くありません。",
           "explanation": "「忙しさからくる食事の問題」「朝食抜き・極端なダイエット」と具体例を挙げ、最後に Although ... で「情報はあるのに実行していない」という点を指摘しています。put it into practice（実践する）は、いろいろな話題で使える便利な表現です。Yes の立場なら「SNS などで健康や栄養への関心が高まり、食事に気をつける若者も増えている」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Do large companies have too much power in society these days?",
           "promptJa": "最近、大企業は社会の中で力を持ちすぎているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-3-interview/a-q3.mp3",
           "modelAnswer": "Yes, I think they do. A few huge technology companies now control much of the information people see online, and they collect a lot of personal data. Large companies can also influence government decisions because they provide so many jobs and so much tax revenue. At the same time, many small local businesses find it hard to compete with them.",
           "modelAnswerJa": "はい、持ちすぎていると思います。ごく少数の巨大 IT 企業が、今では人々がネットで目にする情報の多くを支配し、大量の個人情報を集めています。また、大企業は多くの雇用と税収を生み出しているので、政府の決定に影響を与えることもできます。その一方で、地元の小さな店や会社の多くは、大企業と競争するのが難しくなっています。",
           "explanation": "質問の Do large companies ...? に合わせて Yes, I think they do. と答えています。「情報と個人データ」「政府への影響」「中小企業との競争」という 3 つの面を挙げると、power の中身が具体的になります。No の立場なら「大企業は雇用を生み出しており、法律や消費者の目によって行動を制限されている」などが考えられます。"
@@ -69,9 +78,10 @@
           "type": "qa",
           "prompt": "Will all money transactions become electronic in the future?",
           "promptJa": "将来、お金のやり取りはすべて電子化されるでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-3-interview/a-q4.mp3",
           "modelAnswer": "No, I don't think so. Electronic payments will certainly keep growing because they are so convenient, but cash will probably not disappear completely. Some older people are not comfortable using smartphones or cards, and electronic payment systems may not work during a power outage or after a natural disaster. For these reasons, people will still want to have some cash.",
           "modelAnswerJa": "いいえ、そうは思いません。電子決済は便利なので今後も確実に増えていくでしょうが、現金が完全になくなることはおそらくないでしょう。スマートフォンやカードを使うのに慣れていない高齢者もいますし、電子決済は停電のときや自然災害のあとには使えないことがあります。こうした理由から、人々はこれからも現金をある程度持っていたいと思うでしょう。",
-          "explanation": "質問の all に注目し、「増える」ことは認めつつ「すべて」は否定する答え方にしています。will certainly keep growing, but ... の形で、反対の意見にも一理あることを示すとバランスがよくなります。Yes の立場なら「スマートフォン決済は幅広い世代に広がっていて、現金の管理にはコストがかかるので、いずれ現金はなくなる」などが考えられます。"
+          "explanation": "質問の all に注目し、「増える」ことは認めつつ「すべて」は否定する答え方にしています。will certainly keep growing ..., but ... の形で、反対の意見にも一理あることを示すとバランスがよくなります。Yes の立場なら「スマートフォン決済は幅広い世代に広がっていて、現金の管理にはコストがかかるので、いずれ現金はなくなる」などが考えられます。"
         }
       ]
     },
@@ -83,12 +93,18 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a couple who wanted to buy a new home.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a couple was searching the Internet."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2023-3-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2023-3-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2023-3-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2023-3-interview/d-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
           "type": "narration",
           "modelAnswer": "One day, a couple was searching the Internet. On the computer screen, there was a page about a new high-rise apartment, and the wife pointed at it with a smile. Her husband seemed interested, too. A few days later, they visited ABC Real Estate. An agent held out a site tour registration form and told them that he could take them there that weekend. The couple looked very happy. The following weekend, they joined a group of people at the site. The agent was standing next to a sign that said New Apartment Site and explaining the plan, although there was still nothing on the land. The couple imagined themselves relaxing on a sofa in their new home and enjoying a beautiful view. An hour later, however, they saw some people protesting at the site. They were carrying a sign telling people to save the environment and another sign with a big X on it. The couple looked surprised, and it seemed that buying this apartment might not be so simple.",
-          "modelAnswerJa": "ある日、ある夫婦がインターネットで検索をしていた。コンピューターの画面には新しい高層マンションのページが表示されていて、妻は笑顔でそれを指さした。夫も興味を持っている様子だった。数日後、2 人は ABC 不動産を訪れた。担当者は現地見学の申込書を差し出し、その週末に 2 人をそこへ案内できると伝えた。夫婦はとてもうれしそうだった。翌週末、2 人は建設予定地で人々の一団に加わった。担当者は New Apartment Site と書かれた看板の横に立って計画を説明していたが、土地にはまだ何もなかった。夫婦は、新しい家のソファでくつろぎ、美しい景色を楽しんでいる自分たちの姿を思い描いた。ところが 1 時間後、2 人は現地で抗議活動をしている人たちを目にした。彼らは環境を守るよう訴える看板と、大きくバツ印の付いた看板を持っていた。夫婦は驚いた様子で、このマンションを買うのはそう簡単ではなさそうだった。",
+          "modelAnswerJa": "ある日、ある夫婦がインターネットで検索をしていた。コンピューターの画面には新しい高層マンションのページが表示されていて、妻は笑顔でそれを指さした。夫も興味を持っている様子だった。数日後、2 人は ABC 不動産を訪れた。担当者は現地見学の申込書を差し出し、その週末に 2 人をそこへ案内できると伝えた。夫婦はとてもうれしそうだった。次の週末、2 人は建設予定地で人々の一団に加わった。担当者は New Apartment Site と書かれた看板の横に立って計画を説明していたが、土地にはまだ何もなかった。夫婦は、新しい家のソファでくつろぎ、美しい景色を楽しんでいる自分たちの姿を思い描いた。ところが 1 時間後、2 人は現地で抗議活動をしている人たちを目にした。彼らは環境を守るよう訴える看板と、大きくバツ印の付いた看板を持っていた。夫婦は驚いた様子で、このマンションを買うのはそう簡単ではなさそうだった。",
           "explanation": "1 コマ目は画面の New High-Rise Apartment を a new high-rise apartment として文に入れます。2 コマ目の I can take you there this weekend. は told them that he could take them there that weekend（can → could、I → he、you → them、this weekend → that weekend）です。Site Tour Registration の用紙は site tour registration form と言えば、見学の申し込みだと伝わります。3 コマ目は看板の New Apartment Site の説明に加えて、夫婦の吹き出しの絵（ソファでくつろぐ姿）を imagined themselves relaxing ... のように描写します。ここは丸がつながった「頭の中の想像」なので、実際の出来事として言わないよう注意しましょう。4 コマ目は however を入れて、Save the Environment! の看板とバツ印の看板から抗議活動が起きていることを伝え、夢のマイホームに問題が起きそうだという結末を示します。",
           "checkpoints": [
             "1コマ目: 画面の新しい高層マンションを見て、夫婦が興味を持っていることを描写できた",
@@ -104,9 +120,10 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the husband, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの夫だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-3-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking that we shouldn't rush into buying this apartment. The view would be wonderful, but so many people are against the project that construction could be delayed or even canceled. I'd want to ask the agent more about the situation and look at some other homes, too.",
           "modelAnswerJa": "このマンションの購入を急ぐべきではないと考えていると思います。景色はすばらしいでしょうが、これほど多くの人が計画に反対しているので、工事が遅れたり中止になったりするかもしれません。担当者に状況をもっと詳しく聞き、ほかの物件も見てみたいと思います。",
-          "explanation": "4 コマ目の夫は、楽しみにしていた新居に問題があるかもしれないと気づいた場面です。I'd be thinking that ... と that 節で始め、so many ... that ... で「工事が遅れるかもしれない」という心配を述べ、最後に I'd want to ... と「次の行動」を示しています。rush into buying（あわてて買う）は、大きな買い物の話で使いやすい表現です。"
+          "explanation": "4 コマ目は、夫が、楽しみにしていた新居に問題があるかもしれないと気づいた場面です。I'd be thinking that ... と that 節で始め、so many ... that ... で「工事が遅れるかもしれない」という心配を述べ、最後に I'd want to ... と「次の行動」を示しています。rush into buying（あわてて買う）は、大きな買い物の話で使いやすい表現です。"
         },
         {
           "id": "q2",
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Do you think that the Internet plays an important role in consumers' purchasing decisions?",
           "promptJa": "インターネットは消費者が何を買うかを決めるうえで重要な役割を果たしていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2023-3-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. Before buying something, many people now read online reviews and compare prices on different websites. This helps them avoid bad products and find the best deal. In addition, many people discover new products through social media, so companies are spending more and more on online advertising.",
           "modelAnswerJa": "はい、そう思います。今では多くの人が、何かを買う前にネットのレビューを読んだり、さまざまなサイトで価格を比べたりしています。これは、質の悪い商品を避け、いちばんお得な買い物をするのに役立ちます。また、多くの人が SNS を通じて新しい商品を知るので、企業はネット広告にますます多くのお金をかけています。",
           "explanation": "「買う前に調べる（レビュー・価格比較）」と「SNS で商品を知る」という、買い物の 2 つの場面を挙げています。find the best deal（いちばんお得な買い物をする）は覚えておくと便利です。No の立場なら「ネットのレビューには信頼できないものも多く、実際に店で商品を見て決める人も多い」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Do you think that the younger generation is becoming more interested in politics?",
           "promptJa": "若い世代は政治への関心を高めていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2023-3-interview/d-q3.mp3",
           "modelAnswer": "No, I don't think so. In Japan, voter turnout among young people is still much lower than among older people. Many young people are busy with school or work, and some feel that their votes will not change anything. Although they can easily read political news on social media, many of them seem to be more interested in other topics.",
           "modelAnswerJa": "いいえ、そうは思いません。日本では、若者の投票率は今でも高齢者に比べてかなり低いです。多くの若者は学校や仕事で忙しく、自分の 1 票では何も変わらないと感じている人もいます。SNS で政治のニュースを簡単に読めるものの、多くの若者はほかの話題のほうに関心があるようです。",
           "explanation": "投票率という身近な事実を最初に挙げ、次に「忙しさ」「1 票では変わらないという気持ち」という理由を続けています。Although ... で SNS の影響にも触れておくと、反論を先回りした答えになります。voter turnout（投票率）は政治の話題で役立つ語です。Yes の立場なら「SNS で政治の話題に触れる機会が増え、社会問題について発信する若者も増えている」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Is it a good idea to use agricultural land for city development?",
           "promptJa": "農地を都市開発に使うのはよい考えでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-3-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think so. Japan already imports a large amount of its food, so losing farmland would make the country even more dependent on other countries. Also, once farmland is covered with buildings and roads, it is very hard to turn it back into fields. Instead, cities should make better use of empty houses and unused land.",
           "modelAnswerJa": "いいえ、そうは思いません。日本はすでに食料の多くを輸入しているので、農地を失えば、ますます他国に頼ることになります。また、農地はいったん建物や道路で覆われてしまうと、畑に戻すのはとても難しくなります。それよりも、都市は空き家や使われていない土地をもっと活用すべきです。",
           "explanation": "「食料の輸入への依存」と「元に戻せないこと」という 2 つの理由のあとに、Instead, ... で代わりの案（空き家や未利用地の活用）を示しています。反対するだけでなく代案を出すと、説得力が増します。Yes の立場なら「農業の担い手が減って使われない農地が増えているので、住宅や商業施設に活用したほうが地域の活性化につながる」などが考えられます。"

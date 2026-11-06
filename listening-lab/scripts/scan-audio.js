@@ -10,7 +10,7 @@
  */
 
 import { readdirSync, readFileSync, writeFileSync, existsSync } from "fs";
-import { resolve, join, relative, basename } from "path";
+import { resolve, join, relative, basename, sep } from "path";
 
 const args = process.argv.slice(2);
 const doFix = args.includes("--fix");
@@ -34,7 +34,7 @@ function scanAudioFiles(dir) {
         walk(full);
       } else if (entry.name.endsWith(".mp3") || entry.name.endsWith(".wav") || entry.name.endsWith(".ogg")) {
         // Path relative to public/ (how Vite serves it)
-        const rel = relative(join(ROOT, "public"), full);
+        const rel = relative(join(ROOT, "public"), full).split(sep).join("/"); // Windows でも JSON と同じ / 区切りにする
         files.push({ absolute: full, relative: rel, filename: entry.name });
       }
     }
@@ -75,6 +75,9 @@ function getAudioRefs(exam) {
   for (const section of exam.sections || []) {
     if (section.audioFile) refs.push({ field: `${section.id}.audioFile`, path: section.audioFile });
     if (section.instructionAudio) refs.push({ field: `${section.id}.instructionAudio`, path: section.instructionAudio });
+    for (const [key, path] of Object.entries(section.cues || {})) {
+      refs.push({ field: `${section.id}.cues.${key}`, path });
+    }
     for (const q of section.questions || []) {
       if (q.audio) refs.push({ field: `${section.id}.q${q.number}.audio`, path: q.audio });
       if (q.passageAudio) refs.push({ field: `${section.id}.q${q.number}.passageAudio`, path: q.passageAudio });
@@ -116,7 +119,11 @@ let totalMissing = 0;
 let totalFixed = 0;
 let totalOrphan = 0;
 
+// --exam で1回分だけ見るときも、他の回の音声を「未参照」と言わないよう全体を集める
 const usedAudioPaths = new Set();
+for (const { data } of jsonFiles) {
+  for (const ref of getAudioRefs(data)) usedAudioPaths.add(ref.path);
+}
 
 for (const { path: jsonPath, data: exam } of jsonFiles) {
   if (targetExam && exam.id !== targetExam) continue;

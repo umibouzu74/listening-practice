@@ -2,7 +2,8 @@
 
 英語リスニング演習アプリ（共通テスト・英検・TOEIC・高校入試・オリジナル教材対応）。
 現在収録しているのは **英検準1級 2020年度第3回〜2025年度第2回（15回分）** のリスニングと、
-**英検準1級 二次試験（面接）2017年度第3回〜2025年度第2回（24回分、各回 問題カード A・D）** です（2024年度第3回は下書き）。
+**英検準1級 二次試験（面接）2017年度第3回〜2025年度第2回（24回分、各回 問題カード A・D）** です。
+面接官の音声ファイルが入っているのは 2020年度第3回〜2025年度第2回の15回で、それより前の9回はブラウザの読み上げで流します。
 
 ## 主な機能
 
@@ -19,7 +20,7 @@
 ### 英検二次試験（面接）
 
 - **本番形式**（`?mode=exam`）: 黙読1分 → ナレーション2分 → No.1 → カードを伏せる → No.2〜4 → 振り返り の順に本番どおり進む。
-  面接官の指示・質問は音声ファイル（データの `audio`）があれば再生し、なければブラウザの読み上げ（英語）で流す。質問文は画面に出さない
+  面接官の指示・質問は音声ファイル（データの `cues` / `audio`）があれば再生し、なければブラウザの読み上げ（英語）で流す。質問文は画面に出さない
 - **練習形式**: ナレーション・No.1〜4 を1つずつ何度でもやり直せる。質問文・和訳の表示/非表示を切り替えられる
 - 質問が終わると録音が始まり、「回答を終える」で次へ。経過時間が目安を超えると色が変わる。「質問をもう一度聞く」の間は録音を止める
 - 振り返り: ステップごとに自分の録音・質問・模範解答・和訳・解説を並べ、自己採点（ナレーション 0〜15、No.1〜4 各 0〜5）と観点のチェックリストを出す
@@ -120,7 +121,7 @@ JSON のルートに `"format": "interview"` を付けると面接形式とし�
   "examType": "eiken",
   "format": "interview",
   "id": "eiken-pre1-2024-3-interview",
-  "meta": { "title": "英検準1級 二次試験", "subtitle": "2024年度 第3回", "year": 2024, "grade": "pre1", "session": "2024-3", "status": "draft" },
+  "meta": { "title": "英検準1級 二次試験", "subtitle": "2024年度 第3回", "year": 2024, "grade": "pre1", "session": "2024-3" },
   "sections": [
     {
       "id": "a",                         // URL に使う（#/eiken/{examId}/a）
@@ -130,6 +131,13 @@ JSON のルートに `"format": "interview"` を付けると面接形式とし�
         // カードの指示文。「Your story should begin with the following sentence:」は画面側で表示するので書かない
         "instruction": "You have one minute to prepare.\nThis is a story about a CEO who wanted to cut down on running costs.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a CEO was at her office."
+      },
+      // 任意。面接官の決まり文句の音声。なければ読み上げる
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2024-3-interview/a-prep.mp3",              // Here's your card. …
+        "narrationStart": "audio/eiken/eiken-pre1-2024-3-interview/a-narration.mp3", // Please begin your narration. …
+        "qaIntro": "audio/eiken/eiken-pre1-2024-3-interview/a-intro.mp3",            // Now, I'm going to ask you four questions. …
+        "turnOver": "audio/eiken/eiken-pre1-2024-3-interview/a-turnover.mp3"         // Please turn over the card …
       },
       "questions": [
         {
@@ -142,7 +150,7 @@ JSON のルートに `"format": "interview"` を付けると面接形式とし�
           "showCard": true,                       // カードを見て答える質問（準1級は No.1）。これ以降はカードを伏せる
           "prompt": "Please look at the fourth picture. If you were the CEO, what would you be thinking?",
           "promptJa": "…",
-          "audio": "audio/…",                     // 任意。面接官の質問の音声。なければ読み上げる
+          "audio": "audio/eiken/eiken-pre1-2024-3-interview/a-q1.mp3",   // 任意。面接官の質問の音声（Number 1. から）。なければ読み上げる
           "modelAnswer": "…", "modelAnswerJa": "…", "explanation": "…"
         }
         // q2〜q4 も同じ形（showCard なし = カードを伏せた状態）
@@ -158,9 +166,11 @@ JSON のルートに `"format": "interview"` を付けると面接形式とし�
 | `type` | `"narration"`（1つ）か `"qa"`（No.1〜4 を1つずつ） |
 | `prompt` / `promptJa` | 面接官の質問と和訳。本番形式では画面に出さず、音声または読み上げで流す |
 | `audio` | 面接官の質問の音声ファイル（任意）。あれば「Number N.」の読み上げも含めてこの音声に任せる。再生できないときは読み上げに切り替える |
+| section の `cues` | 面接官の決まり文句の音声ファイル（任意。`prep` / `narrationStart` / `qaIntro` / `turnOver`）。ないものは `INTERVIEW_CONFIG.phrases` を読み上げる |
 | `modelAnswer` / `modelAnswerJa` / `explanation` | 模範解答・和訳・解説（独自に作成する。欠けていると validate で警告） |
 | `checkpoints` | カードごとの採点の観点（任意）。共通の観点は `examConfig.js` の `INTERVIEW_CONFIG.checkpoints` |
 
+- 面接官の音声は `scripts/extract-interview-audio.js` で音源から切り出して `public/audio/eiken/{examId}/` に置く（`{カード}-prep` などの8本。無音を除くので1回 1〜3MB）。市販の模範ナレーションの音声（音源の `40_` `46_`）は入れない
 - カード画像は `public/images/eiken/{examId}/` に置く。PDF から切り出す場合は 4コマ部分だけを JPEG にし、1枚数百KB以内に収める（元の PDF はリポジトリに入れない）
 - 模範解答・和訳・解説は独自に作成し、公式・市販の解答例を写さない
 - 自己採点・練習回数は localStorage の `listening-lab-interview-history` に保存する（リスニングの履歴 `listening-lab-history` とは別）
@@ -169,6 +179,7 @@ JSON のルートに `"format": "interview"` を付けると面接形式とし�
 
 | コマンド | 内容 |
 |---|---|
-| `npm run validate` | JSON の必須項目・正解ラベル・音声/画像ファイルの存在をチェック（CI でも実行）。面接形式ではカード・ナレーション・No.1〜4 の質問文をチェックし、模範解答などの欠落は警告にする |
+| `npm run validate` | JSON の必須項目・正解ラベル・音声/画像ファイルの存在をチェック（CI でも実行）。面接形式ではカード・ナレーション・No.1〜4 の質問文をチェックし、模範解答の欠落や面接官の音声が一部だけの場合は警告にする |
 | `npm run scan-audio` | 音声ファイルと JSON の参照の対応を一覧表示（`-- --fix` でパスの自動修正） |
 | `node scripts/excel-to-json.js <file.xlsx>` | Excel テンプレートから JSON を生成（`npm i -D xlsx` が必要） |
+| `node scripts/extract-interview-audio.js <音源のルート> [--session 2024-3]` | 面接の音源（`j1q_YYYY_NN` が並ぶフォルダを指定）から面接官の発話を切り出し、JSON に `cues` / `audio` を書き込む（`npm i --no-save mpg123-decoder` が必要） |

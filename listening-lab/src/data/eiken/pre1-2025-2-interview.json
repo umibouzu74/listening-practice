@@ -18,13 +18,19 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a woman who was a working mother.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a woman was leaving work to go pick up her son."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2025-2-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2025-2-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2025-2-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2025-2-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a woman was leaving work to go pick up her son. It was five o'clock, and she was hurriedly packing up her laptop while her boss was still working at his desk. She said that she would finish the rest of her work at home that night. That evening at home, she was cooking dinner while her son played with his toys on the floor. When her husband came home from work, she told him that she needed to work after dinner. That night, even at nine o'clock, she was still sitting at the table, working on her laptop next to a thick pile of documents. She looked exhausted. Meanwhile, her husband was putting their son to bed in the next room. The next day, however, her boss looked through the documents she had prepared and told her that she needed to redo them. She was very disappointed to hear that.",
-          "modelAnswerJa": "ある日、ある女性が息子を迎えに行くために退社しようとしていた。時刻は 5 時で、上司がまだ自分の机で仕事をしている中、彼女は急いでノートパソコンを片付けていた。彼女は、残りの仕事はその夜家で終わらせると言った。その日の夕方、家で彼女は夕食を作っていて、息子は床でおもちゃで遊んでいた。夫が仕事から帰ってくると、彼女は夕食のあとに仕事をしなければならないと夫に伝えた。その夜、9 時になっても彼女はまだテーブルに向かい、分厚い書類の束の横でノートパソコンを使って仕事をしていた。彼女はくたくたに疲れている様子だった。その間、夫は隣の部屋で息子を寝かしつけていた。ところが翌日、上司は彼女が作った書類に目を通し、やり直す必要があると彼女に告げた。彼女はそれを聞いてとてもがっかりした。",
-          "explanation": "1 コマ目と 3 コマ目の時計（5 時 → 9 時）を It was five o'clock / even at nine o'clock のように文に入れると、仕事が夜遅くまで続いたことが伝わります。吹き出しは間接話法に直し、時制と時の表現をずらします。1 コマ目の I'll finish the rest at home tonight. は said that she would finish the rest of her work at home that night（will → would、tonight → that night）、2 コマ目の I need to work after dinner. は told him that she needed to work after dinner、4 コマ目の You need to redo this. は told her that she needed to redo them（this は指している書類に置き換える）です。3 コマ目は「彼女が働いている」ことと「夫が子どもを寝かしつけている」ことを Meanwhile でつなぐと、絵の手前と奥の両方を描写できます。4 コマ目は努力が報われない結末なので、however を入れて展開の変化を示しましょう。",
+          "modelAnswer": "One day, a woman was leaving work to go pick up her son. It was five o'clock, and she was hurriedly packing up her laptop while her boss was still working at his desk. She said that she would finish the rest of her work at home that night. That evening at home, she was at the stove preparing dinner, and her son sat on the floor nearby, busy with his toys. The moment her husband got home from work, she told him that she needed to work after dinner. That night, even at nine o'clock, she was still at the table, typing on her laptop beside a thick pile of documents, and she looked exhausted. In the next room, her husband was tucking their son into bed. The next day, however, her boss looked through the documents she had prepared and told her that she needed to redo them. She was very disappointed to hear that.",
+          "modelAnswerJa": "ある日、ある女性が息子を迎えに行くために退社しようとしていた。時刻は 5 時で、上司がまだ自分の机で仕事をしている中、彼女は急いでノートパソコンを片付けていた。彼女は、残りの仕事はその夜家で終わらせると言った。その日の夕方、家で彼女はコンロの前で夕食を作っていて、息子はそばの床に座っておもちゃに夢中になっていた。夫が仕事から帰ってくるとすぐに、彼女は夕食のあとに仕事をしなければならないと夫に伝えた。その夜、9 時になっても彼女はまだテーブルに向かい、分厚い書類の束の横でノートパソコンのキーを打っていて、くたくたに疲れている様子だった。隣の部屋では、夫が息子を寝かしつけていた。ところが翌日、上司は彼女が作った書類に目を通し、やり直す必要があると彼女に告げた。彼女はそれを聞いてとてもがっかりした。",
+          "explanation": "1 コマ目と 3 コマ目の時計（5 時 → 9 時）を It was five o'clock / even at nine o'clock のように文に入れると、仕事が夜遅くまで続いたことが伝わります。吹き出しは間接話法に直し、時制と時の表現をずらします。1 コマ目の I'll finish the rest at home tonight. は said that she would finish the rest of her work at home that night（will → would、tonight → that night）、2 コマ目の I need to work after dinner. は told him that she needed to work after dinner、4 コマ目の You need to redo this. は told her that she needed to redo them（this は指している書類に置き換える）です。3 コマ目は「彼女が働いている」ことを述べたあと、In the next room, ... と場所を示して「夫が子どもを寝かしつけている」ことを続けると、絵の手前と奥の両方を描写できます。4 コマ目は努力が報われない結末なので、however を入れて展開の変化を示しましょう。",
           "checkpoints": [
             "1コマ目: 5時に急いで帰ろうとしていることと、「残りは今夜家でやる」を間接話法で言えた",
             "2コマ目: 夕食の支度・遊ぶ息子・帰宅した夫を描写し、「夕食後に仕事をする」と伝えたことを言えた",
@@ -39,9 +45,10 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2025-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I should have asked my boss for more time instead of trying to finish this late at night when I was so tired. From now on, I'll be honest about how much work I can handle while taking care of my family.\"",
           "modelAnswerJa": "「こんなに疲れているときに夜遅くまでかけて終わらせようとせず、上司にもっと時間をもらえるよう頼むべきだった。これからは、家族の世話をしながらどれだけの仕事をこなせるのか、正直に伝えるようにしよう」と考えていると思います。",
-          "explanation": "4 コマ目の女性は、夜遅くまで頑張った仕事をやり直すよう言われた場面です。I should have asked ... で「どうすればよかったか」を反省し、From now on, I'll ... で「これからどうするか」を続ける 2 文構成にすると、短くてもまとまった答えになります。instead of trying to ... のように、実際に取った行動と比べると反省の内容がはっきりします。"
+          "explanation": "4 コマ目は、女性が夜遅くまで頑張った仕事をやり直すよう言われた場面です。I should have asked ... で「どうすればよかったか」を反省し、From now on, I'll ... で「これからどうするか」を続ける 2 文構成にすると、短くてもまとまった答えになります。instead of trying to ... のように、実際に取った行動と比べると反省の内容がはっきりします。"
         },
         {
           "id": "q2",
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think that working long hours is necessary to be successful?",
           "promptJa": "成功するためには長時間働くことが必要だと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2025-2-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. What matters more is how efficiently people work, not how long they work. People who work long hours often get tired and make more mistakes, and they may even damage their health. Getting enough rest actually helps people stay focused and produce better results.",
           "modelAnswerJa": "いいえ、そうは思いません。大切なのは、どれだけ長く働くかではなく、どれだけ効率よく働くかです。長時間働く人は疲れてミスが増えがちで、健康を損なうことさえあります。十分に休むことのほうが、集中力を保ち、よりよい成果を出すのに役立ちます。",
           "explanation": "最初に No, I don't think so. と立場を示し、「長さより効率が大事」という主張 → 「長時間労働の悪い点（疲れ・ミス・健康）」→「休むことの良い点」の順に理由を展開しています。not how long ... と対比させる形は、質問の working long hours を自然に受けられる言い方です。Yes の立場なら「若いうちは長く働いて経験を積むことが成長につながる」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Should schools place more emphasis on teaching practical life skills?",
           "promptJa": "学校は、実生活に役立つ技能を教えることをもっと重視すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2025-2-interview/a-q3.mp3",
           "modelAnswer": "Yes, I think so. Many young people leave home without knowing how to manage their money, cook healthy meals, or understand a rental contract. If schools taught these skills, students would be better prepared to live on their own, and they would be less likely to get into trouble, such as falling into debt.",
           "modelAnswerJa": "はい、そう思います。お金の管理のしかたや健康的な食事の作り方、賃貸契約書の読み方などを知らないまま親元を離れる若者は多いです。学校がこうした技能を教えれば、生徒は一人暮らしへの備えがよりできるようになり、借金を抱えるといったトラブルに巻き込まれにくくなるでしょう。",
           "explanation": "practical life skills は抽象的な言葉なので、money / cooking / rental contract のように具体例を 3 つ挙げて中身をはっきりさせています。後半は If schools taught ..., students would ... という仮定法で「教えた場合の効果」を述べ、具体的なトラブル（借金）で締めています。No の立場なら「生活の技能は家庭で学ぶべきで、学校は学力に集中すべき」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Today, mental health is a widely discussed topic. Do you think that workplaces should provide mental health support?",
           "promptJa": "今日、心の健康は広く議論されている話題です。職場は心の健康のための支援を提供すべきだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2025-2-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think they should. Employees spend a large part of their day at work, and stress from heavy workloads or difficult relationships with coworkers is a common cause of mental health problems. If companies offer services such as free counseling, workers can get help early, before their problems become serious. This also benefits companies, because their staff will be less likely to take long periods of sick leave.",
           "modelAnswerJa": "はい、提供すべきだと思います。社員は 1 日の多くの時間を職場で過ごしており、仕事量の多さや同僚との難しい人間関係によるストレスは、心の不調のよくある原因です。会社が無料のカウンセリングなどを用意すれば、社員は問題が深刻になる前に早めに助けを得られます。社員が長期間の病気休暇を取る可能性も低くなるので、これは会社にとってもよいことです。",
           "explanation": "「なぜ職場が支援すべきか（ストレスの原因が職場にある）」→「何をすればよいか（無料カウンセリング）」→「会社にとっての利点（長期休職が減る）」と、社員側と会社側の両方から理由を述べています。No.4 では、社会全体や組織にとってのメリットまで触れると、視野の広い答えになります。"
@@ -83,12 +93,18 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a woman who worked at a flower shop.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a woman was closing up her flower shop."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2025-2-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2025-2-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2025-2-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2025-2-interview/d-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
           "type": "narration",
-          "modelAnswer": "One day, a woman was closing up her flower shop. As she was about to go home, one of her employees pointed at the buckets of flowers and told her that they had a lot of unsold flowers. She looked concerned. The next day, the employee showed her some pictures of flowers on his laptop and suggested that they start selling flowers online. The woman seemed interested in the idea. One month later, the shop was very busy. While the employee was serving a happy customer, the woman was packing flowers into a box to send to someone who had ordered them online. The computer screen showed a list of orders. A few weeks later, the woman was at home watching the news on TV. It said that shipping fees were going to increase the following month. She realized that this could be a serious problem for her new online business.",
-          "modelAnswerJa": "ある日、ある女性が自分の花屋の店じまいをしていた。帰ろうとしたところ、従業員の 1 人が花の入ったバケツを指さし、売れ残りの花がたくさんあると彼女に伝えた。彼女は困ったような様子だった。翌日、その従業員はノートパソコンで花の写真を見せながら、花をネットで売り始めてはどうかと提案した。女性はその考えに興味を持った様子だった。1 か月後、店はとても忙しくなっていた。従業員が笑顔の客の応対をしている間、女性はネットで注文した人に送るために花を箱に詰めていた。パソコンの画面には注文のリストが表示されていた。数週間後、女性は家でテレビのニュースを見ていた。ニュースは、翌月から送料が値上がりすると伝えていた。彼女は、これが始めたばかりのネット販売にとって深刻な問題になりかねないと気づいた。",
+          "modelAnswer": "One day, a woman was closing up her flower shop. As she was about to go home, one of her employees pointed at the buckets of flowers and told her that they had a lot of unsold flowers. She looked concerned. The next day, with some pictures of flowers on his laptop screen, the employee suggested that they start selling flowers online, an idea that seemed to interest her. One month later, the shop was very busy. While the employee was serving a happy customer, the woman was packing flowers into a box to send to someone who had ordered them online. The computer screen showed a list of orders. A few weeks later, the woman was relaxing at home when a news report on TV announced that shipping fees were going to increase the following month. She realized that this could be a serious problem for her new online business.",
+          "modelAnswerJa": "ある日、ある女性が自分の花屋の店じまいをしていた。帰ろうとしたところ、従業員の 1 人が花の入ったバケツを指さし、売れ残りの花がたくさんあると彼女に伝えた。彼女は困ったような様子だった。翌日、その従業員はノートパソコンの画面に花の写真を映して、花をネットで売り始めてはどうかと提案し、女性はその案に心を引かれた様子だった。1 か月後、店はとても忙しくなっていた。従業員が笑顔の客の応対をしている間、女性はネットで注文した人に送るために花を箱に詰めていた。パソコンの画面には注文のリストが表示されていた。数週間後、女性が家でくつろいでいると、翌月から送料が値上がりするとテレビのニュースが伝えた。彼女は、これが始めたばかりのネット販売にとって深刻な問題になりかねないと気づいた。",
           "explanation": "1 コマ目の CLOSED の札は、最初の一文（closing up her flower shop）と同じ場面を表しています。吹き出しは間接話法にします。We have a lot of unsold flowers. は told her that they had a lot of unsold flowers（have → had）、Why don't we start online sales? は提案なので suggested that they start selling flowers online とし、suggest のあとの that 節では動詞を原形（start）にします。3 コマ目の Order list は「ネットの注文が多い」ことを示す手がかりなので、店頭の客の応対と対比させて「店が忙しくなった」ことを伝えます。4 コマ目のテレビは、グラフ（This month → Next month）とテロップ（Shipping fees to increase）を合わせて、shipping fees were going to increase the following month（next month → the following month）と描写します。最後に、それがネット販売にどう影響するかを一言添えると、話の結末がはっきりします。",
           "checkpoints": [
             "1コマ目: 閉店時に従業員が「売れ残りの花が多い」と伝えたことを間接話法で言えた",
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2025-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"Higher shipping fees will cut into the profits from our online sales. Maybe we should focus on delivering to customers in our local area, or offer a discount to people who pick up their flowers at the shop.\"",
           "modelAnswerJa": "「送料が上がると、ネット販売の利益が減ってしまう。近所のお客さんへの配達に力を入れたり、店まで花を受け取りに来てくれる人に割引をしたりしたほうがいいかもしれない」と考えていると思います。",
           "explanation": "4 コマ目のニュース（送料の値上げ）が、女性の店にどう影響するかを考えます。まず「何が困るのか（利益が減る）」を述べ、次に Maybe we should ... で「対策」を具体的に 2 つ挙げると、前向きでまとまった答えになります。cut into the profits（利益を減らす）は、お金に関わる場面で使いやすい表現です。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Should shops work more to reduce product packaging?",
           "promptJa": "店は、商品の包装を減らすためにもっと努力すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2025-2-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. A lot of packaging, such as plastic wrapping and boxes, is thrown away right after people buy something, so it creates a huge amount of waste. Shops could use simpler packaging or encourage customers to bring their own bags. Many customers today care about the environment, so they would probably welcome these changes.",
           "modelAnswerJa": "はい、そう思います。ビニールの包装や箱などの多くの包装は、買ってすぐに捨てられてしまうので、膨大な量のごみが出ます。店は、もっと簡単な包装にしたり、客に自分の袋を持ってくるよう勧めたりできるはずです。今は環境を気にかける客が多いので、こうした変化はおそらく歓迎されるでしょう。",
           "explanation": "「問題点（すぐ捨てられてごみになる）」→「店ができること（簡易包装・マイバッグ）」→「客の反応（歓迎される）」の 3 段階で答えています。Should ...? の質問では、「どうすべきか」の具体案を 1 つ入れると説得力が増します。No の立場なら「商品を傷や汚れから守るために、ある程度の包装は必要だ」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Do you think that it is a good idea for businesses to follow trends?",
           "promptJa": "企業が流行を追いかけるのはよい考えだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2025-2-interview/d-q3.mp3",
           "modelAnswer": "Yes, I think so. Customers' tastes change quickly these days, especially because of social media. Businesses that ignore new trends may lose customers to their competitors. For example, many restaurants started offering takeout and delivery when those services became popular, and that helped them survive difficult times.",
           "modelAnswerJa": "はい、そう思います。最近は、特に SNS の影響で、客の好みがすぐに変わります。新しい流行を無視する企業は、客を競合相手に奪われてしまうかもしれません。たとえば、テイクアウトや宅配が広まったときにそれを始めた飲食店は多く、そのおかげで厳しい時期を乗り切ることができました。",
           "explanation": "「客の好みが速く変わる」という一般論のあと、「流行を無視するとどうなるか」というリスクを述べ、For example で身近な具体例（飲食店のテイクアウト）を挙げています。No の立場なら「流行はすぐに終わるので、追いかけると会社の個性が失われたり、在庫が無駄になったりする」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "These days, people often discuss international issues. Should world leaders work together more to address global issues?",
           "promptJa": "最近、人々はよく国際問題について議論します。世界の指導者たちは、地球規模の問題に取り組むためにもっと協力すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2025-2-interview/d-q4.mp3",
           "modelAnswer": "Yes, they should. Problems such as climate change and infectious diseases do not stop at national borders, so no country can solve them alone. When countries share information and technology, they can respond much more quickly. For example, during the COVID-19 pandemic, sharing research data across borders helped scientists develop vaccines in a short time.",
           "modelAnswerJa": "はい、協力すべきです。気候変動や感染症のような問題は国境で止まらないので、1 つの国だけでは解決できません。各国が情報や技術を共有すれば、ずっと速く対応できます。たとえば、新型コロナウイルスの世界的な流行の際には、国境を越えて研究データを共有したことで、科学者たちが短期間でワクチンを開発することができました。",
           "explanation": "global issues の具体例（気候変動・感染症）を挙げ、do not stop at national borders（国境で止まらない）という理由で「協力が必要」につなげています。最後に実際の出来事（新型コロナのワクチン開発）を例に出すと、説得力のある答えになります。No.4 は社会全体の問題を扱うので、ニュースで見聞きした出来事を 1 つ準備しておくと答えやすくなります。"
