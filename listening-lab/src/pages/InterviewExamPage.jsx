@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import InterviewCard from '../components/InterviewCard';
 import InterviewReview from '../components/InterviewReview';
 import SelfScore from '../components/SelfScore';
+import useLeaveGuard from '../hooks/useLeaveGuard';
 import useQuestionAudio from '../hooks/useQuestionAudio';
 import useRecorder from '../hooks/useRecorder';
 import useWakeLock from '../hooks/useWakeLock';
@@ -43,6 +44,8 @@ function reducer(state, action) {
       return state;
   }
 }
+
+const LEAVE_MESSAGE = '本番形式を中断しますか？ここまでの録音は保存されません。';
 
 const MIC_MESSAGES = {
   unsupported: 'このブラウザは録音に対応していません。録音なしで、タイマーと流れだけ練習できます。',
@@ -151,13 +154,7 @@ export default function InterviewExamPage({ examSet, section }) {
     return () => clearInterval(id);
   }, [ticking, deadline, finishActive]);
 
-  // 進行中にタブを閉じようとしたら確認する
-  useEffect(() => {
-    if (!inProgress) return;
-    const onBeforeUnload = (e) => e.preventDefault();
-    window.addEventListener('beforeunload', onBeforeUnload);
-    return () => window.removeEventListener('beforeunload', onBeforeUnload);
-  }, [inProgress]);
+  useLeaveGuard(inProgress, LEAVE_MESSAGE);
 
   const begin = () => {
     setRecordings({});
@@ -200,7 +197,7 @@ export default function InterviewExamPage({ examSet, section }) {
   };
 
   const handleBack = () => {
-    if (inProgress && !window.confirm('本番形式を中断しますか？ここまでの録音は保存されません。')) return;
+    if (inProgress && !window.confirm(LEAVE_MESSAGE)) return;
     navigate(`/${examType}/${examId}`);
   };
 

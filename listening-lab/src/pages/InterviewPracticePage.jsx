@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import InterviewCard from '../components/InterviewCard';
 import { InterviewReviewStep } from '../components/InterviewReview';
 import SelfScore from '../components/SelfScore';
+import useLeaveGuard from '../hooks/useLeaveGuard';
 import usePreference from '../hooks/usePreference';
 import useQuestionAudio from '../hooks/useQuestionAudio';
 import useRecorder from '../hooks/useRecorder';
@@ -19,6 +20,8 @@ import {
 } from '../utils/interviewHistory';
 import { cancelSpeech, isSpeechSupported, primeVoices, unlockSpeech } from '../utils/speech';
 import styles from './InterviewPracticePage.module.css';
+
+const LEAVE_MESSAGE = '回答の途中です。練習を終えてカード一覧に戻りますか？';
 
 const MIC_NOTES = {
   unsupported: 'このブラウザは録音に対応していないため、録音なしで練習します。',
@@ -112,10 +115,14 @@ export default function InterviewPracticePage({ examSet, section }) {
     const stepId = q.id;
     const result = await stopRecording();
     releaseMic();
-    if (result) {
-      discard(recordings[stepId]?.url);
-      setRecordings((prev) => ({ ...prev, [stepId]: result }));
-    }
+    // 今回録音できなかったときは、前回の録音を今回の分として見せない
+    discard(recordings[stepId]?.url);
+    setRecordings((prev) => {
+      const next = { ...prev };
+      if (result) next[stepId] = result;
+      else delete next[stepId];
+      return next;
+    });
     recordPracticeAttempt(examId, section.id);
     setAttempts((prev) => ({ ...prev, [stepId]: (prev[stepId] || 0) + 1 }));
     // やり直したら自己採点もつけ直す
@@ -140,19 +147,14 @@ export default function InterviewPracticePage({ examSet, section }) {
     return () => clearInterval(id);
   }, [ticking, deadline, finishAttempt]);
 
-  // 回答中にタブを閉じようとしたら確認する
-  useEffect(() => {
-    if (!busy) return;
-    const onBeforeUnload = (e) => e.preventDefault();
-    window.addEventListener('beforeunload', onBeforeUnload);
-    return () => window.removeEventListener('beforeunload', onBeforeUnload);
-  }, [busy]);
+  useLeaveGuard(busy, LEAVE_MESSAGE);
 
   const startAttempt = async () => {
     if (busy) return;
     // クリックの中で音声と読み上げを有効にしておく（iPhone 対策）
     unlockAudio();
     unlockSpeech();
+    setCardPeek(false);
     if (recorder.status !== 'unsupported') await recorder.prepare();
     setAttemptNo((n) => n + 1);
     setPhase('cue');
@@ -162,6 +164,7 @@ export default function InterviewPracticePage({ examSet, section }) {
     if (busy || i < 0 || i >= steps.length) return;
     setStepIndex(i);
     setCardPeek(false);
+    window.scrollTo(0, 0); // ページの下の「次へ」から来ても、開始ボタンが見えるように
   };
 
   const handleScore = (score) => {
@@ -170,7 +173,7 @@ export default function InterviewPracticePage({ examSet, section }) {
   };
 
   const handleBack = () => {
-    if (busy && !window.confirm('回答の途中です。練習を終えてカード一覧に戻りますか？')) return;
+    if (busy && !window.confirm(LEAVE_MESSAGE)) return;
     navigate(`/${examType}/${examId}`);
   };
 
@@ -283,8 +286,14 @@ export default function InterviewPracticePage({ examSet, section }) {
 
           {phase === 'idle' && (
             <div className={styles.actions}>
-              <button className={styles.primaryButton} onClick={startAttempt}>
-                {attempted ? 'もう一度やる' : isNarration ? 'ナレーションを始める' : '質問を聞いて答える'}
+              <button
+                className={styles.primaryButton}
+                onClick={startAttempt}
+                disabled={recorder.status === 'requesting'}
+              >
+                {recorder.status === 'requesting'
+                  ? 'マイクの許可を待っています…'
+                  : attempted ? 'もう一度やる' : isNarration ? 'ナレーションを始める' : '質問を聞いて答える'}
               </button>
               {micNote && <p className={styles.notice}>{micNote}</p>}
               {!q.audio && !isSpeechSupported() && !isNarration && (

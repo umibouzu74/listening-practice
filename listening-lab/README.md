@@ -182,4 +182,4 @@ JSON のルートに `"format": "interview"` を付けると面接形式とし�
 | `npm run validate` | JSON の必須項目・正解ラベル・音声/画像ファイルの存在をチェック（CI でも実行）。面接形式ではカード・ナレーション・No.1〜4 の質問文をチェックし、模範解答の欠落や面接官の音声が一部だけの場合は警告にする |
 | `npm run scan-audio` | 音声ファイルと JSON の参照の対応を一覧表示（`-- --fix` でパスの自動修正） |
 | `node scripts/excel-to-json.js <file.xlsx>` | Excel テンプレートから JSON を生成（`npm i -D xlsx` が必要） |
-| `node scripts/extract-interview-audio.js <音源フォルダ> [--session 2024-3]` | 面接の音源（`j1q_YYYY_NN`）から面接官の発話を切り出し、JSON に `cues` / `audio` を書き込む（`npm i --no-save mpg123-decoder` が必要） |
+| `node scripts/extract-interview-audio.js <音源のルート> [--session 2024-3]` | 面接の音源（`j1q_YYYY_NN` が並ぶフォルダを指定）から面接官の発話を切り出し、JSON に `cues` / `audio` を書き込む（`npm i --no-save mpg123-decoder` が必要） |

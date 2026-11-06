@@ -3,7 +3,7 @@
  * extract-interview-audio.js
  * 二次試験（面接）の音源から面接官の発話だけを切り出し、public/audio/ に置いて JSON に紐づける。
  *
- * 音源フォルダ（j1q_YYYY_NN）のファイルの中身:
+ * 各回の音源フォルダ（j1q_YYYY_NN）のファイルの中身:
  *   39/45_Card_X_instruct: （回の案内）→ Here's your card. … → 無音60秒 → Please begin your narration. … → 無音120秒
  *   40/46_Card_X_model:    市販の模範ナレーション（使わない。模範解答は独自に作成する方針）
  *   41/47_Card_X_No.1:     Now, I'm going to ask you four questions. → Number 1. … → 無音30秒
@@ -15,7 +15,8 @@
  *
  * 使い方（デコーダーは必要なときだけ入れる）:
  *   npm i --no-save mpg123-decoder
- *   node scripts/extract-interview-audio.js <音源フォルダ> [--session 2024-3] [--dry-run]
+ *   listening-lab/ で実行する。<音源のルート> は j1q_YYYY_NN が並ぶフォルダ
+ *   node scripts/extract-interview-audio.js <音源のルート> [--session 2024-3] [--dry-run]
  */
 
 import { mkdirSync, readFileSync, readdirSync, writeFileSync, existsSync } from "fs";
@@ -30,13 +31,17 @@ const sourceRoot = args[0];
 const onlySession = flag("--session");
 const dryRun = args.includes("--dry-run");
 if (!sourceRoot || sourceRoot.startsWith("--")) {
-  console.error("使い方: node scripts/extract-interview-audio.js <音源フォルダ> [--session 2024-3] [--dry-run]");
+  console.error("使い方: node scripts/extract-interview-audio.js <音源のルート（j1q_YYYY_NN が並ぶフォルダ）> [--session 2024-3] [--dry-run]");
   process.exit(1);
 }
 
 const ROOT = resolve(".");
 const DATA_DIR = join(ROOT, "src", "data", "eiken");
 const PUBLIC_DIR = join(ROOT, "public");
+if (!existsSync(DATA_DIR)) {
+  console.error("listening-lab/ で実行してください");
+  process.exit(1);
+}
 
 // 切り出しの余白（秒）。前は MP3 のビットリザーバで先頭フレームが欠けても発話にかからない長さにする
 const LEAD_SEC = 0.18;
@@ -225,6 +230,7 @@ function linkSection(section, audioDir) {
 
 // --- main ---
 let total = 0;
+let processed = 0;
 for (const folder of readdirSync(sourceRoot).sort()) {
   const match = folder.match(/^j1q_(\d{4})_0?(\d)$/);
   if (!match) continue;
@@ -258,6 +264,11 @@ for (const folder of readdirSync(sourceRoot).sort()) {
   data.sections = data.sections.map((s) => linkSection(s, audioDir));
   if (!dryRun) writeFileSync(jsonPath, JSON.stringify(data, null, 2).replace(/\n/g, eol) + eol, "utf-8");
   total += bytes;
+  processed++;
   console.log(`✅ ${session}: ${(bytes / 1024 / 1024).toFixed(2)} MB`);
+}
+if (processed === 0) {
+  console.error("処理した回がありません。<音源のルート>（j1q_YYYY_NN が並ぶフォルダ）と --session を確認してください");
+  process.exit(1);
 }
 console.log(`\n合計 ${(total / 1024 / 1024).toFixed(1)} MB${dryRun ? "（--dry-run: 書き込みなし）" : ""}`);

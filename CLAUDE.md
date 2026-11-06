@@ -6,7 +6,7 @@ React + Vite で構築し、GitHub Pages にデプロイする。
 
 ## Tech Stack
 - React 19 / Vite 7（アプリ本体は listening-lab/ 配下）
-- React Router v7 (HashRouter)
+- React Router v7（createHashRouter。離脱の確認に useBlocker を使う）
 - HTML5 Audio API
 - CSS Modules（Tailwind不使用）
 - localStorage（学習履歴）/ sessionStorage（解答途中の状態）

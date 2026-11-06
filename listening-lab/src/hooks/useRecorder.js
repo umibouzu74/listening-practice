@@ -42,9 +42,12 @@ export default function useRecorder() {
   const chunksRef = useRef([]);
   const urlsRef = useRef(new Set());
   const stopResolveRef = useRef(null);
-  // 録音時間（一時停止中は数えない）
+  // マイクが切れて自分で止まったときの録音。次の stop() で渡す
+  const orphanResultRef = useRef(null);
+  const unmountedRef = useRef(false);
+  // 録音時間（一時停止中は数えない）。segmentStartRef は録音が進んでいる間だけ開始時刻を持つ
   const activeMsRef = useRef(0);
-  const segmentStartRef = useRef(0);
+  const segmentStartRef = useRef(null);
 
   /** マイクの使用許可を取り、録音できる状態にする。成功したら true */
   const prepare = useCallback(async () => {
@@ -58,6 +61,11 @@ export default function useRecorder() {
       const stream = await navigator.mediaDevices.getUserMedia({
         audio: { echoCancellation: true, noiseSuppression: true },
       });
+      // 許可を待っている間に画面を離れていたら、誰も止められなくなるのでここで止める
+      if (unmountedRef.current) {
+        stream.getTracks().forEach((t) => t.stop());
+        return false;
+      }
       streamRef.current = stream;
       setStatus('ready');
       return true;
@@ -68,10 +76,26 @@ export default function useRecorder() {
     }
   }, []);
 
+  const addActiveTime = useCallback(() => {
+    if (segmentStartRef.current === null) return;
+    activeMsRef.current += performance.now() - segmentStartRef.current;
+    segmentStartRef.current = null;
+  }, []);
+
+  const dropOrphan = useCallback(() => {
+    const url = orphanResultRef.current?.url;
+    orphanResultRef.current = null;
+    if (url) {
+      URL.revokeObjectURL(url);
+      urlsRef.current.delete(url);
+    }
+  }, []);
+
   /** 録音を始める。マイクの準備ができていなければ何もしない（false） */
   const start = useCallback(() => {
     const stream = streamRef.current;
     if (!stream || recorderRef.current) return false;
+    dropOrphan();
     const mimeType = pickMimeType();
     let recorder;
     try {
@@ -87,6 +111,7 @@ export default function useRecorder() {
       if (e.data && e.data.size > 0) chunksRef.current.push(e.data);
     };
     recorder.onstop = () => {
+      addActiveTime(); // stop() を通らず、マイクが切れて止まった場合の分
       const type = recorder.mimeType || mimeType || 'audio/webm';
       const blob = new Blob(chunksRef.current, { type });
       chunksRef.current = [];
@@ -100,8 +125,13 @@ export default function useRecorder() {
         urlsRef.current.add(url);
         result = { url, mimeType: type, size: blob.size, duration: activeMsRef.current / 1000 };
       }
-      stopResolveRef.current?.(result);
-      stopResolveRef.current = null;
+      if (stopResolveRef.current) {
+        stopResolveRef.current(result);
+        stopResolveRef.current = null;
+      } else {
+        // 話した分を捨てないよう、回答を終えるときに渡す
+        orphanResultRef.current = result;
+      }
     };
 
     recorderRef.current = recorder;
@@ -117,29 +147,31 @@ export default function useRecorder() {
     setIsRecording(true);
     setIsPaused(false);
     return true;
-  }, []);
+  }, [addActiveTime, dropOrphan]);
 
   /** 録音を止め、{ url, mimeType, size, duration } で解決する（録音していなければ null） */
   const stop = useCallback(() => {
     const recorder = recorderRef.current;
-    if (!recorder || recorder.state === 'inactive') return Promise.resolve(null);
-    if (recorder.state === 'recording') {
-      activeMsRef.current += performance.now() - segmentStartRef.current;
+    if (!recorder || recorder.state === 'inactive') {
+      const orphan = orphanResultRef.current;
+      orphanResultRef.current = null;
+      return Promise.resolve(orphan);
     }
+    addActiveTime();
     return new Promise((resolve) => {
       stopResolveRef.current = resolve;
       recorder.stop();
     });
-  }, []);
+  }, [addActiveTime]);
 
   /** 一時停止（質問を聞き直している間など）。非対応のブラウザでは何もしない */
   const pause = useCallback(() => {
     const recorder = recorderRef.current;
     if (recorder?.state !== 'recording' || typeof recorder.pause !== 'function') return;
     recorder.pause();
-    activeMsRef.current += performance.now() - segmentStartRef.current;
+    addActiveTime();
     setIsPaused(true);
-  }, []);
+  }, [addActiveTime]);
 
   const resume = useCallback(() => {
     const recorder = recorderRef.current;
@@ -157,6 +189,7 @@ export default function useRecorder() {
       recorder.stop();
     }
     recorderRef.current = null;
+    dropOrphan();
     stopResolveRef.current?.(null);
     stopResolveRef.current = null;
     streamRef.current?.getTracks().forEach((t) => t.stop());
@@ -164,7 +197,7 @@ export default function useRecorder() {
     setIsRecording(false);
     setIsPaused(false);
     setStatus((s) => (s === 'ready' ? 'idle' : s));
-  }, []);
+  }, [dropOrphan]);
 
   /** 録音の blob: URL を解放する */
   const discard = useCallback((url) => {
@@ -181,7 +214,9 @@ export default function useRecorder() {
   // 画面を離れたらマイクを止め、録音データを解放する
   useEffect(() => {
     const urls = urlsRef.current;
+    unmountedRef.current = false; // StrictMode の再マウントで true のまま残らないように戻す
     return () => {
+      unmountedRef.current = true;
       const recorder = recorderRef.current;
       if (recorder && recorder.state !== 'inactive') {
         recorder.onstop = null;

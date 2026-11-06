@@ -101,7 +101,7 @@
 /* 進行状況（スクロールしても見えるように、ヘッダーの下に固定） */
 .status {
   position: sticky;
-  top: 57px;
+  top: 69px; /* ヘッダーの高さ */
   z-index: 10;
   display: flex;
   align-items: center;

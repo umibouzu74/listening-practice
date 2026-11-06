@@ -119,7 +119,11 @@ let totalMissing = 0;
 let totalFixed = 0;
 let totalOrphan = 0;
 
+// --exam で1回分だけ見るときも、他の回の音声を「未参照」と言わないよう全体を集める
 const usedAudioPaths = new Set();
+for (const { data } of jsonFiles) {
+  for (const ref of getAudioRefs(data)) usedAudioPaths.add(ref.path);
+}
 
 for (const { path: jsonPath, data: exam } of jsonFiles) {
   if (targetExam && exam.id !== targetExam) continue;
