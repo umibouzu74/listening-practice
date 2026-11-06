@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2021-1-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2021年度 第1回",
+    "year": 2021,
+    "grade": "pre1",
+    "session": "2021-1"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2021-1-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a man who was about to retire from his job.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a man was arriving home after work."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a man was arriving home after work. He looked very tired, and his wife met him at the door. She told him that he only had one more week before he retired. The next week, there was a retirement party for him at his office. Under a \"Happy Retirement\" sign, a woman handed him a bouquet of flowers while his coworkers clapped. He seemed very happy. The following month, he was enjoying his new life. He was working in the garden with his wife, and he smiled as he held up a vegetable that he had grown. Three months later, however, he got a phone call from someone at his old company. A chart behind that person showed that sales figures had fallen sharply. The caller asked him if he could come back. The man listened with a troubled look on his face.",
+          "modelAnswerJa": "ある日、ある男性が仕事を終えて帰宅するところだった。彼はとても疲れた様子で、妻が玄関で彼を出迎えた。妻は彼に、退職まであと 1 週間だけだと言った。翌週、職場で彼の退職を祝う会が開かれた。「Happy Retirement（退職おめでとう）」の看板の下で、同僚たちが拍手をする中、ある女性が彼に花束を手渡した。彼はとてもうれしそうだった。翌月、彼は新しい生活を楽しんでいた。妻と一緒に庭で作業をしていて、自分が育てた野菜を笑顔で掲げていた。ところが 3 か月後、以前の会社の人から彼に電話がかかってきた。その人の後ろにあるグラフは、売上が急激に落ち込んでいることを示していた。電話の相手は彼に、戻って来られないかと尋ねた。彼は困った表情で話を聞いていた。",
+          "explanation": "1 コマ目の You only have one more week. は told him that he only had one more week（you → he、have → had）とし、カードの a man who was about to retire を踏まえて before he retired を補うと意味がはっきりします。2 コマ目は看板の Happy Retirement を使い、花束と同僚の拍手を描写します。3 コマ目には文字がないので、絵から退職後の生活を楽しんでいることを読み取り、妻と一緒に庭で野菜を育てている様子を言いましょう。4 コマ目は画面が左右に分かれていて、右側が電話をかけている会社の様子です。Sales Figures のグラフで売上が急に下がっていることを言うと、Can you come back? と頼む理由が伝わります。この質問は asked him if he could come back（疑問文 → if + 主語 + 動詞、can → could）です。however を入れて、穏やかな生活が 1 本の電話で揺らぐ展開を示しましょう。",
+          "checkpoints": [
+            "1コマ目: 疲れて帰宅した男性に、妻が「あと1週間だ」と言ったことを間接話法で言えた",
+            "2コマ目: Happy Retirement の看板の下で、花束と拍手で送られている様子を描写できた",
+            "3コマ目: 退職後、妻と庭で野菜を育てて楽しんでいることを描写できた",
+            "4コマ目: 売上の急落と「戻って来られないか」という電話（asked him if he could ...）を、however などで言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the man, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I feel sorry for my old coworkers, and I'm glad that they still need me. But I'm really enjoying my quiet life with my wife and my garden. Maybe I can offer to help them for just a few days a week, after talking it over with her.\"",
+          "modelAnswerJa": "「かつての同僚たちは気の毒だし、今も自分を必要としてくれるのはうれしい。でも、妻との静かな暮らしや庭仕事を本当に楽しんでいる。妻とよく話し合ったうえで、週に数日だけ手伝うと申し出てもいいかもしれない」と考えていると思います。",
+          "explanation": "4 コマ目の男性は、電話を受けて困った表情をしています。I feel sorry for ... But ... で迷う気持ちを表し、Maybe I can offer to ... で折衷案を出すと、無理のない答えになります。talk it over with ...（〜とよく話し合う）は、相談して決める場面で使える表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Have people nowadays forgotten the importance of eating a balanced diet?",
+          "promptJa": "最近の人々は、バランスのとれた食事をとることの大切さを忘れてしまったのでしょうか。",
+          "modelAnswer": "Yes, I think they have. Many people are so busy that they skip meals or often rely on fast food and instant food because it is quick and cheap. Some young people also try to lose weight by eating too little. Although people know a lot about health, they often do not put that knowledge into practice in their daily lives.",
+          "modelAnswerJa": "はい、忘れてしまったと思います。忙しくて食事を抜いたり、手軽で安いからとファストフードやインスタント食品に頼ったりする人がたくさんいます。また、若い人の中には、食べる量を減らしすぎてやせようとする人もいます。人々は健康について多くのことを知っていますが、その知識を日常生活で実践していないことがよくあります。",
+          "explanation": "Have ...? という現在完了の質問なので、Yes, I think they have. と have で受けます。so busy that ...（とても忙しいので〜）で原因を述べ、最後に「知っていても実践していない」と、質問の forgotten に答える形でまとめています。No の立場なら「健康への関心は高まっており、栄養表示を確認したり自炊をしたりする人も多い」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Will more people choose to retire early in the future?",
+          "promptJa": "今後、早期退職を選ぶ人は増えるでしょうか。",
+          "modelAnswer": "No, I don't think so. People are living longer these days, so they need more money for their lives after retirement. Many people also worry about whether they will receive enough from their pensions. In addition, many older people are still healthy and want to keep working, so most people will probably continue to work for as long as they can.",
+          "modelAnswerJa": "いいえ、そうは思いません。近ごろは寿命が延びているので、退職後の生活により多くのお金が必要です。また、十分な年金を受け取れるのかどうかを心配している人も多くいます。さらに、多くの高齢者はまだ元気で働き続けたいと考えているので、ほとんどの人はおそらくできるだけ長く働き続けるでしょう。",
+          "explanation": "「長生き」→「年金の不安」→「元気な高齢者」と、日本の高齢社会に当てはまる理由を重ねています。Will ...? の質問に No, I don't think so. と答え、最後は will probably を使って予測を述べています。Yes の立場なら「お金より自分の時間を大切にする人が増え、投資や副業で早めに仕事を辞められる人もいる」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Is cybercrime becoming a bigger problem in today's society?",
+          "promptJa": "今日の社会で、サイバー犯罪はより大きな問題になってきているでしょうか。",
+          "modelAnswer": "Yes, I think so. As more people shop, bank, and communicate online, criminals have more chances to steal personal information and money. Companies, hospitals, and government offices can also be attacked, and this may stop important services. Because these criminals can operate from anywhere in the world, it is very difficult for the police to catch them.",
+          "modelAnswerJa": "はい、そう思います。ネットで買い物や銀行取引、連絡をする人が増えるにつれて、犯罪者が個人情報やお金を盗む機会も増えています。企業や病院、官公庁も攻撃を受けることがあり、重要なサービスが止まってしまうかもしれません。こうした犯罪者は世界のどこからでも活動できるので、警察が捕まえるのはとても困難です。",
+          "explanation": "As more people ...（〜する人が増えるにつれて）で、問題が大きくなっている理由を示しています。次に個人だけでなく企業や病院への被害に話を広げ、最後に「捕まえにくい」という問題を加えています。No の立場なら「セキュリティ技術や法律の整備が進み、利用者の意識も高まっている」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2021-1-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a young woman who started working for a restaurant chain.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a young woman was at an orientation for new employees."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a young woman was at an orientation for new employees. She looked excited, and she told the personnel manager that she wanted to work in the product development section. A month later, however, the manager handed her a document and told her that she would be working in the sales section. She was shocked, because she had imagined herself creating new dishes in a white coat, and now that dream was gone. The next week, she was hurrying down a street in the city. She was talking on her phone and checking her schedule book at the same time, while carrying a heavy-looking bag. She looked very stressed. Six months later, she was standing in front of the manager, who was looking at her staff evaluation sheet. He pointed at it and told her that she needed to do better. She seemed very disappointed to hear that.",
+          "modelAnswerJa": "ある日、ある若い女性が新入社員向けのオリエンテーションに参加していた。彼女はわくわくした様子で、人事部長に商品開発部で働きたいと伝えた。ところが 1 か月後、部長は彼女に書類を手渡し、営業部で働くことになると告げた。彼女はショックを受けた。白衣を着て新しい料理を作る自分の姿を思い描いていたのに、その夢が消えてしまったからだ。翌週、彼女は街の通りを急いでいた。重そうなかばんを持ちながら、電話で話すと同時にスケジュール帳を確認していた。彼女はとてもストレスを感じている様子だった。6 か月後、彼女は部長の前に立っていて、部長は彼女の人事評価シートを見ていた。部長はそれを指さし、もっと頑張る必要があると彼女に告げた。彼女はそれを聞いてとてもがっかりした様子だった。",
+          "explanation": "1 コマ目の I want to work in the product development section. は told the personnel manager that she wanted to work ...（want → wanted）とします。首から下げた名札の personnel manager は、相手が誰かを言うのに使いましょう。2 コマ目の You'll be working in the sales section. は told her that she would be working in the sales section（you → she、will → would）です。同じ 2 コマ目の × 印のついた考えの吹き出しは「白衣で料理を開発する夢」が消えたことを表すので、she had imagined herself ... と過去完了で説明します。3 コマ目には文字がないので、電話・スケジュール帳・重そうなかばん・汗の印から、忙しさやストレスを読み取ります。4 コマ目は Staff Evaluation の紙を使い、You need to do better. を told her that she needed to do better と間接話法にして締めくくります。",
+          "checkpoints": [
+            "1コマ目: オリエンテーションで人事部長に「商品開発部で働きたい」と伝えたことを間接話法で言えた",
+            "2コマ目: 営業部への配属を告げられ（she would be working ...）、希望がかなわずショックを受けたことを言えた",
+            "3コマ目: 電話をしながらスケジュール帳を確認し、急いでいる忙しそうな様子を描写できた",
+            "4コマ目: 人事評価シートを見ながら「もっと頑張る必要がある」と言われ、がっかりしたことを言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the young woman, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの若い女性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I've been working as hard as I can, but it still isn't enough. Even so, I shouldn't give up yet. I'll ask my manager exactly what I need to improve, because learning about sales could also help me move to product development someday.\"",
+          "modelAnswerJa": "「できる限り頑張ってきたのに、それでもまだ足りないのか。それでも、まだあきらめるべきではない。何を改善すべきかを具体的に部長に聞いてみよう。営業について学ぶことは、いつか商品開発部に移るときにも役立つかもしれないから」と考えていると思います。",
+          "explanation": "4 コマ目の女性は、忙しく働いているのに評価が低く、がっかりしている場面です。まず気持ちを述べ、Even so, ...（それでも）で前向きに切り替えると、次の行動につなげやすくなります。1 コマ目の商品開発部の希望に触れると、話全体を踏まえた答えになります。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think schools are responsible for preparing students for their future career?",
+          "promptJa": "学校には、生徒の将来の仕事に向けて準備をさせる責任があると思いますか。",
+          "modelAnswer": "Yes, I think so. Schools are where most young people first learn about different kinds of jobs, and not all students can get this information at home. Schools can also teach useful skills such as communication and teamwork, and offer work experience programs. This helps students choose a career that suits them, so they are less likely to quit soon after starting.",
+          "modelAnswerJa": "はい、そう思います。学校は、ほとんどの若者がさまざまな仕事について初めて学ぶ場所であり、すべての生徒が家庭でそうした情報を得られるわけではありません。また、学校はコミュニケーションやチームワークなどの役に立つ技能を教えたり、職場体験の機会を設けたりすることができます。これによって、生徒は自分に合った仕事を選びやすくなり、就職してすぐに辞めてしまう可能性も低くなります。",
+          "explanation": "「家庭だけでは情報が足りない」という理由で学校の役割を示し、次に具体的にできること（技能の指導・職場体験）を挙げています。最後に「自分に合った仕事を選べる」という効果を述べ、希望の部署に入れなかったカードの話題ともつなげています。No の立場なら「学校は基礎的な学力を育てる場であり、仕事に必要なことは就職してから会社で学ぶものだ」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Are people in modern society better at dealing with stress than people were in the past?",
+          "promptJa": "現代社会の人々は、昔の人々よりもストレスにうまく対処できているでしょうか。",
+          "modelAnswer": "No, I don't think so. Because of smartphones and social media, people are always connected, so it is hard for them to get away from work or to stop comparing themselves with others. They also have fewer close ties with their neighbors and relatives than before. There is more information about stress now, but many people are still struggling to deal with it.",
+          "modelAnswerJa": "いいえ、そうは思いません。スマートフォンや SNS のせいで人々は常につながっているので、仕事から離れたり、他人と自分を比べるのをやめたりするのが難しくなっています。また、以前に比べて、近所の人や親戚との親しいつながりも少なくなっています。今はストレスについての情報は増えましたが、それでも対処に苦労している人はたくさんいます。",
+          "explanation": "質問は昔との比較なので、「常につながっている」「人とのつながりが減った」と、今と昔で変わった点を理由にしています。最後の There is more ..., but ... は、反対意見を認めたうえで自分の立場に戻す形です。Yes の立場なら「カウンセリングが身近になり、心の健康について話しやすくなった」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should the government do more to promote Japanese products overseas?",
+          "promptJa": "政府は日本製品を海外に広めるためにもっと取り組むべきでしょうか。",
+          "modelAnswer": "Yes, I think it should. Japan's population is shrinking, so companies need to find more customers abroad. Japanese products, such as food and traditional crafts, have a good reputation for quality, but many small companies cannot afford to advertise overseas. With government support, such as trade fairs in other countries, they could sell more and help the Japanese economy grow.",
+          "modelAnswerJa": "はい、取り組むべきだと思います。日本の人口は減少しているので、企業は海外でもっと多くの客を見つける必要があります。食品や伝統工芸品などの日本製品は品質の高さで評判がよいのですが、多くの中小企業には海外で宣伝する余裕がありません。海外での見本市のような政府の支援があれば、より多くの商品を売ることができ、日本経済の成長にもつながるでしょう。",
+          "explanation": "「国内市場の縮小」という背景から始め、「品質はよいが中小企業には宣伝する余裕がない」と、なぜ政府の支援が必要なのかを説明しています。質問の the government は単数なので、Yes, I think it should. と it で受けます。No の立場なら「よい商品なら自然に売れるし、税金は国内の福祉や教育に使うべきだ」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2023-1-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2023年度 第1回",
+    "year": 2023,
+    "grade": "pre1",
+    "session": "2023-1"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2023-1-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a university student who lived with his family.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a university student was watching TV with his mother and grandfather."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a university student was watching TV with his mother and grandfather. The news program was about accidents involving elderly drivers, and a graph showed that the number of these accidents was rising. After seeing this, his grandfather said that he should stop driving. The next week, the student went to ABC Driving School and got a registration form. He looked happy about learning to drive. A few months later, he came into the room holding his new driver's license. He showed it to his grandfather and told him that he could drive him anytime. His grandfather smiled and looked very pleased. That weekend, however, the grandfather was standing in front of a calendar with pictures of what looked like golf clubs and fishing rods on every Saturday and Sunday. The student's mother looked troubled and told the student that his grandfather had plans every weekend. The student looked surprised. He would probably have to drive his grandfather every single weekend.",
+          "modelAnswerJa": "ある日、ある大学生が母親と祖父と一緒にテレビを見ていた。ニュース番組は高齢ドライバーが関わる事故を取り上げていて、グラフはそうした事故の数が増えていることを示していた。これを見たあと、祖父は自分は運転をやめるべきだと言った。翌週、大学生は ABC 自動車学校に行き、申込書を受け取った。彼は運転を習うことをうれしく思っている様子だった。数か月後、彼は取得したばかりの運転免許証を持って部屋に入ってきた。彼はそれを祖父に見せ、いつでも車で送ってあげられると言った。祖父はほほえみ、とてもうれしそうだった。ところがその週末、祖父はカレンダーの前に立っていて、そのカレンダーにはすべての土曜日と日曜日にゴルフクラブや釣りざおのような絵が描かれていた。大学生の母親は困ったような様子で、おじいさんは毎週末予定があると彼に伝えた。大学生は驚いた様子だった。おそらく毎週末、祖父を車で送らなければならないのだろう。",
+          "explanation": "1 コマ目はテレビの見出し（Accidents Involving Elderly Drivers）と右肩上がりのグラフを合わせて、高齢ドライバーの事故が増えているというニュースであることを説明します。吹き出しの I should stop driving. は、しっぽが祖父のほうを向いているので祖父の発言です。should はそのままで、said that he should stop driving（I → he）とします。2 コマ目は ABC Driving School と Registration Form から、大学生が教習所に申し込もうとしていることを伝えます。3 コマ目の I can drive you anytime. は told him that he could drive him anytime（can → could、I → he、you → him）です。4 コマ目の He has plans every weekend. は母親が祖父を指して大学生に言っているので、He を his grandfather に置き換え、told the student that his grandfather had plans every weekend とします。カレンダーの土日すべてに絵があることにも触れ、however を入れて「いつでも送る」という約束が大きな負担になりそうだという展開を示しましょう。",
+          "checkpoints": [
+            "1コマ目: テレビのニュース（高齢ドライバーの事故の増加）と、祖父の「運転をやめるべきだ」を間接話法で言えた",
+            "2コマ目: 大学生が ABC Driving School で申込書を受け取ったことを描写できた",
+            "3コマ目: 運転免許証を見せて「いつでも車で送れる」と祖父に伝えたことを間接話法で言えた",
+            "4コマ目: カレンダーの土日の予定と、母親の「彼は毎週末予定がある」を、驚く大学生の様子とあわせて言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the university student, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの大学生だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I told Grandpa I could drive him anytime, but I never expected him to have plans every single weekend. I'm glad that he's enjoying himself, but I need some time for myself, too. I should talk to him and decide which weekends I can drive him.\"",
+          "modelAnswerJa": "「おじいちゃんにいつでも送ると言ったけれど、毎週末に予定があるとは思いもしなかった。おじいちゃんが楽しんでいるのはうれしいけれど、自分の時間も必要だ。おじいちゃんと話し合って、どの週末なら送れるかを決めよう」と考えていると思います。",
+          "explanation": "4 コマ目の大学生は、自分の「いつでも送る」という言葉が思わぬ負担になりそうだと気づいた場面です。I never expected ... で意外だった気持ちを述べ、I should talk to him and decide ... で現実的な解決策につなげています。祖父を責めるのではなく I'm glad that ... と気づかいを入れると、印象のよい答えになります。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think parents should be stricter with their children?",
+          "promptJa": "親は子どもに対してもっと厳しくすべきだと思いますか。",
+          "modelAnswer": "No, I don't think so. If parents are too strict, children may become afraid of making mistakes, and they may stop talking to their parents about their problems. It is more important for children to learn why rules matter and to make their own decisions. Of course, parents should teach them basic manners, but they don't need to be stricter than that.",
+          "modelAnswerJa": "いいえ、そうは思いません。親が厳しすぎると、子どもは失敗を恐れるようになり、自分の悩みを親に話さなくなるかもしれません。子どもにとっては、なぜルールが大切なのかを学び、自分で物事を決めることのほうが重要です。もちろん親は基本的なマナーを教えるべきですが、それ以上に厳しくする必要はありません。",
+          "explanation": "「厳しすぎることの問題点（失敗を恐れる・相談しなくなる）」→「より大切なこと（理由を理解し、自分で決める）」の順に述べ、最後に Of course, ... で「しつけが不要なわけではない」と補っています。Of course で反対意見に少し歩み寄ると、極端な主張に聞こえません。Yes の立場なら「社会のルールや礼儀は、小さいうちに家庭できちんと教える必要がある」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Can people trust the news that they see on TV these days?",
+          "promptJa": "最近、人々はテレビで見るニュースを信頼できるでしょうか。",
+          "modelAnswer": "Yes, I think they can, for the most part. TV stations have professional reporters, and information is usually checked carefully before it goes on the air. If a program reports something incorrect, it is generally corrected later. Compared with information on social media, TV news is much more reliable, although viewers should still watch it with a critical eye.",
+          "modelAnswerJa": "はい、大部分は信頼できると思います。テレビ局にはプロの記者がいて、情報はふつう放送前に入念に確認されます。番組が誤った内容を伝えた場合も、たいていはあとで訂正されます。SNS の情報と比べると、テレビのニュースはずっと信頼できますが、それでも視聴者は批判的な目を持って見るべきです。",
+          "explanation": "質問の Can people ...? に合わせて Yes, I think they can と答え、for the most part（大部分は）を添えて言い切りすぎないようにしています。「放送前の確認」「訂正の仕組み」という理由のあと、SNS と比べることで信頼性を具体的に示しました。No の立場なら「スポンサーや視聴率の影響で、伝え方が偏ることがある」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Will more people choose to work past retirement age in the future?",
+          "promptJa": "将来、定年を過ぎても働くことを選ぶ人は増えるでしょうか。",
+          "modelAnswer": "Yes, I think so. People are living longer and staying healthy into their later years, so many of them will want to stay active. In addition, pensions alone may not be enough to support a long retirement. Because Japan is also facing a labor shortage, companies will welcome experienced older workers and offer them more opportunities.",
+          "modelAnswerJa": "はい、そう思います。人々は長生きになり、高齢になっても健康でいられるので、活動的でいたいと思う人が多くなるでしょう。また、長い老後を年金だけで支えるのは難しいかもしれません。日本は人手不足にも直面しているので、企業は経験豊富な高齢の労働者を歓迎し、より多くの機会を提供するでしょう。",
+          "explanation": "「働きたい理由（健康で長生き）」「働く必要がある理由（年金）」「企業側の事情（人手不足）」と、3 つの視点から理由を挙げています。No.4 では、日本社会の動きに触れると視野の広い答えになります。No の立場なら「老後は趣味や家族との時間を大切にしたい人が多く、体力的にも長く働くのは難しい」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2023-1-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a woman who worked at a dentist's office.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a woman was working at the reception desk of a dentist's office."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a woman was working at the reception desk of a dentist's office. Some children in the waiting room were crying. One boy was rubbing his eyes and crying loudly, and he did not seem to want to go into the treatment room, where the dentist was waiting. The woman watched with a worried look on her face. A few days later, she was talking with the dentist. She suggested putting some toys, such as a robot and a teddy bear, in the waiting room to help the children relax. The dentist smiled and nodded, so he seemed to like her idea. The next week, there was a play area with lots of toys in the waiting room. A little girl holding a teddy bear was smiling as she walked toward the treatment room with her mother, and the dentist and the woman looked happy. Later that day, however, the toys were scattered around the play area, and some of them looked broken. The dentist gestured toward them and told the woman that they already needed new toys.",
+          "modelAnswerJa": "ある日、ある女性が歯科医院の受付で働いていた。待合室では何人かの子どもが泣いていた。1 人の男の子は目をこすりながら大声で泣いていて、歯科医が待っている診察室に入りたくない様子だった。女性は心配そうな顔でその様子を見ていた。数日後、彼女は歯科医と話をしていた。彼女は、子どもたちが落ち着けるように、ロボットやテディベアなどのおもちゃを待合室に置くことを提案した。歯科医はほほえんでうなずいたので、彼女の考えを気に入った様子だった。翌週、待合室にはおもちゃがたくさんある遊び場ができていた。テディベアを持った小さな女の子が笑顔で母親と一緒に診察室に向かって歩いていて、歯科医と女性もうれしそうだった。ところがその日のうちに、おもちゃは遊び場に散らかり、いくつかは壊れているように見えた。歯科医はそれらに手を向けて、もう新しいおもちゃが必要だと女性に伝えた。",
+          "explanation": "1 コマ目には文字がないので、泣いている子どもたちと、それを心配そうに見ている女性の様子を自分の言葉で描写します。2 コマ目の吹き出しはロボットとテディベアの絵だけなので、女性の提案だと読み取り、suggested putting some toys ... のように言葉にします。3 コマ目は 1 コマ目と同じ待合室なので、泣いていた子どもたちが笑顔に変わったことが伝わるように描写しましょう。4 コマ目の We already need new toys. は、歯科医がおもちゃに手を向けて話しているので歯科医の発言で、told the woman that they already needed new toys（we → they、need → needed）とします。Later that day という短い時間で必要になったことが already の驚きにつながるので、already を落とさないようにしましょう。however を入れると、せっかくの工夫がすぐに問題を生んだという結末がはっきりします。",
+          "checkpoints": [
+            "1コマ目: 待合室で子どもたちが泣いていて、女性が心配そうに見ていることを描写できた",
+            "2コマ目: ロボットやテディベアなどのおもちゃを待合室に置くことを歯科医に提案したと言えた",
+            "3コマ目: おもちゃのある遊び場ができ、子どもたちが笑顔になったことを描写できた",
+            "4コマ目: おもちゃが散らかって壊れた様子と、「もう新しいおもちゃが必要だ」を間接話法で言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"The toys really did cheer the children up, so my idea wasn't a bad one. But they won't last long if the kids play with them so roughly. Next time, we should choose stronger toys and ask parents to keep an eye on their children while they play.\"",
+          "modelAnswerJa": "「おもちゃのおかげで子どもたちは本当に元気になったのだから、私の考えは悪くなかった。でも、こんなに乱暴に遊ばれたら長くはもたない。次はもっと丈夫なおもちゃを選んで、遊んでいる間は子どもを見ていてもらうよう保護者にお願いしよう」と考えていると思います。",
+          "explanation": "4 コマ目は、女性のアイデアが成功した一方で、おもちゃがすぐに傷んでしまった場面です。まず「アイデア自体はよかった」と認め、But で問題点を述べ、Next time, we should ... で「次の対策」を具体的に 2 つ挙げています。keep an eye on（〜から目を離さない）は、子どもの話題で使いやすい表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think it is harder to raise children now than it was in the past?",
+          "promptJa": "昔と比べて、今のほうが子育ては難しいと思いますか。",
+          "modelAnswer": "Yes, I think so. In the past, grandparents and neighbors often helped parents take care of their children, but now many parents have to do everything by themselves. In many families, both parents also work full-time. Moreover, parents today have to worry about new problems such as smartphone use and online bullying, and education has become more expensive.",
+          "modelAnswerJa": "はい、そう思います。昔は祖父母や近所の人が子どもの世話を手伝ってくれることがよくありましたが、今は多くの親がすべてを自分たちでしなければなりません。また、両親ともフルタイムで働いている家庭も多いです。さらに、今の親はスマートフォンの使い方やネットいじめといった新しい問題も心配しなければならず、教育にかかる費用も高くなっています。",
+          "explanation": "質問が今と昔の比較なので、In the past, ..., but now ... の形で違いをはっきり示しています。そのあとで「共働き」「スマートフォンやネットの問題」「教育費」と、今ならではの事情を重ねました。No の立場なら「育児用品や保育サービス、ネットの情報が充実し、父親の育児参加も進んでいるので、昔より楽な面もある」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do you think companies focus too much on making their products cheaper?",
+          "promptJa": "企業は製品を安くすることに力を入れすぎていると思いますか。",
+          "modelAnswer": "Yes, I think so. When companies compete mainly on price, they often cut costs by using cheaper materials or paying workers and suppliers less. As a result, product quality can suffer. In addition, cheap products tend to be thrown away quickly, which creates more waste. I think companies should focus more on making good products that last a long time.",
+          "modelAnswerJa": "はい、そう思います。企業が主に価格で競争すると、より安い材料を使ったり、従業員や取引先に払うお金を減らしたりしてコストを削ることがよくあります。その結果、製品の品質が落ちることがあります。また、安い製品はすぐに捨てられがちで、ごみの増加にもつながります。企業は、長く使えるよい製品を作ることにもっと力を入れるべきだと思います。",
+          "explanation": "「価格競争 → コスト削減 → 品質の低下」という流れを As a result でつなぎ、さらに「ごみの増加」という別の問題も加えています。compete on price（価格で競争する）や cut costs（コストを削る）は、企業の話題で役立つ表現です。No の立場なら「物価が上がる中で安い商品は家計を助けるし、技術の進歩で安くても品質のよい製品が増えている」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Will the government be able to meet the needs of Japan's aging society?",
+          "promptJa": "政府は日本の高齢化社会のニーズに応えることができるでしょうか。",
+          "modelAnswer": "No, I don't think so, at least not by itself. The number of elderly people is growing while the number of young taxpayers is falling, so it will be very difficult to pay for pensions and medical care. There is also a serious shortage of caregivers. Local communities and private companies will need to help the government support older people.",
+          "modelAnswerJa": "いいえ、少なくとも政府だけでは難しいと思います。高齢者の数が増える一方で、税金を納める若い世代は減っているので、年金や医療の費用をまかなうのはとても難しくなるでしょう。また、介護の担い手も深刻に不足しています。地域社会や民間企業が、政府と一緒に高齢者を支えていく必要があるでしょう。",
+          "explanation": "at least not by itself（少なくとも政府だけでは無理だ）と条件を付けることで、完全な否定を避けています。「お金の問題（年金・医療費）」と「人手の問題（介護）」を分けて述べ、最後に「では誰が支えるのか」まで答えると、話がまとまります。Yes の立場なら「定年の延長や介護ロボットの導入など、政策次第で対応できる」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}

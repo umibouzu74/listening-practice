@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2018-1-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2018年度 第1回",
+    "year": 2018,
+    "grade": "pre1",
+    "session": "2018-1"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2018-1-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a woman who became interested in a political party.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a woman was at home with her husband."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a woman was at home with her husband. They were having a meal at the table, and she was holding up a flyer about the ABC Party's policies. It also said that volunteers were wanted. She pointed at it and told her husband that their policies were fantastic. He smiled as he listened to her. The following week, the woman was helping the party as a volunteer. She was out on the street, handing leaflets to people passing by, while a man spoke from the top of an ABC Party van. On election night, she went to an event held by the party. A man stood on stage in front of an ABC Party sign, holding flowers and raising his fist in the air. It seemed that the party had won, and the woman was clapping happily with the rest of the crowd. Six months later, the woman and her husband were having a meal while watching the news on TV. The newscaster said that the ABC Party was breaking its promises. The woman looked disappointed.",
+          "modelAnswerJa": "ある日、ある女性が夫と一緒に家にいた。2 人はテーブルで食事をしていて、彼女は ABC 党の政策について書かれたチラシを掲げていた。そこにはボランティア募集とも書かれていた。彼女はそれを指さしながら、この党の政策はすばらしいと夫に言った。夫はほほえみながら話を聞いていた。翌週、女性はボランティアとして党の手伝いをしていた。彼女は通りに出て道行く人々にビラを手渡していて、ABC 党の車の上では男性が話をしていた。選挙の夜、彼女は党が開いた集会に行った。男性が ABC 党の看板の前のステージに立ち、花束を持って拳を高く上げていた。党が勝ったようで、女性は周りの人たちと一緒にうれしそうに拍手をしていた。6 か月後、女性と夫はテレビのニュースを見ながら食事をしていた。ニュースキャスターは、ABC 党が公約を破っていると伝えた。女性はがっかりした様子だった。",
+          "explanation": "1 コマ目のチラシは、見出しの ABC Party Policies と Volunteers wanted! の両方を使います。Volunteers wanted! を押さえておくと、2 コマ目で女性がビラを配っている理由（ボランティアとして手伝っている）が自然につながります。吹き出しの Their policies are fantastic! は told her husband that their policies were fantastic（are → were）です。3 コマ目に吹き出しはないので、ABC Party の看板、壇上で拳を上げる男性、拍手する女性から「党が勝ったようだ」と読み取り、It seemed that ... と表現すると無理がありません。4 コマ目の The ABC Party is breaking its promises. の話し手はテレビのニュースキャスターで、said that the ABC Party was breaking its promises（is → was）と間接話法にします。最後に女性ががっかりした様子を加えると、1 コマ目の期待との落差が伝わります。",
+          "checkpoints": [
+            "1コマ目: チラシの内容（ABC 党の政策・ボランティア募集）と「政策がすばらしい」という発言を間接話法で言えた",
+            "2コマ目: 女性がボランティアとして街頭でビラを配り、党の車の上で男性が話していることを描写できた",
+            "3コマ目: 選挙の夜、壇上の男性と拍手する女性を描写し、党が勝ったようだと言えた",
+            "4コマ目: ニュースが「ABC 党が公約を破っている」と伝え、女性ががっかりしたことを言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I worked so hard for this party because I believed in its policies, but I was wrong to trust its promises so easily. From now on, I'll check what politicians actually do after an election. I might also write to my local representative about this.\"",
+          "modelAnswerJa": "「政策を信じてこの党のために一生懸命活動したのに、公約をあんなに簡単に信じたのは間違いだった。これからは、政治家が選挙のあとに実際に何をするのかを確かめるようにしよう。このことについて地元の議員に手紙を書いてもいいかもしれない」と考えていると思います。",
+          "explanation": "4 コマ目の女性は、自分が応援した党が公約を破っていると知った場面です。I worked so hard ..., but ... で「努力」と「裏切られた気持ち」を対比し、From now on, I'll ... で今後の行動を続けています。check what politicians actually do（政治家が実際に何をするかを確かめる）のように、言葉と行動を区別する言い方を使うと内容に合います。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Is volunteering a good way for students to help society?",
+          "promptJa": "ボランティア活動は、学生が社会の役に立つためのよい方法でしょうか。",
+          "modelAnswer": "Yes, I think so. Students can help in many ways, such as cleaning up local parks or spending time with elderly people. Even small activities like these make a real difference in a community. Students can also learn skills that they cannot learn in the classroom, such as how to work with people of different ages.",
+          "modelAnswerJa": "はい、そう思います。地域の公園の清掃やお年寄りと一緒に過ごすことなど、学生が手助けできる方法はたくさんあります。こうした小さな活動でも、地域にとっては確かな力になります。また、年齢の異なる人たちと協力する方法など、教室では学べない技能を身につけることもできます。",
+          "explanation": "質問は Is ... a good way ...? なので Yes, I think so. で答えています。具体的な活動例（公園の清掃・お年寄りとの交流）を挙げ、社会にとっての利点に加えて学生自身の利点にも触れています。No の立場なら「学生は勉強に集中すべきで、学校で義務にされた活動では本当の助けにならない」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Should political leaders always do what the public wants?",
+          "promptJa": "政治の指導者は、常に国民が望むことをすべきでしょうか。",
+          "modelAnswer": "No, I don't think so. Leaders should listen to the public, but the word \"always\" goes too far. Popular decisions are not always the best ones for a country in the long term. For example, people usually don't want higher taxes, but they may sometimes be necessary to pay for social welfare. Leaders have to make difficult decisions and explain the reasons clearly.",
+          "modelAnswerJa": "いいえ、そうは思いません。指導者は国民の声に耳を傾けるべきですが、「常に」というのは行きすぎです。国民に人気のある決定が、長い目で見て国にとって最善とは限りません。たとえば、ふつう人々は増税を望みませんが、社会福祉の費用をまかなうために必要な場合もあります。指導者は難しい決断をして、その理由をはっきり説明しなければなりません。",
+          "explanation": "質問の always に注目し、「耳を傾けるのは大事だが、常に従うのは行きすぎ」と線を引いています。in the long term（長い目で見て）は政治や経済の話題で使いやすい表現です。増税という具体例を挙げると主張が伝わりやすくなります。Yes の立場なら「民主主義では国民の意思に従うのが指導者の役目で、選挙で選ばれた以上は約束を守るべきだ」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should the government raise taxes in order to improve medical care?",
+          "promptJa": "政府は、医療をよくするために増税すべきでしょうか。",
+          "modelAnswer": "No, I don't think it should. Many people are already struggling with high living costs, so higher taxes would make their lives even harder. Before asking people to pay more, the government should reduce waste and use the current budget more carefully. For example, it could encourage people to prevent illness through regular checkups, which could help lower medical costs.",
+          "modelAnswerJa": "いいえ、そうすべきではないと思います。すでに生活費の高さに苦しんでいる人は多いので、増税すれば暮らしはさらに厳しくなるでしょう。国民にもっと負担を求める前に、政府は無駄を減らし、今の予算をもっと慎重に使うべきです。たとえば、定期健診によって病気を予防するよう人々に勧めることもでき、それは医療費を減らすのに役立つかもしれません。",
+          "explanation": "「国民の負担」という理由のあと、Before asking people to pay more, ... で「増税より先にすべきこと」を示し、予防医療という代案まで述べています。反対するだけでなく代案を出すと、説得力が増します。Yes の立場なら「高齢化で医療費が増えており、質の高い医療を守るには国民全体で負担を分け合う必要がある」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2018-1-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about the mayor of a city that was selected to host a World Expo.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, the mayor was talking with his assistant in his office."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, the mayor was talking with his assistant in his office. She was standing next to a map that showed the downtown area and the Expo site. She pointed out that the site was 30 kilometers from downtown and said that it was too far away. The mayor looked at the map and seemed to be thinking about the problem. At a staff meeting, he stood in front of a board that listed two ideas: building a monorail and running shuttle buses. The monorail idea was circled, and his staff nodded in agreement. Two years later, the World Expo had opened, and the new monorail was running. Huge crowds of people filled the area around the monorail station and the entrance to the Expo. The mayor watched them and looked satisfied. A year after the Expo, however, the mayor was in his office, looking at a graph of monorail passengers on his computer. It showed that the number of passengers had fallen sharply. He put his hand to his chin and looked worried.",
+          "modelAnswerJa": "ある日、市長は執務室で補佐官と話をしていた。彼女は、中心街と万博会場を示した地図の横に立っていた。彼女は、会場が中心街から 30 キロ離れていることを指摘し、遠すぎると言った。市長は地図を見ながら、その問題について考えている様子だった。スタッフ会議で、彼はモノレールの建設とシャトルバスの運行という 2 つの案が書かれたボードの前に立った。モノレールの案が丸で囲まれていて、スタッフはうなずいて賛成していた。2 年後、万博が開幕し、新しいモノレールが走っていた。モノレールの駅と万博の入口の周りは大勢の人であふれていた。市長はその様子を見て、満足そうだった。ところが万博の 1 年後、市長は執務室でコンピューターに映ったモノレールの乗客数のグラフを見ていた。グラフは乗客数が急激に減ったことを示していた。彼はあごに手を当てて、心配そうな様子だった。",
+          "explanation": "1 コマ目は Mayor の札から市長が座っている男性だと分かり、吹き出しの話し手は立っている補佐官の女性です。地図の 30 km を使って the site was 30 kilometers from downtown と具体的に言い、It's too far away. は said that it was too far away（is → was）とします。2 コマ目の Ideas: は、Build monorail / Run shuttle buses を building a monorail and running shuttle buses と動名詞にそろえて文に入れ、丸で囲まれているのがモノレールの案だと述べます。3 コマ目は World Expo と Monorail Station の看板と人の多さから、計画が成功したことを伝えます。4 コマ目は吹き出しがないので、画面の Monorail Passengers のグラフが右下がりであることを It showed that ... と説明します。A year after the Expo, however, のように入れて、展開の変化を示しましょう。",
+          "checkpoints": [
+            "1コマ目: 地図を見ながら、会場が中心街から30キロで「遠すぎる」と補佐官が言ったことを言えた",
+            "2コマ目: スタッフ会議でボードの2案（モノレール・シャトルバス）に触れ、モノレールの案に印がついていることを言えた",
+            "3コマ目: 2年後、万博会場とモノレールの駅が大勢の人でにぎわう様子を描写できた",
+            "4コマ目: 万博の1年後、モノレールの乗客数のグラフが下がり、市長が心配していることを言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the mayor, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたが市長だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"The monorail was perfect during the Expo, but I didn't plan for what would happen after it ended. We need to give people a reason to travel to that area, so maybe we should attract companies or build a shopping mall and a park along the line.\"",
+          "modelAnswerJa": "「モノレールは万博の間は申し分なかったが、終わったあとのことまで考えていなかった。その地域へ出かける理由を人々に与える必要があるから、沿線に企業を誘致したり、ショッピングモールや公園を造ったりしたほうがいいかもしれない」と考えていると思います。",
+          "explanation": "4 コマ目の市長は、万博が終わって乗客が減っていることを知った場面です。The monorail was perfect during ..., but ... で、成功と見落としを対比しています。そのあと maybe we should ... で沿線の活性化という具体策を続けると、市長の立場らしい答えになります。along the line（沿線に）は覚えておきたい表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think the facilities at train and bus stations in Japan should be improved?",
+          "promptJa": "日本の鉄道やバスの駅の設備は改善されるべきだと思いますか。",
+          "modelAnswer": "Yes, I think so. Japan's society is aging rapidly, and many older people have difficulty using stairs, so stations need more elevators and ramps. These facilities are often not available, especially at small stations in rural areas. Clearer signs in several languages would also help the growing number of foreign visitors.",
+          "modelAnswerJa": "はい、そう思います。日本の社会は急速に高齢化しており、階段を使うのが大変なお年寄りも多いので、駅にはもっとエレベーターやスロープが必要です。特に地方の小さな駅では、こうした設備がないことがよくあります。増え続ける外国人旅行者にとっては、いくつかの言語で書かれたより分かりやすい案内表示も助けになるでしょう。",
+          "explanation": "「高齢者」と「外国人旅行者」という 2 つの利用者を挙げ、それぞれに必要な設備（エレベーター・スロープ、多言語の案内表示）を結びつけています。facilities だけでは抽象的なので、設備の名前を具体的に出すことが大切です。No の立場なら「日本の駅はすでに清潔で便利であり、利用者の少ない駅に多額の費用をかけるのは無駄だ」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Would the introduction of stricter traffic laws decrease the number of car accidents?",
+          "promptJa": "より厳しい交通法規を導入すれば、自動車事故の件数は減るでしょうか。",
+          "modelAnswer": "Yes, I think it would. When punishments are heavier, drivers think more carefully before speeding or using their smartphones while driving. In Japan, for example, the penalties for drunk driving were made much stricter, and people are now far more careful about it. However, the police also need to enforce the laws properly for them to work.",
+          "modelAnswerJa": "はい、減ると思います。罰則が重くなると、運転者はスピードを出しすぎたり運転中にスマートフォンを使ったりする前に、より慎重に考えるようになります。たとえば日本では、飲酒運転の罰則が大幅に厳しくなり、今では人々がそれにずっと気をつけるようになっています。ただし、法律が効果を持つには、警察がきちんと取り締まることも必要です。",
+          "explanation": "Would ...? の質問なので、Yes, I think it would. と would を使って答えます。飲酒運転の厳罰化という身近な例を挙げると説得力が出ます。最後の However, ... で「取り締まりも必要」と条件を加えています。No の立場なら「事故の多くはうっかりミスが原因なので、法律よりも自動ブレーキなどの技術や安全教育のほうが効果がある」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Do you think that casino gambling is beneficial to society?",
+          "promptJa": "カジノでのギャンブルは社会にとって有益だと思いますか。",
+          "modelAnswer": "No, I don't think so. Casinos may create jobs and attract tourists, but they can also cause serious social problems. Some people become addicted to gambling and lose all of their money, which can destroy their families. There are also concerns about crime in the areas around casinos. I think these costs are greater than the economic benefits.",
+          "modelAnswerJa": "いいえ、そうは思いません。カジノは雇用を生み、観光客を呼び込むかもしれませんが、深刻な社会問題を引き起こすおそれもあります。ギャンブル依存症になって全財産を失い、家庭を壊してしまう人もいます。カジノの周辺地域の犯罪についての懸念もあります。こうした代償は、経済的な利益よりも大きいと思います。",
+          "explanation": "まず may ..., but ... で相手側の利点（雇用・観光）を認めてから、依存症と犯罪という問題点を述べています。become addicted to ...（〜の依存症になる）はこの話題で欠かせない表現です。Yes の立場なら「観光客が増えて税収が増え、その収入を福祉や地域の発展に使える」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}

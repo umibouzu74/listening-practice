@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2019-3-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2019年度 第3回",
+    "year": 2019,
+    "grade": "pre1",
+    "session": "2019-3"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2019-3-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a hotel owner who wanted to make his hotel more popular.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a man who owned a hotel was sitting in his office."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a man who owned a hotel was sitting in his office. He and another man were looking at a large book showing this year's hotel rankings. His hotel, the Starlight Hotel, was in third place, behind the Seaside Hotel and the Hillside Hotel. Looking unhappy, the owner said that they needed to do better. The next day, a saleswoman came to see him with a catalog. She told him that they recommended those luxury cotton towels, and he nodded as he looked at the pictures. A month later, the hotel was using the new towels. In one of the rooms, a guest was holding up a towel and smiling while a bellhop stood at the door. The following month, however, the bellhop went to see the owner and told him that customers had been taking the hotel's towels home. The owner looked shocked. It seemed that the towels were so nice that guests wanted to keep them, which was a new problem for the hotel.",
+          "modelAnswerJa": "ある日、ホテルを所有している男性が自分のオフィスで座っていた。彼ともう 1 人の男性は、今年のホテルランキングが載った大きな本を見ていた。彼のホテルであるスターライトホテルは、シーサイドホテルとヒルサイドホテルに次ぐ 3 位だった。オーナーは不満そうな様子で、もっとよくしなければならないと言った。翌日、営業の女性がカタログを持って彼に会いに来た。彼女は、この高級綿タオルをおすすめしますと彼に伝え、彼は写真を見ながらうなずいた。1 か月後、ホテルはその新しいタオルを使っていた。ある客室では、宿泊客がタオルを掲げてほほえんでおり、ベルボーイがドアのところに立っていた。ところが翌月、ベルボーイはオーナーのところへ行き、お客さんがホテルのタオルを持ち帰っていると伝えた。オーナーはショックを受けた様子だった。タオルがとてもよいので客が持ち帰りたくなったようで、これはホテルにとって新たな問題だった。",
+          "explanation": "1 コマ目は本の This year's hotel rankings を読み取り、背景の看板と合わせて、自分のホテル（Starlight Hotel）が 3 位だと説明します。We need to do better. は said that they needed to do better（we → they、need → needed）です。2 コマ目の We recommend these luxury cotton towels. は told him that they recommended those luxury cotton towels（recommend → recommended、these → those）で、話し手はカタログを見せている女性です。3 コマ目には吹き出しがないので、客がタオルを手にほほえんでいる様子から、タオルが気に入られていることを伝えます。4 コマ目の Customers have been taking our towels home. は had been taking と過去完了進行形にし、our は the hotel's に置き換えます。however を使い、「よいタオルにしたことがかえって問題になった」という皮肉を伝えましょう。",
+          "checkpoints": [
+            "1コマ目: ランキングで自分のホテルが3位だとわかり、「もっとよくしなければ」と言ったことを間接話法で言えた",
+            "2コマ目: 営業の女性がカタログを見せて高級綿タオルを勧め、オーナーがうなずいていることを描写できた",
+            "3コマ目: 新しいタオルを客室で使い始め、客が喜んでいる様子を描写できた",
+            "4コマ目: 「客がタオルを持ち帰っている」を had been taking を使って言い、オーナーの驚きを伝えられた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the owner of the hotel, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこのホテルのオーナーだったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"It's nice that guests love these towels, but we can't keep buying new ones. Why don't we sell them at the front desk? Then guests who want one could take it home, and the towels might even help more people remember our hotel.\"",
+          "modelAnswerJa": "「お客さんがこのタオルを気に入ってくれているのはうれしいが、新しいものを買い続けることはできない。フロントで販売してはどうだろう。そうすれば、欲しいお客さんは持ち帰れるし、タオルのおかげでうちのホテルを覚えてくれる人も増えるかもしれない」と考えていると思います。",
+          "explanation": "4 コマ目のオーナーは、せっかく導入したタオルが持ち帰られていると聞いた場面です。It's nice that ..., but ... で、よい面と困った面の両方を認めてから、Why don't we ...? で解決策を出しています。問題をチャンスに変える案を述べると前向きな印象になり、「ホテルの人気を上げたい」というカードの設定にもつながります。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think everyone should travel abroad?",
+          "promptJa": "すべての人が海外旅行をすべきだと思いますか。",
+          "modelAnswer": "No, I don't think so. Traveling abroad can be a great experience, but it costs a lot of money and takes time, so not everyone can do it. Some people also have health problems or family responsibilities. Besides, people can now learn about other cultures without leaving their country, through the Internet or by talking with foreign visitors.",
+          "modelAnswerJa": "いいえ、そうは思いません。海外旅行はすばらしい経験になることもありますが、お金も時間もかかるので、誰もができるわけではありません。健康上の問題や家族への責任を抱えている人もいます。それに、今はインターネットや外国からの訪問者との会話を通じて、自分の国を離れなくても他の文化について学ぶことができます。",
+          "explanation": "質問の everyone に注目し、「よい経験だが、全員にとって必要でも可能でもない」と答えています。can be a great experience, but ... と一度認めてから理由を述べると、極端に聞こえません。最後の Besides ... は「海外に行かなくても目的は果たせる」という別の角度からの理由です。Yes の立場なら「実際に外国で暮らす人々に触れると視野が広がり、自分の国についても見直せる」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Are employees in the service industry treated well enough by their employers?",
+          "promptJa": "サービス業の従業員は、雇用主から十分によい待遇を受けているでしょうか。",
+          "modelAnswer": "No, I don't think they are. Many people working in restaurants, hotels, and stores have low pay and long working hours, and they often have to work on weekends and holidays. Some also have to deal with rude customers without enough support from their managers. Employers should raise wages and protect their staff from such customers.",
+          "modelAnswerJa": "いいえ、受けていないと思います。飲食店やホテル、店舗で働く人の多くは、給料が低く労働時間が長いうえに、週末や祝日に働かなければならないこともよくあります。また、上司から十分な支えを得られないまま、失礼な客に対応しなければならない人もいます。雇用主は賃金を上げ、そうした客から従業員を守るべきです。",
+          "explanation": "Are employees ...? の質問なので、No, I don't think they are. と答えています。low pay や long working hours など待遇の問題を具体的に挙げ、rude customers（失礼な客）という接客業ならではの問題も加えました。最後に Employers should ... で雇う側がすべきことを述べて、質問の by their employers に対応させています。Yes の立場なら「人手不足のため、賃金を上げたり休みを増やしたりする企業が増えている」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should companies do more to protect the environment?",
+          "promptJa": "企業は環境を守るためにもっと取り組むべきでしょうか。",
+          "modelAnswer": "Yes, I think they should. Companies use huge amounts of energy and resources, so their actions have a much bigger effect than those of individuals. They could switch to renewable energy and reduce the plastic in their products. This could also improve their image, because many customers today prefer to buy from companies that care about the environment.",
+          "modelAnswerJa": "はい、取り組むべきだと思います。企業は膨大な量のエネルギーや資源を使っているので、その行動は個人の行動よりもはるかに大きな影響を与えます。再生可能エネルギーに切り替えたり、製品に使うプラスチックを減らしたりすることができるはずです。今は環境に配慮する企業から買いたいと考える客が多いので、これは企業のイメージを高めることにもなるでしょう。",
+          "explanation": "「企業の影響は個人より大きい」→「できること（再生可能エネルギー、プラスチック削減）」→「企業にとっての利点（イメージの向上）」の順に述べています。環境の話でも、企業側のメリットに触れると現実的な答えになります。renewable energy（再生可能エネルギー）は環境の話題でよく使う語句です。No の立場なら「環境対策の費用は製品の値上げにつながり、中小企業には負担が大きい」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2019-3-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a busy office manager.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a man was arriving home after work."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a man was arriving home after work. He looked exhausted as he sat down with his briefcase and loosened his tie. He seemed to be thinking about his busy office, where he was the manager, with a pile of documents on his desk and many people around him. His wife looked worried about him. That night, the couple was watching a TV program about ways to relax, which listed yoga, cooking, and running. His wife told him that he should try cooking, and he nodded. That weekend, he made dinner for her. Wearing an apron and smiling, he brought a large dish to the table, which already had several other dishes and glasses of wine on it. His wife clapped her hands happily. Later that evening, however, the man was relaxing on the sofa and looked satisfied. Meanwhile, his wife was in the kitchen in front of a big pile of dirty dishes and pans. She had to clean up by herself, and she looked tired and unhappy.",
+          "modelAnswerJa": "ある日、ある男性が仕事を終えて帰宅したところだった。彼は疲れ切った様子でかばんを持って腰を下ろし、ネクタイをゆるめた。彼は自分の忙しい職場のことを考えているようだった。そこで彼はマネージャーをしており、机には書類の山があり、周りには大勢の人がいた。妻は彼のことを心配そうに見ていた。その夜、夫婦はリラックスする方法についてのテレビ番組を見ていて、そこではヨガ、料理、ランニングが挙げられていた。妻は彼に、料理をやってみたらいいと言い、彼はうなずいた。その週末、彼は妻のために夕食を作った。エプロン姿でほほえみながら、彼は大皿をテーブルへ運んだ。テーブルにはすでにいくつかの料理とワインのグラスが並んでいた。妻はうれしそうに手をたたいた。ところがその晩遅く、男性はソファでくつろぎ、満足そうな様子だった。その一方で、妻は台所で汚れた食器や鍋の山を前にしていた。彼女は 1 人で片付けなければならず、疲れて不満そうな様子だった。",
+          "explanation": "1 コマ目は男性の疲れた様子に加えて、丸い吹き出しの中の Manager の札と書類の山を使い、仕事が忙しいことを説明します。2 コマ目は画面の Ways to Relax（Yoga / Cooking / Running）を入れ、You should try cooking. は told him that he should try cooking とします（should はそのままです）。しっぽは妻に向かっているので、話し手を間違えないようにしましょう。3 コマ目と 4 コマ目には言葉がないので、動作と表情がすべてです。3 コマ目のエプロン姿の男性と喜ぶ妻を描写したあと、4 コマ目は however と Meanwhile を使って、ソファでくつろぐ夫と汚れた食器の山を前にした妻を対比させます。「夫のストレス解消が妻の負担になった」という結末を、妻の表情まで含めて伝えることが大切です。",
+          "checkpoints": [
+            "1コマ目: 疲れて帰宅した様子と、書類の山や人に囲まれた職場のことを考えていることを描写できた",
+            "2コマ目: テレビの Ways to Relax の内容と、妻の「料理をやってみたら」を間接話法で言えた",
+            "3コマ目: エプロン姿の男性が料理を運び、妻が喜んでいることを描写できた",
+            "4コマ目: くつろぐ夫と汚れた食器の山を前にした妻を、Meanwhile などで対比させて言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I'm glad he's found a way to relax, and the dinner was delicious. But it isn't fair that I have to clean up this huge mess by myself. Next time, I'll tell him that cleaning up is part of cooking, and we can do the dishes together.\"",
+          "modelAnswerJa": "「彼がリラックスする方法を見つけたのはよかったし、夕食もおいしかった。でも、このひどい散らかりを私 1 人で片付けなければならないのは不公平だ。次は、片付けも料理のうちだと伝えて、一緒に皿洗いをすることにしよう」と考えていると思います。",
+          "explanation": "4 コマ目の女性は、夫がくつろぐ一方で、汚れた食器の山を前にしている場面です。I'm glad ... で夫の変化を喜びつつ、But it isn't fair that ... で不満を述べると、女性の複雑な気持ちが伝わります。Next time, I'll ... で具体的な提案につなげています。cleaning up is part of cooking（片付けも料理のうち）は、この場面にぴったりの言い方です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do you think young people should spend more time with their families?",
+          "promptJa": "若者は家族と過ごす時間をもっと増やすべきだと思いますか。",
+          "modelAnswer": "Yes, I think so. Many young people are busy with school, part-time jobs, and friends, and they often spend their free time on their smartphones, so they don't talk much with their families. However, family members can give them support and advice when they have problems. Also, once they leave home and start working, it becomes harder to spend time together.",
+          "modelAnswerJa": "はい、そう思います。多くの若者は学校やアルバイト、友達づきあいで忙しく、空いた時間もスマートフォンに使うことが多いので、家族とあまり話しません。しかし、家族は、問題を抱えたときに支えや助言を与えてくれます。また、いったん家を出て働き始めると、一緒に過ごすことは難しくなります。",
+          "explanation": "「忙しくて家族と話さない」という現状を述べ、However で家族の大切さ（支えや助言）につなげています。最後の once they leave home ...（いったん家を出ると）は、「今のうちに」という理由になる表現です。No の立場なら「若いうちは友人や外の世界との関わりで成長する時期で、無理に時間を増やす必要はない」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Should people consume more locally grown foods?",
+          "promptJa": "人々は地元で栽培された食べ物をもっと消費すべきでしょうか。",
+          "modelAnswer": "Yes, I think they should. Local foods are fresher, and they do not have to be transported as far, which is better for the environment. Buying them also supports local farmers, who often struggle to compete with cheap imports. In Japan, this could help protect farmland and make the country less dependent on imported food.",
+          "modelAnswerJa": "はい、消費すべきだと思います。地元の食べ物はより新鮮で、遠くまで輸送する必要がないので、環境にもよいです。また、それを買うことは、安い輸入品との競争に苦労していることが多い地元の農家を支えることになります。日本では、これが農地を守り、国の輸入食品への依存を減らすことにつながるかもしれません。",
+          "explanation": "「新鮮さと環境」「地元の農家の支援」「日本全体の食料」と、身近な話から国全体の話へ広げています。do not have to be transported as far のように、輸送距離と環境を結びつけると理由がはっきりします。less dependent on imported food（輸入食品への依存が少ない）は、食料の話題で使える表現です。No の立場なら「地元産は値段が高いことがあり、輸入品のおかげで一年を通じて安く多様な食品を選べる」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Are companies providing enough child-care facilities for their employees?",
+          "promptJa": "企業は従業員のために十分な保育施設を提供しているでしょうか。",
+          "modelAnswer": "No, I don't think they are. Some large companies have day-care centers at their workplaces, but many smaller companies cannot afford them. As a result, many working parents have trouble finding a place for their children, and some even have to quit their jobs. The government should give companies more support to set up such facilities.",
+          "modelAnswerJa": "いいえ、提供していないと思います。職場に保育所を設けている大企業もありますが、もっと小さな会社の多くにはその余裕がありません。その結果、子どもの預け先を見つけるのに苦労する働く親が多く、仕事を辞めざるを得ない人さえいます。政府は、企業がそうした施設を作れるようにもっと支援すべきです。",
+          "explanation": "Are companies ...? の質問なので、No, I don't think they are. と答えています。大企業と小さな会社を but で比較し、As a result で「親が仕事を辞めざるを得ない」という影響につなげています。最後に The government should ... と解決策を示しています。Yes の立場なら「社内に保育所を設ける企業は増えており、地域の保育所も充実してきた」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}

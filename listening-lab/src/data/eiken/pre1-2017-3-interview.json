@@ -1,0 +1,144 @@
+{
+  "examType": "eiken",
+  "format": "interview",
+  "id": "eiken-pre1-2017-3-interview",
+  "meta": {
+    "title": "英検準1級 二次試験",
+    "subtitle": "2017年度 第3回",
+    "year": 2017,
+    "grade": "pre1",
+    "session": "2017-3"
+  },
+  "sections": [
+    {
+      "id": "a",
+      "title": "問題カードA",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2017-3-interview/card-a.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a woman who was the manager of a company.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a woman was at the company where she worked."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a woman was at the company where she worked. As she sat at her desk, a male employee came to talk to her. He told her that many employees couldn't find daycare for their children. She put her hand to her chin and seemed to be thinking about the problem. At a staff meeting, she stood in front of a board that listed two ideas. One was to provide daycare in the building, and the other was to extend parental leave. The first idea was circled, and the staff members were nodding in agreement. The following year, ABC Daycare had opened in the company's building. A teacher was playing the piano while the children sat on small chairs and sang. The woman watched them with her arms folded and looked very pleased. A few months later, however, two employees were working on their laptops, and the music from the daycare could be heard through the window. One of them told the other that it was hard to concentrate. The woman noticed this and looked worried.",
+          "modelAnswerJa": "ある日、ある女性が勤め先の会社にいた。彼女が机に向かって座っていると、男性社員が話をしに来た。彼は、多くの社員が子どもの預け先を見つけられずにいると彼女に伝えた。彼女はあごに手を当てて、その問題について考えている様子だった。スタッフ会議で、彼女は 2 つの案が書かれたボードの前に立った。1 つは建物の中に保育所を設けること、もう 1 つは育児休暇を延長することだった。1 つ目の案が丸で囲まれていて、スタッフはうなずいて賛成していた。翌年、会社の建物の中に ABC Daycare が開設されていた。保育士がピアノを弾き、子どもたちは小さないすに座って歌っていた。女性は腕を組んでその様子を見ていて、とても満足そうだった。ところが数か月後、2 人の社員がノートパソコンで仕事をしていて、窓越しに保育所の音楽が聞こえていた。そのうちの 1 人は、集中するのが難しいともう 1 人に言った。女性はそれに気づき、心配そうな様子だった。",
+          "explanation": "1 コマ目の吹き出し Many employees can't find daycare for their children. は told her that many employees couldn't find daycare for their children（can't → couldn't）とします。話し手は立っている男性で、机に座った女性に報告している点に注意しましょう。2 コマ目のボードは One was to provide daycare in the building, and the other was to extend parental leave のように 2 つの案を文にし、丸で囲まれているのが保育所の案であることに触れると、3 コマ目の ABC Daycare に自然につながります。3 コマ目は窓の奥にオフィスが見えるので、保育所が職場のすぐ隣にあることが分かります。これが 4 コマ目の問題の手がかりです。4 コマ目の It's hard to concentrate. は told the other that it was hard to concentrate（is → was）とし、窓の向こうの音符から the music from the daycare could be heard through the window と原因を補います。however を入れて、成功から問題へと展開が変わることを示しましょう。",
+          "checkpoints": [
+            "1コマ目: 社員が「多くの社員が子どもの預け先を見つけられない」と伝えたことを間接話法で言えた",
+            "2コマ目: スタッフ会議でボードの2案（社内の保育所・育児休暇の延長）に触れ、保育所の案が支持されたことを言えた",
+            "3コマ目: 翌年 ABC Daycare が開設され、女性が満足そうに見ていることを描写できた",
+            "4コマ目: 保育所の音で社員が「集中しにくい」と言い、女性が心配していることを、however などで展開の変化を示して言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"The daycare has been a big help to working parents, but I never thought about the noise. I should talk to the daycare staff about moving the music time, or look into making the walls and windows soundproof so that everyone can work comfortably.\"",
+          "modelAnswerJa": "「保育所は働く親の大きな助けになっているけれど、音のことは考えていなかった。音楽の時間をずらせないか保育所のスタッフと相談するか、みんなが快適に働けるように壁や窓を防音にすることを検討しなければ」と考えていると思います。",
+          "explanation": "4 コマ目の女性は、自分が進めた保育所が別の社員の負担になっていると知った場面です。まず but でよかった点と見落とした点を対比し、I should ... で具体的な対策を 2 つ続けています。I never thought about ...（〜のことは考えもしなかった）は、反省を表すときに使いやすい表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Do parents these days spend enough time with their children?",
+          "promptJa": "最近の親は、子どもと十分な時間を過ごしているでしょうか。",
+          "modelAnswer": "No, I don't think so. In many families these days, both parents work full-time, and some of them have long commutes or often work overtime. As a result, they may only see their children for a short time in the evening. Even when families are together at home, parents are sometimes busy looking at their smartphones instead of talking with their children.",
+          "modelAnswerJa": "いいえ、そうは思いません。最近は両親ともフルタイムで働く家庭が多く、通勤時間が長かったり残業が多かったりする人もいます。その結果、夕方に短い時間しか子どもと顔を合わせられないこともあります。家族が一緒に家にいるときでさえ、親が子どもと話さずにスマートフォンを見るのに忙しいこともあります。",
+          "explanation": "No の理由として「仕事で時間がない」ことと「一緒にいても向き合っていない」ことの 2 点を挙げています。後半の Even when ... は、時間の長さだけでなく過ごし方にも目を向けた言い方で、答えに深みが出ます。Yes の立場なら「父親の育児参加が進み、在宅勤務などで子どもと過ごせる時間が増えた家庭もある」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Do you think that the quality of school education in Japan is declining?",
+          "promptJa": "日本の学校教育の質は低下していると思いますか。",
+          "modelAnswer": "No, I don't think so. Japanese students generally do well on international tests, especially in math and science, so the basic level of education is still high. Schools are also trying to improve by using tablets in class and teaching students to discuss and express their own ideas. Although teachers are very busy, I don't believe the overall quality is getting worse.",
+          "modelAnswerJa": "いいえ、そうは思いません。日本の生徒は、特に数学と理科の国際的なテストでおおむね好成績を収めているので、教育の基本的な水準は今も高いです。学校もまた、授業でタブレットを使ったり、生徒が話し合って自分の考えを表現できるように指導したりして、改善に努めています。教員はとても忙しいですが、全体としての質が下がっているとは思いません。",
+          "explanation": "declining という主張に対して、「学力の水準」と「学校の取り組み」の 2 つの面から反論しています。最後の Although teachers are very busy, ... のように相手側の論点を一度認めると、バランスのよい答えになります。Yes の立場なら「教員の長時間労働や人手不足で、授業の準備や生徒一人ひとりへの指導が難しくなっている」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Should companies promote employees based more on job performance than on seniority?",
+          "promptJa": "企業は、年功よりも仕事の成果に基づいて社員を昇進させるべきでしょうか。",
+          "modelAnswer": "Yes, I think so. If employees are promoted based on their results, they will be more motivated to work hard and learn new skills. It also gives talented young workers a chance to become leaders, which can bring fresh ideas to a company. Companies can still value experience, but age alone should not decide who gets promoted.",
+          "modelAnswerJa": "はい、そう思います。成果に基づいて昇進できるなら、社員は一生懸命働き、新しい技能を身につけようという意欲がより高まります。また、有能な若手社員にリーダーになる機会を与えることにもなり、会社に新しい発想をもたらしてくれるでしょう。会社が経験を重視することはこれからもできますが、年齢だけで誰が昇進するかを決めるべきではありません。",
+          "explanation": "「社員の意欲」と「若手の活躍・新しい発想」という 2 つの利点を挙げ、最後に「経験も大事だが年齢だけで決めるべきではない」と付け加えて、極端な主張にならないようにしています。based on ...（〜に基づいて）は質問の表現をそのまま使えます。No の立場なら「成果だけで評価すると社員どうしの競争が激しくなり、協力や後輩の育成がおろそかになる」などが考えられます。"
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "問題カードD",
+      "card": {
+        "image": "images/eiken/eiken-pre1-2017-3-interview/card-d.jpg",
+        "instruction": "You have one minute to prepare.\nThis is a story about a man who wanted to try investing in the stock market.\nYou have two minutes to narrate the story.",
+        "firstSentence": "One day, a man was at home with his wife."
+      },
+      "questions": [
+        {
+          "id": "narration",
+          "type": "narration",
+          "modelAnswer": "One day, a man was at home with his wife. They were having coffee when he showed her an advertisement for a stock-investing seminar, which promised that people could become experts. He suggested that they go to it, and she smiled. At the seminar, a lecturer was explaining quick-and-easy strategies for buying stock. A picture on the screen showed a small stack of money growing into a large one. The man and his wife listened carefully and nodded. The following week, the man was sitting at his computer and looking at a graph of ABC Company's stock price, which was going up. He told his wife that it was the right time to buy, and he was about to click the BUY button. She stood beside him and nodded. A few months later, the couple was having a meal when breaking news came on TV. A newscaster said that the ABC Company was facing bankruptcy. The man looked shocked, because he had bought that company's stock.",
+          "modelAnswerJa": "ある日、ある男性が妻と一緒に家にいた。2 人でコーヒーを飲んでいるときに、彼は株式投資セミナーの広告を妻に見せた。そこには専門家になれると書かれていた。彼はそれに行こうと提案し、妻はほほえんだ。セミナーでは、講師が株を買うための手軽で簡単な戦略について説明していた。スクリーンの絵には、小さなお金の束が大きな山に増えていく様子が描かれていた。男性と妻は注意深く耳を傾け、うなずいていた。翌週、男性はコンピューターの前に座り、上がっている ABC 社の株価のグラフを見ていた。彼は今がちょうど買い時だと妻に言い、「買う」のボタンをクリックしようとしていた。妻はそばに立ってうなずいていた。数か月後、夫婦が食事をしていると、テレビでニュース速報が流れた。ニュースキャスターは、ABC 社が倒産の危機にあると伝えた。男性はその会社の株を買っていたので、ショックを受けた様子だった。",
+          "explanation": "1 コマ目の広告は、見出しの Stock-Investing Seminar と Become an expert! の両方を文に入れます。Let's go to this! は提案なので suggested that they go to it とし、suggest のあとの that 節では動詞を原形（go）にします。2 コマ目はスクリーンの Buying Stock: Quick-and-Easy Strategies を explaining quick-and-easy strategies for buying stock と言い換え、お金の束が増える絵にも触れましょう。3 コマ目の Now is the time to buy. は told his wife that it was the right time to buy（is → was。now はそのまま残さず、it was the right time にまとめます）とし、画面のグラフと BUY のボタンも描写します。4 コマ目の The ABC Company is facing bankruptcy. の話し手はテレビのニュースキャスターなので、A newscaster said that the ABC Company was facing bankruptcy（is → was）とします。最後に「株を買っていたのでショックを受けた」と 3 コマ目と結びつけると、結末がはっきりします。",
+          "checkpoints": [
+            "1コマ目: 株式投資セミナーの広告を見せ、「行こう」と提案したこと（suggested that they go ...）を言えた",
+            "2コマ目: セミナーで講師が手軽に株を買う戦略を説明し、夫婦が熱心に聞いていることを描写できた",
+            "3コマ目: ABC 社の株価のグラフを見て「今が買い時だ」と言い、購入しようとしていることを言えた",
+            "4コマ目: テレビのニュース（ABC 社が倒産の危機）と、株を買った男性がショックを受けたことを言えた"
+          ]
+        },
+        {
+          "id": "q1",
+          "number": 1,
+          "type": "qa",
+          "showCard": true,
+          "prompt": "Please look at the fourth picture. If you were the man, what would you be thinking?",
+          "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
+          "modelAnswer": "I'd be thinking, \"I can't believe this is happening. I trusted what I heard at that seminar and bought this stock without really looking into the company. Now I need to find out whether I can save at least some of my money. Next time, I'll do my own research before I invest.\"",
+          "modelAnswerJa": "「こんなことになるなんて信じられない。セミナーで聞いたことをうのみにして、会社のことをよく調べずにこの株を買ってしまった。今は、せめて一部のお金だけでも守れるかどうか調べなければ。次に投資するときは、自分でよく調べてからにしよう」と考えていると思います。",
+          "explanation": "4 コマ目の男性は、株を買った会社が倒産しそうだと知ったところです。「何がいけなかったか（調べずに買った）」→「今すべきこと」→「次はどうするか」の順に述べると、場面に合った筋の通った答えになります。look into ...（〜をよく調べる）は、反省を述べるときに便利な表現です。"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "type": "qa",
+          "prompt": "Should schools teach children more about saving and spending money responsibly?",
+          "promptJa": "学校は、お金を責任を持ってためたり使ったりすることについて、子どもたちにもっと教えるべきでしょうか。",
+          "modelAnswer": "Yes, I think so. Many young people use credit cards and online payments without really understanding how much they are spending, and some of them fall into debt. If children learn how to make a budget and save money at school, they will be better prepared for adult life. Not every family teaches these things at home, so schools should play a role.",
+          "modelAnswerJa": "はい、そう思います。いくら使っているのかをよく理解しないままクレジットカードやオンライン決済を使う若者は多く、中には借金を抱えてしまう人もいます。子どもたちが学校で予算の立て方やお金のため方を学べば、大人になってからの生活への備えがよりしっかりできるでしょう。こうしたことを家庭で教えているとは限らないので、学校が役割を果たすべきです。",
+          "explanation": "「若者のトラブル（使いすぎ・借金）」という問題点 →「学校で学ぶ効果」→「なぜ家庭ではなく学校なのか」の順に理由を述べています。Not every family ... は「すべての家庭が〜するわけではない」という部分否定で、言い切りを避けるのに役立ちます。No の立場なら「お金の使い方は各家庭の考え方によるので家庭で教えるべきで、学校の授業時間は限られている」などが考えられます。"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "type": "qa",
+          "prompt": "Should people think more critically about what the news media reports?",
+          "promptJa": "人々は、報道機関が伝えることについて、もっと批判的に考えるべきでしょうか。",
+          "modelAnswer": "Yes, they should. News reports sometimes contain mistakes, and they can also reflect the opinions of the people who produce them. Also, many people now read news on social media, where false information spreads quickly. It is a good idea to compare several sources and check the facts before believing a story or sharing it with others.",
+          "modelAnswerJa": "はい、そうすべきです。ニュースの報道には誤りが含まれていることがあり、作り手の意見が反映されていることもあります。また、今では SNS でニュースを読む人が多く、そこでは誤った情報がすぐに広がります。ある記事を信じたり他の人と共有したりする前に、複数の情報源を比べて事実を確かめるのはよい考えです。",
+          "explanation": "Should people ...? の質問なので Yes, they should. と答えています。「報道の誤りや偏り」「SNS での誤情報の拡散」という 2 つの理由のあと、compare several sources（複数の情報源を比べる）という具体的な行動を示して締めています。No の立場なら「大手の報道機関は事実確認をしており、すべてを疑うと何も信じられなくなる」などが考えられます。"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "type": "qa",
+          "prompt": "Do you think that Japanese companies today will stay competitive in the global economy?",
+          "promptJa": "今日の日本企業は、世界経済の中で競争力を保ち続けると思いますか。",
+          "modelAnswer": "No, I don't think so, at least not without big changes. Japan's population is shrinking, so it will become harder for companies to find enough workers. Many companies have also been slow to adopt digital technology compared with rivals in other countries. Unless they hire more people from overseas and make decisions more quickly, they may fall behind.",
+          "modelAnswerJa": "いいえ、少なくとも大きく変わらない限り、そうは思いません。日本の人口は減っているので、企業が十分な働き手を見つけるのは難しくなっていくでしょう。また、海外の競合企業と比べて、デジタル技術の導入が遅れている企業も多くあります。海外からもっと人材を採用し、より速く意思決定をしなければ、後れを取ってしまうかもしれません。",
+          "explanation": "「人口減少」と「デジタル化の遅れ」という 2 つの課題を挙げ、Unless ...（〜しない限り）で「どうすれば競争力を保てるか」にも触れています。at least not without big changes と条件をつけると、一方的な悲観論にならずにすみます。Yes の立場なら「日本企業には高い品質や技術力への信頼があり、自動車や素材などの分野で今後も強みを発揮できる」などが考えられます。"
+        }
+      ]
+    }
+  ]
+}
