@@ -18,6 +18,12 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a couple that wanted to be involved with their community.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a husband and wife were going on a walk together."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2021-3-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2021-3-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2021-3-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2021-3-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
@@ -39,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the wife, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの妻だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2021-3-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I was really looking forward to helping at the marathon, but I can't easily say no to my manager. I'll ask if someone else can meet the client, and if that's not possible, I'll let the marathon staff know right away so they can find someone to replace me.\"",
           "modelAnswerJa": "「マラソンの手伝いをとても楽しみにしていたけれど、上司に簡単には嫌と言えない。誰か別の人に顧客に会ってもらえないか聞いてみて、それが無理なら、代わりの人を探してもらえるように、すぐにマラソンのスタッフに知らせよう」と考えていると思います。",
           "explanation": "4 コマ目の妻は、マラソンの前日に急な仕事を言われた場面です。I was really looking forward to ... で残念な気持ちを述べ、I'll ask if ... と if that's not possible, I'll ... で「まず相談し、無理なら連絡する」という 2 段階の行動を示すと、現実的な答えになります。so they can find someone to replace me のように、相手への配慮まで言えるとよりよいでしょう。"
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think parents should participate in school events such as sports festivals?",
           "promptJa": "親は運動会のような学校行事に参加すべきだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2021-3-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think they have to. Many parents are busy with work, and some cannot take a day off even for a school event. If everyone is expected to join, these parents may feel guilty, and their children may feel left out. These events are mainly for students, so parents who can come are welcome, but it should not be required.",
           "modelAnswerJa": "いいえ、必ずしも参加する必要はないと思います。仕事で忙しい親は多く、学校行事のためであっても休みを取れない人もいます。全員の参加が当然とされると、そうした親は後ろめたく感じ、その子どもも疎外感を覚えるかもしれません。こうした行事は主に生徒のためのものなので、来られる親は歓迎されますが、参加を義務にすべきではありません。",
           "explanation": "「参加するのが悪い」と言うのではなく、they have to を使って「必ず参加すべきとは言えない」という無理のない立場にしています。働く親の事情 → 親と子どもへの影響 → 行事の本来の目的、の順に理由を述べています。feel left out（疎外感を覚える）は覚えておくと便利な表現です。Yes の立場なら「子どもの学校での様子が分かり、応援に来てもらうことで子どもの励みにもなる」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Do public libraries still play an important role in communities?",
           "promptJa": "公共図書館は今でも地域社会で重要な役割を果たしていますか。",
+          "audio": "audio/eiken/eiken-pre1-2021-3-interview/a-q3.mp3",
           "modelAnswer": "Yes, they do. Even though people can find a lot of information online, not everything on the Internet is reliable, and not everyone can afford to buy books. Libraries offer free access to books for people of all ages, and they also hold events such as reading sessions for children. In this way, they give people a place to learn and connect with their neighbors.",
           "modelAnswerJa": "はい、果たしています。インターネットで多くの情報が得られるようになっても、ネット上のものがすべて信頼できるわけではなく、誰もが本を買う余裕があるわけでもありません。図書館はあらゆる年齢の人に無料で本を提供し、子ども向けの読み聞かせなどの催しも開いています。このようにして、図書館は人々が学び、近所の人とつながる場所となっています。",
           "explanation": "still が入った質問なので、Even though people can find a lot of information online と、インターネットの存在を認めたうえで答えるのがポイントです。「無料で本が読める」という基本的な役割に加え、「人が集まる場所」という地域ならではの役割を挙げています。No の立場なら「調べものの多くはネットでできるので、図書館は以前ほど重要ではなくなっている」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Should more companies offer their employees flexible work schedules?",
           "promptJa": "より多くの企業が、従業員に柔軟な勤務時間を提供すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2021-3-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think they should. Flexible schedules make it easier for employees to take care of their children or elderly parents while continuing to work. People can also avoid crowded trains by starting work earlier or later. As a result, workers are less stressed and often more productive, and companies may find it easier to attract and keep good employees.",
           "modelAnswerJa": "はい、提供すべきだと思います。柔軟な勤務時間があれば、社員は働き続けながら子どもや高齢の親の世話をしやすくなります。また、始業を早めたり遅らせたりすることで、混雑した電車を避けることもできます。その結果、社員のストレスは減り、生産性も上がることが多く、会社にとっても優秀な人材を集めて引き留めやすくなるでしょう。",
           "explanation": "「家庭と仕事の両立」「通勤ラッシュの回避」という具体的な利点を挙げ、最後に As a result で社員と会社の両方にとっての効果をまとめています。attract and keep good employees（優秀な人材を集めて引き留める）は、企業の話題で幅広く使える表現です。No の立場なら「工場や接客業など時間を自由に変えにくい仕事があり、社員同士の連絡も取りにくくなる」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2021-3-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a woman who wanted to go on a trip.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a woman was talking with her friend."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2021-3-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2021-3-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2021-3-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2021-3-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2021-3-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I feel sorry for my manager, but I've worked hard for this trip, and my friend is counting on me. I'll explain the situation, apologize, and offer to work extra shifts as soon as I get back.\"",
           "modelAnswerJa": "「店長には申し訳ないけれど、この旅行のために一生懸命働いてきたし、友人も私を頼りにしている。事情を説明して謝り、帰ってきたらすぐに追加でシフトに入ると申し出よう」と考えていると思います。",
           "explanation": "4 コマ目の女性は、旅行の前日に店長から助けを頼まれた場面です。I feel sorry for ..., but ... で相手への気持ちと自分の事情を両方述べると、冷たい印象になりません。そのうえで I'll explain ..., apologize, and offer to ... と、具体的にどうするかを続けています。offer to work extra shifts（追加でシフトに入ると申し出る）はアルバイトの場面で使える表現です。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Do you think it is good for university students to have part-time jobs?",
           "promptJa": "大学生がアルバイトをするのはよいことだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2021-3-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. By working part-time, students can learn how to communicate with customers and coworkers, which will be useful after they graduate. They also learn the value of money and can pay for some of their own expenses. However, they should make sure that their jobs do not take too much time away from their studies.",
           "modelAnswerJa": "はい、そう思います。アルバイトをすることで、学生は客や同僚とのやり取りの仕方を学ぶことができ、それは卒業後に役立ちます。また、お金の大切さを学び、自分の出費の一部をまかなうこともできます。ただし、アルバイトに勉強の時間を奪われすぎないように気をつけるべきです。",
           "explanation": "「社会で役立つ力が身につく」「お金の大切さが分かる」という 2 つの利点を挙げています。最後に However, ... と注意点を一言添えると、一方的でないバランスのよい答えになります。No の立場なら「大学生の本分は勉強であり、アルバイトに時間を使いすぎると学業に悪い影響が出る」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Do you think it is safe to give personal information to online businesses?",
           "promptJa": "オンラインの企業に個人情報を渡すのは安全だと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2021-3-interview/d-q3.mp3",
           "modelAnswer": "No, I don't think so. Even large companies sometimes have their customers' data stolen by hackers, and once personal information is leaked, it is almost impossible to get it back. Criminals can use stolen credit card numbers or addresses for fraud. Also, some small online shops may not have strong security, so people should share only the information that is really necessary.",
           "modelAnswerJa": "いいえ、そうは思いません。大企業でさえ、顧客のデータをハッカーに盗まれることがあり、個人情報は一度流出すると取り戻すことがほぼ不可能です。犯罪者は盗んだクレジットカード番号や住所を詐欺に使うことができます。また、小規模なネットショップの中にはセキュリティが十分でないところもあるので、本当に必要な情報だけを伝えるようにすべきです。",
           "explanation": "「情報が盗まれることがある」→「一度流出すると取り戻せない」→「どう気をつけるべきか」の順に述べています。be leaked（流出する）や fraud（詐欺）は、この話題で役立つ語です。Yes の立場なら「信頼できる大手企業は暗号化などの対策をしているので、利用する店を選べば比較的安全だ」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Should the government do more to increase the employment rate in Japan?",
           "promptJa": "政府は日本の就業率を上げるためにもっと努力すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2021-3-interview/d-q4.mp3",
           "modelAnswer": "Yes, it should. Japan's population is shrinking, so there will be fewer workers in the future. The government could help by increasing the number of daycare centers so that more parents can return to work, and by supporting older people who want to keep working. If more people have jobs, tax income will rise, and that will help pay for social services.",
           "modelAnswerJa": "はい、努力すべきです。日本の人口は減っており、将来は働き手が少なくなります。政府は、より多くの親が仕事に復帰できるように保育所を増やしたり、働き続けたい高齢者を支援したりすることができます。働く人が増えれば税収も増え、社会保障の費用をまかなうのに役立ちます。",
           "explanation": "「人口減少で働き手が減る」という背景を最初に述べ、「保育所を増やす」「高齢者を支援する」という政府にできる具体策を 2 つ挙げています。最後に、税収という社会全体への効果で締めています。No の立場なら「日本の失業率はもともと低いので、政府は働く人の数を増やすより、賃金や働き方の改善に力を入れるべきだ」などが考えられます。"

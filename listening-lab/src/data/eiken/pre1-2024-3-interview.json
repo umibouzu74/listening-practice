@@ -7,8 +7,7 @@
     "subtitle": "2024年度 第3回",
     "year": 2024,
     "grade": "pre1",
-    "session": "2024-3",
-    "status": "draft"
+    "session": "2024-3"
   },
   "sections": [
     {
@@ -18,6 +17,12 @@
         "image": "images/eiken/eiken-pre1-2024-3-interview/card-a.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a CEO who wanted to cut down on running costs.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a CEO was at her office."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2024-3-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2024-3-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2024-3-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2024-3-interview/a-turnover.mp3"
       },
       "questions": [
         {
@@ -40,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the CEO, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの CEO だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-3-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I should have told everyone to wear a suit today. Saving energy is important, but we can't look unprofessional in front of our clients. From now on, I'll make a clear rule about what to wear on days when visitors come.\"",
           "modelAnswerJa": "「今日はスーツを着るよう全員に伝えておくべきだった。省エネは大切だが、取引先の前でだらしなく見えてはいけない。これからは、来客がある日の服装についてはっきりしたルールを作ろう」と考えていると思います。",
           "explanation": "No.1 は I'd be thinking, \"...\" か I'd be thinking that ... で始め、絵の人物の立場から考えを述べます。引用符を使う形なら、中身は現在形・I を主語にして自然に話せます。「反省（should have + 過去分詞）」と「今後どうするか（From now on, I'll ...）」の 2 文構成にすると、短くてもまとまった答えになります。"
@@ -50,6 +56,7 @@
           "type": "qa",
           "prompt": "Do young people these days state their opinions enough?",
           "promptJa": "最近の若者は、自分の意見を十分に述べていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2024-3-interview/a-q2.mp3",
           "modelAnswer": "Yes, I think so. Young people today grow up sharing their thoughts on social media every day, so they are used to expressing themselves. Many of them also take part in online discussions about social issues such as the environment, which shows that they are not afraid to speak up.",
           "modelAnswerJa": "はい、そう思います。今の若者は毎日 SNS で自分の考えを発信しながら育っているので、自己表現に慣れています。また、環境などの社会問題についてのオンラインの議論に参加する若者も多く、意見を言うことをためらわないことがわかります。",
           "explanation": "No.2〜4 は最初に Yes / No で立場をはっきりさせ、そのあとに理由を 2 文ほど続けます。理由は「一般論 → 具体例」の順に並べると説得力が出ます。ここでは「SNS で発信に慣れている」→「社会問題の議論にも参加している」と具体化しています。No の立場なら「周りに合わせようとして本音を言わない」などの理由も考えられます。"
@@ -60,6 +67,7 @@
           "type": "qa",
           "prompt": "Will people change their occupations more easily in the future?",
           "promptJa": "将来、人々はより簡単に職業を変えるようになるでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-3-interview/a-q3.mp3",
           "modelAnswer": "Yes, I think so. The idea of working for one company for life is becoming less common in Japan. Also, there are more and more online courses, so people can learn new skills while they are still working. This will make it easier for them to move into a different field.",
           "modelAnswerJa": "はい、そう思います。日本では、1 つの会社で一生働くという考え方が以前ほど一般的ではなくなっています。また、オンライン講座がどんどん増えているので、働きながら新しい技能を身につけることができます。そのため、別の分野に移ることがより簡単になるでしょう。",
           "explanation": "「社会の意識の変化（終身雇用の減少）」と「環境の変化（オンライン講座で学び直しがしやすい）」という、種類の違う理由を 2 つ挙げています。最後の This will make it easier for ... で質問の内容（change their occupations more easily）に戻ると、答えがきれいに締まります。"
@@ -70,6 +78,7 @@
           "type": "qa",
           "prompt": "Global warming is a topic of discussion all over the world. Should the problems of climate change be taught more at school?",
           "promptJa": "地球温暖化は世界中で議論されている話題です。気候変動の問題は、学校でもっと教えられるべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-3-interview/a-q4.mp3",
           "modelAnswer": "Yes, they should. Today's students are the ones who will have to live with the effects of climate change the longest. If they learn about its causes at school, they will understand why actions like saving electricity and reducing plastic waste matter, and they may also share what they learn with their families.",
           "modelAnswerJa": "はい、そうすべきです。今の生徒たちこそ、気候変動の影響の中で最も長く暮らしていかなければならない人たちです。学校でその原因を学べば、節電やプラスチックごみの削減といった行動がなぜ大切なのかを理解でき、学んだことを家族に伝えることもあるでしょう。",
           "explanation": "No.4 は社会問題についての問いで、前置きの文（Global warming is ...）のあとに本当の質問が来ます。Should ...? には Yes, they should. / No, they shouldn't. と答えると自然です。理由では「なぜ子どもが学ぶべきか」と「学ぶと何が変わるか」を具体的な行動（節電・プラごみ削減）と結びつけています。"
@@ -83,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2024-3-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a CEO who wanted to improve his employees' English skills.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a CEO was making an announcement to his staff."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2024-3-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2024-3-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2024-3-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2024-3-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -105,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the CEO, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの CEO だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I'm disappointed that she's leaving, but I'm proud that our program helped her grow so much. Next time, I should give our staff more chances to use their English inside the company so that talented people want to stay.\"",
           "modelAnswerJa": "「彼女が辞めてしまうのは残念だが、うちのプログラムで彼女がこんなに成長したことは誇らしい。次は、優秀な人材が残りたいと思うように、社内で英語を使う機会をもっと社員に与えるべきだ」と考えていると思います。",
           "explanation": "残念な気持ちだけで終わらせず、「よかった点」と「次にどうするか」まで言うと、前向きでまとまった答えになります。I'm disappointed that ..., but I'm proud that ... のように、but で 2 つの気持ちを対比させる形は No.1 で使いやすい型です。"
@@ -115,6 +131,7 @@
           "type": "qa",
           "prompt": "Do you think that a university education is necessary for everyone?",
           "promptJa": "大学教育はすべての人に必要だと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q2.mp3",
           "modelAnswer": "No, I don't think so. Some people want to work in jobs that need practical skills, such as cooking or building houses. For them, going to a vocational school or learning on the job can be more useful than spending four years at a university.",
           "modelAnswerJa": "いいえ、そうは思いません。料理や家を建てる仕事のように、実践的な技能が必要な仕事に就きたい人もいます。そうした人にとっては、大学で 4 年間過ごすより、専門学校に行ったり働きながら学んだりするほうが役に立つこともあります。",
           "explanation": "質問に everyone が入っているので、「全員に必要か」という点で No の立場は取りやすくなります。理由では、大学以外の学び方（vocational school / learning on the job）を具体的に示しています。Yes の立場なら「幅広い教養や考える力は、どの仕事にも役立つ」などが考えられます。"
@@ -125,6 +142,7 @@
           "type": "qa",
           "prompt": "Do you think that robots will take over all human jobs in the future?",
           "promptJa": "将来、ロボットが人間の仕事をすべて奪うと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q3.mp3",
           "modelAnswer": "No, I don't think so. As robots become more common, new kinds of jobs will appear, such as designing, managing, and repairing them. In addition, in fields like nursing and counseling, people will still want to be supported by other humans.",
           "modelAnswerJa": "いいえ、そうは思いません。ロボットが普及するにつれて、ロボットの設計や管理、修理といった新しい種類の仕事が生まれるでしょう。さらに、介護やカウンセリングのような分野では、人々はやはり人間に支えてもらいたいと思うはずです。",
           "explanation": "all human jobs という強い言い方に対しては、No の立場で「例外」を示すと答えやすくなります。ここでは「ロボットに関わる新しい仕事が生まれる」「人の支えが求められる分野は残る」という 2 つの観点を In addition でつないでいます。"
@@ -135,6 +153,7 @@
           "type": "qa",
           "prompt": "Companies have many different responsibilities. Do employers do enough to provide their workers with a good work-life balance?",
           "promptJa": "企業にはさまざまな責任があります。雇用主は、従業員がよいワークライフバランスを保てるよう十分なことをしているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think they do. Some companies have introduced remote work, but many employees still work long hours of overtime. Also, in many workplaces, it is hard to take paid holidays because people worry about causing trouble for their coworkers. Employers should create an atmosphere where workers can rest without feeling guilty.",
           "modelAnswerJa": "いいえ、十分ではないと思います。在宅勤務を導入した会社もありますが、多くの社員は今も長時間の残業をしています。また、多くの職場では、同僚に迷惑をかけるのではと心配して有給休暇を取りにくくなっています。雇用主は、社員が後ろめたさを感じずに休める雰囲気をつくるべきです。",
           "explanation": "「改善している点もあるが（Some companies have ..., but ...）、まだ不十分」という譲歩を入れると、一方的でないバランスのよい意見になります。最後に Employers should ... と具体的な提案で締めると、No の理由がよりはっきり伝わります。"

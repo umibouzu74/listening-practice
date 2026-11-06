@@ -18,6 +18,12 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a university student who lived with his family.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a university student was watching TV with his mother and grandfather."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2023-1-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2023-1-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2023-1-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2023-1-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
@@ -39,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the university student, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの大学生だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-1-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I told Grandpa I could drive him anytime, but I never expected him to have plans every single weekend. I'm glad that he's enjoying himself, but I need some time for myself, too. I should talk to him and decide which weekends I can drive him.\"",
           "modelAnswerJa": "「おじいちゃんにいつでも送ると言ったけれど、毎週末に予定があるとは思いもしなかった。おじいちゃんが楽しんでいるのはうれしいけれど、自分の時間も必要だ。おじいちゃんと話し合って、どの週末なら送れるかを決めよう」と考えていると思います。",
           "explanation": "4 コマ目の大学生は、自分の「いつでも送る」という言葉が思わぬ負担になりそうだと気づいた場面です。I never expected ... で意外だった気持ちを述べ、I should talk to him and decide ... で現実的な解決策につなげています。祖父を責めるのではなく I'm glad that ... と気づかいを入れると、印象のよい答えになります。"
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think parents should be stricter with their children?",
           "promptJa": "親は子どもに対してもっと厳しくすべきだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2023-1-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. If parents are too strict, children may become afraid of making mistakes, and they may stop talking to their parents about their problems. It is more important for children to learn why rules matter and to make their own decisions. Of course, parents should teach them basic manners, but they don't need to be stricter than that.",
           "modelAnswerJa": "いいえ、そうは思いません。親が厳しすぎると、子どもは失敗を恐れるようになり、自分の悩みを親に話さなくなるかもしれません。子どもにとっては、なぜルールが大切なのかを学び、自分で物事を決めることのほうが重要です。もちろん親は基本的なマナーを教えるべきですが、それ以上に厳しくする必要はありません。",
           "explanation": "「厳しすぎることの問題点（失敗を恐れる・相談しなくなる）」→「より大切なこと（理由を理解し、自分で決める）」の順に述べ、最後に Of course, ... で「しつけが不要なわけではない」と補っています。Of course で反対意見に少し歩み寄ると、極端な主張に聞こえません。Yes の立場なら「社会のルールや礼儀は、小さいうちに家庭できちんと教える必要がある」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Can people trust the news that they see on TV these days?",
           "promptJa": "最近、人々はテレビで見るニュースを信頼できるでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-1-interview/a-q3.mp3",
           "modelAnswer": "Yes, I think they can, for the most part. TV stations have professional reporters, and information is usually checked carefully before it goes on the air. If a program reports something incorrect, it is generally corrected later. Compared with information on social media, TV news is much more reliable, although viewers should still watch it with a critical eye.",
           "modelAnswerJa": "はい、大部分は信頼できると思います。テレビ局にはプロの記者がいて、情報はふつう放送前に入念に確認されます。番組が誤った内容を伝えた場合も、たいていはあとで訂正されます。SNS の情報と比べると、テレビのニュースはずっと信頼できますが、それでも視聴者は批判的な目を持って見るべきです。",
           "explanation": "質問の Can people ...? に合わせて Yes, I think they can と答え、for the most part（大部分は）を添えて言い切りすぎないようにしています。「放送前の確認」「訂正の仕組み」という理由のあと、SNS と比べることで信頼性を具体的に示しました。No の立場なら「スポンサーや視聴率の影響で、伝え方が偏ることがある」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Will more people choose to work past retirement age in the future?",
           "promptJa": "将来、定年を過ぎても働くことを選ぶ人は増えるでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-1-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think so. People are living longer and staying healthy into their later years, so many of them will want to stay active. In addition, pensions alone may not be enough to support a long retirement. Because Japan is also facing a labor shortage, companies will welcome experienced older workers and offer them more opportunities.",
           "modelAnswerJa": "はい、そう思います。人々は長生きになり、高齢になっても健康でいられるので、活動的でいたいと思う人が多くなるでしょう。また、長い老後を年金だけで支えるのは難しいかもしれません。日本は人手不足にも直面しているので、企業は経験豊富な高齢の労働者を歓迎し、より多くの機会を提供するでしょう。",
           "explanation": "「働きたい理由（健康で長生き）」「働く必要がある理由（年金）」「企業側の事情（人手不足）」と、3 つの視点から理由を挙げています。No.4 では、日本社会の動きに触れると視野の広い答えになります。No の立場なら「老後は趣味や家族との時間を大切にしたい人が多く、体力的にも長く働くのは難しい」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2023-1-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a woman who worked at a dentist's office.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a woman was working at the reception desk of a dentist's office."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2023-1-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2023-1-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2023-1-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2023-1-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-1-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"The toys really did cheer the children up, so my idea wasn't a bad one. But they won't last long if the kids play with them so roughly. Next time, we should choose stronger toys and ask parents to keep an eye on their children while they play.\"",
           "modelAnswerJa": "「おもちゃのおかげで子どもたちは本当に元気になったのだから、私の考えは悪くなかった。でも、こんなに乱暴に遊ばれたら長くはもたない。次はもっと丈夫なおもちゃを選んで、遊んでいる間は子どもを見ていてもらうよう保護者にお願いしよう」と考えていると思います。",
           "explanation": "4 コマ目は、女性のアイデアが成功した一方で、おもちゃがすぐに傷んでしまった場面です。まず「アイデア自体はよかった」と認め、But で問題点を述べ、Next time, we should ... で「次の対策」を具体的に 2 つ挙げています。keep an eye on（〜から目を離さない）は、子どもの話題で使いやすい表現です。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Do you think it is harder to raise children now than it was in the past?",
           "promptJa": "昔と比べて、今のほうが子育ては難しいと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2023-1-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. In the past, grandparents and neighbors often helped parents take care of their children, but now many parents have to do everything by themselves. In many families, both parents also work full-time. Moreover, parents today have to worry about new problems such as smartphone use and online bullying, and education has become more expensive.",
           "modelAnswerJa": "はい、そう思います。昔は祖父母や近所の人が子どもの世話を手伝ってくれることがよくありましたが、今は多くの親がすべてを自分たちでしなければなりません。また、両親ともフルタイムで働いている家庭も多いです。さらに、今の親はスマートフォンの使い方やネットいじめといった新しい問題も心配しなければならず、教育にかかる費用も高くなっています。",
           "explanation": "質問が今と昔の比較なので、In the past, ..., but now ... の形で違いをはっきり示しています。そのあとで「共働き」「スマートフォンやネットの問題」「教育費」と、今ならではの事情を重ねました。No の立場なら「育児用品や保育サービス、ネットの情報が充実し、父親の育児参加も進んでいるので、昔より楽な面もある」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Do you think companies focus too much on making their products cheaper?",
           "promptJa": "企業は製品を安くすることに力を入れすぎていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2023-1-interview/d-q3.mp3",
           "modelAnswer": "Yes, I think so. When companies compete mainly on price, they often cut costs by using cheaper materials or paying workers and suppliers less. As a result, product quality can suffer. In addition, cheap products tend to be thrown away quickly, which creates more waste. I think companies should focus more on making good products that last a long time.",
           "modelAnswerJa": "はい、そう思います。企業が主に価格で競争すると、より安い材料を使ったり、従業員や取引先に払うお金を減らしたりしてコストを削ることがよくあります。その結果、製品の品質が落ちることがあります。また、安い製品はすぐに捨てられがちで、ごみの増加にもつながります。企業は、長く使えるよい製品を作ることにもっと力を入れるべきだと思います。",
           "explanation": "「価格競争 → コスト削減 → 品質の低下」という流れを As a result でつなぎ、さらに「ごみの増加」という別の問題も加えています。compete on price（価格で競争する）や cut costs（コストを削る）は、企業の話題で役立つ表現です。No の立場なら「物価が上がる中で安い商品は家計を助けるし、技術の進歩で安くても品質のよい製品が増えている」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Will the government be able to meet the needs of Japan's aging society?",
           "promptJa": "政府は日本の高齢化社会のニーズに応えることができるでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-1-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think so, at least not by itself. The number of elderly people is growing while the number of young taxpayers is falling, so it will be very difficult to pay for pensions and medical care. There is also a serious shortage of caregivers. Local communities and private companies will need to help the government support older people.",
           "modelAnswerJa": "いいえ、少なくとも政府だけでは難しいと思います。高齢者の数が増える一方で、税金を納める若い世代は減っているので、年金や医療の費用をまかなうのはとても難しくなるでしょう。また、介護の担い手も深刻に不足しています。地域社会や民間企業が、政府と一緒に高齢者を支えていく必要があるでしょう。",
           "explanation": "at least not by itself（少なくとも政府だけでは無理だ）と条件を付けることで、完全な否定を避けています。「お金の問題（年金・医療費）」と「人手の問題（介護）」を分けて述べ、最後に「では誰が支えるのか」まで答えると、話がまとまります。Yes の立場なら「定年の延長や介護ロボットの導入など、政策次第で対応できる」などが考えられます。"

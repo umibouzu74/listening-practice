@@ -18,6 +18,12 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a couple who liked traveling.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a couple was talking at a café."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2023-2-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2023-2-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2023-2-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2023-2-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
@@ -39,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"This wouldn't have happened if we had joined a guided group tour, because the tour company would have booked a restaurant for us. We'll have to find somewhere else to eat today, but on our next trip, let's make reservations before we leave home.\"",
           "modelAnswerJa": "「ガイド付きの団体ツアーに参加していれば、ツアー会社がレストランを予約してくれたはずだから、こんなことにはならなかったのに。今日はほかに食べるところを探すしかないけれど、次の旅行では家を出る前に予約をしておこう」と考えていると思います。",
           "explanation": "4 コマ目の女性は、2 コマ目で見ていた団体ツアーを思い出していそうな場面です。This wouldn't have happened if ... という仮定法過去完了で「ツアーならよかったのに」という反省を述べ、次に「今日どうするか」と「次の旅行でどうするか」を続けています。2 コマ目の内容を答えに取り入れると、話の流れをよく理解していることが伝わります。"
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Will Japan continue to be a popular tourist destination in the future?",
           "promptJa": "日本は将来も人気の旅行先であり続けるでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-2-interview/a-q2.mp3",
           "modelAnswer": "Yes, I think so. Japan has many attractions, such as historic temples, beautiful natural scenery, and delicious food. It is also known as a safe country with clean streets and convenient public transportation, so travelers can enjoy themselves without much worry. In addition, Japanese anime and games have many fans around the world, and this is unlikely to change soon.",
           "modelAnswerJa": "はい、そう思います。日本には歴史ある寺院や美しい自然、おいしい食べ物など、魅力がたくさんあります。また、治安がよく、街が清潔で、公共交通機関も便利な国として知られているので、旅行者はあまり心配せずに楽しめます。さらに、日本のアニメやゲームは世界中に多くのファンがいて、これはすぐには変わらないでしょう。",
           "explanation": "「見どころ（寺院・自然・食べ物）」「旅行のしやすさ（治安・清潔さ・交通）」「文化の人気（アニメ・ゲーム）」と、種類の違う理由を 3 つ挙げています。such as で例を並べると、短い時間でも内容が具体的になります。No の立場なら「観光地の混雑や物価の上昇、自然災害への不安から、ほかの国に人気が移るかもしれない」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Do you think employees in the service industry are treated well enough by their employers?",
           "promptJa": "サービス業の従業員は雇用主から十分によい待遇を受けていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2023-2-interview/a-q3.mp3",
           "modelAnswer": "No, I don't think so. Many people who work in restaurants, hotels, and stores have low wages and long or irregular working hours, even though their jobs are physically demanding. Some also have to deal with rude customers without enough support from their employers. Companies should pay them fairly and protect them from unreasonable customer complaints.",
           "modelAnswerJa": "いいえ、そうは思いません。飲食店やホテル、店舗で働く人の多くは、体力的にきつい仕事であるにもかかわらず、賃金が低く、労働時間も長かったり不規則だったりします。雇用主から十分な支援を受けられないまま、失礼な客に対応しなければならない人もいます。企業は従業員に公正な賃金を支払い、理不尽な苦情から守るべきです。",
           "explanation": "service industry を restaurants, hotels, and stores と具体的に言い換え、「賃金・労働時間」と「失礼な客への対応」という 2 つの問題を挙げています。最後に Companies should ... で「雇用主はどうすべきか」を述べると、質問の by their employers にきちんと答えられます。Yes の立場なら「人手不足のため、賃金を上げたり働き方を見直したりする企業が増えている」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Is people's quality of life these days better than it was in the past?",
           "promptJa": "今の人々の生活の質は、昔より向上しているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-2-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think so. Thanks to advances in medicine, people live longer and can receive better treatment for many diseases. Technology has also made daily life much more convenient. For example, we can use our smartphones to shop, study, and keep in touch with friends anywhere. Although people today have their own kinds of stress, life is generally safer and more comfortable.",
           "modelAnswerJa": "はい、そう思います。医学の進歩のおかげで、人々は長生きになり、多くの病気についてよりよい治療を受けられるようになりました。技術によって日々の生活もずっと便利になりました。たとえば、スマートフォンを使えば、どこにいても買い物や勉強をしたり、友人と連絡を取り合ったりできます。今の人々にも今なりのストレスはありますが、生活は全体として昔より安全で快適です。",
           "explanation": "「医療」と「技術」という 2 つの分野を挙げ、For example で身近な例（スマートフォン）を示しています。Although people today have their own kinds of stress ... と反対の面にも触れてから結論を述べると、バランスのよい答えになります。No の立場なら「仕事のストレスや忙しさが増え、人とのつながりが薄くなった」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2023-2-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a couple whose son liked sports.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a family was at home."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2023-2-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2023-2-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2023-2-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2023-2-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the father, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの父親だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I was so happy about his success in soccer that I didn't pay enough attention to his schoolwork. Soccer has done him a lot of good, but he needs to study, too. I'll talk to him and make a rule that he has to finish his homework before he goes to practice.\"",
           "modelAnswerJa": "「息子のサッカーでの活躍がうれしくて、勉強に十分目を向けていなかった。サッカーはあの子にとても役立ったけれど、勉強もしなければならない。息子と話をして、練習に行く前に宿題を終わらせるというルールを作ろう」と考えていると思います。",
           "explanation": "4 コマ目の父親は、3 コマ目までの喜びから一転して、息子の成績を心配する場面です。so happy ... that I didn't ... の形で「喜びすぎて見落としていた」という反省を述べ、I'll ... で具体的なルールの話につなげています。サッカーをやめさせるのではなく両立させる案にすると、話の流れに合った前向きな答えになります。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Should playing video games be considered a sport?",
           "promptJa": "テレビゲームをすることは、スポーツと見なされるべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-2-interview/d-q2.mp3",
           "modelAnswer": "No, I don't think it should. Sports generally require physical strength and training, and they help keep people healthy. Video games do need quick reactions and strategy, but players mostly sit in front of a screen. I think it is better to treat competitive gaming as its own category of competition, just like chess or shogi, rather than calling it a sport.",
           "modelAnswerJa": "いいえ、そうは思いません。スポーツにはふつう体力や練習が必要で、健康を保つのにも役立ちます。テレビゲームにも素早い反応や戦略は必要ですが、プレーヤーはほとんど画面の前に座っているだけです。競技としてのゲームは、スポーツと呼ぶよりも、チェスや将棋のように独自の競技として扱うほうがよいと思います。",
           "explanation": "「スポーツの特徴（体力・健康）」を先に述べてから、ゲームとの違いを示しています。do need ... but ... の形で「ゲームにも必要な技術はある」と認めたうえで反論すると、説得力が増します。chess や shogi を例に挙げ、「競技であること」と「スポーツであること」を分けて考えている点もポイントです。Yes の立場なら「e スポーツには厳しい練習やチームワークが必要で、世界的な大会やプロ選手もいる」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Do you think parents should discuss important family issues with their children?",
           "promptJa": "親は家族の重要な問題について子どもと話し合うべきだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2023-2-interview/d-q3.mp3",
           "modelAnswer": "Yes, I think so. Issues such as moving to a new city or changes in the family's finances affect children, too, so they have a right to know about them. When parents explain the situation honestly, children feel respected and are less likely to worry. They can also learn how to deal with difficult problems. Of course, parents should consider their children's age when explaining things.",
           "modelAnswerJa": "はい、そう思います。別の街への引っ越しや家計の変化といった問題は子どもにも影響するので、子どもにも知る権利があります。親が状況を正直に説明すれば、子どもは尊重されていると感じ、不安になることも少なくなります。難しい問題への向き合い方を学ぶこともできます。もちろん、説明するときは子どもの年齢を考える必要があります。",
           "explanation": "important family issues を moving や finances の例で具体的に言い換えてから、「子どもにも影響する」「尊重されていると感じる」「問題への向き合い方を学べる」と理由を重ねています。最後の Of course ... で年齢への配慮に触れると、現実的な答えになります。No の立場なら「幼い子どもには不安を与えるだけなので、お金などの問題は大人が解決すべきだ」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Should the government provide more university scholarships for students?",
           "promptJa": "政府は学生のために大学の奨学金をもっと提供すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2023-2-interview/d-q4.mp3",
           "modelAnswer": "Yes, it should. University tuition is expensive, and some talented students give up on going to university because of their family's financial situation. Many others graduate with large student loans or work so many part-time hours that they can't focus on their studies. More scholarships would give young people a fairer chance, and society would benefit from having more well-educated people.",
           "modelAnswerJa": "はい、提供すべきです。大学の学費は高く、才能のある学生の中には家庭の経済状況のために進学をあきらめる人もいます。多額の学生ローンを抱えて卒業する人や、アルバイトに時間を取られて勉強に集中できない人も多くいます。奨学金が増えれば若者により公平な機会が与えられ、十分な教育を受けた人が増えることは社会にとっても利益になります。",
           "explanation": "Should the government ...? に合わせて Yes, it should. と短く答えてから、「進学をあきらめる学生」「ローンやアルバイトの負担」という問題を挙げ、最後に would を使って「奨学金が増えた場合の効果」を述べています。個人だけでなく社会にとっての利点まで触れると、視野の広い答えになります。No の立場なら「税金の負担が増えるので、本当に必要な学生に絞るべきだ」などが考えられます。"

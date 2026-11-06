@@ -18,6 +18,12 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a restaurant owner who wanted to make her customers happy.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a restaurant owner was working at her restaurant."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2021-2-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2021-2-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2021-2-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2021-2-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
@@ -39,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the restaurant owner, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこのレストランのオーナーだったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2021-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking that a healthy menu isn't enough if customers feel it is too expensive, and that I should look for ways to lower the price. For example, I could buy vegetables directly from local farmers or offer a smaller set.",
           "modelAnswerJa": "健康的なメニューでも、客が高すぎると感じるなら十分ではなく、値段を下げる方法を探すべきだと考えていると思います。たとえば、地元の農家から直接野菜を買ったり、もっと小さなセットを出したりできるでしょう。",
           "explanation": "4 コマ目のオーナーは、せっかくの新商品が売れていないと知った場面です。従業員の言葉（値段が高すぎる）を受けて、I'd be thinking that ..., and that ... の形で「分かったこと」と「すべきこと」を続けています。For example, I could ... と具体策を加えると、答えに説得力が出ます。"
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do young people today tend to waste money?",
           "promptJa": "今日の若者はお金を無駄づかいする傾向があるでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2021-2-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. Many young people today do not earn very much, and they worry about their future, so they are careful with their money. They often compare prices online and buy used items through apps. Of course, some young people spend too much on things like games or fashion, but that has always been true of every generation.",
           "modelAnswerJa": "いいえ、そうは思いません。今の若者の多くはそれほど収入が多くなく、将来を心配しているので、お金の使い方に慎重です。ネットで値段を比べたり、アプリで中古品を買ったりすることもよくあります。もちろん、ゲームやファッションなどにお金を使いすぎる若者もいますが、それはいつの世代でも同じです。",
           "explanation": "「収入が少なく将来が不安」という理由のあと、「値段の比較・中古品アプリ」と今の若者らしい具体例を挙げています。最後の Of course, ..., but ... は反対意見を先に認める言い方で、答えにバランスが生まれます。Yes の立場なら「SNS の影響で、流行のものや課金サービスに簡単にお金を使ってしまう」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Should countries do more to lower their reliance on imported food?",
           "promptJa": "各国は輸入食品への依存を減らすためにもっと努力すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2021-2-interview/a-q3.mp3",
           "modelAnswer": "Yes, they should. If a country depends too much on imported food, it can be in serious trouble when there is a war, a natural disaster, or a sudden rise in prices overseas. Growing more food at home makes the food supply more stable and supports local farmers. It also reduces the pollution caused by transporting food over long distances.",
           "modelAnswerJa": "はい、努力すべきです。輸入食品に頼りすぎていると、戦争や自然災害、海外での急な価格上昇が起きたときに深刻な事態に陥りかねません。国内でもっと多くの食料を作れば、食料の供給が安定し、地元の農家を支えることにもなります。また、食料を長距離輸送することによる汚染も減らせます。",
           "explanation": "質問の主語が countries なので、Yes, they should. と they で受けます。「輸入に頼る危険」→「国内生産の利点」→「環境面の利点」と、3 つの視点から述べています。No の立場なら「得意な分野で貿易をしたほうが効率的で、食料も安く手に入り、輸入先を増やせばリスクも分散できる」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Can the development of new technology help to save the natural environment?",
           "promptJa": "新しい技術の開発は自然環境を守るのに役立つでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2021-2-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think it can. For example, better solar panels and wind turbines allow us to use less oil and coal, and electric cars produce no exhaust gas while running. Drones and satellites can also be used to watch over forests and wild animals. Of course, technology alone is not enough, but it gives people practical ways to protect nature.",
           "modelAnswerJa": "はい、役立つと思います。たとえば、太陽光パネルや風力発電機が進歩すれば石油や石炭の使用を減らせますし、電気自動車は走行中に排気ガスを出しません。また、ドローンや人工衛星を使って森林や野生動物を見守ることもできます。もちろん、技術だけでは十分ではありませんが、自然を守るための現実的な手段を与えてくれます。",
           "explanation": "Can ...? の質問なので Yes, I think it can. と can で受け、エネルギー・自動車・自然の監視と、分野の違う具体例を挙げています。最後に technology alone is not enough と限界に触れると、視野の広い答えになります。No の立場なら「新しい技術を作るにも資源やエネルギーが必要で、消費そのものを減らさなければ解決しない」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2021-2-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a young woman who wanted to improve her career.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a young woman was in her office."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2021-2-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2021-2-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2021-2-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2021-2-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the young woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの若い女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2021-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"Maybe I've been focusing too much on my test and not enough on my job. I feel bad for letting my team down. I need to manage my time better so that I can do both, and once I pass the test, I can use what I've learned to help my team.\"",
           "modelAnswerJa": "「テストのことばかり考えて、仕事がおろそかになっていたかもしれない。チームの期待を裏切って申し訳ない。両方できるように時間の使い方を見直さなければならないし、テストに受かったら、学んだことを生かしてチームの役に立とう」と考えていると思います。",
           "explanation": "4 コマ目は、売上の低下で注意を受け、勉強と仕事の両立に悩む場面です。Maybe I've been focusing too much on ... で反省を述べ、I need to ... so that I can ... で解決策を続けています。let ... down（〜の期待を裏切る）は、チームや家族の話でよく使う表現です。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Do you think more elderly people will choose to study at universities after retiring in the future?",
           "promptJa": "今後、退職後に大学で学ぶことを選ぶ高齢者は増えると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2021-2-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. People are living longer and staying healthy after they retire, so they have plenty of time to learn something new. Many of them have subjects that they could not study when they were young because of work or family. Also, universities need new students as the number of young people falls, so they will probably welcome older learners.",
           "modelAnswerJa": "はい、そう思います。人々は長生きになり、退職後も元気でいられるので、何か新しいことを学ぶ時間がたっぷりあります。仕事や家族のために若いころ勉強できなかった分野がある人も多くいます。また、若者の数が減る中で大学は新しい学生を必要としているので、おそらく年配の学習者を歓迎するでしょう。",
           "explanation": "学ぶ側の事情（時間がある・学びたいことがある）に、大学側の事情（若者の減少）を加え、両方の面から増える理由を述べています。as the number of young people falls（若者の数が減るにつれて）は、少子化の話題で使える表現です。No の立場なら「学費が高いうえ、経済的な理由で働き続ける高齢者も多く、趣味の講座で十分だと考える人もいる」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Do you think the media places too much emphasis on earning money?",
           "promptJa": "メディアはお金を稼ぐことを重視しすぎていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2021-2-interview/d-q3.mp3",
           "modelAnswer": "Yes, I think so. TV programs and websites often feature rich business owners and popular online celebrities, and they talk a lot about how much these people earn. This may make young people believe that money is the only measure of success. Many people in lower-paid jobs, such as care workers, do very important work, but they get far less attention.",
           "modelAnswerJa": "はい、そう思います。テレビ番組やウェブサイトは裕福な経営者や人気のネット有名人をよく取り上げ、その人たちの収入について盛んに話題にします。そのせいで、若者はお金だけが成功の物差しだと信じてしまうかもしれません。介護職員のように賃金の低い仕事でとても大切な役割を担っている人は多くいますが、そうした人々が注目されることはずっと少ないです。",
           "explanation": "メディアの具体的な内容を示してから、「若者への影響」へ話を広げています。最後に care workers という具体例を挙げ、お金以外の価値があることを対比で示しています。the only measure of success（成功の唯一の物差し）は、価値観の話題で便利な表現です。No の立場なら「メディアはボランティアや地域活動など、お金以外の話題も多く取り上げている」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Are companies doing enough to reduce pollution in Japan?",
           "promptJa": "日本の企業は汚染を減らすために十分な努力をしているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2021-2-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think so. Japan's air and water are much cleaner than they were decades ago because of strict laws. However, companies still use a lot of plastic packaging, and the amount of CO2 that they produce is still large. Many of them talk about protecting the environment, but they should spend more on recycling and clean energy.",
           "modelAnswerJa": "いいえ、そうは思いません。厳しい法律のおかげで、日本の空気や水は数十年前よりずっときれいになりました。しかし、企業は今でも多くのプラスチック包装を使っていますし、排出する二酸化炭素の量もまだ多いです。環境保護を語る企業は多いですが、リサイクルやクリーンエネルギーにもっとお金をかけるべきです。",
           "explanation": "まず過去からの改善を認め、However, ... で今も残る問題（プラスチック包装・二酸化炭素）を挙げています。Are companies ...? の質問なので、doing enough に対して「まだ足りない」理由を具体的に述べることがポイントです。Yes の立場なら「多くの企業が省エネや再生可能エネルギーの導入を進め、環境報告書も公開している」などが考えられます。"

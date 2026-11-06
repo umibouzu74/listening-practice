@@ -18,6 +18,12 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a mayor who wanted to help her town.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a mayor was having a meeting."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2022-1-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2022-1-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2022-1-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2022-1-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
@@ -39,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the mayor, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの町長だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"People won't come to the campsite if they think bears might appear there. We need to put up strong fences right away and warn campers not to leave food outside. Safety has to come first, or all our work will be wasted.\"",
           "modelAnswerJa": "「クマが出るかもしれないと思ったら、人々はキャンプ場に来なくなってしまう。すぐに頑丈な柵を設置して、キャンプ客に食べ物を外に置かないよう注意を呼びかけなければならない。安全を最優先にしないと、これまでの努力がすべて無駄になってしまう」と考えていると思います。",
           "explanation": "4 コマ目の町長は、せっかく作ったキャンプ場にクマが現れたことを知った場面です。まず People won't come ... if ... で「何が心配か」を述べ、次に We need to ... で「柵を作る」「注意を呼びかける」という具体的な対策を挙げています。町長という立場なので、個人の感想だけでなく町として何をするかまで言うと、この人物らしい答えになります。come first（最優先である）は使いやすい表現です。"
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think people should spend more time outdoors to learn about nature?",
           "promptJa": "人々は自然について学ぶために、もっと屋外で時間を過ごすべきだと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q2.mp3",
           "modelAnswer": "Yes, I think so. These days, many people, especially children, spend most of their free time indoors looking at screens. By hiking or camping, they can experience plants and animals directly instead of just reading about them. This can also make people more interested in protecting the environment, and being outdoors is good for both body and mind.",
           "modelAnswerJa": "はい、そう思います。最近は多くの人、特に子どもが、自由な時間のほとんどを屋内で画面を見て過ごしています。ハイキングやキャンプをすれば、本などで読むだけでなく、植物や動物に直接触れることができます。これによって環境保護への関心も高まるでしょうし、屋外で過ごすことは心身の健康にもよいです。",
           "explanation": "「屋内で画面ばかり見ている」という現状を述べてから、直接体験の価値と環境保護への関心につなげています。instead of just reading about them と対比させると、屋外で学ぶことの意味がはっきりします。No の立場なら「忙しい人や都市に住む人には難しく、本や映像、博物館などでも自然について十分に学べる」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Should companies provide workers with more vacation days?",
           "promptJa": "企業は従業員により多くの休暇を与えるべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q3.mp3",
           "modelAnswer": "No, I don't think so. In Japan, many workers do not use all of the paid vacation they already have because they feel guilty or are too busy. Instead of adding more days, companies should create an atmosphere where people feel comfortable taking time off. For example, managers could take vacations themselves to set an example.",
           "modelAnswerJa": "いいえ、そうは思いません。日本では、多くの社員が後ろめたさや忙しさから、すでにある有給休暇を使い切っていません。休暇の日数を増やすよりも、会社は社員が気兼ねなく休みを取れる雰囲気を作るべきです。たとえば、管理職が自ら休暇を取って手本を示すことができるでしょう。",
           "explanation": "「日数を増やすより、今ある休暇を取りやすくすることが先だ」という、少しひねった No の答えです。Instead of adding more days と対案を示し、For example で具体策を加えると説得力が出ます。paid vacation（有給休暇）、take time off（休みを取る）は仕事の話題でよく使います。Yes の立場なら「十分に休むと疲れが取れて生産性が上がり、家族と過ごす時間も増える」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Should the government do more to protect endangered animals?",
           "promptJa": "政府は絶滅の危機にある動物を保護するためにもっと努力すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q4.mp3",
           "modelAnswer": "Yes, it should. Many animals are in danger because of human activities such as building on their habitats and illegal hunting. Individuals and small groups cannot solve these problems alone, but governments can make strict laws and protect large natural areas. Once a species disappears, it can never come back, and its loss can also harm the entire ecosystem.",
           "modelAnswerJa": "はい、努力すべきです。多くの動物は、生息地の開発や密猟といった人間の活動によって危機にさらされています。個人や小さな団体だけではこうした問題を解決できませんが、政府なら厳しい法律を作り、広い自然地域を保護することができます。ある種が一度絶滅すると二度と戻らず、その損失は生態系全体にも害を及ぼしかねません。",
           "explanation": "「原因は人間の活動」→「政府にしかできないこと（法律・自然地域の保護）」→「絶滅すると取り返しがつかない」という順に、なぜ政府なのかを説明しています。habitat（生息地）、illegal hunting（密猟）、ecosystem（生態系）は環境問題で頻出の語です。No の立場なら「政府の予算には限りがあり、福祉や教育など人々の生活に直結する分野を優先すべきだ」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2022-1-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a woman who wanted to advance her career.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a woman was talking with her company's CEO in the office."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2022-1-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2022-1-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2022-1-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2022-1-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I can't leave the office now because of this project, but someone has to pick up our baby. I'll call the day care center and ask if they can keep her a little longer, and then my husband and I should find someone who can help us in emergencies.\"",
           "modelAnswerJa": "「このプロジェクトがあるので今は職場を離れられないけれど、誰かが赤ちゃんを迎えに行かなければならない。保育所に電話して、もう少し預かってもらえないか聞いてみよう。そのあとで、緊急のときに助けてくれる人を夫と一緒に探すべきだ」と考えていると思います。",
           "explanation": "4 コマ目の女性は、仕事を抜けられないのに夫も迎えに行けなくなった場面です。まず目の前の問題（今日の迎え）への対処を I'll call ... で述べ、次に and then ... should で今後の備えを述べると、短くても順序立った答えになります。ask if they can ...（〜してもらえるか尋ねる）は、頼みごとの場面で便利な言い方です。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Are parents too protective of their children these days?",
           "promptJa": "最近の親は子どもに対して過保護すぎるでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. Many parents try to solve every problem for their children, so children miss the chance to learn from their own mistakes. Some parents even contact teachers about small problems between classmates. Of course, parents should keep their children safe, but young people need to experience some difficulties in order to become independent.",
           "modelAnswerJa": "はい、そう思います。多くの親が子どもの問題をすべて解決してあげようとするので、子どもは自分の失敗から学ぶ機会を失っています。同級生との小さな問題について先生に連絡する親さえいます。もちろん親は子どもの安全を守るべきですが、若い人が自立するには、ある程度の困難を経験することが必要です。",
           "explanation": "「親がすべて解決する → 子どもが失敗から学べない」という因果関係を述べ、身近な例を 1 つ加えています。Of course, ... but ... で反対の考えにも配慮すると、バランスのよい答えになります。become independent（自立する）は子育ての話題で使いやすい表現です。No の立場なら「事故や犯罪、SNS のトラブルなど危険が多い時代なので、親が気を配るのは当然だ」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Does the fast pace of modern life have a negative effect on people?",
           "promptJa": "現代生活の速いペースは人々に悪い影響を与えていますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q3.mp3",
           "modelAnswer": "Yes, it does. Because of smartphones, people are expected to reply to messages and finish their work quickly, so it is difficult for them to truly relax. Many people feel stressed and do not get enough sleep. Also, they have less time to spend with family and friends, which can make them feel lonely even when they are busy.",
           "modelAnswerJa": "はい、与えています。スマートフォンがあるために、人々はメッセージにすぐ返信し、仕事を早く終えることを求められるので、心からくつろぐのが難しくなっています。ストレスを感じ、十分な睡眠が取れていない人も多くいます。また、家族や友人と過ごす時間が減り、忙しいのに孤独を感じることもあります。",
           "explanation": "質問の fast pace を、スマートフォンですぐ返信を求められるという身近な例で具体的に説明しています。そのうえで「ストレス・睡眠不足」「人とのつながりの減少」という 2 つの悪影響を述べています。Does で聞かれているので Yes, it does. と does で答えます。No の立場なら「技術のおかげで便利になり、時間を節約できるので、かえって自由な時間を楽しめるようになった」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Do you think the birth rate in Japan will stop decreasing in the future?",
           "promptJa": "日本の出生率は将来、低下が止まると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think it will. Raising children is expensive in Japan, and many young people are worried about their income and job security. More people are also choosing to marry later or not to marry at all. The government has introduced some support for families, but these social changes are too big to be reversed easily.",
           "modelAnswerJa": "いいえ、止まらないと思います。日本では子育てにお金がかかり、多くの若者は収入や雇用の安定を不安に思っています。また、結婚する年齢が遅くなったり、結婚しないことを選んだりする人も増えています。政府は家族への支援をいくつか導入していますが、こうした社会の変化は大きく、簡単には元に戻せません。",
           "explanation": "未来を予想する質問なので、No, I don't think it will. と will を使って答えます。「経済的な不安」「晩婚化・未婚化」という原因を挙げ、政府の支援にも触れたうえで「それでも難しい」と結論づけています。job security（雇用の安定）は覚えておきたい表現です。Yes の立場なら「保育所の充実や男性の育児休業の普及が進めば、子どもを持ちたいと思う人が増える」などが考えられます。"

@@ -18,6 +18,12 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a man who was interested in cooking.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a man was listening to his coworker at lunchtime."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2024-2-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2024-2-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2024-2-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2024-2-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
@@ -39,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the man, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"She's right. I got so excited about making fancy lunches that I bought far more than I could use. Next time, I'll plan my meals before I go shopping, and I'll use up what's in the refrigerator first.\"",
           "modelAnswerJa": "「彼女の言うとおりだ。豪華な弁当を作ることに夢中になって、使い切れないほど買ってしまった。次からは買い物に行く前に献立を考えて、まず冷蔵庫の中のものを使い切るようにしよう」と考えていると思います。",
           "explanation": "4 コマ目の男性は、冷蔵庫いっぱいの食べ物を前に注意を受けている場面です。She's right. と相手の指摘を認めたうえで、so ... that ...（あまりに〜なので…）で原因を振り返り、Next time, I'll ... で具体的な改善策を述べています。use up（使い切る）は、食品ロスの話題で使える表現です。"
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think that learning how to cook is essential for everyone?",
           "promptJa": "料理のしかたを学ぶことは、すべての人にとって不可欠だと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2024-2-interview/a-q2.mp3",
           "modelAnswer": "Yes, I think so. Cooking for yourself is usually cheaper and healthier than eating out or buying ready-made meals, because you can choose what goes into your food. It is also a basic skill for living independently. For example, students who can cook when they start living alone find it easier to save money and stay healthy.",
           "modelAnswerJa": "はい、そう思います。自分で料理をするほうが、外食や出来合いの食事を買うよりたいてい安く健康的です。食べ物に何を入れるか自分で選べるからです。また、料理は自立して生活するための基本的な技能でもあります。たとえば、一人暮らしを始めるときに料理ができる学生は、お金を節約しやすく、健康も保ちやすいです。",
           "explanation": "費用と健康という 2 つの利点を cheaper and healthier で短くまとめ、because で理由を加えています。さらに For example で一人暮らしの学生という身近な例を挙げると、essential for everyone（誰にとっても不可欠）という質問に答えやすくなります。No の立場なら「総菜や宅配サービスが充実しているので、料理ができなくても困らず、その時間を他のことに使える」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Should junior high schools allow students to use their smartphones during break time?",
           "promptJa": "中学校は、休み時間に生徒がスマートフォンを使うことを認めるべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-2-interview/a-q3.mp3",
           "modelAnswer": "No, I don't think so. If students can use their phones during breaks, they will spend their free time looking at screens instead of talking with their classmates or getting some exercise. It might also lead to problems such as online bullying or students taking pictures of others without permission. School should be a place where they focus on real-life relationships.",
           "modelAnswerJa": "いいえ、そうは思いません。休み時間にスマートフォンを使えるようになると、生徒はクラスメートと話したり体を動かしたりする代わりに、自由時間を画面を見て過ごすようになるでしょう。また、ネットいじめや、許可なく他人の写真を撮るといった問題につながるかもしれません。学校は、現実の人間関係を大切にする場所であるべきです。",
           "explanation": "「友達との交流や運動の時間が減る」という学校生活への影響と、「ネットいじめや無断撮影」というトラブルの 2 点を理由にしています。instead of ...ing で「本来すべきこと」と比べると、主張がはっきりします。Yes の立場なら「休み時間なら授業の妨げにならず、スマートフォンの正しい使い方を学ぶよい機会になる」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "In today's world, business trips are common in many companies. Will advances in technology make business trips unnecessary in the future?",
           "promptJa": "今日の世界では、出張は多くの企業で一般的です。技術の進歩によって、将来、出張は不要になるでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-2-interview/a-q4.mp3",
           "modelAnswer": "No, I don't think so. Online meetings are certainly convenient, and they have already replaced some trips. However, it is hard to build trust with a new client through a screen. Also, some jobs, such as inspecting a factory, require people to actually go there. So business trips may become less common, but they will not disappear.",
           "modelAnswerJa": "いいえ、そうは思いません。オンライン会議は確かに便利で、すでに一部の出張に取って代わっています。しかし、新しい取引先と画面越しに信頼関係を築くのは難しいです。また、工場の検査のように、実際に現地へ行かなければならない仕事もあります。ですから、出張は減るかもしれませんが、なくなることはないでしょう。",
           "explanation": "certainly ..., However ... の形で、技術の利点をいったん認めてから反論しています。最後の may become less common, but they will not disappear は、「不要になるか」という質問に対して「減るがなくならない」と程度を分けて答える言い方です。Yes の立場なら「オンライン会議や VR の技術が進めば、移動の時間と費用を節約できるので、ほとんどの出張はなくせる」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2024-2-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a kindergarten principal who was concerned about safety.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a kindergarten principal was in her office."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2024-2-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2024-2-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2024-2-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2024-2-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the kindergarten principal, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの幼稚園の園長だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I was so focused on safety that I forgot children need exciting places to play. Maybe I went too far by removing everything. I should ask the children and teachers what they would like, and then add some low, safe equipment, such as a small slide.\"",
           "modelAnswerJa": "「安全のことばかり考えて、子どもたちにはわくわくする遊び場が必要だということを忘れていた。全部なくしたのはやりすぎだったかもしれない。子どもたちや先生たちの希望を聞いて、小さな滑り台のような、低くて安全な遊具を入れることにしよう」と考えていると思います。",
           "explanation": "4 コマ目は、安全のために遊具を撤去した結果、子どもに「つまらない」と言われた場面です。I was so focused on ... that I forgot ... で自分の判断を振り返り、Maybe I went too far（やりすぎだったかもしれない）と認めてから、I should ... で具体策を述べています。安全と楽しさの両方を考えた対策を挙げると、園長の立場に合った答えになります。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Do you think that parents today are too protective of their children?",
           "promptJa": "今日の親は子どもに対して過保護だと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2024-2-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. Many parents today try to remove every risk from their children's lives, and some even deal with problems at school for them. Because of this, children have fewer chances to make mistakes and learn from them. To become independent, children need to try things for themselves, even if they sometimes fail.",
           "modelAnswerJa": "はい、そう思います。今の親の多くは、子どもの生活からあらゆる危険を取り除こうとし、中には学校での問題を子どもの代わりに解決しようとする親もいます。そのため、子どもが失敗してそこから学ぶ機会が少なくなっています。自立するためには、ときには失敗しても、自分でいろいろ試してみることが必要です。",
           "explanation": "「親の行動（危険を取り除く・代わりに問題を解決する）」→「その結果（失敗から学ぶ機会が減る）」→「子どもに必要なこと（自分で試す）」という流れで答えています。Because of this, ... は前の文の内容を受けて結果を述べるのに便利です。No の立場なら「交通事故やインターネット上のトラブルなど危険が多いので、親が注意するのは当然だ」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Should companies have to provide childcare facilities for their employees?",
           "promptJa": "企業は従業員のために保育施設を提供することを義務づけられるべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-2-interview/d-q3.mp3",
           "modelAnswer": "No, I don't think they should have to. Building and running a childcare facility costs a lot of money, so it would be a heavy burden, especially for small companies. Also, many parents would rather use a daycare center near their homes. It would be better for the government to increase the number of public childcare centers.",
           "modelAnswerJa": "いいえ、義務づけるべきではないと思います。保育施設を建てて運営するには多くの費用がかかるので、特に中小企業には重い負担になるでしょう。また、自宅の近くの保育所を利用したいと考える親も多いです。政府が公的な保育所の数を増やすほうがよいと思います。",
           "explanation": "have to（義務）を問う質問なので、「義務にすると困る会社がある」という費用の面を中心に答え、最後に It would be better for the government to ... と別の解決策を示しています。Yes の立場なら「職場に保育施設があれば親が安心して働き続けられ、企業も人材を失わずに済む」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Today, more than half of the world's population lives in cities. Has urban life made people lose touch with nature?",
           "promptJa": "今日、世界の人口の半分以上が都市に住んでいます。都市での生活によって、人々は自然との触れ合いを失ってしまったでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-2-interview/d-q4.mp3",
           "modelAnswer": "Yes, I think it has. People in cities spend most of their time inside buildings, and they rarely see forests or farmland in their daily lives. Many children grow up with few chances to catch insects or climb trees. As a result, people may care less about environmental problems because nature seems to have little to do with their lives.",
           "modelAnswerJa": "はい、そう思います。都市の人々はほとんどの時間を建物の中で過ごし、日常生活で森や農地を目にすることはめったにありません。虫を捕まえたり木に登ったりする機会がほとんどないまま育つ子どもも多くいます。その結果、自然は自分の生活とあまり関係がないように思えて、環境問題への関心が薄れてしまうかもしれません。",
           "explanation": "Has urban life made ...? という現在完了の質問なので、Yes, I think it has. と同じ形で答えています。大人の日常 → 子どもの経験 → 環境問題への関心と、話を広げていく構成です。have little to do with（〜とほとんど関係がない）も覚えておくと便利です。No の立場なら「都市にも公園や街路樹があり、週末にキャンプやハイキングに出かける人も多い」などが考えられます。"

@@ -18,6 +18,12 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a university student who was worried about her career.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a university student was at her campus."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2024-1-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2024-1-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2024-1-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2024-1-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
@@ -39,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-1-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I was so happy when I was offered this job, but I never imagined I'd have to work this late. I can't finish all of this tonight by myself, so I'll explain the situation to him and ask if someone can help me.\"",
           "modelAnswerJa": "「この仕事の話をもらったときはとてもうれしかったけれど、こんなに遅くまで働くことになるとは思ってもいなかった。これを全部今夜ひとりで終わらせるのは無理だから、事情を説明して、誰かに手伝ってもらえないか聞いてみよう」と考えていると思います。",
           "explanation": "4 コマ目の女性は、夜 9 時を過ぎてから大量の仕事を渡された場面です。I was so happy when ..., but I never imagined ... で「入社前の期待と現実の違い」を振り返り、so I'll ... で「これからどうするか」につなげています。I can't finish all of this tonight のように、吹き出しの finish this tonight を受けて答えると、絵に沿った内容になります。"
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think that most companies treat men and women equally?",
           "promptJa": "ほとんどの企業は男女を平等に扱っていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2024-1-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. Although things have improved in recent years, there are still far fewer women than men in management positions, especially in Japan. Women also tend to earn less than men on average, and some worry that having children could hurt their careers. So I think most companies still have a long way to go.",
           "modelAnswerJa": "いいえ、そうは思いません。近年は状況が改善してきたものの、特に日本では、管理職に就いている女性は男性よりまだずっと少ないです。また、女性は平均して男性より収入が低い傾向があり、子どもを持つことがキャリアの妨げになるのではないかと心配する人もいます。ですから、ほとんどの企業はまだ道半ばだと思います。",
           "explanation": "Although things have improved ... と改善点を認めてから、管理職の割合・収入・出産とキャリアという具体的な点を挙げて No の理由にしています。have a long way to go（まだ先は長い）は、「進歩はしたが十分ではない」と言うときに便利な表現です。Yes の立場なら「法律で男女平等が定められ、女性の管理職や育児休業を取る男性も増えている」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Should children's education be the responsibility of parents as well as schools?",
           "promptJa": "子どもの教育は、学校だけでなく親の責任でもあるべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-1-interview/a-q3.mp3",
           "modelAnswer": "Yes, it should. Schools can teach academic subjects, but children learn many important things at home, such as good manners and how to treat other people. Also, parents know their own children best, so they can give them support that teachers with large classes cannot. When parents and schools work together, children are more likely to do well.",
           "modelAnswerJa": "はい、そうあるべきです。学校は教科を教えることはできますが、子どもは礼儀や他人への接し方など、多くの大切なことを家庭で学びます。また、親は自分の子どものことをいちばんよく知っているので、大人数のクラスを受け持つ教師にはできない支えになることができます。親と学校が協力すれば、子どもはうまく伸びていきやすくなります。",
           "explanation": "学校の役割（教科の指導）と家庭の役割（礼儀や人との接し方）を分けて示し、最後に When parents and schools work together, ... と両者の協力でまとめています。質問の as well as に合わせて「どちらか一方ではなく両方」という答えの形にしている点がポイントです。No の立場なら「共働きなどで時間がない親もいるので、家庭環境で差が出ないよう、教育の専門家である学校が責任を持つべきだ」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "People can contribute to society in various ways. Are people today less interested in contributing to society compared to people in the past?",
           "promptJa": "人々はさまざまな方法で社会に貢献することができます。今日の人々は、昔の人々に比べて社会に貢献することへの関心が低いでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-1-interview/a-q4.mp3",
           "modelAnswer": "No, I don't think so. People today just contribute in different ways. For example, many people volunteer after natural disasters or donate money online through crowdfunding sites. Young people also use social media to raise awareness of problems such as climate change. The Internet has actually made it easier than before to help others.",
           "modelAnswerJa": "いいえ、そうは思いません。今の人々は、ただ違う方法で貢献しているだけです。たとえば、自然災害のあとにボランティアをしたり、クラウドファンディングのサイトを通じてオンラインで寄付をしたりする人が多くいます。若者は SNS を使って、気候変動などの問題を広く知らせてもいます。実際、インターネットのおかげで、以前より人の役に立ちやすくなっています。",
           "explanation": "質問の前半にある in various ways をヒントに、「関心が減ったのではなく、方法が変わった」という主張を立てています。ボランティア・オンライン寄付・SNS と今ならではの具体例を並べると、昔との比較に答えられます。raise awareness of ...（〜についての認識を高める）は社会問題を語るときに使いやすい表現です。Yes の立場なら「地域の行事や自治会に参加する人が減り、自分の生活を優先する人が増えた」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2024-1-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a woman who ran a restaurant with her husband.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a woman was working with her husband at their restaurant."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2024-1-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2024-1-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2024-1-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2024-1-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the woman, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-1-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"The tablets have made things easier for us, but not for everyone. I should go over and show those customers how it works. Maybe we should also keep some paper menus so that people who aren't used to tablets can still order the old way.\"",
           "modelAnswerJa": "「タブレットのおかげで私たちは楽になったけれど、誰にとってもそうというわけではないのね。あのお客さんたちのところへ行って、使い方を教えてあげないと。タブレットに慣れていない人が今までどおり注文できるように、紙のメニューも残しておいたほうがいいかもしれない」と考えていると思います。",
           "explanation": "4 コマ目の女性は、店で導入したタブレットに年配の客が困っているのを見ている場面です。まず but not for everyone で問題点を認め、I should ...（今すぐすること）と Maybe we should ...（今後の対策）の 2 段階で続けています。people who aren't used to ...（〜に慣れていない人）は、新しい技術の話題で幅広く使える表現です。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Should people stop using paper in order to protect the environment?",
           "promptJa": "人々は環境を守るために紙を使うのをやめるべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2024-1-interview/d-q2.mp3",
           "modelAnswer": "No, I don't think so. Paper is made from trees, which can be replanted, and it is easy to recycle. Also, computers and smartphones use electricity, so going paperless still has an impact on the environment. I think people should simply avoid wasting paper, for example, by printing only what they really need.",
           "modelAnswerJa": "いいえ、そうは思いません。紙は木から作られますが、木は植え直すことができますし、紙はリサイクルもしやすいです。また、コンピューターやスマートフォンは電気を使うので、紙を使わないようにしても環境への影響はあります。本当に必要なものだけを印刷するなどして、紙の無駄をなくせばよいと思います。",
           "explanation": "stop using paper と「完全にやめる」ことを聞かれているので、紙の利点と電子機器の環境負荷を挙げて No とし、最後に「無駄をなくす」という現実的な代案を示しています。going paperless（紙を使わないようにすること）は覚えておくと便利です。Yes の立場なら「紙の消費を減らせば森林を守れるし、デジタル化すれば資料の共有も簡単になる」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Do you think that the Internet plays an important role in consumers' purchasing decisions?",
           "promptJa": "インターネットは消費者の購買決定に重要な役割を果たしていると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2024-1-interview/d-q3.mp3",
           "modelAnswer": "Yes, I think so. Before buying something, many people check online reviews to see what other customers think of it. They can also compare prices at different stores in just a few minutes. In addition, posts and advertisements on social media often make people want products that they did not know about before.",
           "modelAnswerJa": "はい、そう思います。何かを買う前に、多くの人はオンラインのレビューを確認して、他の客がそれをどう思っているかを調べます。また、ほんの数分でさまざまな店の価格を比較することもできます。さらに、SNS 上の投稿や広告によって、それまで知らなかった商品が欲しくなることもよくあります。",
           "explanation": "レビュー・価格の比較・SNS の広告と、買う前に人々がインターネットで実際にしていることを順に挙げています。consumers' purchasing decisions という硬い言葉も、Before buying something のように簡単に言い換えれば話しやすくなります。No の立場なら「食料品や日用品などは、今も店頭で実物を見て選ぶ人が多い」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "These days, genetically modified food is a common topic of discussion. Do you think that genetically modified foods will become more common in the future?",
           "promptJa": "最近、遺伝子組み換え食品はよく議論の話題になります。遺伝子組み換え食品は将来もっと一般的になると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2024-1-interview/d-q4.mp3",
           "modelAnswer": "Yes, I think so. The world's population is growing, and climate change is making it harder to grow crops in some regions. Genetically modified crops can be made more resistant to pests and dry weather, so farmers can produce food more reliably. Some consumers are still worried about safety, but such foods will probably become more widely accepted over time.",
           "modelAnswerJa": "はい、そう思います。世界の人口は増えており、気候変動によって作物を育てるのが難しくなっている地域もあります。遺伝子組み換え作物は害虫や乾燥に強くすることができるので、農家はより安定して食料を生産できます。安全性を心配する消費者はまだいますが、こうした食品は時間とともにより広く受け入れられていくでしょう。",
           "explanation": "人口増加と気候変動という世界的な背景を述べ、遺伝子組み換え作物の利点（害虫や乾燥に強い）につなげています。Some consumers are still worried ..., but ... と反対の見方にも触れると、バランスのとれた答えになります。No の立場なら「安全性への不安が根強く、避ける消費者も多いので、あまり広がらない」などが考えられます。"

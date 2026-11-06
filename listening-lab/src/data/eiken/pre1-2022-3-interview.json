@@ -18,6 +18,12 @@
         "instruction": "You have one minute to prepare.\nThis is a story about a president of a small company.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a company president was walking around the office."
       },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2022-3-interview/a-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2022-3-interview/a-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2022-3-interview/a-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2022-3-interview/a-turnover.mp3"
+      },
       "questions": [
         {
           "id": "narration",
@@ -39,6 +45,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the company president, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの社長だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-3-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"The nap room is still a good idea, but we clearly need some rules. I'll set a time limit for naps and make sure that everyone sets an alarm, so that nobody is late for an important meeting again.\"",
           "modelAnswerJa": "「仮眠室はやはりよいアイデアだが、明らかに何か規則が必要だ。昼寝の時間に制限を設け、全員が必ずアラームをセットするようにして、大事な会議に遅れる人が二度と出ないようにしよう」と考えていると思います。",
           "explanation": "4 コマ目の社長は、社員が寝過ごして会議に遅れたと思われる場面です。社長の立場なので、失敗を責めるだけでなく「制度をどう改善するか」を考える答えにしています。still a good idea, but ... でアイデア自体はやめないことを示し、I'll set a time limit と具体策を続けています。so that nobody ... again（二度と〜しないように）は再発防止を述べるときに便利です。"
@@ -49,6 +56,7 @@
           "type": "qa",
           "prompt": "Do you think that salary is the most important factor when choosing a career?",
           "promptJa": "職業を選ぶときに、給料が最も重要な要素だと思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-3-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. A high salary is certainly attractive, but people spend a large part of their lives at work. If they don't enjoy their job, they may become unhappy or quit after a few years. I think that being interested in the work and having a good working environment are more important in the long run.",
           "modelAnswerJa": "いいえ、そうは思いません。高い給料は確かに魅力的ですが、人は人生の多くの時間を職場で過ごします。仕事を楽しめなければ、不幸になったり数年で辞めてしまったりするかもしれません。長い目で見れば、仕事に興味を持てることや職場環境がよいことのほうが大切だと思います。",
           "explanation": "A high salary is certainly attractive, but ... と、いったん給料の魅力を認めてから反論する形です。「仕事を楽しめないとどうなるか」を述べたうえで、給料より大切なものを具体的に挙げています。in the long run（長い目で見れば）は意見を締めくくるのに便利な表現です。Yes の立場なら「家族を養い、将来に備えるには十分な収入が欠かせず、給料が高ければ生活にも余裕が生まれる」などが考えられます。"
@@ -59,6 +67,7 @@
           "type": "qa",
           "prompt": "Are people's opinions too easily influenced by the media?",
           "promptJa": "人々の意見は、あまりにも簡単にメディアの影響を受けているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-3-interview/a-q3.mp3",
           "modelAnswer": "Yes, I think so. Many people believe what they see on TV or social media without checking whether it is true. Social media is especially powerful, because it tends to show users the kinds of posts they already agree with. As a result, false information can spread quickly, and people may form strong opinions after hearing only one side of a story.",
           "modelAnswerJa": "はい、そう思います。多くの人は、テレビや SNS で見たことを、本当かどうか確かめずに信じてしまいます。特に SNS は影響力が強く、利用者がすでに賛成している種類の投稿を表示する傾向があります。その結果、誤った情報がすぐに広まり、話の一面だけを聞いて強い意見を持ってしまうこともあります。",
           "explanation": "「確かめずに信じる」という人々の傾向を述べ、次に SNS の仕組みに話を進めています。As a result でまとめ、hearing only one side of a story（話の一面だけを聞く）という表現で問題点をはっきりさせています。No の立場なら「今は多くの情報源を簡単に比べられるので、自分で判断できる人も増えている」などが考えられます。"
@@ -69,6 +78,7 @@
           "type": "qa",
           "prompt": "Should the government do more to protect workers' rights?",
           "promptJa": "政府は労働者の権利を守るためにもっと努力すべきでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-3-interview/a-q4.mp3",
           "modelAnswer": "Yes, it should. In Japan, some workers still have to do long hours of unpaid overtime, and part-time or temporary workers are often treated worse than full-time employees. Many workers are afraid to complain because they might lose their jobs. The government should make stricter laws and punish companies that break them, so that all workers feel safe.",
           "modelAnswerJa": "はい、努力すべきです。日本では今でも、長時間のサービス残業をしなければならない人がいて、パートや派遣の労働者は正社員より悪い待遇を受けることが多くあります。多くの働く人は、仕事を失うことを恐れて不満を言えません。すべての労働者が安心できるように、政府はより厳しい法律を作り、違反した企業を罰するべきです。",
           "explanation": "unpaid overtime（サービス残業）や part-time or temporary workers（パートや派遣の労働者）のように、workers' rights の問題を具体的に挙げています。そして「自分では声を上げにくい」ことを理由に、政府の役割（法律と罰則）につなげています。No の立場なら「労働法はすでに整っているので、新しい法律より今ある法律を守らせることが大切で、規制が増えすぎると企業の負担も増える」などが考えられます。"
@@ -82,6 +92,12 @@
         "image": "images/eiken/eiken-pre1-2022-3-interview/card-d.jpg",
         "instruction": "You have one minute to prepare.\nThis is a story about a girl who wanted to learn to skateboard.\nYou have two minutes to narrate the story.",
         "firstSentence": "One day, a girl was walking home from school."
+      },
+      "cues": {
+        "prep": "audio/eiken/eiken-pre1-2022-3-interview/d-prep.mp3",
+        "narrationStart": "audio/eiken/eiken-pre1-2022-3-interview/d-narration.mp3",
+        "qaIntro": "audio/eiken/eiken-pre1-2022-3-interview/d-intro.mp3",
+        "turnOver": "audio/eiken/eiken-pre1-2022-3-interview/d-turnover.mp3"
       },
       "questions": [
         {
@@ -104,6 +120,7 @@
           "showCard": true,
           "prompt": "Please look at the fourth picture. If you were the girl, what would you be thinking?",
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女の子だったら、何を考えているでしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-3-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I understand why Mom is so worried, because I really got hurt this time. But I don't want to give up skateboarding. When I get better, I'll promise to wear more protective gear and take lessons from a teacher, and then I'll ask my parents for one more chance.\"",
           "modelAnswerJa": "「今回は本当にけがをしてしまったから、お母さんがこんなに心配している理由は分かる。でも、スケートボードをあきらめたくない。よくなったら、もっと防具を着けて先生に習うと約束して、もう一度だけチャンスをくださいと両親に頼もう」と考えていると思います。",
           "explanation": "4 コマ目の女の子は、けがをして母親に「もうスケートボードはだめ」と言われた場面です。まず母親の気持ちを I understand why ... で受け止め、次に But で自分の希望を述べています。When I get better, I'll promise to ... と条件を示して頼む形にすると、説得力のある答えになります。protective gear（防具）はスポーツの話題で使える語です。"
@@ -114,6 +131,7 @@
           "type": "qa",
           "prompt": "Is it important for parents to participate in their children's school life?",
           "promptJa": "親が子どもの学校生活に関わることは大切でしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-3-interview/d-q2.mp3",
           "modelAnswer": "Yes, it is. When parents go to school events and talk with teachers, they can notice problems such as bullying or falling grades at an early stage. Children also tend to take their studies more seriously when they know their parents care. However, parents should not get too involved, because children need to learn to solve problems by themselves.",
           "modelAnswerJa": "はい、大切です。親が学校行事に参加したり先生と話したりすれば、いじめや成績の低下といった問題に早い段階で気づくことができます。また、親が気にかけてくれていると分かると、子どもは勉強により真剣に取り組む傾向があります。ただし、子どもは自分で問題を解決することも学ぶ必要があるので、親が関わりすぎるのはよくありません。",
           "explanation": "「問題の早期発見」と「子どものやる気」という 2 つの理由を挙げています。at an early stage（早い段階で）は便利な表現です。最後に However で「関わりすぎ」に触れると、一方的でない答えになります。No の立場なら「学校生活は子どもが自立を学ぶ場なので、親はあまり関わらず先生に任せたほうがよい」などが考えられます。"
@@ -124,6 +142,7 @@
           "type": "qa",
           "prompt": "Is playing sports a good way for young people to develop a strong character?",
           "promptJa": "スポーツをすることは、若者が強い人格を育てるよい方法でしょうか。",
+          "audio": "audio/eiken/eiken-pre1-2022-3-interview/d-q3.mp3",
           "modelAnswer": "Yes, it is. In sports, young people often lose or make mistakes, so they learn how to deal with failure and try again. Team sports also teach them to cooperate with others and to take responsibility for their roles. Practicing regularly for a long time helps them develop patience and self-discipline, which will be useful throughout their lives.",
           "modelAnswerJa": "はい、よい方法です。スポーツでは、若者は負けたり失敗したりすることがよくあるので、失敗に向き合い、再び挑戦することを学びます。また、チームスポーツでは、他の人と協力し、自分の役割に責任を持つことを学びます。長い間定期的に練習することで忍耐力や自制心も身につき、それは一生役立ちます。",
           "explanation": "strong character を「失敗から立ち直る力」「協力と責任」「忍耐力」の 3 つに分けて具体的に説明しています。抽象的な言葉について聞かれたら、このように中身を言い換えると答えやすくなります。self-discipline（自制心）も覚えておきたい語です。No の立場なら「勝つことばかりを重視する指導や厳しい上下関係は、かえって若者に悪い影響を与えることがある」などが考えられます。"
@@ -134,6 +153,7 @@
           "type": "qa",
           "prompt": "Do you think international events such as the Olympics can improve relations between nations?",
           "promptJa": "オリンピックのような国際的な行事は、国と国との関係を改善できると思いますか。",
+          "audio": "audio/eiken/eiken-pre1-2022-3-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think they can do much. These events bring people together for a few weeks, but serious problems between countries, such as disputes over territory, do not disappear because of them. In fact, some countries have refused to take part in the Olympics for political reasons. Real progress depends on long-term talks between governments.",
           "modelAnswerJa": "いいえ、あまりできないと思います。こうした行事は数週間は人々を結びつけますが、領土をめぐる争いのような国家間の深刻な問題がそれでなくなるわけではありません。実際、政治的な理由でオリンピックへの参加を拒否した国もあります。本当の進展は、政府同士の長期にわたる話し合いにかかっています。",
           "explanation": "「一時的な効果にとどまる」という点を but で示し、In fact で実際の出来事（政治的理由による不参加）を挙げて根拠にしています。No, I don't think they can do much. のように「まったくできない」と言い切らないと、無理のない立場になります。Yes の立場なら「選手や観客の交流を通じて相手の国への理解が深まり、国同士が話し合うきっかけにもなる」などが考えられます。"
