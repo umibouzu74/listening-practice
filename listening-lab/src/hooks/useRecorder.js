@@ -105,7 +105,14 @@ export default function useRecorder() {
     };
 
     recorderRef.current = recorder;
-    recorder.start(1000);
+    try {
+      recorder.start(1000);
+    } catch {
+      // マイクが途中で切れたときなど。画面を止めず、録音なしで続けられるようにする
+      recorderRef.current = null;
+      setStatus('error');
+      return false;
+    }
     segmentStartRef.current = performance.now();
     setIsRecording(true);
     setIsPaused(false);

@@ -95,12 +95,12 @@ export const INTERVIEW_CONFIG = {
       '長い沈黙をつくらずに話し続けられた',
     ],
   },
-  /** 面接官の決まり文句（音声ファイルがないときは読み上げる） */
+  /** 面接官の決まり文句（音声ファイル（データの cues）がないときは読み上げる） */
   phrases: {
-    prep: 'Here is your card. You have one minute to prepare before you start your narration.',
+    prep: "Here's your card. You have one minute to prepare before you start your narration.",
     narrationStart: 'All right. Please begin your narration. You have two minutes.',
-    qaIntro: "Thank you. Now, I'm going to ask you four questions.",
-    turnOver: 'Now, please turn over the card and put it down.',
+    qaIntro: "Now, I'm going to ask you four questions. Are you ready?",
+    turnOver: 'Please turn over the card and put it down.',
     // {n} は質問番号に置き換える
     questionNumber: 'Number {n}.',
     end: 'All right. This is the end of the test. Thank you.',

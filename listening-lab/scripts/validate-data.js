@@ -12,7 +12,7 @@
  * 警告（終了コードには影響しない）:
  *   - script / explanation / scriptJa の欠落
  *   - 英文スクリプトと和訳の段落数の不一致
- *   - 面接形式: modelAnswer / modelAnswerJa / explanation の欠落
+ *   - 面接形式: modelAnswer / modelAnswerJa / explanation の欠落、面接官の音声（audio / cues）が一部だけ
  *
  * 使い方:
  *   npm run validate
@@ -30,6 +30,8 @@ const EXAM_TYPES = ["kyotsu", "eiken", "toeic", "nyushi", "custom"];
 const FORMATS = ["listening", "interview"];
 // 面接形式で必要な質問（ナレーション + No.1〜4）
 const INTERVIEW_QA_NUMBERS = [1, 2, 3, 4];
+// 面接形式の section.cues に書ける、面接官の決まり文句の音声（examConfig.js の phrases に対応）
+const INTERVIEW_CUE_KEYS = ["prep", "narrationStart", "qaIntro", "turnOver"];
 const quiet = process.argv.includes("--quiet");
 
 const errors = [];
@@ -70,6 +72,28 @@ function validateInterviewSection(sw, section, draft, missing) {
   }
 
   const questions = section.questions || [];
+
+  // 面接官の音声は、質問（audio）と決まり文句（cues）がそろっているか、どちらもないかのどちらか
+  const cues = section.cues;
+  if (cues !== undefined) {
+    if (!cues || typeof cues !== "object") {
+      errors.push(`${sw}: cues は { "prep": "audio/…" } の形式にしてください`);
+    } else {
+      for (const [key, path] of Object.entries(cues)) {
+        if (!INTERVIEW_CUE_KEYS.includes(key)) {
+          errors.push(`${sw}: cues のキー "${key}" は ${INTERVIEW_CUE_KEYS.join(" / ")} のいずれかにしてください`);
+        }
+        checkAudio(`${sw} cues.${key}`, path);
+      }
+    }
+  }
+  const qasWithAudio = questions.filter((q) => q.type === "qa" && q.audio).length;
+  const qaCount = questions.filter((q) => q.type === "qa").length;
+  const cueCount = INTERVIEW_CUE_KEYS.filter((key) => cues?.[key]).length;
+  if ((qasWithAudio > 0 || cueCount > 0) && (qasWithAudio !== qaCount || cueCount !== INTERVIEW_CUE_KEYS.length)) {
+    warnings.push(`${sw}: 面接官の音声が一部だけです（質問 ${qasWithAudio}/${qaCount}、決まり文句 ${cueCount}/${INTERVIEW_CUE_KEYS.length}）。足りない分は読み上げになります`);
+  }
+
   const questionIds = new Set();
   const narrations = questions.filter((q) => q.type === "narration");
   if (narrations.length !== 1) {

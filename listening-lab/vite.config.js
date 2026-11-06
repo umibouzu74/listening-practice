@@ -45,6 +45,8 @@ function buildExamIndex() {
             ?.split('\n')
             .find((line) => /^This is a story about/i.test(line.trim()))
             ?.trim(),
+          // 面接: 面接官の音声ファイルが入っているか（ないカードは読み上げで流す）
+          hasInterviewAudio: data.format === 'interview' ? s.questions?.some((q) => q.audio) : undefined,
         })),
       })
     }

@@ -11,7 +11,8 @@ import useWakeLock from '../hooks/useWakeLock';
 import { getExamColor, INTERVIEW_CONFIG } from '../utils/examConfig';
 import { formatTime } from '../utils/audio';
 import {
-  answerTargetSeconds, checkpointsFor, getInterviewSteps, questionSegment, runCue, stepLabel,
+  answerTargetSeconds, checkpointsFor, getInterviewSteps, hasInterviewAudio, narrationStartSegment,
+  questionSegment, runCue, stepLabel,
 } from '../utils/interview';
 import {
   getInterviewRecord, maxScoreOf, recordPracticeAttempt, setPracticeScore,
@@ -64,11 +65,10 @@ export default function InterviewPracticePage({ examSet, section }) {
   const speaking = phase === 'cue' || phase === 'replay';
 
   const cueSegments = useMemo(() => {
-    if (isNarration) return [{ text: INTERVIEW_CONFIG.phrases.narrationStart }];
+    if (isNarration) return [narrationStartSegment(section)];
     return [questionSegment(q)];
-  }, [q, isNarration]);
-  const cueAudioSrc = speaking ? cueSegments.find((s) => s.audio)?.audio || null : null;
-  const { playFile, stop: stopQuestionAudio } = useQuestionAudio(cueAudioSrc);
+  }, [q, isNarration, section]);
+  const { playFile, stop: stopQuestionAudio, unlock: unlockAudio } = useQuestionAudio();
 
   useWakeLock(busy);
 
@@ -150,7 +150,9 @@ export default function InterviewPracticePage({ examSet, section }) {
 
   const startAttempt = async () => {
     if (busy) return;
-    unlockSpeech(); // クリックの中で読み上げを有効にしておく（iPhone 対策）
+    // クリックの中で音声と読み上げを有効にしておく（iPhone 対策）
+    unlockAudio();
+    unlockSpeech();
     if (recorder.status !== 'unsupported') await recorder.prepare();
     setAttemptNo((n) => n + 1);
     setPhase('cue');
@@ -285,8 +287,11 @@ export default function InterviewPracticePage({ examSet, section }) {
                 {attempted ? 'もう一度やる' : isNarration ? 'ナレーションを始める' : '質問を聞いて答える'}
               </button>
               {micNote && <p className={styles.notice}>{micNote}</p>}
-              {!isSpeechSupported() && !isNarration && (
+              {!q.audio && !isSpeechSupported() && !isNarration && (
                 <p className={styles.notice}>このブラウザは読み上げに対応していないため、質問を文字で表示します。</p>
+              )}
+              {!hasInterviewAudio(section) && (
+                <p className={styles.notice}>この回には面接官の音声がないため、ブラウザの読み上げで流します。</p>
               )}
             </div>
           )}

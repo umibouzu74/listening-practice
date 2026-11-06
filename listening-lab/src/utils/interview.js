@@ -30,6 +30,16 @@ export function questionSegment(q) {
   return { audio: q.audio || null, text: spokenQuestion(q), isQuestion: true };
 }
 
+/** ナレーション開始の指示（「Please begin your narration.」） */
+export function narrationStartSegment(section) {
+  return { text: INTERVIEW_CONFIG.phrases.narrationStart, audio: section?.cues?.narrationStart };
+}
+
+/** 面接官の音声ファイルが入っているカードか（入っていない回はブラウザの読み上げで流す） */
+export function hasInterviewAudio(section) {
+  return (section?.questions || []).some((q) => q.audio);
+}
+
 /** 自己採点の横に出す観点（共通の観点 + カードごとの checkpoints） */
 export function checkpointsFor(q) {
   const common = INTERVIEW_CONFIG.checkpoints;
@@ -39,7 +49,7 @@ export function checkpointsFor(q) {
 
 /**
  * 面接官の発話（決まり文句・質問）を順に流す。
- * segments: [{ text, audio?, isQuestion? }]
+ * segments: [{ text, audio?, isQuestion? }]（audio があればそれを流し、再生できなければ text を読み上げる）
  * playFile: 音声ファイルを流す関数（useQuestionAudio の playFile）
  * 中断されたら null、最後まで流れたら { questionVoiced }（質問を音声で伝えられたか）を返す
  */
@@ -48,7 +58,7 @@ export async function runCue(segments, { playFile, isCancelled }) {
   let questionVoiced = true;
   for (const seg of segments) {
     if (isCancelled()) return null;
-    let ok = seg.audio ? await playFile() : false;
+    let ok = seg.audio ? await playFile(seg.audio) : false;
     if (isCancelled()) return null;
     if (!ok) ok = await speak(seg.text, { rate });
     if (isCancelled()) return null;
@@ -64,12 +74,13 @@ export async function runCue(segments, { playFile, isCancelled }) {
  */
 export function buildExamStages(section) {
   const P = INTERVIEW_CONFIG.phrases;
+  const cueAudio = section?.cues || {};
   const stages = [
     {
       id: 'prep',
       kind: 'prep',
       label: '黙読',
-      cue: [{ text: P.prep }],
+      cue: [{ text: P.prep, audio: cueAudio.prep }],
       seconds: INTERVIEW_CONFIG.prepSeconds,
       showCard: true,
     },
@@ -84,7 +95,7 @@ export function buildExamStages(section) {
         kind: 'narration',
         label: 'ナレーション',
         question: q,
-        cue: [{ text: P.narrationStart }],
+        cue: [narrationStartSegment(section)],
         seconds: INTERVIEW_CONFIG.narrationSeconds,
         record: true,
         showCard: true,
@@ -92,10 +103,10 @@ export function buildExamStages(section) {
       continue;
     }
     const cue = [];
-    if (firstQa) cue.push({ text: P.qaIntro });
+    if (firstQa) cue.push({ text: P.qaIntro, audio: cueAudio.qaIntro });
     // カードを見て答える質問（No.1）が終わったらカードを伏せる
     const showCard = cardShown && !!q.showCard;
-    if (cardShown && !showCard) cue.push({ text: P.turnOver });
+    if (cardShown && !showCard) cue.push({ text: P.turnOver, audio: cueAudio.turnOver });
     cue.push(questionSegment(q));
     stages.push({
       id: q.id,

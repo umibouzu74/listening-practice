@@ -9,7 +9,7 @@ import useRecorder from '../hooks/useRecorder';
 import useWakeLock from '../hooks/useWakeLock';
 import { getExamColor, INTERVIEW_CONFIG } from '../utils/examConfig';
 import { formatTime } from '../utils/audio';
-import { buildExamStages, checkpointsFor, getInterviewSteps, runCue } from '../utils/interview';
+import { buildExamStages, checkpointsFor, getInterviewSteps, hasInterviewAudio, runCue } from '../utils/interview';
 import { maxScoreOf, recordExamFinished, setExamScore, totalScore } from '../utils/interviewHistory';
 import { cancelSpeech, isSpeechSupported, primeVoices, unlockSpeech } from '../utils/speech';
 import styles from './InterviewExamPage.module.css';
@@ -77,10 +77,8 @@ export default function InterviewExamPage({ examSet, section }) {
   const speaking = state.sub === 'cue' || state.sub === 'replay';
   const inProgress = state.index >= 0 && state.sub !== 'review';
 
-  // 質問の音声ファイル（あるときだけ）。useAudioPlayer で再生し、終わったら次へ
-  const cueSegments = stage && speaking ? (state.sub === 'replay' ? stage.replay : stage.cue) : null;
-  const cueAudioSrc = cueSegments?.find((s) => s.audio)?.audio || null;
-  const { playFile, stop: stopQuestionAudio } = useQuestionAudio(cueAudioSrc);
+  const { playFile, stop: stopQuestionAudio, unlock: unlockAudio } = useQuestionAudio();
+  const hasAudio = hasInterviewAudio(section);
 
   useWakeLock(inProgress);
 
@@ -180,11 +178,14 @@ export default function InterviewExamPage({ examSet, section }) {
   };
 
   const handleStart = async () => {
-    unlockSpeech(); // クリックの中で読み上げを有効にしておく（iPhone 対策）
+    // クリックの中で音声と読み上げを有効にしておく（iPhone 対策）
+    unlockAudio();
+    unlockSpeech();
     if (await recorder.prepare()) begin();
   };
 
   const handleStartWithoutMic = () => {
+    unlockAudio();
     unlockSpeech();
     begin();
   };
@@ -283,12 +284,16 @@ export default function InterviewExamPage({ examSet, section }) {
                 面接官の指示に従い、<strong>黙読1分 → ナレーション2分 → No.1 → No.2〜4</strong>
                 の順に本番と同じ流れで進みます
               </li>
-              <li>面接官の質問は音声で流れ、画面には表示されません</li>
+              <li>
+                {hasAudio
+                  ? '面接官の質問は音声で流れ、画面には表示されません'
+                  : '面接官の質問はブラウザの読み上げで流れ、画面には表示されません（この回には面接官の音声がありません）'}
+              </li>
               <li>質問が終わると録音が始まります。答え終わったら「回答を終える」を押してください</li>
               <li>No.1 のあとはカードを伏せ、No.2〜4 はカードを見ずに答えます</li>
               <li>録音はこの端末の中だけで扱い、どこにも送信・保存しません</li>
             </ul>
-            {!isSpeechSupported() && (
+            {!hasAudio && !isSpeechSupported() && (
               <p className={styles.notice}>
                 このブラウザは英文の読み上げに対応していないため、質問は文字で表示します。
               </p>
@@ -384,7 +389,7 @@ export default function InterviewExamPage({ examSet, section }) {
 
           {stage?.kind === 'qa' && textFallback[stage.id] && (
             <div className={styles.fallbackPrompt}>
-              <span>読み上げが使えないため、質問を表示しています</span>
+              <span>音声を再生できないため、質問を表示しています</span>
               <p lang="en">{stage.question.prompt}</p>
             </div>
           )}
