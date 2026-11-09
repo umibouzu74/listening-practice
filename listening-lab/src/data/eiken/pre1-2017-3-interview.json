@@ -30,6 +30,60 @@
             "2コマ目: スタッフ会議でボードの2案（社内の保育所・育児休暇の延長）に触れ、保育所の案が支持されたことを言えた",
             "3コマ目: 翌年 ABC Daycare が開設され、女性が満足そうに見ていることを描写できた",
             "4コマ目: 保育所の音で社員が「集中しにくい」と言い、女性が心配していることを、however などで展開の変化を示して言えた"
+          ],
+          "simpleAnswer": "One day, a woman was at the company where she worked. A male employee came to talk to her. He told her that many employees couldn't find daycare for their children. She was thinking about the problem. At a staff meeting, she talked about two ideas. One idea was to open a daycare in the building. The staff agreed with this idea. The following year, ABC Daycare opened in the building. The children were singing, and a teacher was playing the piano. The woman looked very pleased. A few months later, however, two employees were working on their computers. They could hear music from the daycare. One of them said that it was hard to concentrate. The woman looked worried.",
+          "simpleAnswerJa": "ある日、ある女性が勤め先の会社にいた。男性社員が彼女に話をしに来た。彼は、多くの社員が子どもの預け先を見つけられないと伝えた。彼女はその問題について考えていた。スタッフ会議で、彼女は 2 つの案について話した。1 つの案は、建物の中に保育所を開くことだった。スタッフはこの案に賛成した。翌年、建物の中に ABC Daycare が開設された。子どもたちが歌い、保育士がピアノを弾いていた。女性はとても満足そうだった。ところが数か月後、2 人の社員がパソコンで仕事をしていた。保育所の音楽が聞こえていた。そのうちの 1 人が、集中するのが難しいと言った。女性は心配そうな様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "A male employee came to talk to her.",
+              "ja": "男性社員が彼女に話をしに来た"
+            },
+            {
+              "group": "1コマ目",
+              "en": "He told her that many employees couldn't find daycare for their children.",
+              "ja": "多くの社員が子どもの預け先を見つけられないと伝えた（can't → couldn't）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "One idea was to open a daycare in the building.",
+              "ja": "1 つの案は、建物の中に保育所を開くことだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The staff agreed with this idea.",
+              "ja": "スタッフはこの案に賛成した"
+            },
+            {
+              "group": "3コマ目",
+              "en": "ABC Daycare opened in the building.",
+              "ja": "建物の中に ABC Daycare が開設された"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The children were singing, and a teacher was playing the piano.",
+              "ja": "子どもたちが歌い、保育士がピアノを弾いていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The woman looked very pleased.",
+              "ja": "女性はとても満足そうだった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "They could hear music from the daycare.",
+              "ja": "保育所の音楽が聞こえていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "One of them said that it was hard to concentrate.",
+              "ja": "1 人が、集中するのが難しいと言った（is → was）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The woman looked worried.",
+              "ja": "女性は心配そうな様子だった"
+            }
           ]
         },
         {
@@ -41,7 +95,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"The daycare has been a big help to working parents, but I never thought about the noise. I should talk to the daycare staff about moving the music time, or look into making the walls and windows soundproof so that everyone can work comfortably.\"",
           "modelAnswerJa": "「保育所は働く親の大きな助けになっているけれど、音のことは考えていなかった。音楽の時間をずらせないか保育所のスタッフと相談するか、みんなが快適に働けるように壁や窓を防音にすることを検討しなければ」と考えていると思います。",
-          "explanation": "4 コマ目は、女性が、自分の進めた保育所が別の社員の負担になっていると知った場面です。まず but でよかった点と見落とした点を対比し、I should ... で具体的な対策を 2 つ続けています。I never thought about ...（〜のことは考えもしなかった）は、反省を表すときに使いやすい表現です。"
+          "explanation": "4 コマ目は、女性が、自分の進めた保育所が別の社員の負担になっていると知った場面です。まず but でよかった点と見落とした点を対比し、I should ... で具体的な対策を 2 つ続けています。I never thought about ...（〜のことは考えもしなかった）は、反省を表すときに使いやすい表現です。",
+          "simpleAnswer": "I'd be thinking, \"I should have thought about the noise. The daycare is good for parents, but it is a problem for other workers. I'll ask the teachers to play the music more quietly.\"",
+          "simpleAnswerJa": "「音のことを考えておくべきだった。保育所は親にとってはありがたいが、ほかの社員には迷惑になっている。保育士さんに、音楽をもっと小さな音で流してもらうよう頼もう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I should have thought about the noise.",
+              "ja": "音のことを考えておくべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "The daycare is good for parents.",
+              "ja": "保育所は親にとってはありがたい"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "The music is a problem for other workers.",
+              "ja": "音楽がほかの社員の迷惑になっている"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask the teachers to play the music more quietly.",
+              "ja": "保育士に、音楽をもっと小さな音で流すよう頼もう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll move the workers to a quieter room.",
+              "ja": "社員をもっと静かな部屋に移そう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -51,7 +134,36 @@
           "promptJa": "最近の親は、子どもと十分な時間を過ごしているでしょうか。",
           "modelAnswer": "No, I don't think so. In many families these days, both parents work full-time, and some of them have long commutes or often work overtime. As a result, they may only see their children for a short time in the evening. Even when families are together at home, parents are sometimes busy looking at their smartphones instead of talking with their children.",
           "modelAnswerJa": "いいえ、そうは思いません。最近は両親ともフルタイムで働く家庭が多く、通勤時間が長かったり残業が多かったりする人もいます。その結果、夕方に短い時間しか子どもと顔を合わせられないこともあります。家族が一緒に家にいるときでさえ、親が子どもと話さずにスマートフォンを見るのに忙しいこともあります。",
-          "explanation": "No の理由として「仕事で時間がない」ことと「一緒にいても向き合っていない」ことの 2 点を挙げています。後半の Even when ... は、時間の長さだけでなく過ごし方にも目を向けた言い方で、答えに深みが出ます。Yes の立場なら「父親の育児参加が進み、在宅勤務などで子どもと過ごせる時間が増えた家庭もある」などが考えられます。"
+          "explanation": "No の理由として「仕事で時間がない」ことと「一緒にいても向き合っていない」ことの 2 点を挙げています。後半の Even when ... は、時間の長さだけでなく過ごし方にも目を向けた言い方で、答えに深みが出ます。Yes の立場なら「父親の育児参加が進み、在宅勤務などで子どもと過ごせる時間が増えた家庭もある」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. In many families, both parents work. They often come home late. Also, many parents look at their smartphones at home. So they don't talk with their children very much.",
+          "simpleAnswerJa": "いいえ、そうは思いません。多くの家庭では、両親とも働いています。帰りが遅いこともよくあります。また、家でスマートフォンを見ている親がたくさんいます。だから、子どもとあまり話していません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "In many families, both parents work.",
+              "ja": "多くの家庭では両親とも働いている"
+            },
+            {
+              "group": "No の理由",
+              "en": "They often come home late.",
+              "ja": "帰りが遅いことが多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many parents look at their smartphones at home.",
+              "ja": "家でスマートフォンを見ている親が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More fathers take care of their children these days.",
+              "ja": "最近は子育てをする父親が増えている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some parents can work from home.",
+              "ja": "在宅勤務ができる親もいる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -61,7 +173,36 @@
           "promptJa": "日本の学校教育の質は低下していると思いますか。",
           "modelAnswer": "No, I don't think so. Japanese students generally do well on international tests, especially in math and science, so the basic level of education is still high. Schools are also trying to improve by using tablets in class and teaching students to discuss and express their own ideas. Although teachers are very busy, I don't believe the overall quality is getting worse.",
           "modelAnswerJa": "いいえ、そうは思いません。日本の生徒は、特に数学と理科の国際的なテストでおおむね好成績を収めているので、教育の基本的な水準は今も高いです。学校もまた、授業でタブレットを使ったり、生徒が話し合って自分の考えを表現できるように指導したりして、改善に努めています。教員はとても忙しいですが、全体としての質が下がっているとは思いません。",
-          "explanation": "declining という主張に対して、「学力の水準」と「学校の取り組み」の 2 つの面から反論しています。最後の Although teachers are very busy, ... のように相手側の論点を一度認めると、バランスのよい答えになります。Yes の立場なら「教員の長時間労働や人手不足で、授業の準備や生徒一人ひとりへの指導が難しくなっている」などが考えられます。"
+          "explanation": "declining という主張に対して、「学力の水準」と「学校の取り組み」の 2 つの面から反論しています。最後の Although teachers are very busy, ... のように相手側の論点を一度認めると、バランスのよい答えになります。Yes の立場なら「教員の長時間労働や人手不足で、授業の準備や生徒一人ひとりへの指導が難しくなっている」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Japanese students do well on international tests, especially in math. Also, schools are trying new ways of teaching, like using tablets in class. So I think the quality of education is still high.",
+          "simpleAnswerJa": "いいえ、そうは思いません。日本の生徒は、特に数学の国際的なテストでよい成績をとっています。また、学校は授業でタブレットを使うなど、新しい教え方を取り入れています。だから、教育の質は今も高いと思います。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Japanese students do well on international tests.",
+              "ja": "日本の生徒は国際的なテストでよい成績をとっている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Schools are trying new ways of teaching.",
+              "ja": "学校は新しい教え方を取り入れている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many schools use tablets in class.",
+              "ja": "授業でタブレットを使う学校が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Teachers are too busy to prepare for their classes.",
+              "ja": "先生は忙しすぎて授業の準備ができない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "There are not enough teachers.",
+              "ja": "先生の数が足りない"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -71,7 +212,36 @@
           "promptJa": "企業は、年功よりも仕事の成果に基づいて社員を昇進させるべきでしょうか。",
           "modelAnswer": "Yes, I think so. If employees are promoted based on their results, they will be more motivated to work hard and learn new skills. It also gives talented young workers a chance to become leaders, which can bring fresh ideas to a company. Companies can still value experience, but age alone should not decide who gets promoted.",
           "modelAnswerJa": "はい、そう思います。成果に基づいて昇進できるなら、社員は一生懸命働き、新しい技能を身につけようという意欲がより高まります。また、有能な若手社員にリーダーになる機会を与えることにもなり、会社に新しい発想をもたらしてくれるでしょう。会社が経験を重視することはこれからもできますが、年齢だけで誰が昇進するかを決めるべきではありません。",
-          "explanation": "「社員の意欲」と「若手の活躍・新しい発想」という 2 つの利点を挙げ、最後に「経験も大事だが年齢だけで決めるべきではない」と付け加えて、極端な主張にならないようにしています。based on ...（〜に基づいて）は質問の表現をそのまま使えます。No の立場なら「成果だけで評価すると社員どうしの競争が激しくなり、協力や後輩の育成がおろそかになる」などが考えられます。"
+          "explanation": "「社員の意欲」と「若手の活躍・新しい発想」という 2 つの利点を挙げ、最後に「経験も大事だが年齢だけで決めるべきではない」と付け加えて、極端な主張にならないようにしています。based on ...（〜に基づいて）は質問の表現をそのまま使えます。No の立場なら「成果だけで評価すると社員どうしの競争が激しくなり、協力や後輩の育成がおろそかになる」などが考えられます。",
+          "simpleAnswer": "Yes, they should. If workers get promoted for good results, they will work harder. Also, young people with good ideas can become leaders. So age should not be the most important thing.",
+          "simpleAnswerJa": "はい、そうすべきです。よい成果を出せば昇進できるなら、社員はもっと一生懸命働くでしょう。また、よいアイデアを持つ若い人がリーダーになれます。だから、年齢をいちばん大事にするべきではありません。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Workers will work harder to get promoted.",
+              "ja": "昇進するために、社員はもっと頑張る"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Young people with good ideas can become leaders.",
+              "ja": "よいアイデアを持つ若い人がリーダーになれる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Age should not be the most important thing.",
+              "ja": "年齢をいちばん大事にするべきではない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Older workers have a lot of experience.",
+              "ja": "年上の社員には豊富な経験がある"
+            },
+            {
+              "group": "No の理由",
+              "en": "Workers may stop helping each other.",
+              "ja": "社員どうしが助け合わなくなるかもしれない"
+            }
+          ]
         }
       ]
     },
@@ -95,6 +265,60 @@
             "2コマ目: セミナーで講師が手軽に株を買う戦略を説明し、夫婦が熱心に聞いていることを描写できた",
             "3コマ目: ABC 社の株価のグラフを見て「今が買い時だ」と言い、購入しようとしていることを言えた",
             "4コマ目: テレビのニュース（ABC 社が倒産の危機）と、株を買った男性がショックを受けたことを言えた"
+          ],
+          "simpleAnswer": "One day, a man was at home with his wife. They were having coffee, and he showed her an ad for a stock-investing seminar. He suggested going to the seminar together. His wife smiled. At the seminar, a lecturer was talking about easy ways to buy stock. The couple was listening carefully. The following week, the man was looking at ABC Company's stock price on his computer. The price was going up. He told his wife that it was the right time to buy. A few months later, the couple was having a meal and watching the news on TV. The newscaster said that the ABC Company was facing bankruptcy. The man looked shocked because he had bought its stock.",
+          "simpleAnswerJa": "ある日、ある男性が妻と一緒に家にいた。2 人はコーヒーを飲んでいて、彼は妻に株式投資セミナーの広告を見せた。彼は、一緒にセミナーに行こうと提案した。妻はほほえんだ。セミナーでは、講師が株を買う簡単な方法について話していた。夫婦は熱心に聞いていた。翌週、男性はパソコンで ABC 社の株価を見ていた。株価は上がっていた。彼は妻に、今が買い時だと言った。数か月後、夫婦は食事をしながらテレビでニュースを見ていた。ニュースキャスターは、ABC 社が倒産の危機にあると伝えた。男性はその会社の株を買っていたので、ショックを受けた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "He showed her an ad for a stock-investing seminar.",
+              "ja": "彼は妻に株式投資セミナーの広告を見せた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "He suggested going to the seminar together.",
+              "ja": "一緒にセミナーに行こうと提案した（Let's ... → suggested ...ing）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "A lecturer was talking about easy ways to buy stock.",
+              "ja": "講師が株を買う簡単な方法について話していた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The couple was listening carefully.",
+              "ja": "夫婦は熱心に聞いていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "He was looking at ABC Company's stock price.",
+              "ja": "ABC 社の株価を見ていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The price was going up.",
+              "ja": "株価は上がっていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "He told his wife that it was the right time to buy.",
+              "ja": "今が買い時だと妻に言った（is → was）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "They were watching the news on TV.",
+              "ja": "2 人はテレビでニュースを見ていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The newscaster said that the ABC Company was facing bankruptcy.",
+              "ja": "ニュースキャスターは、ABC 社が倒産の危機にあると伝えた（is → was）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The man looked shocked because he had bought its stock.",
+              "ja": "株を買っていたので、男性はショックを受けた様子だった"
+            }
           ]
         },
         {
@@ -106,7 +330,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"I can't believe this is happening. I trusted what I heard at that seminar and bought this stock without really looking into the company. Now I need to find out whether I can save at least some of my money. Next time, I'll do my own research before I invest.\"",
           "modelAnswerJa": "「こんなことになるなんて信じられない。セミナーで聞いたことをうのみにして、会社のことをよく調べずにこの株を買ってしまった。今は、せめて一部のお金だけでも守れるかどうか調べなければ。次に投資するときは、自分でよく調べてからにしよう」と考えていると思います。",
-          "explanation": "4 コマ目の男性は、株を買った会社が倒産しそうだと知ったところです。「何がいけなかったか（調べずに買った）」→「今すべきこと」→「次はどうするか」の順に述べると、場面に合った筋の通った答えになります。look into ...（〜をよく調べる）は、反省を述べるときに便利な表現です。"
+          "explanation": "4 コマ目の男性は、株を買った会社が倒産しそうだと知ったところです。「何がいけなかったか（調べずに買った）」→「今すべきこと」→「次はどうするか」の順に述べると、場面に合った筋の通った答えになります。look into ...（〜をよく調べる）は、反省を述べるときに便利な表現です。",
+          "simpleAnswer": "I'd be thinking, \"Oh no, I'm going to lose a lot of money. I should have learned more about the company. Next time, I'll check carefully before I buy stock.\"",
+          "simpleAnswerJa": "「しまった、大金を失いそうだ。その会社についてもっと調べておくべきだった。次は、株を買う前によく確かめよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I'm going to lose a lot of money.",
+              "ja": "大金を失いそうだ"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have learned more about the company.",
+              "ja": "その会社についてもっと調べておくべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I believed the seminar too easily.",
+              "ja": "セミナーの話を簡単に信じすぎた"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll check carefully before I buy stock.",
+              "ja": "次は、株を買う前によく確かめよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll talk with my wife about what to do.",
+              "ja": "どうするか妻と話し合おう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -116,7 +369,36 @@
           "promptJa": "学校は、お金を責任を持ってためたり使ったりすることについて、子どもたちにもっと教えるべきでしょうか。",
           "modelAnswer": "Yes, I think so. Many young people use credit cards and online payments without really understanding how much they are spending, and some of them fall into debt. If children learn how to make a budget and save money at school, they will be better prepared for adult life. Not every family teaches these things at home, so schools should play a role.",
           "modelAnswerJa": "はい、そう思います。いくら使っているのかをよく理解しないままクレジットカードやオンライン決済を使う若者は多く、中には借金を抱えてしまう人もいます。子どもたちが学校で予算の立て方やお金のため方を学べば、大人になってからの生活への備えがよりしっかりできるでしょう。こうしたことを家庭で教えているとは限らないので、学校が役割を果たすべきです。",
-          "explanation": "「若者のトラブル（使いすぎ・借金）」という問題点 →「学校で学ぶ効果」→「なぜ家庭ではなく学校なのか」の順に理由を述べています。Not every family ... は「すべての家庭が〜するわけではない」という部分否定で、言い切りを避けるのに役立ちます。No の立場なら「お金の使い方は各家庭の考え方によるので家庭で教えるべきで、学校の授業時間は限られている」などが考えられます。"
+          "explanation": "「若者のトラブル（使いすぎ・借金）」という問題点 →「学校で学ぶ効果」→「なぜ家庭ではなく学校なのか」の順に理由を述べています。Not every family ... は「すべての家庭が〜するわけではない」という部分否定で、言い切りを避けるのに役立ちます。No の立場なら「お金の使い方は各家庭の考え方によるので家庭で教えるべきで、学校の授業時間は限られている」などが考えられます。",
+          "simpleAnswer": "Yes, they should. Many young people use credit cards and spend too much money. Also, some parents don't teach their children about money. So schools should teach children how to save and use money well.",
+          "simpleAnswerJa": "はい、そうすべきです。クレジットカードを使って、お金を使いすぎる若者がたくさんいます。また、子どもにお金のことを教えない親もいます。だから、学校がお金のため方や上手な使い方を教えるべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many young people spend too much money.",
+              "ja": "お金を使いすぎる若者が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some parents don't teach their children about money.",
+              "ja": "子どもにお金のことを教えない親もいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Children can learn how to save money.",
+              "ja": "子どもはお金のため方を学べる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Parents should teach this at home.",
+              "ja": "これは家庭で教えるべきだ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Schools don't have enough time for it.",
+              "ja": "学校にはそのための時間が十分にない"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -126,7 +408,36 @@
           "promptJa": "人々は、報道機関が伝えることについて、もっと批判的に考えるべきでしょうか。",
           "modelAnswer": "Yes, they should. News reports sometimes contain mistakes, and they can also reflect the opinions of the people who produce them. Also, many people now read news on social media, where false information spreads quickly. It is a good idea to compare several sources and check the facts before believing a story or sharing it with others.",
           "modelAnswerJa": "はい、そうすべきです。ニュースの報道には誤りが含まれていることがあり、作り手の意見が反映されていることもあります。また、今では SNS でニュースを読む人が多く、そこでは誤った情報がすぐに広がります。ある記事を信じたり他の人と共有したりする前に、複数の情報源を比べて事実を確かめるのはよい考えです。",
-          "explanation": "Should people ...? の質問なので Yes, they should. と答えています。「報道の誤りや偏り」「SNS での誤情報の拡散」という 2 つの理由のあと、compare several sources（複数の情報源を比べる）という具体的な行動を示して締めています。No の立場なら「大手の報道機関は事実確認をしており、すべてを疑うと何も信じられなくなる」などが考えられます。"
+          "explanation": "Should people ...? の質問なので Yes, they should. と答えています。「報道の誤りや偏り」「SNS での誤情報の拡散」という 2 つの理由のあと、compare several sources（複数の情報源を比べる）という具体的な行動を示して締めています。No の立場なら「大手の報道機関は事実確認をしており、すべてを疑うと何も信じられなくなる」などが考えられます。",
+          "simpleAnswer": "Yes, they should. News reports sometimes have mistakes. Also, false information spreads quickly on social media. So people should check the facts in other newspapers or on other websites.",
+          "simpleAnswerJa": "はい、そうすべきです。ニュースの報道には誤りがあることもあります。また、SNS では誤った情報がすぐに広がります。だから、ほかの新聞やウェブサイトで事実を確かめるべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "News reports sometimes have mistakes.",
+              "ja": "ニュースの報道には誤りもある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "False information spreads quickly on social media.",
+              "ja": "SNS では誤った情報がすぐに広がる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "We should check the facts on other websites.",
+              "ja": "ほかのウェブサイトで事実を確かめるべきだ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Big news companies check the facts carefully.",
+              "ja": "大手の報道機関は事実をしっかり確認している"
+            },
+            {
+              "group": "No の理由",
+              "en": "People are too busy to check every news story.",
+              "ja": "忙しくて、すべてのニュースを確かめることはできない"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -136,7 +447,36 @@
           "promptJa": "今日の日本企業は、世界経済の中で競争力を保ち続けると思いますか。",
           "modelAnswer": "No, I don't think so, at least not without big changes. Japan's population is shrinking, so it will become harder for companies to find enough workers. Many companies have also been slow to adopt digital technology compared with rivals in other countries. Unless they hire more people from overseas and make decisions more quickly, they may fall behind.",
           "modelAnswerJa": "いいえ、少なくとも大きく変わらない限り、そうは思いません。日本の人口は減っているので、企業が十分な働き手を見つけるのは難しくなっていくでしょう。また、海外の競合企業と比べて、デジタル技術の導入が遅れている企業も多くあります。海外からもっと人材を採用し、より速く意思決定をしなければ、後れを取ってしまうかもしれません。",
-          "explanation": "「人口減少」と「デジタル化の遅れ」という 2 つの課題を挙げ、Unless ...（〜しない限り）で「どうすれば競争力を保てるか」にも触れています。at least not without big changes と条件をつけると、一方的な悲観論にならずにすみます。Yes の立場なら「日本企業には高い品質や技術力への信頼があり、自動車や素材などの分野で今後も強みを発揮できる」などが考えられます。"
+          "explanation": "「人口減少」と「デジタル化の遅れ」という 2 つの課題を挙げ、Unless ...（〜しない限り）で「どうすれば競争力を保てるか」にも触れています。at least not without big changes と条件をつけると、一方的な悲観論にならずにすみます。Yes の立場なら「日本企業には高い品質や技術力への信頼があり、自動車や素材などの分野で今後も強みを発揮できる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Japan's population is getting smaller. Companies can't find enough workers. Also, many companies are slow to use new digital technology. So they may fall behind companies in other countries.",
+          "simpleAnswerJa": "いいえ、そうは思いません。日本の人口は減っています。会社は十分な働き手を見つけられません。また、新しいデジタル技術を取り入れるのが遅い会社が多いです。だから、海外の会社に後れを取るかもしれません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Japan's population is getting smaller.",
+              "ja": "日本の人口は減っている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Companies can't find enough workers.",
+              "ja": "会社は十分な働き手を見つけられない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many companies are slow to use digital technology.",
+              "ja": "デジタル技術を取り入れるのが遅い会社が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Japanese products are famous for their high quality.",
+              "ja": "日本の製品は品質の高さで有名だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Japanese companies have excellent technology.",
+              "ja": "日本の会社はすぐれた技術を持っている"
+            }
+          ]
         }
       ]
     }

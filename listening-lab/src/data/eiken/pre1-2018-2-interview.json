@@ -30,6 +30,60 @@
             "2コマ目: 英語・コンピューター・水泳のリストを見せ、「全部息子のためになる」と夫に言ったことを間接話法で言えた",
             "3コマ目: ABC English School から走り出る息子に、水泳のレッスンに遅れると伝えたことを言えた",
             "4コマ目: プールへ向かう途中、息子が遊んでいる子どもたちをうらやましそうに見ていることを描写できた"
+          ],
+          "simpleAnswer": "One day, a woman was at a café with her mother and son. Her mother showed her a book about early learning and career success. The woman looked interested. A few weeks later, she showed her husband a list of lessons. The list had English, computers, and swimming on it. She told him that they would all be good for their son. One month later, the boy came running out of ABC English School. His mother was waiting for him with their bikes. She told him that they were late for his swimming lesson. On the way to the pool, they were riding their bikes. The boy was looking at some children playing with a ball. He seemed to want to play with them.",
+          "simpleAnswerJa": "ある日、ある女性が母親と息子と一緒にカフェにいた。母親は彼女に、早期教育と仕事での成功についての本を見せた。女性は興味がありそうだった。数週間後、彼女は夫に習い事のリストを見せた。リストには英語、コンピューター、水泳が書いてあった。彼女は夫に、どれも息子のためになると言った。1 か月後、男の子が ABC English School から走って出てきた。母親は自転車を用意して彼を待っていた。彼女は息子に、水泳のレッスンに遅れていると言った。プールに向かう途中、2 人は自転車に乗っていた。男の子は、ボールで遊んでいる子どもたちを見ていた。彼は一緒に遊びたそうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "Her mother showed her a book about early learning.",
+              "ja": "母親が彼女に早期教育についての本を見せた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The woman looked interested.",
+              "ja": "女性は興味がありそうだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She showed her husband a list of lessons.",
+              "ja": "夫に習い事のリストを見せた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The list had English, computers, and swimming on it.",
+              "ja": "リストには英語、コンピューター、水泳が書いてあった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She told him that they would all be good for their son.",
+              "ja": "どれも息子のためになると夫に言った（these → they、will → would、our → their）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The boy came running out of ABC English School.",
+              "ja": "男の子が ABC English School から走って出てきた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She told him that they were late for his swimming lesson.",
+              "ja": "水泳のレッスンに遅れていると息子に言った（we're → they were、your → his）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "They were riding their bikes to the pool.",
+              "ja": "2 人は自転車でプールに向かっていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The boy was looking at some children playing with a ball.",
+              "ja": "男の子は、ボールで遊んでいる子どもたちを見ていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He seemed to want to play with them.",
+              "ja": "彼は一緒に遊びたそうだった"
+            }
           ]
         },
         {
@@ -41,7 +95,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"My son looks so envious of those children. Maybe I've been filling his schedule with too many lessons, and he has no time left to just play. I should ask him what he really wants to do and perhaps cut down on his lessons.\"",
           "modelAnswerJa": "「息子はあの子たちをとてもうらやましそうに見ている。習い事で予定を詰め込みすぎて、ただ遊ぶ時間がなくなっているのかもしれない。息子が本当にやりたいことを聞いて、習い事を減らすことも考えるべきだろう」と考えていると思います。",
-          "explanation": "4 コマ目は、女性が振り返って、息子が遊んでいる子どもたちを見ていることに気づいた場面です。Maybe I've been ...（〜していたのかもしれない）で自分のやり方を見直し、I should ... で次の行動を続けています。fill his schedule with ...（予定を〜で埋める）と cut down on ...（〜を減らす）は、この場面にぴったりの表現です。"
+          "explanation": "4 コマ目は、女性が振り返って、息子が遊んでいる子どもたちを見ていることに気づいた場面です。Maybe I've been ...（〜していたのかもしれない）で自分のやり方を見直し、I should ... で次の行動を続けています。fill his schedule with ...（予定を〜で埋める）と cut down on ...（〜を減らす）は、この場面にぴったりの表現です。",
+          "simpleAnswer": "I'd be thinking, \"My son wants to play with the other children. Maybe I gave him too many lessons. I'll ask him what he really wants to do.\"",
+          "simpleAnswerJa": "「息子はほかの子どもたちと遊びたいのだ。習い事をさせすぎたのかもしれない。本当は何がしたいのか、息子に聞いてみよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "My son wants to play with the other children.",
+              "ja": "息子はほかの子どもたちと遊びたいのだ"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "Maybe I gave him too many lessons.",
+              "ja": "習い事をさせすぎたのかもしれない"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have asked him first.",
+              "ja": "先に息子の気持ちを聞くべきだった"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask him what he really wants to do.",
+              "ja": "本当は何がしたいのか聞いてみよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll give him more time to play.",
+              "ja": "遊ぶ時間をもっとあげよう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -51,7 +134,36 @@
           "promptJa": "ほかの種類の授業の時間を増やすために、美術や音楽のような教科を削るべきでしょうか。",
           "modelAnswer": "No, I don't think so. Art and music give children a chance to express themselves and develop their creativity. These subjects can also be a nice break from studying for tests, and some children discover their talents or interests in them. Academic subjects are important, but schools should help children develop in a balanced way.",
           "modelAnswerJa": "いいえ、そうは思いません。美術や音楽は、子どもたちが自分を表現し、創造力を伸ばす機会になります。これらの教科はテスト勉強のよい息抜きにもなりますし、その中で自分の才能や興味を見つける子どももいます。主要教科も大切ですが、学校は子どもたちがバランスよく成長できるようにすべきです。",
-          "explanation": "「自己表現・創造力」「息抜き」「才能の発見」と、美術や音楽ならではの価値を挙げて、削るべきでない理由を示しています。最後に「他の教科も大切だが」と認めて in a balanced way（バランスよく）でまとめています。Yes の立場なら「プログラミングや英語など、将来の仕事に直接役立つ授業に時間を回すほうがよい」などが考えられます。"
+          "explanation": "「自己表現・創造力」「息抜き」「才能の発見」と、美術や音楽ならではの価値を挙げて、削るべきでない理由を示しています。最後に「他の教科も大切だが」と認めて in a balanced way（バランスよく）でまとめています。Yes の立場なら「プログラミングや英語など、将来の仕事に直接役立つ授業に時間を回すほうがよい」などが考えられます。",
+          "simpleAnswer": "No, they shouldn't. In art and music classes, children can show their feelings and be creative. Also, these classes are a good break from studying. So schools should keep art and music.",
+          "simpleAnswerJa": "いいえ、なくすべきではありません。美術や音楽の授業では、子どもたちは気持ちを表現したり、創造力を発揮したりできます。また、こうした授業は勉強のよい息抜きになります。だから、学校は美術と音楽の授業を残すべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Children can show their feelings in art and music.",
+              "ja": "美術や音楽で、子どもは気持ちを表現できる"
+            },
+            {
+              "group": "No の理由",
+              "en": "These classes are a good break from studying.",
+              "ja": "こうした授業は勉強のよい息抜きになる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some children find their talents in these classes.",
+              "ja": "こうした授業で才能を見つける子どももいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Students need more time for English and math.",
+              "ja": "生徒には英語や数学の時間がもっと必要だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Children can learn art and music outside of school.",
+              "ja": "美術や音楽は学校の外でも学べる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -61,7 +173,36 @@
           "promptJa": "公園の設備は改善されるべきだと思いますか。",
           "modelAnswer": "Yes, I think so. In many parks, the playground equipment and benches are old, and some of them may even be dangerous for children. Cleaner restrooms and more shaded places to rest would also encourage elderly people and families to use parks more often. Parks are free places where anyone can relax and exercise, so they are worth investing in.",
           "modelAnswerJa": "はい、そう思います。多くの公園では遊具やベンチが古くなっていて、中には子どもにとって危険なものさえあるかもしれません。トイレがもっときれいになり、日陰の休憩場所が増えれば、お年寄りや家族連れも公園をもっと頻繁に利用するようになるでしょう。公園は誰でも無料でくつろいだり運動したりできる場所なので、お金をかける価値があります。",
-          "explanation": "playground equipment / benches / restrooms のように設備の名前を具体的に挙げ、子ども・お年寄り・家族連れという利用者に結びつけています。worth investing in（お金をかける価値がある）は、公共施設の話題で使える表現です。No の立場なら「多くの公園は今のままで十分使えるので、限られた税金はもっと優先度の高いことに使うべきだ」などが考えられます。"
+          "explanation": "playground equipment / benches / restrooms のように設備の名前を具体的に挙げ、子ども・お年寄り・家族連れという利用者に結びつけています。worth investing in（お金をかける価値がある）は、公共施設の話題で使える表現です。No の立場なら「多くの公園は今のままで十分使えるので、限られた税金はもっと優先度の高いことに使うべきだ」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. In many parks, the swings and slides are old and can be dangerous. Also, clean restrooms and more benches would help elderly people and families. So more people would enjoy using parks.",
+          "simpleAnswerJa": "はい、そう思います。多くの公園では、ブランコやすべり台が古くて危ないこともあります。また、きれいなトイレやベンチが増えれば、お年寄りや家族連れが助かります。だから、もっと多くの人が公園を楽しめるようになるでしょう。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "In many parks, the swings and slides are old.",
+              "ja": "多くの公園では、ブランコやすべり台が古い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Old swings can be dangerous for children.",
+              "ja": "古いブランコは子どもにとって危ないことがある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Clean restrooms would help elderly people and families.",
+              "ja": "きれいなトイレがあれば、お年寄りや家族連れが助かる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Improving parks costs a lot of money.",
+              "ja": "公園を改良するには多くのお金がかかる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many parks are already good enough.",
+              "ja": "多くの公園はすでに十分よい"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -71,7 +212,36 @@
           "promptJa": "親は、子どもが政治に関心を持つように働きかけるべきでしょうか。",
           "modelAnswer": "Yes, I think they should. Politics affects everyone's daily life, including education and taxes, and young people will soon have the right to vote. If parents talk about the news at home, children can learn to form their own opinions. However, parents shouldn't force their own views on their children.",
           "modelAnswerJa": "はい、そうすべきだと思います。政治は教育や税金など、誰の日常生活にも影響を与えますし、若者はやがて選挙権を持つようになります。親が家庭でニュースについて話せば、子どもは自分の意見を持てるようになるでしょう。ただし、親は自分の考えを子どもに押しつけるべきではありません。",
-          "explanation": "「政治は日常生活に関わる」という理由のあと、家庭でできること（ニュースについて話す）を具体的に述べています。最後の However, ... で「考えを押しつけないこと」と付け加えると、バランスの取れた答えになります。No の立場なら「子どもは成長すれば自然に関心を持つようになり、親が誘導すると考えが偏るおそれがある」などが考えられます。"
+          "explanation": "「政治は日常生活に関わる」という理由のあと、家庭でできること（ニュースについて話す）を具体的に述べています。最後の However, ... で「考えを押しつけないこと」と付け加えると、バランスの取れた答えになります。No の立場なら「子どもは成長すれば自然に関心を持つようになり、親が誘導すると考えが偏るおそれがある」などが考えられます。",
+          "simpleAnswer": "Yes, they should. Politics affects our daily lives, like taxes and schools. Also, young people can vote at 18 in Japan. So parents should talk about the news with their children at home.",
+          "simpleAnswerJa": "はい、そうすべきです。政治は、税金や学校など、私たちの毎日の生活に関わっています。また、日本では 18 歳で投票できます。だから、親は家で子どもとニュースについて話すべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Politics affects our daily lives.",
+              "ja": "政治は私たちの毎日の生活に関わっている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Young people can vote at 18 in Japan.",
+              "ja": "日本では 18 歳で投票できる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Parents can talk about the news with their children.",
+              "ja": "親は子どもとニュースについて話せる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Children are too young to understand politics.",
+              "ja": "子どもは幼すぎて政治を理解できない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Parents may force their own opinions on their children.",
+              "ja": "親が自分の意見を子どもに押しつけるかもしれない"
+            }
+          ]
         }
       ]
     },
@@ -95,6 +265,60 @@
             "2コマ目: 販売員にトラックを見せてもらい、女性がそのトラックを磨いてきれいにするところを想像していることを描写できた",
             "3コマ目: 開業の日、ABC Sandwiches に客の長い列ができている様子を描写できた",
             "4コマ目: 1年後、売れ残りの箱とほかのトラックの行列を対比し、「新しいトラックに客を取られた」と言えた"
+          ],
+          "simpleAnswer": "One day, a couple was having coffee at home. The woman was reading a newspaper. It said that food trucks were becoming more popular. She told her husband that a food truck would be a great business. Two weeks later, a salesman was showing them a truck. The woman was imagining herself cleaning the truck. On the opening day, they started selling sandwiches from their truck. Many customers were waiting in line. One year later, however, there were no customers at their truck. Long lines of people were waiting at other trucks. The man told his wife that the new trucks had taken their customers. He looked disappointed.",
+          "simpleAnswerJa": "ある日、ある夫婦が家でコーヒーを飲んでいた。女性は新聞を読んでいた。新聞には、フードトラックの人気が高まっていると書いてあった。彼女は夫に、フードトラックはすばらしい商売になると言った。2 週間後、販売員が 2 人にトラックを見せていた。女性は、トラックをふいている自分の姿を想像していた。開店の日、2 人はトラックでサンドイッチを売り始めた。たくさんの客が並んでいた。ところが 1 年後、2 人のトラックには客がいなかった。ほかのトラックには長い行列ができていた。男性は妻に、新しいトラックに客をとられたと言った。彼はがっかりした様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "The newspaper said that food trucks were becoming more popular.",
+              "ja": "新聞には、フードトラックの人気が高まっていると書いてあった"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She told her husband that a food truck would be a great business.",
+              "ja": "夫に、フードトラックはすばらしい商売になると言った（this → a food truck。would はそのまま）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "A salesman was showing them a truck.",
+              "ja": "販売員が 2 人にトラックを見せていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The woman was imagining herself cleaning the truck.",
+              "ja": "女性は、トラックをふいている自分の姿を想像していた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "They started selling sandwiches from their truck.",
+              "ja": "2 人はトラックでサンドイッチを売り始めた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Many customers were waiting in line.",
+              "ja": "たくさんの客が並んでいた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "There were no customers at their truck.",
+              "ja": "2 人のトラックには客がいなかった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Long lines of people were waiting at other trucks.",
+              "ja": "ほかのトラックには長い行列ができていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The man told his wife that the new trucks had taken their customers.",
+              "ja": "新しいトラックに客をとられたと妻に言った（took → had taken、our → their）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He looked disappointed.",
+              "ja": "彼はがっかりした様子だった"
+            }
           ]
         },
         {
@@ -106,7 +330,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"Those new trucks must be offering something that customers like more than our sandwiches. We shouldn't just give up, though. We should go and see what they're selling, and then try adding some new items to our menu or moving to a different location.\"",
           "modelAnswerJa": "「あの新しいトラックは、うちのサンドイッチよりもお客さんに好かれる何かを出しているに違いない。でも、ただあきらめるわけにはいかない。何を売っているのか見に行って、メニューに新しい品を加えてみるか、別の場所に移ってみよう」と考えていると思います。",
-          "explanation": "4 コマ目は、客が新しいトラックに流れ、女性の手元に売れ残りが積まれている場面です。must be ...（〜に違いない）で原因を推測し、We shouldn't just give up のあとに具体的な対策を 2 つ続けています。店の競争の話なので、メニューや場所といった商売に関わる言葉を入れると場面に合います。"
+          "explanation": "4 コマ目は、客が新しいトラックに流れ、女性の手元に売れ残りが積まれている場面です。must be ...（〜に違いない）で原因を推測し、We shouldn't just give up のあとに具体的な対策を 2 つ続けています。店の競争の話なので、メニューや場所といった商売に関わる言葉を入れると場面に合います。",
+          "simpleAnswer": "I'd be thinking, \"I'm sad that we lost our customers, but we shouldn't give up. I'll check what the other trucks are selling. Then we'll add new food to our menu.\"",
+          "simpleAnswerJa": "「お客さんをとられてしまって悲しいけれど、あきらめてはいけない。ほかのトラックが何を売っているか確かめてみよう。それから、メニューに新しい料理を加えよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "I'm sad that we lost our customers.",
+              "ja": "お客さんをとられてしまって悲しい"
+            },
+            {
+              "group": "気持ち",
+              "en": "We shouldn't give up.",
+              "ja": "あきらめてはいけない"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll check what the other trucks are selling.",
+              "ja": "ほかのトラックが何を売っているか確かめよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We'll add new food to our menu.",
+              "ja": "メニューに新しい料理を加えよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We'll move our truck to a different place.",
+              "ja": "トラックを別の場所に移そう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -116,7 +369,36 @@
           "promptJa": "よいサービスに対してチップを渡す制度を、日本の飲食店に導入すべきだと思いますか。",
           "modelAnswer": "No, I don't think so. Japanese restaurants are already known for their excellent service, even without tips, so there is no real need for this system. Tipping would also be confusing and stressful for customers, because they would have to decide how much to pay each time. It is simpler to include the cost of service in the prices.",
           "modelAnswerJa": "いいえ、そうは思いません。日本の飲食店はチップがなくてもすでにすばらしいサービスで知られているので、この制度が本当に必要だとは言えません。また、客は毎回いくら払うかを決めなければならないので、チップは客にとって分かりにくく、負担にもなるでしょう。サービスの費用は料金に含めるほうが簡単です。",
-          "explanation": "「チップがなくてもサービスがよい」という現状と、「客にとって分かりにくい」という問題点の 2 つを理由にしています。be known for ...（〜で知られている）は日本の特徴を説明するときに便利です。Yes の立場なら「よい接客をした店員の収入が増え、働く意欲が高まる」などが考えられます。"
+          "explanation": "「チップがなくてもサービスがよい」という現状と、「客にとって分かりにくい」という問題点の 2 つを理由にしています。be known for ...（〜で知られている）は日本の特徴を説明するときに便利です。Yes の立場なら「よい接客をした店員の収入が増え、働く意欲が高まる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Japanese restaurants already give very good service without tips. Also, customers would have to decide how much to pay every time. That would be stressful. So we don't need tips in Japan.",
+          "simpleAnswerJa": "いいえ、そうは思いません。日本のレストランは、チップがなくてもすでにとてもよいサービスをしています。また、客は毎回いくら払うかを決めなければならなくなります。それはストレスになります。だから、日本ではチップは必要ありません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Japanese restaurants already give very good service.",
+              "ja": "日本のレストランはすでにとてもよいサービスをしている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Customers would have to decide how much to pay.",
+              "ja": "客がいくら払うかを決めなければならなくなる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Tipping would be stressful for customers.",
+              "ja": "チップは客にとってストレスになる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Workers would try harder to give good service.",
+              "ja": "店員がよいサービスをしようと、もっと頑張る"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Workers could earn more money.",
+              "ja": "店員の収入が増える"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -126,7 +408,36 @@
           "promptJa": "人々は車を買うときに、環境へのやさしさを考慮すべきでしょうか。",
           "modelAnswer": "Yes, I think they should. Cars produce a lot of carbon dioxide, which is one of the main causes of global warming. If more people choose hybrid or electric cars, we can reduce the impact on the environment. These cars can also save money on fuel in the long run, so they are good for drivers, too.",
           "modelAnswerJa": "はい、考慮すべきだと思います。車は大量の二酸化炭素を排出し、それは地球温暖化の主な原因の 1 つです。ハイブリッド車や電気自動車を選ぶ人が増えれば、環境への影響を減らすことができます。こうした車は長い目で見れば燃料費の節約にもなるので、運転する人にとってもよいことです。",
-          "explanation": "環境面の理由（二酸化炭素の削減）に加えて、in the long run（長い目で見れば）で運転者自身の利点（燃料費の節約）にも触れています。相手の得になる点を加えると説得力が増します。No の立場なら「環境にやさしい車はまだ価格が高いことが多く、予算や使いやすさを優先せざるを得ない人もいる」などが考えられます。"
+          "explanation": "環境面の理由（二酸化炭素の削減）に加えて、in the long run（長い目で見れば）で運転者自身の利点（燃料費の節約）にも触れています。相手の得になる点を加えると説得力が増します。No の立場なら「環境にやさしい車はまだ価格が高いことが多く、予算や使いやすさを優先せざるを得ない人もいる」などが考えられます。",
+          "simpleAnswer": "Yes, they should. Cars are one of the causes of global warming. Hybrid and electric cars are better for the environment. Also, these cars use less gas, so drivers can save money. So people should choose eco-friendly cars.",
+          "simpleAnswerJa": "はい、そうすべきです。車は地球温暖化の原因の 1 つです。ハイブリッド車や電気自動車は、環境にやさしいです。また、こうした車はガソリンをあまり使わないので、お金の節約にもなります。だから、環境にやさしい車を選ぶべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Cars are one of the causes of global warming.",
+              "ja": "車は地球温暖化の原因の 1 つだ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Electric cars are better for the environment.",
+              "ja": "電気自動車は環境にやさしい"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "These cars use less gas, so drivers can save money.",
+              "ja": "こうした車はガソリンをあまり使わないので、お金の節約になる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Eco-friendly cars are often expensive.",
+              "ja": "環境にやさしい車は値段が高いことが多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Safety and price are more important for many people.",
+              "ja": "多くの人にとっては、安全性と値段のほうが大事だ"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -136,7 +447,36 @@
           "promptJa": "企業は、社会に貢献するためにもっと努力すべきでしょうか。",
           "modelAnswer": "Yes, I think so. Companies make profits thanks to their customers and local communities, so they should give something back. They can do this by reducing waste, supporting local events, or donating to people in need. This also improves a company's public image, so it can attract more customers and talented employees.",
           "modelAnswerJa": "はい、そう思います。企業は顧客や地域社会のおかげで利益を上げているので、何らかの形で還元すべきです。ごみを減らしたり、地域の行事を支援したり、困っている人々に寄付をしたりすることでそれができます。また、これによって企業の社会的なイメージがよくなり、より多くの顧客や有能な社員を引きつけることができます。",
-          "explanation": "「利益を上げられるのは社会のおかげ」という理由のあと、by -ing の形で具体的な方法を 3 つ並べ、最後に「企業にとっての利点」も述べています。give something back（還元する）は社会貢献の話題で使いやすい表現です。No の立場なら「企業の第一の役割はよい商品を作り、雇用を守り、税金を納めることであり、それ自体が社会への貢献だ」などが考えられます。"
+          "explanation": "「利益を上げられるのは社会のおかげ」という理由のあと、by -ing の形で具体的な方法を 3 つ並べ、最後に「企業にとっての利点」も述べています。give something back（還元する）は社会貢献の話題で使いやすい表現です。No の立場なら「企業の第一の役割はよい商品を作り、雇用を守り、税金を納めることであり、それ自体が社会への貢献だ」などが考えられます。",
+          "simpleAnswer": "Yes, they should. Companies make money thanks to their customers and local communities. They can help by cleaning up their towns or supporting local events. Also, this gives companies a good image. So more people will want to buy their products.",
+          "simpleAnswerJa": "はい、そうすべきです。会社は、お客さんや地域の人々のおかげでお金をもうけています。町の清掃をしたり、地域のイベントを支援したりして、社会の役に立つことができます。また、そうすることで会社のイメージがよくなります。だから、その会社の製品を買いたいと思う人が増えます。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Companies make money thanks to their customers.",
+              "ja": "会社はお客さんのおかげでお金をもうけている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can support local events.",
+              "ja": "地域のイベントを支援できる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Helping society gives companies a good image.",
+              "ja": "社会の役に立つと、会社のイメージがよくなる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Companies should focus on making good products.",
+              "ja": "会社はよい製品をつくることに集中すべきだ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many companies already pay a lot of taxes.",
+              "ja": "多くの会社はすでにたくさんの税金を払っている"
+            }
+          ]
         }
       ]
     }

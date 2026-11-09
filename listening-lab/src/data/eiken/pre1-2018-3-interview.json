@@ -30,6 +30,60 @@
             "2コマ目: Silver Falls で同僚が写真を撮り、町のウェブサイトへの掲載を提案したことを言えた",
             "3コマ目: To Silver Falls の標識の前を大勢の観光客が歩いていることを描写できた",
             "4コマ目: 同僚がごみを拾いながら「観光客が残していった」と言ったことを、however などで展開の変化を示して言えた"
+          ],
+          "simpleAnswer": "One day, a woman was at a meeting with other staff members in her department. A graph showed that the number of tourists was going down. She suggested promoting the waterfall near the town. The others seemed to like her idea. A week later, she went to Silver Falls with a coworker. He was taking pictures of the waterfall. She suggested that they post the photos on the town's website. The following month, many tourists were walking to Silver Falls. The woman was watching them. Her plan was working. A few days later, however, there was a lot of trash on the ground. Her coworker was picking it up. He told her that the tourists had left the trash. The woman looked shocked.",
+          "simpleAnswerJa": "ある日、ある女性が部署のほかのスタッフと会議に出ていた。グラフは、観光客の数が減っていることを示していた。彼女は、町の近くの滝を宣伝することを提案した。ほかの人たちはその案が気に入ったようだった。1 週間後、彼女は同僚と Silver Falls に行った。同僚は滝の写真を撮っていた。彼女は、その写真を町のウェブサイトに載せようと提案した。翌月、たくさんの観光客が Silver Falls に向かって歩いていた。女性はその様子を見ていた。彼女の計画はうまくいっていた。ところが数日後、地面にごみがたくさん落ちていた。同僚はそれを拾っていた。彼は彼女に、観光客がごみを置いていったと言った。女性はショックを受けた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "The number of tourists was going down.",
+              "ja": "観光客の数が減っていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She suggested promoting the waterfall near the town.",
+              "ja": "町の近くの滝を宣伝することを提案した（How about ...ing? → suggested ...ing）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The others seemed to like her idea.",
+              "ja": "ほかの人たちはその案が気に入ったようだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "Her coworker was taking pictures of the waterfall.",
+              "ja": "同僚が滝の写真を撮っていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She suggested that they post the photos on the town's website.",
+              "ja": "その写真を町のウェブサイトに載せようと提案した（Let's ... → suggested that they ...）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Many tourists were walking to Silver Falls.",
+              "ja": "たくさんの観光客が Silver Falls に向かって歩いていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Her plan was working.",
+              "ja": "彼女の計画はうまくいっていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "There was a lot of trash on the ground.",
+              "ja": "地面にごみがたくさん落ちていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He told her that the tourists had left the trash.",
+              "ja": "観光客がごみを置いていったと彼女に言った（left → had left、this → the trash）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The woman looked shocked.",
+              "ja": "女性はショックを受けた様子だった"
+            }
           ]
         },
         {
@@ -41,7 +95,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"More tourists have come, just as I hoped, but I didn't expect this much trash. We must protect this beautiful place. Let's put up signs asking visitors to take their garbage home, and maybe we could organize a cleanup day with local volunteers.\"",
           "modelAnswerJa": "「望みどおり観光客は増えたけれど、こんなにごみが出るとは思わなかった。この美しい場所を守らなければ。ごみを持ち帰るよう観光客に呼びかける看板を立てて、地元のボランティアと一緒に清掃の日を作るのもいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目は、女性が、自分の企画が成功した一方で、ごみの問題が起きていると気づいた場面です。but I didn't expect ... で「予想外の結果」を述べ、Let's ... で観光の部署の職員らしい具体策を続けています。put up signs asking visitors to ...（〜するよう訪問者に求める看板を立てる）は、マナーの話題で応用できる表現です。"
+          "explanation": "4 コマ目は、女性が、自分の企画が成功した一方で、ごみの問題が起きていると気づいた場面です。but I didn't expect ... で「予想外の結果」を述べ、Let's ... で観光の部署の職員らしい具体策を続けています。put up signs asking visitors to ...（〜するよう訪問者に求める看板を立てる）は、マナーの話題で応用できる表現です。",
+          "simpleAnswer": "I'd be thinking, \"I'm happy that more tourists are coming, but I should have thought about the trash. I'll put up signs that ask visitors to take their trash home.\"",
+          "simpleAnswerJa": "「観光客が増えたのはうれしいけれど、ごみのことを考えておくべきだった。ごみを持ち帰るよう観光客に呼びかける看板を立てよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I'm happy that more tourists are coming.",
+              "ja": "観光客が増えたのはうれしい"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have thought about the trash.",
+              "ja": "ごみのことを考えておくべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "We must protect this beautiful place.",
+              "ja": "この美しい場所を守らなければならない"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll put up signs that ask visitors to take their trash home.",
+              "ja": "ごみを持ち帰るよう観光客に呼びかける看板を立てよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We'll clean up the area with volunteers.",
+              "ja": "ボランティアと一緒にこの場所をきれいにしよう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -51,7 +134,36 @@
           "promptJa": "日本は将来も人気のある旅行先であり続けると思いますか。",
           "modelAnswer": "Yes, I think so. Japan has many attractions, such as historic temples, beautiful scenery in each season, and delicious food. It is also known as a safe and clean country with excellent public transportation, which makes traveling easy. Because Japanese culture, including anime, is popular around the world, I think many people will still want to visit.",
           "modelAnswerJa": "はい、そう思います。日本には、歴史ある寺院、四季折々の美しい景色、おいしい食べ物など、魅力がたくさんあります。また、安全で清潔な国として知られ、公共交通機関もすばらしいので、旅行がしやすいです。アニメを含む日本の文化は世界中で人気があるので、これからも多くの人が訪れたいと思うでしょう。",
-          "explanation": "「観光資源」「安全・清潔・交通の便」「文化の人気」と、日本の強みを 3 つの面から挙げています。such as ... で例を並べると、話しやすく内容も具体的になります。No の立場なら「観光客が集中すると混雑や環境の問題が起こり、円相場や国際情勢によって人気が下がることもある」などが考えられます。"
+          "explanation": "「観光資源」「安全・清潔・交通の便」「文化の人気」と、日本の強みを 3 つの面から挙げています。such as ... で例を並べると、話しやすく内容も具体的になります。No の立場なら「観光客が集中すると混雑や環境の問題が起こり、円相場や国際情勢によって人気が下がることもある」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Japan has many old temples, beautiful nature, and delicious food. Also, Japan is safe and clean, and it is easy to travel by train. So many people will still want to visit Japan.",
+          "simpleAnswerJa": "はい、そう思います。日本には古い寺や美しい自然、おいしい食べ物がたくさんあります。また、日本は安全で清潔で、電車で旅行しやすいです。だから、これからも多くの人が日本を訪れたいと思うでしょう。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Japan has many old temples and beautiful nature.",
+              "ja": "日本には古い寺や美しい自然がたくさんある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Japan is a safe and clean country.",
+              "ja": "日本は安全で清潔な国だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "It is easy to travel around Japan by train.",
+              "ja": "日本は電車で旅行しやすい"
+            },
+            {
+              "group": "No の理由",
+              "en": "Hotels are getting too expensive.",
+              "ja": "ホテルの料金が高くなりすぎている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Too many tourists can cause problems for local people.",
+              "ja": "観光客が多すぎると、地元の人が困ることがある"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -61,7 +173,36 @@
           "promptJa": "ソーシャルメディアを使うことは、事業を宣伝する効果的な方法だと思いますか。",
           "modelAnswer": "Yes, I think so. It costs much less than TV or newspaper advertising, so even small shops can use it. When customers like a post, they often share it with their friends, and information can spread quickly. Businesses can also get direct feedback from customers through comments. However, they need to be careful because bad reviews can spread just as quickly.",
           "modelAnswerJa": "はい、そう思います。テレビや新聞の広告よりずっと費用が安いので、小さな店でも利用できます。客が投稿を気に入ると友人と共有することが多く、情報はすぐに広がります。また、コメントを通して客から直接意見をもらうこともできます。ただし、悪い評判も同じくらい速く広がるので、注意が必要です。",
-          "explanation": "「費用の安さ」「情報の広がりやすさ」「客の反応が分かること」の 3 点を挙げ、最後に However, ... で注意点も加えています。質問の effective way を受けて、他の広告手段と比べると効果を説明しやすくなります。No の立場なら「投稿があふれているので目立つのが難しく、更新に手間がかかる割に売上につながらないこともある」などが考えられます。"
+          "explanation": "「費用の安さ」「情報の広がりやすさ」「客の反応が分かること」の 3 点を挙げ、最後に However, ... で注意点も加えています。質問の effective way を受けて、他の広告手段と比べると効果を説明しやすくなります。No の立場なら「投稿があふれているので目立つのが難しく、更新に手間がかかる割に売上につながらないこともある」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Social media is much cheaper than TV ads. Even small shops can use it. Also, people often share posts with their friends. So information about the business spreads quickly.",
+          "simpleAnswerJa": "はい、そう思います。SNS はテレビ広告よりずっと安いです。小さな店でも使えます。また、人々はよく投稿を友達と共有します。だから、お店の情報がすぐに広がります。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Social media is much cheaper than TV ads.",
+              "ja": "SNS はテレビ広告よりずっと安い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Even small shops can use it.",
+              "ja": "小さな店でも使える"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People often share posts with their friends.",
+              "ja": "人々はよく投稿を友達と共有する"
+            },
+            {
+              "group": "No の理由",
+              "en": "Bad reviews can spread quickly, too.",
+              "ja": "悪い評判もすぐに広がる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many elderly people don't use social media.",
+              "ja": "SNS を使わないお年寄りも多い"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -71,7 +212,36 @@
           "promptJa": "政府は、自然の美しい地域を守るために十分なことをしているでしょうか。",
           "modelAnswer": "No, I don't think so. Although many countries have national parks, forests and coral reefs are still being damaged by development, tourism, and climate change. Governments often put economic growth first, so nature protection can get pushed aside. They should set stricter rules on development and spend more money on protecting these areas.",
           "modelAnswerJa": "いいえ、そうは思いません。多くの国に国立公園はありますが、森林やサンゴ礁は今も開発や観光、気候変動によって被害を受けています。政府は経済成長を優先することが多く、自然保護が後回しにされることがあります。政府は開発に対してより厳しい規則を定め、こうした地域を守るためにもっとお金を使うべきです。",
-          "explanation": "Are governments ...? の問いに No, I don't think so. と答えています。Although ... で「国立公園はある」と現状を認めてから、森林やサンゴ礁の被害という具体例を挙げて「不十分だ」と主張し、最後に should で改善策を述べています。Yes の立場なら「多くの国が国立公園や世界遺産の登録で自然を守っており、開発の規制も進んでいる」などが考えられます。"
+          "explanation": "Are governments ...? の問いに No, I don't think so. と答えています。Although ... で「国立公園はある」と現状を認めてから、森林やサンゴ礁の被害という具体例を挙げて「不十分だ」と主張し、最後に should で改善策を述べています。Yes の立場なら「多くの国が国立公園や世界遺産の登録で自然を守っており、開発の規制も進んでいる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Many forests are still being cut down for new buildings. Also, some beautiful places are full of trash because of tourists. So governments should make stricter rules to protect nature.",
+          "simpleAnswerJa": "いいえ、そうは思いません。今も多くの森が、新しい建物のために切り倒されています。また、観光客のせいでごみだらけになっている美しい場所もあります。だから、政府は自然を守るためにもっと厳しいルールを作るべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many forests are still being cut down.",
+              "ja": "今も多くの森が切り倒されている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some beautiful places are full of trash.",
+              "ja": "ごみだらけになっている美しい場所もある"
+            },
+            {
+              "group": "No の理由",
+              "en": "Governments should make stricter rules.",
+              "ja": "政府はもっと厳しいルールを作るべきだ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "There are many national parks in Japan.",
+              "ja": "日本には国立公園がたくさんある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some places limit the number of visitors.",
+              "ja": "訪れる人の数を制限している場所もある"
+            }
+          ]
         }
       ]
     },
@@ -95,6 +265,55 @@
             "2コマ目: 2週間後、マネージャーが握手をしながら採用を告げたことを言えた",
             "3コマ目: 新しい職場の近くでアパートを探そうと提案し、妻がおしゃれな部屋を思い描いていることを描写できた",
             "4コマ目: City Real Estate で間取りと価格を見て、妻が「家賃がとても高い」と言い、男性がショックを受けたことを言えた"
+          ],
+          "simpleAnswer": "One day, a man living in a small town saw a job advertisement for a company in a big city. He told his wife that it paid more than his current job. His wife smiled. Two weeks later, he went to ABC Company. The manager told him that he had gotten the job. They shook hands. The next day, the couple was having a meal. He suggested that they look for an apartment near his new office. His wife was imagining a nice apartment in the city. That weekend, they went to City Real Estate. A woman there showed them a one-bedroom apartment. His wife said that the rents were very high. The man looked shocked.",
+          "simpleAnswerJa": "ある日、小さな町に住むある男性が、大都市にある会社の求人広告を見た。彼は妻に、今の仕事より給料がいいと言った。妻はほほえんだ。2 週間後、彼は ABC 社に行った。マネージャーは彼に、採用だと伝えた。2 人は握手した。翌日、夫婦は食事をしていた。彼は、新しい職場の近くでアパートを探そうと提案した。妻は、都会のすてきなアパートを想像していた。その週末、2 人は不動産屋の City Real Estate に行った。店の女性が、寝室が 1 つのアパートを見せてくれた。妻は、家賃がとても高いと言った。男性はショックを受けた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "He told his wife that it paid more than his current job.",
+              "ja": "今の仕事より給料がいいと妻に言った（pays → paid、my → his）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "His wife smiled.",
+              "ja": "妻はほほえんだ"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The manager told him that he had gotten the job.",
+              "ja": "マネージャーは彼に、採用だと伝えた（you've got → he had gotten）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "They shook hands.",
+              "ja": "2 人は握手した"
+            },
+            {
+              "group": "3コマ目",
+              "en": "He suggested that they look for an apartment near his new office.",
+              "ja": "新しい職場の近くでアパートを探そうと提案した（Let's ... → suggested that they ...、my → his）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "His wife was imagining a nice apartment in the city.",
+              "ja": "妻は、都会のすてきなアパートを想像していた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "They went to City Real Estate.",
+              "ja": "2 人は不動産屋の City Real Estate に行った"
+            },
+            {
+              "group": "4コマ目",
+              "en": "His wife said that the rents were very high.",
+              "ja": "家賃がとても高いと妻が言った（are → were、so → very）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The man looked shocked.",
+              "ja": "男性はショックを受けた様子だった"
+            }
           ]
         },
         {
@@ -106,7 +325,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"I took this job to earn more, but with rents like these, we might end up with less money than before. Maybe we should look for a cheaper place farther from the office, even if I have a longer commute, or ask the company if it offers a housing allowance.\"",
           "modelAnswerJa": "「もっと稼ぐためにこの仕事を選んだのに、こんな家賃では前より手元に残るお金が少なくなるかもしれない。通勤時間が長くなっても、職場から離れた安い部屋を探すか、住宅手当があるかどうか会社に聞いてみたほうがいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目は、男性が、収入を増やそうと新しい仕事を選んだのに、高い家賃を知って驚いている場面です。I took this job to ..., but ... で「目的」と「現実」の食い違いを述べ、Maybe we should ... で現実的な対策を 2 つ挙げています。end up with ...（結局〜になる）と housing allowance（住宅手当）は、この話題で役立つ表現です。"
+          "explanation": "4 コマ目は、男性が、収入を増やそうと新しい仕事を選んだのに、高い家賃を知って驚いている場面です。I took this job to ..., but ... で「目的」と「現実」の食い違いを述べ、Maybe we should ... で現実的な対策を 2 つ挙げています。end up with ...（結局〜になる）と housing allowance（住宅手当）は、この話題で役立つ表現です。",
+          "simpleAnswer": "I'd be thinking, \"The rents are much higher than I thought. I should have checked them before I took the job. We'll look for a cheaper apartment farther from the office.\"",
+          "simpleAnswerJa": "「家賃が思っていたよりずっと高い。仕事を決める前に調べておくべきだった。会社から離れた、もっと安いアパートを探そう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "The rents are much higher than I thought.",
+              "ja": "家賃が思っていたよりずっと高い"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have checked the rents before I took the job.",
+              "ja": "仕事を決める前に家賃を調べておくべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "We may not save much money.",
+              "ja": "あまりお金がたまらないかもしれない"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We'll look for a cheaper apartment farther from the office.",
+              "ja": "会社から離れた、もっと安いアパートを探そう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask the company to help with the rent.",
+              "ja": "家賃を補助してもらえないか会社に頼もう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -116,7 +364,36 @@
           "promptJa": "政府は、若者が地方に住んで働くよう促すために、もっと取り組むべきでしょうか。",
           "modelAnswer": "Yes, I think it should. Many rural areas are losing young people, and local businesses and schools are closing as a result. The government could offer financial support to people who move there or start a business. Now that many people can work online, living in the countryside is more realistic than before. This would also reduce overcrowding in big cities.",
           "modelAnswerJa": "はい、そうすべきだと思います。多くの地方では若者が減っていて、その結果、地元の商店や学校がなくなってきています。政府は、地方に移り住む人や事業を始める人に経済的な支援をすることができます。今では多くの人がオンラインで働けるので、地方での暮らしは以前より現実的になっています。これは大都市の過密を和らげることにもなるでしょう。",
-          "explanation": "「地方の問題」→「政府ができること（経済的支援）」→「オンライン勤務で現実的になった」→「都市にとっての利点」と、話を順に広げています。Now that ...（今では〜なので）は、社会の変化を理由にするときに便利な表現です。No の立場なら「どこに住むかは個人の自由であり、地方に仕事や便利な暮らしがないまま支援しても若者は定着しない」などが考えられます。"
+          "explanation": "「地方の問題」→「政府ができること（経済的支援）」→「オンライン勤務で現実的になった」→「都市にとっての利点」と、話を順に広げています。Now that ...（今では〜なので）は、社会の変化を理由にするときに便利な表現です。No の立場なら「どこに住むかは個人の自由であり、地方に仕事や便利な暮らしがないまま支援しても若者は定着しない」などが考えられます。",
+          "simpleAnswer": "Yes, it should. Many young people are leaving the countryside. Because of this, local shops and schools are closing. Also, many people can work online now. So the government should help young people move to the countryside.",
+          "simpleAnswerJa": "はい、そうすべきです。地方を離れる若者がたくさんいます。そのせいで、地元の店や学校がなくなっています。また、今はオンラインで仕事ができる人がたくさんいます。だから、政府は若者が地方に移り住むのを支援するべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many young people are leaving the countryside.",
+              "ja": "地方を離れる若者が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Local shops and schools are closing.",
+              "ja": "地元の店や学校がなくなっている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many people can work online now.",
+              "ja": "今はオンラインで働ける人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "There are not many jobs in the countryside.",
+              "ja": "地方には仕事があまりない"
+            },
+            {
+              "group": "No の理由",
+              "en": "People should decide where to live by themselves.",
+              "ja": "どこに住むかは自分で決めるべきだ"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -126,7 +403,36 @@
           "promptJa": "親にとって、今は昔よりも子育てが大変でしょうか。",
           "modelAnswer": "Yes, I think so. In the past, grandparents and neighbors often helped to look after children, but today many parents raise their children on their own. In addition, in many families both parents work, so they have less time at home. They also have to worry about new problems like smartphone use and online bullying.",
           "modelAnswerJa": "はい、そう思います。昔は祖父母や近所の人が子どもの世話を手伝うことが多かったですが、今は自分たちだけで子育てをする親が多いです。さらに、共働きの親が多く、家にいる時間が少なくなっています。また、スマートフォンの使い方やネットいじめといった新しい問題についても心配しなければなりません。",
-          "explanation": "質問が than in the past と過去との比較なので、In the past, ..., but today ... と昔と今を対比させています。「周囲の助けの減少」「共働き」「新しい問題」と 3 つの理由を挙げました。No の立場なら「昔より家電や保育サービス、育児の情報が充実しており、育児休暇などの制度も整ってきた」などが考えられます。"
+          "explanation": "質問が than in the past と過去との比較なので、In the past, ..., but today ... と昔と今を対比させています。「周囲の助けの減少」「共働き」「新しい問題」と 3 つの理由を挙げました。No の立場なら「昔より家電や保育サービス、育児の情報が充実しており、育児休暇などの制度も整ってきた」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. In the past, grandparents and neighbors helped to take care of children. Now, many parents raise their children by themselves. Also, in many families, both parents work. So they have less time for their children.",
+          "simpleAnswerJa": "はい、そう思います。昔は、祖父母や近所の人が子どもの世話を手伝ってくれました。今は、自分たちだけで子どもを育てる親がたくさんいます。また、多くの家庭では両親とも働いています。だから、子どもと過ごす時間が少なくなっています。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "In the past, grandparents helped to take care of children.",
+              "ja": "昔は祖父母が子どもの世話を手伝ってくれた"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Now, many parents raise their children by themselves.",
+              "ja": "今は、自分たちだけで子育てをする親が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "In many families, both parents work.",
+              "ja": "多くの家庭では両親とも働いている"
+            },
+            {
+              "group": "No の理由",
+              "en": "There are more daycare centers now.",
+              "ja": "今は保育所が増えている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Parents can find useful information on the Internet.",
+              "ja": "親はインターネットで役に立つ情報を見つけられる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -136,7 +442,36 @@
           "promptJa": "大学教育は、人々が社会に出て働くための準備になっているでしょうか。",
           "modelAnswer": "No, I don't think so, at least not fully. University classes tend to focus on theory and academic knowledge, which may not be directly useful at work. Many companies in Japan actually train new employees after hiring them. Practical skills such as dealing with customers and working in a team are often learned on the job or through internships rather than in lectures.",
           "modelAnswerJa": "いいえ、少なくとも十分にはなっていないと思います。大学の授業は理論や学問的な知識に重点を置きがちで、それらは仕事に直接役立つとは限りません。実際、日本の多くの企業は新入社員を採用後に研修しています。顧客への対応やチームでの作業といった実践的な技能は、講義よりも仕事の現場やインターンシップを通して学ぶことが多いものです。",
-          "explanation": "Does ...? の質問に No, I don't think so, at least not fully. と、完全には否定しない形で答えています。theory（理論）と practical skills（実践的な技能）を対比すると、理由が明確になります。on the job（仕事をしながら）も覚えておきたい表現です。Yes の立場なら「大学では考える力や調べる力、文章力が身につき、どんな仕事にも役立つ」などが考えられます。"
+          "explanation": "Does ...? の質問に No, I don't think so, at least not fully. と、完全には否定しない形で答えています。theory（理論）と practical skills（実践的な技能）を対比すると、理由が明確になります。on the job（仕事をしながら）も覚えておきたい表現です。Yes の立場なら「大学では考える力や調べる力、文章力が身につき、どんな仕事にも役立つ」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. At university, students mostly study from books and lectures. They don't learn practical skills, like working with customers. Also, many companies train new workers after they start working. So people learn most skills at work.",
+          "simpleAnswerJa": "いいえ、そうは思いません。大学では、学生はおもに本や講義で学びます。お客さんへの対応のような、実践的な技能は学びません。また、多くの会社は、新入社員が働き始めてから研修をします。だから、ほとんどの技能は職場で身につけるのです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Students mostly study from books and lectures.",
+              "ja": "学生はおもに本や講義で学ぶ"
+            },
+            {
+              "group": "No の理由",
+              "en": "They don't learn practical skills at university.",
+              "ja": "大学では実践的な技能は学ばない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many companies train new workers.",
+              "ja": "多くの会社が新入社員の研修をしている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Students learn how to think by themselves.",
+              "ja": "学生は自分で考える方法を学ぶ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can get work experience through internships.",
+              "ja": "インターンシップで仕事の経験を積める"
+            }
+          ]
         }
       ]
     }
