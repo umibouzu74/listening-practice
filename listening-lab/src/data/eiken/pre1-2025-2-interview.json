@@ -36,6 +36,65 @@
             "2コマ目: 夕食の支度・遊ぶ息子・帰宅した夫を描写し、「夕食後に仕事をする」と伝えたことを言えた",
             "3コマ目: 夜9時になっても疲れた様子で仕事を続け、夫が息子を寝かしつけていることを描写できた",
             "4コマ目: 上司に書類のやり直しを命じられたことを、however などで展開の変化を示して言えた"
+          ],
+          "simpleAnswer": "One day, a woman was leaving work to go pick up her son. It was five o'clock, but her boss was still working. She told her boss that she would finish the rest at home that night. That evening at home, she was cooking dinner. Her son was playing with his toys. When her husband came home, she told him that she needed to work after dinner. That night, she was still working on her laptop at nine o'clock. She looked very tired. Her husband was putting their son to bed. The next day, her boss was looking at her report. He told her that she needed to redo it. She looked very disappointed.",
+          "simpleAnswerJa": "ある日、ある女性が息子を迎えに行くために会社を出ようとしていた。5 時だったが、上司はまだ仕事をしていた。彼女は上司に、残りはその夜家で終わらせると言った。その日の夕方、家で彼女は夕食を作っていた。息子はおもちゃで遊んでいた。夫が帰ってくると、彼女は夕食後に仕事をしなければならないと夫に言った。その夜、9 時になっても彼女はまだパソコンで仕事をしていた。とても疲れている様子だった。夫は息子を寝かしつけていた。翌日、上司は彼女の報告書を見ていた。上司は彼女に、それをやり直す必要があると言った。彼女はとてもがっかりした様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "It was five o'clock, but her boss was still working.",
+              "ja": "5 時だったが、上司はまだ仕事をしていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She told her boss that she would finish the rest at home that night.",
+              "ja": "残りはその夜家で終わらせると上司に言った（will → would、tonight → that night）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She was cooking dinner.",
+              "ja": "彼女は夕食を作っていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "Her son was playing with his toys.",
+              "ja": "息子はおもちゃで遊んでいた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She told her husband that she needed to work after dinner.",
+              "ja": "夕食後に仕事をしなければならないと夫に言った（need → needed）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She was still working on her laptop at nine o'clock.",
+              "ja": "9 時になっても、まだパソコンで仕事をしていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She looked very tired.",
+              "ja": "彼女はとても疲れている様子だった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Her husband was putting their son to bed.",
+              "ja": "夫が息子を寝かしつけていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Her boss was looking at her report.",
+              "ja": "上司は彼女の報告書を見ていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He told her that she needed to redo it.",
+              "ja": "それをやり直す必要があると言った（need → needed、you → she、this → it）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She looked very disappointed.",
+              "ja": "彼女はとてもがっかりした様子だった"
+            }
           ]
         },
         {
@@ -48,7 +107,36 @@
           "audio": "audio/eiken/eiken-pre1-2025-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I should have asked my boss for more time instead of trying to finish this late at night when I was so tired. From now on, I'll be honest about how much work I can handle while taking care of my family.\"",
           "modelAnswerJa": "「こんなに疲れているときに夜遅くまでかけて終わらせようとせず、上司にもっと時間をもらえるよう頼むべきだった。これからは、家族の世話をしながらどれだけの仕事をこなせるのか、正直に伝えるようにしよう」と考えていると思います。",
-          "explanation": "4 コマ目は、女性が夜遅くまで頑張った仕事をやり直すよう言われた場面です。I should have asked ... で「どうすればよかったか」を反省し、From now on, I'll ... で「これからどうするか」を続ける 2 文構成にすると、短くてもまとまった答えになります。instead of trying to ... のように、実際に取った行動と比べると反省の内容がはっきりします。"
+          "explanation": "4 コマ目は、女性が夜遅くまで頑張った仕事をやり直すよう言われた場面です。I should have asked ... で「どうすればよかったか」を反省し、From now on, I'll ... で「これからどうするか」を続ける 2 文構成にすると、短くてもまとまった答えになります。instead of trying to ... のように、実際に取った行動と比べると反省の内容がはっきりします。",
+          "simpleAnswer": "I'd be thinking, \"I was too tired last night. I should have asked my boss for more time. Next time, I'll tell him when I have too much work.\"",
+          "simpleAnswerJa": "「昨夜は疲れすぎていた。上司にもっと時間をもらえるよう頼むべきだった。次からは、仕事が多すぎるときは上司に伝えよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I was too tired last night.",
+              "ja": "昨夜は疲れすぎていた"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have asked my boss for more time.",
+              "ja": "上司にもっと時間をもらえるよう頼むべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "It's hard to work at home with a small child.",
+              "ja": "小さな子どもがいると、家で仕事をするのは大変だ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll tell my boss when I have too much work.",
+              "ja": "次からは、仕事が多すぎるときは上司に伝えよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll do it again carefully.",
+              "ja": "もう一度ていねいにやり直そう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -59,7 +147,36 @@
           "audio": "audio/eiken/eiken-pre1-2025-2-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. What matters more is how efficiently people work, not how long they work. People who work long hours often get tired and make more mistakes, and they may even damage their health. Getting enough rest actually helps people stay focused and produce better results.",
           "modelAnswerJa": "いいえ、そうは思いません。大切なのは、どれだけ長く働くかではなく、どれだけ効率よく働くかです。長時間働く人は疲れてミスが増えがちで、健康を損なうことさえあります。十分に休むことのほうが、集中力を保ち、よりよい成果を出すのに役立ちます。",
-          "explanation": "最初に No, I don't think so. と立場を示し、「長さより効率が大事」という主張 → 「長時間労働の悪い点（疲れ・ミス・健康）」→「休むことの良い点」の順に理由を展開しています。not how long ... と対比させる形は、質問の working long hours を自然に受けられる言い方です。Yes の立場なら「若いうちは長く働いて経験を積むことが成長につながる」などが考えられます。"
+          "explanation": "最初に No, I don't think so. と立場を示し、「長さより効率が大事」という主張 → 「長時間労働の悪い点（疲れ・ミス・健康）」→「休むことの良い点」の順に理由を展開しています。not how long ... と対比させる形は、質問の working long hours を自然に受けられる言い方です。Yes の立場なら「若いうちは長く働いて経験を積むことが成長につながる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. People who work long hours get tired and make more mistakes. Also, working too much is bad for your health. So it is more important to work well in a short time.",
+          "simpleAnswerJa": "いいえ、そうは思いません。長時間働く人は疲れて、ミスが増えます。また、働きすぎは健康によくありません。だから、短い時間でうまく働くことのほうが大切です。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "People who work long hours get tired.",
+              "ja": "長時間働く人は疲れてしまう"
+            },
+            {
+              "group": "No の理由",
+              "en": "Tired people make more mistakes.",
+              "ja": "疲れているとミスが増える"
+            },
+            {
+              "group": "No の理由",
+              "en": "Working too much is bad for your health.",
+              "ja": "働きすぎは健康によくない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "It takes time to learn new skills.",
+              "ja": "新しい技能を身につけるには時間がかかる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some successful people worked very hard when they were young.",
+              "ja": "成功した人の中には、若いころとても熱心に働いた人もいる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -70,7 +187,36 @@
           "audio": "audio/eiken/eiken-pre1-2025-2-interview/a-q3.mp3",
           "modelAnswer": "Yes, I think so. Many young people leave home without knowing how to manage their money, cook healthy meals, or understand a rental contract. If schools taught these skills, students would be better prepared to live on their own, and they would be less likely to get into trouble, such as falling into debt.",
           "modelAnswerJa": "はい、そう思います。お金の管理のしかたや健康的な食事の作り方、賃貸契約書の読み方などを知らないまま親元を離れる若者は多いです。学校がこうした技能を教えれば、生徒は一人暮らしへの備えがよりできるようになり、借金を抱えるといったトラブルに巻き込まれにくくなるでしょう。",
-          "explanation": "practical life skills は抽象的な言葉なので、money / cooking / rental contract のように具体例を 3 つ挙げて中身をはっきりさせています。後半は If schools taught ..., students would ... という仮定法で「教えた場合の効果」を述べ、具体的なトラブル（借金）で締めています。No の立場なら「生活の技能は家庭で学ぶべきで、学校は学力に集中すべき」などが考えられます。"
+          "explanation": "practical life skills は抽象的な言葉なので、money / cooking / rental contract のように具体例を 3 つ挙げて中身をはっきりさせています。後半は If schools taught ..., students would ... という仮定法で「教えた場合の効果」を述べ、具体的なトラブル（借金）で締めています。No の立場なら「生活の技能は家庭で学ぶべきで、学校は学力に集中すべき」などが考えられます。",
+          "simpleAnswer": "Yes, they should. Many young people don't know how to manage their money. Also, some of them can't cook healthy meals. So schools should teach these skills before students start living alone.",
+          "simpleAnswerJa": "はい、そうすべきです。お金の管理の仕方を知らない若者がたくさんいます。また、健康的な食事を作れない若者もいます。だから、生徒が一人暮らしを始める前に、学校でこうした技能を教えるべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many young people don't know how to manage their money.",
+              "ja": "お金の管理の仕方を知らない若者が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some young people can't cook healthy meals.",
+              "ja": "健康的な食事を作れない若者もいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Students will be ready to live alone.",
+              "ja": "生徒が一人暮らしの準備をしておける"
+            },
+            {
+              "group": "No の理由",
+              "en": "Students can learn these skills at home.",
+              "ja": "こうした技能は家で学べる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Teachers are already very busy.",
+              "ja": "先生たちはすでにとても忙しい"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -81,7 +227,36 @@
           "audio": "audio/eiken/eiken-pre1-2025-2-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think they should. Employees spend a large part of their day at work, and stress from heavy workloads or difficult relationships with coworkers is a common cause of mental health problems. If companies offer services such as free counseling, workers can get help early, before their problems become serious. This also benefits companies, because their staff will be less likely to take long periods of sick leave.",
           "modelAnswerJa": "はい、提供すべきだと思います。社員は 1 日の多くの時間を職場で過ごしており、仕事量の多さや同僚との難しい人間関係によるストレスは、心の不調のよくある原因です。会社が無料のカウンセリングなどを用意すれば、社員は問題が深刻になる前に早めに助けを得られます。社員が長期間の病気休暇を取る可能性も低くなるので、これは会社にとってもよいことです。",
-          "explanation": "「なぜ職場が支援すべきか（ストレスの原因が職場にある）」→「何をすればよいか（無料カウンセリング）」→「会社にとっての利点（長期休職が減る）」と、社員側と会社側の両方から理由を述べています。No.4 では、社会全体や組織にとってのメリットまで触れると、視野の広い答えになります。"
+          "explanation": "「なぜ職場が支援すべきか（ストレスの原因が職場にある）」→「何をすればよいか（無料カウンセリング）」→「会社にとっての利点（長期休職が減る）」と、社員側と会社側の両方から理由を述べています。No.4 では、社会全体や組織にとってのメリットまで触れると、視野の広い答えになります。",
+          "simpleAnswer": "Yes, I think so. Many workers feel a lot of stress at work. Free counseling can help them before their problems become serious. Also, companies need healthy workers. So mental health support is good for both workers and companies.",
+          "simpleAnswerJa": "はい、そう思います。職場で強いストレスを感じている社員はたくさんいます。無料のカウンセリングがあれば、問題が深刻になる前に助けることができます。また、会社には健康な社員が必要です。だから、心のケアは社員と会社の両方にとってよいことです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many workers feel a lot of stress at work.",
+              "ja": "職場で強いストレスを感じている社員が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Free counseling can help workers before their problems become serious.",
+              "ja": "無料のカウンセリングがあれば、問題が深刻になる前に社員を助けられる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Companies need healthy workers.",
+              "ja": "会社には健康な社員が必要だ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some workers don't want to talk about their problems at work.",
+              "ja": "職場で悩みを話したくない社員もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "It is expensive for small companies.",
+              "ja": "小さな会社には費用の負担が大きい"
+            }
+          ]
         }
       ]
     },
@@ -111,6 +286,60 @@
             "2コマ目: ノートパソコンを見せながらネット販売を提案したこと（suggested that they start ...）を言えた",
             "3コマ目: 店頭の客の応対と、注文リスト・発送の準備で忙しい様子を描写できた",
             "4コマ目: テレビのニュース（翌月から送料が値上がり）と、それがネット販売に与える影響を伝えられた"
+          ],
+          "simpleAnswer": "One day, a woman was closing up her flower shop. She was about to go home. One of her employees pointed at the flowers. He told her that they had a lot of unsold flowers. She looked worried. The next day, the employee showed her pictures of flowers on his laptop. He suggested selling flowers online. She looked interested. One month later, the shop was very busy. The employee was giving flowers to a happy customer. The woman was packing flowers into a box for an online order. A few weeks later, the woman was watching TV at home. The news said that shipping fees would increase the next month. She was worried about her online business.",
+          "simpleAnswerJa": "ある日、ある女性が自分の花屋を閉めようとしていた。彼女は帰ろうとしていた。店員の 1 人が花を指さした。彼は、売れ残った花がたくさんあると彼女に言った。彼女は心配そうな様子だった。翌日、店員はノートパソコンで花の写真を彼女に見せた。彼は花をネットで売ることを提案した。彼女は興味を持った様子だった。1 か月後、店はとても忙しかった。店員はうれしそうな客に花を渡していた。女性はネット注文の花を箱に詰めていた。数週間後、女性は家でテレビを見ていた。ニュースでは、翌月に送料が上がると言っていた。彼女はネット販売のことが心配になった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She was about to go home.",
+              "ja": "彼女は帰ろうとしていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "He told her that they had a lot of unsold flowers.",
+              "ja": "売れ残った花がたくさんあると言った（have → had、we → they）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She looked worried.",
+              "ja": "彼女は心配そうな様子だった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The employee showed her pictures of flowers on his laptop.",
+              "ja": "店員はノートパソコンで花の写真を見せた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He suggested selling flowers online.",
+              "ja": "花をネットで売ることを提案した（Why don't we ...? → suggested ...ing）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The shop was very busy.",
+              "ja": "店はとても忙しかった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The woman was packing flowers into a box for an online order.",
+              "ja": "女性はネット注文の花を箱に詰めていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The woman was watching TV at home.",
+              "ja": "女性は家でテレビを見ていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The news said that shipping fees would increase the next month.",
+              "ja": "翌月に送料が上がるとニュースで言っていた（will → would、next month → the next month）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She was worried about her online business.",
+              "ja": "彼女はネット販売のことが心配になった"
+            }
           ]
         },
         {
@@ -123,7 +352,36 @@
           "audio": "audio/eiken/eiken-pre1-2025-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"Higher shipping fees will cut into the profits from our online sales. Maybe we should focus on delivering to customers in our local area, or offer a discount to people who pick up their flowers at the shop.\"",
           "modelAnswerJa": "「送料が上がると、ネット販売の利益が減ってしまう。近所のお客さんへの配達に力を入れたり、店まで花を受け取りに来てくれる人に割引をしたりしたほうがいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目のニュース（送料の値上げ）が、女性の店にどう影響するかを考えます。まず「何が困るのか（利益が減る）」を述べ、次に Maybe we should ... で「対策」を具体的に 2 つ挙げると、前向きでまとまった答えになります。cut into the profits（利益を減らす）は、お金に関わる場面で使いやすい表現です。"
+          "explanation": "4 コマ目のニュース（送料の値上げ）が、女性の店にどう影響するかを考えます。まず「何が困るのか（利益が減る）」を述べ、次に Maybe we should ... で「対策」を具体的に 2 つ挙げると、前向きでまとまった答えになります。cut into the profits（利益を減らす）は、お金に関わる場面で使いやすい表現です。",
+          "simpleAnswer": "I'd be thinking, \"This is bad news for our online business. Maybe we should deliver flowers to customers in our town by ourselves. Then we won't have to pay the shipping fees.\"",
+          "simpleAnswerJa": "「これはネット販売にとって悪い知らせだ。町内のお客さんには、自分たちで花を届けたほうがいいかもしれない。そうすれば、送料を払わなくてすむ」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "This is bad news for our online business.",
+              "ja": "これはネット販売にとって悪い知らせだ"
+            },
+            {
+              "group": "気持ち",
+              "en": "We will make less money.",
+              "ja": "もうけが減ってしまう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We should deliver flowers in our town by ourselves.",
+              "ja": "町内には自分たちで花を届けよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Then we won't have to pay the shipping fees.",
+              "ja": "そうすれば送料を払わなくてすむ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We could give a discount to customers who come to the shop.",
+              "ja": "店に来てくれるお客さんには割引をしてもいいかもしれない"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -134,7 +392,36 @@
           "audio": "audio/eiken/eiken-pre1-2025-2-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. A lot of packaging, such as plastic wrapping and boxes, is thrown away right after people buy something, so it creates a huge amount of waste. Shops could use simpler packaging or encourage customers to bring their own bags. Many customers today care about the environment, so they would probably welcome these changes.",
           "modelAnswerJa": "はい、そう思います。ビニールの包装や箱などの多くの包装は、買ってすぐに捨てられてしまうので、膨大な量のごみが出ます。店は、もっと簡単な包装にしたり、客に自分の袋を持ってくるよう勧めたりできるはずです。今は環境を気にかける客が多いので、こうした変化はおそらく歓迎されるでしょう。",
-          "explanation": "「問題点（すぐ捨てられてごみになる）」→「店ができること（簡易包装・マイバッグ）」→「客の反応（歓迎される）」の 3 段階で答えています。Should ...? の質問では、「どうすべきか」の具体案を 1 つ入れると説得力が増します。No の立場なら「商品を傷や汚れから守るために、ある程度の包装は必要だ」などが考えられます。"
+          "explanation": "「問題点（すぐ捨てられてごみになる）」→「店ができること（簡易包装・マイバッグ）」→「客の反応（歓迎される）」の 3 段階で答えています。Should ...? の質問では、「どうすべきか」の具体案を 1 つ入れると説得力が増します。No の立場なら「商品を傷や汚れから守るために、ある程度の包装は必要だ」などが考えられます。",
+          "simpleAnswer": "Yes, they should. A lot of packaging is thrown away right after shopping. This creates a lot of waste. Also, many customers today care about the environment. So shops should use simple packaging.",
+          "simpleAnswerJa": "はい、そうすべきです。包装の多くは、買い物のあとすぐに捨てられます。これは大量のごみになります。また、最近は環境のことを気にかけるお客さんが多いです。だから、お店は簡単な包装にするべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "A lot of packaging is thrown away right after shopping.",
+              "ja": "包装の多くは買い物のあとすぐに捨てられる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "This creates a lot of waste.",
+              "ja": "大量のごみになる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many customers today care about the environment.",
+              "ja": "最近は環境を気にかける客が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Packaging keeps products safe and clean.",
+              "ja": "包装は商品を安全で清潔に保つ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Nice packaging is important for gifts.",
+              "ja": "プレゼントにはすてきな包装が大切だ"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -145,7 +432,36 @@
           "audio": "audio/eiken/eiken-pre1-2025-2-interview/d-q3.mp3",
           "modelAnswer": "Yes, I think so. Customers' tastes change quickly these days, especially because of social media. Businesses that ignore new trends may lose customers to their competitors. For example, many restaurants started offering takeout and delivery when those services became popular, and that helped them survive difficult times.",
           "modelAnswerJa": "はい、そう思います。最近は、特に SNS の影響で、客の好みがすぐに変わります。新しい流行を無視する企業は、客を競合相手に奪われてしまうかもしれません。たとえば、テイクアウトや宅配が広まったときにそれを始めた飲食店は多く、そのおかげで厳しい時期を乗り切ることができました。",
-          "explanation": "「客の好みが速く変わる」という一般論のあと、「流行を無視するとどうなるか」というリスクを述べ、For example で身近な具体例（飲食店のテイクアウト）を挙げています。No の立場なら「流行はすぐに終わるので、追いかけると会社の個性が失われたり、在庫が無駄になったりする」などが考えられます。"
+          "explanation": "「客の好みが速く変わる」という一般論のあと、「流行を無視するとどうなるか」というリスクを述べ、For example で身近な具体例（飲食店のテイクアウト）を挙げています。No の立場なら「流行はすぐに終わるので、追いかけると会社の個性が失われたり、在庫が無駄になったりする」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. These days, people's tastes change quickly because of social media. Businesses that don't change will lose customers. Also, new trends can bring in new customers. So following trends is important for businesses.",
+          "simpleAnswerJa": "はい、そう思います。最近は SNS の影響で、人々の好みがすぐに変わります。変わらない企業はお客さんを失ってしまいます。また、新しい流行は新しいお客さんを呼び込むことができます。だから、流行を追うことは企業にとって大切です。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "People's tastes change quickly because of social media.",
+              "ja": "SNS の影響で人々の好みはすぐに変わる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Businesses that don't change will lose customers.",
+              "ja": "変わらない企業は客を失う"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "New trends can bring in new customers.",
+              "ja": "新しい流行は新しい客を呼び込める"
+            },
+            {
+              "group": "No の理由",
+              "en": "Trends end very quickly.",
+              "ja": "流行はすぐに終わる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Following trends costs a lot of money.",
+              "ja": "流行を追うにはお金がかかる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -156,7 +472,36 @@
           "audio": "audio/eiken/eiken-pre1-2025-2-interview/d-q4.mp3",
           "modelAnswer": "Yes, they should. Problems such as climate change and infectious diseases do not stop at national borders, so no country can solve them alone. When countries share information and technology, they can respond much more quickly. For example, during the COVID-19 pandemic, sharing research data across borders helped scientists develop vaccines in a short time.",
           "modelAnswerJa": "はい、協力すべきです。気候変動や感染症のような問題は国境で止まらないので、1 つの国だけでは解決できません。各国が情報や技術を共有すれば、ずっと速く対応できます。たとえば、新型コロナウイルスの世界的な流行の際には、国境を越えて研究データを共有したことで、科学者たちが短期間でワクチンを開発することができました。",
-          "explanation": "global issues の具体例（気候変動・感染症）を挙げ、do not stop at national borders（国境で止まらない）という理由で「協力が必要」につなげています。最後に実際の出来事（新型コロナのワクチン開発）を例に出すと、説得力のある答えになります。No.4 は社会全体の問題を扱うので、ニュースで見聞きした出来事を 1 つ準備しておくと答えやすくなります。"
+          "explanation": "global issues の具体例（気候変動・感染症）を挙げ、do not stop at national borders（国境で止まらない）という理由で「協力が必要」につなげています。最後に実際の出来事（新型コロナのワクチン開発）を例に出すと、説得力のある答えになります。No.4 は社会全体の問題を扱うので、ニュースで見聞きした出来事を 1 つ準備しておくと答えやすくなります。",
+          "simpleAnswer": "Yes, they should. Problems like climate change happen all over the world. No country can solve them alone. Also, countries can share information and technology. So they can solve problems more quickly together.",
+          "simpleAnswerJa": "はい、そうすべきです。気候変動のような問題は、世界中で起きています。1 つの国だけでは解決できません。また、国どうしで情報や技術を共有することができます。だから、協力すればより早く問題を解決できます。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Problems like climate change happen all over the world.",
+              "ja": "気候変動のような問題は世界中で起きている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "No country can solve them alone.",
+              "ja": "1 つの国だけでは解決できない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Countries can share information and technology.",
+              "ja": "国どうしで情報や技術を共有できる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Each country has different ideas.",
+              "ja": "国によって考え方が違う"
+            },
+            {
+              "group": "No の理由",
+              "en": "Leaders should solve problems in their own countries first.",
+              "ja": "指導者はまず自国の問題を解決すべきだ"
+            }
+          ]
         }
       ]
     }

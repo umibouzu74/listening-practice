@@ -36,6 +36,65 @@
             "2コマ目: 新聞の見出し（昼寝が社員の仕事ぶりを高める）を読み、社長が思いついたことを言えた",
             "3コマ目: 仮眠室ができて、女性がすっきりした様子で出てくるのを社長が見ていることを描写できた",
             "4コマ目: 社員が会議に駆け込み、「アラームをセットし忘れた」と言ったことと、仮眠室で寝過ごしたらしいことを伝えられた"
+          ],
+          "simpleAnswer": "One day, a company president was walking around the office. Two workers were drinking coffee. One of them said that he had been feeling tired lately. That afternoon, the president was reading a newspaper. It said that naps helped workers work better. He had a good idea. A month later, the company had a Nap Room. A woman was coming out of the room. She was stretching her arms and looked refreshed. The president was smiling. The next day, however, the president was having a meeting. A worker came into the room late. He said that he had forgotten to set an alarm. He had slept too long in the Nap Room. The president looked unhappy.",
+          "simpleAnswerJa": "ある日、ある会社の社長がオフィスを見て回っていた。2 人の社員がコーヒーを飲んでいた。そのうちの 1 人が、最近ずっと疲れていると言った。その日の午後、社長は新聞を読んでいた。昼寝をすると社員の仕事の効率が上がると書いてあった。彼はよいアイデアを思いついた。1 か月後、会社には仮眠室ができていた。女性が部屋から出てくるところだった。彼女は腕を伸ばしていて、すっきりした様子だった。社長はほほえんでいた。ところが翌日、社長は会議をしていた。社員が 1 人、遅れて部屋に入ってきた。彼はアラームをセットし忘れたと言った。仮眠室で寝すぎてしまったのだ。社長は不機嫌そうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "Two workers were drinking coffee.",
+              "ja": "2 人の社員がコーヒーを飲んでいた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "One of them said that he had been feeling tired lately.",
+              "ja": "1 人が、最近ずっと疲れていると言った（have been → had been）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The president was reading a newspaper.",
+              "ja": "社長は新聞を読んでいた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "It said that naps helped workers work better.",
+              "ja": "昼寝をすると社員の仕事の効率が上がると書いてあった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He had a good idea.",
+              "ja": "彼はよいアイデアを思いついた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The company had a Nap Room.",
+              "ja": "会社には仮眠室ができていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "A woman was coming out of the room.",
+              "ja": "女性が部屋から出てくるところだった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She was stretching her arms and looked refreshed.",
+              "ja": "彼女は腕を伸ばしていて、すっきりした様子だった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "A worker came into the room late.",
+              "ja": "社員が 1 人、遅れて部屋に入ってきた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He said that he had forgotten to set an alarm.",
+              "ja": "アラームをセットし忘れたと言った（forgot → had forgotten）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The president looked unhappy.",
+              "ja": "社長は不機嫌そうだった"
+            }
           ]
         },
         {
@@ -48,7 +107,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-3-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"The nap room is still a good idea, but we clearly need some rules. I'll set a time limit for naps and make sure that everyone sets an alarm, so that nobody is late for an important meeting again.\"",
           "modelAnswerJa": "「仮眠室はやはりよいアイデアだが、明らかに何か規則が必要だ。昼寝の時間に制限を設け、全員が必ずアラームをセットするようにして、大事な会議に遅れる人が二度と出ないようにしよう」と考えていると思います。",
-          "explanation": "4 コマ目は、社長から見て、社員が寝過ごして会議に遅れたと思われる場面です。社長の立場なので、失敗を責めるだけでなく「制度をどう改善するか」を考える答えにしています。still a good idea, but ... でアイデア自体はやめないことを示し、I'll set a time limit と具体策を続けています。so that nobody ... again（二度と〜しないように）は再発防止を述べるときに便利です。"
+          "explanation": "4 コマ目は、社長から見て、社員が寝過ごして会議に遅れたと思われる場面です。社長の立場なので、失敗を責めるだけでなく「制度をどう改善するか」を考える答えにしています。still a good idea, but ... でアイデア自体はやめないことを示し、I'll set a time limit と具体策を続けています。so that nobody ... again（二度と〜しないように）は再発防止を述べるときに便利です。",
+          "simpleAnswer": "I'd be thinking, \"The Nap Room is still a good idea, but we need some rules. I'll set a time limit for naps. I'll also tell everyone to use an alarm.\"",
+          "simpleAnswerJa": "「仮眠室はやはりよいアイデアだが、ルールが必要だ。昼寝の時間に制限を設けよう。それに、全員にアラームを使うように言おう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "The Nap Room is still a good idea.",
+              "ja": "仮眠室はやはりよいアイデアだ"
+            },
+            {
+              "group": "気持ち",
+              "en": "We need some rules.",
+              "ja": "ルールが必要だ"
+            },
+            {
+              "group": "気持ち",
+              "en": "I don't want this to happen again.",
+              "ja": "二度とこんなことが起きてほしくない"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll set a time limit for naps.",
+              "ja": "昼寝の時間に制限を設けよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll tell everyone to use an alarm.",
+              "ja": "全員にアラームを使うように言おう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -59,7 +147,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-3-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. A high salary is certainly attractive, but people spend a large part of their lives at work. If they don't enjoy their job, they may become unhappy or quit after a few years. I think that being interested in the work and having a good working environment are more important in the long run.",
           "modelAnswerJa": "いいえ、そうは思いません。高い給料は確かに魅力的ですが、人は人生の多くの時間を職場で過ごします。仕事を楽しめなければ、不幸になったり数年で辞めてしまったりするかもしれません。長い目で見れば、仕事に興味を持てることや職場環境がよいことのほうが大切だと思います。",
-          "explanation": "A high salary is certainly attractive, but ... と、いったん給料の魅力を認めてから反論する形です。「仕事を楽しめないとどうなるか」を述べたうえで、給料より大切なものを具体的に挙げています。in the long run（長い目で見れば）は意見を締めくくるのに便利な表現です。Yes の立場なら「家族を養い、将来に備えるには十分な収入が欠かせず、給料が高ければ生活にも余裕が生まれる」などが考えられます。"
+          "explanation": "A high salary is certainly attractive, but ... と、いったん給料の魅力を認めてから反論する形です。「仕事を楽しめないとどうなるか」を述べたうえで、給料より大切なものを具体的に挙げています。in the long run（長い目で見れば）は意見を締めくくるのに便利な表現です。Yes の立場なら「家族を養い、将来に備えるには十分な収入が欠かせず、給料が高ければ生活にも余裕が生まれる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. We spend a lot of time at work. If we don't enjoy our job, we won't be happy. Also, good coworkers make work easier. So salary is not the most important thing.",
+          "simpleAnswerJa": "いいえ、そうは思いません。私たちは仕事に多くの時間を使います。仕事を楽しめなければ、幸せにはなれません。また、よい同僚がいると仕事がしやすくなります。だから、給料が一番大切なものではありません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "We spend a lot of time at work.",
+              "ja": "私たちは仕事に多くの時間を使う"
+            },
+            {
+              "group": "No の理由",
+              "en": "If we don't enjoy our job, we won't be happy.",
+              "ja": "仕事を楽しめなければ、幸せにはなれない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Good coworkers make work easier.",
+              "ja": "よい同僚がいると仕事がしやすい"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "We need money to support our families.",
+              "ja": "家族を養うにはお金が必要だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "A high salary can give us a better life.",
+              "ja": "給料が高ければ、よりよい暮らしができる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -70,7 +187,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-3-interview/a-q3.mp3",
           "modelAnswer": "Yes, I think so. Many people believe what they see on TV or social media without checking whether it is true. Social media is especially powerful, because it tends to show users the kinds of posts they already agree with. As a result, false information can spread quickly, and people may form strong opinions after hearing only one side of a story.",
           "modelAnswerJa": "はい、そう思います。多くの人は、テレビや SNS で見たことを、本当かどうか確かめずに信じてしまいます。特に SNS は影響力が強く、利用者がすでに賛成している種類の投稿を表示する傾向があります。その結果、誤った情報がすぐに広まり、話の一面だけを聞いて強い意見を持ってしまうこともあります。",
-          "explanation": "「確かめずに信じる」という人々の傾向を述べ、次に SNS の仕組みに話を進めています。As a result でまとめ、hearing only one side of a story（話の一面だけを聞く）という表現で問題点をはっきりさせています。No の立場なら「今は多くの情報源を簡単に比べられるので、自分で判断できる人も増えている」などが考えられます。"
+          "explanation": "「確かめずに信じる」という人々の傾向を述べ、次に SNS の仕組みに話を進めています。As a result でまとめ、hearing only one side of a story（話の一面だけを聞く）という表現で問題点をはっきりさせています。No の立場なら「今は多くの情報源を簡単に比べられるので、自分で判断できる人も増えている」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Many people believe what they see on TV without checking it. Also, false news spreads quickly on social media. So people should check information carefully.",
+          "simpleAnswerJa": "はい、そう思います。テレビで見たことを確かめずに信じてしまう人がたくさんいます。また、SNS ではうその情報がすぐに広まります。だから、情報をよく確かめるべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many people believe what they see on TV.",
+              "ja": "テレビで見たことを信じる人が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "False news spreads quickly on social media.",
+              "ja": "SNS ではうその情報がすぐに広まる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People often see only one side of a story.",
+              "ja": "物事の一面しか見ないことが多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people check the news on different websites.",
+              "ja": "いろいろなサイトでニュースを確かめる人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Young people learn how to check information at school.",
+              "ja": "若者は学校で情報の確かめ方を学んでいる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -81,7 +227,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-3-interview/a-q4.mp3",
           "modelAnswer": "Yes, it should. In Japan, some workers still have to do long hours of unpaid overtime, and part-time or temporary workers are often treated worse than full-time employees. Many workers are afraid to complain because they might lose their jobs. The government should make stricter laws and punish companies that break them, so that all workers feel safe.",
           "modelAnswerJa": "はい、努力すべきです。日本では今でも、長時間のサービス残業をしなければならない人がいて、パートや派遣の労働者は正社員より悪い待遇を受けることが多くあります。多くの働く人は、仕事を失うことを恐れて不満を言えません。すべての労働者が安心できるように、政府はより厳しい法律を作り、違反した企業を罰するべきです。",
-          "explanation": "unpaid overtime（サービス残業）や part-time or temporary workers（パートや派遣の労働者）のように、workers' rights の問題を具体的に挙げています。そして「自分では声を上げにくい」ことを理由に、政府の役割（法律と罰則）につなげています。No の立場なら「労働法はすでに整っているので、新しい法律より今ある法律を守らせることが大切で、規制が増えすぎると企業の負担も増える」などが考えられます。"
+          "explanation": "unpaid overtime（サービス残業）や part-time or temporary workers（パートや派遣の労働者）のように、workers' rights の問題を具体的に挙げています。そして「自分では声を上げにくい」ことを理由に、政府の役割（法律と罰則）につなげています。No の立場なら「労働法はすでに整っているので、新しい法律より今ある法律を守らせることが大切で、規制が増えすぎると企業の負担も増える」などが考えられます。",
+          "simpleAnswer": "Yes, it should. Some workers still work long hours without extra pay. Also, many workers are afraid to complain. They don't want to lose their jobs. So the government should make stricter laws.",
+          "simpleAnswerJa": "はい、すべきです。いまだに、残業代なしで長時間働いている人がいます。また、多くの労働者は不満を言うのを怖がっています。仕事を失いたくないからです。だから、政府はもっと厳しい法律を作るべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Some workers work long hours without extra pay.",
+              "ja": "残業代なしで長時間働く人がいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many workers are afraid to complain.",
+              "ja": "不満を言うのを怖がっている労働者が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Part-time workers are often treated badly.",
+              "ja": "パートタイムの労働者はひどい扱いを受けることが多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "There are already many laws to protect workers.",
+              "ja": "労働者を守る法律はすでにたくさんある"
+            },
+            {
+              "group": "No の理由",
+              "en": "Too many rules can be hard for small companies.",
+              "ja": "規則が多すぎると、小さな会社には負担になる"
+            }
+          ]
         }
       ]
     },
@@ -111,6 +286,65 @@
             "2コマ目: 両親にスケートボードを習いたいと話し、父親が腕を組み母親が心配していることを言えた",
             "3コマ目: 1か月後にヘルメットとひざ当てを着けて他の若者たちと楽しんでいる様子を描写できた",
             "4コマ目: けがをして手当てを受け、母親に「もうスケートボードはだめ」と言われたことを間接話法で伝えられた"
+          ],
+          "simpleAnswer": "One day, a girl was walking home from school. She saw some people at a skate park. They were doing tricks on their skateboards. She looked very excited. The next day, she told her parents that she wanted to learn to skateboard. Her father crossed his arms, and her mother looked worried. A month later, she was skateboarding with some other young people. She was wearing a helmet and knee pads. Everyone was having fun. A week later, however, she was at a hospital. She had hurt her arm, and a nurse was putting a bandage on her head. Her mother told her that she couldn't skateboard anymore. The girl looked very disappointed.",
+          "simpleAnswerJa": "ある日、女の子が学校から歩いて帰っていた。スケートパークで何人かの人を見かけた。彼らはスケートボードで技をしていた。彼女はとてもわくわくしている様子だった。翌日、彼女は両親に、スケートボードを習いたいと言った。父親は腕を組み、母親は心配そうだった。1 か月後、彼女はほかの若者たちとスケートボードをしていた。ヘルメットとひざ当てをつけていた。みんな楽しそうだった。ところが 1 週間後、彼女は病院にいた。腕をけがしていて、看護師が頭に包帯を巻いていた。母親は彼女に、もうスケートボードはだめだと言った。女の子はとてもがっかりした様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She saw some people at a skate park.",
+              "ja": "スケートパークで何人かの人を見かけた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "They were doing tricks on their skateboards.",
+              "ja": "彼らはスケートボードで技をしていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She looked very excited.",
+              "ja": "彼女はとてもわくわくしている様子だった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She told her parents that she wanted to learn to skateboard.",
+              "ja": "両親に、スケートボードを習いたいと言った（want → wanted）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "Her father crossed his arms.",
+              "ja": "父親は腕を組んだ"
+            },
+            {
+              "group": "2コマ目",
+              "en": "Her mother looked worried.",
+              "ja": "母親は心配そうだった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She was skateboarding with some other young people.",
+              "ja": "ほかの若者たちとスケートボードをしていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She was wearing a helmet and knee pads.",
+              "ja": "ヘルメットとひざ当てをつけていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She had hurt her arm.",
+              "ja": "彼女は腕をけがしていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Her mother told her that she couldn't skateboard anymore.",
+              "ja": "母親は彼女に、もうスケートボードはだめだと言った（No more ...! → couldn't ... anymore）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The girl looked very disappointed.",
+              "ja": "女の子はとてもがっかりした様子だった"
+            }
           ]
         },
         {
@@ -123,7 +357,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-3-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I understand why Mom is so worried, because I really got hurt this time. But I don't want to give up skateboarding. When I get better, I'll promise to wear more protective gear and take lessons from a teacher, and then I'll ask my parents for one more chance.\"",
           "modelAnswerJa": "「今回は本当にけがをしてしまったから、お母さんがこんなに心配している理由は分かる。でも、スケートボードをあきらめたくない。よくなったら、もっと防具を着けて先生に習うと約束して、もう一度だけチャンスをくださいと両親に頼もう」と考えていると思います。",
-          "explanation": "4 コマ目は、女の子がけがをして、母親に「もうスケートボードはだめ」と言われた場面です。まず母親の気持ちを I understand why ... で受け止め、次に But で自分の希望を述べています。When I get better, I'll promise to ... と条件を示して頼む形にすると、説得力のある答えになります。protective gear（防具）はスポーツの話題で使える語です。"
+          "explanation": "4 コマ目は、女の子がけがをして、母親に「もうスケートボードはだめ」と言われた場面です。まず母親の気持ちを I understand why ... で受け止め、次に But で自分の希望を述べています。When I get better, I'll promise to ... と条件を示して頼む形にすると、説得力のある答えになります。protective gear（防具）はスポーツの話題で使える語です。",
+          "simpleAnswer": "I'd be thinking, \"I understand why Mom is worried. But I don't want to give up skateboarding. I'll promise to be more careful next time.\"",
+          "simpleAnswerJa": "「お母さんが心配する理由はわかる。でも、スケートボードをやめたくない。次はもっと気をつけると約束しよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I understand why Mom is worried.",
+              "ja": "お母さんが心配する理由はわかる"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I don't want to give up skateboarding.",
+              "ja": "スケートボードをやめたくない"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have been more careful.",
+              "ja": "もっと気をつけるべきだった"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll promise to be more careful next time.",
+              "ja": "次はもっと気をつけると約束しよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll take lessons from a teacher.",
+              "ja": "先生にレッスンを受けよう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -134,7 +397,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-3-interview/d-q2.mp3",
           "modelAnswer": "Yes, it is. When parents go to school events and talk with teachers, they can notice problems such as bullying or falling grades at an early stage. Children also tend to take their studies more seriously when they know their parents care. However, parents should not get too involved, because children need to learn to solve problems by themselves.",
           "modelAnswerJa": "はい、大切です。親が学校行事に参加したり先生と話したりすれば、いじめや成績の低下といった問題に早い段階で気づくことができます。また、親が気にかけてくれていると分かると、子どもは勉強により真剣に取り組む傾向があります。ただし、子どもは自分で問題を解決することも学ぶ必要があるので、親が関わりすぎるのはよくありません。",
-          "explanation": "「問題の早期発見」と「子どものやる気」という 2 つの理由を挙げています。at an early stage（早い段階で）は便利な表現です。最後に However で「関わりすぎ」に触れると、一方的でない答えになります。No の立場なら「学校生活は子どもが自立を学ぶ場なので、親はあまり関わらず先生に任せたほうがよい」などが考えられます。"
+          "explanation": "「問題の早期発見」と「子どものやる気」という 2 つの理由を挙げています。at an early stage（早い段階で）は便利な表現です。最後に However で「関わりすぎ」に触れると、一方的でない答えになります。No の立場なら「学校生活は子どもが自立を学ぶ場なので、親はあまり関わらず先生に任せたほうがよい」などが考えられます。",
+          "simpleAnswer": "Yes, it is. If parents talk with teachers, they can find problems like bullying early. Also, children study harder when their parents care. So parents should go to school events.",
+          "simpleAnswerJa": "はい、大切です。親が先生と話せば、いじめなどの問題に早く気づくことができます。また、親が関心を持ってくれると、子どもはもっと勉強をがんばります。だから、親は学校行事に参加するべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Parents can find problems like bullying early.",
+              "ja": "いじめなどの問題に早く気づける"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Children study harder when their parents care.",
+              "ja": "親が関心を持つと、子どもはもっと勉強をがんばる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Parents can talk with teachers about their children.",
+              "ja": "子どものことを先生と話せる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many parents are too busy with work.",
+              "ja": "仕事が忙しすぎる親が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Children need to solve problems by themselves.",
+              "ja": "子どもは自分で問題を解決する必要がある"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -145,7 +437,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-3-interview/d-q3.mp3",
           "modelAnswer": "Yes, it is. In sports, young people often lose or make mistakes, so they learn how to deal with failure and try again. Team sports also teach them to cooperate with others and to take responsibility for their roles. Practicing regularly for a long time helps them develop patience and self-discipline, which will be useful throughout their lives.",
           "modelAnswerJa": "はい、よい方法です。スポーツでは、若者は負けたり失敗したりすることがよくあるので、失敗に向き合い、再び挑戦することを学びます。また、チームスポーツでは、他の人と協力し、自分の役割に責任を持つことを学びます。長い間定期的に練習することで忍耐力や自制心も身につき、それは一生役立ちます。",
-          "explanation": "strong character を「失敗から立ち直る力」「協力と責任」「忍耐力」の 3 つに分けて具体的に説明しています。抽象的な言葉について聞かれたら、このように中身を言い換えると答えやすくなります。self-discipline（自制心）も覚えておきたい語です。No の立場なら「勝つことばかりを重視する指導や厳しい上下関係は、かえって若者に悪い影響を与えることがある」などが考えられます。"
+          "explanation": "strong character を「失敗から立ち直る力」「協力と責任」「忍耐力」の 3 つに分けて具体的に説明しています。抽象的な言葉について聞かれたら、このように中身を言い換えると答えやすくなります。self-discipline（自制心）も覚えておきたい語です。No の立場なら「勝つことばかりを重視する指導や厳しい上下関係は、かえって若者に悪い影響を与えることがある」などが考えられます。",
+          "simpleAnswer": "Yes, it is. In sports, young people often lose. They learn to try again after they fail. Also, team sports teach them how to work with others. So sports help them grow.",
+          "simpleAnswerJa": "はい、よい方法です。スポーツでは、若者はよく負けます。失敗してももう一度挑戦することを学べます。また、チームスポーツでは、ほかの人と協力することを学べます。だから、スポーツは若者の成長に役立ちます。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "They learn to try again after they fail.",
+              "ja": "失敗してももう一度挑戦することを学ぶ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Team sports teach them how to work with others.",
+              "ja": "チームスポーツでほかの人と協力することを学ぶ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They learn to practice hard every day.",
+              "ja": "毎日一生懸命練習することを学ぶ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some coaches are too strict.",
+              "ja": "厳しすぎるコーチもいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Young people can also learn from music or art.",
+              "ja": "音楽や美術からも学べる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -156,7 +477,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-3-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think they can do much. These events bring people together for a few weeks, but serious problems between countries, such as disputes over territory, do not disappear because of them. In fact, some countries have refused to take part in the Olympics for political reasons. Real progress depends on long-term talks between governments.",
           "modelAnswerJa": "いいえ、あまりできないと思います。こうした行事は数週間は人々を結びつけますが、領土をめぐる争いのような国家間の深刻な問題がそれでなくなるわけではありません。実際、政治的な理由でオリンピックへの参加を拒否した国もあります。本当の進展は、政府同士の長期にわたる話し合いにかかっています。",
-          "explanation": "「一時的な効果にとどまる」という点を but で示し、In fact で実際の出来事（政治的理由による不参加）を挙げて根拠にしています。No, I don't think they can do much. のように「まったくできない」と言い切らないと、無理のない立場になります。Yes の立場なら「選手や観客の交流を通じて相手の国への理解が深まり、国同士が話し合うきっかけにもなる」などが考えられます。"
+          "explanation": "「一時的な効果にとどまる」という点を but で示し、In fact で実際の出来事（政治的理由による不参加）を挙げて根拠にしています。No, I don't think they can do much. のように「まったくできない」と言い切らないと、無理のない立場になります。Yes の立場なら「選手や観客の交流を通じて相手の国への理解が深まり、国同士が話し合うきっかけにもなる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. The Olympics only last a few weeks. Serious problems between countries don't go away. Also, some countries refuse to join for political reasons. So governments need to keep talking to each other.",
+          "simpleAnswerJa": "いいえ、そうは思いません。オリンピックは数週間しか続きません。国どうしの深刻な問題はなくなりません。また、政治的な理由で参加を拒む国もあります。だから、政府どうしが話し合いを続ける必要があります。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "The Olympics only last a few weeks.",
+              "ja": "オリンピックは数週間しか続かない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Serious problems between countries don't go away.",
+              "ja": "国どうしの深刻な問題はなくならない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some countries refuse to join for political reasons.",
+              "ja": "政治的な理由で参加を拒む国もある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People can learn about other countries.",
+              "ja": "ほかの国について知ることができる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Athletes from different countries become friends.",
+              "ja": "異なる国の選手どうしが友達になる"
+            }
+          ]
         }
       ]
     }

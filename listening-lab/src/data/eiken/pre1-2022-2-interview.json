@@ -36,6 +36,65 @@
             "2コマ目: パソコンの画面で、住宅が安いABC村の案内を見つけたことを言えた",
             "3コマ目: 一家が田舎に引っ越し、荷物を運んでいる様子を描写できた",
             "4コマ目: 子どもたちが「都会の友達が恋しい」と言い、両親が困っていることを伝えられた"
+          ],
+          "simpleAnswer": "One day, a woman was talking with her husband. They were looking at some bills. She said that living in the city was very expensive. Her husband looked worried. That night, he was looking at a website on the computer. It said that houses in ABC Village were cheap. His wife looked excited. A few months later, the family moved to the countryside. They were carrying boxes into their new house. Some elderly people were working in the fields nearby. A few weeks later, however, the children told their parents that they missed their friends in the city. The parents looked worried because their children were not happy.",
+          "simpleAnswerJa": "ある日、女性が夫と話していた。2 人は請求書を見ていた。彼女は、都会での暮らしはとてもお金がかかると言った。夫は心配そうだった。その夜、夫はパソコンでウェブサイトを見ていた。ABC 村の家は安いと書いてあった。妻はわくわくしている様子だった。数か月後、家族は田舎に引っ越した。彼らは新しい家に箱を運び込んでいた。近くの畑ではお年寄りが働いていた。ところが数週間後、子どもたちは両親に、都会の友達に会えなくてさびしいと言った。子どもたちが楽しそうではなかったので、両親は心配そうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "They were looking at some bills.",
+              "ja": "2 人は請求書を見ていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She said that living in the city was very expensive.",
+              "ja": "都会での暮らしはとてもお金がかかると言った（is → was）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "Her husband looked worried.",
+              "ja": "夫は心配そうだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He was looking at a website on the computer.",
+              "ja": "夫はパソコンでウェブサイトを見ていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "It said that houses in ABC Village were cheap.",
+              "ja": "ABC 村の家は安いと書いてあった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "His wife looked excited.",
+              "ja": "妻はわくわくしている様子だった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The family moved to the countryside.",
+              "ja": "家族は田舎に引っ越した"
+            },
+            {
+              "group": "3コマ目",
+              "en": "They were carrying boxes into their new house.",
+              "ja": "新しい家に箱を運び込んでいた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Some elderly people were working in the fields nearby.",
+              "ja": "近くの畑ではお年寄りが働いていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The children told their parents that they missed their friends in the city.",
+              "ja": "子どもたちは両親に、都会の友達に会えなくてさびしいと言った（miss → missed）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The parents looked worried.",
+              "ja": "両親は心配そうだった"
+            }
           ]
         },
         {
@@ -48,7 +107,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"Moving here has helped us save money, but I didn't think enough about how hard it would be for the children. I should help them make new friends here, and maybe we can invite their old friends to visit during summer vacation.\"",
           "modelAnswerJa": "「ここに引っ越してお金は節約できているけれど、子どもたちにとってどれほど大変かを十分に考えていなかった。ここで新しい友達を作れるように手伝ってあげて、夏休みには以前の友達を招いてもいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目は、女性の子どもたちが都会の友達を恋しがっている場面です。..., but I didn't think enough about ... で「よかった点」と「反省」を述べ、I should ... と maybe we can ... で子どものためにできることを 2 つ挙げています。how hard it would be for the children（子どもたちにとってどれほど大変か）のように子どもの気持ちを考える内容にすると、この場面に合った答えになります。"
+          "explanation": "4 コマ目は、女性の子どもたちが都会の友達を恋しがっている場面です。..., but I didn't think enough about ... で「よかった点」と「反省」を述べ、I should ... と maybe we can ... で子どものためにできることを 2 つ挙げています。how hard it would be for the children（子どもたちにとってどれほど大変か）のように子どもの気持ちを考える内容にすると、この場面に合った答えになります。",
+          "simpleAnswer": "I'd be thinking, \"We are saving money here, but the children are not happy. I should have thought more about them. I'll help them make new friends here.\"",
+          "simpleAnswerJa": "「ここではお金を節約できているけれど、子どもたちは楽しそうではない。子どもたちのことをもっと考えるべきだった。ここで新しい友達ができるように手伝ってあげよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "The children are not happy here.",
+              "ja": "子どもたちはここで楽しそうではない"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have thought more about the children.",
+              "ja": "子どもたちのことをもっと考えるべきだった"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll help them make new friends here.",
+              "ja": "ここで新しい友達ができるように手伝おう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll invite their old friends in the summer.",
+              "ja": "夏に昔の友達を招待しよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We'll enjoy nature together as a family.",
+              "ja": "家族でいっしょに自然を楽しもう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -59,7 +147,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-2-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. Renting gives people more freedom, because they can move easily if they change jobs or if their family grows. Buying a home usually means having a large loan for many years, and homeowners must also pay for repairs. In addition, the value of a house can fall, especially in areas where the population is declining.",
           "modelAnswerJa": "いいえ、そうは思いません。賃貸のほうが自由度が高く、転職したり家族が増えたりしたときに簡単に引っ越せます。家を買うと、たいていは長年にわたって多額のローンを抱えることになり、修理代も自分で払わなければなりません。さらに、特に人口が減っている地域では、家の価値が下がることもあります。",
-          "explanation": "「賃貸の利点（自由に引っ越せる）」と「購入の欠点（ローン・修理代・価値の下落）」の両面から答えています。better を問う質問なので、2 つを比べる形にするとまとまりやすくなります。a large loan や the value of a house can fall は、お金の話題で使える表現です。Yes の立場なら「家賃を払い続けても何も残らないが、買えば老後も住む場所が自分の資産として残る」などが考えられます。"
+          "explanation": "「賃貸の利点（自由に引っ越せる）」と「購入の欠点（ローン・修理代・価値の下落）」の両面から答えています。better を問う質問なので、2 つを比べる形にするとまとまりやすくなります。a large loan や the value of a house can fall は、お金の話題で使える表現です。Yes の立場なら「家賃を払い続けても何も残らないが、買えば老後も住む場所が自分の資産として残る」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. If you rent, you can move easily when you change jobs. Also, you often need a big loan to buy a house. So I think renting is better.",
+          "simpleAnswerJa": "いいえ、そうは思いません。借りていれば、仕事が変わったときに簡単に引っ越せます。また、家を買うには大きなローンが必要なことが多いです。だから、借りるほうがよいと思います。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "If you rent, you can move easily.",
+              "ja": "借りていれば、簡単に引っ越せる"
+            },
+            {
+              "group": "No の理由",
+              "en": "You often need a big loan to buy a house.",
+              "ja": "家を買うには大きなローンが必要なことが多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Homeowners have to pay for repairs.",
+              "ja": "家の持ち主は修理代を払わなければならない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "You can change your house the way you like.",
+              "ja": "家を好きなように変えられる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "You don't have to pay rent when you are old.",
+              "ja": "年をとってから家賃を払わなくてすむ"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -70,7 +187,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-2-interview/a-q3.mp3",
           "modelAnswer": "Yes, it should. Trees and parks help to lower temperatures in cities, which are becoming extremely hot in summer. Green spaces also give people a place to relax, exercise, and spend time with their children, and this is good for their mental and physical health. In addition, parks can be used as safe places for people to gather during an earthquake.",
           "modelAnswerJa": "はい、増やすべきです。木々や公園は、夏に猛烈な暑さになりつつある都市の気温を下げるのに役立ちます。また、緑地はくつろいだり運動したり、子どもと過ごしたりする場所にもなり、心身の健康によい影響を与えます。さらに、公園は地震のときに人々が集まる安全な場所としても利用できます。",
-          "explanation": "「気温を下げる」「健康によい」「災害時の避難場所になる」と、環境・生活・防災の 3 つの観点から理由を挙げています。地震の多い日本ならではの視点を入れると、質問の Japan にしっかり答えられます。No の立場なら「都市の土地は限られて高価なので、住宅や交通のために使うほうが優先される」などが考えられます。"
+          "explanation": "「気温を下げる」「健康によい」「災害時の避難場所になる」と、環境・生活・防災の 3 つの観点から理由を挙げています。地震の多い日本ならではの視点を入れると、質問の Japan にしっかり答えられます。No の立場なら「都市の土地は限られて高価なので、住宅や交通のために使うほうが優先される」などが考えられます。",
+          "simpleAnswer": "Yes, it should. Trees and parks make cities cooler in summer. Also, people can relax and exercise in parks. So more green space will make city life better.",
+          "simpleAnswerJa": "はい、すべきです。木や公園は、夏の都市を涼しくしてくれます。また、人々は公園でくつろいだり運動したりできます。だから、緑地が増えれば、都会の生活がもっとよくなります。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Trees make cities cooler in summer.",
+              "ja": "木は夏の都市を涼しくする"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People can relax and exercise in parks.",
+              "ja": "公園でくつろいだり運動したりできる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Parks can be safe places during an earthquake.",
+              "ja": "公園は地震のときに安全な場所になる"
+            },
+            {
+              "group": "No の理由",
+              "en": "There is not enough land in big cities.",
+              "ja": "大都市には十分な土地がない"
+            },
+            {
+              "group": "No の理由",
+              "en": "It costs a lot of money to make new parks.",
+              "ja": "新しい公園を作るにはお金がたくさんかかる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -81,7 +227,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-2-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think more people do now than in the past. Many young workers value their free time and choose companies that offer remote work or shorter hours. In Japan, companies also have to limit overtime more strictly than before because of new laws. However, a good balance is still difficult for people in busy jobs such as teaching and nursing.",
           "modelAnswerJa": "はい、以前よりはうまく保てている人が増えていると思います。自由な時間を大切にし、在宅勤務や短い勤務時間を認める会社を選ぶ若い働き手は多くいます。日本では、新しい法律によって、会社は以前よりも厳しく残業を制限しなければならなくなりました。ただし、教師や看護師のような忙しい仕事の人にとって、よいバランスを保つことはまだ難しいです。",
-          "explanation": "Yes, I think more people do now than in the past. のように「以前と比べて」と答えると、言い切りすぎない無理のない立場になります。「若い人の価値観」「法律による残業の制限」という 2 つの変化を理由にし、However で例外にも触れています。No の立場なら「スマートフォンで仕事の連絡が家まで届くので、仕事と私生活の区別がつきにくくなっている」などが考えられます。"
+          "explanation": "Yes, I think more people do now than in the past. のように「以前と比べて」と答えると、言い切りすぎない無理のない立場になります。「若い人の価値観」「法律による残業の制限」という 2 つの変化を理由にし、However で例外にも触れています。No の立場なら「スマートフォンで仕事の連絡が家まで届くので、仕事と私生活の区別がつきにくくなっている」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Many young people think their free time is important. Also, companies have to reduce overtime work because of new laws. So more people can enjoy their private lives.",
+          "simpleAnswerJa": "はい、そう思います。多くの若者は自由な時間を大切だと考えています。また、新しい法律のため、会社は残業を減らさなければなりません。だから、私生活を楽しめる人が増えています。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many young people think their free time is important.",
+              "ja": "多くの若者は自由な時間を大切だと考えている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Companies have to reduce overtime work.",
+              "ja": "会社は残業を減らさなければならない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More people can work from home.",
+              "ja": "在宅勤務ができる人が増えている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Teachers and nurses still work long hours.",
+              "ja": "教師や看護師はいまだに長時間働いている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people still check work emails at home.",
+              "ja": "家でも仕事のメールを確認する人がまだ多い"
+            }
+          ]
         }
       ]
     },
@@ -111,6 +286,65 @@
             "2コマ目: 夫が「海の生き物を守ろう」の看板を掲げ、妻が署名を集めて空港建設に反対していることを言えた",
             "3コマ目: 建設中止の看板の前で、夫婦と人々が喜んでいることを描写できた",
             "4コマ目: 新聞でABC建設の倒産を知り、夫婦が心配していることを、建設中止との関係にも触れて伝えられた"
+          ],
+          "simpleAnswer": "One day, a couple was taking a walk by the beach. They saw a worker putting up a sign. It was a sign for an airport construction site. The company's name was ABC Construction. A few days later, the husband was holding up a sign. It asked people to protect ocean life. His wife was collecting signatures against the airport. Six months later, the airport construction was canceled. The couple and other people were cheering. A year later, the husband was reading a newspaper at home. The newspaper said that ABC Construction had gone bankrupt. His wife looked worried. They wondered if the canceled airport was the reason.",
+          "simpleAnswerJa": "ある日、夫婦が浜辺を散歩していた。作業員が看板を立てているのを見かけた。それは空港建設現場の看板だった。会社の名前は ABC 建設だった。数日後、夫はプラカードを掲げていた。そこには、海の生き物を守ろうと書かれていた。妻は空港建設に反対する署名を集めていた。6 か月後、空港の建設は中止になった。夫婦とほかの人たちは歓声を上げていた。1 年後、夫は家で新聞を読んでいた。新聞には、ABC 建設が倒産したと書いてあった。妻は心配そうだった。2 人は、空港の建設中止が原因ではないかと考えていた。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "They saw a worker putting up a sign.",
+              "ja": "作業員が看板を立てているのを見かけた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "It was a sign for an airport construction site.",
+              "ja": "それは空港建設現場の看板だった"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The company's name was ABC Construction.",
+              "ja": "会社の名前は ABC 建設だった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The husband was holding up a sign.",
+              "ja": "夫はプラカードを掲げていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "It asked people to protect ocean life.",
+              "ja": "海の生き物を守るよう呼びかけていた（Protect ...! → asked people to protect ...）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "His wife was collecting signatures against the airport.",
+              "ja": "妻は空港建設に反対する署名を集めていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The airport construction was canceled.",
+              "ja": "空港の建設は中止になった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The couple and other people were cheering.",
+              "ja": "夫婦とほかの人たちは歓声を上げていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The newspaper said that ABC Construction had gone bankrupt.",
+              "ja": "新聞には、ABC 建設が倒産したと書いてあった（goes → had gone）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "His wife looked worried.",
+              "ja": "妻は心配そうだった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "They wondered if the canceled airport was the reason.",
+              "ja": "2 人は、空港の建設中止が原因ではないかと考えていた（wonder if ...：…ではないかと思う）"
+            }
           ]
         },
         {
@@ -123,7 +357,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking that we were right to protect the ocean, but that I feel sorry for the people who may have lost their jobs. I'd also hope that they can find new work soon, and I'd want to talk more with the people affected the next time we hold a protest.",
           "modelAnswerJa": "海を守ったのは正しかったけれど、仕事を失ったかもしれない人たちは気の毒だと考えていると思います。また、その人たちがすぐに新しい仕事を見つけられるように願い、次に抗議活動をするときには、影響を受ける人たちともっと話し合いたいと思うでしょう。",
-          "explanation": "4 コマ目は、夫が、反対した空港の建設会社が倒産したと知った場面です。we were right to ... で自分たちの行動を認めつつ、but で会社の人たちへの気持ちを述べると、複雑な心境を表せます。その人たちが実際に仕事を失ったかどうかは絵からは分からないので、may have lost のように断定を避けています。I'd be thinking that ... の形は、引用符を使う答え方とは違う言い方として使えます。"
+          "explanation": "4 コマ目は、夫が、反対した空港の建設会社が倒産したと知った場面です。we were right to ... で自分たちの行動を認めつつ、but で会社の人たちへの気持ちを述べると、複雑な心境を表せます。その人たちが実際に仕事を失ったかどうかは絵からは分からないので、may have lost のように断定を避けています。I'd be thinking that ... の形は、引用符を使う答え方とは違う言い方として使えます。",
+          "simpleAnswer": "I'd be thinking, \"We were right to protect the ocean. But I feel sorry for the workers at the company. Next time, I'll think about them, too.\"",
+          "simpleAnswerJa": "「海を守ったのは正しかった。でも、その会社で働いていた人たちは気の毒だ。次は、働く人たちのことも考えよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "We were right to protect the ocean.",
+              "ja": "海を守ったのは正しかった"
+            },
+            {
+              "group": "気持ち",
+              "en": "I feel sorry for the workers.",
+              "ja": "働いていた人たちが気の毒だ"
+            },
+            {
+              "group": "気持ち",
+              "en": "I hope they can find new jobs soon.",
+              "ja": "早く新しい仕事が見つかるといい"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll think about the workers, too.",
+              "ja": "次は、働く人たちのことも考えよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll talk with the company first.",
+              "ja": "次は、まず会社と話し合おう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -134,7 +397,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-2-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. In Japan, many people avoid talking about politics because they don't want to cause arguments. However, if citizens don't share their opinions, politicians won't understand what people really need. Discussing these issues also encourages young people to vote, and this is important because voter turnout among young people is low.",
           "modelAnswerJa": "はい、そう思います。日本では、言い争いを避けたいという理由で、政治の話をしない人が多くいます。しかし、市民が意見を伝えなければ、政治家は人々が本当に必要としていることを理解できません。こうした問題について話し合うことは若者の投票を促すことにもなり、若者の投票率は低いので、これは重要です。",
-          "explanation": "「なぜ話さないのか（言い争いを避けたい）」という現状を述べたうえで、However で「意見を言わないと何が困るか」に進めています。voter turnout（投票率）は政治の話題で役立つ語です。No の立場なら「選挙で投票することが最も大切で、意見を公の場で言うと職場や友人との関係が気まずくなることもある」などが考えられます。"
+          "explanation": "「なぜ話さないのか（言い争いを避けたい）」という現状を述べたうえで、However で「意見を言わないと何が困るか」に進めています。voter turnout（投票率）は政治の話題で役立つ語です。No の立場なら「選挙で投票することが最も大切で、意見を公の場で言うと職場や友人との関係が気まずくなることもある」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Many Japanese people don't talk about politics. But politicians need to know what people want. Also, talking about politics can make young people want to vote. So we should share our opinions more.",
+          "simpleAnswerJa": "はい、そう思います。政治について話さない日本人は多いです。でも、政治家は人々が何を望んでいるのかを知る必要があります。また、政治について話すことで、若者が投票したいと思うようになるかもしれません。だから、もっと意見を伝えるべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Politicians need to know what people want.",
+              "ja": "政治家は人々が何を望んでいるのかを知る必要がある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Talking about politics can make young people want to vote.",
+              "ja": "政治について話すと、若者が投票したいと思うようになる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many young people don't vote.",
+              "ja": "投票しない若者が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Talking about politics can cause arguments.",
+              "ja": "政治の話は口論の原因になることがある"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some people don't know much about politics.",
+              "ja": "政治についてあまり知らない人もいる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -145,7 +437,41 @@
           "audio": "audio/eiken/eiken-pre1-2022-2-interview/d-q3.mp3",
           "modelAnswer": "No, I don't think they need to do more. Companies already help society by creating jobs, paying taxes, and providing useful products and services. Their main responsibility is to run their business well and treat their employees fairly. If they are forced to spend too much on social projects, their profits may fall, and they may have to cut jobs or raise prices.",
           "modelAnswerJa": "いいえ、これ以上の努力は必要ないと思います。企業はすでに、雇用を生み、税金を納め、役に立つ商品やサービスを提供することで社会に貢献しています。企業の主な責任は、事業をしっかり運営し、社員を公正に扱うことです。社会事業にお金をかけることを強いられすぎると、利益が減り、人員削減や値上げをせざるを得なくなるかもしれません。",
-          "explanation": "「本業そのものが社会貢献である」という視点から No と答えています。creating jobs, paying taxes, and providing ... のように 3 つ並べると、短くても具体的になります。最後の If they are forced to ... で、やりすぎた場合の悪影響を示しています。Yes の立場なら「大企業は資金力や影響力が大きいので、環境問題や地域の支援にもっと責任を持つべきだ」などが考えられます。"
+          "explanation": "「本業そのものが社会貢献である」という視点から No と答えています。creating jobs, paying taxes, and providing ... のように 3 つ並べると、短くても具体的になります。最後の If they are forced to ... で、やりすぎた場合の悪影響を示しています。Yes の立場なら「大企業は資金力や影響力が大きいので、環境問題や地域の支援にもっと責任を持つべきだ」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Companies already help society by creating jobs and paying taxes. Also, if they spend too much on other things, workers may lose their jobs. So companies should focus on their own business.",
+          "simpleAnswerJa": "いいえ、そうは思いません。企業は、雇用を生み出し、税金を納めることで、すでに社会の役に立っています。また、ほかのことにお金を使いすぎると、社員が仕事を失うかもしれません。だから、企業は自分たちの事業に集中すべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Companies already help society by creating jobs.",
+              "ja": "企業は雇用を生み出すことで、すでに社会の役に立っている"
+            },
+            {
+              "group": "No の理由",
+              "en": "They also pay a lot of taxes.",
+              "ja": "税金もたくさん納めている"
+            },
+            {
+              "group": "No の理由",
+              "en": "If companies spend too much, workers may lose their jobs.",
+              "ja": "企業がお金を使いすぎると、社員が仕事を失うかもしれない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Big companies have a lot of money.",
+              "ja": "大企業はお金をたくさん持っている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can help protect the environment.",
+              "ja": "環境を守る手助けができる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People like companies that help society.",
+              "ja": "人々は社会の役に立つ企業を好む"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -156,7 +482,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-2-interview/d-q4.mp3",
           "modelAnswer": "Yes, it is. One person's actions may seem small, but if millions of people use public transportation, save electricity, and waste less food, the total effect can be large. Consumers also influence companies, because businesses will make more eco-friendly products if people choose to buy them. Of course, governments and industries must also act.",
           "modelAnswerJa": "はい、あり得ます。1 人の行動は小さく見えるかもしれませんが、何百万もの人が公共交通機関を使い、電気を節約し、食品の無駄を減らせば、全体の効果は大きくなります。また、消費者は企業にも影響を与えます。人々が環境に優しい商品を選んで買えば、企業はそうした商品をより多く作るようになるからです。もちろん、政府や産業界も行動しなければなりません。",
-          "explanation": "Is it possible ...? と聞かれているので Yes, it is. と答えます。「1 人では小さくても大勢なら大きい」という考え方に加え、「消費者の選択が企業を動かす」という理由を挙げると、個人の行動の意味がはっきりします。eco-friendly products（環境に優しい商品）は環境問題でよく使う表現です。No の立場なら「排出量の多くは産業や発電によるものなので、個人の努力だけでは大きな効果は望めない」などが考えられます。"
+          "explanation": "Is it possible ...? と聞かれているので Yes, it is. と答えます。「1 人では小さくても大勢なら大きい」という考え方に加え、「消費者の選択が企業を動かす」という理由を挙げると、個人の行動の意味がはっきりします。eco-friendly products（環境に優しい商品）は環境問題でよく使う表現です。No の立場なら「排出量の多くは産業や発電によるものなので、個人の努力だけでは大きな効果は望めない」などが考えられます。",
+          "simpleAnswer": "Yes, it is. If millions of people save electricity, it will make a big difference. Also, if people buy eco-friendly products, companies will make more of them. So each person's actions are important.",
+          "simpleAnswerJa": "はい、可能です。何百万もの人が節電すれば、大きな違いが生まれます。また、人々が環境にやさしい製品を買えば、企業はそうした製品をもっと作るようになります。だから、一人ひとりの行動が大切です。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "If millions of people save electricity, it will make a big difference.",
+              "ja": "何百万もの人が節電すれば、大きな違いが生まれる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "We can use public transportation instead of cars.",
+              "ja": "車の代わりに公共交通機関を使える"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "If people buy eco-friendly products, companies will make more of them.",
+              "ja": "環境にやさしい製品を買えば、企業がそれをもっと作るようになる"
+            },
+            {
+              "group": "No の理由",
+              "en": "One person's actions are too small.",
+              "ja": "一人の行動は小さすぎる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Factories and power plants cause most of the problem.",
+              "ja": "問題の大部分は工場や発電所が原因だ"
+            }
+          ]
         }
       ]
     }
