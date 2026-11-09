@@ -2,10 +2,12 @@ import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import SectionListItem from '../components/SectionListItem';
 import InterviewCardItem from '../components/InterviewCardItem';
+import PhraseBookLink from '../components/PhraseBookLink';
 import { getExamColor } from '../utils/examConfig';
 import { getExamSummary, isDraft, isInterview, countQuestions } from '../data/registry';
 import { getRecord, recordKey } from '../utils/history';
 import { getInterviewRecord, summarizeInterview } from '../utils/interviewHistory';
+import { PHRASE_BOOK } from '../utils/interviewPhrases';
 import styles from './SectionsPage.module.css';
 
 export default function SectionsPage() {
@@ -59,6 +61,9 @@ export default function SectionsPage() {
           </div>
 
           <div className={styles.list}>
+            {examType === 'eiken' && meta.grade === PHRASE_BOOK.grade && (
+              <PhraseBookLink accentColor={accent} onClick={() => navigate('/eiken/phrases')} />
+            )}
             {sections.map((section, i) => (
               <InterviewCardItem
                 key={section.id}

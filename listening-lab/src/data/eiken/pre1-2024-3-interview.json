@@ -36,6 +36,65 @@
             "2コマ目: 「エアコン28℃」「服装はカジュアル」の2点を、CEOが伝えた内容として言えた",
             "3コマ目: 吹き出しを間接話法（told / reminded them that ... would ...）にできた",
             "4コマ目: スーツ姿の来客とカジュアルな社員の対比を描写できた"
+          ],
+          "simpleAnswer": "One day, a CEO was at her office. She was looking at a graph of the electricity costs. The costs were going up, and the air conditioner was on. That afternoon, the CEO told her staff about two new rules. She said that the air conditioner would be set to 28 degrees. She also said that they could wear casual clothes. The staff looked happy. A few weeks later, everyone was wearing casual clothes. The CEO told them that some clients would come the next day. The next day, the CEO and the clients were wearing suits. Then, one of the workers came into the room in casual clothes. He looked surprised because he was the only person in casual clothes.",
+          "simpleAnswerJa": "ある日、ある CEO が自分のオフィスにいた。彼女は電気代のグラフを見ていた。電気代は上がっていて、エアコンがついていた。その日の午後、CEO は社員に 2 つの新しいルールについて話した。エアコンを 28 度に設定すると言った。また、カジュアルな服を着てきてよいとも言った。社員たちはうれしそうだった。数週間後、みんなカジュアルな服を着ていた。CEO は社員に、翌日に取引先が来ると伝えた。翌日、CEO と取引先はスーツを着ていた。そこへ、社員の 1 人がカジュアルな服で部屋に入ってきた。カジュアルな服装なのは自分だけだったので、彼は驚いた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She was looking at a graph of the electricity costs.",
+              "ja": "彼女は電気代のグラフを見ていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The costs were going up.",
+              "ja": "電気代が上がっていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The workers were wearing suits.",
+              "ja": "社員たちはスーツを着ていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She told her staff about two new rules.",
+              "ja": "彼女は社員に 2 つの新しいルールについて話した"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She said that they could wear casual clothes.",
+              "ja": "カジュアルな服を着てきてよいと言った（can → could）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The staff looked happy.",
+              "ja": "社員たちはうれしそうだった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Everyone was wearing casual clothes.",
+              "ja": "みんなカジュアルな服を着ていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She told them that some clients would come the next day.",
+              "ja": "翌日に取引先が来ると伝えた（will → would、tomorrow → the next day）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The CEO and the clients were wearing suits.",
+              "ja": "CEO と取引先はスーツを着ていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "One of the workers came into the room in casual clothes.",
+              "ja": "社員の 1 人がカジュアルな服で部屋に入ってきた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He looked surprised.",
+              "ja": "彼は驚いた様子だった"
+            }
           ]
         },
         {
@@ -48,7 +107,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I should have told everyone to wear a suit today. Saving energy is important, but we can't look unprofessional in front of our clients. From now on, I'll make a clear rule about what to wear on days when visitors come.\"",
           "modelAnswerJa": "「今日はスーツを着るよう全員に伝えておくべきだった。省エネは大切だが、取引先の前でだらしなく見えてはいけない。これからは、来客がある日の服装についてはっきりしたルールを作ろう」と考えていると思います。",
-          "explanation": "No.1 は I'd be thinking, \"...\" か I'd be thinking that ... で始め、絵の人物の立場から考えを述べます。引用符を使う形なら、中身は現在形・I を主語にして自然に話せます。「反省（should have + 過去分詞）」→「その理由」→「今後どうするか（From now on, I'll ...）」の順に組み立てると、短くてもまとまった答えになります。"
+          "explanation": "No.1 は I'd be thinking, \"...\" か I'd be thinking that ... で始め、絵の人物の立場から考えを述べます。引用符を使う形なら、中身は現在形・I を主語にして自然に話せます。「反省（should have + 過去分詞）」→「その理由」→「今後どうするか（From now on, I'll ...）」の順に組み立てると、短くてもまとまった答えになります。",
+          "simpleAnswer": "I'd be thinking, \"I should have told everyone to wear a suit today. It's not his fault. Next time, I'll tell my staff clearly before clients come.\"",
+          "simpleAnswerJa": "「今日はスーツを着るよう全員に伝えておくべきだった。彼のせいではない。次からは、取引先が来る前に社員にはっきり伝えよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I should have told everyone to wear a suit.",
+              "ja": "全員にスーツを着るよう伝えておくべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "It's not his fault.",
+              "ja": "彼のせいではない"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "This might look rude to the clients.",
+              "ja": "取引先に失礼に見えるかもしれない"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll tell my staff before clients come.",
+              "ja": "次からは、取引先が来る前に社員に伝えよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll apologize to the clients.",
+              "ja": "取引先に謝ろう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -59,7 +147,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/a-q2.mp3",
           "modelAnswer": "Yes, I think so. Young people today grow up sharing their thoughts on social media every day, so they are used to expressing themselves. Many of them also take part in online discussions about social issues such as the environment, which shows that they are not afraid to speak up.",
           "modelAnswerJa": "はい、そう思います。今の若者は毎日 SNS で自分の考えを発信しながら育っているので、自己表現に慣れています。また、環境などの社会問題についてのオンラインの議論に参加する若者も多く、意見を言うことをためらわないことがわかります。",
-          "explanation": "No.2〜4 は最初に Yes / No で立場をはっきりさせ、そのあとに理由を 2 文ほど続けます。理由は「一般論 → 具体例」の順に並べると説得力が出ます。ここでは「SNS で発信に慣れている」→「社会問題の議論にも参加している」と具体化しています。No の立場なら「周りに合わせようとして本音を言わない」などの理由も考えられます。"
+          "explanation": "No.2〜4 は最初に Yes / No で立場をはっきりさせ、そのあとに理由を 2 文ほど続けます。理由は「一般論 → 具体例」の順に並べると説得力が出ます。ここでは「SNS で発信に慣れている」→「社会問題の議論にも参加している」と具体化しています。No の立場なら「周りに合わせようとして本音を言わない」などの理由も考えられます。",
+          "simpleAnswer": "Yes, I think so. Young people use social media every day. They often write their opinions there. Also, students give presentations at school these days. So they are good at sharing their ideas.",
+          "simpleAnswerJa": "はい、そう思います。若者は毎日 SNS を使っています。そこでよく自分の意見を書いています。また、最近の生徒は学校で発表をします。だから、自分の考えを伝えるのが得意です。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Young people often share their ideas on social media.",
+              "ja": "若者は SNS でよく自分の考えを発信している"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Students give presentations at school these days.",
+              "ja": "最近の生徒は学校で発表をする"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many young people are afraid of being different.",
+              "ja": "周りと違うことを怖がる若者が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "They worry about what others think.",
+              "ja": "人にどう思われるかを気にしている"
+            },
+            {
+              "group": "No の理由",
+              "en": "They often just agree with others.",
+              "ja": "ほかの人にただ合わせることが多い"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -70,7 +187,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/a-q3.mp3",
           "modelAnswer": "Yes, I think so. The idea of working for one company for life is becoming less common in Japan. Also, there are more and more online courses, so people can learn new skills while they are still working. This will make it easier for them to move into a different field.",
           "modelAnswerJa": "はい、そう思います。日本では、1 つの会社で一生働くという考え方が以前ほど一般的ではなくなっています。また、オンライン講座がどんどん増えているので、働きながら新しい技能を身につけることができます。そのため、別の分野に移ることがより簡単になるでしょう。",
-          "explanation": "「社会の意識の変化（終身雇用の減少）」と「環境の変化（オンライン講座で学び直しがしやすい）」という、種類の違う理由を 2 つ挙げています。最後の This will make it easier for ... で質問の内容（change their occupations more easily）に戻ると、答えがきれいに締まります。"
+          "explanation": "「社会の意識の変化（終身雇用の減少）」と「環境の変化（オンライン講座で学び直しがしやすい）」という、種類の違う理由を 2 つ挙げています。最後の This will make it easier for ... で質問の内容（change their occupations more easily）に戻ると、答えがきれいに締まります。",
+          "simpleAnswer": "Yes, I think so. These days, fewer people work for one company for life. Also, people can learn new skills online. So it will be easier to change jobs in the future.",
+          "simpleAnswerJa": "はい、そう思います。最近は、1 つの会社で一生働く人が減っています。また、オンラインで新しい技能を学ぶことができます。だから、将来は仕事を変えるのがもっと簡単になるでしょう。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Fewer people work for one company for life.",
+              "ja": "1 つの会社で一生働く人は減っている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People can learn new skills online.",
+              "ja": "オンラインで新しい技能を学べる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "There are many websites for finding jobs.",
+              "ja": "仕事を探すためのウェブサイトがたくさんある"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people want a stable job.",
+              "ja": "安定した仕事を望む人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "It is hard to start a new job when you are older.",
+              "ja": "年をとってから新しい仕事を始めるのは大変だ"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -81,7 +227,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/a-q4.mp3",
           "modelAnswer": "Yes, they should. Today's students are the ones who will have to live with the effects of climate change the longest. If they learn about its causes at school, they will understand why actions like saving electricity and reducing plastic waste matter, and they may also share what they learn with their families.",
           "modelAnswerJa": "はい、そうすべきです。今の生徒たちこそ、気候変動の影響の中で最も長く暮らしていかなければならない人たちです。学校でその原因を学べば、節電やプラスチックごみの削減といった行動がなぜ大切なのかを理解でき、学んだことを家族に伝えることもあるでしょう。",
-          "explanation": "No.4 は社会問題についての問いで、前置きの文（Global warming is ...）のあとに本当の質問が来ます。Should ...? には Yes, they should. / No, they shouldn't. と答えると自然です。理由では「なぜ子どもが学ぶべきか」と「学ぶと何が変わるか」を具体的な行動（節電・プラごみ削減）と結びつけています。"
+          "explanation": "No.4 は社会問題についての問いで、前置きの文（Global warming is ...）のあとに本当の質問が来ます。Should ...? には Yes, they should. / No, they shouldn't. と答えると自然です。理由では「なぜ子どもが学ぶべきか」と「学ぶと何が変わるか」を具体的な行動（節電・プラごみ削減）と結びつけています。",
+          "simpleAnswer": "Yes, they should. Today's children will face this problem in the future. At school, they can learn easy things to do, like saving electricity. They can also tell their families what they learned.",
+          "simpleAnswerJa": "はい、そうすべきです。今の子どもたちは、将来この問題に直面します。学校では、節電のような簡単にできることを学べます。また、学んだことを家族に伝えることもできます。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Today's children will face this problem in the future.",
+              "ja": "今の子どもたちは将来この問題に直面する"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can learn easy things to do, like saving electricity.",
+              "ja": "節電のような、簡単にできることを学べる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can tell their families what they learned.",
+              "ja": "学んだことを家族に伝えられる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Students are already busy with other subjects.",
+              "ja": "生徒はほかの教科ですでに忙しい"
+            },
+            {
+              "group": "No の理由",
+              "en": "They can learn about it from the news.",
+              "ja": "ニュースから学ぶことができる"
+            }
+          ]
         }
       ]
     },
@@ -111,6 +286,60 @@
             "2コマ目: 女性社員がパソコンで英語を学んでいる様子と、それを見て満足そうな CEO を描写できた",
             "3コマ目: 英語でのプレゼンと同僚の発言（間接話法）を描写できた",
             "4コマ目: 辞表と「海外で仕事が見つかった」を伝え、however などで展開の変化を示せた"
+          ],
+          "simpleAnswer": "One day, a CEO was making an announcement to his staff. He told them about online English lessons. He said that they could take the lessons during working hours. The staff were very happy. A few days later, a woman was taking an English lesson on her computer. The CEO was watching her and smiling. Several months later, she was giving a presentation in English. One of her coworkers told the CEO that her English had improved a lot. A month later, however, she gave the CEO a letter of resignation. She said that she had found a job overseas. The CEO looked shocked.",
+          "simpleAnswerJa": "ある日、ある CEO が社員に向けて発表をしていた。彼はオンライン英語レッスンについて話した。勤務時間中にレッスンを受けてよいと言った。社員たちはとても喜んでいた。数日後、ある女性がパソコンで英語のレッスンを受けていた。CEO は彼女を見てほほえんでいた。数か月後、彼女は英語でプレゼンテーションをしていた。同僚の 1 人が CEO に、彼女の英語はとても上達したと言った。ところが 1 か月後、彼女は CEO に辞表を渡した。海外で仕事が見つかったと言った。CEO はショックを受けた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "He told them about online English lessons.",
+              "ja": "彼はオンライン英語レッスンについて話した"
+            },
+            {
+              "group": "1コマ目",
+              "en": "He said that they could take the lessons during working hours.",
+              "ja": "勤務時間中にレッスンを受けてよいと言った（can → could）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The staff were clapping.",
+              "ja": "社員たちは拍手していた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "A woman was taking an English lesson on her computer.",
+              "ja": "女性がパソコンで英語のレッスンを受けていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The CEO was watching her and smiling.",
+              "ja": "CEO は彼女を見てほほえんでいた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She was giving a presentation in English.",
+              "ja": "彼女は英語でプレゼンテーションをしていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "One of her coworkers told the CEO that her English had improved a lot.",
+              "ja": "同僚が CEO に、彼女の英語はとても上達したと言った（has improved → had improved）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "However, she gave the CEO a letter of resignation.",
+              "ja": "ところが、彼女は CEO に辞表を渡した"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She said that she had found a job overseas.",
+              "ja": "海外で仕事が見つかったと言った（found → had found）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The CEO looked shocked.",
+              "ja": "CEO はショックを受けた様子だった"
+            }
           ]
         },
         {
@@ -123,7 +352,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I'm disappointed that she's leaving, but I'm proud that our program helped her grow so much. Before she goes, I'll ask her what would have made her want to stay. After that, I should give our staff more chances to use their English inside the company so that talented people won't need to look elsewhere.\"",
           "modelAnswerJa": "「彼女が辞めてしまうのは残念だが、うちのプログラムで彼女がこんなに成長したことは誇らしい。辞める前に、どうすれば残りたいと思えたのかを彼女に聞いてみよう。そのうえで、優秀な人材がよそを探さなくて済むように、社内で英語を使う機会をもっと社員に与えるべきだ」と考えていると思います。",
-          "explanation": "4 コマ目は、英語研修で力をつけた社員から、海外で仕事が見つかったと辞表を渡された場面です。残念な気持ちだけで終わらせず、「よかった点」と「次にどうするか」まで言うと、前向きでまとまった答えになります。I'm disappointed that ..., but I'm proud that ... のように、but で 2 つの気持ちを対比させる形は No.1 で使いやすい型です。続けて Before she goes, ... で本人に聞くことを挙げ、I should ... で会社としての対策を述べると、CEO の立場に合った答えになります。"
+          "explanation": "4 コマ目は、英語研修で力をつけた社員から、海外で仕事が見つかったと辞表を渡された場面です。残念な気持ちだけで終わらせず、「よかった点」と「次にどうするか」まで言うと、前向きでまとまった答えになります。I'm disappointed that ..., but I'm proud that ... のように、but で 2 つの気持ちを対比させる形は No.1 で使いやすい型です。続けて Before she goes, ... で本人に聞くことを挙げ、I should ... で会社としての対策を述べると、CEO の立場に合った答えになります。",
+          "simpleAnswer": "I'd be thinking, \"I'm sad that she is leaving, but I'm happy that her English got better. Next time, I'll give my staff more chances to use English in our company.\"",
+          "simpleAnswerJa": "「彼女が辞めてしまうのは悲しいが、英語が上達したのはうれしい。次は、社内で英語を使う機会を社員にもっと与えよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "I'm sad that she is leaving.",
+              "ja": "彼女が辞めてしまうのは悲しい"
+            },
+            {
+              "group": "気持ち",
+              "en": "I'm happy that her English got better.",
+              "ja": "彼女の英語が上達したのはうれしい"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll give my staff more chances to use English.",
+              "ja": "社員に英語を使う機会をもっと与えよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask her why she wants to leave.",
+              "ja": "なぜ辞めたいのか彼女に聞いてみよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll wish her good luck in her new job.",
+              "ja": "新しい仕事での成功を祈ろう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -134,7 +392,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q2.mp3",
           "modelAnswer": "No, I don't think so. Some people want to work in jobs that need practical skills, such as cooking or building houses. For them, going to a vocational school or learning on the job can be more useful than spending four years at a university. Of course, some careers, such as medicine, do require a degree, but it shouldn't be seen as the only path to success.",
           "modelAnswerJa": "いいえ、そうは思いません。料理や家を建てる仕事のように、実践的な技能が必要な仕事に就きたい人もいます。そうした人にとっては、大学で 4 年間過ごすより、専門学校に行ったり働きながら学んだりするほうが役に立つこともあります。もちろん、医療のように学位が欠かせない職業もありますが、それが成功への唯一の道だと考えるべきではありません。",
-          "explanation": "質問に everyone が入っているので、「全員に必要か」という点で No の立場は取りやすくなります。理由では、大学以外の学び方（vocational school / learning on the job）を具体的に示しています。最後に Of course, ..., but ... と例外を認めると、極端でない意見になります。Yes の立場なら「幅広い教養や考える力は、どの仕事にも役立つ」などが考えられます。"
+          "explanation": "質問に everyone が入っているので、「全員に必要か」という点で No の立場は取りやすくなります。理由では、大学以外の学び方（vocational school / learning on the job）を具体的に示しています。最後に Of course, ..., but ... と例外を認めると、極端でない意見になります。Yes の立場なら「幅広い教養や考える力は、どの仕事にも役立つ」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Some people want to be cooks or hairdressers. They can learn the skills they need at vocational schools. Also, university costs a lot of money. So it is not necessary for everyone.",
+          "simpleAnswerJa": "いいえ、そうは思いません。料理人や美容師になりたい人もいます。そういう人は、必要な技能を専門学校で学べます。また、大学にはお金がたくさんかかります。だから、すべての人に必要なわけではありません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Some people want to be cooks or hairdressers.",
+              "ja": "料理人や美容師になりたい人もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "They can learn skills at vocational schools.",
+              "ja": "専門学校で技能を学べる"
+            },
+            {
+              "group": "No の理由",
+              "en": "University costs a lot of money.",
+              "ja": "大学にはお金がたくさんかかる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Students can learn many different things at university.",
+              "ja": "大学ではさまざまなことを学べる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many companies want workers with a university degree.",
+              "ja": "大卒の人を求める会社が多い"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -145,7 +432,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q3.mp3",
           "modelAnswer": "No, I don't think so. As robots become more common, new kinds of jobs will appear, such as designing, managing, and repairing them. In addition, in fields like nursing and counseling, people will still want to be supported by other humans. So I think robots will change the way we work rather than replace us completely.",
           "modelAnswerJa": "いいえ、そうは思いません。ロボットが普及するにつれて、ロボットの設計や管理、修理といった新しい種類の仕事が生まれるでしょう。さらに、介護やカウンセリングのような分野では、人々はやはり人間に支えてもらいたいと思うはずです。ですから、ロボットは人間に完全に取って代わるのではなく、働き方を変えていくのだと思います。",
-          "explanation": "all human jobs という強い言い方に対しては、No の立場で「例外」を示すと答えやすくなります。ここでは「ロボットに関わる新しい仕事が生まれる」「人の支えが求められる分野は残る」という 2 つの観点を In addition でつないでいます。最後の So I think ... rather than ... は、「奪う」のではなく「変える」のだと自分の考えをまとめる形です。Yes の立場なら「AI の進歩で、知識を使う仕事まで機械が担えるようになってきている」などが考えられます。"
+          "explanation": "all human jobs という強い言い方に対しては、No の立場で「例外」を示すと答えやすくなります。ここでは「ロボットに関わる新しい仕事が生まれる」「人の支えが求められる分野は残る」という 2 つの観点を In addition でつないでいます。最後の So I think ... rather than ... は、「奪う」のではなく「変える」のだと自分の考えをまとめる形です。Yes の立場なら「AI の進歩で、知識を使う仕事まで機械が担えるようになってきている」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. People will need to make and fix robots. Also, robots can't understand people's feelings. So jobs like nursing will still need humans.",
+          "simpleAnswerJa": "いいえ、そうは思いません。ロボットを作ったり直したりする人が必要になります。また、ロボットは人の気持ちを理解できません。だから、介護のような仕事にはこれからも人間が必要です。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "People will need to make and fix robots.",
+              "ja": "ロボットを作ったり直したりする人が必要になる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Robots can't understand people's feelings.",
+              "ja": "ロボットは人の気持ちを理解できない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people want to talk to a real person.",
+              "ja": "本物の人間と話したい人は多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "AI is getting smarter every year.",
+              "ja": "AI は年々賢くなっている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Robots can work 24 hours a day.",
+              "ja": "ロボットは 24 時間働ける"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -156,7 +472,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-3-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think they do. Some companies have introduced remote work, but many employees still work long hours of overtime. Also, in many workplaces, it is hard to take paid holidays because people worry about causing trouble for their coworkers. Employers should create an atmosphere where workers can rest without feeling guilty.",
           "modelAnswerJa": "いいえ、十分ではないと思います。在宅勤務を導入した会社もありますが、多くの社員は今も長時間の残業をしています。また、多くの職場では、同僚に迷惑をかけるのではと心配して有給休暇を取りにくくなっています。雇用主は、社員が後ろめたさを感じずに休める雰囲気をつくるべきです。",
-          "explanation": "「改善している点もあるが（Some companies have ..., but ...）、まだ不十分」という譲歩を入れると、一方的でないバランスのよい意見になります。最後に Employers should ... と具体的な提案で締めると、No の理由がよりはっきり伝わります。Yes の立場なら「残業時間を減らしたり、育児休暇を取りやすくしたりする会社が増えている」などが考えられます。"
+          "explanation": "「改善している点もあるが（Some companies have ..., but ...）、まだ不十分」という譲歩を入れると、一方的でないバランスのよい意見になります。最後に Employers should ... と具体的な提案で締めると、No の理由がよりはっきり伝わります。Yes の立場なら「残業時間を減らしたり、育児休暇を取りやすくしたりする会社が増えている」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Many people still work long hours. Also, it is hard to take paid holidays in many companies. Companies should let their workers rest more.",
+          "simpleAnswerJa": "いいえ、そうは思いません。いまだに長時間働いている人がたくさんいます。また、多くの会社では有給休暇を取りにくいです。会社は社員をもっと休ませるべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many people still work long hours.",
+              "ja": "いまだに長時間働いている人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "It is hard to take paid holidays.",
+              "ja": "有給休暇を取りにくい"
+            },
+            {
+              "group": "No の理由",
+              "en": "Companies should let their workers rest more.",
+              "ja": "会社は社員をもっと休ませるべきだ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More companies let workers work from home.",
+              "ja": "在宅勤務を認める会社が増えている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More fathers can take time off to take care of their children.",
+              "ja": "育児のために休みを取れる父親が増えている"
+            }
+          ]
         }
       ]
     }

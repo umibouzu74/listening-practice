@@ -1,10 +1,12 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import ExamSetCard from '../components/ExamSetCard';
+import PhraseBookLink from '../components/PhraseBookLink';
 import { getExamType, getGradeLabel, getGradeOrder, getPrefectureLabel } from '../utils/examConfig';
 import { getExamSets, isInterview } from '../data/registry';
 import { getRecord, recordKey } from '../utils/history';
 import { getInterviewRecord } from '../utils/interviewHistory';
+import { PHRASE_BOOK } from '../utils/interviewPhrases';
 import styles from './ExamListPage.module.css';
 
 // 同じグループ（英検の級など）の中を、リスニングと面接（二次試験）に分けて表示する
@@ -104,6 +106,9 @@ export default function ExamListPage() {
                 <section key={part.key} className={styles.formatPart}>
                   {part.label && <h3 className={styles.formatHeading}>{part.label}</h3>}
                   <div className={styles.list}>
+                    {examType === 'eiken' && part.key === 'interview' && group.key === PHRASE_BOOK.grade && (
+                      <PhraseBookLink accentColor={config.color} onClick={() => navigate('/eiken/phrases')} />
+                    )}
                     {part.items.map((examSet) => (
                       <ExamSetCard
                         key={examSet.id}

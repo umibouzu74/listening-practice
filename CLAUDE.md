@@ -28,6 +28,7 @@ React + Vite で構築し、GitHub Pages にデプロイする。
   - カード画像: public/images/{examType}/{examId}/（PDF から切り出す場合は JPEG で1枚数百KB以内。元の PDF はコミットしない）
   - 面接官の音声: section.cues（決まり文句）と q.audio（質問）。public/audio/{examType}/{examId}/ に scripts/extract-interview-audio.js で切り出して置く。ない回は読み上げで流れる。市販の模範ナレーションの音声は入れない
   - 模範解答・和訳・解説は独自に作成し、公式・市販の解答例を写さない
+  - 任意で simpleAnswer / simpleAnswerJa（かんたん解答例）と phrases（使えるフレーズ。[{ group, en, ja }]）を付けられる。これも独自に作成する
   - 形式の詳細は listening-lab/README.md の「面接形式（英検二次試験）」
 
 ## Conventions
@@ -42,10 +43,13 @@ React + Vite で構築し、GitHub Pages にデプロイする。
   - 英文の読み上げは utils/speech.js（speechSynthesis）。音声プレイヤーと同じく claimPlayback に参加させる
   - 面接官の発話（音声ファイル or 読み上げ）は hooks/useQuestionAudio.js + utils/interview.js の runCue を使う。audio 要素を1つ使い回すので、開始ボタンのクリック処理で unlock() を呼ぶ（iPhone 対策）。速度設定は受け継がず常に等倍
   - 時間の目安・決まり文句（読み上げ用）・共通の採点観点は examConfig.js の INTERVIEW_CONFIG
+  - どのカードでも使える基本の型（フレーズ）は utils/interviewPhrases.js。フレーズの一覧は components/PhraseList.jsx（読み上げボタン付き）、練習形式のヒント欄は components/PhraseHints.jsx
+  - 基本フレーズ集のページは pages/PhraseBookPage.jsx（内容は interviewPhrases.js の PHRASE_BOOK）。入口は components/PhraseBookLink.jsx
   - 自己採点・練習回数は utils/interviewHistory.js（localStorage の別キー）。リスニングの history.js とは混ぜない
 - コミット前に `npm run lint` と `npm run build` が通ることを確認する
 - ルーティング: #/:examType/:examId/:sectionId（sectionId=all で全問通し、?mode=wrong で前回間違えた問題のみ、?mode=exam で本番モード）
   - 面接の回は sectionId = 問題カードの id。?mode=exam で本番形式、なしで練習形式（all・wrong はない）
+  - #/eiken/phrases は面接の基本フレーズ集（examId "phrases" は使わない）
 - コミットメッセージは日本語OK
 
 ## Structure
@@ -53,7 +57,7 @@ React + Vite で構築し、GitHub Pages にデプロイする。
 - src/pages/ : ページコンポーネント
 - src/hooks/ : カスタムフック
 - src/data/ : 問題データJSON（試験種別ごとにサブディレクトリ）
-- src/utils/ : 設定・ユーティリティ（examConfig / audio / history / speech / interview / interviewHistory）
+- src/utils/ : 設定・ユーティリティ（examConfig / audio / history / speech / interview / interviewHistory / interviewPhrases）
 - scripts/ : データ検証などの Node スクリプト
 - public/audio/ : 音声ファイル（試験種別ごとにサブディレクトリ）
 - public/images/ : 画像（面接の問題カードなど。試験種別・回ごとにサブディレクトリ）

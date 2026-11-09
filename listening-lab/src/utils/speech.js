@@ -12,6 +12,9 @@ export function isSpeechSupported() {
   );
 }
 
+// 最後に始めた読み上げ（前の読み上げが止まったときに、再生の権利を手放してしまわないように）
+let latest = null;
+
 // 他のプレイヤーが再生を始めたら読み上げを止める
 const owner = {
   pause: () => {
@@ -77,7 +80,11 @@ export function speak(text, { rate = 1 } = {}) {
       if (done) return;
       done = true;
       clearTimeout(timer);
-      releasePlayback(owner);
+      // 次の読み上げに切り替わって止まったときは、再生の権利をその読み上げに残す
+      if (latest === u) {
+        latest = null;
+        releasePlayback(owner);
+      }
       resolve(ok);
     };
     u.onend = () => finish(true);
@@ -87,6 +94,7 @@ export function speak(text, { rate = 1 } = {}) {
     const words = text.trim().split(/\s+/).length;
     timer = setTimeout(() => finish(true), ((words / 2.2) / rate) * 1000 + 4000);
 
+    latest = u;
     claimPlayback(owner);
     if (synth.speaking || synth.pending) synth.cancel();
     synth.speak(u);
