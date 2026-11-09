@@ -37,6 +37,39 @@
   opacity: 0.8;
 }
 
+.partialMark {
+  flex-shrink: 0;
+  padding: 2px 6px;
+  border: 1px dashed var(--color-border-hover);
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.partsDone {
+  color: var(--color-text-secondary);
+}
+
+/* 5パートのうち実施した数 */
+.partTrack {
+  display: flex;
+  gap: 3px;
+  margin: 2px 0;
+}
+
+.partPip {
+  width: 18px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.partPipOn {
+  background: var(--item-accent);
+}
+
 .history {
   font-size: 12px;
   font-weight: 500;

@@ -25,7 +25,7 @@ export default function ExamSetCard({ examSet, accentColor, completedSections = 
       <div className={styles.footer}>
         <span className={styles.stat}>
           {isInterview(examSet)
-            ? `カード${sections.length}枚・${sections.some((s) => s.hasInterviewAudio) ? '面接官の音声あり' : '読み上げ音声'}`
+            ? `カード${sections.length}枚・${sections.some((s) => s.hasInterviewAudio) ? '面接官の声：録音音声' : '面接官の声：合成音声'}`
             : `${sections.length}セクション・${countQuestions(examSet)}問`}
           {meta.totalTime && ` ・ 約${meta.totalTime}分`}
         </span>

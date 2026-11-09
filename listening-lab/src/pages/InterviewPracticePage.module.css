@@ -26,7 +26,7 @@
   color: var(--color-text-secondary);
 }
 
-/* ステップの切り替えと表示設定（ヘッダーの下に固定） */
+/* ステップの切り替え・回答中の状況（ヘッダーの下に固定） */
 .toolbar {
   position: sticky;
   top: 69px; /* ヘッダーの高さ */
@@ -35,6 +35,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
+  min-height: 51px;
   margin: 0 -1rem;
   padding: 8px 1rem;
   background: rgba(15, 15, 26, 0.92);
@@ -49,8 +50,7 @@
   gap: 4px;
 }
 
-.tab,
-.toggle {
+.tab {
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -61,12 +61,8 @@
   border: 1px solid var(--color-border-hover);
   background: transparent;
   font-size: 0.75rem;
-  color: var(--color-text-secondary);
+  color: var(--color-text-primary);
   white-space: nowrap;
-}
-
-.tab:disabled {
-  opacity: 0.4;
 }
 
 .tabOn {
@@ -85,20 +81,48 @@
   color: #fff;
 }
 
-.toggles {
+/* 回答中: ステップ名・録音の状態・タイマー・「終える」ボタン */
+.statusBar {
   display: flex;
-  gap: 4px;
-  margin-left: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  width: 100%;
 }
 
-.toggle {
+.statusStep {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.stateSpeaking,
+.stateMuted {
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.stateSpeaking {
+  color: var(--color-text-secondary);
+}
+
+.stateMuted {
   color: var(--color-text-muted);
 }
 
-.toggleOn {
-  border-color: var(--accent);
-  color: var(--accent);
+.barButton {
+  min-height: 36px;
+  min-width: 0;
+  margin-left: auto;
+  padding: 2px 14px;
+  border: none;
+  border-radius: 999px;
+  background: var(--accent);
+  font-size: 0.8rem;
   font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
 }
 
 /* 今のステップ */
@@ -131,7 +155,6 @@
 }
 
 .timer {
-  margin-left: auto;
   font-family: var(--font-mono);
   font-size: 1rem;
   font-weight: 600;
@@ -159,6 +182,32 @@
 .promptJa {
   font-size: 0.8rem;
   color: var(--color-text-secondary);
+}
+
+.promptNote {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+}
+
+/* 始める前の設定（質問文の表示・フレーズ・準備時間） */
+.settings {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.settingNote {
+  width: 100%;
+  font-size: 0.72rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.recordingNote {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--color-warning);
 }
 
 .speaking,

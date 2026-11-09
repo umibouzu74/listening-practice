@@ -2,16 +2,25 @@ import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from 'r
 import { useNavigate, useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import InterviewCard from '../components/InterviewCard';
-import InterviewReview from '../components/InterviewReview';
+import InterviewReview, { RecordingField } from '../components/InterviewReview';
+import ReadAloud from '../components/ReadAloud';
 import SelfScore from '../components/SelfScore';
+import ToggleSwitch from '../components/ToggleSwitch';
+import useConfirm from '../hooks/useConfirm';
 import useLeaveGuard from '../hooks/useLeaveGuard';
+import usePreference from '../hooks/usePreference';
 import useQuestionAudio from '../hooks/useQuestionAudio';
 import useRecorder from '../hooks/useRecorder';
 import useWakeLock from '../hooks/useWakeLock';
 import { getExamColor, INTERVIEW_CONFIG } from '../utils/examConfig';
 import { formatTime } from '../utils/audio';
-import { buildExamStages, checkpointsFor, getInterviewSteps, hasInterviewAudio, runCue } from '../utils/interview';
-import { maxScoreOf, recordExamFinished, setExamScore, totalScore } from '../utils/interviewHistory';
+import {
+  buildExamStages, checkpointsFor, getInterviewSteps, groupStages, hasInterviewAudio, recordingFileName, runCue,
+  stepLabel,
+} from '../utils/interview';
+import {
+  ATTITUDE_ID, examScoreParts, maxScoreOf, maxTotalOf, recordExamFinished, setExamScore, totalScore,
+} from '../utils/interviewHistory';
 import { cancelSpeech, isSpeechSupported, primeVoices, unlockSpeech } from '../utils/speech';
 import styles from './InterviewExamPage.module.css';
 
@@ -45,21 +54,37 @@ function reducer(state, action) {
   }
 }
 
-const LEAVE_MESSAGE = '本番形式を中断しますか？ここまでの録音は保存されません。';
-
 const MIC_MESSAGES = {
   unsupported: 'このブラウザは録音に対応していません。録音なしで、タイマーと流れだけ練習できます。',
   denied: 'マイクの使用が許可されていません。ブラウザの設定でマイクを許可するか、録音なしで練習できます。',
   error: 'マイクを使えませんでした。録音なしで、タイマーと流れだけ練習できます。',
 };
 
+const FINISH_LABELS = {
+  prep: '準備を終える',
+  narration: 'ナレーションを終える',
+  qa: '回答を終える',
+  talk: '答えた（次へ）',
+};
+
+const ATTITUDE_PART = { id: ATTITUDE_ID, label: 'アティチュード' };
+
+function partAnchor(id) {
+  return `review-${id}`;
+}
+
 export default function InterviewExamPage({ examSet, section }) {
   const { examType, examId } = useParams();
   const navigate = useNavigate();
   const accent = getExamColor(examType);
-  const stages = useMemo(() => buildExamStages(section), [section]);
-  const progressStages = useMemo(() => stages.filter((s) => s.kind !== 'closing'), [stages]);
+  // 「入室・退室も通す」（開始するときの設定で進行表を作る）
+  const [withTalk, setWithTalk] = usePreference('interviewExamTalk', false);
+  const [runWithTalk, setRunWithTalk] = useState(withTalk);
+  const stages = useMemo(() => buildExamStages(section, { withTalk: runWithTalk }), [section, runWithTalk]);
+  const stageGroups = useMemo(() => groupStages(stages), [stages]);
   const steps = useMemo(() => getInterviewSteps(section), [section]);
+  const scoreParts = useMemo(() => examScoreParts(steps), [steps]);
+  const talkStages = useMemo(() => stages.filter((s) => s.kind === 'talk'), [stages]);
 
   const [state, dispatch] = useReducer(reducer, INITIAL);
   const [now, setNow] = useState(0);
@@ -75,6 +100,7 @@ export default function InterviewExamPage({ examSet, section }) {
     start: startRecording, stop: stopRecording, pause: pauseRecording,
     resume: resumeRecording, release: releaseMic, discardAll,
   } = recorder;
+  const [confirmDialog, confirm] = useConfirm();
 
   const stage = state.index >= 0 ? stages[state.index] : null;
   const speaking = state.sub === 'cue' || state.sub === 'replay';
@@ -135,7 +161,7 @@ export default function InterviewExamPage({ examSet, section }) {
     finishingRef.current = true;
     if (current.record) {
       const result = await stopRecording();
-      if (result) setRecordings((prev) => ({ ...prev, [current.id]: result }));
+      if (result) setRecordings((prev) => ({ ...prev, [current.id]: { ...result, at: Date.now() } }));
     }
     finishingRef.current = false;
     dispatch({ type: 'next', from, total: stages.length });
@@ -154,24 +180,51 @@ export default function InterviewExamPage({ examSet, section }) {
     return () => clearInterval(id);
   }, [ticking, deadline, finishActive]);
 
-  useLeaveGuard(inProgress, LEAVE_MESSAGE);
+  // 進行中や、振り返りで保存していない録音があるときは、画面を離れる前に確認する
+  const unsavedCount = Object.values(recordings).filter((r) => !r.saved).length;
+  const recordingsLostMessage = (
+    <>
+      <p>保存していない録音が {unsavedCount} 件あります。録音はこの端末のメモリ上にだけあり、画面を離れると消えます（自己採点は保存されています）。</p>
+      <p>残したい録音は、各パートの「録音を保存」で端末に保存できます。</p>
+    </>
+  );
+  useLeaveGuard(inProgress || unsavedCount > 0, () =>
+    confirm(
+      inProgress
+        ? {
+            title: '本番形式を中断しますか？',
+            message: 'ここで画面を離れると、ここまでの録音は残りません。',
+            confirmLabel: '中断して離れる',
+            cancelLabel: '続ける',
+            danger: true,
+          }
+        : {
+            title: '録音が消えます',
+            message: recordingsLostMessage,
+            confirmLabel: '消して離れる',
+            cancelLabel: 'この画面に残る',
+            danger: true,
+          }
+    )
+  );
 
   const begin = () => {
     setRecordings({});
     setTextFallback({});
     setScores({});
     setExamRunId(null);
+    setRunWithTalk(withTalk);
     dispatch({ type: 'start' });
   };
 
-  const handleScore = (q, score) => {
+  const handleScore = (partId, score) => {
     setScores((prev) => {
       const next = { ...prev };
-      if (typeof score === 'number') next[q.id] = score;
-      else delete next[q.id];
+      if (typeof score === 'number') next[partId] = score;
+      else delete next[partId];
       return next;
     });
-    if (examRunId) setExamScore(examId, section.id, examRunId, q.id, score, steps);
+    if (examRunId) setExamScore(examId, section.id, examRunId, partId, score, scoreParts);
   };
 
   const handleStart = async () => {
@@ -187,19 +240,36 @@ export default function InterviewExamPage({ examSet, section }) {
     begin();
   };
 
-  const handleRestart = () => {
+  const handleRestart = async () => {
+    if (unsavedCount > 0) {
+      const ok = await confirm({
+        title: '録音を消してやり直しますか？',
+        message: recordingsLostMessage,
+        confirmLabel: '消してやり直す',
+        cancelLabel: 'やめる',
+        danger: true,
+      });
+      if (!ok) return;
+    }
     discardAll();
     setRecordings({});
     setTextFallback({});
     setScores({});
     setExamRunId(null);
     dispatch({ type: 'reset' });
+    window.scrollTo(0, 0);
   };
 
-  const handleBack = () => {
-    if (inProgress && !window.confirm(LEAVE_MESSAGE)) return;
-    navigate(`/${examType}/${examId}`);
+  const markSaved = (id) => {
+    setRecordings((prev) => (prev[id] ? { ...prev, [id]: { ...prev[id], saved: true } } : prev));
   };
+  const downloadName = (id) =>
+    recordings[id]
+      ? recordingFileName(examId, section.id, `exam-${id}`, recordings[id].mimeType, new Date(recordings[id].at))
+      : undefined;
+
+  // 確認は useLeaveGuard が出す
+  const handleBack = () => navigate(`/${examType}/${examId}`);
 
   const headerTitle = (
     <h2 className={styles.title}>
@@ -212,9 +282,22 @@ export default function InterviewExamPage({ examSet, section }) {
 
   // --- 振り返り ---
   if (state.sub === 'review') {
-    const total = totalScore(scores, steps);
-    const maxTotal = steps.reduce((sum, q) => sum + maxScoreOf(q), 0);
-    const scoredCount = steps.filter((q) => typeof scores[q.id] === 'number').length;
+    const total = totalScore(scores, scoreParts);
+    const maxTotal = maxTotalOf(scoreParts);
+    const scoredCount = scoreParts.filter((p) => typeof scores[p.id] === 'number').length;
+    const partBadge = (id, max) => (typeof scores[id] === 'number' ? `採点済み ${scores[id]}/${max}` : '未採点');
+    const jumpTo = (id) => {
+      const el = document.getElementById(partAnchor(id));
+      if (!el) return;
+      if (el.tagName === 'DETAILS') el.open = true;
+      const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+      el.scrollIntoView({ block: 'start', behavior: reduce ? 'auto' : 'smooth' });
+    };
+    const jumpItems = [
+      ...steps.map((q) => ({ id: q.id, label: stepLabel(q), max: maxScoreOf(q) })),
+      { ...ATTITUDE_PART, max: INTERVIEW_CONFIG.maxScores.attitude },
+    ];
+
     return (
       <div className={styles.page} style={{ '--accent': accent }}>
         <Header onBack={handleBack} accentColor={accent} />
@@ -223,18 +306,40 @@ export default function InterviewExamPage({ examSet, section }) {
           <div className={styles.reviewIntro}>
             <p className={styles.reviewHeading}>お疲れさまでした。振り返りましょう</p>
             <p>
-              自分の録音を聞き、模範解答・解説と比べながら自己採点してみましょう。録音はこの端末のメモリ上にだけあり、
-              画面を離れると消えます（自己採点は端末に保存されます）。
+              自分の録音を聞き、模範解答・解説と比べながら自己採点してみましょう。模範解答は「音声で聞く」で読み上げられます。
+              録音はこの端末のメモリ上にだけあり、画面を離れると消えます（残したいときは「録音を保存」）。自己採点は端末に保存されます。
             </p>
           </div>
           <div className={styles.totalBox}>
-            <span>自己採点の合計</span>
-            <strong>
-              {total ?? '–'} <small>/ {maxTotal}</small>
-            </strong>
-            <span className={styles.totalNote}>
-              {total === null ? `採点済み ${scoredCount}/${steps.length}` : 'アティチュード（3点）は含みません'}
-            </span>
+            <div className={styles.totalRow}>
+              <span>自己採点の合計</span>
+              <strong>
+                {total ?? '–'} <small>/ {maxTotal}</small>
+              </strong>
+              <span className={styles.totalNote}>
+                {total === null ? `採点済み ${scoredCount}/${scoreParts.length}` : '本番と同じ配点です'}
+              </span>
+            </div>
+            <p className={styles.totalBreakdown}>
+              ナレーション {INTERVIEW_CONFIG.maxScores.narration}点・No.1〜4 各{INTERVIEW_CONFIG.maxScores.qa}点・アティチュード{' '}
+              {INTERVIEW_CONFIG.maxScores.attitude}点
+            </p>
+            <nav className={styles.jumps} aria-label="パートへ移動">
+              {jumpItems.map((p) => {
+                const scored = typeof scores[p.id] === 'number';
+                return (
+                  <button key={p.id} type="button" className={`${styles.jump} ${scored ? styles.jumpDone : ''}`} onClick={() => jumpTo(p.id)}>
+                    <span>{p.label}</span>
+                    <span className={styles.jumpScore}>{scored ? `${scores[p.id]}/${p.max}` : '未採点'}</span>
+                  </button>
+                );
+              })}
+              {talkStages.length > 0 && (
+                <button type="button" className={styles.jump} onClick={() => jumpTo('talk')}>
+                  <span>入室・退室</span>
+                </button>
+              )}
+            </nav>
           </div>
           <InterviewCard card={section.card} title={section.title} />
           <div className={styles.reviewList}>
@@ -242,16 +347,70 @@ export default function InterviewExamPage({ examSet, section }) {
               section={section}
               recordings={recordings}
               accentColor={accent}
+              collapsible
+              stepProps={(q) => ({
+                id: partAnchor(q.id),
+                badge: partBadge(q.id, maxScoreOf(q)),
+                downloadName: downloadName(q.id),
+                onRecordingSaved: () => markSaved(q.id),
+              })}
               renderExtra={(q) => (
                 <SelfScore
                   max={maxScoreOf(q)}
                   value={scores[q.id] ?? null}
-                  onChange={(score) => handleScore(q, score)}
+                  onChange={(score) => handleScore(q.id, score)}
                   checkpoints={checkpointsFor(q)}
                   accentColor={accent}
                 />
               )}
             />
+            <section className={styles.attitude} id={partAnchor(ATTITUDE_ID)}>
+              <h3 className={styles.partTitle}>
+                アティチュード
+                <span className={styles.partNote}>面接全体を通しての態度</span>
+                <span className={styles.badge}>{partBadge(ATTITUDE_ID, INTERVIEW_CONFIG.maxScores.attitude)}</span>
+              </h3>
+              <p className={styles.partText}>
+                本番では、積極的にコミュニケーションをとろうとする態度も 3点満点で採点されます。面接全体を思い出して採点しましょう。
+              </p>
+              <SelfScore
+                title="アティチュード"
+                max={INTERVIEW_CONFIG.maxScores.attitude}
+                value={scores[ATTITUDE_ID] ?? null}
+                onChange={(score) => handleScore(ATTITUDE_ID, score)}
+                checkpoints={INTERVIEW_CONFIG.checkpoints.attitude}
+                accentColor={accent}
+              />
+            </section>
+            {talkStages.length > 0 && (
+              <details className={styles.talkReview} id={partAnchor('talk')} open>
+                <summary className={styles.talkSummary}>
+                  <span className={styles.partTitle}>入室・退室のやりとり</span>
+                  <span className={styles.partNote}>採点はしません</span>
+                </summary>
+                <div className={styles.talkList}>
+                  {talkStages.map((t) => (
+                    <div key={t.id} className={styles.talkItem}>
+                      <p className={styles.talkLabel}>{t.label}</p>
+                      <p className={styles.talkPrompt} lang="en">
+                        <span className={styles.talkWho}>面接官</span>
+                        {t.prompt}
+                      </p>
+                      <div className={styles.talkExample}>
+                        <span className={styles.talkWho}>答え方の例</span>
+                        <ReadAloud text={t.example} />
+                      </div>
+                      <RecordingField
+                        recording={recordings[t.id]}
+                        accentColor={accent}
+                        downloadName={downloadName(t.id)}
+                        onSaved={() => markSaved(t.id)}
+                      />
+                    </div>
+                  ))}
+                </div>
+              </details>
+            )}
           </div>
           <div className={styles.footerButtons}>
             <button className={styles.primaryButton} onClick={handleRestart}>
@@ -262,6 +421,7 @@ export default function InterviewExamPage({ examSet, section }) {
             </button>
           </div>
         </div>
+        {confirmDialog}
       </div>
     );
   }
@@ -283,16 +443,22 @@ export default function InterviewExamPage({ examSet, section }) {
               </li>
               <li>
                 {hasAudio
-                  ? '面接官の質問は音声で流れ、画面には表示されません'
-                  : '面接官の質問はブラウザの読み上げで流れ、画面には表示されません（この回には面接官の音声がありません）'}
+                  ? '面接官の質問は録音音声で流れ、画面には表示されません'
+                  : '面接官の質問はブラウザの合成音声で流れ、画面には表示されません（この回には面接官の録音音声がありません）'}
               </li>
               <li>質問が終わると録音が始まります。答え終わったら「回答を終える」を押してください</li>
               <li>No.1 のあとはカードを伏せ、No.2〜4 はカードを見ずに答えます</li>
-              <li>録音はこの端末の中だけで扱い、どこにも送信・保存しません</li>
+              <li>録音はこの端末の中だけで扱い、どこにも送信しません（振り返りで端末に保存できます）</li>
             </ul>
-            {!hasAudio && !isSpeechSupported() && (
+            <div className={styles.option}>
+              <ToggleSwitch checked={withTalk} onChange={setWithTalk} label="入室・退室のやりとりも通す" />
+              <p className={styles.optionNote}>
+                黙読の前に、入室・名前・簡単な会話を（面接官は合成音声）、No.4 のあとに退室のやりとりを入れます
+              </p>
+            </div>
+            {!isSpeechSupported() && (!hasAudio || withTalk) && (
               <p className={styles.notice}>
-                このブラウザは英文の読み上げに対応していないため、質問は文字で表示します。
+                このブラウザは英文の読み上げに対応していないため、合成音声の部分は文字で表示します。
               </p>
             )}
             {micMessage && <p className={styles.notice}>{micMessage}</p>}
@@ -319,6 +485,7 @@ export default function InterviewExamPage({ examSet, section }) {
             </div>
           </div>
         </div>
+        {confirmDialog}
       </div>
     );
   }
@@ -327,17 +494,34 @@ export default function InterviewExamPage({ examSet, section }) {
   const activeMs = Math.max(0, now - state.activeSince);
   const remaining = deadline ? Math.min(stage.seconds, Math.max(0, (deadline - now) / 1000)) : 0;
   const elapsed = state.sub === 'cue' ? 0 : activeMs / 1000;
-  const overTarget = stage?.kind === 'qa' && elapsed > stage.target;
+  const overTarget = (stage?.kind === 'qa' || stage?.kind === 'talk') && elapsed > stage.target;
   const lowTime = stage?.kind === 'narration' && state.sub === 'active' && remaining <= INTERVIEW_CONFIG.narrationWarnSeconds;
   const showTimer = state.sub !== 'cue' && stage?.kind !== 'closing';
 
   let timerText = '';
   if (stage?.kind === 'prep' || stage?.kind === 'narration') timerText = `残り ${formatTime(Math.ceil(remaining))}`;
-  else if (stage?.kind === 'qa') timerText = `${formatTime(elapsed)} / 目安 ${formatTime(stage.target)}`;
+  else if (stage?.kind === 'qa' || stage?.kind === 'talk') timerText = `${formatTime(elapsed)} / 目安 ${formatTime(stage.target)}`;
 
   const recState = recorder.isRecording
     ? recorder.isPaused ? 'paused' : 'on'
     : recorder.isReady ? 'idle' : 'none';
+
+  const finishLabel = FINISH_LABELS[stage?.kind];
+  // タイマーと「終える」ボタン。進行状況のバー（ヘッダーの下に固定）と、絵の拡大表示の上部に出す
+  const timerControls = (
+    <>
+      {showTimer && (
+        <span className={`${styles.timer} ${overTarget || lowTime ? styles.timerWarn : ''}`} role="timer">
+          {timerText}
+        </span>
+      )}
+      {state.sub === 'active' && finishLabel && (
+        <button type="button" className={styles.barButton} onClick={finishActive}>
+          {finishLabel}
+        </button>
+      )}
+    </>
+  );
 
   return (
     <div className={styles.page} style={{ '--accent': accent }}>
@@ -347,20 +531,16 @@ export default function InterviewExamPage({ examSet, section }) {
 
         <div className={styles.status}>
           <ol className={styles.steps} aria-label="進行状況">
-            {progressStages.map((s, i) => (
+            {stageGroups.map((g) => (
               <li
-                key={s.id}
-                className={`${styles.stepDot} ${i < state.index ? styles.stepDone : ''} ${i === state.index ? styles.stepCurrent : ''}`}
+                key={`${g.label}-${g.first}`}
+                className={`${styles.stepDot} ${state.index > g.last ? styles.stepDone : ''} ${state.index >= g.first && state.index <= g.last ? styles.stepCurrent : ''}`}
               >
-                {s.label}
+                {g.label}
               </li>
             ))}
           </ol>
-          {showTimer && (
-            <span className={`${styles.timer} ${overTarget || lowTime ? styles.timerWarn : ''}`}>
-              {timerText}
-            </span>
-          )}
+          <div className={styles.statusControls}>{timerControls}</div>
         </div>
 
         <div className={styles.panel}>
@@ -381,13 +561,20 @@ export default function InterviewExamPage({ examSet, section }) {
               {stage?.kind === 'prep' && 'カードを黙読して、ナレーションの準備をしましょう。'}
               {stage?.kind === 'narration' && 'カードの最初の一文から、4コマのストーリーを話してください。'}
               {stage?.kind === 'qa' && '質問に答えてください。答え終わったら「回答を終える」を押します。'}
+              {stage?.kind === 'talk' && '面接官に答えてください。答えたら「答えた（次へ）」を押します。'}
             </p>
           )}
 
-          {stage?.kind === 'qa' && textFallback[stage.id] && (
+          {stage?.kind === 'talk' && state.sub === 'active' && (
+            <p className={styles.talkHint}>
+              答え方の例: <span lang="en">{stage.example}</span>
+            </p>
+          )}
+
+          {(stage?.kind === 'qa' || stage?.kind === 'talk') && textFallback[stage.id] && (
             <div className={styles.fallbackPrompt}>
               <span>音声を再生できないため、質問を表示しています</span>
-              <p lang="en">{stage.question.prompt}</p>
+              <p lang="en">{stage.prompt}</p>
             </div>
           )}
 
@@ -403,13 +590,13 @@ export default function InterviewExamPage({ examSet, section }) {
                   ナレーションを終える
                 </button>
               )}
-              {stage?.kind === 'qa' && (
+              {(stage?.kind === 'qa' || stage?.kind === 'talk') && (
                 <>
                   <button className={styles.primaryButton} onClick={finishActive}>
-                    回答を終える
+                    {stage.kind === 'talk' ? '答えた（次へ）' : '回答を終える'}
                   </button>
                   <button className={styles.secondaryButton} onClick={() => dispatch({ type: 'replay' })}>
-                    質問をもう一度聞く
+                    {stage.kind === 'talk' ? 'もう一度聞く' : '質問をもう一度聞く'}
                   </button>
                 </>
               )}
@@ -417,8 +604,19 @@ export default function InterviewExamPage({ examSet, section }) {
           )}
         </div>
 
-        <InterviewCard card={section.card} title={section.title} hidden={!stage?.showCard} />
+        <InterviewCard
+          card={section.card}
+          title={section.title}
+          hidden={!stage?.showCard}
+          hiddenNote={
+            stage?.kind === 'talk' && stage.label === '入室'
+              ? '問題カードは、入室のやりとりのあとに渡されます。'
+              : stage?.kind === 'talk' ? '問題カードは面接官に返します。' : undefined
+          }
+          viewerStatus={timerControls}
+        />
       </div>
+      {confirmDialog}
     </div>
   );
 }

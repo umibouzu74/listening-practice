@@ -1,7 +1,7 @@
 // 英検二次試験（面接）の「基本の型」: どのカードでも使える短いフレーズ。
 // 練習形式で「フレーズ」をオンにすると、カードごとのフレーズ（データの phrases）と一緒に表示する。
 // 基本フレーズ集のページ（pages/PhraseBookPage.jsx）では、入室〜退室のやりとりも合わせてまとめて練習できる。
-// 項目は { group, en, ja }。en は読み上げるので、空欄は「...」で書く（「~」「___」は読み上げが不自然になる）。
+// 項目は { group, en, ja }。空欄は「...」で書く（読み上げでは「...」を飛ばす。「~」「___」は読み上げが不自然になる）。
 import { questionKind } from './interview';
 
 const BASIC_PHRASES = {
@@ -16,6 +16,10 @@ const BASIC_PHRASES = {
       { group: '吹き出しのセリフを伝える', en: 'He asked her to help him.', ja: '彼は彼女に手伝ってほしいと頼んだ（Can you ...? / Please ...）' },
       { group: '考えの吹き出しを伝える', en: 'She was thinking about buying a new car.', ja: '彼女は新しい車を買おうかと考えていた' },
       { group: '考えの吹き出しを伝える', en: 'He was imagining living in the country.', ja: '彼は田舎で暮らすことを想像していた' },
+      { group: '話をつなぐ', en: 'That evening, ...', ja: 'その日の夕方…（2〜4コマ目は、左上の時間の表現から話し始める）' },
+      { group: '話をつなぐ', en: 'That night, ...', ja: 'その夜…' },
+      { group: '話をつなぐ', en: 'The next day, ...', ja: '次の日…' },
+      { group: '話をつなぐ', en: 'A few days later, ...', ja: '数日後…（「A few weeks later」なども同じ形で）' },
       { group: '話をつなぐ', en: 'However, ...', ja: 'ところが…（話の流れが変わる最後のコマで）' },
       { group: '話をつなぐ', en: 'Because of this, ...', ja: 'そのため…' },
     ],
@@ -94,7 +98,8 @@ export const PHRASE_BOOK = {
       id: 'narration',
       title: 'ナレーション',
       short: 'ナレーション',
-      description: '絵の人物の動作・セリフ・考えを伝える言い方です。話はすべて過去形・過去進行形で進めます。',
+      description:
+        '絵の人物の動作・セリフ・考えを伝える言い方です。話はすべて過去形・過去進行形で進め、2〜4コマ目は左上の時間の表現（That evening など）から始めてつなぎます。',
       phrases: BASIC_PHRASES.narration.phrases,
     },
     {

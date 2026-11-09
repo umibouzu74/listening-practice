@@ -14,13 +14,42 @@ export function isSpeechSupported() {
 
 // 最後に始めた読み上げ（前の読み上げが止まったときに、再生の権利を手放してしまわないように）
 let latest = null;
+// 読み上げを始めたり止めたりするたびに増える番号。続けて読む途中で止められたかを見分ける
+// （止めたときに end イベントが届くブラウザがあり、完了と区別できないため）
+let generation = 0;
 
 // 他のプレイヤーが再生を始めたら読み上げを止める
 const owner = {
   pause: () => {
+    generation++;
     if (isSpeechSupported()) window.speechSynthesis.cancel();
   },
 };
+
+/**
+ * 読み上げ用に英文を整える（画面の表示はそのまま）。
+ * 「He told her that ...」「I'd be thinking, "..."」の「...」や空の引用符は読まず、
+ * 残った文末の読点なども落とす。
+ */
+export function speechText(text) {
+  return (text || '')
+    .replace(/["“”]\s*(?:\.{3}|…)?\s*["“”]/g, ' ')
+    .replace(/\.{3}|…/g, ' ')
+    .replace(/\s+([,.!?;:])/g, '$1')
+    .replace(/\s+/g, ' ')
+    .replace(/[\s,;:]+$/, '')
+    .trim();
+}
+
+/**
+ * 読み上げ・ハイライト用に英文を文に分ける。
+ * 「"I should ... tired. From now on, ..."」のように引用符の中で文が終わる場合も、閉じる引用符までを1文にする。
+ */
+export function splitSentences(text) {
+  // 「7.5」のような数字の中の点では分けない（文末の記号のあとに空白か文の終わりが来るところで分ける）
+  const sentences = (text || '').replace(/\s+/g, ' ').match(/\S.*?(?:[.!?]+["”’)]*(?=\s|$)|$)/g) || [];
+  return sentences.map((s) => s.trim()).filter(Boolean);
+}
 
 function voiceRank(voice) {
   const lang = voice.lang.replace('_', '-').toLowerCase();
@@ -52,6 +81,7 @@ export function unlockSpeech() {
 }
 
 export function cancelSpeech() {
+  generation++;
   if (!isSpeechSupported()) return;
   window.speechSynthesis.cancel();
   releasePlayback(owner);
@@ -62,8 +92,30 @@ export function cancelSpeech() {
  * 非対応・エラー・中断（cancelSpeech や他の音声の再生開始）の場合は false で解決する。
  */
 export function speak(text, { rate = 1 } = {}) {
+  generation++;
+  return utter(text, rate);
+}
+
+/**
+ * 複数の文を1つずつ続けて読み上げる（長い文章でも途中で切れにくく、今読んでいる文が分かる）。
+ * onIndex(i) で読み始めた文の番号を知らせる。最後まで読めたら true、
+ * 途中で止められた（cancelSpeech・別の読み上げや音声の再生開始）・読めなかったら false で解決する。
+ */
+export async function speakAll(texts, { rate = 1, onIndex } = {}) {
+  const gen = ++generation;
+  for (let i = 0; i < texts.length; i++) {
+    if (gen !== generation) return false;
+    onIndex?.(i);
+    const ok = await utter(texts[i], rate);
+    if (gen !== generation || !ok) return false;
+  }
+  return true;
+}
+
+function utter(rawText, rate) {
+  const text = speechText(rawText);
   return new Promise((resolve) => {
-    if (!isSpeechSupported() || !text?.trim()) {
+    if (!isSpeechSupported() || !text) {
       resolve(false);
       return;
     }
