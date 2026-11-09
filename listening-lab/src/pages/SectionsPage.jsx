@@ -33,22 +33,32 @@ export default function SectionsPage() {
 
   // 面接（二次試験）: 問題カードの一覧。各カードから練習形式・本番形式を選ぶ
   if (isInterview(examSet)) {
-    const histories = sections.map((s) => summarizeInterview(getInterviewRecord(examId, s.id)));
-    const practicedCount = histories.filter(Boolean).length;
+    const histories = sections.map((s) =>
+      summarizeInterview(getInterviewRecord(examId, s.id), s.questionCount || 5)
+    );
+    const completeCount = histories.filter((h) => h?.complete).length;
+    const totalParts = sections.reduce((sum, s) => sum + (s.questionCount || 5), 0);
+    const doneParts = histories.reduce((sum, h) => sum + (h?.doneParts || 0), 0);
+    const cardLetters = sections.map((s) => String(s.id).toUpperCase()).join('・');
     return (
       <div className={styles.page}>
-        <Header onBack={() => navigate(`/${examType}`)} accentColor={accent} />
+        <Header onBack={() => navigate(`/${examType}?format=interview`)} accentColor={accent} />
         <div className={styles.content}>
           <div className={styles.examHeader}>
             <h2 className={styles.examTitle}>{meta.title}</h2>
             {meta.subtitle && <p className={styles.examSubtitle}>{meta.subtitle}</p>}
-            {practicedCount > 0 && (
+            <p className={styles.examNote}>
+              この回の本番で使われた問題カードのうち、{cardLetters} の{sections.length}枚を収録しています
+            </p>
+            {doneParts > 0 && (
               <div className={styles.overallProgress}>
-                <span>{practicedCount}/{sections.length} 枚のカードを練習済み</span>
+                <span>
+                  全パート練習済み {completeCount}/{sections.length} 枚（パート {doneParts}/{totalParts}）
+                </span>
                 <div className={styles.overallTrack}>
                   <div
                     className={styles.overallFill}
-                    style={{ width: `${(practicedCount / sections.length) * 100}%`, background: accent }}
+                    style={{ width: `${(doneParts / totalParts) * 100}%`, background: accent }}
                   />
                 </div>
               </div>

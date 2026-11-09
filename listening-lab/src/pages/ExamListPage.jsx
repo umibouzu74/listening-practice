@@ -1,11 +1,12 @@
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
 import Header from '../components/Header';
 import ExamSetCard from '../components/ExamSetCard';
 import PhraseBookLink from '../components/PhraseBookLink';
 import { getExamType, getGradeLabel, getGradeOrder, getPrefectureLabel } from '../utils/examConfig';
 import { getExamSets, isInterview } from '../data/registry';
 import { getRecord, recordKey } from '../utils/history';
-import { getInterviewRecord } from '../utils/interviewHistory';
+import { isCardComplete } from '../utils/interviewHistory';
+import usePreference from '../hooks/usePreference';
 import { PHRASE_BOOK } from '../utils/interviewPhrases';
 import styles from './ExamListPage.module.css';
 
@@ -19,8 +20,8 @@ function splitByFormat(items) {
   const parts = FORMAT_PARTS
     .map((part) => ({ ...part, items: items.filter(part.match) }))
     .filter((part) => part.items.length > 0);
-  // リスニングしかないグループは今までどおり見出しなしで並べる
-  if (parts.length === 1 && parts[0].key === 'listening') return [{ ...parts[0], label: null }];
+  // 1種類しかないグループ（タブで絞り込んだときなど）は見出しなしで並べる
+  if (parts.length === 1) return [{ ...parts[0], label: null }];
   return parts;
 }
 
@@ -64,10 +65,18 @@ function groupExamSets(sets, groupBy, sortOrder) {
   });
 }
 
+/** リスニングと面接の両方がある試験種別では、どちらを表示するかをタブで切り替える */
+function availableFormats(sets) {
+  return FORMAT_PARTS.filter((part) => sets.some(part.match));
+}
+
 export default function ExamListPage() {
   const { examType } = useParams();
   const navigate = useNavigate();
   const config = getExamType(examType);
+  const [searchParams, setSearchParams] = useSearchParams();
+  // 最後に選んだタブ（URL に ?format= がないとき、戻ってきたときに使う）
+  const [savedFormat, setSavedFormat] = usePreference(`examListFormat:${examType}`, null);
 
   if (!config) {
     return (
@@ -78,8 +87,18 @@ export default function ExamListPage() {
     );
   }
 
-  const sets = getExamSets(examType);
+  const allSets = getExamSets(examType);
+  const formats = availableFormats(allSets);
+  const tabbed = formats.length > 1;
+  const requested = searchParams.get('format') || savedFormat;
+  const format = tabbed ? (formats.find((f) => f.key === requested) || formats[0]).key : null;
+  const sets = tabbed ? allSets.filter(FORMAT_PARTS.find((f) => f.key === format).match) : allSets;
   const groups = groupExamSets(sets, config.groupBy, config.sortOrder);
+
+  const selectFormat = (key) => {
+    setSavedFormat(key);
+    setSearchParams({ format: key }, { replace: true });
+  };
 
   return (
     <div className={styles.page}>
@@ -94,6 +113,35 @@ export default function ExamListPage() {
           </div>
         </div>
 
+        {tabbed && (
+          <div className={styles.tabs} role="tablist" aria-label="表示する問題の種類">
+            {formats.map((f) => (
+              <button
+                key={f.key}
+                type="button"
+                role="tab"
+                id={`tab-${f.key}`}
+                aria-selected={f.key === format}
+                aria-controls="exam-list-panel"
+                className={`${styles.tab} ${f.key === format ? styles.tabOn : ''}`}
+                style={{ '--tab-accent': config.color }}
+                onClick={() => selectFormat(f.key)}
+              >
+                {f.label}
+                <span className={styles.tabCount}>{allSets.filter(f.match).length}回</span>
+              </button>
+            ))}
+          </div>
+        )}
+
+        {tabbed && format === 'interview' && (
+          <p className={styles.legend}>
+            面接官の声は、<strong>録音音声</strong>（実際の面接官の声を録音したもの）か、
+            <strong>合成音声</strong>（ブラウザの読み上げ。声は端末によって変わります）で流れます。
+          </p>
+        )}
+
+        <div id="exam-list-panel" role={tabbed ? 'tabpanel' : undefined} aria-labelledby={tabbed ? `tab-${format}` : undefined}>
         {sets.length === 0 ? (
           <div className={styles.empty}>準備中です</div>
         ) : (
@@ -117,7 +165,7 @@ export default function ExamListPage() {
                         completedSections={
                           examSet.sections.filter((sec) =>
                             isInterview(examSet)
-                              ? getInterviewRecord(examSet.id, sec.id)
+                              ? isCardComplete(examSet.id, sec)
                               : getRecord(recordKey(examSet.id, sec.id))
                           ).length
                         }
@@ -130,6 +178,7 @@ export default function ExamListPage() {
             </div>
           ))
         )}
+        </div>
       </div>
     </div>
   );

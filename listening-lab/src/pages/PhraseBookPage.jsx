@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import Header from '../components/Header';
 import PhraseList from '../components/PhraseList';
+import ToggleSwitch from '../components/ToggleSwitch';
 import usePreference from '../hooks/usePreference';
 import useWakeLock from '../hooks/useWakeLock';
 import { getExamColor, INTERVIEW_CONFIG } from '../utils/examConfig';
@@ -97,11 +98,12 @@ export default function PhraseBookPage() {
     document.getElementById(`phrases-${id}`)?.scrollIntoView({ block: 'start', behavior: reduce ? 'auto' : 'smooth' });
   };
 
-  // 直接開いたとき（履歴がないとき）は英検の一覧へ戻る
-  const handleBack = () => (location.key === 'default' ? navigate(`/${EXAM_TYPE}`) : navigate(-1));
+  // 直接開いたとき（履歴がないとき）は英検の一覧（面接のタブ）へ戻る
+  const handleBack = () => (location.key === 'default' ? navigate(`/${EXAM_TYPE}?format=interview`) : navigate(-1));
+  const drillSection = drill ? PHRASE_BOOK.sections.find((s) => s.id === drill.sectionId) : null;
 
   return (
-    <div className={styles.page} style={{ '--accent': accent }}>
+    <div className={`${styles.page} ${drill ? styles.pageDrilling : ''}`} style={{ '--accent': accent }}>
       <Header onBack={handleBack} accentColor={accent} />
       <div className={styles.content}>
         <h2 className={styles.title}>
@@ -116,7 +118,7 @@ export default function PhraseBookPage() {
             <li>「続けて練習」で、音声のあとに続けて言う</li>
             <li>「英語を隠す」をオンにして、日本語を見て英語で言う</li>
           </ol>
-          <p>言えるようになったら、問題カードの練習形式で「フレーズ」をオンにして答えてみましょう。</p>
+          <p>言えるようになったら、問題カードの練習形式で「フレーズを表示」をオンにして答えてみましょう。</p>
           {!canSpeak && <p className={styles.notice}>このブラウザは読み上げに対応していないため、音声は流れません。</p>}
           {drillFailed && (
             <p className={styles.notice} role="alert">
@@ -133,15 +135,13 @@ export default function PhraseBookPage() {
               </button>
             ))}
           </nav>
-          <button
-            type="button"
-            className={`${styles.toggle} ${hideEnglish ? styles.toggleOn : ''}`}
-            onClick={() => setHideEnglish((v) => !v)}
-            aria-pressed={hideEnglish}
+          <ToggleSwitch
+            className={styles.toggle}
+            checked={hideEnglish}
+            onChange={setHideEnglish}
+            label="英語を隠す"
             disabled={!!drill}
-          >
-            英語を隠す
-          </button>
+          />
         </div>
 
         {PHRASE_BOOK.sections.map((s) => {
@@ -189,6 +189,21 @@ export default function PhraseBookPage() {
           戻る
         </button>
       </div>
+
+      {/* 続けて練習している間は、止めるボタンを画面の下に固定する（自動スクロールで位置が動かないように） */}
+      {drillSection && (
+        <div className={styles.drillBar}>
+          <span className={styles.drillBarText} role="status">
+            <span className={styles.drillBarTitle}>{drillSection.short}</span>
+            <span className={styles.drillBarCount}>
+              {drillPos.index + 1} / {drillSection.phrases.length}
+            </span>
+          </span>
+          <button type="button" className={styles.drillStop} onClick={() => setDrill(null)}>
+            練習を止める
+          </button>
+        </div>
+      )}
     </div>
   );
 }

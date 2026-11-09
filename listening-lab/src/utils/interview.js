@@ -30,9 +30,26 @@ export function questionSegment(q) {
   return { audio: q.audio || null, text: spokenQuestion(q), isQuestion: true };
 }
 
+/** 黙読の指示（「Here's your card. You have one minute to prepare …」） */
+export function prepSegment(section) {
+  return { text: INTERVIEW_CONFIG.phrases.prep, audio: section?.cues?.prep };
+}
+
 /** ナレーション開始の指示（「Please begin your narration.」） */
 export function narrationStartSegment(section) {
   return { text: INTERVIEW_CONFIG.phrases.narrationStart, audio: section?.cues?.narrationStart };
+}
+
+/**
+ * 録音を端末に保存するときのファイル名（例: eiken-pre1-2025-2-interview_a_narration_20261109-1530.webm）。
+ * 拡張子は録音の形式（Chrome などは webm、iPhone の Safari は mp4）に合わせる
+ */
+export function recordingFileName(examId, cardId, partId, mimeType, date = new Date()) {
+  const type = mimeType || '';
+  const ext = type.includes('mp4') ? 'm4a' : type.includes('ogg') ? 'ogg' : type.includes('aac') ? 'aac' : 'webm';
+  const pad = (n) => String(n).padStart(2, '0');
+  const stamp = `${date.getFullYear()}${pad(date.getMonth() + 1)}${pad(date.getDate())}-${pad(date.getHours())}${pad(date.getMinutes())}`;
+  return `${examId}_${cardId}_${partId}_${stamp}.${ext}`;
 }
 
 /** 面接官の音声ファイルが入っているカードか（入っていない回はブラウザの読み上げで流す） */
@@ -74,24 +91,42 @@ export async function runCue(segments, { playFile, isCancelled }) {
   return { questionVoiced };
 }
 
+/** 「入室・退室も通す」のやりとり1つ分のステージ */
+function talkStage(t) {
+  const segment = { text: t.prompt, isQuestion: true };
+  return {
+    id: t.id,
+    kind: 'talk',
+    label: t.part === 'entry' ? '入室' : '退室',
+    prompt: t.prompt,
+    example: t.example,
+    cue: [segment],
+    replay: [segment],
+    target: INTERVIEW_CONFIG.talkTargetSeconds,
+    record: true,
+    showCard: false,
+  };
+}
+
 /**
  * 本番形式の進行表を作る。
  * 黙読 → ナレーション → No.1 →（カードを伏せる）→ No.2〜4 → 終了
+ * withTalk のときは、黙読の前に入室〜最初の会話、No.4 のあとに退室のやりとりを入れる。
  * 各ステージは「面接官が話す（cue）」→「受験者の番（黙読・録音）」の順に進む。
  */
-export function buildExamStages(section) {
+export function buildExamStages(section, { withTalk = false } = {}) {
   const P = INTERVIEW_CONFIG.phrases;
   const cueAudio = section?.cues || {};
-  const stages = [
-    {
-      id: 'prep',
-      kind: 'prep',
-      label: '黙読',
-      cue: [{ text: P.prep, audio: cueAudio.prep }],
-      seconds: INTERVIEW_CONFIG.prepSeconds,
-      showCard: true,
-    },
-  ];
+  const talk = withTalk ? INTERVIEW_CONFIG.talk : [];
+  const stages = talk.filter((t) => t.part === 'entry').map(talkStage);
+  stages.push({
+    id: 'prep',
+    kind: 'prep',
+    label: '黙読',
+    cue: withTalk ? [{ text: P.startTest }, prepSegment(section)] : [prepSegment(section)],
+    seconds: INTERVIEW_CONFIG.prepSeconds,
+    showCard: true,
+  });
 
   let cardShown = true;
   let firstQa = true;
@@ -120,6 +155,7 @@ export function buildExamStages(section) {
       kind: 'qa',
       label: `No.${q.number}`,
       question: q,
+      prompt: q.prompt,
       cue,
       replay: [questionSegment(q)],
       target: answerTargetSeconds(q),
@@ -130,6 +166,24 @@ export function buildExamStages(section) {
     firstQa = false;
   }
 
-  stages.push({ id: 'closing', kind: 'closing', label: '終了', cue: [{ text: P.end }], showCard: false });
+  const exit = talk.filter((t) => t.part === 'exit').map(talkStage);
+  stages.push(...exit);
+  // 退室のやりとりをしたときは、終わりのあいさつはそちらで済んでいる
+  stages.push({ id: 'closing', kind: 'closing', label: '終了', cue: exit.length ? [] : [{ text: P.end }], showCard: false });
   return stages;
+}
+
+/**
+ * 進行状況の表示用に、同じ名前が続くステージ（入室のやりとりなど）を1つにまとめる。
+ * [{ label, first, last }]（first / last はステージの番号）。終了は含めない
+ */
+export function groupStages(stages) {
+  const groups = [];
+  stages.forEach((s, i) => {
+    if (s.kind === 'closing') return;
+    const last = groups[groups.length - 1];
+    if (last && last.label === s.label) last.last = i;
+    else groups.push({ label: s.label, first: i, last: i });
+  });
+  return groups;
 }

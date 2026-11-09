@@ -25,6 +25,13 @@
   margin-top: 2px;
 }
 
+.examNote {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
 .overallProgress {
   margin-top: 10px;
   font-size: 0.75rem;

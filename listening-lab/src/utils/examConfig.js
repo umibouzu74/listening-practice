@@ -69,8 +69,11 @@ export const INTERVIEW_CONFIG = {
   answerTargetSeconds: { 1: 20, 2: 30, 3: 30, 4: 30 },
   /** 読み上げ（speechSynthesis）の速さ */
   speechRate: 0.95,
-  /** 自己採点の満点（本番の配点。アティチュード 3点は自己採点に含めない） */
-  maxScores: { narration: 15, qa: 5 },
+  /**
+   * 自己採点の満点（本番の配点）。本番形式ではアティチュードも採点し、合計 38 点満点にする
+   * （15 + 5×4 + 3）。練習形式はパートごとなのでアティチュードは採点しない
+   */
+  maxScores: { narration: 15, qa: 5, attitude: 3 },
   /**
    * 自己採点の横に出す共通の観点。カードごとの観点はデータの checkpoints に書く
    *   narration: ナレーション / picture: カードを見て答える質問（No.1）/ opinion: 意見を述べる質問（No.2〜4）
@@ -94,7 +97,19 @@ export const INTERVIEW_CONFIG = {
       '質問の内容からずれずに答えられた',
       '長い沈黙をつくらずに話し続けられた',
     ],
+    // アティチュード（本番形式の振り返りで、面接全体について採点する）
+    attitude: [
+      '面接官の目を見て話せた',
+      '聞こえる声の大きさで、はっきり話せた',
+      '沈黙せず、前向きに会話を続けられた',
+    ],
   },
+  /**
+   * 問題カードの絵（横一列の4コマ）の、コマの位置（画像の幅に対する割合）。
+   * 拡大表示の「2×2」「縦一列」で1コマずつ切り出すのに使う。収録している画像はすべて
+   * 1600px 幅で、枠線が x = 12 / 406 / 800 / 1194 / 1587 付近にある（下のコマ番号も含めて切り出す）
+   */
+  cardPanels: { count: 4, left: 12 / 1600, right: 1588 / 1600, pad: 5 / 1600 },
   /** 面接官の決まり文句（音声ファイル（データの cues）がないときは読み上げる） */
   phrases: {
     prep: "Here's your card. You have one minute to prepare before you start your narration.",
@@ -104,7 +119,35 @@ export const INTERVIEW_CONFIG = {
     // {n} は質問番号に置き換える
     questionNumber: 'Number {n}.',
     end: 'All right. This is the end of the test. Thank you.',
+    // 「入室・退室も通す」で、入室のやりとりのあと黙読の指示の前に言う
+    startTest: "Thank you. Now, let's start the test.",
   },
+  /**
+   * 本番形式の「入室・退室も通す」で流す、面接官とのやりとり（読み上げ）。
+   * prompt は面接官の発話、example は受験者の答え方の例（フレーズ集の「入室から退室まで」と合わせる）。
+   * part: 'entry'（黙読の前）| 'exit'（No.4 のあと）
+   */
+  talk: [
+    { id: 'entry-card', part: 'entry', prompt: 'Hello. Can I have your card, please?', example: 'Here you are.' },
+    { id: 'entry-seat', part: 'entry', prompt: 'Thank you. Please have a seat.', example: 'Thank you.' },
+    { id: 'entry-name', part: 'entry', prompt: 'May I have your name, please?', example: 'My name is Yuki Tanaka.' },
+    { id: 'entry-how', part: 'entry', prompt: 'How are you today?', example: "I'm fine, thank you." },
+    {
+      id: 'entry-about',
+      part: 'entry',
+      prompt: 'Before we start, could you tell me a little about yourself?',
+      example: "I'm a high school student. I'm in the tennis club at school.",
+    },
+    {
+      id: 'exit-card',
+      part: 'exit',
+      prompt: 'All right. This is the end of the test. Could I have the card back, please?',
+      example: 'Sure. Here you are.',
+    },
+    { id: 'exit-bye', part: 'exit', prompt: 'Thank you. You may go now.', example: 'Thank you. Goodbye.' },
+  ],
+  /** やりとり1つ分の、答える時間の目安（秒） */
+  talkTargetSeconds: 15,
 };
 
 /**

@@ -1,3 +1,5 @@
+// ルーターより先に popstate を受け取れるよう、最初に読み込む（utils/popGate.js を参照）
+import './utils/popGate';
 import { useEffect } from 'react';
 import { createHashRouter, Outlet, RouterProvider, useLocation, useNavigate } from 'react-router-dom';
 import Header from './components/Header';

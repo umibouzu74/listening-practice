@@ -46,6 +46,14 @@ React + Vite で構築し、GitHub Pages にデプロイする。
   - どのカードでも使える基本の型（フレーズ）は utils/interviewPhrases.js。フレーズの一覧は components/PhraseList.jsx（読み上げボタン付き）、練習形式のヒント欄は components/PhraseHints.jsx
   - 基本フレーズ集のページは pages/PhraseBookPage.jsx（内容は interviewPhrases.js の PHRASE_BOOK）。入口は components/PhraseBookLink.jsx
   - 自己採点・練習回数は utils/interviewHistory.js（localStorage の別キー）。リスニングの history.js とは混ぜない
+    - 形式を変えるときは古い記録もそのまま読めるようにする（項目の追加は可。practiceSteps は後から足した項目）
+    - 本番形式の合計はアティチュード込みの 38 点満点（examScoreParts）。古い回の total / maxTotal（35 点満点）はそのまま表示する
+  - 画面を離れる確認は hooks/useLeaveGuard.js + hooks/useConfirm.jsx（アプリ内のダイアログ。window.confirm は使わない）
+    - URL のハッシュの書き換えはルーターの useBlocker で止められないので、utils/popGate.js でルーターより先に popstate を受け取る（App.jsx で最初に import する）
+  - 問題カードの絵の拡大表示は components/CardImageViewer.jsx（InterviewCard から開く）。コマの切り出し位置は INTERVIEW_CONFIG.cardPanels
+  - 模範解答の読み上げは components/ReadAloud.jsx（speech.js の speakAll で1文ずつ）。speech.js は読み上げ前に「...」や空の引用符を除く（表示はそのまま）
+  - オン・オフの切り替えは components/ToggleSwitch.jsx、いくつかから選ぶ切り替えは components/SegmentedControl.jsx
+  - localStorage のキーは必ず listening-lab- で始める。同じオリジンの別アプリもあるので localStorage.clear() は使わない
 - コミット前に `npm run lint` と `npm run build` が通ることを確認する
 - ルーティング: #/:examType/:examId/:sectionId（sectionId=all で全問通し、?mode=wrong で前回間違えた問題のみ、?mode=exam で本番モード）
   - 面接の回は sectionId = 問題カードの id。?mode=exam で本番形式、なしで練習形式（all・wrong はない）

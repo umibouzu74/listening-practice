@@ -46,12 +46,47 @@
   gap: 12px;
 }
 
-/* 横幅に余裕があるときは、点数と観点を横に並べる */
+/* 横幅に余裕があるときは、観点と点数を横に並べる */
 @media (min-width: 480px) {
   .columns {
-    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
     align-items: start;
   }
+}
+
+.checks,
+.scaleBox {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.hint,
+.scaleLabel {
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+.suggestion {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+}
+
+.applyButton {
+  min-height: 30px;
+  min-width: 0;
+  padding: 2px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--score-accent);
+  background: transparent;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--score-accent);
 }
 
 .scale {

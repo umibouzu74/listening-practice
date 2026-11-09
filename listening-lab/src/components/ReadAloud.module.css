@@ -1,0 +1,81 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.text span {
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* 読み上げ中の文 */
+.text .active {
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.12);
+  color: var(--color-text-primary);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+}
+
+.play {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+  padding: 2px 12px 2px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--accent, var(--color-accent));
+  background: transparent;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent, var(--color-accent));
+}
+
+.playOn {
+  background: var(--accent, var(--color-accent));
+  color: #fff;
+}
+
+.speeds {
+  display: inline-flex;
+  gap: 2px;
+}
+
+.speed {
+  min-width: 40px;
+  min-height: 30px;
+  padding: 0 6px;
+  border-radius: 6px;
+  border: 1px solid var(--color-border-hover);
+  background: transparent;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-text-secondary);
+}
+
+.speedOn {
+  border-color: var(--accent, var(--color-accent));
+  color: var(--color-text-primary);
+  font-weight: 700;
+}
+
+.speed:disabled {
+  opacity: 0.5;
+}
+
+.note {
+  font-size: 0.68rem;
+  color: var(--color-text-muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .text span {
+    transition: none;
+  }
+}

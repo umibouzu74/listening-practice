@@ -52,6 +52,8 @@
 html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
+  /* ページの高さが変わってスクロールバーが出入りしても、レイアウトが左右にずれないようにする */
+  scrollbar-gutter: stable;
 }
 
 body {

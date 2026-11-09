@@ -83,8 +83,7 @@
   flex-shrink: 0;
 }
 
-.chip,
-.toggle {
+.chip {
   display: inline-flex;
   align-items: center;
   min-height: 32px;
@@ -93,24 +92,13 @@
   border: 1px solid var(--color-border-hover);
   background: transparent;
   font-size: 0.72rem;
-  color: var(--color-text-secondary);
+  color: var(--color-text-primary);
   white-space: nowrap;
 }
 
 .toggle {
   flex-shrink: 0;
   margin-left: auto;
-  color: var(--color-text-muted);
-}
-
-.toggle:disabled {
-  opacity: 0.4;
-}
-
-.toggleOn {
-  border-color: var(--accent);
-  color: var(--accent);
-  font-weight: 600;
 }
 
 .section {
@@ -183,4 +171,68 @@
   background: transparent;
   font-size: 0.95rem;
   color: var(--color-text-secondary);
+}
+
+/* 続けて練習している間、画面の下に固定するバー */
+.pageDrilling {
+  padding-bottom: calc(5rem + env(safe-area-inset-bottom, 0px));
+}
+
+.drillBar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 10px 1rem;
+  padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px));
+  background: rgba(15, 15, 26, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid var(--color-border-hover);
+}
+
+@media (min-width: 560px) {
+  .drillBar {
+    bottom: 12px;
+    border: 1px solid var(--color-border-hover);
+    border-radius: var(--radius-md);
+    padding-bottom: 10px;
+  }
+}
+
+.drillBarText {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  line-height: 1.3;
+}
+
+.drillBarTitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.drillBarCount {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-text-secondary);
+}
+
+.drillStop {
+  margin-left: auto;
+  min-height: 46px;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: var(--radius-md);
+  background: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #fff;
 }
