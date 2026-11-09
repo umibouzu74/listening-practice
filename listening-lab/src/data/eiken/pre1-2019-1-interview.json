@@ -30,6 +30,60 @@
             "2コマ目: ABC Real Estate で母親と学生向けの物件を見て、「大学に近い」と言ったことを描写できた",
             "3コマ目: 引っ越し作業の様子と、静かに勉強する自分を想像していることを描写できた",
             "4コマ目: 夜10時10分に壁越しの騒音で勉強できないことを、however などで展開の変化を示して言えた"
+          ],
+          "simpleAnswer": "One day, a university student was at home. He was trying to study at his desk. His younger brother was listening to loud music. The student said that he couldn't study there. Their mother looked worried. A few days later, the student and his mother were in front of ABC Real Estate. They were looking at apartments for students. He pointed at one of them. He said that the apartment was near the university. Two months later, two movers were carrying a desk into his new apartment. The student was watching them. He was imagining himself studying quietly. The next day, he was studying at his desk at 10:10 at night. However, loud music was coming through the wall. He looked disappointed because he still couldn't study.",
+          "simpleAnswerJa": "ある日、ある大学生が家にいた。彼は机で勉強しようとしていた。弟は大きな音で音楽を聞いていた。大学生は、ここでは勉強できないと言った。母親は心配そうだった。数日後、大学生と母親は ABC 不動産の前にいた。2 人は学生向けのアパートを見ていた。彼はその中の 1 つを指さした。そのアパートは大学に近いと言った。2 か月後、2 人の引っ越し業者が彼の新しいアパートに机を運び込んでいた。大学生はその様子を見ていた。彼は静かに勉強している自分の姿を想像していた。翌日、彼は夜 10 時 10 分に机で勉強していた。ところが、壁の向こうから大きな音楽が聞こえてきた。まだ勉強できなかったので、彼はがっかりした様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "His younger brother was listening to loud music.",
+              "ja": "弟は大きな音で音楽を聞いていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The student said that he couldn't study there.",
+              "ja": "大学生は、ここでは勉強できないと言った（can't → couldn't、here → there）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "Their mother looked worried.",
+              "ja": "母親は心配そうだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The student and his mother were in front of ABC Real Estate.",
+              "ja": "大学生と母親は ABC 不動産の前にいた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "They were looking at apartments for students.",
+              "ja": "2 人は学生向けのアパートを見ていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He said that the apartment was near the university.",
+              "ja": "そのアパートは大学に近いと言った（is → was）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Two movers were carrying a desk into his new apartment.",
+              "ja": "2 人の引っ越し業者が新しいアパートに机を運び込んでいた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "He was imagining himself studying quietly.",
+              "ja": "彼は静かに勉強している自分の姿を想像していた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Loud music was coming through the wall.",
+              "ja": "壁の向こうから大きな音楽が聞こえてきた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He looked disappointed because he still couldn't study.",
+              "ja": "まだ勉強できなかったので、彼はがっかりした様子だった"
+            }
           ]
         },
         {
@@ -41,7 +95,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの大学生だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"I moved out to get away from the noise, but it's just as bad here! I'll politely ask my neighbors to turn down their music. If that doesn't work, I'll do my studying at the university library instead.\"",
           "modelAnswerJa": "「騒音から逃れるために引っ越したのに、ここも同じくらいひどい。隣の人に、音楽の音量を下げてくれるよう丁寧に頼んでみよう。それでもだめなら、代わりに大学の図書館で勉強することにしよう」と考えていると思います。",
-          "explanation": "4 コマ目は、静かな環境を求めて引っ越したのに、また騒音に悩まされる場面です。I moved out to get away from ..., but ... で皮肉な状況をまとめ、次に I'll ... で具体的な対策を 2 段階（隣人に頼む → 図書館で勉強する）で述べています。just as bad here（ここも同じくらいひどい）は、前の状況と比べるときに便利な言い方です。"
+          "explanation": "4 コマ目は、静かな環境を求めて引っ越したのに、また騒音に悩まされる場面です。I moved out to get away from ..., but ... で皮肉な状況をまとめ、次に I'll ... で具体的な対策を 2 段階（隣人に頼む → 図書館で勉強する）で述べています。just as bad here（ここも同じくらいひどい）は、前の状況と比べるときに便利な言い方です。",
+          "simpleAnswer": "I'd be thinking, \"Oh no, it's still noisy here. I should have checked the noise before I moved in. I'll ask my neighbor to turn down the music.\"",
+          "simpleAnswerJa": "「ああ、ここもまだうるさい。引っ越す前に音を確かめておくべきだった。隣の人に音楽の音を小さくしてくれるよう頼もう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "Oh no, it's still noisy here.",
+              "ja": "ああ、ここもまだうるさい"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I moved here to study quietly.",
+              "ja": "静かに勉強するためにここに引っ越したのに"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have checked the noise before I moved in.",
+              "ja": "引っ越す前に音を確かめておくべきだった"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask my neighbor to turn down the music.",
+              "ja": "隣の人に音楽の音を小さくしてくれるよう頼もう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll study at the university library.",
+              "ja": "大学の図書館で勉強しよう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -51,7 +134,36 @@
           "promptJa": "子どもたちは外で遊ぶことにあまり興味を持たなくなってきていると思いますか。",
           "modelAnswer": "Yes, I think so. These days, children have many ways to enjoy themselves indoors, such as video games and online videos, so staying at home often seems more attractive. In addition, many of them are busy with cram school and other lessons after school. Because they have fewer chances to play outside with friends, they may never learn how fun it can be.",
           "modelAnswerJa": "はい、そう思います。最近の子どもたちには、テレビゲームやネット動画など、室内で楽しむ方法がたくさんあるので、家にいるほうが魅力的に思えることが多いのです。さらに、多くの子どもが放課後は塾や他の習い事で忙しくしています。友達と外で遊ぶ機会が少ないので、外遊びの楽しさを知らないままになるのかもしれません。",
-          "explanation": "「室内の娯楽が増えた」「放課後が忙しい」という 2 つの理由を In addition でつなぎ、最後に「機会が減るとどうなるか」まで述べています。such as video games and online videos のように具体例を入れると、these days の変化がわかりやすくなります。No の立場なら「子どもは今でも外遊びやスポーツが好きで、足りないのは興味ではなく遊べる場所だ」などが考えられます。"
+          "explanation": "「室内の娯楽が増えた」「放課後が忙しい」という 2 つの理由を In addition でつなぎ、最後に「機会が減るとどうなるか」まで述べています。such as video games and online videos のように具体例を入れると、these days の変化がわかりやすくなります。No の立場なら「子どもは今でも外遊びやスポーツが好きで、足りないのは興味ではなく遊べる場所だ」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Children can enjoy video games and videos at home. Also, many children are busy with cram school after school. So they don't play outside very much.",
+          "simpleAnswerJa": "はい、そう思います。子どもたちは家でテレビゲームや動画を楽しめます。また、多くの子どもは放課後、塾で忙しいです。だから、あまり外で遊ばなくなっています。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Children can enjoy video games at home.",
+              "ja": "子どもたちは家でテレビゲームを楽しめる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many children are busy with cram school.",
+              "ja": "多くの子どもは塾で忙しい"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "There are fewer safe places to play.",
+              "ja": "安全に遊べる場所が減っている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many children enjoy sports like soccer and baseball.",
+              "ja": "サッカーや野球などのスポーツを楽しむ子どもは多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Children still love playing with their friends in the park.",
+              "ja": "子どもたちは今でも公園で友達と遊ぶのが大好きだ"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -61,7 +173,36 @@
           "promptJa": "すべての人が大学の学位を取るべきだと思いますか。",
           "modelAnswer": "No, I don't think so. Many jobs, such as those of chefs, carpenters, and hairstylists, require practical skills rather than a degree, and people can learn these skills at vocational schools or on the job. Besides, university is expensive, and some students have to take out large loans. People should choose the path that suits their own goals.",
           "modelAnswerJa": "いいえ、そうは思いません。料理人や大工、美容師のように、学位よりも実践的な技能が求められる仕事はたくさんあり、そうした技能は専門学校や仕事の現場で身につけることができます。それに、大学は費用がかかり、多額のローンを組まなければならない学生もいます。人は自分の目標に合った道を選ぶべきです。",
-          "explanation": "質問の everyone に注目し、「全員に必要なわけではない」という点から答えています。職業の具体例（chefs, carpenters, hairstylists）を挙げ、Besides で費用の問題を加える構成です。practical skills rather than a degree（学位よりも実践的な技能）は対比に便利な形です。Yes の立場なら「大学で幅広い知識や考える力を身につけることは、どんな仕事にも役立つ」などが考えられます。"
+          "explanation": "質問の everyone に注目し、「全員に必要なわけではない」という点から答えています。職業の具体例（chefs, carpenters, hairstylists）を挙げ、Besides で費用の問題を加える構成です。practical skills rather than a degree（学位よりも実践的な技能）は対比に便利な形です。Yes の立場なら「大学で幅広い知識や考える力を身につけることは、どんな仕事にも役立つ」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Some jobs need skills more than a degree. For example, chefs can learn their skills at work. Also, university is very expensive. So people should choose what is best for them.",
+          "simpleAnswerJa": "いいえ、そうは思いません。学位よりも技能が必要な仕事もあります。たとえば、料理人は働きながら技能を身につけられます。また、大学はとてもお金がかかります。だから、人は自分に一番合う道を選ぶべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Some jobs need skills more than a degree.",
+              "ja": "学位よりも技能が必要な仕事もある"
+            },
+            {
+              "group": "No の理由",
+              "en": "Chefs can learn their skills at work.",
+              "ja": "料理人は働きながら技能を身につけられる"
+            },
+            {
+              "group": "No の理由",
+              "en": "University is very expensive.",
+              "ja": "大学はとてもお金がかかる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "It is easier to get a good job with a degree.",
+              "ja": "学位があるとよい仕事につきやすい"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Students can learn many things at university.",
+              "ja": "大学ではいろいろなことを学べる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -71,7 +212,36 @@
           "promptJa": "政府は、出されるごみの量を減らすためにもっと取り組むべきでしょうか。",
           "modelAnswer": "Yes, I think it should. Individuals can sort their trash and bring their own bags, but there is a limit to what they can do alone. The government can make rules that affect the whole country. For example, after Japan started requiring shops to charge for plastic bags, many more people began bringing their own. Similar rules could make companies use less packaging.",
           "modelAnswerJa": "はい、取り組むべきだと思います。個人でもごみを分別したりマイバッグを持参したりできますが、一人でできることには限界があります。政府は国全体に影響するルールを作ることができます。たとえば、日本で店にレジ袋の有料化が義務づけられると、マイバッグを持参する人がずっと増えました。同じようなルールがあれば、企業に包装を減らさせることもできるでしょう。",
-          "explanation": "「個人の努力には限界がある」→「政府ならルールで全体を変えられる」→「実例（レジ袋の有料化）」の順に述べています。Should the government ...? の質問では、政府だからこそできること（法律やルール）に触れると答えが的確になります。No の立場なら「ごみを減らすのは消費者や企業の責任で、規制を増やすより意識を変えることが大切だ」などが考えられます。"
+          "explanation": "「個人の努力には限界がある」→「政府ならルールで全体を変えられる」→「実例（レジ袋の有料化）」の順に述べています。Should the government ...? の質問では、政府だからこそできること（法律やルール）に触れると答えが的確になります。No の立場なら「ごみを減らすのは消費者や企業の責任で、規制を増やすより意識を変えることが大切だ」などが考えられます。",
+          "simpleAnswer": "Yes, it should. The government can make rules for the whole country. For example, plastic bags are not free at stores now, so many people bring their own bags. Also, the government can ask companies to use less packaging. So we can reduce a lot of garbage.",
+          "simpleAnswerJa": "はい、そうすべきです。政府は国全体のルールを作ることができます。たとえば、今はお店のレジ袋が無料ではないので、多くの人がマイバッグを持ってきます。また、政府は企業に包装を減らすよう求めることができます。だから、たくさんのごみを減らせます。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "The government can make rules for the whole country.",
+              "ja": "政府は国全体のルールを作れる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Plastic bags are not free at stores now.",
+              "ja": "今はお店のレジ袋が無料ではない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "The government can ask companies to use less packaging.",
+              "ja": "政府は企業に包装を減らすよう求められる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Each person should try to reduce garbage.",
+              "ja": "一人一人がごみを減らす努力をすべきだ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many cities already have rules for sorting garbage.",
+              "ja": "ごみの分別のルールがすでにある市は多い"
+            }
+          ]
         }
       ]
     },
@@ -95,6 +265,60 @@
             "2コマ目: ABC Pet Store で店員が「1日2回の散歩が必要」と伝えたことを間接話法で言えた",
             "3コマ目: 朝6時45分に娘が喜んで犬の散歩に出かけ、両親が見送っていることを描写できた",
             "4コマ目: 7時45分に父親がリードを差し出すと娘が「学校に遅れる」と言ったことを、展開の変化を示して言えた"
+          ],
+          "simpleAnswer": "One day, a couple was at home with their daughter. They were watching TV. Someone on TV said that pets taught children responsibility. The mother imagined her daughter taking care of a dog. A few days later, the family went to ABC Pet Store. The daughter was holding a puppy. A clerk told her that she needed to walk him twice a day. The next morning at 6:45, the daughter was going out to walk the dog. She was waving to her parents. They looked happy. A month later, it was 7:45, and the daughter was in a hurry. Her father was holding the dog's leash. She said that she would be late for school. Her father looked surprised, and her mother looked worried.",
+          "simpleAnswerJa": "ある日、ある夫婦が娘と一緒に家にいた。彼らはテレビを見ていた。テレビで、ペットは子どもに責任感を教えると言っていた。母親は、娘が犬の世話をしているところを想像した。数日後、家族は ABC ペットショップに行った。娘は子犬を抱いていた。店員は娘に、1 日 2 回散歩させる必要があると言った。翌朝 6 時 45 分、娘は犬の散歩に出かけるところだった。彼女は両親に手を振っていた。両親はうれしそうだった。1 か月後、7 時 45 分になり、娘は急いでいた。父親は犬のリードを持っていた。娘は学校に遅れると言った。父親は驚いた様子で、母親は心配そうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "They were watching TV.",
+              "ja": "彼らはテレビを見ていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "Someone on TV said that pets taught children responsibility.",
+              "ja": "テレビで、ペットは子どもに責任感を教えると言っていた（teach → taught）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The mother imagined her daughter taking care of a dog.",
+              "ja": "母親は、娘が犬の世話をしているところを想像した"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The daughter was holding a puppy.",
+              "ja": "娘は子犬を抱いていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "A clerk told her that she needed to walk him twice a day.",
+              "ja": "店員は娘に、1 日 2 回散歩させる必要があると言った（need → needed）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The daughter was going out to walk the dog.",
+              "ja": "娘は犬の散歩に出かけるところだった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She was waving to her parents.",
+              "ja": "彼女は両親に手を振っていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The daughter was in a hurry.",
+              "ja": "娘は急いでいた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She said that she would be late for school.",
+              "ja": "学校に遅れると言った（will → would）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Her father looked surprised, and her mother looked worried.",
+              "ja": "父親は驚いた様子で、母親は心配そうだった"
+            }
           ]
         },
         {
@@ -106,7 +330,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの母親だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking that we got this dog to teach our daughter responsibility, but she's already saying she has no time to walk him. I'd want to sit down with her tonight and make a plan, such as getting up earlier, so that she can keep walking him herself.",
           "modelAnswerJa": "責任感を教えるためにこの犬を飼ったのに、娘はもう散歩をする時間がないと言っている、と考えていると思います。今夜娘とじっくり話し、もっと早く起きるといった計画を立てて、自分で散歩を続けられるようにしたいところです。",
-          "explanation": "4 コマ目の母親は、父親が差し出したリードを娘が受け取らずに急いでいる様子を見ています。1 コマ目のテレビの話（責任感）とつなげて we got this dog to teach ... と言うと、話全体を踏まえた答えになります。後半は I'd want to ... で「これからどうするか」を述べ、such as getting up earlier と具体策を加えています。so that she can ...（〜できるように）は、目的を説明するときに使いやすい形です。"
+          "explanation": "4 コマ目の母親は、父親が差し出したリードを娘が受け取らずに急いでいる様子を見ています。1 コマ目のテレビの話（責任感）とつなげて we got this dog to teach ... と言うと、話全体を踏まえた答えになります。後半は I'd want to ... で「これからどうするか」を述べ、such as getting up earlier と具体策を加えています。so that she can ...（〜できるように）は、目的を説明するときに使いやすい形です。",
+          "simpleAnswer": "I'd be thinking, \"She is not taking care of the dog anymore. She needs to get up earlier. I'll talk with her about it tonight.\"",
+          "simpleAnswerJa": "「娘はもう犬の世話をしていない。もっと早く起きる必要がある。今夜そのことを娘と話そう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "She is not taking care of the dog anymore.",
+              "ja": "娘はもう犬の世話をしていない"
+            },
+            {
+              "group": "気持ち",
+              "en": "We got the dog to teach her responsibility.",
+              "ja": "責任感を教えるために犬を飼ったのに"
+            },
+            {
+              "group": "気持ち",
+              "en": "I'm a little disappointed.",
+              "ja": "少しがっかりだ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "She needs to get up earlier.",
+              "ja": "娘はもっと早く起きる必要がある"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll talk with her about it tonight.",
+              "ja": "今夜そのことを娘と話そう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -116,7 +369,36 @@
           "promptJa": "今日の社会では、人々の公共の場でのマナーは悪くなってきているでしょうか。",
           "modelAnswer": "Yes, I think they are. Because of smartphones, many people pay less attention to those around them. For example, it is common to see people looking at their phones while walking on busy streets, which can be dangerous. Some people also talk loudly or block the way on crowded trains. I think people should be more aware that their actions affect others.",
           "modelAnswerJa": "はい、悪くなっていると思います。スマートフォンのせいで、周りの人にあまり注意を払わない人が多くなっています。たとえば、人通りの多い道でスマートフォンを見ながら歩いている人をよく見かけますが、これは危険なことがあります。また、混雑した電車で大声で話したり通路をふさいだりする人もいます。自分の行動が他人に影響することを、もっと意識すべきだと思います。",
-          "explanation": "Are ... getting worse? という質問なので、Yes, I think they are. と are で受けています。「原因（スマートフォン）」→「具体例（歩きスマホ、電車内の行動）」→「どうすべきか」の順に述べると、短くてもまとまります。pay less attention to those around them（周りの人にあまり注意を払わない）は、マナーの話題で使いやすい表現です。No の立場なら「日本では今も列に並ぶ人がほとんどで、悪い例が SNS などで目立つようになっただけだ」などが考えられます。"
+          "explanation": "Are ... getting worse? という質問なので、Yes, I think they are. と are で受けています。「原因（スマートフォン）」→「具体例（歩きスマホ、電車内の行動）」→「どうすべきか」の順に述べると、短くてもまとまります。pay less attention to those around them（周りの人にあまり注意を払わない）は、マナーの話題で使いやすい表現です。No の立場なら「日本では今も列に並ぶ人がほとんどで、悪い例が SNS などで目立つようになっただけだ」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Many people look at their phones while they are walking. This is dangerous for other people. Also, some people talk loudly on trains. So I think manners are getting worse.",
+          "simpleAnswerJa": "はい、そう思います。歩きながらスマホを見る人がたくさんいます。これはほかの人にとって危険です。また、電車で大声で話す人もいます。だから、マナーは悪くなっていると思います。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many people look at their phones while they are walking.",
+              "ja": "歩きながらスマホを見る人が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "This is dangerous for other people.",
+              "ja": "それはほかの人にとって危険だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some people talk loudly on trains.",
+              "ja": "電車で大声で話す人もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Most people wait in line quietly.",
+              "ja": "ほとんどの人は静かに列に並ぶ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people take their trash home.",
+              "ja": "ごみを持ち帰る人は多い"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -126,7 +408,36 @@
           "promptJa": "最近の若者は、家族をあまり大切にしなくなっていると思いますか。",
           "modelAnswer": "No, I don't think so. Young people may spend a lot of time with friends or on their phones, but that doesn't mean they care less about their families. Thanks to messaging apps, many of them stay in touch with their parents even after leaving home. Also, many young people today want a good balance between work and family life, rather than just focusing on their careers.",
           "modelAnswerJa": "いいえ、そうは思いません。若者は友達と過ごしたりスマートフォンを使ったりする時間が長いかもしれませんが、だからといって家族を大切に思っていないわけではありません。メッセージアプリのおかげで、親元を離れたあとも親と連絡を取り合っている人はたくさんいます。また、今の若者の多くは、仕事だけに集中するのではなく、仕事と家庭生活のバランスを取りたいと考えています。",
-          "explanation": "まず「友達やスマートフォンに時間を使う」という反対側の見方を認め、but that doesn't mean ... で否定する形にしています。相手の考えを受け止めてから反論すると、説得力が増します。理由はメッセージアプリでの連絡と、仕事と家庭のバランスの 2 つです。Yes の立場なら「一人暮らしが増え、親や祖父母と直接会って話す機会が減っている」などが考えられます。"
+          "explanation": "まず「友達やスマートフォンに時間を使う」という反対側の見方を認め、but that doesn't mean ... で否定する形にしています。相手の考えを受け止めてから反論すると、説得力が増します。理由はメッセージアプリでの連絡と、仕事と家庭のバランスの 2 つです。Yes の立場なら「一人暮らしが増え、親や祖父母と直接会って話す機会が減っている」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Young people often send messages to their parents. Also, many of them enjoy going on trips with their families. So they still care about their families.",
+          "simpleAnswerJa": "いいえ、そうは思いません。若者はよく親にメッセージを送っています。また、家族旅行を楽しむ若者もたくさんいます。だから、今でも家族を大切に思っています。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Young people often send messages to their parents.",
+              "ja": "若者はよく親にメッセージを送っている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many of them enjoy going on trips with their families.",
+              "ja": "家族旅行を楽しむ若者は多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "They still care about their families.",
+              "ja": "今でも家族を大切に思っている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Young people spend more time with their friends.",
+              "ja": "若者は友達と過ごす時間のほうが長い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many young people live alone in big cities.",
+              "ja": "都会で一人暮らしをする若者が多い"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -136,7 +447,36 @@
           "promptJa": "政府は、日本の高齢化社会の問題を解決するために十分なことをしているでしょうか。",
           "modelAnswer": "No, I don't think it is. The government has taken some steps, such as encouraging older people to keep working and supporting families with children. However, the birthrate keeps falling, and there is still a serious shortage of nursing care workers. It needs to do more, for example, by raising care workers' pay and making it easier for parents to raise children.",
           "modelAnswerJa": "いいえ、十分ではないと思います。政府は、高齢者が働き続けることを後押ししたり、子どものいる家庭を支援したりするなど、いくつかの対策を取ってきました。しかし、出生率は下がり続けており、介護職員の深刻な不足も続いています。介護職員の給料を上げたり、親が子育てをしやすくしたりするなど、もっと取り組む必要があります。",
-          "explanation": "Is the government ...? の質問なので、No, I don't think it is. と答えています。これまでの対策を認めたうえで、However で残っている問題（出生率の低下、介護職員の不足）を挙げ、最後に It needs to do more, for example, by ... と具体案で締めています。Yes の立場なら「年金や介護保険の制度が整っており、定年の延長も進んでいる」などが考えられます。"
+          "explanation": "Is the government ...? の質問なので、No, I don't think it is. と答えています。これまでの対策を認めたうえで、However で残っている問題（出生率の低下、介護職員の不足）を挙げ、最後に It needs to do more, for example, by ... と具体案で締めています。Yes の立場なら「年金や介護保険の制度が整っており、定年の延長も進んでいる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. There are not enough care workers, and their pay is still low. Also, fewer babies are born every year. So the government should do more to help families.",
+          "simpleAnswerJa": "いいえ、そうは思いません。介護職員が足りず、給料もまだ低いです。また、生まれる赤ちゃんは年々減っています。だから、政府は家族をもっと支援すべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "There are not enough care workers.",
+              "ja": "介護職員が足りない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Care workers' pay is still low.",
+              "ja": "介護職員の給料はまだ低い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Fewer babies are born every year.",
+              "ja": "生まれる赤ちゃんは年々減っている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many older people can keep working now.",
+              "ja": "今は多くの高齢者が働き続けられる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "The government gives money to families with children.",
+              "ja": "政府は子どものいる家庭にお金を出している"
+            }
+          ]
         }
       ]
     }

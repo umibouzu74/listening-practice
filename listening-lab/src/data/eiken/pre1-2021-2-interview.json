@@ -36,6 +36,60 @@
             "2コマ目: スーパーの有機野菜売り場でアイデアを思いついたことを描写できた",
             "3コマ目: 新商品の Organic Vegetable Hamburger Set を看板で宣伝していることを言えた",
             "4コマ目: 新商品が6位であることと、「値段が高すぎる」という従業員の言葉を、however などで言えた"
+          ],
+          "simpleAnswer": "One day, a restaurant owner was working at her restaurant. She was serving a big hamburger to a boy. Two people were walking by. One of them said that everything there was unhealthy. That weekend, she was shopping at a supermarket. She saw some organic vegetables and got an idea. A few weeks later, she and a staff member were putting out a new sign. It was for the Organic Vegetable Hamburger Set. The owner was smiling. The next week, they were looking at a list of the most popular sets. The new set was only in sixth place. The staff member said that it cost too much. The owner looked disappointed.",
+          "simpleAnswerJa": "ある日、あるレストランのオーナーが自分の店で働いていた。彼女は男の子に大きなハンバーガーを出していた。2 人の人が通りかかった。そのうちの 1 人が、ここのものはどれも体に悪いと言った。その週末、彼女はスーパーで買い物をしていた。有機野菜を見て、あることを思いついた。数週間後、彼女と従業員は新しい看板を出していた。それは Organic Vegetable Hamburger Set の看板だった。オーナーはにこにこしていた。翌週、2 人は人気セットの一覧を見ていた。新しいセットは 6 位にすぎなかった。従業員は、値段が高すぎると言った。オーナーはがっかりした様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She was serving a big hamburger to a boy.",
+              "ja": "彼女は男の子に大きなハンバーガーを出していた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "One of them said that everything there was unhealthy.",
+              "ja": "そのうちの 1 人が、ここのものはどれも体に悪いと言った（is → was、here → there）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She was shopping at a supermarket.",
+              "ja": "彼女はスーパーで買い物をしていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She saw some organic vegetables and got an idea.",
+              "ja": "有機野菜を見て、あることを思いついた（organic = 有機の）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She and a staff member were putting out a new sign.",
+              "ja": "彼女と従業員は新しい看板を出していた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "It was for the Organic Vegetable Hamburger Set.",
+              "ja": "それは Organic Vegetable Hamburger Set の看板だった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The owner was smiling.",
+              "ja": "オーナーはにこにこしていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The new set was only in sixth place.",
+              "ja": "新しいセットは 6 位にすぎなかった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The staff member said that it cost too much.",
+              "ja": "値段が高すぎると従業員は言った（costs → cost。cost の過去形は cost）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The owner looked disappointed.",
+              "ja": "オーナーはがっかりした様子だった"
+            }
           ]
         },
         {
@@ -48,7 +102,36 @@
           "audio": "audio/eiken/eiken-pre1-2021-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking that a healthy menu isn't enough if customers feel it is too expensive, and that I should look for ways to lower the price. For example, I could buy vegetables directly from local farmers or offer a smaller set.",
           "modelAnswerJa": "健康的なメニューでも、客が高すぎると感じるなら十分ではなく、値段を下げる方法を探すべきだと考えていると思います。たとえば、地元の農家から直接野菜を買ったり、もっと小さなセットを出したりできるでしょう。",
-          "explanation": "4 コマ目は、オーナーが、せっかくの新商品が売れていないと知った場面です。従業員の言葉（値段が高すぎる）を受けて、I'd be thinking that ..., and that ... の形で「分かったこと」と「すべきこと」を続けています。For example, I could ... と具体策を加えると、答えに説得力が出ます。"
+          "explanation": "4 コマ目は、オーナーが、せっかくの新商品が売れていないと知った場面です。従業員の言葉（値段が高すぎる）を受けて、I'd be thinking that ..., and that ... の形で「分かったこと」と「すべきこと」を続けています。For example, I could ... と具体策を加えると、答えに説得力が出ます。",
+          "simpleAnswer": "I'd be thinking, \"I'm sad that the new set isn't popular. I should have thought more about the price. I'll try to make it cheaper.\"",
+          "simpleAnswerJa": "「新しいセットが人気がないのは残念だ。値段のことをもっと考えるべきだった。もっと安くできるようにしよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I'm sad that the new set isn't popular.",
+              "ja": "新しいセットが人気がないのは残念だ"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have thought more about the price.",
+              "ja": "値段のことをもっと考えるべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "Healthy food alone is not enough.",
+              "ja": "体によいというだけでは足りない"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll try to make it cheaper.",
+              "ja": "もっと安くできるようにしよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll buy vegetables directly from local farmers.",
+              "ja": "地元の農家から直接野菜を買おう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -59,7 +142,36 @@
           "audio": "audio/eiken/eiken-pre1-2021-2-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. Many young people today do not earn very much, and they worry about their future, so they are careful with their money. They often compare prices online and buy used items through apps. Of course, some young people spend too much on things like games or fashion, but that has always been true of every generation.",
           "modelAnswerJa": "いいえ、そうは思いません。今の若者の多くはそれほど収入が多くなく、将来を心配しているので、お金の使い方に慎重です。ネットで値段を比べたり、アプリで中古品を買ったりすることもよくあります。もちろん、ゲームやファッションなどにお金を使いすぎる若者もいますが、それはいつの世代でも同じです。",
-          "explanation": "「収入が少なく将来が不安」という理由のあと、「値段の比較・中古品アプリ」と今の若者らしい具体例を挙げています。最後の Of course, ..., but ... は反対意見を先に認める言い方で、答えにバランスが生まれます。Yes の立場なら「SNS の影響で、流行のものや課金サービスに簡単にお金を使ってしまう」などが考えられます。"
+          "explanation": "「収入が少なく将来が不安」という理由のあと、「値段の比較・中古品アプリ」と今の若者らしい具体例を挙げています。最後の Of course, ..., but ... は反対意見を先に認める言い方で、答えにバランスが生まれます。Yes の立場なら「SNS の影響で、流行のものや課金サービスに簡単にお金を使ってしまう」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Many young people don't earn much money. They worry about their future, so they save money. Also, they often compare prices online and buy used things. So they are careful with money.",
+          "simpleAnswerJa": "いいえ、そうは思いません。収入が多くない若者がたくさんいます。将来が心配なので、お金を貯めています。また、ネットで値段を比べたり、中古品を買ったりすることもよくあります。だから、お金の使い方に気をつけています。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many young people don't earn much money.",
+              "ja": "収入が多くない若者が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "They worry about their future, so they save money.",
+              "ja": "将来が心配なので、お金を貯めている"
+            },
+            {
+              "group": "No の理由",
+              "en": "They often compare prices online and buy used things.",
+              "ja": "ネットで値段を比べたり、中古品を買ったりすることが多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some young people spend too much money on games.",
+              "ja": "ゲームにお金を使いすぎる若者もいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some young people buy new clothes too often.",
+              "ja": "新しい服をしょっちゅう買う若者もいる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -70,7 +182,36 @@
           "audio": "audio/eiken/eiken-pre1-2021-2-interview/a-q3.mp3",
           "modelAnswer": "Yes, they should. If a country depends too much on imported food, it can be in serious trouble when there is a war, a natural disaster, or a sudden rise in prices overseas. Growing more food at home makes the food supply more stable and supports local farmers. It also reduces the pollution caused by transporting food over long distances.",
           "modelAnswerJa": "はい、努力すべきです。輸入食品に頼りすぎていると、戦争や自然災害、海外での急な価格上昇が起きたときに深刻な事態に陥りかねません。国内でもっと多くの食料を作れば、食料の供給が安定し、地元の農家を支えることにもなります。また、食料を長距離輸送することによる汚染も減らせます。",
-          "explanation": "質問の主語が countries なので、Yes, they should. と they で受けます。「輸入に頼る危険」→「国内生産の利点」→「環境面の利点」と、3 つの視点から述べています。No の立場なら「得意な分野で貿易をしたほうが効率的で、食料も安く手に入り、輸入先を増やせばリスクも分散できる」などが考えられます。"
+          "explanation": "質問の主語が countries なので、Yes, they should. と they で受けます。「輸入に頼る危険」→「国内生産の利点」→「環境面の利点」と、3 つの視点から述べています。No の立場なら「得意な分野で貿易をしたほうが効率的で、食料も安く手に入り、輸入先を増やせばリスクも分散できる」などが考えられます。",
+          "simpleAnswer": "Yes, they should. Sometimes countries can't buy food from abroad because of wars or disasters. Then people won't have enough food. Also, growing food at home helps local farmers. So countries should grow more of their own food.",
+          "simpleAnswerJa": "はい、努力すべきです。戦争や災害のせいで、外国から食料を買えなくなることがあります。そうなると、食べる物が足りなくなります。また、国内で食料を育てると、地元の農家の助けになります。だから、各国は自分の国の食料をもっと育てるべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Sometimes countries can't buy food from abroad because of wars or disasters.",
+              "ja": "戦争や災害のせいで、外国から食料を買えなくなることがある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Growing food at home helps local farmers.",
+              "ja": "国内で食料を育てると、地元の農家の助けになる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Carrying food a long way causes pollution.",
+              "ja": "食料を遠くまで運ぶと汚染の原因になる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Imported food is often cheaper.",
+              "ja": "輸入食品のほうが安いことが多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some countries don't have enough land for farming.",
+              "ja": "農業に使える土地が十分にない国もある"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -81,7 +222,36 @@
           "audio": "audio/eiken/eiken-pre1-2021-2-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think it can. For example, better solar panels and wind turbines allow us to use less oil and coal, and electric cars produce no exhaust gas while running. Drones and satellites can also be used to watch over forests and wild animals. Of course, technology alone is not enough, but it gives people practical ways to protect nature.",
           "modelAnswerJa": "はい、役立つと思います。たとえば、太陽光パネルや風力発電機が進歩すれば石油や石炭の使用を減らせますし、電気自動車は走行中に排気ガスを出しません。また、ドローンや人工衛星を使って森林や野生動物を見守ることもできます。もちろん、技術だけでは十分ではありませんが、自然を守るための現実的な手段を与えてくれます。",
-          "explanation": "Can ...? の質問なので Yes, I think it can. と can で受け、エネルギー・自動車・自然の監視と、分野の違う具体例を挙げています。最後に technology alone is not enough と限界に触れると、視野の広い答えになります。No の立場なら「新しい技術を作るにも資源やエネルギーが必要で、消費そのものを減らさなければ解決しない」などが考えられます。"
+          "explanation": "Can ...? の質問なので Yes, I think it can. と can で受け、エネルギー・自動車・自然の監視と、分野の違う具体例を挙げています。最後に technology alone is not enough と限界に触れると、視野の広い答えになります。No の立場なら「新しい技術を作るにも資源やエネルギーが必要で、消費そのものを減らさなければ解決しない」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. For example, solar panels help us use less oil and coal. Also, electric cars don't pollute the air. So new technology can help protect nature.",
+          "simpleAnswerJa": "はい、そう思います。たとえば、太陽光パネルのおかげで、石油や石炭の使用を減らせます。また、電気自動車は空気を汚しません。だから、新しい技術は自然を守るのに役立ちます。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Solar panels help us use less oil and coal.",
+              "ja": "太陽光パネルのおかげで、石油や石炭の使用を減らせる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Electric cars don't pollute the air.",
+              "ja": "電気自動車は空気を汚さない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Drones can watch over forests and wild animals.",
+              "ja": "ドローンで森林や野生動物を見守ることができる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Making new machines uses a lot of energy.",
+              "ja": "新しい機械を作るのにたくさんのエネルギーを使う"
+            },
+            {
+              "group": "No の理由",
+              "en": "People also need to change their lifestyles.",
+              "ja": "人々が生活の仕方を変えることも必要だ"
+            }
+          ]
         }
       ]
     },
@@ -111,6 +281,65 @@
             "2コマ目: 夜12時に自宅で勉強していることと、カレンダーのテスト（29日）を言えた",
             "3コマ目: 6時に帰ろうとして「帰るの？」と聞かれたこと（asked her if ...）と、勉強のことを考えていることを言えた",
             "4コマ目: 売上のグラフが下がり、営業部長に「チームはもっと頑張る必要がある」と言われたことを言えた"
+          ],
+          "simpleAnswer": "One day, a young woman was in her office. She saw a notice about a self-development program. It asked employees to get a qualification. She looked interested. A few days later, she was studying at home late at night. Her test was on the 29th, so she didn't have much time. The next day, she was leaving the office at six o'clock. A man at the next desk asked her if she was going home. She was thinking about studying at home. At the monthly sales meeting, the sales manager pointed at a graph. Sales were going down. The manager told the young woman and the man that their team needed to do better. They both looked embarrassed.",
+          "simpleAnswerJa": "ある日、ある若い女性がオフィスにいた。彼女は自己啓発プログラムのお知らせを見た。そこには、社員は資格を取るようにと書かれていた。彼女は興味がありそうだった。数日後、彼女は夜遅くに家で勉強していた。テストは 29 日で、あまり時間がなかった。翌日、彼女は 6 時に会社を出ようとしていた。隣の席の男性が、帰るのかと彼女に尋ねた。彼女は家で勉強することを考えていた。月に一度の営業会議で、営業部長がグラフを指さした。売上は下がっていた。部長は若い女性と男性に、あなたたちのチームはもっと頑張る必要があると言った。2 人とも気まずそうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She saw a notice about a self-development program.",
+              "ja": "彼女は自己啓発プログラムのお知らせを見た"
+            },
+            {
+              "group": "1コマ目",
+              "en": "It asked employees to get a qualification.",
+              "ja": "社員は資格を取るようにと書かれていた（命令文 → asked ... to ...。qualification = 資格）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She looked interested.",
+              "ja": "彼女は興味がありそうだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She was studying at home late at night.",
+              "ja": "彼女は夜遅くに家で勉強していた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "Her test was on the 29th, so she didn't have much time.",
+              "ja": "テストは 29 日で、あまり時間がなかった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She was leaving the office at six o'clock.",
+              "ja": "彼女は 6 時に会社を出ようとしていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "A man at the next desk asked her if she was going home.",
+              "ja": "隣の席の男性が、帰るのかと彼女に尋ねた（Are you ...? → asked her if she was ...）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She was thinking about studying at home.",
+              "ja": "彼女は家で勉強することを考えていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Sales were going down.",
+              "ja": "売上は下がっていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The manager told them that their team needed to do better.",
+              "ja": "チームはもっと頑張る必要があると部長は言った（needs → needed、your → their）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "They both looked embarrassed.",
+              "ja": "2 人とも気まずそうだった"
+            }
           ]
         },
         {
@@ -123,7 +352,36 @@
           "audio": "audio/eiken/eiken-pre1-2021-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"Maybe I've been focusing too much on my test and not enough on my job. I feel bad for letting my team down. I need to manage my time better so that I can do both, and once I pass the test, I can use what I've learned to help my team.\"",
           "modelAnswerJa": "「テストのことばかり考えて、仕事がおろそかになっていたかもしれない。チームの期待を裏切って申し訳ない。両方できるように時間の使い方を見直さなければならないし、テストに受かったら、学んだことを生かしてチームの役に立とう」と考えていると思います。",
-          "explanation": "4 コマ目は、売上の低下で注意を受け、勉強と仕事の両立に悩む場面です。Maybe I've been focusing too much on ... で反省を述べ、I need to ... so that I can ... で解決策を続けています。let ... down（〜の期待を裏切る）は、チームや家族の話でよく使う表現です。"
+          "explanation": "4 コマ目は、売上の低下で注意を受け、勉強と仕事の両立に悩む場面です。Maybe I've been focusing too much on ... で反省を述べ、I need to ... so that I can ... で解決策を続けています。let ... down（〜の期待を裏切る）は、チームや家族の話でよく使う表現です。",
+          "simpleAnswer": "I'd be thinking, \"I was only thinking about my test. I should have worked harder for my team. From now on, I'll do my best at work, too.\"",
+          "simpleAnswerJa": "「テストのことばかり考えていた。チームのためにもっと頑張るべきだった。これからは仕事も頑張ろう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I was only thinking about my test.",
+              "ja": "テストのことばかり考えていた"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have worked harder for my team.",
+              "ja": "チームのためにもっと頑張るべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I want to say sorry to my team.",
+              "ja": "チームのみんなに謝りたい"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "From now on, I'll do my best at work, too.",
+              "ja": "これからは仕事も頑張ろう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "After the test, I'll use my new skills for my team.",
+              "ja": "テストが終わったら、新しい技能をチームのために生かそう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -134,7 +392,36 @@
           "audio": "audio/eiken/eiken-pre1-2021-2-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. People are living longer and staying healthy after they retire, so they have plenty of time to learn something new. Many of them have subjects that they could not study when they were young because of work or family. Also, universities need new students as the number of young people falls, so they will probably welcome older learners.",
           "modelAnswerJa": "はい、そう思います。人々は長生きになり、退職後も元気でいられるので、何か新しいことを学ぶ時間がたっぷりあります。仕事や家族のために若いころ勉強できなかった分野がある人も多くいます。また、若者の数が減る中で大学は新しい学生を必要としているので、おそらく年配の学習者を歓迎するでしょう。",
-          "explanation": "学ぶ側の事情（時間がある・学びたいことがある）に、大学側の事情（若者の減少）を加え、両方の面から増える理由を述べています。as the number of young people falls（若者の数が減るにつれて）は、少子化の話題で使える表現です。No の立場なら「学費が高いうえ、経済的な理由で働き続ける高齢者も多く、趣味の講座で十分だと考える人もいる」などが考えられます。"
+          "explanation": "学ぶ側の事情（時間がある・学びたいことがある）に、大学側の事情（若者の減少）を加え、両方の面から増える理由を述べています。as the number of young people falls（若者の数が減るにつれて）は、少子化の話題で使える表現です。No の立場なら「学費が高いうえ、経済的な理由で働き続ける高齢者も多く、趣味の講座で十分だと考える人もいる」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. After people retire, they have a lot of free time. Many of them are still healthy. Also, some of them couldn't go to university when they were young. So many of them will want to study.",
+          "simpleAnswerJa": "はい、そう思います。退職すると、自由な時間がたくさんあります。その多くはまだ元気です。また、若いころに大学に行けなかった人もいます。だから、大学で学びたいと思う人が多くなるでしょう。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "After people retire, they have a lot of free time.",
+              "ja": "退職すると、自由な時間がたくさんある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many elderly people are still healthy.",
+              "ja": "まだ元気な高齢者が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some of them couldn't go to university when they were young.",
+              "ja": "若いころに大学に行けなかった人もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "University is expensive.",
+              "ja": "大学はお金がかかる"
+            },
+            {
+              "group": "No の理由",
+              "en": "They can learn things online for free.",
+              "ja": "ネットで無料で学ぶことができる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -145,7 +432,36 @@
           "audio": "audio/eiken/eiken-pre1-2021-2-interview/d-q3.mp3",
           "modelAnswer": "Yes, I think so. TV programs and websites often feature rich business owners and popular online celebrities, and they talk a lot about how much these people earn. This may make young people believe that money is the only measure of success. Many people in lower-paid jobs, such as care workers, do very important work, but they get far less attention.",
           "modelAnswerJa": "はい、そう思います。テレビ番組やウェブサイトは裕福な経営者や人気のネット有名人をよく取り上げ、その人たちの収入について盛んに話題にします。そのせいで、若者はお金だけが成功の物差しだと信じてしまうかもしれません。介護職員のように賃金の低い仕事でとても大切な役割を担っている人は多くいますが、そうした人々が注目されることはずっと少ないです。",
-          "explanation": "メディアの具体的な内容を示してから、「若者への影響」へ話を広げています。最後に care workers という具体例を挙げ、お金以外の価値があることを対比で示しています。the only measure of success（成功の唯一の物差し）は、価値観の話題で便利な表現です。No の立場なら「メディアはボランティアや地域活動など、お金以外の話題も多く取り上げている」などが考えられます。"
+          "explanation": "メディアの具体的な内容を示してから、「若者への影響」へ話を広げています。最後に care workers という具体例を挙げ、お金以外の価値があることを対比で示しています。the only measure of success（成功の唯一の物差し）は、価値観の話題で便利な表現です。No の立場なら「メディアはボランティアや地域活動など、お金以外の話題も多く取り上げている」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. TV shows often talk about how much rich people earn. Also, famous people on social media often show their expensive cars and clothes. So young people may think that money is the most important thing.",
+          "simpleAnswerJa": "はい、そう思います。テレビ番組では、お金持ちがいくら稼いでいるかがよく話題になります。また、SNS の有名人は高価な車や服をよく見せています。だから、若者はお金がいちばん大事だと思ってしまうかもしれません。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "TV shows often talk about how much rich people earn.",
+              "ja": "テレビ番組では、お金持ちがいくら稼いでいるかがよく話題になる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Famous people on social media often show their expensive things.",
+              "ja": "SNS の有名人は高価な物をよく見せている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Young people may think that money is the most important thing.",
+              "ja": "若者はお金がいちばん大事だと思ってしまうかもしれない"
+            },
+            {
+              "group": "No の理由",
+              "en": "The news also shows people who help others.",
+              "ja": "ニュースでは人の役に立つ人も紹介されている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many programs are about family and friendship.",
+              "ja": "家族や友情についての番組も多い"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -156,7 +472,36 @@
           "audio": "audio/eiken/eiken-pre1-2021-2-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think so. Japan's air and water are much cleaner than they were decades ago because of strict laws. However, companies still use a lot of plastic packaging, and the amount of CO2 that they produce is still large. Many of them talk about protecting the environment, but they should spend more on recycling and clean energy.",
           "modelAnswerJa": "いいえ、そうは思いません。厳しい法律のおかげで、日本の空気や水は数十年前よりずっときれいになりました。しかし、企業は今でも多くのプラスチック包装を使っていますし、排出する二酸化炭素の量もまだ多いです。環境保護を語る企業は多いですが、リサイクルやクリーンエネルギーにもっとお金をかけるべきです。",
-          "explanation": "まず過去からの改善を認め、However, ... で今も残る問題（プラスチック包装・二酸化炭素）を挙げています。Are companies ...? の質問なので、doing enough に対して「まだ足りない」理由を具体的に述べることがポイントです。Yes の立場なら「多くの企業が省エネや再生可能エネルギーの導入を進め、環境報告書も公開している」などが考えられます。"
+          "explanation": "まず過去からの改善を認め、However, ... で今も残る問題（プラスチック包装・二酸化炭素）を挙げています。Are companies ...? の質問なので、doing enough に対して「まだ足りない」理由を具体的に述べることがポイントです。Yes の立場なら「多くの企業が省エネや再生可能エネルギーの導入を進め、環境報告書も公開している」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Many products still come in a lot of plastic. Also, factories still produce a lot of CO2. So companies should do more recycling and use clean energy.",
+          "simpleAnswerJa": "いいえ、そうは思いません。今でも多くの製品がたくさんのプラスチックで包まれています。また、工場は今でも多くの二酸化炭素を出しています。だから、企業はもっとリサイクルをして、クリーンエネルギーを使うべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many products still come in a lot of plastic.",
+              "ja": "今でも多くの製品がたくさんのプラスチックで包まれている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Factories still produce a lot of CO2.",
+              "ja": "工場は今でも多くの二酸化炭素を出している"
+            },
+            {
+              "group": "No の理由",
+              "en": "Companies should do more recycling.",
+              "ja": "企業はもっとリサイクルをするべきだ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Japan's air and water are much cleaner than before.",
+              "ja": "日本の空気や水は昔よりずっときれいだ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More companies are using clean energy.",
+              "ja": "クリーンエネルギーを使う企業が増えている"
+            }
+          ]
         }
       ]
     }

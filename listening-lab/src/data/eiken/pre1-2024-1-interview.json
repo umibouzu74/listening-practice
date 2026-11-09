@@ -36,6 +36,60 @@
             "2コマ目: ABC Marketing でインターンとして働き、CEO に親指を立ててもらって喜ぶ様子を描写できた",
             "3コマ目: CEO に「来年入社しないか」と誘われたことを、asked her if ... the following year の形で言えた",
             "4コマ目: 夜9時過ぎに同僚から書類の束を渡され、「今夜中に終わらせて」と言われたことを間接話法で言えた"
+          ],
+          "simpleAnswer": "One day, a university student was at her campus. She was worried about her future job. She went to the Career Counseling Center. A counselor told her about an internship program. A month later, she was working as an intern at ABC Marketing. The CEO gave her a thumbs-up. She looked very happy. A few weeks later, the CEO invited her to join the company the next year. She looked excited. The following year, she was an employee at ABC Marketing. It was late at night, but she was still working. A coworker brought her a lot of documents. He told her that she needed to finish the work that night. She looked shocked.",
+          "simpleAnswerJa": "ある日、ある大学生がキャンパスにいた。彼女は将来の仕事について悩んでいた。彼女はキャリアカウンセリングセンターに行った。相談員がインターンシッププログラムについて教えてくれた。1 か月後、彼女は ABC Marketing でインターンとして働いていた。CEO は彼女に親指を立ててみせた。彼女はとてもうれしそうだった。数週間後、CEO は彼女に、翌年この会社に入社しないかと誘った。彼女はわくわくしている様子だった。翌年、彼女は ABC Marketing の社員になっていた。夜遅くなのに、彼女はまだ仕事をしていた。同僚がたくさんの書類を持ってきた。彼は彼女に、その夜のうちに仕事を終わらせる必要があると言った。彼女はショックを受けた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She went to the Career Counseling Center.",
+              "ja": "彼女はキャリアカウンセリングセンターに行った"
+            },
+            {
+              "group": "1コマ目",
+              "en": "A counselor told her about an internship program.",
+              "ja": "相談員がインターンシッププログラムについて教えてくれた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She was working as an intern at ABC Marketing.",
+              "ja": "彼女は ABC Marketing でインターンとして働いていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The CEO gave her a thumbs-up.",
+              "ja": "CEO は彼女に親指を立ててみせた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The CEO invited her to join the company the next year.",
+              "ja": "CEO は彼女に、翌年入社しないかと誘った（Would you like to ...? → invited her to ...、next year → the next year）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She looked excited.",
+              "ja": "彼女はわくわくしている様子だった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "It was late at night, but she was still working.",
+              "ja": "夜遅くなのに、彼女はまだ仕事をしていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "A coworker brought her a lot of documents.",
+              "ja": "同僚がたくさんの書類を持ってきた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He told her that she needed to finish the work that night.",
+              "ja": "その夜のうちに仕事を終わらせる必要があると言った（need → needed、tonight → that night）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She looked shocked.",
+              "ja": "彼女はショックを受けた様子だった"
+            }
           ]
         },
         {
@@ -48,7 +102,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-1-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I was so happy when I was offered this job, but I never imagined I'd have to work this late. I can't finish all of this tonight by myself, so I'll explain the situation to him and ask if someone can help me.\"",
           "modelAnswerJa": "「この仕事の話をもらったときはとてもうれしかったけれど、こんなに遅くまで働くことになるとは思ってもいなかった。これを全部今夜ひとりで終わらせるのは無理だから、事情を説明して、誰かに手伝ってもらえないか聞いてみよう」と考えていると思います。",
-          "explanation": "4 コマ目は、女性が夜 9 時を過ぎてから大量の仕事を渡された場面です。I was so happy when ..., but I never imagined ... で「入社前の期待と現実の違い」を振り返り、so I'll ... で「これからどうするか」につなげています。I can't finish all of this tonight のように、吹き出しの finish this tonight を受けて答えると、絵に沿った内容になります。"
+          "explanation": "4 コマ目は、女性が夜 9 時を過ぎてから大量の仕事を渡された場面です。I was so happy when ..., but I never imagined ... で「入社前の期待と現実の違い」を振り返り、so I'll ... で「これからどうするか」につなげています。I can't finish all of this tonight のように、吹き出しの finish this tonight を受けて答えると、絵に沿った内容になります。",
+          "simpleAnswer": "I'd be thinking, \"This job is harder than I thought. I can't finish all this work by myself tonight. I'll ask someone to help me.\"",
+          "simpleAnswerJa": "「この仕事は思っていたより大変だ。これを全部今夜ひとりで終わらせるのは無理だ。誰かに手伝ってもらおう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "This job is harder than I thought.",
+              "ja": "この仕事は思っていたより大変だ"
+            },
+            {
+              "group": "気持ち",
+              "en": "I can't finish all this work by myself tonight.",
+              "ja": "これを全部今夜ひとりで終わらせるのは無理だ"
+            },
+            {
+              "group": "気持ち",
+              "en": "I'm very tired.",
+              "ja": "とても疲れた"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask someone to help me.",
+              "ja": "誰かに手伝ってもらおう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask if I can finish it tomorrow.",
+              "ja": "明日終わらせてもいいか聞いてみよう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -59,7 +142,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-1-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. Although things have improved in recent years, there are still far fewer women than men in management positions, especially in Japan. Women also tend to earn less than men on average, and some worry that having children could hurt their careers. So I think most companies still have a long way to go.",
           "modelAnswerJa": "いいえ、そうは思いません。近年は状況が改善してきたものの、特に日本では、管理職に就いている女性は男性よりまだずっと少ないです。また、女性は平均して男性より収入が低い傾向があり、子どもを持つことがキャリアの妨げになるのではないかと心配する人もいます。ですから、ほとんどの企業はまだ道半ばだと思います。",
-          "explanation": "Although things have improved ... と改善点を認めてから、管理職の割合・収入・出産とキャリアという具体的な点を挙げて No の理由にしています。have a long way to go（まだ先は長い）は、「進歩はしたが十分ではない」と言うときに便利な表現です。Yes の立場なら「法律で男女平等が定められ、女性の管理職や育児休業を取る男性も増えている」などが考えられます。"
+          "explanation": "Although things have improved ... と改善点を認めてから、管理職の割合・収入・出産とキャリアという具体的な点を挙げて No の理由にしています。have a long way to go（まだ先は長い）は、「進歩はしたが十分ではない」と言うときに便利な表現です。Yes の立場なら「法律で男女平等が定められ、女性の管理職や育児休業を取る男性も増えている」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. In many companies, most managers are men. Also, women often get lower pay than men. So most companies don't treat men and women equally yet.",
+          "simpleAnswerJa": "いいえ、そうは思いません。多くの会社では、管理職のほとんどが男性です。また、女性は男性より給料が低いことが多いです。だから、ほとんどの会社はまだ男女を平等に扱っていません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "In many companies, most managers are men.",
+              "ja": "多くの会社では、管理職のほとんどが男性だ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Women often get lower pay than men.",
+              "ja": "女性は男性より給料が低いことが多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some women have to quit their jobs after having children.",
+              "ja": "子どもを産んだあとに仕事を辞めなければならない女性もいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More women are becoming managers these days.",
+              "ja": "最近は管理職になる女性が増えている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many companies let fathers take time off for childcare.",
+              "ja": "父親が育児のために休みを取れる会社が多い"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -70,7 +182,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-1-interview/a-q3.mp3",
           "modelAnswer": "Yes, it should. Schools can teach academic subjects, but children learn many important things at home, such as good manners and how to treat other people. Also, parents know their own children best, so they can give them support that teachers with large classes cannot. When parents and schools work together, children are more likely to do well.",
           "modelAnswerJa": "はい、そうあるべきです。学校は教科を教えることはできますが、子どもは礼儀や他人への接し方など、多くの大切なことを家庭で学びます。また、親は自分の子どものことをいちばんよく知っているので、大人数のクラスを受け持つ教師にはできない支えになることができます。親と学校が協力すれば、子どもはうまく伸びていきやすくなります。",
-          "explanation": "学校の役割（教科の指導）と家庭の役割（礼儀や人との接し方）を分けて示し、最後に When parents and schools work together, ... と両者の協力でまとめています。質問の as well as に合わせて「どちらか一方ではなく両方」という答えの形にしている点がポイントです。No の立場なら「共働きなどで時間がない親もいるので、家庭環境で差が出ないよう、教育の専門家である学校が責任を持つべきだ」などが考えられます。"
+          "explanation": "学校の役割（教科の指導）と家庭の役割（礼儀や人との接し方）を分けて示し、最後に When parents and schools work together, ... と両者の協力でまとめています。質問の as well as に合わせて「どちらか一方ではなく両方」という答えの形にしている点がポイントです。No の立場なら「共働きなどで時間がない親もいるので、家庭環境で差が出ないよう、教育の専門家である学校が責任を持つべきだ」などが考えられます。",
+          "simpleAnswer": "Yes, it should. Children learn many important things at home, like good manners. Also, parents know their own children best. Teachers are busy with many students. So parents and schools should work together.",
+          "simpleAnswerJa": "はい、そうあるべきです。子どもは礼儀など、多くの大切なことを家庭で学びます。また、親は自分の子どものことをいちばんよく知っています。教師はたくさんの生徒の相手で忙しいです。だから、親と学校は協力するべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Children learn many important things at home, like good manners.",
+              "ja": "子どもは礼儀など、多くの大切なことを家庭で学ぶ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Parents know their own children best.",
+              "ja": "親は自分の子どものことをいちばんよく知っている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Teachers are busy with many students.",
+              "ja": "教師はたくさんの生徒の相手で忙しい"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many parents are too busy with work.",
+              "ja": "仕事で忙しすぎる親が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Teachers are experts in education.",
+              "ja": "教師は教育の専門家だ"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -81,7 +222,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-1-interview/a-q4.mp3",
           "modelAnswer": "No, I don't think so. People today just contribute in different ways. For example, many people volunteer after natural disasters or donate money online through crowdfunding sites. Young people also use social media to raise awareness of problems such as climate change. The Internet has actually made it easier than before to help others.",
           "modelAnswerJa": "いいえ、そうは思いません。今の人々は、ただ違う方法で貢献しているだけです。たとえば、自然災害のあとにボランティアをしたり、クラウドファンディングのサイトを通じてオンラインで寄付をしたりする人が多くいます。若者は SNS を使って、気候変動などの問題を広く知らせてもいます。実際、インターネットのおかげで、以前より人の役に立ちやすくなっています。",
-          "explanation": "質問の前半にある in various ways をヒントに、「関心が減ったのではなく、方法が変わった」という主張を立てています。ボランティア・オンライン寄付・SNS と今ならではの具体例を並べると、昔との比較に答えられます。raise awareness of ...（〜についての認識を高める）は社会問題を語るときに使いやすい表現です。Yes の立場なら「地域の行事や自治会に参加する人が減り、自分の生活を優先する人が増えた」などが考えられます。"
+          "explanation": "質問の前半にある in various ways をヒントに、「関心が減ったのではなく、方法が変わった」という主張を立てています。ボランティア・オンライン寄付・SNS と今ならではの具体例を並べると、昔との比較に答えられます。raise awareness of ...（〜についての認識を高める）は社会問題を語るときに使いやすい表現です。Yes の立場なら「地域の行事や自治会に参加する人が減り、自分の生活を優先する人が増えた」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Many people do volunteer work after natural disasters. Also, people can easily donate money online. So people today help society in different ways.",
+          "simpleAnswerJa": "いいえ、そうは思いません。自然災害のあとにボランティア活動をする人がたくさんいます。また、今はオンラインで簡単に寄付ができます。だから、今の人々は違う方法で社会に貢献しています。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many people do volunteer work after natural disasters.",
+              "ja": "自然災害のあとにボランティア活動をする人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "People can easily donate money online.",
+              "ja": "オンラインで簡単に寄付ができる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Young people talk about problems like climate change online.",
+              "ja": "若者は気候変動などの問題についてネットで発信している"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many people are too busy with their own lives.",
+              "ja": "自分の生活で忙しすぎる人が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Fewer people join local community events.",
+              "ja": "地域の行事に参加する人が減っている"
+            }
+          ]
         }
       ]
     },
@@ -111,6 +281,65 @@
             "2コマ目: 閉店後（CLOSED の札）に、女性が疲れた様子で「手助けが必要だ」と夫に伝えたことを間接話法で言えた",
             "3コマ目: 吹き出しの絵を読み取り、紙の注文票の代わりにタブレットを使う案を夫が説明したことを言えた",
             "4コマ目: タブレットを導入したものの、年配の客が「わからない」と困っていることを描写できた"
+          ],
+          "simpleAnswer": "One day, a woman was working with her husband at their restaurant. The restaurant was full of customers. She was taking an order, and another customer was calling her. Her husband was busy in the kitchen, too. That night, the restaurant was closed. The woman looked very tired. She told her husband that she needed some help. A few days later, they went to a store that sold tablets. Her husband suggested using tablets instead of paper. She looked interested. A few months later, customers were ordering with tablets. However, two older women looked confused. One of them said that she didn't understand it. The woman looked worried.",
+          "simpleAnswerJa": "ある日、ある女性が夫と一緒に自分たちのレストランで働いていた。店は客でいっぱいだった。彼女が注文を取っていると、別の客も彼女を呼んでいた。夫も厨房で忙しくしていた。その夜、店は閉まっていた。女性はとても疲れているようだった。彼女は夫に、手伝いが必要だと言った。数日後、2 人はタブレットを売っている店に行った。夫は紙の代わりにタブレットを使うことを提案した。彼女は興味がありそうだった。数か月後、客はタブレットで注文していた。ところが、年配の女性 2 人は困った様子だった。そのうちの 1 人が、これはわからないと言った。女性は心配そうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "The restaurant was full of customers.",
+              "ja": "店は客でいっぱいだった"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She was taking an order, and another customer was calling her.",
+              "ja": "彼女が注文を取っていると、別の客も彼女を呼んでいた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "Her husband was busy in the kitchen, too.",
+              "ja": "夫も厨房で忙しくしていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The woman looked very tired.",
+              "ja": "女性はとても疲れているようだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She told her husband that she needed some help.",
+              "ja": "夫に、手伝いが必要だと言った（need → needed）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "They went to a store that sold tablets.",
+              "ja": "2 人はタブレットを売っている店に行った"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Her husband suggested using tablets instead of paper.",
+              "ja": "夫は紙の代わりにタブレットを使うことを提案した（suggest + ing 形）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She looked interested.",
+              "ja": "彼女は興味がありそうだった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Customers were ordering with tablets.",
+              "ja": "客はタブレットで注文していた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "One of the older women said that she didn't understand it.",
+              "ja": "年配の女性の 1 人が、これはわからないと言った（don't → didn't、this → it）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The woman looked worried.",
+              "ja": "女性は心配そうだった"
+            }
           ]
         },
         {
@@ -123,7 +352,31 @@
           "audio": "audio/eiken/eiken-pre1-2024-1-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"The tablets have made things easier for us, but not for everyone. I should go over and show those customers how it works. Maybe we should also keep some paper menus so that people who aren't used to tablets can still order the old way.\"",
           "modelAnswerJa": "「タブレットのおかげで私たちは楽になったけれど、誰にとってもそうというわけではないのね。あのお客さんたちのところへ行って、使い方を教えてあげないと。タブレットに慣れていない人が今までどおり注文できるように、紙のメニューも残しておいたほうがいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目は、女性が、店で導入したタブレットに年配の客が困っているのを見ている場面です。まず but not for everyone で問題点を認め、I should ...（今すぐすること）と Maybe we should ...（今後の対策）の 2 段階で続けています。people who aren't used to ...（〜に慣れていない人）は、新しい技術の話題で幅広く使える表現です。"
+          "explanation": "4 コマ目は、女性が、店で導入したタブレットに年配の客が困っているのを見ている場面です。まず but not for everyone で問題点を認め、I should ...（今すぐすること）と Maybe we should ...（今後の対策）の 2 段階で続けています。people who aren't used to ...（〜に慣れていない人）は、新しい技術の話題で幅広く使える表現です。",
+          "simpleAnswer": "I'd be thinking, \"I should have thought about older customers. I'll go and show them how to use the tablet. We should also keep some paper menus.\"",
+          "simpleAnswerJa": "「年配のお客さんのことも考えるべきだった。あのお客さんたちのところへ行って、タブレットの使い方を教えてあげよう。紙のメニューも残しておいたほうがいい」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "Tablets are not easy for everyone to use.",
+              "ja": "タブレットは誰にとっても使いやすいわけではない"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have thought about older customers.",
+              "ja": "年配のお客さんのことも考えるべきだった"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll go and show them how to use the tablet.",
+              "ja": "あのお客さんたちのところへ行って、タブレットの使い方を教えてあげよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We should also keep some paper menus.",
+              "ja": "紙のメニューも残しておいたほうがいい"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -134,7 +387,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-1-interview/d-q2.mp3",
           "modelAnswer": "No, I don't think so. Paper is made from trees, which can be replanted, and it is easy to recycle. Also, computers and smartphones use electricity, so going paperless still has an impact on the environment. I think people should simply avoid wasting paper, for example, by printing only what they really need.",
           "modelAnswerJa": "いいえ、そうは思いません。紙は木から作られますが、木は植え直すことができますし、紙はリサイクルもしやすいです。また、コンピューターやスマートフォンは電気を使うので、紙を使わないようにしても環境への影響はあります。本当に必要なものだけを印刷するなどして、紙の無駄をなくせばよいと思います。",
-          "explanation": "stop using paper と「完全にやめる」ことを聞かれているので、紙の利点と電子機器の環境負荷を挙げて No とし、最後に「無駄をなくす」という現実的な代案を示しています。going paperless（紙を使わないようにすること）は覚えておくと便利です。Yes の立場なら「紙の消費を減らせば森林を守れるし、デジタル化すれば資料の共有も簡単になる」などが考えられます。"
+          "explanation": "stop using paper と「完全にやめる」ことを聞かれているので、紙の利点と電子機器の環境負荷を挙げて No とし、最後に「無駄をなくす」という現実的な代案を示しています。going paperless（紙を使わないようにすること）は覚えておくと便利です。Yes の立場なら「紙の消費を減らせば森林を守れるし、デジタル化すれば資料の共有も簡単になる」などが考えられます。",
+          "simpleAnswer": "No, they shouldn't. Paper is easy to recycle, and we can plant new trees. Also, computers and smartphones use a lot of electricity. So people should just try not to waste paper.",
+          "simpleAnswerJa": "いいえ、やめるべきではありません。紙はリサイクルしやすいですし、新しい木を植えることもできます。また、コンピューターやスマートフォンはたくさんの電気を使います。だから、紙を無駄にしないようにすればよいのです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Paper is easy to recycle.",
+              "ja": "紙はリサイクルしやすい"
+            },
+            {
+              "group": "No の理由",
+              "en": "We can plant new trees.",
+              "ja": "新しい木を植えることができる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Computers and smartphones use a lot of electricity.",
+              "ja": "コンピューターやスマートフォンはたくさんの電気を使う"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Cutting down trees is bad for the environment.",
+              "ja": "木を切るのは環境に悪い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "We can read and write on computers instead.",
+              "ja": "代わりにコンピューターで読み書きできる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -145,7 +427,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-1-interview/d-q3.mp3",
           "modelAnswer": "Yes, I think so. Before buying something, many people check online reviews to see what other customers think of it. They can also compare prices at different stores in just a few minutes. In addition, posts and advertisements on social media often make people want products that they did not know about before.",
           "modelAnswerJa": "はい、そう思います。何かを買う前に、多くの人はオンラインのレビューを確認して、他の客がそれをどう思っているかを調べます。また、ほんの数分でさまざまな店の価格を比較することもできます。さらに、SNS 上の投稿や広告によって、それまで知らなかった商品が欲しくなることもよくあります。",
-          "explanation": "レビュー・価格の比較・SNS の広告と、買う前に人々がインターネットで実際にしていることを順に挙げています。consumers' purchasing decisions という硬い言葉も、Before buying something のように簡単に言い換えれば話しやすくなります。No の立場なら「食料品や日用品などは、今も店頭で実物を見て選ぶ人が多い」などが考えられます。"
+          "explanation": "レビュー・価格の比較・SNS の広告と、買う前に人々がインターネットで実際にしていることを順に挙げています。consumers' purchasing decisions という硬い言葉も、Before buying something のように簡単に言い換えれば話しやすくなります。No の立場なら「食料品や日用品などは、今も店頭で実物を見て選ぶ人が多い」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Many people check online reviews before they buy something. They can compare prices in a few minutes, too. Also, ads on social media make people want new things. So the Internet is very important for shoppers.",
+          "simpleAnswerJa": "はい、そう思います。何かを買う前に、ネットのレビューを確認する人がたくさんいます。数分で値段を比べることもできます。また、SNS の広告を見て新しいものが欲しくなることもあります。だから、インターネットは買い物をする人にとってとても重要です。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many people check online reviews before they buy something.",
+              "ja": "何かを買う前にネットのレビューを確認する人が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can compare prices in a few minutes.",
+              "ja": "数分で値段を比べられる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Ads on social media make people want new things.",
+              "ja": "SNS の広告を見ると新しいものが欲しくなる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people ask their friends and family for advice.",
+              "ja": "友人や家族に相談する人も多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some online reviews are not true.",
+              "ja": "ネットのレビューには本当でないものもある"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -156,7 +467,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-1-interview/d-q4.mp3",
           "modelAnswer": "Yes, I think so. The world's population is growing, and climate change is making it harder to grow crops in some regions. Genetically modified crops can be made more resistant to pests and dry weather, so farmers can produce food more reliably. Some consumers are still worried about safety, but such foods will probably become more widely accepted over time.",
           "modelAnswerJa": "はい、そう思います。世界の人口は増えており、気候変動によって作物を育てるのが難しくなっている地域もあります。遺伝子組み換え作物は害虫や乾燥に強くすることができるので、農家はより安定して食料を生産できます。安全性を心配する消費者はまだいますが、こうした食品は時間とともにより広く受け入れられていくでしょう。",
-          "explanation": "人口増加と気候変動という世界的な背景を述べ、遺伝子組み換え作物の利点（害虫や乾燥に強い）につなげています。Some consumers are still worried ..., but ... と反対の見方にも触れると、バランスのとれた答えになります。No の立場なら「安全性への不安が根強く、避ける消費者も多いので、あまり広がらない」などが考えられます。"
+          "explanation": "人口増加と気候変動という世界的な背景を述べ、遺伝子組み換え作物の利点（害虫や乾燥に強い）につなげています。Some consumers are still worried ..., but ... と反対の見方にも触れると、バランスのとれた答えになります。No の立場なら「安全性への不安が根強く、避ける消費者も多いので、あまり広がらない」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. The world's population is growing, so we will need more food. Also, genetically modified crops can grow well even in dry weather. So they will become more common in the future.",
+          "simpleAnswerJa": "はい、そう思います。世界の人口は増えているので、もっと多くの食料が必要になります。また、遺伝子組み換え作物は乾燥した天候でもよく育ちます。だから、遺伝子組み換え食品は将来もっと広まるでしょう。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "The world's population is growing.",
+              "ja": "世界の人口は増えている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "We will need more food in the future.",
+              "ja": "将来、もっと多くの食料が必要になる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Genetically modified crops can grow well even in dry weather.",
+              "ja": "遺伝子組み換え作物は乾燥した天候でもよく育つ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people worry that these foods are not safe.",
+              "ja": "これらの食品は安全ではないと心配する人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people prefer natural food.",
+              "ja": "自然のままの食べ物を好む人が多い"
+            }
+          ]
         }
       ]
     }

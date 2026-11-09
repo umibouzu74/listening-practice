@@ -30,6 +30,65 @@
             "2コマ目: カード・定期券・家の鍵をスマートフォンのアプリに登録したことを言えた",
             "3コマ目: スマートフォンを見せ、「すべてこの中にある」と話したことを間接話法で言えた",
             "4コマ目: スマートフォンが手元になく、家に入る・支払う・改札を通ることができないと気づいたことを伝えられた"
+          ],
+          "simpleAnswer": "One day, a man visited a technology exhibition. He saw a booth for the ABC Smart Life App. The sign said that people could control their lives from their phones. He looked interested. The next day, he was sitting in a chair and setting up the app on his phone. He added his ABC card, his train pass, and his house key to the app. A few weeks later, he was talking with two coworkers. He showed them his phone and told them that everything was in there. They looked impressed. Later that day, however, the man couldn't find his phone. He realized that he couldn't open his door, pay at shops, or take the train without it. He looked very worried.",
+          "simpleAnswerJa": "ある日、ある男性がテクノロジーの展示会を訪れた。彼は ABC Smart Life App のブースを見つけた。看板には、スマートフォンから生活を管理できると書いてあった。彼は興味がありそうだった。翌日、彼は椅子に座って、スマートフォンにアプリを設定していた。ABC カード、電車の定期券、家の鍵をアプリに登録した。数週間後、彼は 2 人の同僚と話していた。彼はスマートフォンを見せて、すべてこの中に入っていると言った。2 人は感心した様子だった。ところがその日のうちに、男性はスマートフォンが見つからなくなった。それがないと、家のドアを開けることも、店で支払うことも、電車に乗ることもできないと気づいた。彼はとても心配そうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "He saw a booth for the ABC Smart Life App.",
+              "ja": "彼は ABC Smart Life App のブースを見つけた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The sign said that people could control their lives from their phones.",
+              "ja": "スマートフォンから生活を管理できると看板に書いてあった（命令文 → people could ... で言いかえ）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "He looked interested.",
+              "ja": "彼は興味がありそうだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He was setting up the app on his phone.",
+              "ja": "彼はスマートフォンにアプリを設定していた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He added his ABC card, his train pass, and his house key to the app.",
+              "ja": "ABC カード、電車の定期券、家の鍵をアプリに登録した"
+            },
+            {
+              "group": "3コマ目",
+              "en": "He was talking with two coworkers.",
+              "ja": "彼は 2 人の同僚と話していた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "He told them that everything was in there.",
+              "ja": "すべてこの中に入っていると言った（is → was、here → there）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "They looked impressed.",
+              "ja": "2 人は感心した様子だった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The man couldn't find his phone.",
+              "ja": "男性はスマートフォンが見つからなかった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He realized that he couldn't open his door without it.",
+              "ja": "それがないと家のドアを開けられないと気づいた（can't → couldn't）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He looked very worried.",
+              "ja": "彼はとても心配そうだった"
+            }
           ]
         },
         {
@@ -41,7 +100,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"It was a big mistake to depend on my phone for everything. Without it, I can't even get into my own house. First, I'll go back the way I came and look for it. From now on, I'll also carry some cash and a spare key, just in case.\"",
           "modelAnswerJa": "「何もかもスマートフォンに頼っていたのは大きな間違いだった。これがなければ、自分の家にさえ入れない。まずは来た道を戻って探そう。これからは、念のため現金と合鍵も持ち歩くようにしよう」と考えていると思います。",
-          "explanation": "4 コマ目は、男性が、スマートフォンがないと何もできないことに気づいた場面です。まず It was a big mistake to ... で反省を述べ、次に First, ... で今すぐすること、From now on, ... でこれからのことを続けると、順序のはっきりした答えになります。just in case（念のため）は、備えについて話すときに使いやすい表現です。"
+          "explanation": "4 コマ目は、男性が、スマートフォンがないと何もできないことに気づいた場面です。まず It was a big mistake to ... で反省を述べ、次に First, ... で今すぐすること、From now on, ... でこれからのことを続けると、順序のはっきりした答えになります。just in case（念のため）は、備えについて話すときに使いやすい表現です。",
+          "simpleAnswer": "I'd be thinking, \"Where is my phone? I shouldn't have put everything in it. Next time, I'll carry some cash and a spare key.\"",
+          "simpleAnswerJa": "「スマートフォンはどこだろう。何もかもスマートフォンに入れるべきではなかった。次からは、現金と合鍵を持ち歩こう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "Where is my phone?",
+              "ja": "スマートフォンはどこだろう"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I shouldn't have put everything in my phone.",
+              "ja": "何もかもスマートフォンに入れるべきではなかった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I can't even get into my house.",
+              "ja": "自分の家にさえ入れない"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll go back and look for it.",
+              "ja": "来た道を戻って探そう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll carry some cash and a spare key.",
+              "ja": "次からは、現金と合鍵を持ち歩こう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -51,7 +139,36 @@
           "promptJa": "人々は環境を守るために紙を使うのをやめるべきでしょうか。",
           "modelAnswer": "No, I don't think they should. Paper can be recycled, and the trees used to make it can be replanted. Digital devices are not perfect either, because making and using them takes a lot of energy and resources. Also, some people, such as the elderly, find paper much easier to use. I think it is more realistic to use less paper and recycle it properly.",
           "modelAnswerJa": "いいえ、やめるべきだとは思いません。紙はリサイクルできますし、原料の木は植え直すことができます。デジタル機器も完璧ではなく、製造や使用に多くのエネルギーや資源が必要です。また、お年寄りなど、紙のほうがずっと使いやすいと感じる人もいます。紙の使用を減らし、きちんとリサイクルするほうが現実的だと思います。",
-          "explanation": "質問の stop using paper（紙の使用をやめる）は極端な提案なので、No で答えて「紙は再利用できる」「デジタル機器にも環境への負担がある」「紙が必要な人もいる」と理由を重ね、最後に現実的な代案を示しています。X are not perfect either（X も完璧ではない）は、比べる相手にも欠点があることを指摘するときに便利です。Yes の立場なら「森林伐採を減らせるし、今は多くの書類を電子化できる」などが考えられます。"
+          "explanation": "質問の stop using paper（紙の使用をやめる）は極端な提案なので、No で答えて「紙は再利用できる」「デジタル機器にも環境への負担がある」「紙が必要な人もいる」と理由を重ね、最後に現実的な代案を示しています。X are not perfect either（X も完璧ではない）は、比べる相手にも欠点があることを指摘するときに便利です。Yes の立場なら「森林伐採を減らせるし、今は多くの書類を電子化できる」などが考えられます。",
+          "simpleAnswer": "No, they shouldn't. Paper can be recycled, and we can plant new trees. Also, paper is easier to use for many elderly people. So we should just use less paper and recycle it.",
+          "simpleAnswerJa": "いいえ、やめるべきではありません。紙はリサイクルできますし、新しい木を植えることもできます。また、多くのお年寄りにとっては紙のほうが使いやすいです。だから、紙を使う量を減らして、リサイクルすればよいと思います。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Paper can be recycled.",
+              "ja": "紙はリサイクルできる"
+            },
+            {
+              "group": "No の理由",
+              "en": "We can plant new trees.",
+              "ja": "新しい木を植えることができる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Paper is easier to use for many elderly people.",
+              "ja": "多くのお年寄りにとって紙のほうが使いやすい"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Making paper uses a lot of trees.",
+              "ja": "紙を作るにはたくさんの木を使う"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "We can read and write on computers instead.",
+              "ja": "代わりにパソコンで読み書きできる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -61,7 +178,36 @@
           "promptJa": "新しい技術は人々の生活に悪い影響を与えているでしょうか。",
           "modelAnswer": "Yes, I think so. Many people spend so much time looking at their smartphones that they have less time for sleep, exercise, and face-to-face conversations. People have also become too dependent on technology, so they are often in trouble when it stops working. Technology is certainly convenient, but it can also harm our health and our relationships.",
           "modelAnswerJa": "はい、そう思います。スマートフォンを見るのに多くの時間を費やし、睡眠や運動、直接の会話の時間が減っている人がたくさんいます。また、人々は技術に頼りすぎるようになっており、それが動かなくなると困ってしまうことがよくあります。技術は確かに便利ですが、健康や人間関係に害を及ぼすこともあります。",
-          "explanation": "スマートフォンという身近な例で「時間が奪われる」ことを示し、次にカードの話にもつながる「技術への依存」を挙げています。最後の certainly ..., but ... は、相手の反論（便利さ）を認めたうえで自分の意見に戻す形で、スピーキングでも使いやすい表現です。No の立場なら「医療や通信の進歩で、生活はずっと便利で安全になった」などが考えられます。"
+          "explanation": "スマートフォンという身近な例で「時間が奪われる」ことを示し、次にカードの話にもつながる「技術への依存」を挙げています。最後の certainly ..., but ... は、相手の反論（便利さ）を認めたうえで自分の意見に戻す形で、スピーキングでも使いやすい表現です。No の立場なら「医療や通信の進歩で、生活はずっと便利で安全になった」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Many people look at their smartphones for hours. They have less time to sleep or talk with their families. Also, people depend too much on technology. So it is not always good for our lives.",
+          "simpleAnswerJa": "はい、そう思います。何時間もスマートフォンを見ている人がたくさんいます。そのせいで、寝る時間や家族と話す時間が減っています。また、人々は技術に頼りすぎています。だから、技術はいつも生活によいとは限りません。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many people look at their smartphones for hours.",
+              "ja": "何時間もスマートフォンを見ている人が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They have less time to sleep or talk with their families.",
+              "ja": "寝る時間や家族と話す時間が減っている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People depend too much on technology.",
+              "ja": "人々は技術に頼りすぎている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Technology makes our lives easier.",
+              "ja": "技術のおかげで生活が便利になっている"
+            },
+            {
+              "group": "No の理由",
+              "en": "We can talk online with friends who live far away.",
+              "ja": "遠くに住む友達とオンラインで話せる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -71,7 +217,36 @@
           "promptJa": "政府が人々の個人データにアクセスすることは許されるべきでしょうか。",
           "modelAnswer": "No, I don't think so. Private data such as messages, medical records, and bank details can reveal a lot about a person's life. If the government could see this information freely, people might be afraid to express their opinions, and the data could also be leaked. Access should be allowed only in special cases, such as serious crimes, and with a court's permission.",
           "modelAnswerJa": "いいえ、そうは思いません。メッセージや医療記録、銀行口座の情報などの個人データからは、その人の生活について多くのことが分かってしまいます。政府がこうした情報を自由に見られるとしたら、人々は意見を言うのを恐れるようになるかもしれませんし、データが漏えいするおそれもあります。アクセスを認めるのは、重大な犯罪などの特別な場合に、裁判所の許可を得たときだけにすべきです。",
-          "explanation": "private data の具体例を挙げてから、If the government could ... という仮定法で「自由に見られるようになった場合の問題点」を述べています。最後に only in special cases と例外を認めると、極端でないバランスの取れた答えになります。Yes の立場なら「犯罪やテロの防止、災害時の救助に役立つ」などが考えられます。"
+          "explanation": "private data の具体例を挙げてから、If the government could ... という仮定法で「自由に見られるようになった場合の問題点」を述べています。最後に only in special cases と例外を認めると、極端でないバランスの取れた答えになります。Yes の立場なら「犯罪やテロの防止、災害時の救助に役立つ」などが考えられます。",
+          "simpleAnswer": "No, it shouldn't. People don't want others to see their messages or bank information. Also, the data might be stolen. So the government should look at it only in special cases, like serious crimes.",
+          "simpleAnswerJa": "いいえ、許されるべきではありません。人は自分のメッセージや銀行の情報を他人に見られたくありません。また、データが盗まれるかもしれません。だから、政府がそれを見るのは、重大な犯罪のような特別な場合だけにすべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "People don't want others to see their private messages.",
+              "ja": "人は自分のメッセージを他人に見られたくない"
+            },
+            {
+              "group": "No の理由",
+              "en": "The data might be stolen.",
+              "ja": "データが盗まれるかもしれない"
+            },
+            {
+              "group": "No の理由",
+              "en": "The government should look at it only in special cases.",
+              "ja": "政府が見るのは特別な場合だけにすべきだ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "It can help the police catch criminals.",
+              "ja": "警察が犯人を捕まえるのに役立つ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "It can help keep the country safe.",
+              "ja": "国の安全を守るのに役立つ"
+            }
+          ]
         }
       ]
     },
@@ -95,6 +270,60 @@
             "2コマ目: 店主たちの会合でボードの2案を示し、自転車のない週末が選ばれたことを言えた",
             "3コマ目: 自転車禁止（All day）の看板と、歩きやすくなった通りの様子を描写できた",
             "4コマ目: 子どもを乗せた自転車の男性が「止める場所がない」と言ったことを、however などで展開の変化を示して言えた"
+          ],
+          "simpleAnswer": "One day, a shop owner was talking to a staff member outside his shop. Many bicycles were parked in front of his ice cream shop, so it was hard for people to walk. He said that they should do something for their customers. At a shop-owners meeting, the owner talked about two ideas. He suggested having a bicycle-free weekend. The other owners agreed. A few months later, bicycles were not allowed on the street all day. People were walking freely, and a girl was buying ice cream. The owner looked happy. Later that day, however, a man came by bicycle with his child. He told the owner that they had no place to park. The owner looked worried.",
+          "simpleAnswerJa": "ある日、ある店主が自分の店の外で従業員と話していた。彼のアイスクリーム店の前にはたくさんの自転車が止めてあって、人々は歩きにくかった。彼は、お客さんのために何かするべきだと言った。店主たちの会合で、彼は 2 つの案について話した。彼は自転車のない週末にしようと提案した。ほかの店主たちは賛成した。数か月後、通りには一日中自転車が入れなくなった。人々は自由に歩いていて、女の子がアイスクリームを買っていた。店主はうれしそうだった。ところがその日のうちに、ある男性が子どもを乗せて自転車でやって来た。彼は店主に、自転車を止める場所がないと言った。店主は困った様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "Many bicycles were parked in front of his shop.",
+              "ja": "店の前にたくさんの自転車が止めてあった"
+            },
+            {
+              "group": "1コマ目",
+              "en": "He said that they should do something for their customers.",
+              "ja": "お客さんのために何かするべきだと言った（should はそのまま）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He suggested having a bicycle-free weekend.",
+              "ja": "自転車のない週末にしようと提案した（suggested + 動詞の ing 形）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The other owners agreed.",
+              "ja": "ほかの店主たちは賛成した"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Bicycles were not allowed on the street all day.",
+              "ja": "通りには一日中自転車が入れなかった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "People were walking freely.",
+              "ja": "人々は自由に歩いていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The owner looked happy.",
+              "ja": "店主はうれしそうだった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "A man came by bicycle with his child.",
+              "ja": "男性が子どもを乗せて自転車でやって来た"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He told the owner that they had no place to park.",
+              "ja": "自転車を止める場所がないと店主に言った（have → had）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The owner looked worried.",
+              "ja": "店主は困った様子だった"
+            }
           ]
         },
         {
@@ -106,7 +335,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの店主だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking that I hadn't considered people who really need their bicycles, such as parents with small children, and that this rule might be too strict. I'd also be thinking that I should talk to the other owners again about the idea of building a parking lot.",
           "modelAnswerJa": "自転車がどうしても必要な人、たとえば小さな子どものいる親のことを考えていなかった、この決まりは厳しすぎるのかもしれない、と考えていると思います。また、駐車場を作る案についてほかの店主たちともう一度話し合うべきだ、とも考えていると思います。",
-          "explanation": "4 コマ目は、店主が、通りを歩きやすくした一方で、自転車で来た人を困らせてしまった場面です。I'd be thinking that I hadn't considered ...（〜のことを考えていなかった）で見落としに気づいたことを、might be ...（〜かもしれない）で迷いを表しています。2 コマ目で選ばなかった案（parking lot）に戻って解決策を出すと、絵の流れを踏まえた答えになります。"
+          "explanation": "4 コマ目は、店主が、通りを歩きやすくした一方で、自転車で来た人を困らせてしまった場面です。I'd be thinking that I hadn't considered ...（〜のことを考えていなかった）で見落としに気づいたことを、might be ...（〜かもしれない）で迷いを表しています。2 コマ目で選ばなかった案（parking lot）に戻って解決策を出すと、絵の流れを踏まえた答えになります。",
+          "simpleAnswer": "I'd be thinking, \"I should have thought about parents with small children. They really need their bicycles. I'll talk to the other owners again about building a parking lot.\"",
+          "simpleAnswerJa": "「小さな子どものいる親のことを考えるべきだった。その人たちには自転車がどうしても必要だ。駐車場を作ることについて、ほかの店主たちともう一度話し合おう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I should have thought about parents with small children.",
+              "ja": "小さな子どものいる親のことを考えるべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "They really need their bicycles.",
+              "ja": "その人たちには自転車がどうしても必要だ"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "This rule may be too strict.",
+              "ja": "この決まりは厳しすぎるかもしれない"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll talk to the other owners again.",
+              "ja": "ほかの店主たちともう一度話し合おう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We should build a new parking lot.",
+              "ja": "新しい駐車場を作るべきだ"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -116,7 +374,36 @@
           "promptJa": "都市にもっと自転車専用レーンを作るべきでしょうか。",
           "modelAnswer": "No, I don't think so. Roads in many cities, especially in Japan, are already narrow and crowded, so adding cycle lanes would leave less room for cars and could make traffic worse. Building them also costs a lot of money. It would be better to spend that money on improving public transportation and providing more places to park bicycles.",
           "modelAnswerJa": "いいえ、そうは思いません。多くの都市、特に日本の道路はすでに狭くて混雑しているので、自転車専用レーンを増やすと車の通るスペースが減り、渋滞が悪化するかもしれません。建設には多額の費用もかかります。そのお金は、公共交通機関の改善や自転車を止める場所を増やすことに使うほうがよいでしょう。",
-          "explanation": "「道路が狭い」という日本の実情から始め、費用の問題を加え、最後に It would be better to ... で代案を出しています。反対するだけで終わらず代案を示すと、建設的な答えになります。Yes の立場なら「車と自転車を分ければ事故が減り、自転車の利用が増えれば排気ガスも減る」などが考えられます。"
+          "explanation": "「道路が狭い」という日本の実情から始め、費用の問題を加え、最後に It would be better to ... で代案を出しています。反対するだけで終わらず代案を示すと、建設的な答えになります。Yes の立場なら「車と自転車を分ければ事故が減り、自転車の利用が増えれば排気ガスも減る」などが考えられます。",
+          "simpleAnswer": "No, they shouldn't. Roads in Japanese cities are already narrow. Cycle lanes would make traffic worse. Also, building them costs a lot of money. So we should make more places to park bicycles instead.",
+          "simpleAnswerJa": "いいえ、作るべきではありません。日本の都市の道路はすでに狭いです。自転車専用レーンを作ると、渋滞がひどくなります。また、作るのに多くのお金がかかります。だから、代わりに自転車を止める場所を増やすべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Roads in Japanese cities are already narrow.",
+              "ja": "日本の都市の道路はすでに狭い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Cycle lanes would make traffic worse.",
+              "ja": "自転車専用レーンを作ると渋滞がひどくなる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Building them costs a lot of money.",
+              "ja": "作るのに多くのお金がかかる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Cycle lanes make riding a bicycle safer.",
+              "ja": "自転車専用レーンがあると自転車に安全に乗れる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More people will ride bicycles instead of driving cars.",
+              "ja": "車の代わりに自転車に乗る人が増える"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -126,7 +413,36 @@
           "promptJa": "ネットショッピング事業は今後さらに大きくなるでしょうか。",
           "modelAnswer": "Yes, I think it will. Online shopping is very convenient because people can buy things at any time and have them delivered to their homes. This is especially helpful for busy workers and for elderly people who cannot go out easily. As delivery services and smartphones continue to improve, even more people will probably start shopping this way.",
           "modelAnswerJa": "はい、大きくなると思います。ネットショッピングは、いつでも買い物ができて自宅まで届けてもらえるので、とても便利です。これは特に、忙しく働く人や簡単には外出できないお年寄りにとって助かります。配送サービスやスマートフォンがさらに進歩するにつれて、このように買い物をする人はおそらくもっと増えるでしょう。",
-          "explanation": "Will ...? の質問なので Yes, I think it will. と未来形で受け、「便利さ」→「特に助かる人」→「今後の変化（As ... continue to improve）」の順に述べています。未来の予測には probably を添えると、言い切りすぎない自然な言い方になります。No の立場なら「実物を見て買いたい人は多く、配送の人手不足も問題になっている」などが考えられます。"
+          "explanation": "Will ...? の質問なので Yes, I think it will. と未来形で受け、「便利さ」→「特に助かる人」→「今後の変化（As ... continue to improve）」の順に述べています。未来の予測には probably を添えると、言い切りすぎない自然な言い方になります。No の立場なら「実物を見て買いたい人は多く、配送の人手不足も問題になっている」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Online shopping is very convenient. People can buy things at any time without going out. Also, it is helpful for elderly people who can't go out easily. So more people will shop online in the future.",
+          "simpleAnswerJa": "はい、そう思います。ネットショッピングはとても便利です。出かけなくても、いつでも物を買うことができます。また、簡単には外出できないお年寄りにとって助かります。だから、将来はネットで買い物をする人がもっと増えるでしょう。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "People can buy things at any time.",
+              "ja": "いつでも物を買うことができる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They don't have to go out to buy things.",
+              "ja": "買い物に出かけなくてよい"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "It is helpful for elderly people.",
+              "ja": "お年寄りにとって助かる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people like to see things before they buy them.",
+              "ja": "買う前に実物を見たい人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Shopping at stores is fun.",
+              "ja": "お店での買い物は楽しい"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -136,7 +452,36 @@
           "promptJa": "今日、都市部は人口過密になってきているでしょうか。",
           "modelAnswer": "Yes, I think so. Many young people move to big cities like Tokyo because that is where most jobs and universities are. As a result, trains are extremely crowded, housing is expensive, and people often have long commutes. At the same time, rural areas are losing their populations, so the real problem is that people are not spread evenly across the country.",
           "modelAnswerJa": "はい、そう思います。仕事や大学の多くが集まっているので、多くの若者が東京のような大都市に移り住みます。その結果、電車はひどく混雑し、住宅は高く、通勤に長い時間がかかる人も多くなっています。同時に地方では人口が減っているので、本当の問題は、人々が国全体に均等に分散していないことです。",
-          "explanation": "「なぜ集まるのか（仕事・大学）」→「その結果（As a result, 混雑・住宅費・通勤）」→「地方の人口減少」と、原因と結果を順に述べています。東京という具体名を出すと、話が分かりやすくなります。No の立場なら「日本全体の人口は減っており、テレワークの普及で都市を離れる人もいる」などが考えられます。"
+          "explanation": "「なぜ集まるのか（仕事・大学）」→「その結果（As a result, 混雑・住宅費・通勤）」→「地方の人口減少」と、原因と結果を順に述べています。東京という具体名を出すと、話が分かりやすくなります。No の立場なら「日本全体の人口は減っており、テレワークの普及で都市を離れる人もいる」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Many young people move to big cities like Tokyo. They want to find jobs or go to university there. Also, trains are very crowded, and houses are expensive. So there are too many people in big cities.",
+          "simpleAnswerJa": "はい、そう思います。多くの若者が東京のような大都市に引っ越します。そこで仕事を見つけたり、大学に通ったりしたいのです。また、電車はとても混んでいて、家は高いです。だから、大都市には人が多すぎます。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many young people move to big cities like Tokyo.",
+              "ja": "東京のような大都市に引っ越す若者が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Most jobs and universities are in big cities.",
+              "ja": "仕事や大学の多くは大都市にある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Trains are very crowded every morning.",
+              "ja": "毎朝、電車がとても混んでいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Japan's population is getting smaller.",
+              "ja": "日本の人口は減っている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some people move to the countryside and work from home.",
+              "ja": "田舎に移って在宅で働く人もいる"
+            }
+          ]
         }
       ]
     }
