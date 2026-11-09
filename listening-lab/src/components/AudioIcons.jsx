@@ -50,3 +50,25 @@ export function ChevronIcon({ direction = 'right', size = 16 }) {
     </svg>
   );
 }
+
+export function SpeakerIcon({ size = 16 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 18 18" fill="none" aria-hidden="true">
+      <path d="M2.5 6.5H5.5L9.5 3V15L5.5 11.5H2.5V6.5Z" fill="currentColor" />
+      <path
+        d="M12 6.2C12.8 6.9 13.25 7.9 13.25 9C13.25 10.1 12.8 11.1 12 11.8M14.2 4C15.5 5.3 16.25 7.1 16.25 9C16.25 10.9 15.5 12.7 14.2 14"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function StopIcon({ size = 16 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 18 18" fill="none" aria-hidden="true">
+      <rect x="4.5" y="4.5" width="9" height="9" rx="1.5" fill="currentColor" />
+    </svg>
+  );
+}

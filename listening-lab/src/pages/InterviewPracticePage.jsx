@@ -3,6 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import Header from '../components/Header';
 import InterviewCard from '../components/InterviewCard';
 import { InterviewReviewStep } from '../components/InterviewReview';
+import PhraseHints from '../components/PhraseHints';
 import SelfScore from '../components/SelfScore';
 import useLeaveGuard from '../hooks/useLeaveGuard';
 import usePreference from '../hooks/usePreference';
@@ -32,6 +33,7 @@ const MIC_NOTES = {
 /**
  * 面接の練習形式。ナレーション・No.1〜4 を1つずつ選び、何度でもやり直せる。
  * 1回ごとに「面接官の指示・質問 → 録音して答える → 振り返り・自己採点」の順に進む。
+ * 「フレーズ」をオンにすると、答える前と答えている間に使えるフレーズを出す（まだ話せない人向けのヒント）。
  */
 export default function InterviewPracticePage({ examSet, section }) {
   const { examType, examId } = useParams();
@@ -51,10 +53,13 @@ export default function InterviewPracticePage({ examSet, section }) {
   const [modelShown, setModelShown] = useState({});
   const [textFallback, setTextFallback] = useState({});
   const [cardPeek, setCardPeek] = useState(false);
+  // 「フレーズを見ずにもう一度」で始めた回（フレーズをオンにしたままでも、この回だけ隠す）
+  const [hintsOff, setHintsOff] = useState(false);
   // 前回までに保存した練習の自己採点（表示用。開いた時点のものを使う）
   const [savedRecord] = useState(() => getInterviewRecord(examId, section.id));
   const [showPrompt, setShowPrompt] = usePreference('interviewShowPrompt', true);
   const [showTranslation, setShowTranslation] = usePreference('interviewShowTranslation', false);
+  const [showPhrases, setShowPhrases] = usePreference('interviewShowPhrases', false);
 
   const recorder = useRecorder();
   const {
@@ -149,12 +154,13 @@ export default function InterviewPracticePage({ examSet, section }) {
 
   useLeaveGuard(busy, LEAVE_MESSAGE);
 
-  const startAttempt = async () => {
+  const startAttempt = async ({ withoutHints = false } = {}) => {
     if (busy) return;
     // クリックの中で音声と読み上げを有効にしておく（iPhone 対策）
     unlockAudio();
     unlockSpeech();
     setCardPeek(false);
+    setHintsOff(withoutHints);
     if (recorder.status !== 'unsupported') await recorder.prepare();
     setAttemptNo((n) => n + 1);
     setPhase('cue');
@@ -164,6 +170,7 @@ export default function InterviewPracticePage({ examSet, section }) {
     if (busy || i < 0 || i >= steps.length) return;
     setStepIndex(i);
     setCardPeek(false);
+    setHintsOff(false);
     window.scrollTo(0, 0); // ページの下の「次へ」から来ても、開始ボタンが見えるように
   };
 
@@ -188,6 +195,13 @@ export default function InterviewPracticePage({ examSet, section }) {
   const attempted = (attempts[q.id] || 0) > 0;
   const micNote = MIC_NOTES[recorder.status];
   const nextStep = steps[stepIndex + 1];
+  const reviewShown = !busy && (attempted || modelShown[q.id]);
+  // 振り返りにはこの質問のフレーズが入るので、フレーズのパネルは答える前と回答中だけ出す
+  const hints = showPhrases && !reviewShown && !(busy && hintsOff)
+    ? <PhraseHints key={q.id} question={q} answering={busy} />
+    : null;
+  // カードを見ながら話している間は、カードを先に（フレーズはその下に）出す
+  const hintsAfterCard = busy && showCard;
 
   return (
     <div className={styles.page} style={{ '--accent': accent }}>
@@ -229,6 +243,13 @@ export default function InterviewPracticePage({ examSet, section }) {
               aria-pressed={showTranslation}
             >
               和訳
+            </button>
+            <button
+              className={`${styles.toggle} ${showPhrases ? styles.toggleOn : ''}`}
+              onClick={() => setShowPhrases((v) => !v)}
+              aria-pressed={showPhrases}
+            >
+              フレーズ
             </button>
           </div>
         </div>
@@ -288,13 +309,22 @@ export default function InterviewPracticePage({ examSet, section }) {
             <div className={styles.actions}>
               <button
                 className={styles.primaryButton}
-                onClick={startAttempt}
+                onClick={() => startAttempt()}
                 disabled={recorder.status === 'requesting'}
               >
                 {recorder.status === 'requesting'
                   ? 'マイクの許可を待っています…'
                   : attempted ? 'もう一度やる' : isNarration ? 'ナレーションを始める' : '質問を聞いて答える'}
               </button>
+              {attempted && showPhrases && (
+                <button
+                  className={styles.secondaryButton}
+                  onClick={() => startAttempt({ withoutHints: true })}
+                  disabled={recorder.status === 'requesting'}
+                >
+                  フレーズを見ずにもう一度
+                </button>
+              )}
               {micNote && <p className={styles.notice}>{micNote}</p>}
               {!q.audio && !isSpeechSupported() && !isNarration && (
                 <p className={styles.notice}>このブラウザは読み上げに対応していないため、質問を文字で表示します。</p>
@@ -319,8 +349,10 @@ export default function InterviewPracticePage({ examSet, section }) {
           )}
         </section>
 
+        {!hintsAfterCard && hints}
+
         {/* 回答し終えたら、振り返り（録音・模範解答・自己採点）をすぐ下に出す */}
-        {!busy && (attempted || modelShown[q.id]) && (
+        {reviewShown && (
           <div className={styles.review}>
             <InterviewReviewStep question={q} card={section.card} recording={recordings[q.id]} accentColor={accent}>
               {attempted && (
@@ -348,6 +380,8 @@ export default function InterviewPracticePage({ examSet, section }) {
             </button>
           </div>
         )}
+
+        {hintsAfterCard && hints}
 
         {!busy && !attempted && !modelShown[q.id] && (
           <button

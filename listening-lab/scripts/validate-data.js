@@ -8,11 +8,12 @@
  *   - 正解（answer）が選択肢のラベルに存在しない
  *   - 参照している音声・画像ファイルが public/ に存在しない
  *   - 面接形式（"format": "interview"）: カード画像・指示文・最初の一文の欠落、
- *     ナレーションと No.1〜4 がそろっていない、質問文（prompt）の欠落
+ *     ナレーションと No.1〜4 がそろっていない、質問文（prompt）の欠落、phrases の形式の誤り
  * 警告（終了コードには影響しない）:
  *   - script / explanation / scriptJa の欠落
  *   - 英文スクリプトと和訳の段落数の不一致
- *   - 面接形式: modelAnswer / modelAnswerJa / explanation の欠落、面接官の音声（audio / cues）が一部だけ
+ *   - 面接形式: modelAnswer / modelAnswerJa / explanation の欠落、面接官の音声（audio / cues）が一部だけ、
+ *     simpleAnswer に和訳（simpleAnswerJa）がない
  *
  * 使い方:
  *   npm run validate
@@ -55,6 +56,34 @@ function checkPublicFile(where, path, kind) {
 
 const checkAudio = (where, path) => checkPublicFile(where, path, "音声");
 const checkImage = (where, path) => checkPublicFile(where, path, "画像");
+
+/**
+ * 面接形式の「使えるフレーズ」（phrases）と「かんたん解答例」（simpleAnswer）を検証する。どちらも任意。
+ */
+function validatePhrases(qw, q) {
+  if (q.phrases !== undefined) {
+    const ok =
+      Array.isArray(q.phrases) &&
+      q.phrases.every(
+        (p) =>
+          p && typeof p === "object" &&
+          typeof p.en === "string" && p.en.trim() &&
+          typeof p.ja === "string" &&
+          (p.group === undefined || typeof p.group === "string")
+      );
+    if (!ok) {
+      errors.push(`${qw}: phrases は [{ "en": "…", "ja": "…", "group": "…"（任意） }] の形式にしてください`);
+    } else if (q.phrases.some((p) => /~|〜|_{2,}/.test(p.en))) {
+      warnings.push(`${qw}: phrases の en は読み上げるので、空欄は「~」「___」ではなく「...」で書いてください`);
+    }
+  }
+  if (q.simpleAnswer !== undefined && typeof q.simpleAnswer !== "string") {
+    errors.push(`${qw}: simpleAnswer は文字列にしてください`);
+  }
+  if (q.simpleAnswer && !q.simpleAnswerJa) {
+    warnings.push(`${qw}: simpleAnswer（かんたん解答例）の和訳 simpleAnswerJa がありません`);
+  }
+}
 
 /**
  * 面接形式（英検二次試験）のセクション（問題カード1枚）を検証する。
@@ -118,6 +147,7 @@ function validateInterviewSection(sw, section, draft, missing) {
     if (q.checkpoints !== undefined && (!Array.isArray(q.checkpoints) || q.checkpoints.some((c) => typeof c !== "string"))) {
       errors.push(`${qw}: checkpoints は文字列の配列にしてください`);
     }
+    validatePhrases(qw, q);
 
     if (draft) continue;
     if (!q.modelAnswer) missing.modelAnswer.push(`${section.id}/${q.id}`);

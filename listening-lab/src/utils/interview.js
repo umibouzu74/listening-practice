@@ -40,11 +40,18 @@ export function hasInterviewAudio(section) {
   return (section?.questions || []).some((q) => q.audio);
 }
 
+/**
+ * 質問の種類。共通の採点観点・基本フレーズの切り替えに使う
+ *   'narration'（ナレーション）| 'picture'（カードを見て答える No.1）| 'opinion'（意見を述べる No.2〜4）
+ */
+export function questionKind(q) {
+  if (q.type === 'narration') return 'narration';
+  return q.showCard ? 'picture' : 'opinion';
+}
+
 /** 自己採点の横に出す観点（共通の観点 + カードごとの checkpoints） */
 export function checkpointsFor(q) {
-  const common = INTERVIEW_CONFIG.checkpoints;
-  const base = q.type === 'narration' ? common.narration : q.showCard ? common.picture : common.opinion;
-  return [...(q.checkpoints || []), ...base];
+  return [...(q.checkpoints || []), ...INTERVIEW_CONFIG.checkpoints[questionKind(q)]];
 }
 
 /**

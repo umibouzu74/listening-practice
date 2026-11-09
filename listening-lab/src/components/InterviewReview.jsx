@@ -1,4 +1,5 @@
 import MiniAudioPlayer from './MiniAudioPlayer';
+import PhraseList from './PhraseList';
 import { formatTime } from '../utils/audio';
 import { getInterviewSteps, stepLabel } from '../utils/interview';
 import styles from './InterviewReview.module.css';
@@ -17,7 +18,8 @@ function Field({ label, children, lang }) {
 
 /**
  * 1ステップ（ナレーション / No.1〜4）分の振り返り。
- * 自分の録音・質問文・模範解答・和訳・解説を並べる。children に自己採点などを差し込める。
+ * 自分の録音・質問文・かんたん解答例・使えるフレーズ・模範解答・和訳・解説を並べる。
+ * children に自己採点などを差し込める。
  */
 export function InterviewReviewStep({ question, card, recording, accentColor, children }) {
   const isNarration = question.type === 'narration';
@@ -53,6 +55,24 @@ export function InterviewReviewStep({ question, card, recording, accentColor, ch
           <p lang="en">{question.prompt}</p>
           {question.promptJa && <p className={styles.translation}>{question.promptJa}</p>}
         </Field>
+      )}
+
+      {question.simpleAnswer && (
+        <div className={`${styles.field} ${styles.simple}`}>
+          <span className={styles.fieldLabel}>かんたん解答例（まずはここを目指す）</span>
+          <div className={styles.fieldBody}>
+            <p className={styles.model} lang="en">
+              {question.simpleAnswer}
+            </p>
+            {question.simpleAnswerJa && <p className={styles.translation}>{question.simpleAnswerJa}</p>}
+          </div>
+        </div>
+      )}
+      {question.phrases?.length > 0 && (
+        <div className={styles.field}>
+          <span className={styles.fieldLabel}>使えるフレーズ</span>
+          <PhraseList phrases={question.phrases} />
+        </div>
       )}
 
       <Field label="模範解答" lang="en">

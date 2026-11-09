@@ -76,3 +76,11 @@
   font-size: 0.8rem;
   color: var(--color-text-muted);
 }
+
+/* かんたん解答例: 模範解答より手前の目標として目立たせる */
+.simple {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.04);
+  border-left: 3px solid var(--accent, var(--color-accent));
+}
