@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import ExamListPage from './pages/ExamListPage';
 import SectionsPage from './pages/SectionsPage';
 import PracticeRoute from './pages/PracticeRoute';
+import PhraseBookPage from './pages/PhraseBookPage';
 import styles from './pages/PracticePage.module.css';
 
 /** 画面遷移のたびに先頭へスクロール（HashRouter は自動でやらないため） */
@@ -44,6 +45,8 @@ const router = createHashRouter([
     children: [
       { path: '/', element: <HomePage /> },
       { path: '/:examType', element: <ExamListPage /> },
+      // 面接の基本フレーズ集（/:examType/:examId より優先される）
+      { path: '/eiken/phrases', element: <PhraseBookPage /> },
       { path: '/:examType/:examId', element: <SectionsPage /> },
       { path: '/:examType/:examId/:sectionId', element: <PracticeRoute /> },
     ],

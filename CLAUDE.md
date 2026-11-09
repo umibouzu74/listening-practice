@@ -44,10 +44,12 @@ React + Vite で構築し、GitHub Pages にデプロイする。
   - 面接官の発話（音声ファイル or 読み上げ）は hooks/useQuestionAudio.js + utils/interview.js の runCue を使う。audio 要素を1つ使い回すので、開始ボタンのクリック処理で unlock() を呼ぶ（iPhone 対策）。速度設定は受け継がず常に等倍
   - 時間の目安・決まり文句（読み上げ用）・共通の採点観点は examConfig.js の INTERVIEW_CONFIG
   - どのカードでも使える基本の型（フレーズ）は utils/interviewPhrases.js。フレーズの一覧は components/PhraseList.jsx（読み上げボタン付き）、練習形式のヒント欄は components/PhraseHints.jsx
+  - 基本フレーズ集のページは pages/PhraseBookPage.jsx（内容は interviewPhrases.js の PHRASE_BOOK）。入口は components/PhraseBookLink.jsx
   - 自己採点・練習回数は utils/interviewHistory.js（localStorage の別キー）。リスニングの history.js とは混ぜない
 - コミット前に `npm run lint` と `npm run build` が通ることを確認する
 - ルーティング: #/:examType/:examId/:sectionId（sectionId=all で全問通し、?mode=wrong で前回間違えた問題のみ、?mode=exam で本番モード）
   - 面接の回は sectionId = 問題カードの id。?mode=exam で本番形式、なしで練習形式（all・wrong はない）
+  - #/eiken/phrases は面接の基本フレーズ集（examId "phrases" は使わない）
 - コミットメッセージは日本語OK
 
 ## Structure

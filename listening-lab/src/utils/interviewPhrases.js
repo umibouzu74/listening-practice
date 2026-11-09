@@ -1,5 +1,6 @@
 // 英検二次試験（面接）の「基本の型」: どのカードでも使える短いフレーズ。
 // 練習形式で「フレーズ」をオンにすると、カードごとのフレーズ（データの phrases）と一緒に表示する。
+// 基本フレーズ集のページ（pages/PhraseBookPage.jsx）では、入室〜退室のやりとりも合わせてまとめて練習できる。
 // 項目は { group, en, ja }。en は読み上げるので、空欄は「...」で書く（「~」「___」は読み上げが不自然になる）。
 import { questionKind } from './interview';
 
@@ -56,6 +57,70 @@ const STUCK_PHRASES = [
   { group: '言葉に詰まったとき', en: 'That\'s a difficult question, but I think ...', ja: '難しい質問ですが、…だと思います' },
   { group: '言葉に詰まったとき', en: 'I\'m sorry. Could you say that again, please?', ja: 'すみません、もう一度言っていただけますか（質問が聞き取れなかったとき）' },
 ];
+
+// 入室から退室までの決まったやりとり（受験者が言うこと）。基本フレーズ集にだけ出す
+const FLOW_PHRASES = [
+  { group: '入室・あいさつ', en: 'Good afternoon.', ja: 'こんにちは（入室したとき。午前なら Good morning.）' },
+  { group: '入室・あいさつ', en: 'Here you are.', ja: 'どうぞ（面接カードを渡すとき）' },
+  { group: '入室・あいさつ', en: 'Thank you.', ja: 'ありがとうございます（Please have a seat. と言われて座るとき）' },
+  { group: '入室・あいさつ', en: 'My name is Yuki Tanaka.', ja: '私の名前は田中ゆきです（名前を聞かれたとき）' },
+  { group: '入室・あいさつ', en: 'I\'m fine, thank you.', ja: '元気です、ありがとうございます（How are you? と聞かれたとき）' },
+  { group: '最初の会話（自分のこと）', en: 'I\'m a high school student.', ja: '高校生です' },
+  { group: '最初の会話（自分のこと）', en: 'I\'m in the tennis club at school.', ja: '学校でテニス部に入っています' },
+  { group: '最初の会話（自分のこと）', en: 'I like reading books in my free time.', ja: '空いた時間に本を読むのが好きです' },
+  { group: '最初の会話（自分のこと）', en: 'I came here by train.', ja: '電車でここに来ました' },
+  { group: '退室', en: 'Sure. Here you are.', ja: 'はい、どうぞ（問題カードを返すとき）' },
+  { group: '退室', en: 'Thank you. Goodbye.', ja: 'ありがとうございました。さようなら' },
+  { group: '退室', en: 'Have a nice day.', ja: 'よい一日を（最後にひと言添えるなら）' },
+];
+
+/**
+ * 基本フレーズ集（#/eiken/phrases）の内容。準1級の面接の流れに合わせて並べる（short は上部のジャンプ用の短い名前）。
+ * grade の級の面接一覧に、フレーズ集へのリンクを出す。
+ */
+export const PHRASE_BOOK = {
+  grade: 'pre1',
+  title: '面接の基本フレーズ集',
+  subtitle: '英検準1級 二次試験',
+  sections: [
+    {
+      id: 'flow',
+      title: '入室から退室まで',
+      short: '入室〜退室',
+      description: '面接の始めと終わりのやりとりです。どの回もほぼ同じ流れなので、まるごと覚えてしまいましょう。',
+      phrases: FLOW_PHRASES,
+    },
+    {
+      id: 'narration',
+      title: 'ナレーション',
+      short: 'ナレーション',
+      description: '絵の人物の動作・セリフ・考えを伝える言い方です。話はすべて過去形・過去進行形で進めます。',
+      phrases: BASIC_PHRASES.narration.phrases,
+    },
+    {
+      id: 'picture',
+      title: 'No.1（絵の人物の考え）',
+      short: 'No.1',
+      description: '「もしあなたがこの人物だったら、何を考えているか」に答える型です。',
+      phrases: BASIC_PHRASES.picture.phrases,
+    },
+    {
+      id: 'opinion',
+      title: 'No.2〜4（意見を言う）',
+      short: 'No.2〜4',
+      description: '「立場 → 理由 → まとめ」の順に話します。理由が思いつかないときのネタも覚えておくと安心です。',
+      phrases: BASIC_PHRASES.opinion.phrases,
+    },
+    {
+      id: 'stuck',
+      title: '言葉に詰まったとき',
+      short: '詰まったとき',
+      description: '黙り込むより、ひと言つないで話し続けましょう。',
+      // 区分の名前と同じ見出しは出さない
+      phrases: STUCK_PHRASES.map((p) => ({ en: p.en, ja: p.ja })),
+    },
+  ],
+};
 
 /** 質問の種類に合った基本の型（{ title, phrases }） */
 export function basicPhrasesFor(q) {
