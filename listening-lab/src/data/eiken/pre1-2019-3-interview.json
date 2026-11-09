@@ -30,6 +30,65 @@
             "2コマ目: 営業の女性がカタログを見せて高級綿タオルを勧め、オーナーがうなずいていることを描写できた",
             "3コマ目: 新しいタオルを客室で使い始め、客が喜んでいる様子を描写できた",
             "4コマ目: 「客がタオルを持ち帰っている」を had been taking を使って言い、オーナーの驚きを伝えられた"
+          ],
+          "simpleAnswer": "One day, a man who owned a hotel was sitting in his office. He was looking at this year's hotel rankings with another man. His hotel, the Starlight Hotel, was in third place. He said that they needed to do better. The next day, a saleswoman came to see him with a catalog. She recommended some luxury cotton towels. He was nodding. A month later, the hotel was using the new towels. A guest was holding one of the towels in her room. She looked very happy. The following month, a hotel worker came to see the owner. He told the owner that customers had been taking the hotel's towels home. The owner looked shocked.",
+          "simpleAnswerJa": "ある日、ホテルを所有している男性が自分のオフィスで座っていた。彼はもう 1 人の男性と一緒に、今年のホテルランキングを見ていた。彼のホテルであるスターライトホテルは 3 位だった。彼は、もっとよくする必要があると言った。翌日、営業の女性がカタログを持って彼に会いに来た。彼女は高級な綿のタオルをすすめた。彼はうなずいていた。1 か月後、ホテルは新しいタオルを使っていた。宿泊客が部屋でそのタオルを手に持っていた。彼女はとてもうれしそうだった。翌月、ホテルの従業員がオーナーに会いに来た。彼は、客がホテルのタオルを持ち帰っているとオーナーに伝えた。オーナーはショックを受けた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "He was looking at this year's hotel rankings.",
+              "ja": "彼は今年のホテルランキングを見ていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "His hotel was in third place.",
+              "ja": "彼のホテルは 3 位だった"
+            },
+            {
+              "group": "1コマ目",
+              "en": "He said that they needed to do better.",
+              "ja": "もっとよくする必要があると言った（need → needed、we → they）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "A saleswoman came to see him with a catalog.",
+              "ja": "営業の女性がカタログを持って会いに来た"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She recommended some luxury cotton towels.",
+              "ja": "彼女は高級な綿のタオルをすすめた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The hotel was using the new towels.",
+              "ja": "ホテルは新しいタオルを使っていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "A guest was holding one of the towels in her room.",
+              "ja": "宿泊客が部屋でそのタオルを手に持っていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She looked very happy.",
+              "ja": "彼女はとてもうれしそうだった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "A hotel worker came to see the owner.",
+              "ja": "ホテルの従業員がオーナーに会いに来た"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He told the owner that customers had been taking the hotel's towels home.",
+              "ja": "客がホテルのタオルを持ち帰っているとオーナーに伝えた（have been → had been）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The owner looked shocked.",
+              "ja": "オーナーはショックを受けた様子だった"
+            }
           ]
         },
         {
@@ -41,7 +100,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこのホテルのオーナーだったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"It's nice that guests love these towels, but we can't keep buying new ones. Why don't we sell them at the front desk? Then guests who want one could take it home, and the towels might even help more people remember our hotel.\"",
           "modelAnswerJa": "「お客さんがこのタオルを気に入ってくれているのはうれしいが、新しいものを買い続けることはできない。フロントで販売してはどうだろう。そうすれば、欲しいお客さんは持ち帰れるし、タオルのおかげでうちのホテルを覚えてくれる人も増えるかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目は、オーナーが、せっかく導入したタオルが持ち帰られていると聞いた場面です。It's nice that ..., but ... で、よい面と困った面の両方を認めてから、Why don't we ...? で解決策を出しています。問題をチャンスに変える案を述べると前向きな印象になり、「ホテルの人気を上げたい」というカードの設定にもつながります。"
+          "explanation": "4 コマ目は、オーナーが、せっかく導入したタオルが持ち帰られていると聞いた場面です。It's nice that ..., but ... で、よい面と困った面の両方を認めてから、Why don't we ...? で解決策を出しています。問題をチャンスに変える案を述べると前向きな印象になり、「ホテルの人気を上げたい」というカードの設定にもつながります。",
+          "simpleAnswer": "I'd be thinking, \"I'm glad the guests like our towels. But buying new towels costs a lot of money. I'll start selling the towels at the front desk.\"",
+          "simpleAnswerJa": "「お客さんがタオルを気に入ってくれるのはうれしい。でも、新しいタオルを買うにはお金がたくさんかかる。フロントでタオルを売り始めよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "I'm glad the guests like our towels.",
+              "ja": "お客さんがタオルを気に入ってくれるのはうれしい"
+            },
+            {
+              "group": "気持ち",
+              "en": "Buying new towels costs a lot of money.",
+              "ja": "新しいタオルを買うにはお金がたくさんかかる"
+            },
+            {
+              "group": "気持ち",
+              "en": "This is a big problem.",
+              "ja": "これは大問題だ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll start selling the towels at the front desk.",
+              "ja": "フロントでタオルを売り始めよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask guests not to take the towels home.",
+              "ja": "お客さんにタオルを持ち帰らないようお願いしよう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -51,7 +139,36 @@
           "promptJa": "すべての人が海外旅行をすべきだと思いますか。",
           "modelAnswer": "No, I don't think so. Traveling abroad can be a great experience, but it costs a lot of money and takes time, so not everyone can do it. Some people also have health problems or family responsibilities. Besides, people can now learn about other cultures without leaving their country, through the Internet or by talking with foreign visitors.",
           "modelAnswerJa": "いいえ、そうは思いません。海外旅行はすばらしい経験になることもありますが、お金も時間もかかるので、誰もができるわけではありません。健康上の問題や家族への責任を抱えている人もいます。それに、今はインターネットや外国からの訪問者との会話を通じて、自分の国を離れなくても他の文化について学ぶことができます。",
-          "explanation": "質問の everyone に注目し、「よい経験だが、全員にとって必要でも可能でもない」と答えています。can be a great experience, but ... と一度認めてから理由を述べると、極端に聞こえません。最後の Besides ... は「海外に行かなくても目的は果たせる」という別の角度からの理由です。Yes の立場なら「実際に外国で暮らす人々に触れると視野が広がり、自分の国についても見直せる」などが考えられます。"
+          "explanation": "質問の everyone に注目し、「よい経験だが、全員にとって必要でも可能でもない」と答えています。can be a great experience, but ... と一度認めてから理由を述べると、極端に聞こえません。最後の Besides ... は「海外に行かなくても目的は果たせる」という別の角度からの理由です。Yes の立場なら「実際に外国で暮らす人々に触れると視野が広がり、自分の国についても見直せる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Traveling abroad costs a lot of money, and some people are too busy. Also, we can learn about other countries on the Internet. So not everyone needs to go abroad.",
+          "simpleAnswerJa": "いいえ、そうは思いません。海外旅行はお金がたくさんかかりますし、忙しすぎる人もいます。また、インターネットでほかの国について学ぶことができます。だから、全員が海外に行く必要はありません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Traveling abroad costs a lot of money.",
+              "ja": "海外旅行はお金がたくさんかかる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some people are too busy to travel.",
+              "ja": "忙しすぎて旅行できない人もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "We can learn about other countries on the Internet.",
+              "ja": "インターネットでほかの国について学べる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People can learn a lot about other cultures.",
+              "ja": "ほかの文化についてたくさん学べる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can make friends from other countries.",
+              "ja": "ほかの国の友達ができる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -61,7 +178,36 @@
           "promptJa": "サービス業の従業員は、雇用主から十分によい待遇を受けているでしょうか。",
           "modelAnswer": "No, I don't think they are. Many people working in restaurants, hotels, and stores have low pay and long working hours, and they often have to work on weekends and holidays. Some also have to deal with rude customers without enough support from their managers. Employers should raise wages and protect their staff from such customers.",
           "modelAnswerJa": "いいえ、受けていないと思います。飲食店やホテル、店舗で働く人の多くは、給料が低く労働時間が長いうえに、週末や祝日に働かなければならないこともよくあります。また、上司から十分な支えを得られないまま、失礼な客に対応しなければならない人もいます。雇用主は賃金を上げ、そうした客から従業員を守るべきです。",
-          "explanation": "Are employees ...? の質問なので、No, I don't think they are. と答えています。low pay や long working hours など待遇の問題を具体的に挙げ、rude customers（失礼な客）という接客業ならではの問題も加えました。最後に Employers should ... で雇う側がすべきことを述べて、質問の by their employers に対応させています。Yes の立場なら「人手不足のため、賃金を上げたり休みを増やしたりする企業が増えている」などが考えられます。"
+          "explanation": "Are employees ...? の質問なので、No, I don't think they are. と答えています。low pay や long working hours など待遇の問題を具体的に挙げ、rude customers（失礼な客）という接客業ならではの問題も加えました。最後に Employers should ... で雇う側がすべきことを述べて、質問の by their employers に対応させています。Yes の立場なら「人手不足のため、賃金を上げたり休みを増やしたりする企業が増えている」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Many workers in restaurants and stores get low pay. They often work long hours, even on weekends. Also, some customers are rude to them. So employers should take better care of their workers.",
+          "simpleAnswerJa": "いいえ、そうは思いません。飲食店や店で働く人の多くは給料が低いです。週末も含めて、長時間働くことがよくあります。また、失礼な客もいます。だから、雇い主は従業員をもっと大切にするべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many workers in restaurants and stores get low pay.",
+              "ja": "飲食店や店で働く人の多くは給料が低い"
+            },
+            {
+              "group": "No の理由",
+              "en": "They often work long hours, even on weekends.",
+              "ja": "週末も含めて、長時間働くことが多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some customers are rude to them.",
+              "ja": "失礼な客もいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many companies are raising their workers' pay.",
+              "ja": "従業員の給料を上げている会社は多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some companies protect their workers from rude customers.",
+              "ja": "失礼な客から従業員を守っている会社もある"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -71,7 +217,36 @@
           "promptJa": "企業は環境を守るためにもっと取り組むべきでしょうか。",
           "modelAnswer": "Yes, I think they should. Companies use huge amounts of energy and resources, so their actions have a much bigger effect than those of individuals. They could switch to renewable energy and reduce the plastic in their products. This could also improve their image, because many customers today prefer to buy from companies that care about the environment.",
           "modelAnswerJa": "はい、取り組むべきだと思います。企業は膨大な量のエネルギーや資源を使っているので、その行動は個人の行動よりもはるかに大きな影響を与えます。再生可能エネルギーに切り替えたり、製品に使うプラスチックを減らしたりすることができるはずです。今は環境に配慮する企業から買いたいと考える客が多いので、これは企業のイメージを高めることにもなるでしょう。",
-          "explanation": "「企業の影響は個人より大きい」→「できること（再生可能エネルギー、プラスチック削減）」→「企業にとっての利点（イメージの向上）」の順に述べています。環境の話でも、企業側のメリットに触れると現実的な答えになります。renewable energy（再生可能エネルギー）は環境の話題でよく使う語句です。No の立場なら「環境対策の費用は製品の値上げにつながり、中小企業には負担が大きい」などが考えられます。"
+          "explanation": "「企業の影響は個人より大きい」→「できること（再生可能エネルギー、プラスチック削減）」→「企業にとっての利点（イメージの向上）」の順に述べています。環境の話でも、企業側のメリットに触れると現実的な答えになります。renewable energy（再生可能エネルギー）は環境の話題でよく使う語句です。No の立場なら「環境対策の費用は製品の値上げにつながり、中小企業には負担が大きい」などが考えられます。",
+          "simpleAnswer": "Yes, they should. Companies use a lot of energy and plastic, so they can make a big difference. Also, many customers like companies that care about the environment. So it is good for their business, too.",
+          "simpleAnswerJa": "はい、そうすべきです。企業はエネルギーやプラスチックをたくさん使うので、大きな変化を起こせます。また、環境に配慮している企業を好む客はたくさんいます。だから、それは企業のビジネスにとってもよいことです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Companies use a lot of energy and plastic.",
+              "ja": "企業はエネルギーやプラスチックをたくさん使う"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can make a big difference.",
+              "ja": "企業は大きな変化を起こせる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many customers like companies that care about the environment.",
+              "ja": "環境に配慮している企業を好む客は多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Protecting the environment costs a lot of money.",
+              "ja": "環境を守るにはお金がたくさんかかる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Companies already do a lot, like recycling.",
+              "ja": "企業はすでにリサイクルなど多くのことをしている"
+            }
+          ]
         }
       ]
     },
@@ -95,6 +270,60 @@
             "2コマ目: テレビの Ways to Relax の内容と、妻の「料理をやってみたら」を間接話法で言えた",
             "3コマ目: エプロン姿の男性が料理を運び、妻が喜んでいることを描写できた",
             "4コマ目: くつろぐ夫と汚れた食器の山を前にした妻を、Meanwhile などで対比させて言えた"
+          ],
+          "simpleAnswer": "One day, a man was arriving home after work. He looked very tired. He told his wife that his office was very busy. His wife looked worried about him. That night, they were watching a TV show about ways to relax. His wife told him that he should try cooking. He was nodding. That weekend, he cooked dinner for his wife. He was bringing a big dish to the table. His wife was clapping her hands happily. Later that evening, the man was relaxing on the sofa. However, his wife had to wash a lot of dirty dishes by herself. She looked tired and unhappy.",
+          "simpleAnswerJa": "ある日、ある男性が仕事を終えて帰宅したところだった。彼はとても疲れた様子だった。彼は妻に、職場がとても忙しいと話した。妻は彼のことを心配そうに見ていた。その夜、2 人はリラックスする方法についてのテレビ番組を見ていた。妻は彼に、料理をやってみたらいいと言った。彼はうなずいていた。その週末、彼は妻のために夕食を作った。彼は大きなお皿をテーブルに運んでいた。妻はうれしそうに手をたたいていた。その晩遅く、男性はソファでくつろいでいた。ところが、妻は 1 人で汚れた食器をたくさん洗わなければならなかった。彼女は疲れて不満そうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "He looked very tired.",
+              "ja": "彼はとても疲れた様子だった"
+            },
+            {
+              "group": "1コマ目",
+              "en": "He told his wife that his office was very busy.",
+              "ja": "彼は妻に、職場がとても忙しいと話した（is → was）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "His wife looked worried about him.",
+              "ja": "妻は彼のことを心配そうに見ていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "They were watching a TV show about ways to relax.",
+              "ja": "2 人はリラックスする方法についてのテレビ番組を見ていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "His wife told him that he should try cooking.",
+              "ja": "妻は彼に、料理をやってみたらいいと言った（should はそのまま）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "He cooked dinner for his wife.",
+              "ja": "彼は妻のために夕食を作った"
+            },
+            {
+              "group": "3コマ目",
+              "en": "His wife was clapping her hands happily.",
+              "ja": "妻はうれしそうに手をたたいていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The man was relaxing on the sofa.",
+              "ja": "男性はソファでくつろいでいた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "His wife had to wash a lot of dirty dishes by herself.",
+              "ja": "妻は 1 人で汚れた食器をたくさん洗わなければならなかった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She looked tired and unhappy.",
+              "ja": "彼女は疲れて不満そうだった"
+            }
           ]
         },
         {
@@ -106,7 +335,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"I'm glad he's found a way to relax, and the dinner was delicious. But it isn't fair that I have to clean up this huge mess by myself. Next time, I'll tell him that cleaning up is part of cooking, and we can do the dishes together.\"",
           "modelAnswerJa": "「彼がリラックスする方法を見つけたのはよかったし、夕食もおいしかった。でも、このひどい散らかりを私 1 人で片付けなければならないのは不公平だ。次は、片付けも料理のうちだと伝えて、一緒に皿洗いをすることにしよう」と考えていると思います。",
-          "explanation": "4 コマ目は、夫がくつろぐ一方で、女性が汚れた食器の山を前にしている場面です。I'm glad ... で夫の変化を喜びつつ、But it isn't fair that ... で不満を述べると、女性の複雑な気持ちが伝わります。Next time, I'll ... で具体的な提案につなげています。cleaning up is part of cooking（片付けも料理のうち）は、この場面にぴったりの言い方です。"
+          "explanation": "4 コマ目は、夫がくつろぐ一方で、女性が汚れた食器の山を前にしている場面です。I'm glad ... で夫の変化を喜びつつ、But it isn't fair that ... で不満を述べると、女性の複雑な気持ちが伝わります。Next time, I'll ... で具体的な提案につなげています。cleaning up is part of cooking（片付けも料理のうち）は、この場面にぴったりの言い方です。",
+          "simpleAnswer": "I'd be thinking, \"The dinner was delicious, but this isn't fair. Cleaning up is part of cooking. Next time, I'll ask him to wash the dishes, too.\"",
+          "simpleAnswerJa": "「夕食はおいしかったけれど、これは不公平だ。片付けも料理のうちだ。次は、お皿も洗ってくれるよう彼に頼もう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "The dinner was delicious.",
+              "ja": "夕食はおいしかった"
+            },
+            {
+              "group": "気持ち",
+              "en": "This isn't fair.",
+              "ja": "これは不公平だ"
+            },
+            {
+              "group": "気持ち",
+              "en": "Cleaning up is part of cooking.",
+              "ja": "片付けも料理のうちだ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll ask him to wash the dishes, too.",
+              "ja": "次は、お皿も洗ってくれるよう彼に頼もう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We can wash the dishes together.",
+              "ja": "一緒にお皿を洗えばいい"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -116,7 +374,36 @@
           "promptJa": "若者は家族と過ごす時間をもっと増やすべきだと思いますか。",
           "modelAnswer": "Yes, I think so. Many young people are busy with school, part-time jobs, and friends, and they often spend their free time on their smartphones, so they don't talk much with their families. However, family members can give them support and advice when they have problems. Also, once they leave home and start working, it becomes harder to spend time together.",
           "modelAnswerJa": "はい、そう思います。多くの若者は学校やアルバイト、友達づきあいで忙しく、空いた時間もスマートフォンに使うことが多いので、家族とあまり話しません。しかし、家族は、問題を抱えたときに支えや助言を与えてくれます。また、いったん家を出て働き始めると、一緒に過ごすことは難しくなります。",
-          "explanation": "「忙しくて家族と話さない」という現状を述べ、However で家族の大切さ（支えや助言）につなげています。最後の once they leave home ...（いったん家を出ると）は、「今のうちに」という理由になる表現です。No の立場なら「若いうちは友人や外の世界との関わりで成長する時期で、無理に時間を増やす必要はない」などが考えられます。"
+          "explanation": "「忙しくて家族と話さない」という現状を述べ、However で家族の大切さ（支えや助言）につなげています。最後の once they leave home ...（いったん家を出ると）は、「今のうちに」という理由になる表現です。No の立場なら「若いうちは友人や外の世界との関わりで成長する時期で、無理に時間を増やす必要はない」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Family members can help young people when they have problems. Also, after young people leave home, they can't see their families often. So they should spend more time with them now.",
+          "simpleAnswerJa": "はい、そう思います。困ったときには、家族が若者を助けてくれます。また、家を出たら、家族にはあまり会えなくなります。だから、今のうちに家族ともっと一緒に過ごすべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Family members can help them when they have problems.",
+              "ja": "困ったときには家族が助けてくれる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "After they leave home, they can't see their families often.",
+              "ja": "家を出たら、家族にはあまり会えなくなる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many young people don't talk much with their families.",
+              "ja": "家族とあまり話さない若者が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Young people need time with their friends, too.",
+              "ja": "若者には友達と過ごす時間も必要だ"
+            },
+            {
+              "group": "No の理由",
+              "en": "They are busy with school and club activities.",
+              "ja": "学校や部活で忙しい"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -126,7 +413,36 @@
           "promptJa": "人々は地元で栽培された食べ物をもっと消費すべきでしょうか。",
           "modelAnswer": "Yes, I think they should. Local foods are fresher, and they do not have to be transported as far, which is better for the environment. Buying them also supports local farmers, who often struggle to compete with cheap imports. In Japan, this could help protect farmland and make the country less dependent on imported food.",
           "modelAnswerJa": "はい、消費すべきだと思います。地元の食べ物はより新鮮で、遠くまで輸送する必要がないので、環境にもよいです。また、それを買うことは、安い輸入品との競争に苦労していることが多い地元の農家を支えることになります。日本では、これが農地を守り、国の輸入食品への依存を減らすことにつながるかもしれません。",
-          "explanation": "「新鮮さと環境」「地元の農家の支援」「日本全体の食料」と、身近な話から国全体の話へ広げています。do not have to be transported as far のように、輸送距離と環境を結びつけると理由がはっきりします。less dependent on imported food（輸入食品への依存が少ない）は、食料の話題で使える表現です。No の立場なら「地元産は値段が高いことがあり、輸入品のおかげで一年を通じて安く多様な食品を選べる」などが考えられます。"
+          "explanation": "「新鮮さと環境」「地元の農家の支援」「日本全体の食料」と、身近な話から国全体の話へ広げています。do not have to be transported as far のように、輸送距離と環境を結びつけると理由がはっきりします。less dependent on imported food（輸入食品への依存が少ない）は、食料の話題で使える表現です。No の立場なら「地元産は値段が高いことがあり、輸入品のおかげで一年を通じて安く多様な食品を選べる」などが考えられます。",
+          "simpleAnswer": "Yes, they should. Local foods are fresh because they don't come from far away. Also, buying local foods helps farmers in our area. So people should eat more local foods.",
+          "simpleAnswerJa": "はい、そうすべきです。地元の食べ物は遠くから運ばれてこないので新鮮です。また、地元の食べ物を買うと、地域の農家の助けになります。だから、地元の食べ物をもっと食べるべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Local foods are fresh.",
+              "ja": "地元の食べ物は新鮮だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Carrying food from far away is bad for the environment.",
+              "ja": "遠くから食べ物を運ぶのは環境に悪い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Buying local foods helps farmers in our area.",
+              "ja": "地元の食べ物を買うと地域の農家の助けになる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Imported foods are often cheaper.",
+              "ja": "輸入食品のほうが安いことが多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "We can enjoy foods from all over the world.",
+              "ja": "世界中の食べ物を楽しめる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -136,7 +452,36 @@
           "promptJa": "企業は従業員のために十分な保育施設を提供しているでしょうか。",
           "modelAnswer": "No, I don't think they are. Some large companies have day-care centers at their workplaces, but many smaller companies cannot afford them. As a result, many working parents have trouble finding a place for their children, and some even have to quit their jobs. The government should give companies more support to set up such facilities.",
           "modelAnswerJa": "いいえ、提供していないと思います。職場に保育所を設けている大企業もありますが、もっと小さな会社の多くにはその余裕がありません。その結果、子どもの預け先を見つけるのに苦労する働く親が多く、仕事を辞めざるを得ない人さえいます。政府は、企業がそうした施設を作れるようにもっと支援すべきです。",
-          "explanation": "Are companies ...? の質問なので、No, I don't think they are. と答えています。大企業と小さな会社を but で比較し、As a result で「親が仕事を辞めざるを得ない」という影響につなげています。最後に The government should ... と解決策を示しています。Yes の立場なら「社内に保育所を設ける企業は増えており、地域の保育所も充実してきた」などが考えられます。"
+          "explanation": "Are companies ...? の質問なので、No, I don't think they are. と答えています。大企業と小さな会社を but で比較し、As a result で「親が仕事を辞めざるを得ない」という影響につなげています。最後に The government should ... と解決策を示しています。Yes の立場なら「社内に保育所を設ける企業は増えており、地域の保育所も充実してきた」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Only some big companies have day-care centers at work. Small companies don't have enough money for them. Also, many working parents can't find a day-care center for their children. So companies should do more.",
+          "simpleAnswerJa": "いいえ、そうは思いません。職場に保育所があるのは一部の大企業だけです。小さな会社にはそのためのお金がありません。また、子どもを預ける保育所を見つけられない働く親がたくさんいます。だから、会社はもっと取り組むべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Only some big companies have day-care centers.",
+              "ja": "保育所があるのは一部の大企業だけだ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Small companies don't have enough money for them.",
+              "ja": "小さな会社にはそのためのお金がない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many working parents can't find a day-care center.",
+              "ja": "保育所を見つけられない働く親が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More companies are building day-care centers these days.",
+              "ja": "最近は保育所を作る会社が増えている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many companies let parents work from home.",
+              "ja": "親の在宅勤務を認める会社は多い"
+            }
+          ]
         }
       ]
     }

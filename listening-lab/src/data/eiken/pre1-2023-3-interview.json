@@ -36,6 +36,60 @@
             "2コマ目: 開園した動物園と家族連れを背景に、動物のような形の新メニューを描写できた",
             "3コマ目: 店が客でいっぱいになり、夫婦が大忙しで働いている様子を描写できた",
             "4コマ目: 閉店後の夜に妻が「疲れすぎた」と言ったことと、夫も疲れていることを伝えられた"
+          ],
+          "simpleAnswer": "One day, a couple was working at their restaurant. Outside, people were building a new zoo. A customer told them that the zoo was a business opportunity for them. A few months later, the zoo opened, and many families came. The husband was showing a sign for their new menu. His wife looked very happy. That weekend, the restaurant was full of customers. The husband was busy cooking, and his wife was serving food. A few days later, the restaurant was closed for the night. The wife told her husband that she was too tired. He was clearing the tables, and he looked very tired, too.",
+          "simpleAnswerJa": "ある日、ある夫婦が自分たちのレストランで働いていた。外では新しい動物園が建設されていた。客は 2 人に、動物園はビジネスチャンスだと言った。数か月後、動物園が開園し、たくさんの家族連れがやって来た。夫は新しいメニューの看板を見せていた。妻はとてもうれしそうだった。その週末、店は客でいっぱいだった。夫は料理に追われ、妻は料理を運んでいた。数日後の夜、店はその日の営業を終えていた。妻は夫に、疲れすぎていると言った。夫はテーブルを片付けていて、彼もとても疲れているようだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "Outside, people were building a new zoo.",
+              "ja": "外では新しい動物園が建設されていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "A customer told them that the zoo was a business opportunity for them.",
+              "ja": "客は 2 人に、動物園はビジネスチャンスだと言った（is → was、you → them）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The zoo opened, and many families came.",
+              "ja": "動物園が開園し、たくさんの家族連れがやって来た"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The husband was showing a sign for their new menu.",
+              "ja": "夫は新しいメニューの看板を見せていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "His wife looked very happy.",
+              "ja": "妻はとてもうれしそうだった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The restaurant was full of customers.",
+              "ja": "店は客でいっぱいだった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The husband was busy cooking, and his wife was serving food.",
+              "ja": "夫は料理に追われ、妻は料理を運んでいた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The restaurant was closed for the night.",
+              "ja": "店はその日の営業を終えていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The wife told her husband that she was too tired.",
+              "ja": "妻は夫に、疲れすぎていると言った（am → was）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He looked very tired, too.",
+              "ja": "夫もとても疲れているようだった"
+            }
           ]
         },
         {
@@ -48,7 +102,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-3-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"We have lots of customers now, but we can't go on working like this. My wife's health is more important than making extra money. We should hire some part-time workers or close one day a week so that we can both get some rest.\"",
           "modelAnswerJa": "「今はお客さんがたくさん来てくれるけれど、このまま働き続けることはできない。もうけよりも妻の健康のほうが大切だ。アルバイトを雇うか週に 1 日店を休むかして、2 人とも休めるようにしよう」と考えていると思います。",
-          "explanation": "4 コマ目は、店が繁盛した一方で、夫婦が疲れ切っている場面です。まず「このままでは続けられない」と現状を認め、妻の健康を優先する気持ちを述べてから、We should ... or ... で具体的な解決策を 2 つ挙げています。can't go on working like this（このまま働き続けられない）は、無理が続く場面で使いやすい表現です。"
+          "explanation": "4 コマ目は、店が繁盛した一方で、夫婦が疲れ切っている場面です。まず「このままでは続けられない」と現状を認め、妻の健康を優先する気持ちを述べてから、We should ... or ... で具体的な解決策を 2 つ挙げています。can't go on working like this（このまま働き続けられない）は、無理が続く場面で使いやすい表現です。",
+          "simpleAnswer": "I'd be thinking, \"We have many customers, but we are working too hard. My wife's health is more important than money. I'll hire a part-time worker.\"",
+          "simpleAnswerJa": "「お客さんはたくさん来てくれるが、私たちは働きすぎている。お金よりも妻の健康のほうが大切だ。アルバイトを雇おう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "I'm happy that we have many customers.",
+              "ja": "お客さんがたくさん来てくれるのはうれしい"
+            },
+            {
+              "group": "気持ち",
+              "en": "We are working too hard.",
+              "ja": "私たちは働きすぎている"
+            },
+            {
+              "group": "気持ち",
+              "en": "My wife's health is more important than money.",
+              "ja": "お金よりも妻の健康のほうが大切だ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll hire a part-time worker.",
+              "ja": "アルバイトを雇おう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We'll close the restaurant one day a week.",
+              "ja": "週に 1 日は店を休みにしよう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -59,7 +142,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-3-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. Many young people are busy with school or work, so they often eat fast food or convenience store meals. Some also skip breakfast or go on extreme diets to look thin. Although they can easily find health information online, not many of them actually put it into practice.",
           "modelAnswerJa": "いいえ、そうは思いません。多くの若者は学校や仕事で忙しく、ファストフードやコンビニの食事をとることがよくあります。朝食を抜いたり、やせて見せるために極端なダイエットをしたりする人もいます。健康に関する情報はネットで簡単に見つけられますが、実際にそれを実践している人は多くありません。",
-          "explanation": "「忙しさからくる食事の問題」「朝食抜き・極端なダイエット」と具体例を挙げ、最後に Although ... で「情報はあるのに実行していない」という点を指摘しています。put it into practice（実践する）は、いろいろな話題で使える便利な表現です。Yes の立場なら「SNS などで健康や栄養への関心が高まり、食事に気をつける若者も増えている」などが考えられます。"
+          "explanation": "「忙しさからくる食事の問題」「朝食抜き・極端なダイエット」と具体例を挙げ、最後に Although ... で「情報はあるのに実行していない」という点を指摘しています。put it into practice（実践する）は、いろいろな話題で使える便利な表現です。Yes の立場なら「SNS などで健康や栄養への関心が高まり、食事に気をつける若者も増えている」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Many young people are very busy. They often eat fast food or convenience store food. Also, some of them skip breakfast. So they are not careful about what they eat.",
+          "simpleAnswerJa": "いいえ、そうは思いません。多くの若者はとても忙しいです。ファストフードやコンビニの食べ物をよく食べています。また、朝食を抜く人もいます。だから、若者は食べるものに気をつけていません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "They often eat fast food or convenience store food.",
+              "ja": "ファストフードやコンビニの食べ物をよく食べている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some of them skip breakfast.",
+              "ja": "朝食を抜く人もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some young people eat too little to look thin.",
+              "ja": "やせて見せるために食べる量を減らしすぎる若者もいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many young people are interested in healthy food.",
+              "ja": "健康的な食べ物に関心がある若者は多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can easily find health information online.",
+              "ja": "健康の情報をネットで簡単に見つけられる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -70,7 +182,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-3-interview/a-q3.mp3",
           "modelAnswer": "Yes, I think they do. A few huge technology companies now control much of the information people see online, and they collect a lot of personal data. Large companies can also influence government decisions because they provide so many jobs and so much tax revenue. At the same time, many small local businesses find it hard to compete with them.",
           "modelAnswerJa": "はい、持ちすぎていると思います。ごく少数の巨大 IT 企業が、今では人々がネットで目にする情報の多くを支配し、大量の個人情報を集めています。また、大企業は多くの雇用と税収を生み出しているので、政府の決定に影響を与えることもできます。その一方で、地元の小さな店や会社の多くは、大企業と競争するのが難しくなっています。",
-          "explanation": "質問の Do large companies ...? に合わせて Yes, I think they do. と答えています。「情報と個人データ」「政府への影響」「中小企業との競争」という 3 つの面を挙げると、power の中身が具体的になります。No の立場なら「大企業は雇用を生み出しており、法律や消費者の目によって行動を制限されている」などが考えられます。"
+          "explanation": "質問の Do large companies ...? に合わせて Yes, I think they do. と答えています。「情報と個人データ」「政府への影響」「中小企業との競争」という 3 つの面を挙げると、power の中身が具体的になります。No の立場なら「大企業は雇用を生み出しており、法律や消費者の目によって行動を制限されている」などが考えられます。",
+          "simpleAnswer": "Yes, I think they do. A few big IT companies control a lot of information online. They collect our personal data, too. Also, small stores can't compete with big companies. So big companies have too much power.",
+          "simpleAnswerJa": "はい、持ちすぎていると思います。少数の巨大 IT 企業が、ネット上の多くの情報を支配しています。私たちの個人情報も集めています。また、小さな店は大企業と競争できません。だから、大企業は力を持ちすぎています。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "A few big IT companies control a lot of information online.",
+              "ja": "少数の巨大 IT 企業がネット上の多くの情報を支配している"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They collect our personal data.",
+              "ja": "私たちの個人情報を集めている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Small stores can't compete with big companies.",
+              "ja": "小さな店は大企業と競争できない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Big companies give many people jobs.",
+              "ja": "大企業は多くの人に仕事を与えている"
+            },
+            {
+              "group": "No の理由",
+              "en": "The government makes rules for big companies.",
+              "ja": "政府が大企業を規制するルールを作っている"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -81,7 +222,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-3-interview/a-q4.mp3",
           "modelAnswer": "No, I don't think so. Electronic payments will certainly keep growing because they are so convenient, but cash will probably not disappear completely. Some older people are not comfortable using smartphones or cards, and electronic payment systems may not work during a power outage or after a natural disaster. For these reasons, people will still want to have some cash.",
           "modelAnswerJa": "いいえ、そうは思いません。電子決済は便利なので今後も確実に増えていくでしょうが、現金が完全になくなることはおそらくないでしょう。スマートフォンやカードを使うのに慣れていない高齢者もいますし、電子決済は停電のときや自然災害のあとには使えないことがあります。こうした理由から、人々はこれからも現金をある程度持っていたいと思うでしょう。",
-          "explanation": "質問の all に注目し、「増える」ことは認めつつ「すべて」は否定する答え方にしています。will certainly keep growing ..., but ... の形で、反対の意見にも一理あることを示すとバランスがよくなります。Yes の立場なら「スマートフォン決済は幅広い世代に広がっていて、現金の管理にはコストがかかるので、いずれ現金はなくなる」などが考えられます。"
+          "explanation": "質問の all に注目し、「増える」ことは認めつつ「すべて」は否定する答え方にしています。will certainly keep growing ..., but ... の形で、反対の意見にも一理あることを示すとバランスがよくなります。Yes の立場なら「スマートフォン決済は幅広い世代に広がっていて、現金の管理にはコストがかかるので、いずれ現金はなくなる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Some older people can't use smartphones well. Also, electronic payments may not work after a natural disaster. So people will still need some cash.",
+          "simpleAnswerJa": "いいえ、そうは思いません。スマートフォンをうまく使えない高齢者もいます。また、自然災害のあとには電子決済が使えないかもしれません。だから、人々はこれからも現金を少しは必要とするでしょう。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Some older people can't use smartphones well.",
+              "ja": "スマートフォンをうまく使えない高齢者もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Electronic payments may not work after a natural disaster.",
+              "ja": "自然災害のあとは電子決済が使えないかもしれない"
+            },
+            {
+              "group": "No の理由",
+              "en": "People will still need some cash.",
+              "ja": "人々はこれからも現金を少しは必要とする"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Paying with a smartphone is very convenient.",
+              "ja": "スマートフォンで支払うのはとても便利だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More and more stores accept electronic payments.",
+              "ja": "電子決済を使える店がどんどん増えている"
+            }
+          ]
         }
       ]
     },
@@ -111,6 +281,60 @@
             "2コマ目: ABC Real Estate で、担当者の「今週末に案内できる」を間接話法（that weekend）で言えた",
             "3コマ目: 建設予定地の見学と、夫婦が新居でくつろぐ姿を想像していることを描写できた",
             "4コマ目: Save the Environment! の看板を持つ人たちの抗議活動に驚いたことを、however などで示して言えた"
+          ],
+          "simpleAnswer": "One day, a couple was searching the Internet. They found a new high-rise apartment. The wife was pointing at the screen, and they both looked interested. A few days later, they went to a real estate agency. An agent told them that he could take them there that weekend. The couple looked happy. The following weekend, the agent was explaining the plan at the site. There was nothing on the land yet. The couple was imagining relaxing in their new home. An hour later, some people came to the site. They were protesting against the new apartment. They wanted to save the environment. The couple looked surprised.",
+          "simpleAnswerJa": "ある日、ある夫婦がインターネットで検索をしていた。2 人は新しい高層マンションを見つけた。妻は画面を指さしていて、2 人とも興味がありそうだった。数日後、2 人は不動産会社に行った。担当者は、その週末に現地へ案内できると言った。夫婦はうれしそうだった。次の週末、担当者は建設予定地で計画を説明していた。土地にはまだ何もなかった。夫婦は新しい家でくつろぐ様子を想像していた。1 時間後、何人かの人が現地にやって来た。彼らは新しいマンションに反対していた。環境を守りたいと考えていたのだ。夫婦は驚いた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "They found a new high-rise apartment.",
+              "ja": "2 人は新しい高層マンションを見つけた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The wife was pointing at the screen, and they both looked interested.",
+              "ja": "妻は画面を指さしていて、2 人とも興味がありそうだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "They went to a real estate agency.",
+              "ja": "2 人は不動産会社に行った"
+            },
+            {
+              "group": "2コマ目",
+              "en": "An agent told them that he could take them there that weekend.",
+              "ja": "担当者は、その週末に現地へ案内できると言った（can → could、this weekend → that weekend）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The agent was explaining the plan at the site.",
+              "ja": "担当者は建設予定地で計画を説明していた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "There was nothing on the land yet.",
+              "ja": "土地にはまだ何もなかった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The couple was imagining relaxing in their new home.",
+              "ja": "夫婦は新しい家でくつろぐ様子を想像していた（imagine + ing 形）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Some people were protesting against the new apartment.",
+              "ja": "新しいマンションに反対して抗議している人たちがいた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "They wanted to save the environment.",
+              "ja": "彼らは環境を守りたいと考えていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The couple looked surprised.",
+              "ja": "夫婦は驚いた様子だった"
+            }
           ]
         },
         {
@@ -123,7 +347,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-3-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking that we shouldn't rush into buying this apartment. The view would be wonderful, but so many people are against the project that construction could be delayed or even canceled. I'd want to ask the agent more about the situation and look at some other homes, too.",
           "modelAnswerJa": "このマンションの購入を急ぐべきではないと考えていると思います。景色はすばらしいでしょうが、これほど多くの人が計画に反対しているので、工事が遅れたり中止になったりするかもしれません。担当者に状況をもっと詳しく聞き、ほかの物件も見てみたいと思います。",
-          "explanation": "4 コマ目は、夫が、楽しみにしていた新居に問題があるかもしれないと気づいた場面です。I'd be thinking that ... と that 節で始め、so many ... that ... で「工事が遅れるかもしれない」という心配を述べ、最後に I'd want to ... と「次の行動」を示しています。rush into buying（あわてて買う）は、大きな買い物の話で使いやすい表現です。"
+          "explanation": "4 コマ目は、夫が、楽しみにしていた新居に問題があるかもしれないと気づいた場面です。I'd be thinking that ... と that 節で始め、so many ... that ... で「工事が遅れるかもしれない」という心配を述べ、最後に I'd want to ... と「次の行動」を示しています。rush into buying（あわてて買う）は、大きな買い物の話で使いやすい表現です。",
+          "simpleAnswer": "I'd be thinking, \"Many people are against this apartment. We shouldn't decide too quickly. I'll ask the agent about this and look at some other homes, too.\"",
+          "simpleAnswerJa": "「このマンションに反対している人がたくさんいる。急いで決めるべきではない。担当者にこのことを聞いて、ほかの家も見てみよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "Many people are against this apartment.",
+              "ja": "このマンションに反対している人がたくさんいる"
+            },
+            {
+              "group": "気持ち",
+              "en": "There might be problems with this plan.",
+              "ja": "この計画には問題があるかもしれない"
+            },
+            {
+              "group": "気持ち",
+              "en": "We shouldn't decide too quickly.",
+              "ja": "急いで決めるべきではない"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask the agent about this.",
+              "ja": "担当者にこのことを聞こう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We should look at some other homes, too.",
+              "ja": "ほかの家も見てみたほうがいい"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -134,7 +387,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-3-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. Before buying something, many people now read online reviews and compare prices on different websites. This helps them avoid bad products and find the best deal. In addition, many people discover new products through social media, so companies are spending more and more on online advertising.",
           "modelAnswerJa": "はい、そう思います。今では多くの人が、何かを買う前にネットのレビューを読んだり、さまざまなサイトで価格を比べたりしています。これは、質の悪い商品を避け、いちばんお得な買い物をするのに役立ちます。また、多くの人が SNS を通じて新しい商品を知るので、企業はネット広告にますます多くのお金をかけています。",
-          "explanation": "「買う前に調べる（レビュー・価格比較）」と「SNS で商品を知る」という、買い物の 2 つの場面を挙げています。find the best deal（いちばんお得な買い物をする）は覚えておくと便利です。No の立場なら「ネットのレビューには信頼できないものも多く、実際に店で商品を見て決める人も多い」などが考えられます。"
+          "explanation": "「買う前に調べる（レビュー・価格比較）」と「SNS で商品を知る」という、買い物の 2 つの場面を挙げています。find the best deal（いちばんお得な買い物をする）は覚えておくと便利です。No の立場なら「ネットのレビューには信頼できないものも多く、実際に店で商品を見て決める人も多い」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Before buying something, many people read reviews online. They compare prices on different websites, too. Also, people find new products on social media. So the Internet is very important when people shop.",
+          "simpleAnswerJa": "はい、そう思います。何かを買う前に、ネットでレビューを読む人がたくさんいます。いろいろなサイトで値段を比べたりもします。また、SNS で新しい商品を知ることもあります。だから、買い物をするときにインターネットはとても重要です。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many people read reviews online before buying something.",
+              "ja": "何かを買う前にネットでレビューを読む人が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They compare prices on different websites.",
+              "ja": "いろいろなサイトで値段を比べる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People find new products on social media.",
+              "ja": "SNS で新しい商品を知る"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people want to see products in stores before buying them.",
+              "ja": "買う前に店で商品を見たい人も多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some older people don't shop online.",
+              "ja": "ネットで買い物をしない高齢者もいる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -145,7 +427,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-3-interview/d-q3.mp3",
           "modelAnswer": "No, I don't think so. In Japan, voter turnout among young people is still much lower than among older people. Many young people are busy with school or work, and some feel that their votes will not change anything. Although they can easily read political news on social media, many of them seem to be more interested in other topics.",
           "modelAnswerJa": "いいえ、そうは思いません。日本では、若者の投票率は今でも高齢者に比べてかなり低いです。多くの若者は学校や仕事で忙しく、自分の 1 票では何も変わらないと感じている人もいます。SNS で政治のニュースを簡単に読めるものの、多くの若者はほかの話題のほうに関心があるようです。",
-          "explanation": "投票率という身近な事実を最初に挙げ、次に「忙しさ」「1 票では変わらないという気持ち」という理由を続けています。Although ... で SNS の影響にも触れておくと、反論を先回りした答えになります。voter turnout（投票率）は政治の話題で役立つ語です。Yes の立場なら「SNS で政治の話題に触れる機会が増え、社会問題について発信する若者も増えている」などが考えられます。"
+          "explanation": "投票率という身近な事実を最初に挙げ、次に「忙しさ」「1 票では変わらないという気持ち」という理由を続けています。Although ... で SNS の影響にも触れておくと、反論を先回りした答えになります。voter turnout（投票率）は政治の話題で役立つ語です。Yes の立場なら「SNS で政治の話題に触れる機会が増え、社会問題について発信する若者も増えている」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Not many young people vote in elections. Some of them think their vote won't change anything. Also, they are busy with school or work. So they are not very interested in politics.",
+          "simpleAnswerJa": "いいえ、そうは思いません。選挙で投票する若者は多くありません。自分の 1 票では何も変わらないと思っている人もいます。また、若者は学校や仕事で忙しいです。だから、政治にあまり関心がありません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Not many young people vote in elections.",
+              "ja": "選挙で投票する若者は多くない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some of them think their vote won't change anything.",
+              "ja": "自分の 1 票では何も変わらないと思っている人もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "They are busy with school or work.",
+              "ja": "学校や仕事で忙しい"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Young people can read political news on social media.",
+              "ja": "若者は SNS で政治のニュースを読める"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "In Japan, 18-year-olds can vote now.",
+              "ja": "日本では今は 18 歳で投票できる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -156,7 +467,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-3-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think so. Japan already imports a large amount of its food, so losing farmland would make the country even more dependent on other countries. Also, once farmland is covered with buildings and roads, it is very hard to turn it back into fields. Instead, cities should make better use of empty houses and unused land.",
           "modelAnswerJa": "いいえ、そうは思いません。日本はすでに食料の多くを輸入しているので、農地を失えば、ますます他国に頼ることになります。また、農地はいったん建物や道路で覆われてしまうと、畑に戻すのはとても難しくなります。それよりも、都市は空き家や使われていない土地をもっと活用すべきです。",
-          "explanation": "「食料の輸入への依存」と「元に戻せないこと」という 2 つの理由のあとに、Instead, ... で代わりの案（空き家や未利用地の活用）を示しています。反対するだけでなく代案を出すと、説得力が増します。Yes の立場なら「農業の担い手が減って使われない農地が増えているので、住宅や商業施設に活用したほうが地域の活性化につながる」などが考えられます。"
+          "explanation": "「食料の輸入への依存」と「元に戻せないこと」という 2 つの理由のあとに、Instead, ... で代わりの案（空き家や未利用地の活用）を示しています。反対するだけでなく代案を出すと、説得力が増します。Yes の立場なら「農業の担い手が減って使われない農地が増えているので、住宅や商業施設に活用したほうが地域の活性化につながる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Japan already imports a lot of food. If we lose farmland, we will have to import even more. Also, once farmland is gone, it is hard to get it back. So we should protect our farmland.",
+          "simpleAnswerJa": "いいえ、そうは思いません。日本はすでに多くの食料を輸入しています。農地がなくなれば、さらに多くを輸入しなければなりません。また、農地はいったんなくなると、元に戻すのは難しいです。だから、農地を守るべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Japan already imports a lot of food.",
+              "ja": "日本はすでに多くの食料を輸入している"
+            },
+            {
+              "group": "No の理由",
+              "en": "If we lose farmland, we will have to import even more food.",
+              "ja": "農地がなくなれば、さらに多くの食料を輸入しなければならない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Once farmland is gone, it is hard to get it back.",
+              "ja": "農地はいったんなくなると、元に戻すのは難しい"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "A lot of farmland is not used anymore.",
+              "ja": "使われなくなった農地がたくさんある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some cities need more land for houses.",
+              "ja": "家を建てる土地が必要な都市もある"
+            }
+          ]
         }
       ]
     }

@@ -30,6 +30,65 @@
             "2コマ目: 女性がボランティアとして街頭でビラを配り、党の車の上で男性が話していることを描写できた",
             "3コマ目: 選挙の夜、壇上の男性と拍手する女性を描写し、党が勝ったようだと言えた",
             "4コマ目: ニュースが「ABC 党が公約を破っている」と伝え、女性ががっかりしたことを言えた"
+          ],
+          "simpleAnswer": "One day, a woman was at home with her husband. They were having a meal, and she was holding a flyer about the ABC Party. She told her husband that the party's policies were fantastic. The flyer also said that the party needed volunteers. The following week, she was working as a volunteer for the party. She was handing out flyers to people on the street. On election night, she went to an ABC Party event. A man on the stage was holding flowers and raising his fist. The party won the election, and she was clapping happily. Six months later, she and her husband were watching the news on TV. The newscaster said that the ABC Party was breaking its promises. The woman looked disappointed.",
+          "simpleAnswerJa": "ある日、ある女性が夫と一緒に家にいた。2 人は食事をしていて、彼女は ABC 党のチラシを手にしていた。彼女は夫に、ABC 党の政策はすばらしいと言った。チラシには、党がボランティアを募集していることも書いてあった。翌週、彼女は党のボランティアとして活動していた。通りで人々にチラシを配っていた。選挙の夜、彼女は ABC 党のイベントに行った。ステージの上の男性は、花束を持って拳を上げていた。党は選挙に勝ち、彼女はうれしそうに拍手していた。6 か月後、彼女と夫はテレビでニュースを見ていた。ニュースキャスターは、ABC 党が公約を破っていると伝えた。女性はがっかりした様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She was holding a flyer about the ABC Party.",
+              "ja": "彼女は ABC 党のチラシを手にしていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She told her husband that the party's policies were fantastic.",
+              "ja": "夫に、ABC 党の政策はすばらしいと言った（are → were）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The flyer said that the party needed volunteers.",
+              "ja": "チラシには、党がボランティアを募集していると書いてあった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She was working as a volunteer for the party.",
+              "ja": "党のボランティアとして活動していた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She was handing out flyers to people on the street.",
+              "ja": "通りで人々にチラシを配っていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She went to an ABC Party event.",
+              "ja": "ABC 党のイベントに行った"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The party won the election.",
+              "ja": "党は選挙に勝った"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She was clapping happily.",
+              "ja": "彼女はうれしそうに拍手していた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "They were watching the news on TV.",
+              "ja": "2 人はテレビでニュースを見ていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The newscaster said that the ABC Party was breaking its promises.",
+              "ja": "ニュースキャスターは、ABC 党が公約を破っていると伝えた（is → was）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The woman looked disappointed.",
+              "ja": "女性はがっかりした様子だった"
+            }
           ]
         },
         {
@@ -41,7 +100,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの女性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"I worked so hard for this party because I believed in its policies, but I was wrong to trust its promises so easily. From now on, I'll check what politicians actually do after an election. I might also write to my local representative about this.\"",
           "modelAnswerJa": "「政策を信じてこの党のために一生懸命活動したのに、公約をあんなに簡単に信じたのは間違いだった。これからは、政治家が選挙のあとに実際に何をするのかを確かめるようにしよう。このことについて地元の議員に手紙を書いてもいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目は、女性が、自分の応援した党が公約を破っていると知った場面です。I worked so hard ..., but ... で「努力」と「裏切られた気持ち」を対比し、From now on, I'll ... で今後の行動を続けています。check what politicians actually do（政治家が実際に何をするかを確かめる）のように、言葉と行動を区別する言い方を使うと内容に合います。"
+          "explanation": "4 コマ目は、女性が、自分の応援した党が公約を破っていると知った場面です。I worked so hard ..., but ... で「努力」と「裏切られた気持ち」を対比し、From now on, I'll ... で今後の行動を続けています。check what politicians actually do（政治家が実際に何をするかを確かめる）のように、言葉と行動を区別する言い方を使うと内容に合います。",
+          "simpleAnswer": "I'd be thinking, \"I worked hard for this party, but they are breaking their promises. I shouldn't have believed them so easily. Next time, I'll think carefully before I vote.\"",
+          "simpleAnswerJa": "「この党のために一生懸命働いたのに、党は公約を破っている。そんなに簡単に信じるべきではなかった。次は、投票する前によく考えよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I worked hard for this party.",
+              "ja": "この党のために一生懸命働いた"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I'm very disappointed.",
+              "ja": "とてもがっかりしている"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I shouldn't have believed them so easily.",
+              "ja": "そんなに簡単に信じるべきではなかった"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll think carefully before I vote.",
+              "ja": "次は、投票する前によく考えよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll stop helping this party.",
+              "ja": "この党を手伝うのはやめよう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -51,7 +139,36 @@
           "promptJa": "ボランティア活動は、学生が社会の役に立つためのよい方法でしょうか。",
           "modelAnswer": "Yes, I think so. Students can help in many ways, such as cleaning up local parks or spending time with elderly people. Even small activities like these make a real difference in a community. Students can also learn skills that they cannot learn in the classroom, such as how to work with people of different ages.",
           "modelAnswerJa": "はい、そう思います。地域の公園の清掃やお年寄りと一緒に過ごすことなど、学生が手助けできる方法はたくさんあります。こうした小さな活動でも、地域にとっては確かな力になります。また、年齢の異なる人たちと協力する方法など、教室では学べない技能を身につけることもできます。",
-          "explanation": "質問は Is ... a good way ...? なので Yes, I think so. で答えています。具体的な活動例（公園の清掃・お年寄りとの交流）を挙げ、社会にとっての利点に加えて学生自身の利点にも触れています。No の立場なら「学生は勉強に集中すべきで、学校で義務にされた活動では本当の助けにならない」などが考えられます。"
+          "explanation": "質問は Is ... a good way ...? なので Yes, I think so. で答えています。具体的な活動例（公園の清掃・お年寄りとの交流）を挙げ、社会にとっての利点に加えて学生自身の利点にも触れています。No の立場なら「学生は勉強に集中すべきで、学校で義務にされた活動では本当の助けにならない」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Students can clean parks or visit elderly people. Even small things can help the community. Also, students can learn things that they can't learn at school. So volunteering is good for both students and society.",
+          "simpleAnswerJa": "はい、そう思います。生徒は公園を掃除したり、お年寄りを訪問したりできます。小さなことでも地域の役に立ちます。また、学校では学べないことを学べます。だから、ボランティアは生徒にとっても社会にとってもよいことです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Students can clean parks or visit elderly people.",
+              "ja": "生徒は公園の掃除やお年寄りの訪問ができる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Even small things can help the community.",
+              "ja": "小さなことでも地域の役に立つ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Students can learn things they can't learn at school.",
+              "ja": "学校では学べないことを学べる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Students are busy with studying and club activities.",
+              "ja": "生徒は勉強や部活動で忙しい"
+            },
+            {
+              "group": "No の理由",
+              "en": "Studying is the most important thing for students.",
+              "ja": "生徒にとっては勉強がいちばん大事だ"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -61,7 +178,36 @@
           "promptJa": "政治の指導者は、常に国民が望むことをすべきでしょうか。",
           "modelAnswer": "No, I don't think so. Leaders should listen to the public, but the word \"always\" goes too far. Popular decisions are not always the best ones for a country in the long term. For example, people usually don't want higher taxes, but they may sometimes be necessary to pay for social welfare. Leaders have to make difficult decisions and explain the reasons clearly.",
           "modelAnswerJa": "いいえ、そうは思いません。指導者は国民の声に耳を傾けるべきですが、「常に」というのは行きすぎです。国民に人気のある決定が、長い目で見て国にとって最善とは限りません。たとえば、ふつう人々は増税を望みませんが、社会福祉の費用をまかなうために必要な場合もあります。指導者は難しい決断をして、その理由をはっきり説明しなければなりません。",
-          "explanation": "質問の always に注目し、「耳を傾けるのは大事だが、常に従うのは行きすぎ」と線を引いています。in the long term（長い目で見て）は政治や経済の話題で使いやすい表現です。増税という具体例を挙げると主張が伝わりやすくなります。Yes の立場なら「民主主義では国民の意思に従うのが指導者の役目で、選挙で選ばれた以上は約束を守るべきだ」などが考えられます。"
+          "explanation": "質問の always に注目し、「耳を傾けるのは大事だが、常に従うのは行きすぎ」と線を引いています。in the long term（長い目で見て）は政治や経済の話題で使いやすい表現です。増税という具体例を挙げると主張が伝わりやすくなります。Yes の立場なら「民主主義では国民の意思に従うのが指導者の役目で、選挙で選ばれた以上は約束を守るべきだ」などが考えられます。",
+          "simpleAnswer": "No, they shouldn't. What people want is not always good for the country's future. Also, leaders sometimes have to do things people don't like, such as raising taxes. So leaders should listen to people, but make their own decisions.",
+          "simpleAnswerJa": "いいえ、そうすべきではありません。人々が望むことが、国の将来にとってよいとは限りません。また、リーダーは、増税のように人々が嫌がることもしなければならないときがあります。だから、リーダーは人々の声を聞きつつ、自分で判断するべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "What people want is not always good for the country.",
+              "ja": "人々が望むことが国のためになるとは限らない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Leaders sometimes have to raise taxes.",
+              "ja": "リーダーは増税をしなければならないこともある"
+            },
+            {
+              "group": "No の理由",
+              "en": "Leaders should think about the future of the country.",
+              "ja": "リーダーは国の将来を考えるべきだ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Leaders are chosen by the people.",
+              "ja": "リーダーは国民に選ばれている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "In a democracy, people's opinions are important.",
+              "ja": "民主主義では国民の意見が大切だ"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -71,7 +217,36 @@
           "promptJa": "政府は、医療をよくするために増税すべきでしょうか。",
           "modelAnswer": "No, I don't think it should. Many people are already struggling with high living costs, so higher taxes would make their lives even harder. Before asking people to pay more, the government should reduce waste and use the current budget more carefully. For example, it could encourage people to prevent illness through regular checkups, which could help lower medical costs.",
           "modelAnswerJa": "いいえ、そうすべきではないと思います。すでに生活費の高さに苦しんでいる人は多いので、増税すれば暮らしはさらに厳しくなるでしょう。国民にもっと負担を求める前に、政府は無駄を減らし、今の予算をもっと慎重に使うべきです。たとえば、定期健診によって病気を予防するよう人々に勧めることもでき、それは医療費を減らすのに役立つかもしれません。",
-          "explanation": "「国民の負担」という理由のあと、Before asking people to pay more, ... で「増税より先にすべきこと」を示し、予防医療という代案まで述べています。反対するだけでなく代案を出すと、説得力が増します。Yes の立場なら「高齢化で医療費が増えており、質の高い医療を守るには国民全体で負担を分け合う必要がある」などが考えられます。"
+          "explanation": "「国民の負担」という理由のあと、Before asking people to pay more, ... で「増税より先にすべきこと」を示し、予防医療という代案まで述べています。反対するだけでなく代案を出すと、説得力が増します。Yes の立場なら「高齢化で医療費が増えており、質の高い医療を守るには国民全体で負担を分け合う必要がある」などが考えられます。",
+          "simpleAnswer": "No, it shouldn't. Many people already have a hard time because prices are high. Higher taxes would make their lives even harder. Also, the government should stop wasting money first. So it should use its money more carefully.",
+          "simpleAnswerJa": "いいえ、そうすべきではありません。物価が高くて、すでに生活が苦しい人がたくさんいます。税金が上がれば、生活はもっと苦しくなります。また、政府はまずお金のむだづかいをやめるべきです。だから、今あるお金をもっと慎重に使うべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many people already have a hard time because prices are high.",
+              "ja": "物価が高くて、すでに生活が苦しい人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Higher taxes would make their lives even harder.",
+              "ja": "増税で生活がさらに苦しくなる"
+            },
+            {
+              "group": "No の理由",
+              "en": "The government should stop wasting money first.",
+              "ja": "政府はまずむだづかいをやめるべきだ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "There are more and more elderly people in Japan.",
+              "ja": "日本ではお年寄りがどんどん増えている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Medical care costs a lot of money.",
+              "ja": "医療にはたくさんのお金がかかる"
+            }
+          ]
         }
       ]
     },
@@ -95,6 +270,65 @@
             "2コマ目: スタッフ会議でボードの2案（モノレール・シャトルバス）に触れ、モノレールの案に印がついていることを言えた",
             "3コマ目: 2年後、万博会場とモノレールの駅が大勢の人でにぎわう様子を描写できた",
             "4コマ目: 万博の1年後、モノレールの乗客数のグラフが下がり、市長が心配していることを言えた"
+          ],
+          "simpleAnswer": "One day, the mayor was talking with his assistant in his office. She was showing him a map. The Expo site was 30 kilometers from downtown. She said that it was too far away. At a staff meeting, the mayor talked about two ideas. One idea was to build a monorail. The staff agreed with this idea. Two years later, the World Expo was open, and the monorail was running. A lot of people were going to the Expo. The mayor looked happy. A year after the Expo, however, the mayor was looking at a graph on his computer. It showed that fewer people were using the monorail. He looked worried.",
+          "simpleAnswerJa": "ある日、市長が執務室で補佐官と話していた。彼女は市長に地図を見せていた。万博の会場は中心街から 30 キロ離れていた。彼女は、遠すぎると言った。スタッフ会議で、市長は 2 つの案について話した。1 つの案は、モノレールを建設することだった。スタッフはこの案に賛成した。2 年後、万博が開かれ、モノレールが走っていた。たくさんの人が万博に向かっていた。市長はうれしそうだった。ところが万博の 1 年後、市長はパソコンでグラフを見ていた。グラフは、モノレールを使う人が減ったことを示していた。市長は心配そうな様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She was showing him a map.",
+              "ja": "彼女は市長に地図を見せていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The Expo site was 30 kilometers from downtown.",
+              "ja": "万博の会場は中心街から 30 キロ離れていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She said that it was too far away.",
+              "ja": "遠すぎると言った（is → was）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "One idea was to build a monorail.",
+              "ja": "1 つの案は、モノレールを建設することだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The staff agreed with this idea.",
+              "ja": "スタッフはこの案に賛成した"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The World Expo was open, and the monorail was running.",
+              "ja": "万博が開かれ、モノレールが走っていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "A lot of people were going to the Expo.",
+              "ja": "たくさんの人が万博に向かっていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The mayor looked happy.",
+              "ja": "市長はうれしそうだった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He was looking at a graph on his computer.",
+              "ja": "パソコンでグラフを見ていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "It showed that fewer people were using the monorail.",
+              "ja": "グラフは、モノレールを使う人が減ったことを示していた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He looked worried.",
+              "ja": "市長は心配そうな様子だった"
+            }
           ]
         },
         {
@@ -106,7 +340,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたが市長だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"The monorail was perfect during the Expo, but I didn't plan for what would happen after it ended. We need to give people a reason to travel to that area, so maybe we should attract companies or build a shopping mall and a park along the line.\"",
           "modelAnswerJa": "「モノレールは万博の間は申し分なかったが、終わったあとのことまで考えていなかった。その地域へ出かける理由を人々に与える必要があるから、沿線に企業を誘致したり、ショッピングモールや公園を造ったりしたほうがいいかもしれない」と考えていると思います。",
-          "explanation": "4 コマ目は、市長が、万博が終わって乗客が減っていることを知った場面です。The monorail was perfect during ..., but ... で、成功と見落としを対比しています。そのあと maybe we should ... で沿線の活性化という具体策を続けると、市長の立場らしい答えになります。along the line（沿線に）は覚えておきたい表現です。"
+          "explanation": "4 コマ目は、市長が、万博が終わって乗客が減っていることを知った場面です。The monorail was perfect during ..., but ... で、成功と見落としを対比しています。そのあと maybe we should ... で沿線の活性化という具体策を続けると、市長の立場らしい答えになります。along the line（沿線に）は覚えておきたい表現です。",
+          "simpleAnswer": "I'd be thinking, \"I should have thought about the time after the Expo. Now not many people use the monorail. I'll try to bring new shops and events to the area.\"",
+          "simpleAnswerJa": "「万博が終わった後のことを考えておくべきだった。今はモノレールを使う人があまりいない。その地域に新しい店やイベントを呼び込むようにしよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "The monorail was a big success during the Expo.",
+              "ja": "万博の間、モノレールは大成功だった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have thought about the time after the Expo.",
+              "ja": "万博が終わった後のことを考えておくべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "Not many people use the monorail now.",
+              "ja": "今はモノレールを使う人があまりいない"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll try to bring new shops and events to the area.",
+              "ja": "その地域に新しい店やイベントを呼び込もう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask companies to move to the area.",
+              "ja": "その地域に移ってくるよう企業に頼もう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -116,7 +379,36 @@
           "promptJa": "日本の鉄道やバスの駅の設備は改善されるべきだと思いますか。",
           "modelAnswer": "Yes, I think so. Japan's society is aging rapidly, and many older people have difficulty using stairs, so stations need more elevators and ramps. These facilities are often not available, especially at small stations in rural areas. Clearer signs in several languages would also help the growing number of foreign visitors.",
           "modelAnswerJa": "はい、そう思います。日本の社会は急速に高齢化しており、階段を使うのが大変なお年寄りも多いので、駅にはもっとエレベーターやスロープが必要です。特に地方の小さな駅では、こうした設備がないことがよくあります。増え続ける外国人旅行者にとっては、いくつかの言語で書かれたより分かりやすい案内表示も助けになるでしょう。",
-          "explanation": "「高齢者」と「外国人旅行者」という 2 つの利用者を挙げ、それぞれに必要な設備（エレベーター・スロープ、多言語の案内表示）を結びつけています。facilities だけでは抽象的なので、設備の名前を具体的に出すことが大切です。No の立場なら「日本の駅はすでに清潔で便利であり、利用者の少ない駅に多額の費用をかけるのは無駄だ」などが考えられます。"
+          "explanation": "「高齢者」と「外国人旅行者」という 2 つの利用者を挙げ、それぞれに必要な設備（エレベーター・スロープ、多言語の案内表示）を結びつけています。facilities だけでは抽象的なので、設備の名前を具体的に出すことが大切です。No の立場なら「日本の駅はすでに清潔で便利であり、利用者の少ない駅に多額の費用をかけるのは無駄だ」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Many elderly people can't use stairs easily. Stations need more elevators for them. Also, there are more foreign visitors these days. They need signs in many languages. So stations should be easy for everyone to use.",
+          "simpleAnswerJa": "はい、そう思います。階段を楽に使えないお年寄りがたくさんいます。駅には、お年寄りのためのエレベーターがもっと必要です。また、最近は外国人観光客が増えています。観光客には、いろいろな言語の案内表示が必要です。だから、駅はだれにとっても使いやすくあるべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Many elderly people can't use stairs easily.",
+              "ja": "階段を楽に使えないお年寄りが多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Stations need more elevators.",
+              "ja": "駅にはもっとエレベーターが必要だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Foreign visitors need signs in many languages.",
+              "ja": "外国人観光客には、いろいろな言語の案内表示が必要だ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many stations already have elevators.",
+              "ja": "すでにエレベーターのある駅が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Improving stations costs a lot of money.",
+              "ja": "駅を改良するには多くのお金がかかる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -126,7 +418,36 @@
           "promptJa": "より厳しい交通法規を導入すれば、自動車事故の件数は減るでしょうか。",
           "modelAnswer": "Yes, I think it would. When punishments are heavier, drivers think more carefully before speeding or using their smartphones while driving. In Japan, for example, the penalties for drunk driving were made much stricter, and people are now far more careful about it. However, the police also need to enforce the laws properly for them to work.",
           "modelAnswerJa": "はい、減ると思います。罰則が重くなると、運転者はスピードを出しすぎたり運転中にスマートフォンを使ったりする前に、より慎重に考えるようになります。たとえば日本では、飲酒運転の罰則が大幅に厳しくなり、今では人々がそれにずっと気をつけるようになっています。ただし、法律が効果を持つには、警察がきちんと取り締まることも必要です。",
-          "explanation": "Would ...? の質問なので、Yes, I think it would. と would を使って答えます。飲酒運転の厳罰化という身近な例を挙げると説得力が出ます。最後の However, ... で「取り締まりも必要」と条件を加えています。No の立場なら「事故の多くはうっかりミスが原因なので、法律よりも自動ブレーキなどの技術や安全教育のほうが効果がある」などが考えられます。"
+          "explanation": "Would ...? の質問なので、Yes, I think it would. と would を使って答えます。飲酒運転の厳罰化という身近な例を挙げると説得力が出ます。最後の However, ... で「取り締まりも必要」と条件を加えています。No の立場なら「事故の多くはうっかりミスが原因なので、法律よりも自動ブレーキなどの技術や安全教育のほうが効果がある」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. If the punishments are heavy, drivers will be more careful. Also, the law against drunk driving became stricter, and now fewer people drive after drinking. So there will be fewer car accidents.",
+          "simpleAnswerJa": "はい、そう思います。罰が重ければ、ドライバーはもっと気をつけるようになります。また、飲酒運転の法律が厳しくなって、今ではお酒を飲んで運転する人が減っています。だから、交通事故は減るでしょう。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "If the punishments are heavy, drivers will be more careful.",
+              "ja": "罰が重ければ、ドライバーはもっと気をつける"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Fewer people drive after drinking now.",
+              "ja": "今では飲酒運転をする人が減っている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Drivers will stop using smartphones while driving.",
+              "ja": "運転中にスマートフォンを使わなくなる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many accidents are caused by simple mistakes.",
+              "ja": "多くの事故はちょっとしたミスで起こる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some drivers don't follow the rules.",
+              "ja": "ルールを守らないドライバーもいる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -136,7 +457,36 @@
           "promptJa": "カジノでのギャンブルは社会にとって有益だと思いますか。",
           "modelAnswer": "No, I don't think so. Casinos may create jobs and attract tourists, but they can also cause serious social problems. Some people become addicted to gambling and lose all of their money, which can destroy their families. There are also concerns about crime in the areas around casinos. I think these costs are greater than the economic benefits.",
           "modelAnswerJa": "いいえ、そうは思いません。カジノは雇用を生み、観光客を呼び込むかもしれませんが、深刻な社会問題を引き起こすおそれもあります。ギャンブル依存症になって全財産を失い、家庭を壊してしまう人もいます。カジノの周辺地域の犯罪についての懸念もあります。こうした代償は、経済的な利益よりも大きいと思います。",
-          "explanation": "まず may ..., but ... で相手側の利点（雇用・観光）を認めてから、依存症と犯罪という問題点を述べています。become addicted to ...（〜の依存症になる）はこの話題で欠かせない表現です。Yes の立場なら「観光客が増えて税収が増え、その収入を福祉や地域の発展に使える」などが考えられます。"
+          "explanation": "まず may ..., but ... で相手側の利点（雇用・観光）を認めてから、依存症と犯罪という問題点を述べています。become addicted to ...（〜の依存症になる）はこの話題で欠かせない表現です。Yes の立場なら「観光客が増えて税収が増え、その収入を福祉や地域の発展に使える」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Some people can't stop gambling. They lose all their money, and their families suffer. Also, crime may increase near casinos. So I think casinos are bad for society.",
+          "simpleAnswerJa": "いいえ、そうは思いません。ギャンブルをやめられなくなる人がいます。そういう人はお金をすべて失い、家族も苦しみます。また、カジノの周りでは犯罪が増えるかもしれません。だから、カジノは社会にとってよくないと思います。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Some people can't stop gambling.",
+              "ja": "ギャンブルをやめられなくなる人がいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "They may lose all their money.",
+              "ja": "お金をすべて失うかもしれない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Crime may increase near casinos.",
+              "ja": "カジノの周りで犯罪が増えるかもしれない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Casinos can create new jobs.",
+              "ja": "カジノは新しい仕事を生み出せる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More tourists will come to Japan.",
+              "ja": "日本に来る観光客が増える"
+            }
+          ]
         }
       ]
     }

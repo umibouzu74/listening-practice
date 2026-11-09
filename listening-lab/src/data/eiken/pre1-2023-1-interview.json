@@ -36,6 +36,60 @@
             "2コマ目: 大学生が ABC Driving School で申込書を受け取ったことを描写できた",
             "3コマ目: 運転免許証を見せて「いつでも車で送れる」と祖父に伝えたことを間接話法で言えた",
             "4コマ目: カレンダーの土日の予定と、母親の「彼は毎週末予定がある」を、驚く大学生の様子とあわせて言えた"
+          ],
+          "simpleAnswer": "One day, a university student was watching TV with his mother and grandfather. The news was about accidents involving elderly drivers. The number of these accidents was going up. His grandfather said that he should stop driving. The next week, the student went to a driving school. He got a registration form there. He looked happy. A few months later, the student came home with his driver's license. He told his grandfather that he could drive him anytime. His grandfather looked very happy. That weekend, his grandfather was pointing at a calendar. It was full of plans for golf and fishing. The student's mother told him that his grandfather had plans every weekend. The student looked surprised.",
+          "simpleAnswerJa": "ある日、ある大学生が母親と祖父と一緒にテレビを見ていた。ニュースは高齢ドライバーが関わる事故についてだった。そうした事故の数は増えていた。祖父は、自分は運転をやめるべきだと言った。翌週、大学生は自動車学校に行った。そこで申込書をもらった。彼はうれしそうだった。数か月後、大学生は運転免許証を持って帰ってきた。彼は祖父に、いつでも車で送ってあげられると言った。祖父はとてもうれしそうだった。その週末、祖父はカレンダーを指さしていた。カレンダーはゴルフや釣りの予定でいっぱいだった。大学生の母親は彼に、おじいさんは毎週末予定があると言った。大学生は驚いた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "The news was about accidents involving elderly drivers.",
+              "ja": "ニュースは高齢ドライバーが関わる事故についてだった"
+            },
+            {
+              "group": "1コマ目",
+              "en": "His grandfather said that he should stop driving.",
+              "ja": "祖父は、自分は運転をやめるべきだと言った（should はそのまま）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The student went to a driving school.",
+              "ja": "大学生は自動車学校に行った"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He got a registration form there.",
+              "ja": "そこで申込書をもらった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The student came home with his driver's license.",
+              "ja": "大学生は運転免許証を持って帰ってきた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "He told his grandfather that he could drive him anytime.",
+              "ja": "祖父に、いつでも車で送ってあげられると言った（can → could）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "His grandfather looked very happy.",
+              "ja": "祖父はとてもうれしそうだった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "His grandfather was pointing at a calendar.",
+              "ja": "祖父はカレンダーを指さしていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The student's mother told him that his grandfather had plans every weekend.",
+              "ja": "母親は彼に、おじいさんは毎週末予定があると言った（has → had）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The student looked surprised.",
+              "ja": "大学生は驚いた様子だった"
+            }
           ]
         },
         {
@@ -48,7 +102,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-1-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I told Grandpa I could drive him anytime, but I never expected him to have plans every single weekend. I'm glad that he's enjoying himself, but I need some time for myself, too. I should talk to him and decide which weekends I can drive him.\"",
           "modelAnswerJa": "「おじいちゃんにいつでも送ると言ったけれど、毎週末に予定があるとは思いもしなかった。おじいちゃんが楽しんでいるのはうれしいけれど、自分の時間も必要だ。おじいちゃんと話し合って、どの週末なら送れるかを決めよう」と考えていると思います。",
-          "explanation": "4 コマ目は、大学生が、自分の「いつでも送る」という言葉が思わぬ負担になりそうだと気づいた場面です。I never expected ... で意外だった気持ちを述べ、I should talk to him and decide ... で現実的な解決策につなげています。祖父を責めるのではなく I'm glad that ... と気づかいを入れると、印象のよい答えになります。"
+          "explanation": "4 コマ目は、大学生が、自分の「いつでも送る」という言葉が思わぬ負担になりそうだと気づいた場面です。I never expected ... で意外だった気持ちを述べ、I should talk to him and decide ... で現実的な解決策につなげています。祖父を責めるのではなく I'm glad that ... と気づかいを入れると、印象のよい答えになります。",
+          "simpleAnswer": "I'd be thinking, \"I should have asked Grandpa about his plans first. I need some free time, too. I'll talk with him and decide which weekends I can drive him.\"",
+          "simpleAnswerJa": "「先におじいちゃんの予定を聞いておくべきだった。自分にも自由な時間が必要だ。おじいちゃんと話して、どの週末なら送れるかを決めよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I should have asked Grandpa about his plans first.",
+              "ja": "先におじいちゃんの予定を聞いておくべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I need some free time, too.",
+              "ja": "自分にも自由な時間が必要だ"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I'm glad that Grandpa is enjoying his life.",
+              "ja": "おじいちゃんが人生を楽しんでいるのはうれしい"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll talk with him and decide which weekends I can drive him.",
+              "ja": "おじいちゃんと話して、どの週末なら送れるかを決めよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask my mother to drive him on some weekends.",
+              "ja": "週末のうち何回かは母に送ってもらうよう頼もう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -59,7 +142,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-1-interview/a-q2.mp3",
           "modelAnswer": "No, I don't think so. If parents are too strict, children may become afraid of making mistakes, and they may stop talking to their parents about their problems. It is more important for children to learn why rules matter and to make their own decisions. Of course, parents should teach them basic manners, but they don't need to be stricter than that.",
           "modelAnswerJa": "いいえ、そうは思いません。親が厳しすぎると、子どもは失敗を恐れるようになり、自分の悩みを親に話さなくなるかもしれません。子どもにとっては、なぜルールが大切なのかを学び、自分で物事を決めることのほうが重要です。もちろん親は基本的なマナーを教えるべきですが、それ以上に厳しくする必要はありません。",
-          "explanation": "「厳しすぎることの問題点（失敗を恐れる・相談しなくなる）」→「より大切なこと（理由を理解し、自分で決める）」の順に述べ、最後に Of course, ... で「しつけが不要なわけではない」と補っています。Of course で反対意見に少し歩み寄ると、極端な主張に聞こえません。Yes の立場なら「社会のルールや礼儀は、小さいうちに家庭できちんと教える必要がある」などが考えられます。"
+          "explanation": "「厳しすぎることの問題点（失敗を恐れる・相談しなくなる）」→「より大切なこと（理由を理解し、自分で決める）」の順に述べ、最後に Of course, ... で「しつけが不要なわけではない」と補っています。Of course で反対意見に少し歩み寄ると、極端な主張に聞こえません。Yes の立場なら「社会のルールや礼儀は、小さいうちに家庭できちんと教える必要がある」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. If parents are too strict, children may be afraid of making mistakes. Also, children need to learn to make their own decisions. So parents don't need to be stricter.",
+          "simpleAnswerJa": "いいえ、そうは思いません。親が厳しすぎると、子どもは失敗を怖がるようになるかもしれません。また、子どもは自分で物事を決めることを学ぶ必要があります。だから、親がもっと厳しくする必要はありません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Children may be afraid of making mistakes.",
+              "ja": "子どもが失敗を怖がるようになるかもしれない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Children need to learn to make their own decisions.",
+              "ja": "子どもは自分で物事を決めることを学ぶ必要がある"
+            },
+            {
+              "group": "No の理由",
+              "en": "They may stop talking to their parents about their problems.",
+              "ja": "悩みを親に話さなくなるかもしれない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some children don't have good manners.",
+              "ja": "マナーがよくない子どももいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many children spend too much time on their smartphones.",
+              "ja": "スマートフォンに時間を使いすぎている子どもが多い"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -70,7 +182,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-1-interview/a-q3.mp3",
           "modelAnswer": "Yes, I think they can, for the most part. TV stations have professional reporters, and information is usually checked carefully before it goes on the air. If a program reports something incorrect, it is generally corrected later. Compared with information on social media, TV news is much more reliable, although viewers should still watch it with a critical eye.",
           "modelAnswerJa": "はい、大部分は信頼できると思います。テレビ局にはプロの記者がいて、情報はふつう放送前に入念に確認されます。番組が誤った内容を伝えた場合も、たいていはあとで訂正されます。SNS の情報と比べると、テレビのニュースはずっと信頼できますが、それでも視聴者は批判的な目を持って見るべきです。",
-          "explanation": "質問の Can people ...? に合わせて Yes, I think they can と答え、for the most part（大部分は）を添えて言い切りすぎないようにしています。「放送前の確認」「訂正の仕組み」という理由のあと、SNS と比べることで信頼性を具体的に示しました。No の立場なら「スポンサーや視聴率の影響で、伝え方が偏ることがある」などが考えられます。"
+          "explanation": "質問の Can people ...? に合わせて Yes, I think they can と答え、for the most part（大部分は）を添えて言い切りすぎないようにしています。「放送前の確認」「訂正の仕組み」という理由のあと、SNS と比べることで信頼性を具体的に示しました。No の立場なら「スポンサーや視聴率の影響で、伝え方が偏ることがある」などが考えられます。",
+          "simpleAnswer": "Yes, I think they can. TV stations have professional reporters. They check information carefully before they report it. Also, TV news is more reliable than news on social media. So people can trust it.",
+          "simpleAnswerJa": "はい、信頼できると思います。テレビ局にはプロの記者がいます。彼らは報道する前に情報を注意深く確認します。また、テレビのニュースは SNS のニュースより信頼できます。だから、人々はテレビのニュースを信頼できます。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "TV stations have professional reporters.",
+              "ja": "テレビ局にはプロの記者がいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They check information carefully before they report it.",
+              "ja": "報道する前に情報を注意深く確認する"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "TV news is more reliable than news on social media.",
+              "ja": "テレビのニュースは SNS のニュースより信頼できる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some TV programs show only one side of a story.",
+              "ja": "一方の側からしか伝えない番組もある"
+            },
+            {
+              "group": "No の理由",
+              "en": "TV stations sometimes make mistakes, too.",
+              "ja": "テレビ局も間違えることがある"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -81,7 +222,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-1-interview/a-q4.mp3",
           "modelAnswer": "Yes, I think so. People are living longer and staying healthy into their later years, so many of them will want to stay active. In addition, pensions alone may not be enough to support a long retirement. Because Japan is also facing a labor shortage, companies will welcome experienced older workers and offer them more opportunities.",
           "modelAnswerJa": "はい、そう思います。人々は長生きになり、高齢になっても健康でいられるので、活動的でいたいと思う人が多くなるでしょう。また、長い老後を年金だけで支えるのは難しいかもしれません。日本は人手不足にも直面しているので、企業は経験豊富な高齢の労働者を歓迎し、より多くの機会を提供するでしょう。",
-          "explanation": "「働きたい理由（健康で長生き）」「働く必要がある理由（年金）」「企業側の事情（人手不足）」と、3 つの視点から理由を挙げています。No.4 では、日本社会の動きに触れると視野の広い答えになります。No の立場なら「老後は趣味や家族との時間を大切にしたい人が多く、体力的にも長く働くのは難しい」などが考えられます。"
+          "explanation": "「働きたい理由（健康で長生き）」「働く必要がある理由（年金）」「企業側の事情（人手不足）」と、3 つの視点から理由を挙げています。No.4 では、日本社会の動きに触れると視野の広い答えになります。No の立場なら「老後は趣味や家族との時間を大切にしたい人が多く、体力的にも長く働くのは難しい」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. People are living longer and staying healthy these days. Many of them want to keep working. Also, pensions may not be enough to live on. So more people will work after retirement age.",
+          "simpleAnswerJa": "はい、そう思います。最近は、人々は長生きで、健康でいられるようになっています。働き続けたいと思う人も多いです。また、年金だけでは生活できないかもしれません。だから、定年後も働く人は増えるでしょう。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "People are living longer and staying healthy.",
+              "ja": "人々は長生きで、健康でいられるようになっている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Pensions may not be enough to live on.",
+              "ja": "年金だけでは生活できないかもしれない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many companies need more workers.",
+              "ja": "人手が足りない会社が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people want to enjoy their free time after retirement.",
+              "ja": "定年後は自由な時間を楽しみたい人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "It is hard for older people to find jobs.",
+              "ja": "高齢者が仕事を見つけるのは難しい"
+            }
+          ]
         }
       ]
     },
@@ -111,6 +281,60 @@
             "2コマ目: ロボットやテディベアなどのおもちゃを待合室に置くことを歯科医に提案したと言えた",
             "3コマ目: おもちゃのある遊び場ができ、子どもたちが笑顔になったことを描写できた",
             "4コマ目: おもちゃが散らかって壊れた様子と、「もう新しいおもちゃが必要だ」を間接話法で言えた"
+          ],
+          "simpleAnswer": "One day, a woman was working at the reception desk of a dentist's office. Some children in the waiting room were crying. One boy did not want to go into the treatment room. The woman looked worried. A few days later, she was talking with the dentist. She suggested putting some toys in the waiting room. The dentist liked her idea. The next week, there were many toys in the waiting room. A boy was playing with them, and a little girl was smiling. The woman looked happy. Later that day, the toys were all over the play area. Some of them were broken. The dentist told the woman that they already needed new toys. She looked surprised.",
+          "simpleAnswerJa": "ある日、ある女性が歯科医院の受付で働いていた。待合室では何人かの子どもが泣いていた。1 人の男の子は診察室に入りたがらなかった。女性は心配そうだった。数日後、彼女は歯科医と話していた。彼女は待合室におもちゃを置くことを提案した。歯科医は彼女の考えを気に入った。翌週、待合室にはたくさんのおもちゃがあった。男の子がそれで遊んでいて、小さな女の子はにこにこしていた。女性はうれしそうだった。その日のうちに、おもちゃは遊び場じゅうに散らばっていた。いくつかは壊れていた。歯科医は女性に、もう新しいおもちゃが必要だと言った。彼女は驚いた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "Some children in the waiting room were crying.",
+              "ja": "待合室で何人かの子どもが泣いていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "One boy did not want to go into the treatment room.",
+              "ja": "1 人の男の子は診察室に入りたがらなかった"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The woman looked worried.",
+              "ja": "女性は心配そうだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She was talking with the dentist.",
+              "ja": "彼女は歯科医と話していた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She suggested putting some toys in the waiting room.",
+              "ja": "待合室におもちゃを置くことを提案した（suggest + ing 形）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "There were many toys in the waiting room.",
+              "ja": "待合室にはたくさんのおもちゃがあった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "A boy was playing with them, and a little girl was smiling.",
+              "ja": "男の子がそれで遊んでいて、小さな女の子はにこにこしていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Some of the toys were broken.",
+              "ja": "おもちゃのいくつかは壊れていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The dentist told the woman that they already needed new toys.",
+              "ja": "歯科医は女性に、もう新しいおもちゃが必要だと言った（need → needed）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She looked surprised.",
+              "ja": "彼女は驚いた様子だった"
+            }
           ]
         },
         {
@@ -123,7 +347,31 @@
           "audio": "audio/eiken/eiken-pre1-2023-1-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"The toys really did cheer the children up, so my idea wasn't a bad one. But they won't last long if the kids play with them so roughly. Next time, we should choose stronger toys and ask parents to keep an eye on their children while they play.\"",
           "modelAnswerJa": "「おもちゃのおかげで子どもたちは本当に元気になったのだから、私の考えは悪くなかった。でも、こんなに乱暴に遊ばれたら長くはもたない。次はもっと丈夫なおもちゃを選んで、遊んでいる間は子どもを見ていてもらうよう保護者にお願いしよう」と考えていると思います。",
-          "explanation": "4 コマ目は、女性のアイデアが成功した一方で、おもちゃがすぐに傷んでしまった場面です。まず「アイデア自体はよかった」と認め、But で問題点を述べ、Next time, we should ... で「次の対策」を具体的に 2 つ挙げています。keep an eye on（〜から目を離さない）は、子どもの話題で使いやすい表現です。"
+          "explanation": "4 コマ目は、女性のアイデアが成功した一方で、おもちゃがすぐに傷んでしまった場面です。まず「アイデア自体はよかった」と認め、But で問題点を述べ、Next time, we should ... で「次の対策」を具体的に 2 つ挙げています。keep an eye on（〜から目を離さない）は、子どもの話題で使いやすい表現です。",
+          "simpleAnswer": "I'd be thinking, \"The children loved the toys, so my idea was good. But I should have bought stronger toys. Next time, I'll ask parents to watch their children.\"",
+          "simpleAnswerJa": "「子どもたちはおもちゃを気に入ってくれたのだから、私の考えはよかった。でも、もっと丈夫なおもちゃを買うべきだった。次は、子どもを見ていてくれるよう保護者にお願いしよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "The children loved the toys, so my idea was good.",
+              "ja": "子どもたちはおもちゃを気に入ったのだから、私の考えはよかった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have bought stronger toys.",
+              "ja": "もっと丈夫なおもちゃを買うべきだった"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll ask parents to watch their children.",
+              "ja": "次は、子どもを見ていてくれるよう保護者にお願いしよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll make some rules for the play area.",
+              "ja": "遊び場のルールを作ろう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -134,7 +382,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-1-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. In the past, grandparents and neighbors often helped parents take care of their children, but now many parents have to do everything by themselves. In many families, both parents also work full-time. Moreover, parents today have to worry about new problems such as smartphone use and online bullying, and education has become more expensive.",
           "modelAnswerJa": "はい、そう思います。昔は祖父母や近所の人が子どもの世話を手伝ってくれることがよくありましたが、今は多くの親がすべてを自分たちでしなければなりません。また、両親ともフルタイムで働いている家庭も多いです。さらに、今の親はスマートフォンの使い方やネットいじめといった新しい問題も心配しなければならず、教育にかかる費用も高くなっています。",
-          "explanation": "質問が今と昔の比較なので、In the past, ..., but now ... の形で違いをはっきり示しています。そのあとで「共働き」「スマートフォンやネットの問題」「教育費」と、今ならではの事情を重ねました。No の立場なら「育児用品や保育サービス、ネットの情報が充実し、父親の育児参加も進んでいるので、昔より楽な面もある」などが考えられます。"
+          "explanation": "質問が今と昔の比較なので、In the past, ..., but now ... の形で違いをはっきり示しています。そのあとで「共働き」「スマートフォンやネットの問題」「教育費」と、今ならではの事情を重ねました。No の立場なら「育児用品や保育サービス、ネットの情報が充実し、父親の育児参加も進んでいるので、昔より楽な面もある」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. In the past, grandparents often helped parents. But now, many parents have to do everything by themselves. Also, in many families, both parents work. So it is harder to raise children now.",
+          "simpleAnswerJa": "はい、そう思います。昔は、祖父母がよく親を手伝ってくれました。でも今は、多くの親がすべてを自分たちでしなければなりません。また、多くの家庭では両親ともに働いています。だから、今のほうが子育ては大変です。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "In the past, grandparents often helped parents.",
+              "ja": "昔は祖父母がよく親を手伝ってくれた"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Now, many parents have to do everything by themselves.",
+              "ja": "今は多くの親がすべてを自分たちでしなければならない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "In many families, both parents work.",
+              "ja": "多くの家庭では両親ともに働いている"
+            },
+            {
+              "group": "No の理由",
+              "en": "There are more daycare centers now.",
+              "ja": "今は保育園が増えている"
+            },
+            {
+              "group": "No の理由",
+              "en": "More fathers take care of their children these days.",
+              "ja": "最近は子どもの世話をする父親が増えている"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -145,7 +422,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-1-interview/d-q3.mp3",
           "modelAnswer": "Yes, I think so. When companies compete mainly on price, they often cut costs by using cheaper materials or paying workers and suppliers less. As a result, product quality can suffer. In addition, cheap products tend to be thrown away quickly, which creates more waste. I think companies should focus more on making good products that last a long time.",
           "modelAnswerJa": "はい、そう思います。企業が主に価格で競争すると、より安い材料を使ったり、従業員や取引先に払うお金を減らしたりしてコストを削ることがよくあります。その結果、製品の品質が落ちることがあります。また、安い製品はすぐに捨てられがちで、ごみの増加にもつながります。企業は、長く使えるよい製品を作ることにもっと力を入れるべきだと思います。",
-          "explanation": "「価格競争 → コスト削減 → 品質の低下」という流れを As a result でつなぎ、さらに「ごみの増加」という別の問題も加えています。compete on price（価格で競争する）や cut costs（コストを削る）は、企業の話題で役立つ表現です。No の立場なら「物価が上がる中で安い商品は家計を助けるし、技術の進歩で安くても品質のよい製品が増えている」などが考えられます。"
+          "explanation": "「価格競争 → コスト削減 → 品質の低下」という流れを As a result でつなぎ、さらに「ごみの増加」という別の問題も加えています。compete on price（価格で競争する）や cut costs（コストを削る）は、企業の話題で役立つ表現です。No の立場なら「物価が上がる中で安い商品は家計を助けるし、技術の進歩で安くても品質のよい製品が増えている」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Companies often use cheap materials to lower their prices. So the quality of their products gets worse. Also, cheap products break easily and become waste. Companies should make good products that last a long time.",
+          "simpleAnswerJa": "はい、そう思います。企業は値段を下げるために、安い材料をよく使います。そのため、製品の品質が悪くなります。また、安い製品はすぐに壊れて、ごみになります。企業は長く使えるよい製品を作るべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Companies often use cheap materials to lower their prices.",
+              "ja": "企業は値段を下げるために安い材料を使うことが多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "The quality of their products gets worse.",
+              "ja": "製品の品質が悪くなる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Cheap products break easily and become waste.",
+              "ja": "安い製品はすぐに壊れて、ごみになる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people want to buy things at low prices.",
+              "ja": "物を安く買いたい人は多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Cheap products help people who don't have much money.",
+              "ja": "安い製品は、お金があまりない人の助けになる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -156,7 +462,36 @@
           "audio": "audio/eiken/eiken-pre1-2023-1-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think so, at least not by itself. The number of elderly people is growing while the number of young taxpayers is falling, so it will be very difficult to pay for pensions and medical care. There is also a serious shortage of caregivers. Local communities and private companies will need to help the government support older people.",
           "modelAnswerJa": "いいえ、少なくとも政府だけでは難しいと思います。高齢者の数が増える一方で、税金を納める若い世代は減っているので、年金や医療の費用をまかなうのはとても難しくなるでしょう。また、介護の担い手も深刻に不足しています。地域社会や民間企業が、政府と一緒に高齢者を支えていく必要があるでしょう。",
-          "explanation": "at least not by itself（少なくとも政府だけでは無理だ）と条件を付けることで、完全な否定を避けています。「お金の問題（年金・医療費）」と「人手の問題（介護）」を分けて述べ、最後に「では誰が支えるのか」まで答えると、話がまとまります。Yes の立場なら「定年の延長や介護ロボットの導入など、政策次第で対応できる」などが考えられます。"
+          "explanation": "at least not by itself（少なくとも政府だけでは無理だ）と条件を付けることで、完全な否定を避けています。「お金の問題（年金・医療費）」と「人手の問題（介護）」を分けて述べ、最後に「では誰が支えるのか」まで答えると、話がまとまります。Yes の立場なら「定年の延長や介護ロボットの導入など、政策次第で対応できる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. The number of elderly people is growing. But there are fewer young people who pay taxes. Also, there are not enough caregivers. So the government can't do it alone.",
+          "simpleAnswerJa": "いいえ、そうは思いません。高齢者の数は増えています。でも、税金を納める若者は減っています。また、介護をする人も足りていません。だから、政府だけでは対応できません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "The number of elderly people is growing.",
+              "ja": "高齢者の数が増えている"
+            },
+            {
+              "group": "No の理由",
+              "en": "There are fewer young people who pay taxes.",
+              "ja": "税金を納める若者が減っている"
+            },
+            {
+              "group": "No の理由",
+              "en": "There are not enough caregivers.",
+              "ja": "介護をする人が足りない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "The government can use new technology like care robots.",
+              "ja": "政府は介護ロボットのような新しい技術を活用できる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many older people are healthy and can help each other.",
+              "ja": "元気で、お互いに助け合える高齢者も多い"
+            }
+          ]
         }
       ]
     }

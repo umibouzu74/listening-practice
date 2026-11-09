@@ -36,6 +36,65 @@
             "2コマ目: 家のテレビでキャンプが人気だと知り、アイデアを思いついたことを言えた",
             "3コマ目: 町のキャンプ場ができて、家族連れが楽しんでいる様子を描写できた",
             "4コマ目: テレビのニュースでキャンプ場にクマが現れたと知り、町長が心配していることを伝えられた"
+          ],
+          "simpleAnswer": "One day, a mayor was having a meeting. She showed everyone a graph of the number of tourists. The number was going down. She asked the people at the meeting if they had any ideas. That weekend, she was watching TV at home. The program said that camping was popular then. She had a good idea. Six months later, ABC Town Campsite was open. Many families were enjoying camping there. The mayor was talking with a man at the campsite. A few months later, however, the mayor and the man were watching the news on TV. A reporter was at the campsite, and there was a bear near a tent. The mayor looked very worried because bears could be dangerous for campers.",
+          "simpleAnswerJa": "ある日、町長が会議をしていた。彼女は観光客数のグラフをみんなに見せた。その数は減っていた。彼女は会議の出席者に、何かアイデアはないかとたずねた。その週末、彼女は家でテレビを見ていた。番組では、そのころキャンプが人気だと伝えていた。彼女はよいアイデアを思いついた。6 か月後、ABC 町キャンプ場がオープンしていた。多くの家族がそこでキャンプを楽しんでいた。町長はキャンプ場で男性と話していた。ところが数か月後、町長と男性はテレビでニュースを見ていた。レポーターがキャンプ場にいて、テントの近くにクマがいた。クマはキャンプ客にとって危険かもしれないので、町長はとても心配そうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She showed everyone a graph of the number of tourists.",
+              "ja": "観光客数のグラフをみんなに見せた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The number was going down.",
+              "ja": "その数は減っていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She asked the people at the meeting if they had any ideas.",
+              "ja": "会議の出席者に、何かアイデアはないかとたずねた（Any ideas? → asked if they had any ideas）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She was watching TV at home.",
+              "ja": "彼女は家でテレビを見ていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The program said that camping was popular then.",
+              "ja": "番組では、そのころキャンプが人気だと伝えていた（is → was、now → then）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She had a good idea.",
+              "ja": "彼女はよいアイデアを思いついた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "ABC Town Campsite was open.",
+              "ja": "ABC 町キャンプ場がオープンしていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Many families were enjoying camping there.",
+              "ja": "多くの家族がそこでキャンプを楽しんでいた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The mayor and the man were watching the news on TV.",
+              "ja": "町長と男性はテレビでニュースを見ていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "There was a bear near a tent.",
+              "ja": "テントの近くにクマがいた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The mayor looked very worried.",
+              "ja": "町長はとても心配そうだった"
+            }
           ]
         },
         {
@@ -48,7 +107,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"People won't come to the campsite if they think bears might appear there. We need to put up strong fences right away and warn campers not to leave food outside. Safety has to come first, or all our work will be wasted.\"",
           "modelAnswerJa": "「クマが出るかもしれないと思ったら、人々はキャンプ場に来なくなってしまう。すぐに頑丈な柵を設置して、キャンプ客に食べ物を外に置かないよう注意を呼びかけなければならない。安全を最優先にしないと、これまでの努力がすべて無駄になってしまう」と考えていると思います。",
-          "explanation": "4 コマ目は、町長が、せっかく作ったキャンプ場にクマが現れたことを知った場面です。まず People won't come ... if ... で「何が心配か」を述べ、次に We need to ... で「柵を作る」「注意を呼びかける」という具体的な対策を挙げています。町長という立場なので、個人の感想だけでなく町として何をするかまで言うと、この人物らしい答えになります。come first（最優先である）は使いやすい表現です。"
+          "explanation": "4 コマ目は、町長が、せっかく作ったキャンプ場にクマが現れたことを知った場面です。まず People won't come ... if ... で「何が心配か」を述べ、次に We need to ... で「柵を作る」「注意を呼びかける」という具体的な対策を挙げています。町長という立場なので、個人の感想だけでなく町として何をするかまで言うと、この人物らしい答えになります。come first（最優先である）は使いやすい表現です。",
+          "simpleAnswer": "I'd be thinking, \"I'm worried that people will stop coming to the campsite. Safety comes first. I'll put up strong fences around the campsite right away.\"",
+          "simpleAnswerJa": "「キャンプ場に人が来なくなるのではないかと心配だ。安全が第一だ。すぐにキャンプ場のまわりに丈夫な柵を作ろう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "I'm worried that people will stop coming.",
+              "ja": "人が来なくなるのではないかと心配だ"
+            },
+            {
+              "group": "気持ち",
+              "en": "Safety comes first.",
+              "ja": "安全が第一だ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll put up strong fences right away.",
+              "ja": "すぐに丈夫な柵を作ろう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll tell campers not to leave food outside.",
+              "ja": "キャンプ客に、食べ物を外に置かないよう伝えよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask experts for advice.",
+              "ja": "専門家に助言を求めよう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -59,7 +147,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q2.mp3",
           "modelAnswer": "Yes, I think so. These days, many people, especially children, spend most of their free time indoors looking at screens. By hiking or camping, they can experience plants and animals directly instead of just reading about them. This can also make people more interested in protecting the environment, and being outdoors is good for both body and mind.",
           "modelAnswerJa": "はい、そう思います。最近は多くの人、特に子どもが、自由な時間のほとんどを屋内で画面を見て過ごしています。ハイキングやキャンプをすれば、本などで読むだけでなく、植物や動物に直接触れることができます。これによって環境保護への関心も高まるでしょうし、屋外で過ごすことは心身の健康にもよいです。",
-          "explanation": "「屋内で画面ばかり見ている」という現状を述べてから、直接体験の価値と環境保護への関心につなげています。instead of just reading about them と対比させると、屋外で学ぶことの意味がはっきりします。No の立場なら「忙しい人や都市に住む人には難しく、本や映像、博物館などでも自然について十分に学べる」などが考えられます。"
+          "explanation": "「屋内で画面ばかり見ている」という現状を述べてから、直接体験の価値と環境保護への関心につなげています。instead of just reading about them と対比させると、屋外で学ぶことの意味がはっきりします。No の立場なら「忙しい人や都市に住む人には難しく、本や映像、博物館などでも自然について十分に学べる」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Many children spend most of their free time looking at screens. Outside, they can see real plants and animals. Also, being outdoors is good for our health. So people should go hiking or camping more often.",
+          "simpleAnswerJa": "はい、そう思います。多くの子どもは、自由な時間のほとんどを画面を見て過ごしています。外では、本物の植物や動物を見ることができます。また、外で過ごすことは健康によいです。だから、もっとハイキングやキャンプに行くべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "People can see real plants and animals outside.",
+              "ja": "外では本物の植物や動物を見られる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Being outdoors is good for our health.",
+              "ja": "外で過ごすのは健康によい"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People will want to protect nature.",
+              "ja": "自然を守りたいと思うようになる"
+            },
+            {
+              "group": "No の理由",
+              "en": "People can learn about nature from books and TV.",
+              "ja": "本やテレビで自然について学べる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people are too busy to go outdoors.",
+              "ja": "忙しすぎて外に出かけられない人が多い"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -70,7 +187,41 @@
           "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q3.mp3",
           "modelAnswer": "No, I don't think so. In Japan, many workers do not use all of the paid vacation they already have because they feel guilty or are too busy. Instead of adding more days, companies should create an atmosphere where people feel comfortable taking time off. For example, managers could take vacations themselves to set an example.",
           "modelAnswerJa": "いいえ、そうは思いません。日本では、多くの社員が後ろめたさや忙しさから、すでにある有給休暇を使い切っていません。休暇の日数を増やすよりも、会社は社員が気兼ねなく休みを取れる雰囲気を作るべきです。たとえば、管理職が自ら休暇を取って手本を示すことができるでしょう。",
-          "explanation": "「日数を増やすより、今ある休暇を取りやすくすることが先だ」という、少しひねった No の答えです。Instead of adding more days と対案を示し、For example で具体策を加えると説得力が出ます。paid vacation（有給休暇）、take time off（休みを取る）は仕事の話題でよく使います。Yes の立場なら「十分に休むと疲れが取れて生産性が上がり、家族と過ごす時間も増える」などが考えられます。"
+          "explanation": "「日数を増やすより、今ある休暇を取りやすくすることが先だ」という、少しひねった No の答えです。Instead of adding more days と対案を示し、For example で具体策を加えると説得力が出ます。paid vacation（有給休暇）、take time off（休みを取る）は仕事の話題でよく使います。Yes の立場なら「十分に休むと疲れが取れて生産性が上がり、家族と過ごす時間も増える」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Many workers don't use all of their paid holidays now. Also, small companies may not have enough workers to give more days off. So companies should first help workers use the holidays they already have.",
+          "simpleAnswerJa": "いいえ、そうは思いません。今でも、多くの社員は有給休暇をすべては使っていません。また、小さな会社には、休みを増やせるだけの人手がないかもしれません。だから、会社はまず、今ある休暇を社員が使えるようにするべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many workers don't use all of their paid holidays.",
+              "ja": "多くの社員は有給休暇をすべては使っていない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Small companies may not have enough workers.",
+              "ja": "小さな会社には十分な人手がないかもしれない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Companies should help workers use the holidays they have.",
+              "ja": "会社は、今ある休暇を社員が使えるようにすべきだ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many Japanese people work too much.",
+              "ja": "働きすぎの日本人が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Workers need more time to rest.",
+              "ja": "社員にはもっと休む時間が必要だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People can spend more time with their families.",
+              "ja": "家族ともっと時間を過ごせる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -81,7 +232,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-1-interview/a-q4.mp3",
           "modelAnswer": "Yes, it should. Many animals are in danger because of human activities such as building on their habitats and illegal hunting. Individuals and small groups cannot solve these problems alone, but governments can make strict laws and protect large natural areas. Once a species disappears, it can never come back, and its loss can also harm the entire ecosystem.",
           "modelAnswerJa": "はい、努力すべきです。多くの動物は、生息地の開発や密猟といった人間の活動によって危機にさらされています。個人や小さな団体だけではこうした問題を解決できませんが、政府なら厳しい法律を作り、広い自然地域を保護することができます。ある種が一度絶滅すると二度と戻らず、その損失は生態系全体にも害を及ぼしかねません。",
-          "explanation": "「原因は人間の活動」→「政府にしかできないこと（法律・自然地域の保護）」→「絶滅すると取り返しがつかない」という順に、なぜ政府なのかを説明しています。habitat（生息地）、illegal hunting（密猟）、ecosystem（生態系）は環境問題で頻出の語です。No の立場なら「政府の予算には限りがあり、福祉や教育など人々の生活に直結する分野を優先すべきだ」などが考えられます。"
+          "explanation": "「原因は人間の活動」→「政府にしかできないこと（法律・自然地域の保護）」→「絶滅すると取り返しがつかない」という順に、なぜ政府なのかを説明しています。habitat（生息地）、illegal hunting（密猟）、ecosystem（生態系）は環境問題で頻出の語です。No の立場なら「政府の予算には限りがあり、福祉や教育など人々の生活に直結する分野を優先すべきだ」などが考えられます。",
+          "simpleAnswer": "Yes, it should. Once animals disappear, they can never come back. Also, the government can make laws and protect large areas of nature. So it should do more to protect these animals.",
+          "simpleAnswerJa": "はい、すべきです。動物は一度いなくなると、二度と戻ってきません。また、政府は法律を作ったり、広い自然の地域を守ったりできます。だから、政府はこうした動物を守るためにもっと努力すべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Once animals disappear, they can never come back.",
+              "ja": "動物は一度いなくなると、二度と戻ってこない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many animals are in danger because of humans.",
+              "ja": "人間のせいで危機にある動物が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "The government can make laws to protect animals.",
+              "ja": "政府は動物を守る法律を作れる"
+            },
+            {
+              "group": "No の理由",
+              "en": "The government should spend money on people first.",
+              "ja": "政府はまず人々のためにお金を使うべきだ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Local groups can also protect animals.",
+              "ja": "地域の団体も動物を守ることができる"
+            }
+          ]
         }
       ]
     },
@@ -111,6 +291,60 @@
             "2コマ目: 昇進の書類を見せ、夫が「代わりに赤ちゃんを迎えに行ける」と言ったことを言えた",
             "3コマ目: 7時に女性が職場で働き、夫が保育所で赤ちゃんを迎えている様子を描写できた",
             "4コマ目: 夫が電話で「今日は迎えに行けない」と伝え、女性もプロジェクトで忙しく困っていることを伝えられた"
+          ],
+          "simpleAnswer": "One day, a woman was talking with her company's CEO in the office. He told her that she was promoted to manager. She looked very happy. That evening, she showed her husband a paper about her promotion. Their baby was in a baby seat. Her husband said that he could pick up their baby instead. A month later, she was working hard as a manager. It was seven o'clock, but she was still at her desk. At the same time, her husband was picking up their baby at a day care center. A few days later, however, she was busy with ABC Project. Then, her husband called her from his office. He told her that he couldn't pick up their baby that day. She looked worried because she was also very busy.",
+          "simpleAnswerJa": "ある日、女性が職場で会社の CEO と話していた。CEO は彼女に、マネージャーに昇進したと伝えた。彼女はとてもうれしそうだった。その晩、彼女は夫に昇進についての書類を見せた。赤ちゃんはベビーシートに座っていた。夫は、代わりに自分が赤ちゃんを迎えに行けると言った。1 か月後、彼女はマネージャーとして一生懸命働いていた。7 時だったが、彼女はまだ机に向かっていた。同じころ、夫は保育園に赤ちゃんを迎えに行っていた。ところが数日後、彼女は ABC プロジェクトで忙しくしていた。そこへ、夫が職場から電話をかけてきた。その日は赤ちゃんを迎えに行けないと言った。彼女もとても忙しかったので、困った様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "He told her that she was promoted to manager.",
+              "ja": "CEO は彼女に、マネージャーに昇進したと伝えた（you're → she was）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She looked very happy.",
+              "ja": "彼女はとてもうれしそうだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She showed her husband a paper about her promotion.",
+              "ja": "夫に昇進についての書類を見せた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "Her husband said that he could pick up their baby instead.",
+              "ja": "夫は、代わりに自分が赤ちゃんを迎えに行けると言った（can → could）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "It was seven o'clock, but she was still at her desk.",
+              "ja": "7 時だったが、彼女はまだ机に向かっていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Her husband was picking up their baby at a day care center.",
+              "ja": "夫は保育園に赤ちゃんを迎えに行っていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She was busy with ABC Project.",
+              "ja": "彼女は ABC プロジェクトで忙しくしていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Her husband called her from his office.",
+              "ja": "夫が職場から電話をかけてきた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He told her that he couldn't pick up their baby that day.",
+              "ja": "その日は赤ちゃんを迎えに行けないと言った（can't → couldn't、today → that day）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She looked worried because she was also very busy.",
+              "ja": "彼女もとても忙しかったので、困った様子だった"
+            }
           ]
         },
         {
@@ -123,7 +357,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I can't leave the office now because of this project, but someone has to pick up our baby. I'll call the day care center and ask if they can keep her a little longer, and then my husband and I should find someone who can help us in emergencies.\"",
           "modelAnswerJa": "「このプロジェクトがあるので今は職場を離れられないけれど、誰かが赤ちゃんを迎えに行かなければならない。保育所に電話して、もう少し預かってもらえないか聞いてみよう。そのあとで、緊急のときに助けてくれる人を夫と一緒に探すべきだ」と考えていると思います。",
-          "explanation": "4 コマ目は、女性が仕事を抜けられないのに、夫も迎えに行けなくなった場面です。まず目の前の問題（今日の迎え）への対処を I'll call ... で述べ、次に and then ... should で今後の備えを述べると、短くても順序立った答えになります。ask if they can ...（〜してもらえるか尋ねる）は、頼みごとの場面で便利な言い方です。"
+          "explanation": "4 コマ目は、女性が仕事を抜けられないのに、夫も迎えに行けなくなった場面です。まず目の前の問題（今日の迎え）への対処を I'll call ... で述べ、次に and then ... should で今後の備えを述べると、短くても順序立った答えになります。ask if they can ...（〜してもらえるか尋ねる）は、頼みごとの場面で便利な言い方です。",
+          "simpleAnswer": "I'd be thinking, \"I can't leave the office now. I'll call the day care center and ask them to keep our baby a little longer. Next time, I'll ask my parents for help.\"",
+          "simpleAnswerJa": "「今は会社を出られない。保育園に電話して、もう少し赤ちゃんを預かってもらえるよう頼もう。次からは、自分の親に助けを頼もう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "I can't leave the office now.",
+              "ja": "今は会社を出られない"
+            },
+            {
+              "group": "気持ち",
+              "en": "I'm worried about our baby.",
+              "ja": "赤ちゃんが心配だ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll call the day care center.",
+              "ja": "保育園に電話しよう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask them to keep our baby a little longer.",
+              "ja": "もう少し赤ちゃんを預かってもらうよう頼もう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll ask my parents for help.",
+              "ja": "次からは、自分の親に助けを頼もう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -134,7 +397,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. Many parents try to solve every problem for their children, so children miss the chance to learn from their own mistakes. Some parents even contact teachers about small problems between classmates. Of course, parents should keep their children safe, but young people need to experience some difficulties in order to become independent.",
           "modelAnswerJa": "はい、そう思います。多くの親が子どもの問題をすべて解決してあげようとするので、子どもは自分の失敗から学ぶ機会を失っています。同級生との小さな問題について先生に連絡する親さえいます。もちろん親は子どもの安全を守るべきですが、若い人が自立するには、ある程度の困難を経験することが必要です。",
-          "explanation": "「親がすべて解決する → 子どもが失敗から学べない」という因果関係を述べ、身近な例を 1 つ加えています。Of course, ... but ... で反対の考えにも配慮すると、バランスのよい答えになります。become independent（自立する）は子育ての話題で使いやすい表現です。No の立場なら「事故や犯罪、SNS のトラブルなど危険が多い時代なので、親が気を配るのは当然だ」などが考えられます。"
+          "explanation": "「親がすべて解決する → 子どもが失敗から学べない」という因果関係を述べ、身近な例を 1 つ加えています。Of course, ... but ... で反対の考えにも配慮すると、バランスのよい答えになります。become independent（自立する）は子育ての話題で使いやすい表現です。No の立場なら「事故や犯罪、SNS のトラブルなど危険が多い時代なので、親が気を配るのは当然だ」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Some parents solve every problem for their children. Then, children can't learn from their mistakes. Also, some parents call teachers about very small problems. So it is hard for children to become independent.",
+          "simpleAnswerJa": "はい、そう思います。子どもの問題をすべて解決してしまう親がいます。そうすると、子どもは失敗から学ぶことができません。また、とても小さな問題で先生に連絡する親もいます。だから、子どもが自立するのが難しくなっています。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Some parents solve every problem for their children.",
+              "ja": "子どもの問題をすべて解決してしまう親がいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Children can't learn from their mistakes.",
+              "ja": "子どもが失敗から学べない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some parents call teachers about very small problems.",
+              "ja": "とても小さな問題で先生に連絡する親もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Parents need to keep their children safe.",
+              "ja": "親は子どもの安全を守る必要がある"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many parents are too busy to watch their children all the time.",
+              "ja": "忙しくて、いつも子どもを見ていられない親が多い"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -145,7 +437,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q3.mp3",
           "modelAnswer": "Yes, it does. Because of smartphones, people are expected to reply to messages and finish their work quickly, so it is difficult for them to truly relax. Many people feel stressed and do not get enough sleep. Also, they have less time to spend with family and friends, which can make them feel lonely even when they are busy.",
           "modelAnswerJa": "はい、与えています。スマートフォンがあるために、人々はメッセージにすぐ返信し、仕事を早く終えることを求められるので、心からくつろぐのが難しくなっています。ストレスを感じ、十分な睡眠が取れていない人も多くいます。また、家族や友人と過ごす時間が減り、忙しいのに孤独を感じることもあります。",
-          "explanation": "質問の fast pace を、スマートフォンですぐ返信を求められるという身近な例で具体的に説明しています。そのうえで「ストレス・睡眠不足」「人とのつながりの減少」という 2 つの悪影響を述べています。Does で聞かれているので Yes, it does. と does で答えます。No の立場なら「技術のおかげで便利になり、時間を節約できるので、かえって自由な時間を楽しめるようになった」などが考えられます。"
+          "explanation": "質問の fast pace を、スマートフォンですぐ返信を求められるという身近な例で具体的に説明しています。そのうえで「ストレス・睡眠不足」「人とのつながりの減少」という 2 つの悪影響を述べています。Does で聞かれているので Yes, it does. と does で答えます。No の立場なら「技術のおかげで便利になり、時間を節約できるので、かえって自由な時間を楽しめるようになった」などが考えられます。",
+          "simpleAnswer": "Yes, it does. Because of smartphones, people have to reply to messages quickly. It is hard for them to relax. Also, many people are too busy to sleep enough. So they often feel stressed and tired.",
+          "simpleAnswerJa": "はい、与えています。スマートフォンのせいで、人々はメッセージにすぐ返信しなければなりません。なかなかくつろぐことができません。また、忙しすぎて十分に眠れない人も多いです。だから、ストレスや疲れを感じることが多いです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "People have to reply to messages quickly.",
+              "ja": "メッセージにすぐ返信しなければならない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "It is hard for people to relax.",
+              "ja": "人々はなかなかくつろげない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many people are too busy to sleep enough.",
+              "ja": "忙しすぎて十分に眠れない人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "We can do many things quickly and easily.",
+              "ja": "多くのことを速く簡単にできる"
+            },
+            {
+              "group": "No の理由",
+              "en": "New technology gives us more free time.",
+              "ja": "新しい技術のおかげで自由な時間が増える"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -156,7 +477,36 @@
           "audio": "audio/eiken/eiken-pre1-2022-1-interview/d-q4.mp3",
           "modelAnswer": "No, I don't think it will. Raising children is expensive in Japan, and many young people are worried about their income and job security. More people are also choosing to marry later or not to marry at all. The government has introduced some support for families, but these social changes are too big to be reversed easily.",
           "modelAnswerJa": "いいえ、止まらないと思います。日本では子育てにお金がかかり、多くの若者は収入や雇用の安定を不安に思っています。また、結婚する年齢が遅くなったり、結婚しないことを選んだりする人も増えています。政府は家族への支援をいくつか導入していますが、こうした社会の変化は大きく、簡単には元に戻せません。",
-          "explanation": "未来を予想する質問なので、No, I don't think it will. と will を使って答えます。「経済的な不安」「晩婚化・未婚化」という原因を挙げ、政府の支援にも触れたうえで「それでも難しい」と結論づけています。job security（雇用の安定）は覚えておきたい表現です。Yes の立場なら「保育所の充実や男性の育児休業の普及が進めば、子どもを持ちたいと思う人が増える」などが考えられます。"
+          "explanation": "未来を予想する質問なので、No, I don't think it will. と will を使って答えます。「経済的な不安」「晩婚化・未婚化」という原因を挙げ、政府の支援にも触れたうえで「それでも難しい」と結論づけています。job security（雇用の安定）は覚えておきたい表現です。Yes の立場なら「保育所の充実や男性の育児休業の普及が進めば、子どもを持ちたいと思う人が増える」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Raising children costs a lot of money in Japan. Also, more people are choosing not to get married. So the birth rate will keep going down.",
+          "simpleAnswerJa": "いいえ、そうは思いません。日本では子育てにたくさんお金がかかります。また、結婚しないことを選ぶ人が増えています。だから、出生率は下がり続けるでしょう。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Raising children costs a lot of money.",
+              "ja": "子育てにはたくさんお金がかかる"
+            },
+            {
+              "group": "No の理由",
+              "en": "More people are choosing not to get married.",
+              "ja": "結婚しないことを選ぶ人が増えている"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many young people are worried about their jobs.",
+              "ja": "仕事のことを心配している若者が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "The government is giving more support to families.",
+              "ja": "政府は家族への支援を増やしている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "More fathers are helping with child care.",
+              "ja": "育児を手伝う父親が増えている"
+            }
+          ]
         }
       ]
     }

@@ -13,7 +13,7 @@
  *   - script / explanation / scriptJa の欠落
  *   - 英文スクリプトと和訳の段落数の不一致
  *   - 面接形式: modelAnswer / modelAnswerJa / explanation の欠落、面接官の音声（audio / cues）が一部だけ、
- *     simpleAnswer に和訳（simpleAnswerJa）がない
+ *     simpleAnswer に和訳（simpleAnswerJa）がない、ナレーションの simpleAnswer が最初の一文で始まっていない
  *
  * 使い方:
  *   npm run validate
@@ -148,6 +148,12 @@ function validateInterviewSection(sw, section, draft, missing) {
       errors.push(`${qw}: checkpoints は文字列の配列にしてください`);
     }
     validatePhrases(qw, q);
+    if (
+      q.type === "narration" && typeof q.simpleAnswer === "string" && card?.firstSentence &&
+      !q.simpleAnswer.trim().startsWith(card.firstSentence.trim())
+    ) {
+      warnings.push(`${qw}: simpleAnswer（かんたん解答例）は最初の一文「${card.firstSentence.trim()}」から始めてください`);
+    }
 
     if (draft) continue;
     if (!q.modelAnswer) missing.modelAnswer.push(`${section.id}/${q.id}`);

@@ -36,6 +36,65 @@
             "2コマ目: 週末のスーパーで、豪華な弁当を思い描いていることと、カートが食べ物でいっぱいなことを描写できた",
             "3コマ目: 月曜日に弁当箱を開けると、同僚たちが感心して集まってきた様子を描写できた",
             "4コマ目: 冷蔵庫が食べ物でいっぱいで、「食べ物を無駄にしすぎだ」と女性に言われたことを間接話法で言えた"
+          ],
+          "simpleAnswer": "One day, a man was listening to his coworker at lunchtime. His coworker had a lunch box on his desk. The coworker told him that he had learned to make his own lunch. The man looked very interested. That weekend, the man went to a supermarket with his wife. He was thinking about a nice lunch box. Their shopping cart was full of food. On Monday, the man brought a lunch box to the office. His coworkers came to look at it. They looked impressed. A few days later, his wife was standing in front of the refrigerator. It was full of food. She told him that they wasted too much food. The man looked embarrassed.",
+          "simpleAnswerJa": "ある日、ある男性が昼休みに同僚の話を聞いていた。同僚の机の上には弁当箱があった。同僚は、自分で弁当を作れるようになったと彼に話した。男性はとても興味を持った様子だった。その週末、男性は妻とスーパーに行った。彼はすてきな弁当のことを考えていた。ショッピングカートは食べ物でいっぱいだった。月曜日、男性は会社に弁当を持ってきた。同僚たちがそれを見に来た。みんな感心した様子だった。数日後、妻が冷蔵庫の前に立っていた。冷蔵庫は食べ物でいっぱいだった。妻は彼に、食べ物をむだにしすぎていると言った。男性は気まずそうな様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "His coworker had a lunch box on his desk.",
+              "ja": "同僚の机の上には弁当箱があった"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The coworker told him that he had learned to make his own lunch.",
+              "ja": "同僚は自分で弁当を作れるようになったと言った（learned → had learned）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The man looked very interested.",
+              "ja": "男性はとても興味を持った様子だった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The man went to a supermarket with his wife.",
+              "ja": "男性は妻とスーパーに行った"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He was thinking about a nice lunch box.",
+              "ja": "彼はすてきな弁当のことを考えていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "Their shopping cart was full of food.",
+              "ja": "ショッピングカートは食べ物でいっぱいだった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The man brought a lunch box to the office.",
+              "ja": "男性は会社に弁当を持ってきた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "His coworkers looked impressed.",
+              "ja": "同僚たちは感心した様子だった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The refrigerator was full of food.",
+              "ja": "冷蔵庫は食べ物でいっぱいだった"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She told him that they wasted too much food.",
+              "ja": "食べ物をむだにしすぎていると言った（waste → wasted、we → they）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The man looked embarrassed.",
+              "ja": "男性は気まずそうな様子だった"
+            }
           ]
         },
         {
@@ -48,7 +107,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-2-interview/a-q1.mp3",
           "modelAnswer": "I'd be thinking, \"She's right. I got so excited about making fancy lunches that I bought far more than I could use. Next time, I'll plan my meals before I go shopping, and I'll use up what's in the refrigerator first.\"",
           "modelAnswerJa": "「彼女の言うとおりだ。豪華な弁当を作ることに夢中になって、使い切れないほど買ってしまった。次からは買い物に行く前に献立を考えて、まず冷蔵庫の中のものを使い切るようにしよう」と考えていると思います。",
-          "explanation": "4 コマ目は、男性が冷蔵庫いっぱいの食べ物を前に注意を受けている場面です。She's right. と相手の指摘を認めたうえで、so ... that ...（あまりに〜なので…）で原因を振り返り、Next time, I'll ... で具体的な改善策を述べています。use up（使い切る）は、食品ロスの話題で使える表現です。"
+          "explanation": "4 コマ目は、男性が冷蔵庫いっぱいの食べ物を前に注意を受けている場面です。She's right. と相手の指摘を認めたうえで、so ... that ...（あまりに〜なので…）で原因を振り返り、Next time, I'll ... で具体的な改善策を述べています。use up（使い切る）は、食品ロスの話題で使える表現です。",
+          "simpleAnswer": "I'd be thinking, \"She's right. I bought too much food. Next time, I'll make a shopping list and only buy what I need.\"",
+          "simpleAnswerJa": "「彼女の言うとおりだ。食べ物を買いすぎてしまった。次からは、買い物リストを作って、必要なものだけを買おう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "She's right.",
+              "ja": "彼女の言うとおりだ"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I bought too much food.",
+              "ja": "食べ物を買いすぎてしまった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have planned my meals.",
+              "ja": "献立を考えておくべきだった"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll make a shopping list.",
+              "ja": "次からは、買い物リストを作ろう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll use the food in the refrigerator first.",
+              "ja": "まず冷蔵庫の中の食べ物を使おう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -59,7 +147,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-2-interview/a-q2.mp3",
           "modelAnswer": "Yes, I think so. Cooking for yourself is usually cheaper and healthier than eating out or buying ready-made meals, because you can choose what goes into your food. It is also a basic skill for living independently. For example, students who can cook when they start living alone find it easier to save money and stay healthy.",
           "modelAnswerJa": "はい、そう思います。自分で料理をするほうが、外食や出来合いの食事を買うよりたいてい安く健康的です。食べ物に何を入れるか自分で選べるからです。また、料理は自立して生活するための基本的な技能でもあります。たとえば、一人暮らしを始めるときに料理ができる学生は、お金を節約しやすく、健康も保ちやすいです。",
-          "explanation": "費用と健康という 2 つの利点を cheaper and healthier で短くまとめ、because で理由を加えています。さらに For example で一人暮らしの学生という身近な例を挙げると、essential for everyone（誰にとっても不可欠）という質問に答えやすくなります。No の立場なら「総菜や宅配サービスが充実しているので、料理ができなくても困らず、その時間を他のことに使える」などが考えられます。"
+          "explanation": "費用と健康という 2 つの利点を cheaper and healthier で短くまとめ、because で理由を加えています。さらに For example で一人暮らしの学生という身近な例を挙げると、essential for everyone（誰にとっても不可欠）という質問に答えやすくなります。No の立場なら「総菜や宅配サービスが充実しているので、料理ができなくても困らず、その時間を他のことに使える」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Cooking at home is cheaper and healthier than eating out. Also, people need to cook for themselves when they live alone. So everyone should learn how to cook.",
+          "simpleAnswerJa": "はい、そう思います。家で料理をするほうが、外食より安くて健康的です。また、一人暮らしをすると、自分で料理をする必要があります。だから、誰もが料理の仕方を学ぶべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Cooking at home is cheaper than eating out.",
+              "ja": "家で料理をするほうが外食より安い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "You can choose healthy food.",
+              "ja": "健康的な食べ物を選べる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People need to cook for themselves when they live alone.",
+              "ja": "一人暮らしをすると自分で料理をする必要がある"
+            },
+            {
+              "group": "No の理由",
+              "en": "We can buy cheap meals at convenience stores.",
+              "ja": "コンビニで安い食事が買える"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some people are too busy to cook.",
+              "ja": "忙しくて料理をする時間がない人もいる"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -70,7 +187,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-2-interview/a-q3.mp3",
           "modelAnswer": "No, I don't think so. If students can use their phones during breaks, they will spend their free time looking at screens instead of talking with their classmates or getting some exercise. It might also lead to problems such as online bullying or students taking pictures of others without permission. School should be a place where they focus on real-life relationships.",
           "modelAnswerJa": "いいえ、そうは思いません。休み時間にスマートフォンを使えるようになると、生徒はクラスメートと話したり体を動かしたりする代わりに、自由時間を画面を見て過ごすようになるでしょう。また、ネットいじめや、許可なく他人の写真を撮るといった問題につながるかもしれません。学校は、現実の人間関係を大切にする場所であるべきです。",
-          "explanation": "「友達との交流や運動の時間が減る」という学校生活への影響と、「ネットいじめや無断撮影」というトラブルの 2 点を理由にしています。instead of ...ing で「本来すべきこと」と比べると、主張がはっきりします。Yes の立場なら「休み時間なら授業の妨げにならず、スマートフォンの正しい使い方を学ぶよい機会になる」などが考えられます。"
+          "explanation": "「友達との交流や運動の時間が減る」という学校生活への影響と、「ネットいじめや無断撮影」というトラブルの 2 点を理由にしています。instead of ...ing で「本来すべきこと」と比べると、主張がはっきりします。Yes の立場なら「休み時間なら授業の妨げにならず、スマートフォンの正しい使い方を学ぶよい機会になる」などが考えられます。",
+          "simpleAnswer": "No, they shouldn't. During break time, students should talk with their classmates or play outside. Also, some students might take pictures of others without asking. So they should keep their smartphones in their bags.",
+          "simpleAnswerJa": "いいえ、許可すべきではありません。休み時間には、生徒はクラスメートと話したり外で遊んだりするべきです。また、勝手にほかの生徒の写真を撮る生徒がいるかもしれません。だから、スマートフォンはかばんにしまっておくべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Students should talk with their classmates during break time.",
+              "ja": "休み時間には、生徒はクラスメートと話すべきだ"
+            },
+            {
+              "group": "No の理由",
+              "en": "They should play outside and get some exercise.",
+              "ja": "外で遊んで体を動かすべきだ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some students might take pictures of others without asking.",
+              "ja": "勝手にほかの生徒の写真を撮る生徒がいるかもしれない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Students can contact their parents in an emergency.",
+              "ja": "緊急時に親に連絡できる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Students can learn how to use smartphones well.",
+              "ja": "スマートフォンの上手な使い方を学べる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -81,7 +227,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-2-interview/a-q4.mp3",
           "modelAnswer": "No, I don't think so. Online meetings are certainly convenient, and they have already replaced some trips. However, it is hard to build trust with a new client through a screen. Also, some jobs, such as inspecting a factory, require people to actually go there. So business trips may become less common, but they will not disappear.",
           "modelAnswerJa": "いいえ、そうは思いません。オンライン会議は確かに便利で、すでに一部の出張に取って代わっています。しかし、新しい取引先と画面越しに信頼関係を築くのは難しいです。また、工場の検査のように、実際に現地へ行かなければならない仕事もあります。ですから、出張は減るかもしれませんが、なくなることはないでしょう。",
-          "explanation": "certainly ..., However ... の形で、技術の利点をいったん認めてから反論しています。最後の may become less common, but they will not disappear は、「不要になるか」という質問に対して「減るがなくならない」と程度を分けて答える言い方です。Yes の立場なら「オンライン会議や VR の技術が進めば、移動の時間と費用を節約できるので、ほとんどの出張はなくせる」などが考えられます。"
+          "explanation": "certainly ..., However ... の形で、技術の利点をいったん認めてから反論しています。最後の may become less common, but they will not disappear は、「不要になるか」という質問に対して「減るがなくならない」と程度を分けて答える言い方です。Yes の立場なら「オンライン会議や VR の技術が進めば、移動の時間と費用を節約できるので、ほとんどの出張はなくせる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. People can build trust more easily when they meet face to face. Also, some workers need to go to factories and check things there. So business trips will still be necessary.",
+          "simpleAnswerJa": "いいえ、そうは思いません。人は直接会うほうが、信頼関係を築きやすいです。また、工場に行ってその場で確認しなければならない社員もいます。だから、出張はこれからも必要です。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "People can build trust more easily when they meet face to face.",
+              "ja": "直接会うほうが信頼関係を築きやすい"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some workers need to go to factories.",
+              "ja": "工場に行かなければならない社員もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some things are hard to explain online.",
+              "ja": "オンラインでは説明しにくいこともある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Online meetings save time and money.",
+              "ja": "オンライン会議は時間とお金の節約になる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "We can talk with people all over the world online.",
+              "ja": "オンラインで世界中の人と話せる"
+            }
+          ]
         }
       ]
     },
@@ -111,6 +286,65 @@
             "2コマ目: 遊具に×がついた図を使い、木や植物のある空間に変える案を先生たちに示したことを言えた",
             "3コマ目: 作業員が滑り台などの遊具を撤去し、園長が満足そうに見ていることを描写できた",
             "4コマ目: 子どもが「園庭はつまらない」と言って室内で遊び、園長ががっかりしていることを間接話法で言えた"
+          ],
+          "simpleAnswer": "One day, a kindergarten principal was in her office. She was reading a newspaper. It said that accidents on playground equipment were increasing. Outside, children were playing on the slide. She looked worried about the children. The next day, she explained her plan to the teachers. She wanted to take away the slide and the climbing frame. She wanted to put trees and plants there instead. A few days later, workers were taking away the playground equipment. The principal was watching them with a smile. The next week, the new playground was ready. A teacher was pointing outside, but the children were playing with toys inside. One of them said that the playground was boring. The principal looked very disappointed.",
+          "simpleAnswerJa": "ある日、ある幼稚園の園長が園長室にいた。彼女は新聞を読んでいた。そこには、遊具での事故が増えていると書かれていた。外では、子どもたちがすべり台で遊んでいた。彼女は子どもたちのことを心配している様子だった。翌日、彼女は先生たちに計画を説明した。すべり台とジャングルジムを撤去したいと考えていた。代わりに、そこに木や植物を植えたいと思っていた。数日後、作業員たちが遊具を運び出していた。園長はほほえみながらそれを見ていた。翌週、新しい園庭が完成した。先生が外を指さしていたが、子どもたちは室内でおもちゃで遊んでいた。子どもの 1 人が、園庭はつまらないと言った。園長はとてもがっかりした様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "It said that accidents on playground equipment were increasing.",
+              "ja": "遊具での事故が増えていると書かれていた（are increasing → were increasing）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "Outside, children were playing on the slide.",
+              "ja": "外では、子どもたちがすべり台で遊んでいた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She looked worried about the children.",
+              "ja": "子どもたちのことを心配している様子だった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She explained her plan to the teachers.",
+              "ja": "彼女は先生たちに計画を説明した"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She wanted to take away the slide and the climbing frame.",
+              "ja": "すべり台とジャングルジムを撤去したかった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She wanted to put trees and plants there instead.",
+              "ja": "代わりに、そこに木や植物を植えたかった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Workers were taking away the playground equipment.",
+              "ja": "作業員たちが遊具を運び出していた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The principal was watching them with a smile.",
+              "ja": "園長はほほえみながらそれを見ていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The children were playing with toys inside.",
+              "ja": "子どもたちは室内でおもちゃで遊んでいた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "One of them said that the playground was boring.",
+              "ja": "子どもの 1 人が、園庭はつまらないと言った（is → was）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The principal looked very disappointed.",
+              "ja": "園長はとてもがっかりした様子だった"
+            }
           ]
         },
         {
@@ -123,7 +357,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-2-interview/d-q1.mp3",
           "modelAnswer": "I'd be thinking, \"I was so focused on safety that I forgot children need exciting places to play. Maybe I went too far by removing everything. I should ask the children and teachers what they would like, and then add some low, safe equipment, such as a small slide.\"",
           "modelAnswerJa": "「安全のことばかり考えて、子どもたちにはわくわくする遊び場が必要だということを忘れていた。全部なくしたのはやりすぎだったかもしれない。子どもたちや先生たちの希望を聞いて、小さな滑り台のような、低くて安全な遊具を入れることにしよう」と考えていると思います。",
-          "explanation": "4 コマ目は、安全のために遊具を撤去した結果、子どもに「つまらない」と言われた場面です。I was so focused on ... that I forgot ... で自分の判断を振り返り、Maybe I went too far（やりすぎだったかもしれない）と認めてから、I should ... で具体策を述べています。安全と楽しさの両方を考えた対策を挙げると、園長の立場に合った答えになります。"
+          "explanation": "4 コマ目は、安全のために遊具を撤去した結果、子どもに「つまらない」と言われた場面です。I was so focused on ... that I forgot ... で自分の判断を振り返り、Maybe I went too far（やりすぎだったかもしれない）と認めてから、I should ... で具体策を述べています。安全と楽しさの両方を考えた対策を挙げると、園長の立場に合った答えになります。",
+          "simpleAnswer": "I'd be thinking, \"I should have asked the children first. Children need fun places to play. I'll put some small, safe equipment in the playground.\"",
+          "simpleAnswerJa": "「先に子どもたちに聞いておくべきだった。子どもには楽しく遊べる場所が必要だ。園庭に小さくて安全な遊具を置こう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I should have asked the children first.",
+              "ja": "先に子どもたちに聞いておくべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I was too worried about safety.",
+              "ja": "安全のことを心配しすぎていた"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "Children need fun places to play.",
+              "ja": "子どもには楽しく遊べる場所が必要だ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll put some small, safe equipment in the playground.",
+              "ja": "園庭に小さくて安全な遊具を置こう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll ask the teachers for their ideas.",
+              "ja": "先生たちに意見を聞こう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -134,7 +397,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-2-interview/d-q2.mp3",
           "modelAnswer": "Yes, I think so. Many parents today try to remove every risk from their children's lives, and some even deal with problems at school for them. Because of this, children have fewer chances to make mistakes and learn from them. To become independent, children need to try things for themselves, even if they sometimes fail.",
           "modelAnswerJa": "はい、そう思います。今の親の多くは、子どもの生活からあらゆる危険を取り除こうとし、中には学校での問題を子どもの代わりに解決しようとする親もいます。そのため、子どもが失敗してそこから学ぶ機会が少なくなっています。自立するためには、ときには失敗しても、自分でいろいろ試してみることが必要です。",
-          "explanation": "「親の行動（危険を取り除く・代わりに問題を解決する）」→「その結果（失敗から学ぶ機会が減る）」→「子どもに必要なこと（自分で試す）」という流れで答えています。Because of this, ... は前の文の内容を受けて結果を述べるのに便利です。No の立場なら「交通事故やインターネット上のトラブルなど危険が多いので、親が注意するのは当然だ」などが考えられます。"
+          "explanation": "「親の行動（危険を取り除く・代わりに問題を解決する）」→「その結果（失敗から学ぶ機会が減る）」→「子どもに必要なこと（自分で試す）」という流れで答えています。Because of this, ... は前の文の内容を受けて結果を述べるのに便利です。No の立場なら「交通事故やインターネット上のトラブルなど危険が多いので、親が注意するのは当然だ」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Some parents do everything for their children. Because of this, children can't learn from their mistakes. Also, many children don't play outside because their parents worry too much. So parents should let children try things by themselves.",
+          "simpleAnswerJa": "はい、そう思います。子どものために何でもしてしまう親がいます。そのため、子どもは失敗から学ぶことができません。また、親が心配しすぎるので、外で遊ばない子どもも多いです。だから、親は子どもに自分でいろいろなことをやらせてみるべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Some parents do everything for their children.",
+              "ja": "子どものために何でもしてしまう親がいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Children can't learn from their mistakes.",
+              "ja": "子どもが失敗から学べない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many parents worry too much about their children.",
+              "ja": "子どものことを心配しすぎる親が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Parents need to keep their children safe.",
+              "ja": "親は子どもの安全を守る必要がある"
+            },
+            {
+              "group": "No の理由",
+              "en": "There are many dangers on the Internet.",
+              "ja": "インターネットには危険がたくさんある"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -145,7 +437,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-2-interview/d-q3.mp3",
           "modelAnswer": "No, I don't think they should have to. Building and running a childcare facility costs a lot of money, so it would be a heavy burden, especially for small companies. Also, many parents would rather use a daycare center near their homes. It would be better for the government to increase the number of public childcare centers.",
           "modelAnswerJa": "いいえ、義務づけるべきではないと思います。保育施設を建てて運営するには多くの費用がかかるので、特に中小企業には重い負担になるでしょう。また、自宅の近くの保育所を利用したいと考える親も多いです。政府が公的な保育所の数を増やすほうがよいと思います。",
-          "explanation": "have to（義務）を問う質問なので、「義務にすると困る会社がある」という費用の面を中心に答え、最後に It would be better for the government to ... と別の解決策を示しています。Yes の立場なら「職場に保育施設があれば親が安心して働き続けられ、企業も人材を失わずに済む」などが考えられます。"
+          "explanation": "have to（義務）を問う質問なので、「義務にすると困る会社がある」という費用の面を中心に答え、最後に It would be better for the government to ... と別の解決策を示しています。Yes の立場なら「職場に保育施設があれば親が安心して働き続けられ、企業も人材を失わずに済む」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. It costs a lot of money to build a childcare facility. This is very hard for small companies. Also, many parents want to use a daycare center near their homes. So the government should build more daycare centers.",
+          "simpleAnswerJa": "いいえ、そうは思いません。保育施設を作るにはお金がたくさんかかります。これは小さな会社にはとても大変です。また、家の近くの保育園を使いたい親も多いです。だから、政府がもっと保育園を作るべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "It costs a lot of money to build a childcare facility.",
+              "ja": "保育施設を作るにはお金がたくさんかかる"
+            },
+            {
+              "group": "No の理由",
+              "en": "This is very hard for small companies.",
+              "ja": "小さな会社にはとても大変だ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many parents want to use a daycare center near their homes.",
+              "ja": "家の近くの保育園を使いたい親が多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Parents can work without worrying about their children.",
+              "ja": "子どものことを心配せずに働ける"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Parents can pick up their children easily after work.",
+              "ja": "仕事のあと、子どもを迎えに行きやすい"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -156,7 +477,36 @@
           "audio": "audio/eiken/eiken-pre1-2024-2-interview/d-q4.mp3",
           "modelAnswer": "Yes, I think it has. People in cities spend most of their time inside buildings, and they rarely see forests or farmland in their daily lives. Many children grow up with few chances to catch insects or climb trees. As a result, people may care less about environmental problems because nature seems to have little to do with their lives.",
           "modelAnswerJa": "はい、そう思います。都市の人々はほとんどの時間を建物の中で過ごし、日常生活で森や農地を目にすることはめったにありません。虫を捕まえたり木に登ったりする機会がほとんどないまま育つ子どもも多くいます。その結果、自然は自分の生活とあまり関係がないように思えて、環境問題への関心が薄れてしまうかもしれません。",
-          "explanation": "Has urban life made ...? という現在完了の質問なので、Yes, I think it has. と同じ形で答えています。大人の日常 → 子どもの経験 → 環境問題への関心と、話を広げていく構成です。have little to do with（〜とほとんど関係がない）も覚えておくと便利です。No の立場なら「都市にも公園や街路樹があり、週末にキャンプやハイキングに出かける人も多い」などが考えられます。"
+          "explanation": "Has urban life made ...? という現在完了の質問なので、Yes, I think it has. と同じ形で答えています。大人の日常 → 子どもの経験 → 環境問題への関心と、話を広げていく構成です。have little to do with（〜とほとんど関係がない）も覚えておくと便利です。No の立場なら「都市にも公園や街路樹があり、週末にキャンプやハイキングに出かける人も多い」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. People in cities spend most of their time inside buildings. They don't often see forests or fields. Also, children in cities have few chances to play in nature. So people in cities don't feel close to nature anymore.",
+          "simpleAnswerJa": "はい、そう思います。都会の人は、ほとんどの時間を建物の中で過ごしています。森や畑を見ることはあまりありません。また、都会の子どもには自然の中で遊ぶ機会がほとんどありません。だから、都会の人は自然を身近に感じなくなっています。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "People in cities spend most of their time inside buildings.",
+              "ja": "都会の人はほとんどの時間を建物の中で過ごす"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They don't often see forests or fields.",
+              "ja": "森や畑を見ることはあまりない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Children in cities have few chances to play in nature.",
+              "ja": "都会の子どもには自然の中で遊ぶ機会がほとんどない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many cities have large parks.",
+              "ja": "大きな公園がある都市も多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people go camping on weekends.",
+              "ja": "週末にキャンプに行く人が多い"
+            }
+          ]
         }
       ]
     }

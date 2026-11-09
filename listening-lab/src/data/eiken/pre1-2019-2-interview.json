@@ -30,6 +30,65 @@
             "2コマ目: 教員会議で校外学習の案を話し合い、先生が科学博物館を指さしていることを描写できた",
             "3コマ目: Dinosaur Dig で生徒が楽しそうに発掘し、先生がそれを見ていることを描写できた",
             "4コマ目: スタッフの「生徒の行儀が悪い」を間接話法で言い、触ってはいけない骨格に手を伸ばす生徒と、柵の前を走っている生徒を描写できた"
+          ],
+          "simpleAnswer": "One day, an elementary school teacher went to a teaching seminar. The speaker was talking about learning by doing. On the screen, some children were looking at the stars through a telescope. The teacher was nodding. The next week, the teachers had a meeting about a school trip. There were two ideas, a science museum and a nature park. The teacher suggested going to the science museum. The other teachers agreed. The following month, she took her students to the science museum. The children were digging for dinosaur bones. One boy was holding up a bone happily. Thirty minutes later, a staff member told her that her students were behaving badly. One student was trying to touch the dinosaur bones, and another was running around. The teacher looked shocked.",
+          "simpleAnswerJa": "ある日、ある小学校の先生が教育セミナーに行った。講演者は「体験による学習」について話していた。スクリーンでは、子どもたちが望遠鏡で星を見ていた。先生はうなずいていた。翌週、先生たちは校外学習についての会議をした。科学博物館と自然公園という 2 つの案があった。先生は科学博物館に行くことを提案した。ほかの先生たちは賛成した。翌月、彼女は生徒たちを科学博物館に連れて行った。子どもたちは恐竜の骨を掘っていた。1 人の男の子がうれしそうに骨を持ち上げていた。30 分後、スタッフが彼女に、生徒たちの行儀が悪いと言った。1 人の生徒は恐竜の骨に触ろうとしていて、もう 1 人は走り回っていた。先生はショックを受けた様子だった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "The speaker was talking about learning by doing.",
+              "ja": "講演者は「体験による学習」について話していた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The teacher was nodding.",
+              "ja": "先生はうなずいていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The teachers had a meeting about a school trip.",
+              "ja": "先生たちは校外学習についての会議をした"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The teacher suggested going to the science museum.",
+              "ja": "先生は科学博物館に行くことを提案した（suggest のあとは ing 形）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The other teachers agreed.",
+              "ja": "ほかの先生たちは賛成した"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She took her students to the science museum.",
+              "ja": "彼女は生徒たちを科学博物館に連れて行った"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The children were digging for dinosaur bones.",
+              "ja": "子どもたちは恐竜の骨を掘っていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "One boy was holding up a bone happily.",
+              "ja": "1 人の男の子がうれしそうに骨を持ち上げていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "A staff member told her that her students were behaving badly.",
+              "ja": "スタッフが彼女に、生徒たちの行儀が悪いと言った（are → were）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "One student was trying to touch the dinosaur bones.",
+              "ja": "1 人の生徒は恐竜の骨に触ろうとしていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The teacher looked shocked.",
+              "ja": "先生はショックを受けた様子だった"
+            }
           ]
         },
         {
@@ -41,7 +100,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの先生だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"I was so excited about letting the children learn by doing that I forgot to go over the museum rules with them. First, I'll apologize to this staff member and get the students back together. Next time, I'll explain the rules clearly before we arrive.\"",
           "modelAnswerJa": "「体験を通して学ばせることに夢中になって、博物館のルールを子どもたちに確認するのを忘れてしまった。まずこのスタッフの方に謝って、生徒たちを集めよう。次回は、到着する前にルールをはっきり説明することにしよう」と考えていると思います。",
-          "explanation": "4 コマ目は、先生が生徒の行動についてスタッフから注意を受けた場面です。so ... that ...（とても〜なので…）で反省の理由を述べ、First, ... Next time, ... と順序を示して「今すること」と「次回すること」を分けています。1 コマ目のテーマ（learn by doing）に触れると、話全体を踏まえた答えになります。"
+          "explanation": "4 コマ目は、先生が生徒の行動についてスタッフから注意を受けた場面です。so ... that ...（とても〜なので…）で反省の理由を述べ、First, ... Next time, ... と順序を示して「今すること」と「次回すること」を分けています。1 コマ目のテーマ（learn by doing）に触れると、話全体を踏まえた答えになります。",
+          "simpleAnswer": "I'd be thinking, \"I should have told the children the museum rules. I'll apologize to the staff member. Next time, I'll explain the rules before we go.\"",
+          "simpleAnswerJa": "「子どもたちに博物館のルールを伝えておくべきだった。スタッフに謝ろう。次からは、出かける前にルールを説明しよう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "I'm so embarrassed.",
+              "ja": "とても恥ずかしい"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have told the children the museum rules.",
+              "ja": "子どもたちに博物館のルールを伝えておくべきだった"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have watched them more carefully.",
+              "ja": "もっと注意して子どもたちを見ておくべきだった"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll apologize to the staff member.",
+              "ja": "スタッフに謝ろう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "Next time, I'll explain the rules before we go.",
+              "ja": "次からは、出かける前にルールを説明しよう"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -51,7 +139,36 @@
           "promptJa": "教師は授業でインターネットをもっと活用すべきでしょうか。",
           "modelAnswer": "Yes, I think they should. The Internet lets students see up-to-date information and videos that textbooks cannot offer. For example, they can watch live images from a foreign city or talk online with students in another country. Also, learning how to search for information and check whether it is reliable is an important skill for their future.",
           "modelAnswerJa": "はい、活用すべきだと思います。インターネットを使えば、生徒は教科書では得られない最新の情報や動画を見ることができます。たとえば、外国の都市のライブ映像を見たり、他の国の生徒とオンラインで話したりできます。また、情報を検索してそれが信頼できるかどうかを確かめる方法を学ぶことは、将来のために大切な技能です。",
-          "explanation": "「教科書にはない利点」→「授業での具体例」→「将来に役立つ技能」の順に理由を並べています。質問の make more use of に対して、実際に何ができるのかを For example で示すと説得力が増します。No の立場なら「ネットに頼ると自分で考えなくなったり、誤った情報をうのみにしたりするおそれがある」などが考えられます。"
+          "explanation": "「教科書にはない利点」→「授業での具体例」→「将来に役立つ技能」の順に理由を並べています。質問の make more use of に対して、実際に何ができるのかを For example で示すと説得力が増します。No の立場なら「ネットに頼ると自分で考えなくなったり、誤った情報をうのみにしたりするおそれがある」などが考えられます。",
+          "simpleAnswer": "Yes, they should. Students can find new information that is not in textbooks. Also, they can talk online with students in other countries. So the Internet makes classes more interesting.",
+          "simpleAnswerJa": "はい、そうすべきです。生徒は教科書にない新しい情報を見つけられます。また、ほかの国の生徒とオンラインで話すこともできます。だから、インターネットを使うと授業がもっとおもしろくなります。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Students can find new information that is not in textbooks.",
+              "ja": "生徒は教科書にない新しい情報を見つけられる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can watch useful videos online.",
+              "ja": "ネットで役に立つ動画を見られる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can talk online with students in other countries.",
+              "ja": "ほかの国の生徒とオンラインで話せる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some information on the Internet is not true.",
+              "ja": "インターネット上には正しくない情報もある"
+            },
+            {
+              "group": "No の理由",
+              "en": "Students may play games instead of studying.",
+              "ja": "生徒が勉強せずにゲームをするかもしれない"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -61,7 +178,36 @@
           "promptJa": "大学は学生に職業への準備を十分にさせていると思いますか。",
           "modelAnswer": "No, I don't think so. Many university classes focus on academic theory, so students often graduate with little practical experience. Many of them also have to prepare for job hunting on their own. Universities should offer more internships and courses in practical skills, such as giving presentations and working in teams, so that students feel ready to start working.",
           "modelAnswerJa": "いいえ、そうは思いません。大学の授業の多くは学問的な理論に重点を置いているので、学生は実践的な経験をあまり積まないまま卒業することがよくあります。また、就職活動の準備を自分だけでしなければならない学生も多くいます。大学は、学生が働き始める準備ができたと感じられるように、インターンシップや、プレゼンテーションやチームでの仕事といった実践的な技能の授業をもっと提供すべきです。",
-          "explanation": "質問の do enough に対して、足りない点（実践経験が少ない）を述べ、Universities should offer ... で改善案を示しています。such as giving presentations and working in teams のように具体的な技能を挙げると、答えがぼんやりしません。Yes の立場なら「多くの大学に就職支援の部署やキャリアの授業があり、インターンシップも紹介している」などが考えられます。"
+          "explanation": "質問の do enough に対して、足りない点（実践経験が少ない）を述べ、Universities should offer ... で改善案を示しています。such as giving presentations and working in teams のように具体的な技能を挙げると、答えがぼんやりしません。Yes の立場なら「多くの大学に就職支援の部署やキャリアの授業があり、インターンシップも紹介している」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Many university classes are not very practical. Students don't learn many skills for work. Also, they have to look for jobs by themselves. So universities should offer more internships.",
+          "simpleAnswerJa": "いいえ、そうは思いません。大学の授業の多くはあまり実践的ではありません。学生は仕事に必要な技能をあまり学びません。また、学生は自分で仕事を探さなければなりません。だから、大学はもっとインターンシップの機会を用意するべきです。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many university classes are not very practical.",
+              "ja": "大学の授業の多くはあまり実践的ではない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Students have to look for jobs by themselves.",
+              "ja": "学生は自分で仕事を探さなければならない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Universities should offer more internships.",
+              "ja": "大学はもっとインターンシップ（職業体験）の機会を用意するべきだ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many universities have a career center.",
+              "ja": "多くの大学には就職を支援する部署がある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Students can get advice about jobs there.",
+              "ja": "そこで仕事についてアドバイスをもらえる"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -71,7 +217,36 @@
           "promptJa": "政府は公立の博物館や美術館への財政支援を増やすべきでしょうか。",
           "modelAnswer": "Yes, I think it should. Public museums preserve a country's art and history for future generations, and this work does not always make a profit. They also give children and adults a valuable place to learn outside of school. With more funding, museums could keep their admission fees low and hold more interesting exhibitions.",
           "modelAnswerJa": "はい、増やすべきだと思います。公立の博物館や美術館は、国の芸術や歴史を将来の世代のために保存していますが、この仕事は必ずしも利益を生むわけではありません。また、子どもにも大人にも、学校の外で学べる貴重な場所を提供しています。資金が増えれば、入館料を低く抑えたり、もっとおもしろい展示を開いたりできるでしょう。",
-          "explanation": "「博物館の役割（文化の保存、学びの場）」→「予算が増えた場合の効果（入館料を抑える、展示を充実させる）」の順に述べています。this work does not always make a profit と述べることで、なぜ政府の支援が必要なのかがはっきりします。With more funding, museums could ...（資金が増えれば〜できる）は、効果を述べるときに便利な形です。No の立場なら「限られた税金は医療や福祉を優先すべきで、博物館は入館料や寄付で運営を工夫すべきだ」などが考えられます。"
+          "explanation": "「博物館の役割（文化の保存、学びの場）」→「予算が増えた場合の効果（入館料を抑える、展示を充実させる）」の順に述べています。this work does not always make a profit と述べることで、なぜ政府の支援が必要なのかがはっきりします。With more funding, museums could ...（資金が増えれば〜できる）は、効果を述べるときに便利な形です。No の立場なら「限られた税金は医療や福祉を優先すべきで、博物館は入館料や寄付で運営を工夫すべきだ」などが考えられます。",
+          "simpleAnswer": "Yes, it should. Museums protect a country's art and history for the future. Also, they are good places for children to learn. With more money, museums can keep their tickets cheap. So more people can visit them.",
+          "simpleAnswerJa": "はい、そうすべきです。博物館は国の芸術や歴史を未来のために守っています。また、子どもが学ぶのによい場所です。お金が増えれば、博物館は入場料を安くしておけます。そうすれば、もっと多くの人が訪れることができます。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Museums protect a country's art and history.",
+              "ja": "博物館は国の芸術や歴史を守っている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They are good places for children to learn.",
+              "ja": "子どもが学ぶのによい場所だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "With more money, museums can keep their tickets cheap.",
+              "ja": "お金が増えれば、博物館は入場料を安くしておける"
+            },
+            {
+              "group": "No の理由",
+              "en": "The government needs money for other things, like hospitals.",
+              "ja": "政府には病院など、ほかのことにもお金が必要だ"
+            },
+            {
+              "group": "No の理由",
+              "en": "Museums can make money by holding special events.",
+              "ja": "博物館は特別なイベントを開いてお金を稼げる"
+            }
+          ]
         }
       ]
     },
@@ -95,6 +270,65 @@
             "2コマ目: 社長が履歴書を手に「来週から働ける」と告げたことを、the following week を使って言えた",
             "3コマ目: デザイナーの仕事と対比させ、コーヒー運びやコピー取りをしていることを描写できた",
             "4コマ目: 「ファッションデザインに関係することを何もしていない」を間接話法で言い、父親の心配そうな様子を描写できた"
+          ],
+          "simpleAnswer": "One day, a college student was at home with her father. She was looking at the website of ABC Fashions. The company was offering an internship. She could get fashion design experience there. She looked excited, and her father was nodding. A month later, she had an interview with the president of ABC Fashions. He told her that she could start the following week. She looked happy. The next week, she was working at ABC Fashions. Some designers were working on dresses. However, she was carrying a tray of coffee cups. The manager asked her to make some copies. A week later, she was talking with her father at home. She told him that she wasn't doing anything related to fashion design. Her father looked worried.",
+          "simpleAnswerJa": "ある日、ある大学生が父親と一緒に家にいた。彼女は ABC ファッションズのウェブサイトを見ていた。その会社はインターンシップを募集していた。そこでファッションデザインの経験を積むことができた。彼女はわくわくした様子で、父親はうなずいていた。1 か月後、彼女は ABC ファッションズの社長の面接を受けた。社長は彼女に、翌週から働き始めてよいと言った。彼女はうれしそうだった。翌週、彼女は ABC ファッションズで働いていた。デザイナーたちはドレスを作っていた。ところが、彼女はコーヒーカップの載ったトレーを運んでいた。マネージャーは彼女にコピーを取るよう頼んだ。1 週間後、彼女は家で父親と話していた。彼女は父親に、ファッションデザインに関係することは何もしていないと話した。父親は心配そうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She was looking at the website of ABC Fashions.",
+              "ja": "彼女は ABC ファッションズのウェブサイトを見ていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The company was offering an internship.",
+              "ja": "その会社はインターンシップ（職業体験）を募集していた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "She looked excited, and her father was nodding.",
+              "ja": "彼女はわくわくした様子で、父親はうなずいていた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "She had an interview with the president of ABC Fashions.",
+              "ja": "彼女は ABC ファッションズの社長の面接を受けた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He told her that she could start the following week.",
+              "ja": "社長は、翌週から働き始めてよいと言った（can → could、next week → the following week）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "Some designers were working on dresses.",
+              "ja": "デザイナーたちはドレスを作っていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "She was carrying a tray of coffee cups.",
+              "ja": "彼女はコーヒーカップの載ったトレーを運んでいた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The manager asked her to make some copies.",
+              "ja": "マネージャーは彼女にコピーを取るよう頼んだ（ask 人 to 動詞）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She was talking with her father at home.",
+              "ja": "彼女は家で父親と話していた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She told him that she wasn't doing anything related to fashion design.",
+              "ja": "ファッションデザインに関係することは何もしていないと話した（am not → wasn't）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "Her father looked worried.",
+              "ja": "父親は心配そうだった"
+            }
           ]
         },
         {
@@ -106,7 +340,31 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの父親だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking that she must be very disappointed because she had hoped to gain design experience. Still, most new workers have to start with simple tasks, so I'd encourage her to be patient for a while. I'd also suggest that she ask the manager if she could watch the designers at work.",
           "modelAnswerJa": "デザインの経験を積みたいと思っていたのだから、娘はとてもがっかりしているに違いないと考えていると思います。それでも、新人の多くは簡単な仕事から始めるものなので、しばらくは辛抱するよう励ますでしょう。また、デザイナーの仕事を見学させてもらえないかマネージャーに聞いてみるよう勧めると思います。",
-          "explanation": "4 コマ目は、父親が娘の不満を聞いている場面です。must be very disappointed で娘の気持ちを推し量り、Still, ... で親としての助言につなげています。suggest that she ask ... のように、suggest のあとの that 節では動詞を原形にする点にも注意しましょう。"
+          "explanation": "4 コマ目は、父親が娘の不満を聞いている場面です。must be very disappointed で娘の気持ちを推し量り、Still, ... で親としての助言につなげています。suggest that she ask ... のように、suggest のあとの that 節では動詞を原形にする点にも注意しましょう。",
+          "simpleAnswer": "I'd be thinking, \"She must be disappointed. But new workers usually start with simple jobs. I'll tell her not to give up.\"",
+          "simpleAnswerJa": "「娘はがっかりしているに違いない。でも、新人はたいてい簡単な仕事から始めるものだ。あきらめないように言おう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "She must be disappointed.",
+              "ja": "娘はがっかりしているに違いない"
+            },
+            {
+              "group": "気持ち",
+              "en": "New workers usually start with simple jobs.",
+              "ja": "新人はたいてい簡単な仕事から始めるものだ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll tell her not to give up.",
+              "ja": "あきらめないように言おう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "She should tell the manager that she wants to learn design.",
+              "ja": "デザインを学びたいとマネージャーに伝えるべきだ"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -116,7 +374,36 @@
           "promptJa": "最近の人々は、ブランド品にお金を使いすぎているでしょうか。",
           "modelAnswer": "No, I don't think so. Many people these days care more about value than brand names. Low-cost clothing stores sell stylish items, and it is easy to buy used goods through apps. Also, a lot of young people prefer to spend their money on experiences, such as travel, rather than on expensive bags or watches.",
           "modelAnswerJa": "いいえ、そうは思いません。最近は、ブランド名よりも価値を重視する人が多くなっています。低価格の衣料品店でおしゃれな商品が売られていますし、アプリを使えば中古品も簡単に買えます。また、高価なバッグや時計よりも、旅行などの経験にお金を使いたいと考える若者もたくさんいます。",
-          "explanation": "「価値を重視する人が増えた」という主張のあと、安い衣料品店や中古品アプリといった身近な例を挙げています。prefer to spend their money on A rather than on B（B より A にお金を使いたがる）は、お金の使い方を述べるときに便利な形です。Yes の立場なら「SNS で見せるために、収入に合わない高級品を買う人もいる」などが考えられます。"
+          "explanation": "「価値を重視する人が増えた」という主張のあと、安い衣料品店や中古品アプリといった身近な例を挙げています。prefer to spend their money on A rather than on B（B より A にお金を使いたがる）は、お金の使い方を述べるときに便利な形です。Yes の立場なら「SNS で見せるために、収入に合わない高級品を買う人もいる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. These days, many people buy cheap but stylish clothes. Also, it is easy to buy used goods on apps. So people don't spend too much money on brand-name goods.",
+          "simpleAnswerJa": "いいえ、そうは思いません。最近は、安くておしゃれな服を買う人がたくさんいます。また、アプリで中古品を簡単に買えます。だから、ブランド品にお金を使いすぎてはいません。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many people buy cheap but stylish clothes.",
+              "ja": "安くておしゃれな服を買う人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "It is easy to buy used goods on apps.",
+              "ja": "アプリで中古品を簡単に買える"
+            },
+            {
+              "group": "No の理由",
+              "en": "Young people like to spend money on travel.",
+              "ja": "若者は旅行にお金を使うのを好む"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Some people buy expensive bags to show off.",
+              "ja": "見せびらかすために高いバッグを買う人もいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many people want things that famous people use.",
+              "ja": "有名人が使っている物を欲しがる人は多い"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -126,7 +413,36 @@
           "promptJa": "第一印象は人間関係において大切だと思いますか。",
           "modelAnswer": "Yes, I think so. People often form an opinion of someone soon after meeting them, and that image can be hard to change. For example, in a job interview, someone who is polite and neatly dressed is more likely to be trusted. A good first impression also makes it easier to start a conversation and build a relationship.",
           "modelAnswerJa": "はい、そう思います。人は相手に会ってすぐにその人についての印象を持つことが多く、その印象は変えにくいものです。たとえば、就職の面接では、礼儀正しく身なりのきちんとした人のほうが信頼されやすくなります。また、第一印象がよいと、会話を始めたり関係を築いたりしやすくなります。",
-          "explanation": "Yes, I think so. のあと、「印象はすぐに決まり、変えにくい」という一般論を述べ、For example で就職の面接という身近な場面を挙げています。form an opinion of someone（人についての印象を持つ）は、この話題で使いやすい表現です。No の立場なら「本当の人柄は長く付き合わないとわからず、第一印象はあてにならない」などが考えられます。"
+          "explanation": "Yes, I think so. のあと、「印象はすぐに決まり、変えにくい」という一般論を述べ、For example で就職の面接という身近な場面を挙げています。form an opinion of someone（人についての印象を持つ）は、この話題で使いやすい表現です。No の立場なら「本当の人柄は長く付き合わないとわからず、第一印象はあてにならない」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. When we first meet someone, we quickly decide what they are like. It is hard to change that image later. Also, a good first impression makes it easy to start talking. So first impressions are important.",
+          "simpleAnswerJa": "はい、そう思います。初めて人に会うと、私たちは相手がどんな人かをすぐに決めてしまいます。あとでそのイメージを変えるのは難しいです。また、第一印象がよいと話を始めやすくなります。だから、第一印象は大切です。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "We quickly decide what people are like.",
+              "ja": "私たちは相手がどんな人かをすぐに決めてしまう"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "It is hard to change that image later.",
+              "ja": "あとでそのイメージを変えるのは難しい"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "A good first impression makes it easy to start talking.",
+              "ja": "第一印象がよいと話を始めやすい"
+            },
+            {
+              "group": "No の理由",
+              "en": "We can learn more about people over time.",
+              "ja": "時間がたてば、相手のことがもっとわかる"
+            },
+            {
+              "group": "No の理由",
+              "en": "First impressions are often wrong.",
+              "ja": "第一印象は間違っていることが多い"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -136,7 +452,36 @@
           "promptJa": "企業は高齢の労働者を雇うことにもっと努力すべきでしょうか。",
           "modelAnswer": "Yes, I think they should. Japan's working-age population is shrinking, so many companies are short of staff. Elderly workers have a lot of experience and knowledge that they can pass on to younger employees. Working can also help them stay active and healthy. Companies could make this easier by offering shorter hours or more flexible schedules.",
           "modelAnswerJa": "はい、努力すべきだと思います。日本の生産年齢人口は減少しており、多くの企業で人手が足りません。高齢の労働者は豊富な経験と知識を持っていて、それを若い社員に伝えることができます。また、働くことは、高齢者が活動的で健康でいることにも役立ちます。企業は、短時間勤務やもっと柔軟な勤務時間を用意することで、これをしやすくできるでしょう。",
-          "explanation": "「人手不足」という社会の事情、「経験を伝えられる」という会社の利点、「健康でいられる」という本人の利点と、異なる立場から理由を挙げています。最後の Companies could ... で、短時間勤務などの具体策まで述べると、make more effort という質問に的確に答えられます。No の立場なら「高齢者の雇用が増えると、若い人の採用や昇進の機会が減るおそれがある」などが考えられます。"
+          "explanation": "「人手不足」という社会の事情、「経験を伝えられる」という会社の利点、「健康でいられる」という本人の利点と、異なる立場から理由を挙げています。最後の Companies could ... で、短時間勤務などの具体策まで述べると、make more effort という質問に的確に答えられます。No の立場なら「高齢者の雇用が増えると、若い人の採用や昇進の機会が減るおそれがある」などが考えられます。",
+          "simpleAnswer": "Yes, they should. Elderly people have a lot of experience, so they can teach young workers. Also, working helps them stay healthy. So companies should hire more elderly workers.",
+          "simpleAnswerJa": "はい、そうすべきです。高齢者は経験が豊富なので、若い社員に教えることができます。また、働くことで健康でいられます。だから、会社は高齢者をもっと雇うべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Elderly people have a lot of experience.",
+              "ja": "高齢者は経験が豊富だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can teach young workers.",
+              "ja": "若い社員に教えることができる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Working helps them stay healthy.",
+              "ja": "働くことで健康でいられる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some elderly people can't work long hours.",
+              "ja": "長時間は働けない高齢者もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Young people also need jobs.",
+              "ja": "若者にも仕事が必要だ"
+            }
+          ]
         }
       ]
     }

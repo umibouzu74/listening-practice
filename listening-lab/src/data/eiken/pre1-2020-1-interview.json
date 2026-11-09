@@ -30,6 +30,60 @@
             "2コマ目: 新聞の見出し（海外で暮らすほうがずっと安い）を読み取り、妻が賛成している様子を描写できた",
             "3コマ目: 1年後に海外の村へ移り、地元の人々に温かく迎えられたことを描写できた",
             "4コマ目: 写真を見ながら「友達にもっと会えたら」と言ったことを、wished they could を使って言えた"
+          ],
+          "simpleAnswer": "One day, a couple was at home talking. There were some bills on the table. The wife told her husband that it was difficult to pay them. He looked worried. That weekend, the husband was reading a newspaper. It said that living abroad was much cheaper. He showed it to his wife, and they both looked happy. A year later, the couple arrived at a village abroad with their suitcases. The local people welcomed them warmly. Everyone was smiling. A few months later, the couple was sitting at a table with drinks. The wife was looking at a photo of their friends. She said that she wished they could meet their friends more often. She looked sad, and her husband looked a little worried.",
+          "simpleAnswerJa": "ある日、ある夫婦が家で話をしていた。テーブルの上には請求書が何枚かあった。妻は夫に、支払うのが難しいと言った。夫は心配そうだった。その週末、夫は新聞を読んでいた。そこには、海外で暮らすほうがずっと安いと書いてあった。彼はそれを妻に見せ、2 人ともうれしそうだった。1 年後、夫婦はスーツケースを持って海外の村に着いた。地元の人たちは 2 人を温かく迎えた。みんな笑顔だった。数か月後、夫婦は飲み物を前にテーブルについていた。妻は友達の写真を見ていた。彼女は、友達にもっと会えたらいいのにと言った。彼女は悲しそうで、夫は少し心配そうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "There were some bills on the table.",
+              "ja": "テーブルの上に請求書が何枚かあった"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The wife told her husband that it was difficult to pay them.",
+              "ja": "妻は夫に、支払うのが難しいと言った（is → was）"
+            },
+            {
+              "group": "1コマ目",
+              "en": "He looked worried.",
+              "ja": "夫は心配そうだった"
+            },
+            {
+              "group": "2コマ目",
+              "en": "The husband was reading a newspaper.",
+              "ja": "夫は新聞を読んでいた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "It said that living abroad was much cheaper.",
+              "ja": "海外で暮らすほうがずっと安いと書いてあった（is → was）"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The couple arrived at a village abroad with their suitcases.",
+              "ja": "夫婦はスーツケースを持って海外の村に着いた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The local people welcomed them warmly.",
+              "ja": "地元の人たちは 2 人を温かく迎えた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "The wife was looking at a photo of their friends.",
+              "ja": "妻は友達の写真を見ていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She said that she wished they could meet their friends more often.",
+              "ja": "友達にもっと会えたらいいのにと言った（wish → wished、we → they）"
+            },
+            {
+              "group": "4コマ目",
+              "en": "She looked sad.",
+              "ja": "彼女は悲しそうだった"
+            }
           ]
         },
         {
@@ -41,7 +95,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"Life here is cheap and relaxing, but I didn't realize how much she missed our friends. We could start having video calls with them every week, and maybe we could save up to go back for a visit once a year. It would also be good to make new friends in this village.\"",
           "modelAnswerJa": "「ここの生活は安くてのんびりしているけれど、妻がこんなに友達を恋しく思っているとは気づかなかった。毎週友達とビデオ通話を始めてもいいし、年に 1 回帰って会えるようにお金を貯めてもいいかもしれない。この村で新しい友達を作るのもいいだろう」と考えていると思います。",
-          "explanation": "4 コマ目は、男性が海外生活の中で妻の寂しさを聞かされた場面です。but I didn't realize how much ...（どれほど〜か気づかなかった）で、相手の気持ちに気づいたことを表しています。そのあと We could ... を重ねて、できそうな対策を具体的に挙げています。"
+          "explanation": "4 コマ目は、男性が海外生活の中で妻の寂しさを聞かされた場面です。but I didn't realize how much ...（どれほど〜か気づかなかった）で、相手の気持ちに気づいたことを表しています。そのあと We could ... を重ねて、できそうな対策を具体的に挙げています。",
+          "simpleAnswer": "I'd be thinking, \"I didn't know she missed our friends so much. We can have video calls with them. We should also make new friends here.\"",
+          "simpleAnswerJa": "「彼女がそんなに友達を恋しく思っていたとは知らなかった。友達とはビデオ通話ができる。ここで新しい友達も作るべきだ」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち",
+              "en": "I didn't know she missed our friends so much.",
+              "ja": "彼女がそんなに友達を恋しく思っていたとは知らなかった"
+            },
+            {
+              "group": "気持ち",
+              "en": "Life here is cheap and relaxing.",
+              "ja": "ここの暮らしは安くてのんびりしている"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We can have video calls with our friends.",
+              "ja": "友達とビデオ通話ができる"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We should make new friends here.",
+              "ja": "ここで新しい友達を作るべきだ"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "We can save money and go back to visit them.",
+              "ja": "お金をためて、友達に会いに帰ることもできる"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -51,7 +134,36 @@
           "promptJa": "費用が高くても大都市に住むのはよい考えだと思いますか。",
           "modelAnswer": "Yes, I think so. Big cities offer many more job opportunities and often higher salaries, which can make up for the high cost of living. Public transportation is also so convenient that many people do not need a car. In addition, people can easily enjoy things such as concerts, museums, and a wide variety of restaurants.",
           "modelAnswerJa": "はい、そう思います。大都市には仕事の機会がずっと多く、給料も高いことが多いので、高い生活費を埋め合わせることができます。また、公共交通機関がとても便利なので、車がなくても困らない人がたくさんいます。さらに、コンサートや美術館、さまざまなレストランなどを気軽に楽しむことができます。",
-          "explanation": "質問の despite the high cost に答えるために、which can make up for the high cost of living（高い生活費を埋め合わせられる）と、費用の面にも直接触れています。そのうえで、交通の便や娯楽といった都市ならではの利点を加えています。No の立場なら「地方は家賃が安く自然も豊かで、今はリモートワークでも働ける」などが考えられます。"
+          "explanation": "質問の despite the high cost に答えるために、which can make up for the high cost of living（高い生活費を埋め合わせられる）と、費用の面にも直接触れています。そのうえで、交通の便や娯楽といった都市ならではの利点を加えています。No の立場なら「地方は家賃が安く自然も豊かで、今はリモートワークでも働ける」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. There are many jobs in big cities, and the pay is often higher. Also, trains and buses are convenient, so people don't need a car. So living in a big city is a good idea.",
+          "simpleAnswerJa": "はい、そう思います。大都市には仕事がたくさんあり、給料も高いことが多いです。また、電車やバスが便利なので、車がいりません。だから、大都市に住むのはよい考えです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "There are many jobs in big cities.",
+              "ja": "大都市には仕事がたくさんある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "The pay is often higher.",
+              "ja": "給料が高いことが多い"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Trains and buses are convenient, so people don't need a car.",
+              "ja": "電車やバスが便利なので、車がいらない"
+            },
+            {
+              "group": "No の理由",
+              "en": "Rent is very expensive in big cities.",
+              "ja": "大都市は家賃がとても高い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Big cities are crowded and noisy.",
+              "ja": "大都市は混んでいてうるさい"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -61,7 +173,36 @@
           "promptJa": "現代の世界では、文化の違いはあまり重要ではなくなってきていると思いますか。",
           "modelAnswer": "No, I don't think so. It's true that people around the world now watch the same movies and use the same apps. However, people still have different values, customs, and religions, and these can cause misunderstandings in business and daily life. As more people work and travel internationally, understanding those differences is actually becoming more important.",
           "modelAnswerJa": "いいえ、そうは思いません。確かに、今では世界中の人が同じ映画を見て、同じアプリを使っています。しかし、人々の価値観や習慣、宗教は今も異なっており、それが仕事や日常生活での誤解の原因になることがあります。国際的に働いたり旅行したりする人が増えるにつれて、そうした違いを理解することは、むしろより重要になっています。",
-          "explanation": "It's true that ... で「同じ映画やアプリを使う」という反対側の見方を認め、However で価値観や習慣の違いは残ると述べています。最後に「むしろ重要になっている」と質問とは逆の方向を示すと、立場がはっきりします。It's true that ... However ... は、反論するときに便利な型です。Yes の立場なら「インターネットや英語の広がりで、世界中の人の考え方や生活様式が近づいている」などが考えられます。"
+          "explanation": "It's true that ... で「同じ映画やアプリを使う」という反対側の見方を認め、However で価値観や習慣の違いは残ると述べています。最後に「むしろ重要になっている」と質問とは逆の方向を示すと、立場がはっきりします。It's true that ... However ... は、反論するときに便利な型です。Yes の立場なら「インターネットや英語の広がりで、世界中の人の考え方や生活様式が近づいている」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. People in different countries still have different customs. These differences can cause problems at work. Also, more people travel and work abroad now. So understanding other cultures is more important.",
+          "simpleAnswerJa": "いいえ、そうは思いません。国によって、今でも習慣が違います。その違いが仕事で問題を起こすことがあります。また、今は海外へ旅行したり働きに行ったりする人が増えています。だから、ほかの文化を理解することはもっと大切になっています。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "People in different countries still have different customs.",
+              "ja": "国によって、今でも習慣が違う"
+            },
+            {
+              "group": "No の理由",
+              "en": "These differences can cause problems at work.",
+              "ja": "その違いが仕事で問題を起こすことがある"
+            },
+            {
+              "group": "No の理由",
+              "en": "More people travel and work abroad now.",
+              "ja": "今は海外へ旅行したり働きに行ったりする人が増えている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "People around the world watch the same movies.",
+              "ja": "世界中の人が同じ映画を見ている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many people use the same apps and websites.",
+              "ja": "多くの人が同じアプリやウェブサイトを使っている"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -71,7 +212,36 @@
           "promptJa": "政府はもっと多くの外国人労働者を呼び込むよう努めるべきでしょうか。",
           "modelAnswer": "Yes, I think it should. Japan's population is shrinking, and industries such as nursing care, construction, and farming are seriously short of workers. Foreign workers can help fill these gaps. However, the government also needs to support them by offering Japanese lessons and making sure that they receive fair pay, so that they will want to stay.",
           "modelAnswerJa": "はい、努めるべきだと思います。日本の人口は減少しており、介護、建設、農業などの産業では働き手が深刻に不足しています。外国人労働者は、こうした不足を埋める助けになります。ただし、政府は、日本語の授業を提供したり、公正な賃金が支払われるようにしたりして、彼らが日本にとどまりたいと思うように支援する必要もあります。",
-          "explanation": "「人手不足」という理由を、nursing care, construction, and farming と具体的な業種を挙げて説明しています。fill these gaps（不足を埋める）は便利な表現です。Yes の立場でも However で課題（日本語教育、公正な賃金）に触れると、バランスの取れた答えになります。No の立場なら「まず女性や高齢者が働きやすい環境を整えるべきで、急に受け入れると言葉や習慣の違いから問題が起こりかねない」などが考えられます。"
+          "explanation": "「人手不足」という理由を、nursing care, construction, and farming と具体的な業種を挙げて説明しています。fill these gaps（不足を埋める）は便利な表現です。Yes の立場でも However で課題（日本語教育、公正な賃金）に触れると、バランスの取れた答えになります。No の立場なら「まず女性や高齢者が働きやすい環境を整えるべきで、急に受け入れると言葉や習慣の違いから問題が起こりかねない」などが考えられます。",
+          "simpleAnswer": "Yes, it should. Japan's population is getting smaller. Many jobs, like nursing care, don't have enough workers. Also, foreign workers can bring new ideas. So Japan needs more foreign workers.",
+          "simpleAnswerJa": "はい、そうすべきです。日本の人口は減っています。介護などの多くの仕事では、人手が足りません。また、外国人労働者は新しい考えをもたらしてくれます。だから、日本にはもっと外国人労働者が必要です。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Japan's population is getting smaller.",
+              "ja": "日本の人口は減っている"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many jobs, like nursing care, don't have enough workers.",
+              "ja": "介護などの多くの仕事で人手が足りない"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Foreign workers can bring new ideas.",
+              "ja": "外国人労働者は新しい考えをもたらしてくれる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Some foreign workers have trouble with the Japanese language.",
+              "ja": "日本語で苦労する外国人労働者もいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Companies should hire more older people and women first.",
+              "ja": "会社はまず高齢者や女性をもっと雇うべきだ"
+            }
+          ]
         }
       ]
     },
@@ -95,6 +265,65 @@
             "2コマ目: 妻が ABC Service の広告を見せたが、男性が腕を組んで首を振ったことを描写できた",
             "3コマ目: 汗をかきながら妻を助け起こし、部屋が散らかっている様子を描写できた",
             "4コマ目: 腰を痛めた様子と、妻の「無理をしすぎだ」を間接話法で言えた"
+          ],
+          "simpleAnswer": "One day, a man was visiting his wife at the hospital. She was lying in bed. The doctor told him that she would need help getting around. Back at home, his wife showed him an advertisement for ABC Service. The company offered healthcare at home. However, the man shook his head. He wanted to take care of her by himself. A month later, he was helping his wife get out of bed. He was sweating, and it was very hard for him. The room was a mess. The next week, he was pushing her wheelchair outside. However, he was holding his back in pain. His wife told him that he was overdoing it. She looked worried.",
+          "simpleAnswerJa": "ある日、ある男性が入院中の妻を見舞っていた。妻はベッドに横になっていた。医師は彼に、奥さんは動き回るのに助けが必要になると言った。家に戻ると、妻は彼に ABC サービスの広告を見せた。その会社は自宅で医療や介護のサービスを提供していた。しかし、男性は首を横に振った。彼は自分 1 人で妻の世話をしたかった。1 か月後、彼は妻がベッドから出るのを手伝っていた。彼は汗をかいていて、とても大変だった。部屋は散らかっていた。翌週、彼は外で妻の車いすを押していた。ところが、彼は痛そうに腰を押さえていた。妻は彼に、無理をしすぎだと言った。妻は心配そうだった。",
+          "phrases": [
+            {
+              "group": "1コマ目",
+              "en": "She was lying in bed.",
+              "ja": "妻はベッドに横になっていた"
+            },
+            {
+              "group": "1コマ目",
+              "en": "The doctor told him that she would need help getting around.",
+              "ja": "医師は彼に、奥さんは動き回るのに助けが必要になると言った（will → would）"
+            },
+            {
+              "group": "2コマ目",
+              "en": "His wife showed him an advertisement for ABC Service.",
+              "ja": "妻は彼に ABC サービスの広告を見せた"
+            },
+            {
+              "group": "2コマ目",
+              "en": "However, the man shook his head.",
+              "ja": "しかし、男性は首を横に振った"
+            },
+            {
+              "group": "2コマ目",
+              "en": "He wanted to take care of her by himself.",
+              "ja": "彼は自分 1 人で妻の世話をしたかった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "He was helping his wife get out of bed.",
+              "ja": "彼は妻がベッドから出るのを手伝っていた"
+            },
+            {
+              "group": "3コマ目",
+              "en": "It was very hard for him.",
+              "ja": "それは彼にはとても大変だった"
+            },
+            {
+              "group": "3コマ目",
+              "en": "The room was a mess.",
+              "ja": "部屋は散らかっていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He was pushing her wheelchair outside.",
+              "ja": "彼は外で妻の車いすを押していた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "He was holding his back in pain.",
+              "ja": "彼は痛そうに腰を押さえていた"
+            },
+            {
+              "group": "4コマ目",
+              "en": "His wife told him that he was overdoing it.",
+              "ja": "妻は彼に、無理をしすぎだと言った（are → was）"
+            }
           ]
         },
         {
@@ -106,7 +335,36 @@
           "promptJa": "4 枚目の絵を見てください。もしあなたがこの男性だったら、何を考えているでしょうか。",
           "modelAnswer": "I'd be thinking, \"She's right. I tried to do everything on my own, and now I've hurt my back. If this gets any worse, I won't be able to take care of her at all. I should swallow my pride and call ABC Service for help.\"",
           "modelAnswerJa": "「妻の言うとおりだ。何もかも 1 人でやろうとして、とうとう腰を痛めてしまった。これ以上悪くなったら、妻の世話がまったくできなくなってしまう。意地を張らずに、ABC サービスに電話して助けを頼もう」と考えていると思います。",
-          "explanation": "4 コマ目は、男性が無理をして腰を痛め、妻に注意された場面です。2 コマ目で断った ABC Service に触れると、話全体を踏まえた答えになります。If this gets any worse, ... で放っておくとどうなるかを述べ、最後に I should ... で次の行動を示しています。swallow my pride（意地を張るのをやめる）は、自分の考えを改める場面で使える表現です。"
+          "explanation": "4 コマ目は、男性が無理をして腰を痛め、妻に注意された場面です。2 コマ目で断った ABC Service に触れると、話全体を踏まえた答えになります。If this gets any worse, ... で放っておくとどうなるかを述べ、最後に I should ... で次の行動を示しています。swallow my pride（意地を張るのをやめる）は、自分の考えを改める場面で使える表現です。",
+          "simpleAnswer": "I'd be thinking, \"She's right. I tried to do everything by myself, but it was too much. I'll call ABC Service and ask for help.\"",
+          "simpleAnswerJa": "「彼女の言うとおりだ。全部 1 人でやろうとしたけれど、無理だった。ABC サービスに電話して助けを頼もう」と考えていると思います。",
+          "phrases": [
+            {
+              "group": "気持ち・反省",
+              "en": "She's right.",
+              "ja": "彼女の言うとおりだ"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I tried to do everything by myself.",
+              "ja": "全部 1 人でやろうとしていた"
+            },
+            {
+              "group": "気持ち・反省",
+              "en": "I should have listened to her.",
+              "ja": "彼女の話を聞くべきだった"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I'll call ABC Service and ask for help.",
+              "ja": "ABC サービスに電話して助けを頼もう"
+            },
+            {
+              "group": "これからどうするか",
+              "en": "I need to take care of my back, too.",
+              "ja": "自分の腰も大事にしなければ"
+            }
+          ]
         },
         {
           "id": "q2",
@@ -116,7 +374,36 @@
           "promptJa": "人々はボランティア活動にもっと参加すべきだと思いますか。",
           "modelAnswer": "Yes, I think so. Communities have many needs that the government cannot meet alone, such as helping elderly people or cleaning up after natural disasters. Volunteering also benefits the volunteers themselves, because they can meet new people and learn new skills. Even a few hours a month can make a real difference.",
           "modelAnswerJa": "はい、そう思います。地域社会には、高齢者の手助けや自然災害のあとの片付けなど、政府だけでは応えられないニーズがたくさんあります。ボランティアは、新しい人と出会い新しい技能を身につけられるので、参加する本人のためにもなります。月に数時間でも、本当に大きな違いを生むことができます。",
-          "explanation": "「社会にとっての利点」と「ボランティア本人にとっての利点」の 2 つの面から答えています。such as helping elderly people or cleaning up after natural disasters のように具体例を入れると、活動の内容が伝わります。最後の Even a few hours a month ...（月に数時間でも）は、参加しやすさを示す言い方です。No の立場なら「仕事や家事で忙しい人も多く、本来は政府が担うべき仕事もある」などが考えられます。"
+          "explanation": "「社会にとっての利点」と「ボランティア本人にとっての利点」の 2 つの面から答えています。such as helping elderly people or cleaning up after natural disasters のように具体例を入れると、活動の内容が伝わります。最後の Even a few hours a month ...（月に数時間でも）は、参加しやすさを示す言い方です。No の立場なら「仕事や家事で忙しい人も多く、本来は政府が担うべき仕事もある」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. Volunteers can help elderly people and people in disaster areas. Also, volunteers can meet new people and learn new skills. So people should try volunteering more.",
+          "simpleAnswerJa": "はい、そう思います。ボランティアは、お年寄りや被災地の人々を助けることができます。また、新しい人に出会ったり、新しい技能を学んだりできます。だから、もっとボランティアに参加してみるべきです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Volunteers can help elderly people.",
+              "ja": "ボランティアはお年寄りを助けられる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "They can help people after natural disasters.",
+              "ja": "自然災害のあとで人々を助けられる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Volunteers can meet new people and learn new skills.",
+              "ja": "新しい人に出会い、新しい技能を学べる"
+            },
+            {
+              "group": "No の理由",
+              "en": "Many people are too busy with work.",
+              "ja": "仕事で忙しすぎる人が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Volunteering should be a free choice.",
+              "ja": "ボランティアは自由に選ぶべきものだ"
+            }
+          ]
         },
         {
           "id": "q3",
@@ -126,7 +413,36 @@
           "promptJa": "最近の病院は、高齢者に十分なケアを提供しているでしょうか。",
           "modelAnswer": "Yes, I think they do. In Japan, everyone is covered by public health insurance, so elderly people can see a doctor at a fairly low cost. Hospitals also have specialists, such as nurses and physical therapists, who help older patients recover after an illness or injury. Japan's high life expectancy suggests that its medical care is quite good.",
           "modelAnswerJa": "はい、提供していると思います。日本ではすべての人が公的医療保険に入っているので、高齢者は比較的安い費用で医師にかかることができます。また、病院には看護師や理学療法士などの専門家がいて、病気やけがのあとの高齢の患者の回復を助けています。日本の平均寿命が長いことは、医療の質がかなり高いことを示していると言えるでしょう。",
-          "explanation": "Do hospitals ...? の質問なので、Yes, I think they do. と do で受けています。「費用の面（公的医療保険）」と「人の面（看護師や理学療法士）」の 2 つの理由を挙げ、最後に平均寿命の長さにも触れています。No の立場なら「医師や看護師が不足しており、特に地方では待ち時間が長く、高齢者に十分な時間をかけられない」などが考えられます。"
+          "explanation": "Do hospitals ...? の質問なので、Yes, I think they do. と do で受けています。「費用の面（公的医療保険）」と「人の面（看護師や理学療法士）」の 2 つの理由を挙げ、最後に平均寿命の長さにも触れています。No の立場なら「医師や看護師が不足しており、特に地方では待ち時間が長く、高齢者に十分な時間をかけられない」などが考えられます。",
+          "simpleAnswer": "Yes, I think so. In Japan, elderly people can see a doctor at a low cost. Also, hospitals have nurses and other staff who help them get better. That is why many Japanese people live long lives.",
+          "simpleAnswerJa": "はい、そう思います。日本では、高齢者は安い費用で医者に診てもらえます。また、病院には、回復を助けてくれる看護師などのスタッフがいます。だから、長生きする日本人が多いのです。",
+          "phrases": [
+            {
+              "group": "Yes の理由",
+              "en": "Elderly people can see a doctor at a low cost.",
+              "ja": "高齢者は安い費用で医者に診てもらえる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Hospitals have nurses and other staff who help them get better.",
+              "ja": "病院には回復を助けてくれる看護師などのスタッフがいる"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Many Japanese people live long lives.",
+              "ja": "長生きする日本人は多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "Hospitals are very crowded.",
+              "ja": "病院はとても混んでいる"
+            },
+            {
+              "group": "No の理由",
+              "en": "There are not enough doctors in the countryside.",
+              "ja": "地方では医者が足りない"
+            }
+          ]
         },
         {
           "id": "q4",
@@ -136,7 +452,36 @@
           "promptJa": "日本には、公共交通機関を利用する障害のある人のための設備が十分にあるでしょうか。",
           "modelAnswer": "No, I don't think so. Many large stations now have elevators and tactile paving for blind people, but small stations in rural areas often do not. There can also be wide gaps between trains and platforms, which are difficult for wheelchair users. Japan has made progress, but more needs to be done, especially outside big cities.",
           "modelAnswerJa": "いいえ、そうは思いません。今では多くの大きな駅にエレベーターや視覚障害者のための点字ブロックがありますが、地方の小さな駅にはないことがよくあります。また、電車とホームの間に広いすき間があることもあり、車いすを使う人には大変です。日本は進歩してきましたが、特に大都市以外では、さらに取り組む必要があります。",
-          "explanation": "「大きな駅は整っているが、地方の小さな駅は遅れている」と but で比較することで、日本全体についての質問に的確に答えています。tactile paving（点字ブロック）は、知っておくと便利な語句です。Japan has made progress, but ... のように進歩を認めてから課題を述べると、公平な答えになります。Yes の立場なら「都市部の駅や新しいバスではバリアフリー化がかなり進み、駅員の手助けも受けられる」などが考えられます。"
+          "explanation": "「大きな駅は整っているが、地方の小さな駅は遅れている」と but で比較することで、日本全体についての質問に的確に答えています。tactile paving（点字ブロック）は、知っておくと便利な語句です。Japan has made progress, but ... のように進歩を認めてから課題を述べると、公平な答えになります。Yes の立場なら「都市部の駅や新しいバスではバリアフリー化がかなり進み、駅員の手助けも受けられる」などが考えられます。",
+          "simpleAnswer": "No, I don't think so. Big stations have elevators, but many small stations don't. Also, there is often a big gap between the train and the platform. This is hard for people in wheelchairs. So Japan needs to do more.",
+          "simpleAnswerJa": "いいえ、そうは思いません。大きな駅にはエレベーターがありますが、小さな駅の多くにはありません。また、電車とホームの間に大きなすき間があることがよくあります。これは車いすの人にとっては大変です。だから、日本はもっと取り組む必要があります。",
+          "phrases": [
+            {
+              "group": "No の理由",
+              "en": "Many small stations don't have elevators.",
+              "ja": "エレベーターがない小さな駅が多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "There is often a big gap between the train and the platform.",
+              "ja": "電車とホームの間に大きなすき間があることが多い"
+            },
+            {
+              "group": "No の理由",
+              "en": "This is hard for people in wheelchairs.",
+              "ja": "これは車いすの人にとっては大変だ"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Big stations have elevators.",
+              "ja": "大きな駅にはエレベーターがある"
+            },
+            {
+              "group": "Yes の理由",
+              "en": "Station staff help people in wheelchairs get on trains.",
+              "ja": "駅員が車いすの人の乗車を手伝ってくれる"
+            }
+          ]
         }
       ]
     }
